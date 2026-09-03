@@ -1,6 +1,6 @@
 # Local Sports Reposter configuration
 
-This project is completely separate from RapWire. It uses its own project directory, runtime queue, state, media, logs, launchd label, and Chrome profile. It does not import or write any RapWire file, queue, repository, profile, account, or branding.
+This project is completely separate from RapWire. It uses its own project directory, runtime queue, state, media, logs, launchd label, Chrome profile, source registry, and GitHub repository. It does not import or write any RapWire file, queue, repository, profile, account, or branding.
 
 Source code and offline tests are backed up in the private repository `Fulstak-apps/sportswire247-local-reposter`. Secrets, `config.json`, Chrome cookies, downloaded videos, logs, queue items, and publication state remain local and are gitignored.
 
@@ -9,18 +9,16 @@ Source code and offline tests are backed up in the private repository `Fulstak-a
 1. Run `bash scripts/install.sh`. This installs dependencies, creates `config.json`, and writes the launchd definition. It does **not** load the service or publish.
 2. Edit `config.json`:
    - `sourceHandles`: Instagram accounts to watch, without `@`.
-   - `facebookPageUrl`: exact sports Facebook Page URL.
    - `instagramHandle`: keep `sportswire247`.
-   - `threadsHandle`: keep `sportswire247`.
-   - `destinations`: Instagram is enabled; Facebook and Threads are disabled.
+   - `destinations`: keep Instagram enabled and Facebook/Threads disabled.
    - `chromeProfileDir`: dedicated sports-only browser profile. Never point this at RapWire or your normal Chrome profile.
    - `postingGapMinutes`: minimum gap between confirmed Instagram posts; default 10, matching RapWire's current feed pacing.
    - `publishEnabled`: master safety switch. Keep `false` through login, baseline, and verification.
    - `ollama.enabled`: local Ollama health monitoring and optional draft assistance. The exact-caption routine path does not need an LLM, so collection and publishing continue if Ollama is down and never consume ChatGPT credits.
-3. Run `npm run login`. Sign into the non-RapWire sports Instagram account `@sportswire247` in the dedicated window. Close Chrome when done. Facebook and Threads are not destinations.
+3. Run `npm run mirror:login`. Sign into the non-RapWire sports Instagram account `@sportswire247` in the dedicated window. Close Chrome when done. Facebook and Threads are not destinations.
 4. Run `npm run baseline`. Every currently visible source shortcode is recorded with `baseline: true`; none is downloaded or posted. If any source fails, baseline completion remains false.
 5. Run `npm test`, then `npm run status`.
-6. Run `npm run start` to load the once-per-minute launchd job. Leave `publishEnabled: false` until you explicitly choose to begin live posting. Collection still queues new videos while publishing is disabled.
+6. Run `npm run start` to load the RapWire-style local monitor. It runs after login/reboot, restarts after a crash, and checks every 120 seconds. The publisher enforces the separate 10-minute posting gap.
 
 ## Commands
 
@@ -29,6 +27,8 @@ Source code and offline tests are backed up in the private repository `Fulstak-a
 - `npm run status` — show launchd, baseline, and queue status.
 - `npm run logs` — tail both worker logs.
 - `npm run retry -- SHORTCODE` — clear retry delay for one non-complete item; omit shortcode for all. Partial/uncertain cross-posts keep completed destination permalinks and reconcile before retrying.
+- `npm run repost:monitor` — run exactly one local collector/publisher cycle, using only the SportsWire247 profile.
+- `npm run dispatch` — run the GitHub verification-workflow dispatcher for this separate repository. It never dispatches or touches RapWire.
 - `npm run baseline` — deliberately replace the baseline with all currently visible posts.
 - `bash scripts/uninstall.sh` — remove only launchd registration; preserve sports data/profile.
 
@@ -39,7 +39,7 @@ Each `runtime/queue/SHORTCODE.json` records the source handle, URL, shortcode, e
 ## Important operational notes
 
 - Browser selectors can change when Meta changes its sites. An uncertain result is never treated as complete; the worker searches the destination profile/Page for the caption before another upload.
-- `yt-dlp` downloads the best original video/audio streams and merges only when needed. There is no RapWire overlay and no caption rewriting.
+- Authenticated Chrome captures the exact visible source stream with its audio; it does not rely on a shared downloader or any RapWire process. The source caption is kept and only `Source: @SOURCEHANDLE` is appended.
 - Every publish asset is rendered with the exact supplied SportsWire 24/7 RGBA logo at bottom-left. Placement scales from RapWire's 170 px logo and 34 px margin at 1080 px width. The full video duration is validated, audio is preserved as AAC, and an unbranded or silent render is refused.
 - macOS must remain plugged in and logged into the user session. The separate `com.local.sports-reposter.keep-awake` agent prevents idle sleep while on AC power. The main launchd agent restarts after login/reboot and invokes the worker every 120 seconds, matching RapWire's current scheduler; the PID lock prevents overlapping cycles.
 - Instagram/Threads may have their own upload length or format constraints. Those failures remain queued for retry and are never silently marked complete.

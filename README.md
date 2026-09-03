@@ -1,3 +1,3 @@
-# Local Sports Reposter
+# SportsWire247 local reposter
 
-An isolated, free, Mac-local Instagram source monitor and Facebook/Instagram/Threads video cross-publisher. Start with [CONFIGURATION.md](CONFIGURATION.md). Publishing is disabled by default.
+An isolated SportsWire247-only, Mac-local Instagram video reposter based on the RapWire monitor architecture: dedicated Chrome profile, authenticated source capture, durable shortcode queue, verified publish, launchd scheduling, and GitHub-backed source control. It never uses a RapWire account, profile, branding, repository, queue, or destination. Start with [CONFIGURATION.md](CONFIGURATION.md).

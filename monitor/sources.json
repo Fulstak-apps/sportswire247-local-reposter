@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "destination": "sportswire247",
+  "selection": "Sports video reposts only. Source captions are preserved verbatim and receive one source-credit line. No unrelated news, Stories, Threads, Facebook, or RapWire destinations.",
+  "sources": [
+    {"handle":"houseofhighlights","enabled":true,"approved_by":"user"},
+    {"handle":"sportscenter","enabled":true,"approved_by":"user"},
+    {"handle":"bleacherreport","enabled":true,"approved_by":"user"},
+    {"handle":"overtime","enabled":true,"approved_by":"user"},
+    {"handle":"jomboymedia","enabled":true,"approved_by":"user"}
+  ]
+}

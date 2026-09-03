@@ -17,7 +17,7 @@ cat > "$plist_path" <<PLIST
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0"><dict>
 <key>Label</key><string>com.local.sports-reposter</string>
-<key>ProgramArguments</key><array><string>$node_path</string><string>$project_dir/src/worker.mjs</string></array>
+<key>ProgramArguments</key><array><string>$node_path</string><string>$project_dir/scripts/instagram-repost-monitor.mjs</string></array>
 <key>WorkingDirectory</key><string>$project_dir</string>
 <key>RunAtLoad</key><true/><key>StartInterval</key><integer>120</integer>
 <key>KeepAlive</key><dict><key>SuccessfulExit</key><false/></dict>

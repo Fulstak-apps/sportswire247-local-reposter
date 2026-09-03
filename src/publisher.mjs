@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import { launchBrowser } from "./browser.mjs";
+import { publish as publishWithMirror } from "../scripts/instagram-browser-mirror.mjs";
 import { gapRemainingMs, listQueue, paths, readJson, retryDelay, saveItem, writeJson } from "./lib.mjs";
 
 function validate(config) {
@@ -45,19 +46,9 @@ async function advanceInstagramEditor(page, item, step) {
   throw new Error(`Instagram editor did not become ready at step ${step}. Controls: ${JSON.stringify(controls.filter(Boolean).slice(-30))}.`);
 }
 async function instagram(page, config, item) {
-  const verifyPage = await page.context().newPage();
-  try {
-    let found = await recentInstagram(verifyPage, config, item); if (found) return found;
-    await page.goto("https://www.instagram.com/", { waitUntil: "domcontentloaded" });
-    if (!await page.locator('a[href="/sportswire247/"]').count()) throw new Error("Dedicated sports profile is not signed into Instagram as @sportswire247; refusing to publish.");
-    await page.getByRole("link", { name: /Create|New post/i }).first().click({ timeout: 20_000 });
-    const choice = page.getByText("Post", { exact: true }); if (await choice.count()) await choice.first().click(); await page.locator('input[type="file"]').first().setInputFiles(item.localVideoPath);
-    for (let i = 0; i < 2; i++) await advanceInstagramEditor(page, item, i + 1);
-    await page.getByRole("textbox", { name: /caption/i }).fill(item.publishCaption); await page.getByRole("button", { name: /^Share$/i }).click();
-    // Do not navigate the upload tab after Share: Instagram finishes the non-idempotent upload there.
-    for (let i = 0; i < 18; i++) { await verifyPage.waitForTimeout(10_000); found = await recentInstagram(verifyPage, config, item); if (found) return found; }
-    throw new Error("UNCERTAIN: Instagram Share clicked but no matching @sportswire247 post was verified.");
-  } finally { await verifyPage.close(); }
+  // The dedicated mirror owns its own browser context and leaves the upload
+  // tab untouched until profile verification succeeds.
+  return publishWithMirror(item.localVideoPath, item.publishCaption, { verifyNeedle: needle(item) });
 }
 async function recentThreads(page, config, item) {
   await page.goto(`https://www.threads.net/@${config.threadsHandle}`, { waitUntil: "domcontentloaded", timeout: 45_000 }); await page.waitForTimeout(2500);
@@ -73,18 +64,30 @@ async function threads(page, config, item) {
 }
 export async function publishOne(config) {
   validate(config); const state = await readJson(paths.publisher, { lastPublishedAt: null }); const remaining = gapRemainingMs(state.lastPublishedAt, config.postingGapMinutes); if (remaining) return { status: "posting_gap", remainingMs: remaining };
-  const item = (await listQueue()).find(x => ["pending", "publishing_uncertain", "partially_published"].includes(x.status) && (!x.nextRetryAt || Date.parse(x.nextRetryAt) <= Date.now()));
+  const item = (await listQueue()).filter(x => ["pending", "publishing_uncertain", "partially_published"].includes(x.status) && (!x.nextRetryAt || Date.parse(x.nextRetryAt) <= Date.now()))
+    .sort((left, right) => {
+      const urgency = item => item.status === "publishing_uncertain" || item.status === "partially_published" ? 0 : 1;
+      return urgency(left) - urgency(right) || Date.parse(left.discoveredAt || 0) - Date.parse(right.discoveredAt || 0);
+    })[0];
   if (!item) return { status: "empty" }; if (!config.publishEnabled) return { status: "publishing_disabled", shortcode: item.shortcode }; if (!item.localVideoPath) return { status: "awaiting_download", shortcode: item.shortcode };
   const enabled = Object.entries(config.destinations || { facebook: true }).filter(([, yes]) => yes).map(([name]) => name); if (!enabled.length) return { status: "no_destinations" };
-  item.publicationResult ||= {}; const context = await launchBrowser(config, true);
+  item.publicationResult ||= {}; let context = null;
   try {
-    const page = context.pages()[0] || await context.newPage(); const methods = { facebook, instagram, threads };
+    const methods = { facebook, instagram, threads };
     for (const destination of enabled) {
       if (item.publicationResult[destination]?.permalink) continue;
       item.status = "publishing_uncertain"; item.uncertainDestination = destination; item.publishRequestedAt = new Date().toISOString(); await saveItem(item);
-      try { item.publicationResult[destination] = await methods[destination](page, config, item); item.status = "partially_published"; delete item.uncertainDestination; await saveItem(item); }
+      try {
+        // Instagram's mirror creates the one and only persistent-profile
+        // context itself. Other destinations (which are disabled by default)
+        // may use a shared browser context.
+        if (destination !== "instagram" && !context) context = await launchBrowser(config, true);
+        const page = destination === "instagram" ? null : (context.pages()[0] || await context.newPage());
+        item.publicationResult[destination] = await methods[destination](page, config, item);
+        item.status = "partially_published"; delete item.uncertainDestination; await saveItem(item);
+      }
       catch (error) { item.attempts.publish += 1; item.lastError = `${destination}: ${error.message}`; item.nextRetryAt = new Date(Date.now() + retryDelay(item.attempts.publish)).toISOString(); await saveItem(item); throw error; }
     }
     item.status = "published"; item.publishedAt = new Date().toISOString(); delete item.lastError; delete item.nextRetryAt; state.lastPublishedAt = item.publishedAt; await saveItem(item); await writeJson(paths.publisher, state); return { status: "published", results: item.publicationResult };
-  } finally { await context.close(); }
+  } finally { if (context) await context.close(); }
 }
