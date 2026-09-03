@@ -85,6 +85,19 @@ export async function publish(mediaPath, caption, { verifyNeedle = caption.slice
       const before = await newest.getAttribute("href").catch(() => "");
       const share = await waitForEditorButton(page, "Share", Date.now() + 30_000);
       await share.click();
+      await pause(2500);
+      const sharedUrl = page.url();
+      const afterShareText = await page.locator("body").innerText().catch(() => "");
+      const diagnosticBase = path.join(paths.logs, `instagram-share-${Date.now()}`);
+      await page.screenshot({ path: `${diagnosticBase}.png`, fullPage: true }).catch(() => {});
+      await fs.writeFile(`${diagnosticBase}.json`, JSON.stringify({
+        checkedAt: new Date().toISOString(),
+        uploadUrlAfterShare: sharedUrl,
+        visibleTextAfterShare: afterShareText.slice(0, 5000)
+      }, null, 2) + "\n").catch(() => {});
+      // A successful share commonly moves the upload tab directly to its reel.
+      const directId = sharedUrl.match(/\/(?:reel|p)\/([^/?#]+)/)?.[1];
+      if (directId) return { postId: directId, permalink: sharedUrl.split("?")[0], verifiedAt: new Date().toISOString() };
       for (let attempt = 0; attempt < 12; attempt += 1) {
         await pause(10_000);
         await verifyPage.reload({ waitUntil: "domcontentloaded" });
@@ -95,7 +108,8 @@ export async function publish(mediaPath, caption, { verifyNeedle = caption.slice
       // A changed URL is the primary idempotency check. Caption matching is
       // retained only as diagnostic evidence when Instagram is delayed.
       const body = await verifyPage.locator("body").innerText().catch(() => "");
-      throw new Error(`UNCERTAIN: Share clicked but no new @${config.instagramHandle} post appeared within two minutes${body.includes(verifyNeedle) ? " (caption was visible)" : ""}.`);
+      const message = afterShareText.replace(/\s+/g, " ").slice(0, 600);
+      throw new Error(`UNCERTAIN: Share clicked but no new @${config.instagramHandle} post appeared within two minutes${body.includes(verifyNeedle) ? " (caption was visible)" : ""}. Upload screen: ${message}`);
     } finally { await verifyPage.close(); }
   } finally { await context.close(); }
 }
