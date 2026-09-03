@@ -6,13 +6,44 @@ import { launchBrowser, discoverVisible, readPost } from "./browser.mjs";
 import { paths, readJson, writeJson, withCredit, saveItem, unseenPosts } from "./lib.mjs";
 const execFileAsync = promisify(execFile);
 
+async function probe(file) {
+  const { stdout } = await execFileAsync("/opt/homebrew/bin/ffprobe", ["-v", "error", "-show_entries", "stream=codec_name,codec_type,width,height:format=duration", "-of", "json", file]);
+  return JSON.parse(stdout);
+}
+
+export async function brandVideo(config, sourcePath, destinationPath) {
+  if (!config.branding?.enabled) throw new Error("SportsWire branding is disabled; refusing an unbranded publish asset.");
+  const logoPath = path.resolve(config.branding.logoPath);
+  await fs.access(logoPath); const source = await probe(sourcePath);
+  const video = source.streams?.find(stream => stream.codec_type === "video");
+  const audio = source.streams?.find(stream => stream.codec_type === "audio");
+  if (!video || !audio) throw new Error("Source must contain complete video and audio before branding.");
+  const width = Number(video.width); const logoWidth = Math.max(96, Math.round(width * Number(config.branding.logoWidthFraction || 0.1574)));
+  const margin = Math.max(18, Math.round(width * Number(config.branding.marginFraction || 0.0315)));
+  const temp = `${destinationPath}.${process.pid}.tmp.mp4`;
+  await execFileAsync("/opt/homebrew/bin/ffmpeg", ["-y", "-i", sourcePath, "-loop", "1", "-i", logoPath,
+    "-filter_complex", `[1:v]scale=${logoWidth}:-1[logo];[0:v][logo]overlay=x=${margin}:y=H-h-${margin}:shortest=1[v]`,
+    "-map", "[v]", "-map", "0:a:0", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
+    "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest", temp], { timeout: 20 * 60_000, maxBuffer: 4_000_000 });
+  const output = await probe(temp); const outputVideo = output.streams?.find(stream => stream.codec_type === "video"); const outputAudio = output.streams?.find(stream => stream.codec_type === "audio");
+  if (outputVideo?.codec_name !== "h264" || outputAudio?.codec_name !== "aac") { await fs.rm(temp, { force: true }); throw new Error("Branded output failed H.264/AAC validation."); }
+  if (Math.abs(Number(output.format?.duration) - Number(source.format?.duration)) > 1) { await fs.rm(temp, { force: true }); throw new Error("Branded output duration does not match the full source video."); }
+  await fs.rename(temp, destinationPath);
+  return { logoPath, logoPosition: "bottom-left", logoWidth, margin, sourceDuration: Number(source.format?.duration), outputDuration: Number(output.format?.duration) };
+}
+
 export async function downloadOriginal(config, item) {
-  const template = path.join(paths.media, `${item.shortcode}.%(ext)s`);
-  const args = ["--no-playlist", "--cookies-from-browser", `chrome:${config.chromeProfileDir}`, "--merge-output-format", "mp4", "-f", "bv*+ba/b", "-o", template, item.sourceUrl];
-  await execFileAsync("/opt/homebrew/bin/yt-dlp", args, { timeout: 10 * 60_000, maxBuffer: 2_000_000 });
-  const found = (await fs.readdir(paths.media)).find(n => n.startsWith(`${item.shortcode}.`) && /\.(mp4|mov|webm|mkv)$/i.test(n));
+  const template = path.join(paths.media, `${item.shortcode}-source.%(ext)s`);
+  let found = (await fs.readdir(paths.media)).find(n => n.startsWith(`${item.shortcode}-source.`) && /\.(mp4|mov|webm|mkv)$/i.test(n));
+  if (!found) {
+    const args = ["--no-playlist", "--cookies-from-browser", `chrome:${config.chromeProfileDir}`, "--merge-output-format", "mp4", "-f", "bv*+ba/b", "-o", template, item.sourceUrl];
+    await execFileAsync("/opt/homebrew/bin/yt-dlp", args, { timeout: 10 * 60_000, maxBuffer: 2_000_000 });
+    found = (await fs.readdir(paths.media)).find(n => n.startsWith(`${item.shortcode}-source.`) && /\.(mp4|mov|webm|mkv)$/i.test(n));
+  }
   if (!found) throw new Error("yt-dlp completed without a video file");
-  item.localVideoPath = path.join(paths.media, found);
+  item.sourceVideoPath = path.join(paths.media, found);
+  item.localVideoPath = path.join(paths.media, `${item.shortcode}-sportswire247.mp4`);
+  item.branding = await brandVideo(config, item.sourceVideoPath, item.localVideoPath);
 }
 
 export async function collect(config, { forceBaseline = false } = {}) {

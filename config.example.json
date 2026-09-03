@@ -12,6 +12,12 @@
   "chromeProfileDir": "~/Library/Application Support/LocalSportsReposter/ChromeProfile",
   "pollSeconds": 120,
   "postingGapMinutes": 10,
+  "branding": {
+    "enabled": true,
+    "logoPath": "assets/sportswire247-logo.png",
+    "logoWidthFraction": 0.1574,
+    "marginFraction": 0.0315
+  },
   "publishEnabled": false,
   "ollama": {
     "enabled": true,

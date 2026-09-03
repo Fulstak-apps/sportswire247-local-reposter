@@ -39,6 +39,7 @@ Each `runtime/queue/SHORTCODE.json` records the source handle, URL, shortcode, e
 ## Important operational notes
 
 - Browser selectors can change when Meta changes its sites. An uncertain result is never treated as complete; the worker searches the destination profile/Page for the caption before another upload.
-- `yt-dlp` downloads the best original video/audio streams and merges only when needed. There is no RapWire overlay or sports branding and no caption rewriting.
+- `yt-dlp` downloads the best original video/audio streams and merges only when needed. There is no RapWire overlay and no caption rewriting.
+- Every publish asset is rendered with the exact supplied SportsWire 24/7 RGBA logo at bottom-left. Placement scales from RapWire's 170 px logo and 34 px margin at 1080 px width. The full video duration is validated, audio is preserved as AAC, and an unbranded or silent render is refused.
 - macOS must remain plugged in and logged into the user session. The separate `com.local.sports-reposter.keep-awake` agent prevents idle sleep while on AC power. The main launchd agent restarts after login/reboot and invokes the worker every 120 seconds, matching RapWire's current scheduler; the PID lock prevents overlapping cycles.
 - Instagram/Threads may have their own upload length or format constraints. Those failures remain queued for retry and are never silently marked complete.
