@@ -3,6 +3,7 @@
 Installed project: `/Users/dw/Documents/Codex/2026-09-03/set-up-a-24-7-sports-2`
 
 - launchd service `com.local.sports-reposter` loaded and active on its 120-second schedule
+- independent keep-awake service `com.local.sports-reposter.keep-awake` loaded for AC-power 24/7 operation
 - poll interval: 120 seconds (matches current RapWire scheduler)
 - crash throttle/restart: 60 seconds
 - destination: Instagram `@sportswire247` only; Facebook and Threads disabled
