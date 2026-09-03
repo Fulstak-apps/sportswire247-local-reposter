@@ -33,6 +33,8 @@ async function instagram(page, config, item) {
   if (!await page.locator('a[href="/sportswire247/"]').count()) throw new Error("Dedicated sports profile is not signed into Instagram as @sportswire247; refusing to publish.");
   await page.getByRole("link", { name: /Create|New post/i }).first().click({ timeout: 20_000 });
   const choice = page.getByText("Post", { exact: true }); if (await choice.count()) await choice.first().click(); await page.locator('input[type="file"]').first().setInputFiles(item.localVideoPath);
+  const reelsNotice = page.getByText(/Video posts are now shared as reels/i);
+  if (await reelsNotice.count()) await page.getByRole("button", { name: /^OK$/i }).last().click();
   for (let i = 0; i < 2; i++) {
     const next = page.getByRole("button", { name: /^(Next|Continue)$/i }).last();
     try { await next.waitFor({ state: "visible", timeout: 180_000 }); await next.click(); }
