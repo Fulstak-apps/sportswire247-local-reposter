@@ -14,7 +14,7 @@ Installed project: `/Users/dw/Documents/Codex/2026-09-03/set-up-a-24-7-sports-2`
 - approved sources configured: `@houseofhighlights`, `@sportscenter`, `@bleacherreport`, `@overtime`, `@jomboymedia`
 - baseline: completed from 60 visible posts on 2026-09-03
 - dedicated sports Chrome login: verified as `@sportswire247` with no RapWire profile link
-- local policy tests: 5 passed, 0 failed
+- local policy and branding tests: 6 passed, 0 failed
 - first live worker cycle: 60 source posts discovered, 0 newly eligible, 0 errors, queue empty
 
 The launchd worker is ready to collect and publish only new post-baseline videos to `@sportswire247`.
