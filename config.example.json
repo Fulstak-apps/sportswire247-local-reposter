@@ -1,0 +1,21 @@
+{
+  "sourceHandles": ["PASTE_SPORTS_SOURCE_HANDLE"],
+  "facebookPageUrl": "PASTE_SPORTS_FACEBOOK_PAGE_URL",
+  "instagramHandle": "sportswire247",
+  "threadsHandle": "sportswire247",
+  "destinations": {
+    "facebook": false,
+    "instagram": true,
+    "threads": false
+  },
+  "chromeExecutable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "chromeProfileDir": "~/Library/Application Support/LocalSportsReposter/ChromeProfile",
+  "pollSeconds": 120,
+  "postingGapMinutes": 10,
+  "publishEnabled": false,
+  "ollama": {
+    "enabled": true,
+    "url": "http://127.0.0.1:11434",
+    "model": "qwen3:4b"
+  }
+}

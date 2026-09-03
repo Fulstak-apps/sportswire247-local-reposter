@@ -1,0 +1,21 @@
+{
+  "name": "local-sports-reposter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "worker": "node src/worker.mjs",
+    "login": "node src/cli.mjs login",
+    "baseline": "node src/cli.mjs baseline",
+    "start": "node src/cli.mjs start",
+    "stop": "node src/cli.mjs stop",
+    "status": "node src/cli.mjs status",
+    "logs": "node src/cli.mjs logs",
+    "retry": "node src/cli.mjs retry",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "playwright-core": "^1.55.0"
+  },
+  "engines": { "node": ">=20" }
+}

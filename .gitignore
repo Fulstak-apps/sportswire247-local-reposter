@@ -1,0 +1,5 @@
+node_modules/
+config.json
+runtime/
+*.log
+.DS_Store
