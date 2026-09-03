@@ -17,6 +17,13 @@ await ensureRuntime();
 if (!await lock()) process.exit(0);
 try {
   const config = await loadConfig();
+  // Delivery is intentionally first. A long authenticated source capture must
+  // never starve a ready or uncertain post that needs profile reconciliation.
+  // This matches the separate collector/publisher lanes in the RapWire model.
+  let publication;
+  try { publication = await publishOne(config); }
+  catch (error) { publication = { status: "error", error: error.message }; }
+
   // Recover downloads before discovery. A failed file always remains pending.
   for (let item of await listQueue()) {
     const recovered = recoverQueueItem(item); if (recovered !== item) { item = recovered; await saveItem(item); }
@@ -25,7 +32,5 @@ try {
     catch (error) { item.attempts.download += 1; item.lastError = error.message; item.nextRetryAt = new Date(Date.now() + 300_000).toISOString(); await saveItem(item); }
   }
   const collection = await collect(config);
-  let publication;
-  try { publication = await publishOne(config); } catch (error) { publication = { status: "error", error: error.message }; }
   console.log(JSON.stringify({ at: new Date().toISOString(), ollama: await ollamaHealth(config), collection, publication }));
 } finally { await fs.rm(paths.lock, { force: true }); }
