@@ -20,7 +20,9 @@ if (command === "login") {
 } else if (command === "baseline") {
   const config = await loadConfig(); console.log(JSON.stringify(await collect(config, { forceBaseline: true }), null, 2));
 } else if (command === "start") {
-  await launchctl("bootstrap", uidTarget, plist).catch(async e => { if (!/already loaded/i.test(e.stderr || "")) throw e; });
+  let loaded = false;
+  try { await launchctl("print", `${uidTarget}/${label}`); loaded = true; } catch {}
+  if (!loaded) await launchctl("bootstrap", uidTarget, plist);
   // RunAtLoad starts the job. Do not wait on kickstart here: a normal monitor
   // cycle can legitimately spend minutes capturing a source video.
   console.log("Sports reposter scheduled (RunAtLoad); use npm run status to inspect it.");
