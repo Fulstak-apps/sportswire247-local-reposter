@@ -12,6 +12,12 @@
   "chromeProfileDir": "~/Library/Application Support/LocalSportsReposter/ChromeProfile",
   "pollSeconds": 120,
   "postingGapMinutes": 10,
+  "popularBackfill": {
+    "enabled": true,
+    "minimumViews": 1000000,
+    "maximumAgeDays": 30,
+    "maximumQueuePerCycle": 1
+  },
   "branding": {
     "enabled": true,
     "logoPath": "assets/sportswire247-logo.png",

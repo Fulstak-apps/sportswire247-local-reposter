@@ -33,6 +33,11 @@ export async function readPost(context, url) {
     // Instagram's OG text normally wraps the exact caption in quotes. Keep it verbatim when present.
     const quoted = title.match(/^[^:]+:\s*[“\"]([\s\S]*)[”\"]$/)?.[1];
     const caption = quoted || description.match(/^[^:]+:\s*[“\"]([\s\S]*)[”\"]/)?.[1] || title;
-    return { isVideo, caption: String(caption || "").trim() };
+    const pageText = await page.locator("body").innerText().catch(() => "");
+    const viewMatch = `${description}\n${pageText}`.match(/([\d,.]+)\s*([KMB])?\s+views?\b/i);
+    const rawViews = Number(viewMatch?.[1]?.replace(/,/g, "") || 0);
+    const multiplier = { k: 1_000, m: 1_000_000, b: 1_000_000_000 }[String(viewMatch?.[2] || "").toLowerCase()] || 1;
+    const publishedAt = await page.locator("time[datetime]").first().getAttribute("datetime").catch(() => "");
+    return { isVideo, caption: String(caption || "").trim(), viewCount: Math.round(rawViews * multiplier), publishedAt: publishedAt || null };
   } finally { await page.close(); }
 }

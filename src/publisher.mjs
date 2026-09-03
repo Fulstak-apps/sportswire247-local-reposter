@@ -33,7 +33,15 @@ async function instagram(page, config, item) {
   if (!await page.locator('a[href="/sportswire247/"]').count()) throw new Error("Dedicated sports profile is not signed into Instagram as @sportswire247; refusing to publish.");
   await page.getByRole("link", { name: /Create|New post/i }).first().click({ timeout: 20_000 });
   const choice = page.getByText("Post", { exact: true }); if (await choice.count()) await choice.first().click(); await page.locator('input[type="file"]').first().setInputFiles(item.localVideoPath);
-  for (let i = 0; i < 2; i++) { const next = page.getByRole("button", { name: /^Next$/i }); await next.waitFor({ state: "visible", timeout: 30_000 }); await next.click(); }
+  for (let i = 0; i < 2; i++) {
+    const next = page.getByRole("button", { name: /^(Next|Continue)$/i }).last();
+    try { await next.waitFor({ state: "visible", timeout: 180_000 }); await next.click(); }
+    catch (error) {
+      await page.screenshot({ path: `${paths.logs}/instagram-upload-${item.shortcode}-step-${i + 1}.png`, fullPage: true }).catch(() => {});
+      const controls = await page.locator("button").allTextContents().catch(() => []);
+      throw new Error(`Instagram editor did not become ready at step ${i + 1}. Controls: ${JSON.stringify(controls.filter(Boolean).slice(-30))}. ${error.message}`);
+    }
+  }
   await page.getByRole("textbox", { name: /caption/i }).fill(item.publishCaption); await page.getByRole("button", { name: /^Share$/i }).click();
   for (let i = 0; i < 18; i++) { await page.waitForTimeout(10_000); found = await recentInstagram(page, config, item); if (found) return found; }
   throw new Error("UNCERTAIN: Instagram Share clicked but no matching @sportswire247 post was verified.");
