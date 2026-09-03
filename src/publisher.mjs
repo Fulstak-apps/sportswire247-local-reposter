@@ -45,15 +45,19 @@ async function advanceInstagramEditor(page, item, step) {
   throw new Error(`Instagram editor did not become ready at step ${step}. Controls: ${JSON.stringify(controls.filter(Boolean).slice(-30))}.`);
 }
 async function instagram(page, config, item) {
-  let found = await recentInstagram(page, config, item); if (found) return found;
-  await page.goto("https://www.instagram.com/", { waitUntil: "domcontentloaded" });
-  if (!await page.locator('a[href="/sportswire247/"]').count()) throw new Error("Dedicated sports profile is not signed into Instagram as @sportswire247; refusing to publish.");
-  await page.getByRole("link", { name: /Create|New post/i }).first().click({ timeout: 20_000 });
-  const choice = page.getByText("Post", { exact: true }); if (await choice.count()) await choice.first().click(); await page.locator('input[type="file"]').first().setInputFiles(item.localVideoPath);
-  for (let i = 0; i < 2; i++) await advanceInstagramEditor(page, item, i + 1);
-  await page.getByRole("textbox", { name: /caption/i }).fill(item.publishCaption); await page.getByRole("button", { name: /^Share$/i }).click();
-  for (let i = 0; i < 18; i++) { await page.waitForTimeout(10_000); found = await recentInstagram(page, config, item); if (found) return found; }
-  throw new Error("UNCERTAIN: Instagram Share clicked but no matching @sportswire247 post was verified.");
+  const verifyPage = await page.context().newPage();
+  try {
+    let found = await recentInstagram(verifyPage, config, item); if (found) return found;
+    await page.goto("https://www.instagram.com/", { waitUntil: "domcontentloaded" });
+    if (!await page.locator('a[href="/sportswire247/"]').count()) throw new Error("Dedicated sports profile is not signed into Instagram as @sportswire247; refusing to publish.");
+    await page.getByRole("link", { name: /Create|New post/i }).first().click({ timeout: 20_000 });
+    const choice = page.getByText("Post", { exact: true }); if (await choice.count()) await choice.first().click(); await page.locator('input[type="file"]').first().setInputFiles(item.localVideoPath);
+    for (let i = 0; i < 2; i++) await advanceInstagramEditor(page, item, i + 1);
+    await page.getByRole("textbox", { name: /caption/i }).fill(item.publishCaption); await page.getByRole("button", { name: /^Share$/i }).click();
+    // Do not navigate the upload tab after Share: Instagram finishes the non-idempotent upload there.
+    for (let i = 0; i < 18; i++) { await verifyPage.waitForTimeout(10_000); found = await recentInstagram(verifyPage, config, item); if (found) return found; }
+    throw new Error("UNCERTAIN: Instagram Share clicked but no matching @sportswire247 post was verified.");
+  } finally { await verifyPage.close(); }
 }
 async function recentThreads(page, config, item) {
   await page.goto(`https://www.threads.net/@${config.threadsHandle}`, { waitUntil: "domcontentloaded", timeout: 45_000 }); await page.waitForTimeout(2500);
