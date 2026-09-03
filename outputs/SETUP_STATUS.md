@@ -6,6 +6,8 @@ Installed project: `/Users/dw/Documents/Codex/2026-09-03/set-up-a-24-7-sports-2`
 - poll interval: 120 seconds (matches current RapWire scheduler)
 - crash throttle/restart: 60 seconds
 - destination: Instagram `@sportswire247` only; Facebook and Threads disabled
+- private GitHub backup: `https://github.com/Fulstak-apps/sportswire247-local-reposter`
+- Ollama: local `qwen3:4b`; health checked without making it a publishing dependency
 - publishing: disabled
 - approved sources configured: `@houseofhighlights`, `@sportscenter`, `@bleacherreport`, `@overtime`, `@jomboymedia`
 - baseline: not created (dedicated sports login is still required)

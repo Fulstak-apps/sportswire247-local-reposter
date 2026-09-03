@@ -2,6 +2,8 @@
 
 This project is completely separate from RapWire. It uses its own project directory, runtime queue, state, media, logs, launchd label, and Chrome profile. It does not import or write any RapWire file, queue, repository, profile, account, or branding.
 
+Source code and offline tests are backed up in the private repository `Fulstak-apps/sportswire247-local-reposter`. Secrets, `config.json`, Chrome cookies, downloaded videos, logs, queue items, and publication state remain local and are gitignored.
+
 ## Safe setup order
 
 1. Run `bash scripts/install.sh`. This installs dependencies, creates `config.json`, and writes the launchd definition. It does **not** load the service or publish.
@@ -14,7 +16,7 @@ This project is completely separate from RapWire. It uses its own project direct
    - `chromeProfileDir`: dedicated sports-only browser profile. Never point this at RapWire or your normal Chrome profile.
    - `postingGapMinutes`: minimum gap between confirmed Instagram posts; default 10, matching RapWire's current feed pacing.
    - `publishEnabled`: master safety switch. Keep `false` through login, baseline, and verification.
-   - `ollama.enabled`: optional caption-draft assistance only. The current routine path never calls Ollama, so collection and publishing continue if it is down.
+   - `ollama.enabled`: local Ollama health monitoring and optional draft assistance. The exact-caption routine path does not need an LLM, so collection and publishing continue if Ollama is down and never consume ChatGPT credits.
 3. Run `npm run login`. Sign into the non-RapWire sports Instagram account `@sportswire247` in the dedicated window. Close Chrome when done. Facebook and Threads are not destinations.
 4. Run `npm run baseline`. Every currently visible source shortcode is recorded with `baseline: true`; none is downloaded or posted. If any source fails, baseline completion remains false.
 5. Run `npm test`, then `npm run status`.
