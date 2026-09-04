@@ -34,7 +34,8 @@ export async function inspectLogoPlacement(input, { width, height, duration, pre
     images.push(image);
   }
   const swift = path.resolve("scripts/inspect-video-frame.swift");
-  const { stdout } = await exec(process.env.SWIFT_PATH || "swift", [swift, ...images], { timeout: 180_000, maxBuffer: 8 * 1024 * 1024 });
+  const swiftPath = process.env.SWIFT_PATH ? path.join(process.env.SWIFT_PATH, "swift") : "swift";
+  const { stdout } = await exec(swiftPath, [swift, ...images], { timeout: 180_000, maxBuffer: 8 * 1024 * 1024 });
   const observations = JSON.parse(stdout);
   const plan = chooseSafeLogo(width, height, observations, preferredFraction, marginFraction);
   await fs.writeFile(path.join(directory, "logo-safety.json"), JSON.stringify({ times, observations, plan }, null, 2) + "\n");
