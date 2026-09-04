@@ -1,8 +1,9 @@
 import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-export const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
+export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 export const runtime = path.join(root, "runtime");
 export const paths = {
   queue: path.join(runtime, "queue"), media: path.join(runtime, "media"), state: path.join(runtime, "state"),
