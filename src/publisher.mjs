@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import { launchBrowser } from "./browser.mjs";
 import { publish as publishWithMirror } from "../scripts/instagram-browser-mirror.mjs";
+import { localCaption } from "./caption.mjs";
 import { gapRemainingMs, listQueue, paths, readJson, retryDelay, saveItem, writeJson } from "./lib.mjs";
 
 function validate(config) {
@@ -70,6 +71,10 @@ export async function publishOne(config) {
       return urgency(left) - urgency(right) || Date.parse(left.discoveredAt || 0) - Date.parse(right.discoveredAt || 0);
     })[0];
   if (!item) return { status: "empty" }; if (!config.publishEnabled) return { status: "publishing_disabled", shortcode: item.shortcode }; if (!item.localVideoPath) return { status: "awaiting_download", shortcode: item.shortcode };
+  if (!item.captionCheckedAt) {
+    Object.assign(item, await localCaption(config, item.sourceCaption, item.sourceHandle));
+    await saveItem(item);
+  }
   const enabled = Object.entries(config.destinations || { facebook: true }).filter(([, yes]) => yes).map(([name]) => name); if (!enabled.length) return { status: "no_destinations" };
   item.publicationResult ||= {}; let context = null;
   try {

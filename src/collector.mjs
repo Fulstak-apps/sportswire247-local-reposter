@@ -3,7 +3,8 @@ import path from "node:path";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { launchBrowser, discoverVisible, readPost } from "./browser.mjs";
-import { paths, readJson, writeJson, withCredit, saveItem, unseenPosts } from "./lib.mjs";
+import { paths, readJson, writeJson, saveItem, unseenPosts } from "./lib.mjs";
+import { localCaption } from "./caption.mjs";
 const execFileAsync = promisify(execFile);
 
 async function probe(file, ffprobePath = "/opt/homebrew/bin/ffprobe") {
@@ -112,7 +113,8 @@ function qualifiesForPopularBackfill(metadata, config) {
 }
 
 async function queueVideo(config, context, item, metadata, run) {
-  item.sourceCaption = metadata.caption; item.publishCaption = withCredit(metadata.caption, item.sourceHandle); item.sourceViewCount = metadata.viewCount || 0; item.sourcePublishedAt = metadata.publishedAt || null;
+  Object.assign(item, await localCaption(config, metadata.caption, item.sourceHandle));
+  item.sourceViewCount = metadata.viewCount || 0; item.sourcePublishedAt = metadata.publishedAt || null;
   await saveItem(item);
   try { await downloadOriginal(config, item, context); item.status = "pending"; await saveItem(item); run.queued.push(item.shortcode); }
   catch (error) { item.status = "pending"; item.lastError = error.message; item.attempts.download += 1; item.nextRetryAt = new Date(Date.now() + 60_000).toISOString(); await saveItem(item); run.errors.push({ sourceHandle: item.sourceHandle, shortcode: item.shortcode, stage: "download", error: error.message }); }

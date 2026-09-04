@@ -25,7 +25,8 @@ export function shortcodeFromUrl(url) { return String(url).match(/\/(?:reel|p)\/
 export function normalizeHandle(value) { return String(value).trim().replace(/^@/, "").toLowerCase(); }
 export function withCredit(caption, handle) {
   const clean = String(caption || "").trim();
-  return `${clean}${clean ? "\n\n" : ""}Source: @${normalizeHandle(handle)}`;
+  const credit = `Source: @${normalizeHandle(handle)}`;
+  return clean.endsWith(credit) ? clean : `${clean}${clean ? "\n\n" : ""}${credit}`;
 }
 export function gapRemainingMs(lastPublishedAt, gapMinutes, now = Date.now()) {
   if (!lastPublishedAt) return 0;
