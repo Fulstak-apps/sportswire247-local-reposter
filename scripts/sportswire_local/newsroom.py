@@ -1,7 +1,7 @@
 from __future__ import annotations
 from contextlib import contextmanager, nullcontext
 from datetime import datetime, timezone
-import json, os, shutil
+import json, os, shutil, subprocess
 from pathlib import Path
 from .config import ROOT, INBOX_QUEUE, QUEUE, MEDIA, LOGS, STATE, load_config, sources
 from .ranking import score
@@ -95,6 +95,15 @@ def run(dry_run: bool = False) -> dict:
         result = {"at": datetime.now(timezone.utc).isoformat(), "dryRun": dry_run, "mode": config.get("mode"), "sourcesChecked": sorted(approved), "candidates": [{"shortcode": x.get("shortcode"), "league": x.get("league"), "score": x.get("deterministicScore"), "reasons": x.get("scoreReasons")} for x in ranked], "selected": selected, "gitResult": "not attempted (dry-run)" if dry_run else "local queue only"}
         if selected and not dry_run:
             current = json.loads((INBOX_QUEUE / f"{selected['shortcode']}.json").read_text())
+            if not current.get("branding", {}).get("bottomMargin"):
+                # Re-render from the full original, never stack a second logo.
+                source = current.get("sourceVideoPath")
+                if not source or not Path(source).is_file():
+                    raise RuntimeError("Original video required to update logo placement")
+                subprocess.run(["node", "--input-type=module", "-e",
+                    "import fs from 'node:fs/promises'; import {brandVideo} from './src/collector.mjs'; "
+                    "await brandVideo(JSON.parse(await fs.readFile('config.json','utf8')),process.argv[1],process.argv[2]);",
+                    source, current["localVideoPath"]], cwd=ROOT, check=True)
             existing = deliveries.get(selected["shortcode"])
             QUEUE.mkdir(parents=True, exist_ok=True); MEDIA.mkdir(parents=True, exist_ok=True)
             media_target = MEDIA / f"{selected['shortcode']}-sportswire247.mp4"
