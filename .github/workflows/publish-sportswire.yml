@@ -1,0 +1,51 @@
+name: SportsWire247 monitor and publisher
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: sportswire247-meta-publisher
+  cancel-in-progress: false
+
+jobs:
+  validate-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+        with: { fetch-depth: 0, ref: main }
+      - uses: actions/setup-node@v6
+        with: { node-version: "24" }
+      - run: npm ci
+      - run: npm test
+      - run: python3 -m unittest discover -s scripts -p 'test_local_sportswire.py'
+      - name: Publish one eligible item to SportsWire Instagram and Threads
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          MEDIA_BASE_URL: ${{ secrets.MEDIA_BASE_URL }}
+          MINIMUM_FEED_GAP_MINUTES: "10"
+        run: |
+          if [ -z "$INSTAGRAM_ACCESS_TOKEN" ] || [ -z "$INSTAGRAM_USER_ID" ] || [ -z "$THREADS_ACCESS_TOKEN" ] || [ -z "$THREADS_USER_ID" ]; then
+            echo "BLOCKED: SportsWire Meta credentials are not configured; no publish attempted."
+            exit 0
+          fi
+          node scripts/publish-sportswire-meta.mjs
+      - name: Save verified publication state
+        run: |
+          if [ -z "$(git status --porcelain -- queue logs)" ]; then exit 0; fi
+          git config user.name "SportsWire 247"
+          git config user.email "actions@users.noreply.github.com"
+          git add queue logs
+          git commit -m "Save SportsWire publication state"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main

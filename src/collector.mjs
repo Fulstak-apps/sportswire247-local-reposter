@@ -5,6 +5,7 @@ import { promisify } from "node:util";
 import { launchBrowser, discoverVisible, readPost } from "./browser.mjs";
 import { paths, readJson, writeJson, saveItem, unseenPosts } from "./lib.mjs";
 import { localCaption } from "./caption.mjs";
+import { inspectLogoPlacement, sha256 } from "./video-safety.mjs";
 const execFileAsync = promisify(execFile);
 
 async function probe(file, ffprobePath = "/opt/homebrew/bin/ffprobe") {
@@ -20,8 +21,10 @@ export async function brandVideo(config, sourcePath, destinationPath) {
   const video = source.streams?.find(stream => stream.codec_type === "video");
   const audio = source.streams?.find(stream => stream.codec_type === "audio");
   if (!video || !audio) throw new Error("Source must contain complete video and audio before branding.");
-  const width = Number(video.width); const logoWidth = Math.max(96, Math.round(width * Number(config.branding.logoWidthFraction || 0.1574)));
-  const margin = Math.max(18, Math.round(width * Number(config.branding.marginFraction || 0.0315)));
+  const width = Number(video.width); const height = Number(video.height); const duration = Number(source.format?.duration || 0);
+  const reviewDirectory = destinationPath.replace(/\.mp4$/i, "-logo-review");
+  const { logoWidth, margin, sampledFrames } = await inspectLogoPlacement(sourcePath, { width, height, duration,
+    preferredFraction: Number(config.branding.logoWidthFraction || 0.1574), marginFraction: Number(config.branding.marginFraction || 0.0315), directory: reviewDirectory });
   const temp = `${destinationPath}.${process.pid}.tmp.mp4`;
   await execFileAsync(ffmpegPath, ["-y", "-i", sourcePath, "-loop", "1", "-i", logoPath,
     "-filter_complex", `[1:v]scale=${logoWidth}:-1[logo];[0:v][logo]overlay=x=${margin}:y=H-h-${margin}:shortest=1[v]`,
@@ -31,7 +34,9 @@ export async function brandVideo(config, sourcePath, destinationPath) {
   if (outputVideo?.codec_name !== "h264" || outputAudio?.codec_name !== "aac") { await fs.rm(temp, { force: true }); throw new Error("Branded output failed H.264/AAC validation."); }
   if (Math.abs(Number(output.format?.duration) - Number(source.format?.duration)) > 1) { await fs.rm(temp, { force: true }); throw new Error("Branded output duration does not match the full source video."); }
   await fs.rename(temp, destinationPath);
-  return { logoPath, logoPosition: "bottom-left", logoWidth, margin, sourceDuration: Number(source.format?.duration), outputDuration: Number(output.format?.duration) };
+  return { logoPath, logoPosition: "bottom-left", logoWidth, margin, logoApplied: true, contentSafeChecked: true,
+    sampledFrames, sourceDuration: Number(source.format?.duration), outputDuration: Number(output.format?.duration),
+    sourceSha256: await sha256(sourcePath), outputSha256: await sha256(destinationPath) };
 }
 
 export function assembleRanges(parts) {

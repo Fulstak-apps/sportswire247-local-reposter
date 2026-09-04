@@ -2,6 +2,8 @@
 
 This project is completely separate from RapWire. It uses its own project directory, runtime queue, state, media, logs, launchd label, Chrome profile, source registry, and GitHub repository. It does not import or write any RapWire file, queue, repository, profile, account, or branding.
 
+The autonomous newsroom runs in `review` mode during development. `python3 scripts/local-sportswire.py --dry-run` ranks the existing sports candidates, calls local Ollama when available, and prints a complete READY/HOLD proposal without changing queue, Git, or any social account. Autonomous mode is enabled only by setting `mode` to `autonomous`; `publishEnabled` remains a separate final safety switch.
+
 Source code and offline tests are backed up in the private repository `Fulstak-apps/sportswire247-local-reposter`. Secrets, `config.json`, Chrome cookies, downloaded videos, logs, queue items, and publication state remain local and are gitignored.
 
 ## Safe setup order
@@ -27,6 +29,9 @@ Source code and offline tests are backed up in the private repository `Fulstak-a
 - `npm run status` — show launchd, baseline, and queue status.
 - `npm run logs` — tail both worker logs.
 - `npm run retry -- SHORTCODE` — clear retry delay for one non-complete item; omit shortcode for all. Partial/uncertain cross-posts keep completed destination permalinks and reconcile before retrying.
+- `npm run newsroom:dry-run` — rank, locally edit, and QA candidates without writing or publishing.
+- `npm run newsroom:health` — verify Ollama/model, repository, isolated paths, queue/media, scheduler, and disabled development publisher.
+- `npm run newsroom:install` — install the separate `com.sportswire247.newsroom` five-minute LaunchAgent; installation never publishes.
 - `npm run repost:monitor` — run exactly one local collector/publisher cycle, using only the SportsWire247 profile.
 - `npm run dispatch` — run the GitHub verification-workflow dispatcher for this separate repository. It never dispatches or touches RapWire.
 - `npm run baseline` — deliberately replace the baseline with all currently visible posts.

@@ -25,6 +25,7 @@
     "marginFraction": 0.0315
   },
   "publishEnabled": false,
+  "mode": "review",
   "ollama": {
     "enabled": true,
     "url": "http://127.0.0.1:11434",

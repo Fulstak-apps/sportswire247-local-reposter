@@ -1,12 +1,12 @@
 {
   "version": 1,
   "destination": "sportswire247",
-  "selection": "Sports video reposts only. Source captions are preserved verbatim and receive one source-credit line. No unrelated news, Stories, Threads, Facebook, or RapWire destinations.",
+  "selection": "Authorized sports video reposts for SportsWire247 Instagram and Threads only. No Facebook, Stories, unrelated destinations, or RapWire state.",
   "sources": [
-    {"handle":"houseofhighlights","enabled":true,"approved_by":"user"},
-    {"handle":"sportscenter","enabled":true,"approved_by":"user"},
-    {"handle":"bleacherreport","enabled":true,"approved_by":"user"},
-    {"handle":"overtime","enabled":true,"approved_by":"user"},
-    {"handle":"jomboymedia","enabled":true,"approved_by":"user"}
+    {"handle":"houseofhighlights","enabled":true,"approved_by":"user","category":"viral highlights","reliability":"secondary"},
+    {"handle":"sportscenter","enabled":true,"approved_by":"user","category":"multisport news and highlights","reliability":"secondary"},
+    {"handle":"bleacherreport","enabled":true,"approved_by":"user","category":"sports culture and highlights","reliability":"secondary"},
+    {"handle":"overtime","enabled":true,"approved_by":"user","category":"youth and viral sports","reliability":"secondary"},
+    {"handle":"jomboymedia","enabled":true,"approved_by":"user","category":"sports breakdowns","reliability":"secondary"}
   ]
 }

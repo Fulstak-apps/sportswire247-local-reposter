@@ -65,7 +65,7 @@ async function threads(page, config, item) {
 }
 export async function publishOne(config) {
   validate(config); const state = await readJson(paths.publisher, { lastPublishedAt: null }); const remaining = gapRemainingMs(state.lastPublishedAt, config.postingGapMinutes); if (remaining) return { status: "posting_gap", remainingMs: remaining };
-  const item = (await listQueue()).filter(x => ["pending", "publishing_uncertain", "partially_published"].includes(x.status) && (!x.nextRetryAt || Date.parse(x.nextRetryAt) <= Date.now()))
+  const item = (await listQueue()).filter(x => ["ready", "pending", "publishing_uncertain", "partially_published"].includes(x.status) && (!x.nextRetryAt || Date.parse(x.nextRetryAt) <= Date.now()))
     .sort((left, right) => {
       const urgency = item => item.status === "publishing_uncertain" || item.status === "partially_published" ? 0 : 1;
       return urgency(left) - urgency(right) || Date.parse(left.discoveredAt || 0) - Date.parse(right.discoveredAt || 0);
