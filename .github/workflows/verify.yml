@@ -26,4 +26,5 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: python3 -m unittest discover -s scripts -p 'test_local_sportswire.py'
+      - run: cp config.example.json config.json
       - run: python3 scripts/local-sportswire.py --health

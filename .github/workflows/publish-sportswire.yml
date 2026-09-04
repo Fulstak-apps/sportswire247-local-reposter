@@ -35,10 +35,11 @@ jobs:
           MEDIA_BASE_URL: ${{ secrets.MEDIA_BASE_URL }}
           MINIMUM_FEED_GAP_MINUTES: "10"
         run: |
-          if [ -z "$INSTAGRAM_ACCESS_TOKEN" ] || [ -z "$INSTAGRAM_USER_ID" ] || [ -z "$THREADS_ACCESS_TOKEN" ] || [ -z "$THREADS_USER_ID" ]; then
-            echo "BLOCKED: SportsWire Meta credentials are not configured; no publish attempted."
+          if { [ -z "$INSTAGRAM_ACCESS_TOKEN" ] || [ -z "$INSTAGRAM_USER_ID" ]; } && { [ -z "$THREADS_ACCESS_TOKEN" ] || [ -z "$THREADS_USER_ID" ]; }; then
+            echo "BLOCKED: no SportsWire destination credentials are configured; no publish attempted."
             exit 0
           fi
+          echo "Publishing to each SportsWire destination with configured credentials; unavailable destinations remain pending."
           node scripts/publish-sportswire-meta.mjs
       - name: Save verified publication state
         run: |
