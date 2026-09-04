@@ -6,7 +6,7 @@
   "sourceCaption": "Ian Happ had strong words for Logan Henderson after Henderson struck him out\n\n#mlb #baseball #cubs #sports #brewers",
   "publishCaption": "Ian Happ had strong words for Logan Henderson after Henderson struck him out\n\n#mlb #baseball #cubs #sports #brewers\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-04T21:17:36.177Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -50,5 +50,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107059333915961",
+  "instagramContainerCreatedAt": "2026-09-04T22:29:24.552Z",
+  "instagramPublishRequestedAt": "2026-09-04T22:30:27.755Z",
+  "instagramMediaId": "17950645257035153",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc4dmx1gk5Y/",
+  "instagramVerifiedAt": "2026-09-04T22:30:35.826Z"
 }
