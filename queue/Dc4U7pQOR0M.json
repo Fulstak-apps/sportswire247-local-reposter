@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "shortcode": "Dc4U7pQOR0M",
+  "sourceHandle": "jomboymedia",
+  "sourceUrl": "https://www.instagram.com/jomboymedia/reel/Dc4U7pQOR0M/",
+  "sourceCaption": "Ian Happ had strong words for Logan Henderson after Henderson struck him out\n\n#mlb #baseball #cubs #sports #brewers",
+  "publishCaption": "Ian Happ had strong words for Logan Henderson after Henderson struck him out\n\n#mlb #baseball #cubs #sports #brewers\n\nSource: @jomboymedia\n\n@sportswire247",
+  "discoveredAt": "2026-09-04T21:17:36.177Z",
+  "status": "ready",
+  "attempts": {
+    "download": 0,
+    "publish": 0
+  },
+  "publicationResult": null,
+  "body": "Ian Happ had strong words for Logan Henderson after Henderson struck him out\n\n#mlb #baseball #cubs #sports #brewers",
+  "captionMode": "source_verbatim_fallback",
+  "captionCheckedAt": "2026-09-04T21:18:24.897Z",
+  "sourceViewCount": 0,
+  "sourcePublishedAt": "2026-09-04T21:15:01.000Z",
+  "branding": {
+    "logoPath": "/Users/dw/Library/Application Support/SportsWire/publisher-runtime/assets/sportswire247-logo.png",
+    "logoPosition": "bottom-left",
+    "logoWidth": 113,
+    "margin": 23,
+    "logoApplied": true,
+    "contentSafeChecked": true,
+    "sampledFrames": 5,
+    "sourceDuration": 13.333008,
+    "outputDuration": 13.306009,
+    "sourceSha256": "61c40bbfa62a391103a6b6bb507d0e5b77a9836ef0238c3c9ed921d8425b7252",
+    "outputSha256": "cc3df9e48cee92e463f27834dc38f98308edcf73122c4f0749d0f6817f3823fa"
+  },
+  "threadsText": "Ian Happ had strong words for Logan Henderson after Henderson struck him out\n\n#mlb #baseball #cubs #sports #brewers",
+  "contentLane": "viral_sports",
+  "confidence": "reported",
+  "ollamaStatus": "fallback_source_caption: JSONDecodeError",
+  "qa": {
+    "ready": true,
+    "reasons": [],
+    "media": "H.264/AAC video/audio verified"
+  },
+  "deterministicScore": 58.91,
+  "scoreReasons": [
+    "approved sports source",
+    "views=0",
+    "freshness=28.9"
+  ],
+  "storyFingerprint": "ian happ had strong words for logan henderson after henderson struck him out mlb baseball cubs sports brewers",
+  "video": "media/Dc4U7pQOR0M-sportswire247.mp4",
+  "brand": "SportsWire 247",
+  "destinationHandle": "sportswire247",
+  "instagramStatus": "pending",
+  "threadsStatus": "pending"
+}
