@@ -6,7 +6,7 @@
   "sourceCaption": "Umpires eject three Giants in two days because they didn\u2019t like the timing of their arguments, a breakdown\n\n#mlb #baseball #sports #umpire #coach",
   "publishCaption": "Umpires eject three Giants in two days because they didn\u2019t like the timing of their arguments, a breakdown\n\n#mlb #baseball #sports #umpire #coach\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-04T16:02:58.568Z",
-  "status": "review",
+  "status": "ready",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -39,11 +39,11 @@
     "reasons": [],
     "media": "H.264/AAC video/audio verified"
   },
-  "deterministicScore": 66.9,
+  "deterministicScore": 66.78,
   "scoreReasons": [
     "approved sports source",
     "views=0",
-    "freshness=24.9",
+    "freshness=24.8",
     "viral/breaking signal"
   ],
   "storyFingerprint": "umpires eject three giants in two days because they didn t like the timing of their arguments a breakdown mlb baseball sports umpire coach",
