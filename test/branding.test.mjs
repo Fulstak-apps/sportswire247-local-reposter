@@ -8,7 +8,7 @@ import { promisify } from "node:util";
 import { brandVideo } from "../src/collector.mjs";
 const run = promisify(execFile);
 
-test("brands the full video bottom-left and preserves audio", async () => {
+test("brands the full video bottom-left and preserves audio", { skip: process.platform !== "darwin" && "Vision-based frame review runs on the Mac worker" }, async () => {
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), "sportswire-brand-test-"));
   try {
     const source = path.join(dir, "source.mp4"); const output = path.join(dir, "output.mp4");
