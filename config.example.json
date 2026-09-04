@@ -1,12 +1,12 @@
 {
-  "sourceHandles": ["PASTE_SPORTS_SOURCE_HANDLE"],
+  "sourceHandles": ["houseofhighlights", "sportscenter", "bleacherreport", "overtime", "jomboymedia"],
   "facebookPageUrl": "PASTE_SPORTS_FACEBOOK_PAGE_URL",
   "instagramHandle": "sportswire247",
   "threadsHandle": "sportswire247",
   "destinations": {
     "facebook": false,
     "instagram": true,
-    "threads": false
+    "threads": true
   },
   "chromeExecutable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
   "chromeProfileDir": "~/Library/Application Support/LocalSportsReposter/ChromeProfile",
