@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "shortcode": "Dc4QBjdGfCx",
+  "sourceHandle": "houseofhighlights",
+  "sourceUrl": "https://www.instagram.com/houseofhighlights/p/Dc4QBjdGfCx/",
+  "sourceCaption": "Only basketball makes tall people look short \ud83d\ude05(via slamzzi/X) \n\nLive Games on TNT, TruTV & HBO Max \ud83d\udcfa",
+  "publishCaption": "Only basketball makes tall people look short \ud83d\ude05(via slamzzi/X) \n\nLive Games on TNT, TruTV & HBO Max \ud83d\udcfa\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "discoveredAt": "2026-09-04T20:31:27.055Z",
+  "status": "ready",
+  "attempts": {
+    "download": 0,
+    "publish": 0
+  },
+  "publicationResult": null,
+  "body": "Only basketball makes tall people look short \ud83d\ude05(via slamzzi/X) \n\nLive Games on TNT, TruTV & HBO Max \ud83d\udcfa",
+  "captionMode": "source_verbatim_fallback",
+  "captionCheckedAt": "2026-09-04T20:32:16.793Z",
+  "sourceViewCount": 0,
+  "sourcePublishedAt": "2026-09-04T20:31:17.000Z",
+  "branding": {
+    "logoPath": "/Users/dw/Library/Application Support/SportsWire/publisher-runtime/assets/sportswire247-logo.png",
+    "logoPosition": "bottom-left",
+    "logoWidth": 113,
+    "margin": 23,
+    "logoApplied": true,
+    "contentSafeChecked": true,
+    "sampledFrames": 5,
+    "sourceDuration": 8.666667,
+    "outputDuration": 8.661995,
+    "sourceSha256": "20d6225f4ff571ceb589dde18d8265eadc72c2737fddc58fa1ead8f8b5c2a332",
+    "outputSha256": "447ecf1a4c6eb574436068d629b7bef35afbd03c23a38cee8cd8f1fc4d5ae88a"
+  },
+  "threadsText": "Only basketball makes tall people look short \ud83d\ude05(via slamzzi/X) \n\nLive Games on TNT, TruTV & HBO Max \ud83d\udcfa",
+  "contentLane": "viral_sports",
+  "confidence": "reported",
+  "ollamaStatus": "fallback_source_caption: ValueError",
+  "qa": {
+    "ready": true,
+    "reasons": [],
+    "media": "H.264/AAC video/audio verified"
+  },
+  "deterministicScore": 4057.63,
+  "scoreReasons": [
+    "approved sports source",
+    "views=0",
+    "freshness=27.6",
+    "sport priority=4 (basketball, football, MLB, NHL)"
+  ],
+  "storyFingerprint": "only basketball makes tall people look short via slamzzi x live games on tnt trutv hbo max",
+  "video": "media/Dc4QBjdGfCx-sportswire247.mp4",
+  "brand": "SportsWire 247",
+  "destinationHandle": "sportswire247",
+  "instagramStatus": "pending",
+  "threadsStatus": "pending"
+}
