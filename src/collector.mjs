@@ -23,18 +23,18 @@ export async function brandVideo(config, sourcePath, destinationPath) {
   if (!video || !audio) throw new Error("Source must contain complete video and audio before branding.");
   const width = Number(video.width); const height = Number(video.height); const duration = Number(source.format?.duration || 0);
   const reviewDirectory = destinationPath.replace(/\.mp4$/i, "-logo-review");
-  const { logoWidth, margin, sampledFrames } = await inspectLogoPlacement(sourcePath, { width, height, duration,
+  const { logoWidth, margin, bottomMargin, sampledFrames } = await inspectLogoPlacement(sourcePath, { width, height, duration,
     preferredFraction: Number(config.branding.logoWidthFraction || 0.1574), marginFraction: Number(config.branding.marginFraction || 0.0315), directory: reviewDirectory, ffmpegPath });
   const temp = `${destinationPath}.${process.pid}.tmp.mp4`;
   await execFileAsync(ffmpegPath, ["-y", "-i", sourcePath, "-loop", "1", "-i", logoPath,
-    "-filter_complex", `[1:v]scale=${logoWidth}:-1[logo];[0:v][logo]overlay=x=${margin}:y=H-h-${margin}:shortest=1[v]`,
+    "-filter_complex", `[1:v]scale=${logoWidth}:-1[logo];[0:v][logo]overlay=x=${margin}:y=H-h-${bottomMargin}:shortest=1[v]`,
     "-map", "[v]", "-map", "0:a:0", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
     "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest", temp], { timeout: 20 * 60_000, maxBuffer: 4_000_000 });
   const output = await probe(temp, ffprobePath); const outputVideo = output.streams?.find(stream => stream.codec_type === "video"); const outputAudio = output.streams?.find(stream => stream.codec_type === "audio");
   if (outputVideo?.codec_name !== "h264" || outputAudio?.codec_name !== "aac") { await fs.rm(temp, { force: true }); throw new Error("Branded output failed H.264/AAC validation."); }
   if (Math.abs(Number(output.format?.duration) - Number(source.format?.duration)) > 1) { await fs.rm(temp, { force: true }); throw new Error("Branded output duration does not match the full source video."); }
   await fs.rename(temp, destinationPath);
-  return { logoPath, logoPosition: "bottom-left", logoWidth, margin, logoApplied: true, contentSafeChecked: true,
+  return { logoPath, logoPosition: "bottom-left", logoWidth, margin, bottomMargin, logoApplied: true, contentSafeChecked: true,
     sampledFrames, sourceDuration: Number(source.format?.duration), outputDuration: Number(output.format?.duration),
     sourceSha256: await sha256(sourcePath), outputSha256: await sha256(destinationPath) };
 }

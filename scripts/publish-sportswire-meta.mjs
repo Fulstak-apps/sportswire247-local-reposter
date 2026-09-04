@@ -93,7 +93,7 @@ async function main() {
   const records = await Promise.all(names.map(async name => ({ name, file: path.join(queueDir, name), item: JSON.parse(await fs.readFile(path.join(queueDir, name), "utf8")) })));
   const limits = { instagram: Number(process.env.INSTAGRAM_DAILY_LIMIT || 20), threads: Number(process.env.THREADS_DAILY_LIMIT || 20) };
   const configuredPlatforms = [instagram, threads].filter(credentialsReady);
-  const record = records.find(x => configuredPlatforms.some(platform => platformEligible(x.item, platform.name, records, Date.now(), limits[platform.name])));
+  const record = [...records].sort((a, b) => Number(b.item.deterministicScore || 0) - Number(a.item.deterministicScore || 0)).find(x => configuredPlatforms.some(platform => platformEligible(x.item, platform.name, records, Date.now(), limits[platform.name])));
   if (!record) return console.log("No eligible SportsWire item (queue, independent spacing, cooldown, or quota gate)");
   const { item, file } = record;
   for (const platform of [instagram, threads]) {

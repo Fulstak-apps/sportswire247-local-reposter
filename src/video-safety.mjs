@@ -18,8 +18,9 @@ export function chooseSafeLogo(width, height, observations, preferredFraction = 
   for (const fraction of [preferredFraction, 0.12, 0.09]) {
     const pixels = Math.max(72, Math.round(width * fraction));
     const margin = Math.max(12, Math.round(width * marginFraction));
-    const logo = { x: margin / width, y: (height - pixels - margin) / height, width: pixels / width, height: pixels / height };
-    if (boxes.every(box => !overlaps(box, logo))) return { logoWidth: pixels, margin, sampledFrames: observations.length };
+    const bottomMargin = Math.max(margin, Math.round(height * 0.15));
+    const logo = { x: margin / width, y: (height - pixels - bottomMargin) / height, width: pixels / width, height: pixels / height };
+    if (boxes.every(box => !overlaps(box, logo))) return { logoWidth: pixels, margin, bottomMargin, sampledFrames: observations.length };
   }
   throw new Error("Media review required: bottom-left SportsWire logo would cover detected text or a face");
 }

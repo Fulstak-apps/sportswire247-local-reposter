@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 import re
 
 LEAGUES = {
-    "nba": ("nba", "basketball", "lakers", "celtics", "warriors"),
+    "nba": ("nba", "basketball", "lakers", "celtics", "warriors", "dunk", "buzzer beater", "three-pointer", "wnba"),
     "nfl": ("nfl", "football", "touchdown", "quarterback"),
     "mlb": ("mlb", "baseball", "home run"),
     "nhl": ("nhl", "hockey"),
@@ -36,8 +36,11 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
             reasons.append(f"freshness={freshness:.1f}")
         except ValueError: pass
     text = candidate.get("sourceCaption", "")
-    if re.search(r"\b(game[- ]winner|buzzer|knockout|fight|eject|insane|wild|record|breaking|report)\b", text, re.I):
+    if re.search(r"\b(game[- ]winner|buzzer|dunk|trade|traded|signing|highlights|unbelievable|knockout|fight|eject|insane|wild|record|breaking|report)\b", text, re.I):
         points += 12; reasons.append("viral/breaking signal")
     candidate = dict(candidate)
+    priority = {"nba": 4, "nfl": 3, "mlb": 2, "nhl": 1}.get(classify(text), 0)
+    points += priority * 1000
+    reasons.append(f"sport priority={priority} (basketball, football, MLB, NHL)")
     candidate.update(league=classify(text), deterministicScore=round(points, 2), scoreReasons=reasons, storyFingerprint=fingerprint(text))
     return candidate
