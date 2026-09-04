@@ -16,7 +16,7 @@ export function mediaUrl(item) {
   return `https://raw.githubusercontent.com/${repository}/${refName}/${item.video}`;
 }
 export function eligible(item, now = Date.now()) {
-  if (item.status !== "ready" || item.destinationHandle !== "sportswire247" || item.brand !== "SportsWire 247") return false;
+  if (!["ready", "instagram_published_threads_pending", "threads_published_instagram_pending"].includes(item.status) || item.destinationHandle !== "sportswire247" || item.brand !== "SportsWire 247") return false;
   if (!item.video || !item.sourceUrl || !item.shortcode || !item.publishCaption?.endsWith("@sportswire247")) return false;
   return true;
 }
@@ -110,7 +110,13 @@ async function main() {
     }
     await save(file, item);
   }
-  if (item.instagramVerifiedAt && item.threadsVerifiedAt) { item.status = "published"; item.publishedAt = new Date().toISOString(); delete item.instagramNextRetryAt; delete item.threadsNextRetryAt; }
+  if (item.instagramVerifiedAt && item.threadsVerifiedAt) {
+    item.status = "published"; item.publishedAt = new Date().toISOString(); delete item.instagramNextRetryAt; delete item.threadsNextRetryAt;
+  } else if (item.instagramVerifiedAt) {
+    item.status = "instagram_published_threads_pending";
+  } else if (item.threadsVerifiedAt) {
+    item.status = "threads_published_instagram_pending";
+  }
   await save(file, item);
 }
 

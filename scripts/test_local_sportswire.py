@@ -7,6 +7,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from sportswire_local.ranking import classify, fingerprint, score
 from sportswire_local.qa import evaluate
 from sportswire_local.ollama import generate
+from sportswire_local.newsroom import preserve_delivery_state
 
 BASE = {
     "shortcode": "SPORT1", "sourceHandle": "houseofhighlights",
@@ -52,5 +53,16 @@ class SportsWireTests(unittest.TestCase):
     @patch("sportswire_local.ollama.subprocess.run", side_effect=OSError("offline"))
     def test_ollama_unavailable_fails_to_caller_fallback(self, _):
         with self.assertRaises(OSError): generate({"ollama": {"url": "http://127.0.0.1:11434", "model": "qwen3:4b"}}, BASE)
+
+    def test_collector_never_erases_verified_delivery_state(self):
+        staged = {"status": "ready", "instagramStatus": "pending", "threadsStatus": "pending"}
+        published = {
+            "status": "instagram_published_threads_pending",
+            "instagramMediaId": "123", "instagramVerifiedAt": "2026-09-04T21:13:13Z",
+            "instagramPermalink": "https://www.instagram.com/reel/example/",
+        }
+        merged = preserve_delivery_state(staged, published)
+        self.assertEqual(merged["status"], "instagram_published_threads_pending")
+        self.assertEqual(merged["instagramMediaId"], "123")
 
 if __name__ == "__main__": unittest.main()

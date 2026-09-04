@@ -16,6 +16,39 @@ def read_items() -> list[dict]:
         except Exception: pass
     return items
 
+def delivery_items() -> dict[str, dict]:
+    """Read the GitHub-backed delivery queue without trusting stale inbox state.
+
+    The inbox is intentionally durable local collection state.  The delivery
+    queue is the publishing source of truth, so a collector cycle must never
+    replace a verified platform result with an older inbox copy.
+    """
+    items: dict[str, dict] = {}
+    if not QUEUE.is_dir(): return items
+    for file in QUEUE.glob("*.json"):
+        try:
+            value = json.loads(file.read_text())
+            if value.get("shortcode"): items[value["shortcode"]] = value
+        except Exception: pass
+    return items
+
+ACTIVE_DELIVERY_STATUSES = {
+    "ready", "publishing_uncertain", "partially_published",
+    "instagram_published_threads_pending", "threads_published_instagram_pending",
+    "published",
+}
+
+def preserve_delivery_state(staged: dict, existing: dict | None) -> dict:
+    """Keep publication facts owned by the publisher, never the collector."""
+    if not existing: return staged
+    for key, value in existing.items():
+        if key.startswith(("instagram", "threads")) or key in {
+            "status", "publishedAt", "publicationResult", "uncertainDestination",
+            "publishRequestedAt", "nextRetryAt", "lastError",
+        }:
+            staged[key] = value
+    return staged
+
 @contextmanager
 def lock():
     STATE.mkdir(parents=True, exist_ok=True)
@@ -49,17 +82,26 @@ def run(dry_run: bool = False) -> dict:
     config = load_config(); registry = sources(); approved = {x["handle"] for x in registry}
     # A dry run is strictly read-only: it does not even create the overlap lock.
     with (nullcontext() if dry_run else lock()):
-        candidates = [x for x in read_items() if x.get("status") in {"pending", "review", "held"} and x.get("localVideoPath")]
+        deliveries = delivery_items()
+        # Once a record is handed to the delivery lane, leave it alone until
+        # that lane has resolved it. This prevents a second collection cycle
+        # from racing a Meta verification and erasing its idempotency record.
+        candidates = [x for x in read_items()
+            if x.get("status") in {"pending", "review", "held"}
+            and x.get("localVideoPath")
+            and deliveries.get(x.get("shortcode"), {}).get("status") not in ACTIVE_DELIVERY_STATUSES]
         ranked = sorted((score(x) for x in candidates), key=lambda x: x["deterministicScore"], reverse=True)
         selected = prepare(ranked[0], config, approved) if ranked else None
         result = {"at": datetime.now(timezone.utc).isoformat(), "dryRun": dry_run, "mode": config.get("mode"), "sourcesChecked": sorted(approved), "candidates": [{"shortcode": x.get("shortcode"), "league": x.get("league"), "score": x.get("deterministicScore"), "reasons": x.get("scoreReasons")} for x in ranked], "selected": selected, "gitResult": "not attempted (dry-run)" if dry_run else "local queue only"}
         if selected and not dry_run:
             current = json.loads((INBOX_QUEUE / f"{selected['shortcode']}.json").read_text())
+            existing = deliveries.get(selected["shortcode"])
             QUEUE.mkdir(parents=True, exist_ok=True); MEDIA.mkdir(parents=True, exist_ok=True)
             media_target = MEDIA / f"{selected['shortcode']}-sportswire247.mp4"
             shutil.copy2(Path(current["localVideoPath"]), media_target)
             current.update({k: selected[k] for k in ("publishCaption", "threadsText", "contentLane", "confidence", "ollamaStatus", "qa", "deterministicScore", "scoreReasons", "storyFingerprint")})
             current.update({"status": selected["proposedStatus"], "video": str(media_target.relative_to(ROOT)), "brand": "SportsWire 247", "destinationHandle": "sportswire247", "instagramStatus": "pending", "threadsStatus": "pending"})
+            current = preserve_delivery_state(current, existing)
             current.pop("localVideoPath", None); current.pop("sourceVideoPath", None)
             (QUEUE / f"{selected['shortcode']}.json").write_text(json.dumps(current, indent=2) + "\n")
         LOGS.mkdir(parents=True, exist_ok=True)
@@ -79,10 +121,14 @@ def health() -> dict:
     except Exception: checks["ollama"] = checks["modelInstalled"] = False
     checks["gitUsable"] = subprocess.run(["git", "rev-parse", "--is-inside-work-tree"], cwd=ROOT, capture_output=True).returncode == 0
     checks["schedulerPlist"] = (Path.home() / "Library/LaunchAgents/com.sportswire247.newsroom.plist").exists()
-    checks["developmentSafety"] = config.get("instagramHandle") == "sportswire247" and not config.get("publishEnabled", False)
+    checks["destinationSafety"] = (
+        config.get("instagramHandle") == "sportswire247"
+        and config.get("threadsHandle") == "sportswire247"
+        and config.get("destinations", {}).get("facebook") is False
+    )
     checks["metaCredentialsPresentLocally"] = all(os.environ.get(name) for name in (
         "INSTAGRAM_ACCESS_TOKEN", "INSTAGRAM_USER_ID", "THREADS_ACCESS_TOKEN", "THREADS_USER_ID"
     ))
     checks["rapwireIsolation"] = not any("RapWire" in str(p) for p in (ROOT, QUEUE, MEDIA, LOGS, STATE))
-    required = ("repo", "inboxQueue", "queue", "media", "ollama", "modelInstalled", "gitUsable", "schedulerPlist", "developmentSafety", "rapwireIsolation")
-    return {"healthy": all(checks[name] for name in required), "publishReady": checks["metaCredentialsPresentLocally"] and checks["developmentSafety"], "checks": checks, "mode": config.get("mode"), "publishingDisabledDuringDevelopment": not config.get("publishEnabled", False)}
+    required = ("repo", "inboxQueue", "queue", "media", "ollama", "modelInstalled", "gitUsable", "schedulerPlist", "destinationSafety", "rapwireIsolation")
+    return {"healthy": all(checks[name] for name in required), "publishReady": checks["metaCredentialsPresentLocally"] and config.get("publishEnabled", False), "checks": checks, "mode": config.get("mode"), "publishingEnabled": bool(config.get("publishEnabled", False))}

@@ -6,6 +6,7 @@ import { chooseSafeLogo } from "../src/video-safety.mjs";
 const valid = { status: "ready", destinationHandle: "sportswire247", brand: "SportsWire 247", video: "media/x.mp4", sourceUrl: "https://instagram.com/reel/x/", shortcode: "x", publishCaption: "Caption\n\n@sportswire247" };
 test("publisher accepts only complete SportsWire queue records", () => {
   assert.equal(eligible(valid), true);
+  assert.equal(eligible({ ...valid, status: "instagram_published_threads_pending", instagramVerifiedAt: new Date().toISOString() }), true);
   assert.equal(eligible({ ...valid, video: "" }), false);
   assert.equal(eligible({ ...valid, brand: "RapWire 24/7" }), false);
   assert.equal(eligible({ ...valid, destinationHandle: "rapwire247" }), false);
