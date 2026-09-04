@@ -3,16 +3,16 @@
   "shortcode": "Dc4bejTJu-1",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dc4bejTJu-1/",
-  "sourceCaption": "Ziyu was tied for China\u2019s leading scorer with 13 points in the loss to USA\n\nLive games on TNT/TruTV/MAX \ud83d\udcfa\n\n#FIBAWWC #wnba #basketball #china",
-  "publishCaption": "Ziyu was tied for China\u2019s leading scorer with 13 points in the loss to USA\n\nLive games on TNT/TruTV/MAX \ud83d\udcfa\n\n#FIBAWWC #wnba #basketball #china\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Ziyu was tied for China’s leading scorer with 13 points in the loss to USA\n\nLive games on TNT/TruTV/MAX 📺\n\n#FIBAWWC #wnba #basketball #china",
+  "publishCaption": "Ziyu was tied for China’s leading scorer with 13 points in the loss to USA\n\nLive games on TNT/TruTV/MAX 📺\n\n#FIBAWWC #wnba #basketball #china\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-04T22:26:10.080Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Ziyu was tied for China\u2019s leading scorer with 13 points in the loss to USA\n\nLive games on TNT/TruTV/MAX \ud83d\udcfa\n\n#FIBAWWC #wnba #basketball #china",
+  "body": "Ziyu was tied for China’s leading scorer with 13 points in the loss to USA\n\nLive games on TNT/TruTV/MAX 📺\n\n#FIBAWWC #wnba #basketball #china",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-04T22:26:58.876Z",
   "sourceViewCount": 0,
@@ -30,7 +30,7 @@
     "sourceSha256": "b20a18f56756c60974a7baadfe51cf038fc993695ed4626ecc418ab3c3e7c6b8",
     "outputSha256": "602d97e44307fe81ac58cb9ac6a602d4d6b01c8526655081d891a7079d98597d"
   },
-  "threadsText": "Ziyu was tied for China\u2019s leading scorer with 13 points in the loss to USA\n\nLive games on TNT/TruTV/MAX \ud83d\udcfa\n\n#FIBAWWC #wnba #basketball #china",
+  "threadsText": "Ziyu was tied for China’s leading scorer with 13 points in the loss to USA\n\nLive games on TNT/TruTV/MAX 📺\n\n#FIBAWWC #wnba #basketball #china",
   "contentLane": "viral_sports",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -50,5 +50,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107063224915961",
+  "instagramContainerCreatedAt": "2026-09-04T22:57:05.327Z",
+  "instagramPublishRequestedAt": "2026-09-04T22:57:36.887Z",
+  "instagramMediaId": "18086310503242257",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc4guFCgI9l/",
+  "instagramVerifiedAt": "2026-09-04T22:57:43.112Z"
 }
