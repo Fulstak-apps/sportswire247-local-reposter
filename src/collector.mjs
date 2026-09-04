@@ -24,7 +24,7 @@ export async function brandVideo(config, sourcePath, destinationPath) {
   const width = Number(video.width); const height = Number(video.height); const duration = Number(source.format?.duration || 0);
   const reviewDirectory = destinationPath.replace(/\.mp4$/i, "-logo-review");
   const { logoWidth, margin, sampledFrames } = await inspectLogoPlacement(sourcePath, { width, height, duration,
-    preferredFraction: Number(config.branding.logoWidthFraction || 0.1574), marginFraction: Number(config.branding.marginFraction || 0.0315), directory: reviewDirectory });
+    preferredFraction: Number(config.branding.logoWidthFraction || 0.1574), marginFraction: Number(config.branding.marginFraction || 0.0315), directory: reviewDirectory, ffmpegPath });
   const temp = `${destinationPath}.${process.pid}.tmp.mp4`;
   await execFileAsync(ffmpegPath, ["-y", "-i", sourcePath, "-loop", "1", "-i", logoPath,
     "-filter_complex", `[1:v]scale=${logoWidth}:-1[logo];[0:v][logo]overlay=x=${margin}:y=H-h-${margin}:shortest=1[v]`,

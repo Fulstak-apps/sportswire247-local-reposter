@@ -24,13 +24,13 @@ export function chooseSafeLogo(width, height, observations, preferredFraction = 
   throw new Error("Media review required: bottom-left SportsWire logo would cover detected text or a face");
 }
 
-export async function inspectLogoPlacement(input, { width, height, duration, preferredFraction, marginFraction, directory }) {
+export async function inspectLogoPlacement(input, { width, height, duration, preferredFraction, marginFraction, directory, ffmpegPath = "ffmpeg" }) {
   const times = [0.03, 0.25, 0.5, 0.75, 0.97].map(f => Math.max(0, duration * f));
   await fs.mkdir(directory, { recursive: true });
   const images = [];
   for (const [index, time] of times.entries()) {
     const image = path.join(directory, `source-${index + 1}.png`);
-    await exec("/opt/homebrew/bin/ffmpeg", ["-v", "error", "-y", "-ss", String(time), "-i", input, "-frames:v", "1", image], { timeout: 30_000 });
+    await exec(ffmpegPath, ["-v", "error", "-y", "-ss", String(time), "-i", input, "-frames:v", "1", image], { timeout: 30_000 });
     images.push(image);
   }
   const swift = path.resolve("scripts/inspect-video-frame.swift");
