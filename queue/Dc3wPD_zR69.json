@@ -3,8 +3,8 @@
   "shortcode": "Dc3wPD_zR69",
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymedia/reel/Dc3wPD_zR69/",
-  "sourceCaption": "Umpires eject three Giants in two days because they didn’t like the timing of their arguments, a breakdown\n\n#mlb #baseball #sports #umpire #coach",
-  "publishCaption": "Umpires eject three Giants in two days because they didn’t like the timing of their arguments, a breakdown\n\n#mlb #baseball #sports #umpire #coach\n\nSource: @jomboymedia\n\n@sportswire247",
+  "sourceCaption": "Umpires eject three Giants in two days because they didn\u2019t like the timing of their arguments, a breakdown\n\n#mlb #baseball #sports #umpire #coach",
+  "publishCaption": "Umpires eject three Giants in two days because they didn\u2019t like the timing of their arguments, a breakdown\n\n#mlb #baseball #sports #umpire #coach\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-04T16:02:58.568Z",
   "status": "ready",
   "attempts": {
@@ -12,7 +12,7 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Umpires eject three Giants in two days because they didn’t like the timing of their arguments, a breakdown\n\n#mlb #baseball #sports #umpire #coach",
+  "body": "Umpires eject three Giants in two days because they didn\u2019t like the timing of their arguments, a breakdown\n\n#mlb #baseball #sports #umpire #coach",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-04T16:03:47.324Z",
   "sourceViewCount": 0,
@@ -30,20 +30,20 @@
     "sourceSha256": "a9e50b257a74f41bcabd53eae6c9bf79fce9634dd68dfa7501a365b800563425",
     "outputSha256": "4eaf059ec4d962c426b35d98e9f171f08f5ca9ca8a605e8b698eab9b45485357"
   },
-  "threadsText": "Umpires eject three Giants in two days because they didn’t like the timing of their arguments, a breakdown\n\n#mlb #baseball #sports #umpire #coach",
+  "threadsText": "Umpires eject three Giants in two days because they didn\u2019t like the timing of their arguments, a breakdown\n\n#mlb #baseball #sports #umpire #coach",
   "contentLane": "viral_sports",
   "confidence": "reported",
-  "ollamaStatus": "fallback_source_caption: ValueError",
+  "ollamaStatus": "fallback_source_caption: JSONDecodeError",
   "qa": {
     "ready": true,
     "reasons": [],
     "media": "H.264/AAC video/audio verified"
   },
-  "deterministicScore": 66.65,
+  "deterministicScore": 66.56,
   "scoreReasons": [
     "approved sports source",
     "views=0",
-    "freshness=24.7",
+    "freshness=24.6",
     "viral/breaking signal"
   ],
   "storyFingerprint": "umpires eject three giants in two days because they didn t like the timing of their arguments a breakdown mlb baseball sports umpire coach",
@@ -51,11 +51,5 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
-  "instagramContainerId": "18107049442915961",
-  "instagramContainerCreatedAt": "2026-09-04T21:12:00.215Z",
-  "instagramPublishRequestedAt": "2026-09-04T21:13:02.346Z",
-  "instagramMediaId": "18440779264121064",
-  "instagramPermalink": "https://www.instagram.com/reel/Dc4Us7bD6UK/",
-  "instagramVerifiedAt": "2026-09-04T21:13:13.001Z"
+  "threadsStatus": "pending"
 }
