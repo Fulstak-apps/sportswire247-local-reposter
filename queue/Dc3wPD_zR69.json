@@ -33,17 +33,17 @@
   "threadsText": "Umpires eject three Giants in two days because they didn\u2019t like the timing of their arguments, a breakdown\n\n#mlb #baseball #sports #umpire #coach",
   "contentLane": "viral_sports",
   "confidence": "reported",
-  "ollamaStatus": "fallback_source_caption: ValueError",
+  "ollamaStatus": "fallback_source_caption: JSONDecodeError",
   "qa": {
     "ready": true,
     "reasons": [],
     "media": "H.264/AAC video/audio verified"
   },
-  "deterministicScore": 69.69,
+  "deterministicScore": 69.6,
   "scoreReasons": [
     "approved sports source",
     "views=0",
-    "freshness=27.7",
+    "freshness=27.6",
     "viral/breaking signal"
   ],
   "storyFingerprint": "umpires eject three giants in two days because they didn t like the timing of their arguments a breakdown mlb baseball sports umpire coach",
