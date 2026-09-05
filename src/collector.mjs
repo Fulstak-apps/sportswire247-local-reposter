@@ -29,7 +29,7 @@ export async function brandVideo(config, sourcePath, destinationPath) {
   await execFileAsync(ffmpegPath, ["-y", "-i", sourcePath, "-loop", "1", "-i", logoPath,
     "-filter_complex", `[1:v]scale=${logoWidth}:-1[logo];[0:v][logo]overlay=x=${margin}:y=H-h-${bottomMargin}:shortest=1[v]`,
     "-map", "[v]", "-map", "0:a:0", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
-    "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest", temp], { timeout: 20 * 60_000, maxBuffer: 4_000_000 });
+    "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", temp], { timeout: 20 * 60_000, maxBuffer: 4_000_000 });
   const output = await probe(temp, ffprobePath); const outputVideo = output.streams?.find(stream => stream.codec_type === "video"); const outputAudio = output.streams?.find(stream => stream.codec_type === "audio");
   if (outputVideo?.codec_name !== "h264" || outputAudio?.codec_name !== "aac") { await fs.rm(temp, { force: true }); throw new Error("Branded output failed H.264/AAC validation."); }
   if (Math.abs(Number(output.format?.duration) - Number(source.format?.duration)) > 1) { await fs.rm(temp, { force: true }); throw new Error("Branded output duration does not match the full source video."); }
