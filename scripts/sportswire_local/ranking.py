@@ -77,15 +77,15 @@ def classify(text: str) -> str:
         return "wnba"
     if any(_phrase(value, term) for term in ("college basketball", "ncaa basketball", "march madness")):
         return "ncaa_basketball"
-    if any(_phrase(value, term) for term in ("nba", "basketball", "dunk", "buzzer beater", "three-pointer", "three pointer")):
+    if any(_phrase(value, term) for term in ("nba", "basketball", "dunk", "buzzer beater", "three-pointer", "three pointer", "layup", "alley oop", "alley-oop", "jumper")):
         return "nba"
     if any(_phrase(value, term) for term in ("college football", "ncaa football", "cfb")):
         return "ncaa_football"
-    if any(_phrase(value, term) for term in ("nfl", "football", "touchdown", "quarterback", "wide receiver")):
+    if any(_phrase(value, term) for term in ("nfl", "football", "touchdown", "quarterback", "wide receiver", "interception", "pick six", "field goal")):
         return "nfl"
-    if any(_phrase(value, term) for term in ("mlb", "baseball", "home run", "homer", "world series")):
+    if any(_phrase(value, term) for term in ("mlb", "baseball", "home run", "homer", "world series", "strikeout", "grand slam", "pitcher", "batter")):
         return "mlb"
-    if any(_phrase(value, term) for term in ("nhl", "hockey", "stanley cup", "goalie")):
+    if any(_phrase(value, term) for term in ("nhl", "hockey", "stanley cup", "goalie", "puck", "slapshot", "slap shot", "power play", "hat trick")):
         return "nhl"
     return "sports"
 
@@ -277,6 +277,8 @@ def apply_history_penalties(candidates: list[dict], history: list[dict]) -> list
         best_similarity = 0.0
         duplicate_of = None
         for old in history:
+            if old.get("shortcode") and old.get("shortcode") == item.get("shortcode"):
+                continue
             old_caption = str(old.get("sourceCaption") or old.get("publishCaption") or "")
             similarity = story_similarity(caption, old_caption)
             if similarity > best_similarity:
