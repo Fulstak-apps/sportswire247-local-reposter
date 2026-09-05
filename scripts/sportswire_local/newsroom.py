@@ -100,10 +100,15 @@ def run(dry_run: bool = False) -> dict:
                 source = current.get("sourceVideoPath")
                 if not source or not Path(source).is_file():
                     raise RuntimeError("Original video required to update logo placement")
-                subprocess.run(["node", "--input-type=module", "-e",
+                try:
+                    subprocess.run(["node", "--input-type=module", "-e",
                     "import fs from 'node:fs/promises'; import {brandVideo} from './src/collector.mjs'; "
                     "await brandVideo(JSON.parse(await fs.readFile('config.json','utf8')),process.argv[1],process.argv[2]);",
-                    source, current["localVideoPath"]], cwd=ROOT, check=True)
+                        source, current["localVideoPath"]], cwd=ROOT, check=True)
+                except subprocess.CalledProcessError:
+                    current.update(status="branding_review", lastError="Raised logo could not be placed safely; manual review required")
+                    (INBOX_QUEUE / f"{selected['shortcode']}.json").write_text(json.dumps(current, indent=2) + "\n")
+                    return {"status": "branding_review", "shortcode": selected["shortcode"], "message": "Held this clip; other candidates remain eligible next cycle"}
             existing = deliveries.get(selected["shortcode"])
             QUEUE.mkdir(parents=True, exist_ok=True); MEDIA.mkdir(parents=True, exist_ok=True)
             media_target = MEDIA / f"{selected['shortcode']}-sportswire247.mp4"
