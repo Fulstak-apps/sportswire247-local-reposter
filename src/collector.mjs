@@ -119,7 +119,10 @@ function qualifiesForPopularBackfill(metadata, config) {
 
 async function queueVideo(config, context, item, metadata, run) {
   Object.assign(item, await localCaption(config, metadata.caption, item.sourceHandle));
-  item.sourceViewCount = metadata.viewCount || 0; item.sourcePublishedAt = metadata.publishedAt || null;
+  item.sourceViewCount = metadata.viewCount || 0;
+  item.sourceLikeCount = metadata.likeCount || 0;
+  item.sourceCommentCount = metadata.commentCount || 0;
+  item.sourcePublishedAt = metadata.publishedAt || null;
   await saveItem(item);
   try { await downloadOriginal(config, item, context); item.status = "pending"; await saveItem(item); run.queued.push(item.shortcode); }
   catch (error) { item.status = "pending"; item.lastError = error.message; item.attempts.download += 1; item.nextRetryAt = new Date(Date.now() + 60_000).toISOString(); await saveItem(item); run.errors.push({ sourceHandle: item.sourceHandle, shortcode: item.shortcode, stage: "download", error: error.message }); }
@@ -142,7 +145,13 @@ export async function collect(config, { forceBaseline = false } = {}) {
         const seen = ledger.seenShortcodes[post.shortcode];
         if (!seen?.baseline || seen.backfillCheckedAt) continue;
         try {
-          const metadata = await readPost(context, post.url); seen.backfillCheckedAt = new Date().toISOString(); seen.viewCount = metadata.viewCount || 0; seen.publishedAt = metadata.publishedAt || null; await writeJson(paths.ledger, ledger);
+          const metadata = await readPost(context, post.url);
+          seen.backfillCheckedAt = new Date().toISOString();
+          seen.viewCount = metadata.viewCount || 0;
+          seen.likeCount = metadata.likeCount || 0;
+          seen.commentCount = metadata.commentCount || 0;
+          seen.publishedAt = metadata.publishedAt || null;
+          await writeJson(paths.ledger, ledger);
           if (!qualifiesForPopularBackfill(metadata, config)) continue;
           const item = { version: 1, shortcode: post.shortcode, sourceHandle, sourceUrl: post.url, sourceCaption: "", publishCaption: "", localVideoPath: "", discoveredAt: new Date().toISOString(), status: "downloading", type: "popular_recent_backfill", attempts: { download: 0, publish: 0 }, publicationResult: null };
           await queueVideo(config, context, item, metadata, run); backfillsQueued += 1;
