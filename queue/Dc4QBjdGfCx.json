@@ -3,16 +3,16 @@
   "shortcode": "Dc4QBjdGfCx",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/p/Dc4QBjdGfCx/",
-  "sourceCaption": "Only basketball makes tall people look short \ud83d\ude05(via slamzzi/X) \n\nLive Games on TNT, TruTV & HBO Max \ud83d\udcfa",
-  "publishCaption": "Only basketball makes tall people look short \ud83d\ude05(via slamzzi/X) \n\nLive Games on TNT, TruTV & HBO Max \ud83d\udcfa\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Only basketball makes tall people look short 😅(via slamzzi/X) \n\nLive Games on TNT, TruTV & HBO Max 📺",
+  "publishCaption": "Only basketball makes tall people look short 😅(via slamzzi/X) \n\nLive Games on TNT, TruTV & HBO Max 📺\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-04T20:31:27.055Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Only basketball makes tall people look short \ud83d\ude05(via slamzzi/X) \n\nLive Games on TNT, TruTV & HBO Max \ud83d\udcfa",
+  "body": "Only basketball makes tall people look short 😅(via slamzzi/X) \n\nLive Games on TNT, TruTV & HBO Max 📺",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-04T20:32:16.793Z",
   "sourceViewCount": 0,
@@ -30,7 +30,7 @@
     "sourceSha256": "20d6225f4ff571ceb589dde18d8265eadc72c2737fddc58fa1ead8f8b5c2a332",
     "outputSha256": "447ecf1a4c6eb574436068d629b7bef35afbd03c23a38cee8cd8f1fc4d5ae88a"
   },
-  "threadsText": "Only basketball makes tall people look short \ud83d\ude05(via slamzzi/X) \n\nLive Games on TNT, TruTV & HBO Max \ud83d\udcfa",
+  "threadsText": "Only basketball makes tall people look short 😅(via slamzzi/X) \n\nLive Games on TNT, TruTV & HBO Max 📺",
   "contentLane": "viral_sports",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -51,5 +51,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107073406915961",
+  "instagramContainerCreatedAt": "2026-09-05T00:26:13.836Z",
+  "instagramPublishRequestedAt": "2026-09-05T00:27:46.517Z",
+  "instagramMediaId": "18626377993007769",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc4rB6HjYap/",
+  "instagramVerifiedAt": "2026-09-05T00:27:52.671Z"
 }
