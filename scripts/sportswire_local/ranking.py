@@ -211,6 +211,12 @@ def _priority(score_value: float) -> str:
         return "P3"
     return "P4"
 
+def _numeric(candidate: dict, key: str) -> float:
+    try:
+        return max(0.0, float(candidate.get(key) or 0))
+    except (TypeError, ValueError):
+        return 0.0
+
 def score(candidate: dict, now: datetime | None = None) -> dict:
     now = now or datetime.now(timezone.utc)
     candidate = dict(candidate)
@@ -232,33 +238,73 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
     points += freshness
     reasons.append(f"freshness +{freshness:.1f}")
 
-    views = candidate.get("sourceViewCount")
+    numeric_views = _numeric(candidate, "sourceViewCount")
+    numeric_likes = _numeric(candidate, "sourceLikeCount")
+    numeric_comments = _numeric(candidate, "sourceCommentCount")
+
     view_points = 0.0
     velocity_points = 0.0
-    if views is not None:
-        try:
-            numeric_views = max(0.0, float(views))
-            if numeric_views >= 1_000:
-                view_points = min(24.0, max(0.0, (math.log10(numeric_views) - 3.0) * 8.0))
-            points += view_points
-            reasons.append(f"views +{view_points:.1f} ({int(numeric_views):,})")
-            if age_hours is not None and age_hours <= 72:
-                views_per_hour = numeric_views / max(age_hours, 0.5)
-                if views_per_hour >= 1_000_000:
-                    velocity_points = 18.0
-                elif views_per_hour >= 250_000:
-                    velocity_points = 14.0
-                elif views_per_hour >= 75_000:
-                    velocity_points = 10.0
-                elif views_per_hour >= 20_000:
-                    velocity_points = 7.0
-                elif views_per_hour >= 5_000:
-                    velocity_points = 4.0
-                points += velocity_points
-                if velocity_points:
-                    reasons.append(f"view velocity +{velocity_points:.0f} ({int(views_per_hour):,}/hr)")
-        except (TypeError, ValueError):
-            pass
+    if numeric_views >= 1_000:
+        view_points = min(24.0, max(0.0, (math.log10(numeric_views) - 3.0) * 8.0))
+    points += view_points
+    if candidate.get("sourceViewCount") is not None:
+        reasons.append(f"views +{view_points:.1f} ({int(numeric_views):,})")
+    if numeric_views > 0 and age_hours is not None and age_hours <= 72:
+        views_per_hour = numeric_views / max(age_hours, 0.5)
+        if views_per_hour >= 1_000_000:
+            velocity_points = 18.0
+        elif views_per_hour >= 250_000:
+            velocity_points = 14.0
+        elif views_per_hour >= 75_000:
+            velocity_points = 10.0
+        elif views_per_hour >= 20_000:
+            velocity_points = 7.0
+        elif views_per_hour >= 5_000:
+            velocity_points = 4.0
+        points += velocity_points
+        if velocity_points:
+            reasons.append(f"view velocity +{velocity_points:.0f} ({int(views_per_hour):,}/hr)")
+
+    # Instagram often hides Reel view counts from the HTML while still exposing
+    # likes/comments in OG metadata. Use those as a bounded fallback signal. If
+    # views are present, engagement still helps a little but cannot double-count
+    # its way past a materially stronger clip.
+    like_points = 0.0
+    comment_points = 0.0
+    engagement_velocity_points = 0.0
+    if numeric_likes >= 100:
+        like_points = min(10.0, max(0.0, (math.log10(numeric_likes) - 2.0) * 4.0))
+    if numeric_comments >= 10:
+        comment_points = min(8.0, max(0.0, (math.log10(numeric_comments) - 1.0) * 3.0))
+    engagement_scale = 1.0 if numeric_views <= 0 else 0.4
+    engagement_points = (like_points + comment_points) * engagement_scale
+    points += engagement_points
+    if numeric_likes or numeric_comments:
+        reasons.append(
+            f"engagement +{engagement_points:.1f} ({int(numeric_likes):,} likes, {int(numeric_comments):,} comments)"
+        )
+
+    if age_hours is not None and age_hours <= 72 and (numeric_likes or numeric_comments):
+        # Comments are weighted more heavily because discussion/reaction is a
+        # better viral signal than a passive like. This is still deterministic
+        # and uses only visible source metrics.
+        interaction_rate = (numeric_likes + numeric_comments * 8.0) / max(age_hours, 0.5)
+        if interaction_rate >= 100_000:
+            engagement_velocity_points = 10.0
+        elif interaction_rate >= 25_000:
+            engagement_velocity_points = 8.0
+        elif interaction_rate >= 7_500:
+            engagement_velocity_points = 6.0
+        elif interaction_rate >= 2_000:
+            engagement_velocity_points = 4.0
+        elif interaction_rate >= 500:
+            engagement_velocity_points = 2.0
+        engagement_velocity_points *= engagement_scale
+        points += engagement_velocity_points
+        if engagement_velocity_points:
+            reasons.append(
+                f"engagement velocity +{engagement_velocity_points:.1f} ({int(interaction_rate):,}/hr weighted)"
+            )
 
     elite = _count_terms(lower, ELITE_HIGHLIGHTS)
     strong = _count_terms(lower, STRONG_HIGHLIGHTS)
@@ -287,7 +333,11 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
 
     highlight_quality = min(
         100.0,
-        highlight_points * 2.0 + stakes_points * 1.5 + min(20.0, view_points) + min(18.0, velocity_points),
+        highlight_points * 2.0
+        + stakes_points * 1.5
+        + min(20.0, view_points)
+        + min(18.0, velocity_points)
+        + min(14.0, engagement_points + engagement_velocity_points),
     )
 
     if elite or strong:
@@ -328,6 +378,7 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
         deterministicScore=round(selection_score, 2),
         rawScore=round(selection_score, 2),
         viralScore=round(viral_score, 2),
+        engagementScore=round(engagement_points + engagement_velocity_points, 2),
         highlightQuality=round(highlight_quality, 2),
         postingFloor=required_score,
         highlightFloor=required_highlight,
