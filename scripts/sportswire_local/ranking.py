@@ -24,6 +24,47 @@ SOURCE_PRIORS = {
     "jomboymedia": 6.0,
 }
 
+# Captions on highlight accounts often omit the league entirely ("Steph hit the
+# game winner"). These high-signal entity hints stop those clips from falling
+# into the generic sports bucket. Ambiguous single-word team names are avoided.
+BASKETBALL_ENTITIES = (
+    "lebron", "steph", "steph curry", "curry", "kevin durant", "durant", "jokic",
+    "nikola jokic", "luka doncic", "doncic", "giannis", "embiid", "jayson tatum",
+    "tatum", "wembanyama", "wemby", "lakers", "celtics", "warriors", "knicks",
+    "brooklyn nets", "milwaukee bucks", "76ers", "sixers", "cavaliers", "cavs",
+    "mavericks", "mavs", "nuggets", "phoenix suns", "clippers", "timberwolves",
+    "okc thunder", "houston rockets", "san antonio spurs", "grizzlies", "pelicans",
+    "atlanta hawks", "charlotte hornets", "detroit pistons", "indiana pacers",
+    "chicago bulls", "trail blazers", "portland blazers", "toronto raptors",
+)
+FOOTBALL_ENTITIES = (
+    "patrick mahomes", "mahomes", "lamar jackson", "joe burrow", "jalen hurts",
+    "cj stroud", "c.j. stroud", "justin herbert", "dak prescott", "justin jefferson",
+    "kansas city chiefs", "buffalo bills", "baltimore ravens", "cincinnati bengals",
+    "pittsburgh steelers", "cleveland browns", "houston texans", "indianapolis colts",
+    "jacksonville jaguars", "tennessee titans", "los angeles chargers", "denver broncos",
+    "las vegas raiders", "miami dolphins", "new england patriots", "dallas cowboys",
+    "philadelphia eagles", "washington commanders", "green bay packers", "minnesota vikings",
+    "tampa bay buccaneers", "atlanta falcons", "new orleans saints", "seattle seahawks",
+    "los angeles rams", "49ers", "san francisco 49ers",
+)
+MLB_ENTITIES = (
+    "shohei ohtani", "ohtani", "aaron judge", "juan soto", "mike trout",
+    "new york yankees", "los angeles dodgers", "red sox", "chicago cubs", "new york mets",
+    "philadelphia phillies", "houston astros", "san diego padres", "atlanta braves",
+    "baltimore orioles", "seattle mariners", "milwaukee brewers", "kansas city royals",
+    "tampa bay rays", "cleveland guardians", "white sox", "toronto blue jays",
+)
+HOCKEY_ENTITIES = (
+    "connor mcdavid", "mcdavid", "leon draisaitl", "alex ovechkin", "ovechkin",
+    "sidney crosby", "crosby", "nathan mackinnon", "auston matthews", "connor bedard",
+    "boston bruins", "montreal canadiens", "toronto maple leafs", "edmonton oilers",
+    "colorado avalanche", "tampa bay lightning", "new jersey devils", "new york islanders",
+    "ottawa senators", "detroit red wings", "vegas golden knights", "seattle kraken",
+    "philadelphia flyers", "pittsburgh penguins", "washington capitals", "buffalo sabres",
+    "nashville predators", "vancouver canucks", "chicago blackhawks",
+)
+
 ELITE_HIGHLIGHTS = (
     "game winner", "game-winner", "buzzer beater", "buzzer-beater", "walk off",
     "walk-off", "poster dunk", "posterized", "posterizes", "ankle breaker",
@@ -71,21 +112,37 @@ def _phrase(text: str, phrase: str) -> bool:
     pattern = r"(?<![a-z0-9])" + re.escape(phrase.lower()) + r"(?![a-z0-9])"
     return re.search(pattern, text.lower()) is not None
 
-def classify(text: str) -> str:
-    value = text.lower()
-    if any(_phrase(value, term) for term in ("wnba", "women's basketball", "womens basketball")):
+def _has_any(text: str, terms: tuple[str, ...]) -> bool:
+    return any(_phrase(text, term) for term in terms)
+
+def classify(text: str, source_url: str = "") -> str:
+    value = f"{text} {source_url}".lower()
+
+    # Explicit competition/league language always wins over entity inference.
+    if _has_any(value, ("wnba", "women's basketball", "womens basketball")):
         return "wnba"
-    if any(_phrase(value, term) for term in ("college basketball", "ncaa basketball", "march madness")):
+    if _has_any(value, ("college basketball", "ncaa basketball", "march madness", "#cbb", "br_cbb")):
         return "ncaa_basketball"
-    if any(_phrase(value, term) for term in ("nba", "basketball", "dunk", "buzzer beater", "three-pointer", "three pointer", "layup", "alley oop", "alley-oop", "jumper")):
-        return "nba"
-    if any(_phrase(value, term) for term in ("college football", "ncaa football", "cfb")):
+    if _has_any(value, ("college football", "ncaa football", "cfb", "#cfb", "collegefootball", "ncaafootball", "br_cfb")):
         return "ncaa_football"
-    if any(_phrase(value, term) for term in ("nfl", "football", "touchdown", "quarterback", "wide receiver", "interception", "pick six", "field goal")):
+    if _has_any(value, ("nba", "basketball", "dunk", "buzzer beater", "three-pointer", "three pointer", "layup", "alley oop", "alley-oop", "jumper")):
+        return "nba"
+    if _has_any(value, ("nfl", "football", "touchdown", "quarterback", "wide receiver", "interception", "pick six", "field goal")):
         return "nfl"
-    if any(_phrase(value, term) for term in ("mlb", "baseball", "home run", "homer", "world series", "strikeout", "grand slam", "pitcher", "batter")):
+    if _has_any(value, ("mlb", "baseball", "home run", "homer", "world series", "strikeout", "grand slam", "pitcher", "batter")):
         return "mlb"
-    if any(_phrase(value, term) for term in ("nhl", "hockey", "stanley cup", "goalie", "puck", "slapshot", "slap shot", "power play", "hat trick")):
+    if _has_any(value, ("nhl", "hockey", "stanley cup", "goalie", "puck", "slapshot", "slap shot", "power play", "hat trick")):
+        return "nhl"
+
+    # Then use high-confidence athlete/team language for captions that assume
+    # the audience already knows the sport.
+    if _has_any(value, BASKETBALL_ENTITIES):
+        return "nba"
+    if _has_any(value, FOOTBALL_ENTITIES):
+        return "nfl"
+    if _has_any(value, MLB_ENTITIES):
+        return "mlb"
+    if _has_any(value, HOCKEY_ENTITIES):
         return "nhl"
     return "sports"
 
@@ -146,11 +203,11 @@ def _count_terms(text: str, terms: tuple[str, ...]) -> int:
     return sum(1 for term in terms if term in text)
 
 def _priority(score_value: float) -> str:
-    if score_value >= 82:
+    if score_value >= 95:
         return "P1"
-    if score_value >= 68:
+    if score_value >= 75:
         return "P2"
-    if score_value >= 55:
+    if score_value >= 58:
         return "P3"
     return "P4"
 
@@ -159,7 +216,7 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
     candidate = dict(candidate)
     text = str(candidate.get("sourceCaption") or "")
     lower = text.lower()
-    league = classify(text)
+    league = classify(text, str(candidate.get("sourceUrl") or ""))
     sport = sport_group(league)
     policy = _policy(sport)
     points = 10.0
@@ -187,11 +244,16 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
             reasons.append(f"views +{view_points:.1f} ({int(numeric_views):,})")
             if age_hours is not None and age_hours <= 72:
                 views_per_hour = numeric_views / max(age_hours, 0.5)
-                if views_per_hour >= 1_000_000: velocity_points = 18.0
-                elif views_per_hour >= 250_000: velocity_points = 14.0
-                elif views_per_hour >= 75_000: velocity_points = 10.0
-                elif views_per_hour >= 20_000: velocity_points = 7.0
-                elif views_per_hour >= 5_000: velocity_points = 4.0
+                if views_per_hour >= 1_000_000:
+                    velocity_points = 18.0
+                elif views_per_hour >= 250_000:
+                    velocity_points = 14.0
+                elif views_per_hour >= 75_000:
+                    velocity_points = 10.0
+                elif views_per_hour >= 20_000:
+                    velocity_points = 7.0
+                elif views_per_hour >= 5_000:
+                    velocity_points = 4.0
                 points += velocity_points
                 if velocity_points:
                     reasons.append(f"view velocity +{velocity_points:.0f} ({int(views_per_hour):,}/hr)")
@@ -212,15 +274,20 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
     routine_penalty = min(18.0, routine * 9.0)
 
     points += highlight_points + stakes_points + news_points + culture_points - routine_penalty
-    if highlight_points: reasons.append(f"highlight action +{highlight_points:.0f}")
-    if stakes_points: reasons.append(f"stakes +{stakes_points:.0f}")
-    if news_points: reasons.append(f"breaking/news +{news_points:.0f}")
-    if culture_points: reasons.append(f"viral culture +{culture_points:.0f}")
-    if routine_penalty: reasons.append(f"routine-content -{routine_penalty:.0f}")
+    if highlight_points:
+        reasons.append(f"highlight action +{highlight_points:.0f}")
+    if stakes_points:
+        reasons.append(f"stakes +{stakes_points:.0f}")
+    if news_points:
+        reasons.append(f"breaking/news +{news_points:.0f}")
+    if culture_points:
+        reasons.append(f"viral culture +{culture_points:.0f}")
+    if routine_penalty:
+        reasons.append(f"routine-content -{routine_penalty:.0f}")
 
     highlight_quality = min(
         100.0,
-        highlight_points * 2.0 + stakes_points * 1.5 + min(20.0, view_points) + min(18.0, velocity_points)
+        highlight_points * 2.0 + stakes_points * 1.5 + min(20.0, view_points) + min(18.0, velocity_points),
     )
 
     if elite or strong:
@@ -235,7 +302,10 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
     points += float(policy["preference"])
     reasons.append(f"{sport} rank #{policy['rank']} preference {policy['preference']:+.0f}")
 
-    selection_score = max(0.0, min(100.0, points))
+    # Do not clamp the ranking score. Two elite clips can both be 100/100 viral,
+    # but the better/fresher/faster one still needs to win selection.
+    selection_score = max(0.0, points)
+    viral_score = min(100.0, selection_score)
     required_score = float(policy["score_floor"])
     required_highlight = float(policy["highlight_floor"])
     supported = sport in SPORT_POLICIES
@@ -256,10 +326,12 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
         sportRank=int(policy["rank"]),
         contentKind=content_kind,
         deterministicScore=round(selection_score, 2),
-        viralScore=round(selection_score, 2),
+        rawScore=round(selection_score, 2),
+        viralScore=round(viral_score, 2),
         highlightQuality=round(highlight_quality, 2),
         postingFloor=required_score,
         highlightFloor=required_highlight,
+        scoreMargin=round(selection_score - required_score, 2),
         eligibleForAutoPost=eligible,
         priority=_priority(selection_score),
         scoreReasons=reasons,
@@ -294,16 +366,29 @@ def apply_history_penalties(candidates: list[dict], history: list[dict]) -> list
             penalty = 12.0
 
         if penalty:
-            item["deterministicScore"] = round(max(0.0, float(item.get("deterministicScore") or 0) - penalty), 2)
-            item["viralScore"] = item["deterministicScore"]
-            item["scoreReasons"] = list(item.get("scoreReasons") or []) + [f"recent-story similarity -{penalty:.0f} ({best_similarity:.2f})"]
+            adjusted = max(0.0, float(item.get("deterministicScore") or 0) - penalty)
+            item["deterministicScore"] = round(adjusted, 2)
+            item["rawScore"] = round(adjusted, 2)
+            item["viralScore"] = round(min(100.0, adjusted), 2)
+            item["scoreMargin"] = round(adjusted - float(item.get("postingFloor") or 0), 2)
+            item["scoreReasons"] = list(item.get("scoreReasons") or []) + [
+                f"recent-story similarity -{penalty:.0f} ({best_similarity:.2f})"
+            ]
             item["duplicateOf"] = duplicate_of
-            if item["deterministicScore"] < float(item.get("postingFloor") or 0):
+            if adjusted < float(item.get("postingFloor") or 0):
                 item["eligibleForAutoPost"] = False
-            item["priority"] = _priority(float(item["deterministicScore"]))
+            item["priority"] = _priority(adjusted)
         ranked.append(item)
     return ranked
 
 def select_best(candidates: list[dict], limit: int = 1) -> list[dict]:
     eligible = [item for item in candidates if item.get("eligibleForAutoPost")]
-    return sorted(eligible, key=lambda item: float(item.get("deterministicScore") or 0), reverse=True)[:max(0, limit)]
+    return sorted(
+        eligible,
+        key=lambda item: (
+            float(item.get("deterministicScore") or 0),
+            float(item.get("highlightQuality") or 0),
+            -int(item.get("sportRank") or 99),
+        ),
+        reverse=True,
+    )[:max(0, limit)]
