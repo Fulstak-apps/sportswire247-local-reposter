@@ -36,6 +36,8 @@ The deterministic ranker now combines:
 - freshness with time decay instead of a crude one-hour bucket;
 - raw visible views;
 - estimated visible views per hour for early momentum;
+- visible likes and comments when Instagram exposes them;
+- bounded likes/comments interaction velocity as a fallback when Reel view counts are hidden;
 - source quality priors;
 - elite highlight signals such as game-winners, buzzer beaters, walk-offs, poster dunks, Hail Marys, pick-sixes, grand slams, goalie robberies, and overtime winners;
 - strong highlight signals such as touchdowns, home runs, interceptions, sacks, saves, goals, strikeouts, fights, ejections, blocks, and steals;
@@ -45,9 +47,11 @@ The deterministic ranker now combines:
 - penalties for routine practice, warmups, press conferences, arrivals, walkthroughs, and workouts;
 - near-duplicate penalties against recent SportsWire delivery history.
 
+Instagram does not consistently expose Reel views in the page HTML. The collector therefore records `sourceViewCount`, `sourceLikeCount`, and `sourceCommentCount`. When views are missing or zero, engagement gets its full bounded fallback weight; when views are available, the engagement weight is reduced so popularity is not double-counted.
+
 The classifier also recognizes high-confidence player/team language and source-URL hints. A caption such as `Steph hit the game winner` no longer needs to literally say `NBA`, and a `br_cfb` source URL can identify college football even when the caption is shorthand.
 
-Every candidate exposes `viralScore`, `rawScore`, `scoreMargin`, `highlightQuality`, `postingFloor`, `highlightFloor`, `sportRank`, `contentKind`, `priority`, `eligibleForAutoPost`, and human-readable `scoreReasons`.
+Every candidate exposes `viralScore`, `rawScore`, `engagementScore`, `scoreMargin`, `highlightQuality`, `postingFloor`, `highlightFloor`, `sportRank`, `contentKind`, `priority`, `eligibleForAutoPost`, and human-readable `scoreReasons`.
 
 `viralScore` is normalized to a 0-100 display score. `rawScore` / `deterministicScore` are intentionally allowed to exceed 100 so two elite clips do not tie just because both are excellent. Selection uses the raw ranking score first, then highlight quality and the sport hierarchy as tie-breakers.
 
@@ -59,7 +63,7 @@ Routine content also needs extra proof above the normal posting floor. Unsupport
 
 ## Viral voice
 
-Ollama remains optional and local. It receives the deterministic ranking metadata so it knows whether the item is an elite highlight, breaking news, or sports culture. It is instructed to lead with the strongest verified part of the moment, sound concise and sports-native, and never invent scores, injuries, trades, quotes, records, or facts. Exact source copy remains the safe fallback when Ollama is unavailable or malformed.
+Ollama remains optional and local. It receives the deterministic ranking metadata plus visible view/like/comment context so it knows whether the item is an elite highlight, breaking news, or sports culture. It is instructed to lead with the strongest verified part of the moment, sound concise and sports-native, and never invent scores, injuries, trades, quotes, records, engagement counts, or facts. Exact source copy remains the safe fallback when Ollama is unavailable or malformed.
 
 ## Safety and reliability
 
@@ -87,6 +91,6 @@ python3 -m unittest discover -s scripts -p 'test_local_sportswire*.py' -v
 
 ## Cost
 
-Newsroom v2 adds no paid model or ranking API. Ranking is standard-library Python. Caption cleanup stays on local Ollama `qwen3:4b`. The existing Meta publisher is unchanged.
+Newsroom v2 adds no paid model, engagement service, or ranking API. Ranking is standard-library Python. Caption cleanup stays on local Ollama `qwen3:4b`. The existing Meta publisher is unchanged.
 
 No ranking system can guarantee virality. The goal is to increase the percentage of posts with strong freshness, momentum, highlight quality, and cultural relevance while reducing weak clips and repetition.
