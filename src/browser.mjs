@@ -22,6 +22,16 @@ export async function discoverVisible(context, handle) {
   } finally { await page.close(); }
 }
 
+export function parseSocialCount(text, label) {
+  const pattern = new RegExp(`([\\d,.]+)\\s*([KMB])?\\s+${label}s?\\b`, "i");
+  const match = String(text || "").match(pattern);
+  if (!match) return 0;
+  const raw = Number(match[1].replace(/,/g, ""));
+  if (!Number.isFinite(raw)) return 0;
+  const multiplier = { k: 1_000, m: 1_000_000, b: 1_000_000_000 }[String(match[2] || "").toLowerCase()] || 1;
+  return Math.round(raw * multiplier);
+}
+
 export async function readPost(context, url) {
   const page = await context.newPage();
   try {
@@ -34,10 +44,18 @@ export async function readPost(context, url) {
     const quoted = title.match(/^[^:]+:\s*[“\"]([\s\S]*)[”\"]$/)?.[1];
     const caption = quoted || description.match(/^[^:]+:\s*[“\"]([\s\S]*)[”\"]/)?.[1] || title;
     const pageText = await page.locator("body").innerText().catch(() => "");
-    const viewMatch = `${description}\n${pageText}`.match(/([\d,.]+)\s*([KMB])?\s+views?\b/i);
-    const rawViews = Number(viewMatch?.[1]?.replace(/,/g, "") || 0);
-    const multiplier = { k: 1_000, m: 1_000_000, b: 1_000_000_000 }[String(viewMatch?.[2] || "").toLowerCase()] || 1;
+    const metricText = `${description}\n${pageText}`;
+    const viewCount = parseSocialCount(metricText, "view");
+    const likeCount = parseSocialCount(metricText, "like");
+    const commentCount = parseSocialCount(metricText, "comment");
     const publishedAt = await page.locator("time[datetime]").first().getAttribute("datetime").catch(() => "");
-    return { isVideo, caption: String(caption || "").trim(), viewCount: Math.round(rawViews * multiplier), publishedAt: publishedAt || null };
+    return {
+      isVideo,
+      caption: String(caption || "").trim(),
+      viewCount,
+      likeCount,
+      commentCount,
+      publishedAt: publishedAt || null,
+    };
   } finally { await page.close(); }
 }
