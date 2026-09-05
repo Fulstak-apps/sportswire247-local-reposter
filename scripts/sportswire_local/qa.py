@@ -29,9 +29,10 @@ def evaluate(item: dict, approved_handles: set[str], existing_fingerprints: set[
     if not item.get("sourceCaption"): reasons.append("source evidence caption missing")
     ok, media_reason = media_probe(item.get("localVideoPath", ""))
     if not ok: reasons.append(media_reason)
+    source_caption = item.get("sourceCaption", "")
     caption = item.get("publishCaption", "")
-    if SERIOUS.search(item.get("sourceCaption", "")) and PLAYFUL.search(caption): reasons.append("serious-content tone violation")
-    if INJURY_OVERCLAIM.search(caption) and not INJURY_OVERCLAIM.search(item.get("sourceCaption", "")): reasons.append("injury claim exceeds evidence")
+    if SERIOUS.search(source_caption) and PLAYFUL.search(caption): reasons.append("serious-content tone violation")
+    if INJURY_OVERCLAIM.search(caption) and not INJURY_OVERCLAIM.search(source_caption): reasons.append("injury claim exceeds evidence")
     published = item.get("sourcePublishedAt")
     if published:
         try:
@@ -39,12 +40,15 @@ def evaluate(item: dict, approved_handles: set[str], existing_fingerprints: set[
             popular = float(item.get("sourceViewCount") or 0) >= 1_000_000
             if age_days > 30 or (age_days > 7 and not popular): reasons.append("stale story")
         except (ValueError, TypeError): reasons.append("invalid publication time")
-    if LEGAL.search(item.get("sourceCaption", "")) and not item.get("reportingVerified"): reasons.append("legal/serious attribution not verified")
+    if (LEGAL.search(source_caption) or SERIOUS.search(source_caption)) and not item.get("reportingVerified"):
+        reasons.append("serious/legal reporting not verified")
     allowed_tags = set(item.get("verifiedHandles", [])) | {item.get("sourceHandle", ""), "sportswire247"}
     if any(handle not in allowed_tags for handle in HANDLE.findall(caption)): reasons.append("unverified athlete handle")
     expected = set(item.get("expectedAthletes", [])); detected = set(item.get("detectedAthletes", []))
     if expected and detected and expected.isdisjoint(detected): reasons.append("wrong athlete image")
     if item.get("branding", {}).get("logoApplied") and not item.get("branding", {}).get("contentSafeChecked"): reasons.append("logo placement not content-safe verified")
     if existing_fingerprints and item.get("storyFingerprint") in existing_fingerprints: reasons.append("duplicate story fingerprint")
+    if item.get("rankingVersion") == "sportswire-newsroom-v2" and not item.get("eligibleForAutoPost", False):
+        reasons.append("below sport-specific posting threshold")
     if "rapwire" in (caption + item.get("localVideoPath", "") + item.get("sourceUrl", "")).lower(): reasons.append("RapWire cross-post contamination")
     return {"ready": not reasons, "reasons": reasons, "media": media_reason}
