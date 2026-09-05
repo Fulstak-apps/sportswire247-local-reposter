@@ -19,8 +19,14 @@ BASE = {
 }
 
 class SportsWireV2RankingTests(unittest.TestCase):
-    def ranked(self, caption, views=50_000, shortcode="CLIP1"):
-        return score({**BASE, "shortcode": shortcode, "sourceCaption": caption, "sourceViewCount": views}, NOW)
+    def ranked(self, caption, views=50_000, shortcode="CLIP1", source_url=None):
+        return score({
+            **BASE,
+            "shortcode": shortcode,
+            "sourceCaption": caption,
+            "sourceViewCount": views,
+            "sourceUrl": source_url or BASE["sourceUrl"],
+        }, NOW)
 
     def test_sport_posting_floors_follow_user_priority(self):
         self.assertLess(SPORT_POLICIES["basketball"]["score_floor"], SPORT_POLICIES["football"]["score_floor"])
@@ -54,6 +60,21 @@ class SportsWireV2RankingTests(unittest.TestCase):
     def test_wnba_does_not_get_misclassified_as_nba_substring(self):
         self.assertEqual(classify("WNBA buzzer beater"), "wnba")
 
+    def test_player_name_can_identify_sport_when_caption_omits_league(self):
+        item = self.ranked("Steph hit the game winner from the logo", 2_000_000)
+        self.assertEqual(item["league"], "nba")
+        self.assertEqual(item["sportCategory"], "basketball")
+        self.assertTrue(item["eligibleForAutoPost"])
+
+    def test_source_url_can_identify_college_football(self):
+        item = self.ranked(
+            "Rocky Beers got UP for this TD",
+            0,
+            source_url="https://www.instagram.com/br_cfb/p/example/",
+        )
+        self.assertEqual(item["league"], "ncaa_football")
+        self.assertEqual(item["sportCategory"], "football")
+
     def test_non_target_sport_is_not_autoposted(self):
         soccer = self.ranked("Premier League viral goal", 20_000_000)
         self.assertEqual(soccer["sportCategory"], "other")
@@ -73,9 +94,20 @@ class SportsWireV2RankingTests(unittest.TestCase):
         self.assertNotIn("duplicateOf", penalized)
         self.assertEqual(penalized["deterministicScore"], item["deterministicScore"])
 
+    def test_elite_clips_keep_rank_separation_above_100(self):
+        monster = self.ranked("NBA game winner poster dunk in Game 7 goes viral", 20_000_000, "MONSTER")
+        great = self.ranked("NBA game winner dunk", 2_000_000, "GREAT")
+        self.assertEqual(monster["viralScore"], 100.0)
+        self.assertGreater(monster["deterministicScore"], 100.0)
+        self.assertGreater(monster["deterministicScore"], great["deterministicScore"])
+        self.assertEqual(select_best([great, monster])[0]["shortcode"], "MONSTER")
+
     def test_v2_score_is_explainable(self):
         item = self.ranked("NFL wild one-handed catch touchdown", 1_000_000)
-        for field in ("viralScore", "highlightQuality", "postingFloor", "highlightFloor", "priority", "contentKind", "sportRank", "scoreReasons", "rankingVersion"):
+        for field in (
+            "viralScore", "rawScore", "highlightQuality", "postingFloor", "highlightFloor",
+            "scoreMargin", "priority", "contentKind", "sportRank", "scoreReasons", "rankingVersion"
+        ):
             self.assertIn(field, item)
         self.assertEqual(item["rankingVersion"], "sportswire-newsroom-v2")
 
