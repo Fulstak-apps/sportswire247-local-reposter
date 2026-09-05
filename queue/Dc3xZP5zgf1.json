@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "shortcode": "Dc3xZP5zgf1",
+  "sourceHandle": "bleacherreport",
+  "sourceUrl": "https://www.instagram.com/br_cfb/reel/Dc3xZP5zgf1/",
+  "sourceCaption": "Nothing but respect for Coach Prime and the Buffs after their Week 1 win \ud83e\udd1d\n\n(via @deionsanders)\n\n#cfb #collegefootball #deionsanders #football #colorado",
+  "publishCaption": "Nothing but respect for Coach Prime and the Buffs after their Week 1 win \ud83e\udd1d\n\n(via @deionsanders)\n\n#cfb #collegefootball #deionsanders #football #colorado\n\nSource: @bleacherreport\n\n@sportswire247",
+  "discoveredAt": "2026-09-04T16:22:43.134Z",
+  "status": "held",
+  "attempts": {
+    "download": 0,
+    "publish": 0
+  },
+  "publicationResult": null,
+  "body": "Nothing but respect for Coach Prime and the Buffs after their Week 1 win \ud83e\udd1d\n\n(via @deionsanders)\n\n#cfb #collegefootball #deionsanders #football #colorado",
+  "captionMode": "source_verbatim_fallback",
+  "captionCheckedAt": "2026-09-04T16:23:31.674Z",
+  "sourceViewCount": 0,
+  "sourcePublishedAt": "2026-09-04T16:05:07.000Z",
+  "branding": {
+    "logoPath": "/Users/dw/Library/Application Support/SportsWire/publisher-runtime/assets/sportswire247-logo.png",
+    "logoPosition": "bottom-left",
+    "logoWidth": 113,
+    "margin": 23,
+    "logoApplied": true,
+    "contentSafeChecked": true,
+    "sampledFrames": 5,
+    "sourceDuration": 27.933008,
+    "outputDuration": 27.933008,
+    "sourceSha256": "0db96e449d3224d3ff89047f6cb8aa4eb3dc7eb6de8bd73d49bb722072a5305c",
+    "outputSha256": "aa06d84be066367e1b939426e052127cfda37bd50d697dc962add37c21f9de30"
+  },
+  "threadsText": "Nothing but respect for Coach Prime and the Buffs after their Week 1 win \ud83e\udd1d\n\n(via @deionsanders)\n\n#cfb #collegefootball #deionsanders #football #colorado",
+  "contentLane": "viral_sports",
+  "confidence": "reported",
+  "ollamaStatus": "fallback_source_caption: ValueError",
+  "qa": {
+    "ready": false,
+    "reasons": [
+      "unverified athlete handle"
+    ],
+    "media": "H.264/AAC video/audio verified"
+  },
+  "deterministicScore": 3049.5,
+  "scoreReasons": [
+    "approved sports source",
+    "views=0",
+    "freshness=19.5",
+    "sport priority=3 (basketball, football, MLB, NHL)"
+  ],
+  "storyFingerprint": "nothing but respect for coach prime and the buffs after their week 1 win via deionsanders cfb collegefootball deionsanders football colorado",
+  "video": "media/Dc3xZP5zgf1-sportswire247.mp4",
+  "brand": "SportsWire 247",
+  "destinationHandle": "sportswire247",
+  "instagramStatus": "pending",
+  "threadsStatus": "pending"
+}
