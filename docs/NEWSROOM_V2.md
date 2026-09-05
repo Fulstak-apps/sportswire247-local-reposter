@@ -45,7 +45,11 @@ The deterministic ranker now combines:
 - penalties for routine practice, warmups, press conferences, arrivals, walkthroughs, and workouts;
 - near-duplicate penalties against recent SportsWire delivery history.
 
-Every candidate exposes `viralScore`, `highlightQuality`, `postingFloor`, `highlightFloor`, `sportRank`, `contentKind`, `priority`, `eligibleForAutoPost`, and human-readable `scoreReasons`.
+The classifier also recognizes high-confidence player/team language and source-URL hints. A caption such as `Steph hit the game winner` no longer needs to literally say `NBA`, and a `br_cfb` source URL can identify college football even when the caption is shorthand.
+
+Every candidate exposes `viralScore`, `rawScore`, `scoreMargin`, `highlightQuality`, `postingFloor`, `highlightFloor`, `sportRank`, `contentKind`, `priority`, `eligibleForAutoPost`, and human-readable `scoreReasons`.
+
+`viralScore` is normalized to a 0-100 display score. `rawScore` / `deterministicScore` are intentionally allowed to exceed 100 so two elite clips do not tie just because both are excellent. Selection uses the raw ranking score first, then highlight quality and the sport hierarchy as tie-breakers.
 
 ## Highlight rule
 
@@ -69,7 +73,7 @@ The actual launch path remains:
 
 `launchd -> scripts/run-local-newsroom.sh -> collector -> scripts/local-sportswire.py -> SportsWire v2 ranking -> queue -> GitHub publisher`
 
-The runner now treats `--dry-run` and `--health` as genuinely read-only and skips collection, queue pushing, and workflow dispatch for those modes.
+The runner treats `--dry-run` and `--health` as genuinely read-only and skips collection, queue pushing, and workflow dispatch for those modes.
 
 Useful commands:
 
