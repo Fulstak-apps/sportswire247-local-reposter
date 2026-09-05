@@ -42,7 +42,7 @@ def evaluate(item: dict, approved_handles: set[str], existing_fingerprints: set[
         except (ValueError, TypeError): reasons.append("invalid publication time")
     if (LEGAL.search(source_caption) or SERIOUS.search(source_caption)) and not item.get("reportingVerified"):
         reasons.append("serious/legal reporting not verified")
-    allowed_tags = set(item.get("verifiedHandles", [])) | {item.get("sourceHandle", ""), "sportswire247"}
+    allowed_tags = set(item.get("verifiedHandles", [])) | set(HANDLE.findall(source_caption)) | {item.get("sourceHandle", ""), "sportswire247"}
     if any(handle not in allowed_tags for handle in HANDLE.findall(caption)): reasons.append("unverified athlete handle")
     expected = set(item.get("expectedAthletes", [])); detected = set(item.get("detectedAthletes", []))
     if expected and detected and expected.isdisjoint(detected): reasons.append("wrong athlete image")

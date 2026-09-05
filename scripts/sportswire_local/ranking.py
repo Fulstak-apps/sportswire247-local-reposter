@@ -93,7 +93,7 @@ BREAKING_NEWS = (
 CULTURE_HEAT = (
     "trash talk", "mic'd up", "micd up", "celebration", "taunt", "taunting",
     "fan reaction", "bench reaction", "mascot", "funny", "wild", "insane",
-    "viral", "heated", "staredown", "stare down", "troll", "claps back",
+    "viral", "heated", "staredown", "stare down", "troll", "claps back", "hyped", "season opener",
 )
 ROUTINE_TERMS = (
     "practice", "warmup", "warm-up", "pregame", "pre-game", "press conference",
@@ -364,6 +364,12 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
         eligible = eligible and highlight_quality >= required_highlight
     elif content_kind == "routine":
         eligible = eligible and selection_score >= min(100.0, required_score + 8.0)
+    # Source-backed reactions and game clips need not go viral before selection.
+    # Keep sport identification, freshness and downstream media/duplicate QA.
+    if supported and age_hours is not None and age_hours <= 72:
+        if numeric_likes >= 1000 or numeric_comments >= 50:
+            eligible = selection_score >= required_score - 12
+            if eligible: reasons.append("recent supported sport with observed audience engagement")
 
     reasons.append(f"posting floor {required_score:.0f}")
     if content_kind == "highlight":

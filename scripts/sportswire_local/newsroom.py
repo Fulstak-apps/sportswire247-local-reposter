@@ -89,7 +89,7 @@ def prepare(item: dict, config: dict, approved: set[str]) -> dict:
     body = generated.get("caption") or ranked.get("sourceCaption", "")
     credit = f"Source: @{ranked.get('sourceHandle', '')}"
     ranked["publishCaption"] = f"{body}\n\n{credit}\n\n@sportswire247"
-    ranked["threadsText"] = generated.get("threads_text") or body
+    ranked["threadsText"] = f"{generated.get('threads_text') or body}\n\n{credit}"
     ranked["contentLane"] = generated.get("content_lane") or ranked.get("contentKind") or "viral_sports"
     ranked["confidence"] = generated.get("confidence") or "reported"
     ranked["ollamaStatus"] = ollama_status
