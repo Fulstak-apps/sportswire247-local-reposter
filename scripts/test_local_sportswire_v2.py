@@ -77,10 +77,10 @@ class SportsWireV2RankingTests(unittest.TestCase):
         self.assertEqual(item["league"], "ncaa_football")
         self.assertEqual(item["sportCategory"], "football")
 
-    def test_engagement_rescues_viral_signal_when_views_are_hidden(self):
-        quiet = self.ranked("NFL touchdown", views=0, shortcode="QUIET")
+    def test_engagement_boosts_viral_signal_when_views_are_hidden(self):
+        quiet = self.ranked("NFL one-handed catch touchdown", views=0, shortcode="QUIET")
         hot = self.ranked(
-            "NFL touchdown",
+            "NFL one-handed catch touchdown",
             views=0,
             shortcode="HOT",
             likes=180_000,
