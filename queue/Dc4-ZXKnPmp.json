@@ -3,16 +3,16 @@
   "shortcode": "Dc4-ZXKnPmp",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_cfb/p/Dc4-ZXKnPmp/",
-  "sourceCaption": "Rocky Beers got UP for this TD \ud83e\udd2f\n\nBeers finished with 2 catches, 43 yards and a TD in Oklahoma\u2019s 51-0 win over UTEP.\n\n#cfb #collegefootball #ncaafootball #oklahomafootball",
-  "publishCaption": "Rocky Beers got UP for this TD \ud83e\udd2f\n\nBeers finished with 2 catches, 43 yards and a TD in Oklahoma\u2019s 51-0 win over UTEP.\n\n#cfb #collegefootball #ncaafootball #oklahomafootball\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Rocky Beers got UP for this TD 🤯\n\nBeers finished with 2 catches, 43 yards and a TD in Oklahoma’s 51-0 win over UTEP.\n\n#cfb #collegefootball #ncaafootball #oklahomafootball",
+  "publishCaption": "Rocky Beers got UP for this TD 🤯\n\nBeers finished with 2 catches, 43 yards and a TD in Oklahoma’s 51-0 win over UTEP.\n\n#cfb #collegefootball #ncaafootball #oklahomafootball\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-05T03:18:51.246Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Rocky Beers got UP for this TD \ud83e\udd2f\n\nBeers finished with 2 catches, 43 yards and a TD in Oklahoma\u2019s 51-0 win over UTEP.\n\n#cfb #collegefootball #ncaafootball #oklahomafootball",
+  "body": "Rocky Beers got UP for this TD 🤯\n\nBeers finished with 2 catches, 43 yards and a TD in Oklahoma’s 51-0 win over UTEP.\n\n#cfb #collegefootball #ncaafootball #oklahomafootball",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T03:19:39.803Z",
   "sourceViewCount": 0,
@@ -31,7 +31,7 @@
     "sourceSha256": "dd5bb7ae4b565a513e6c65cb26c455edccd92e5b9dc017f258447a01789455d7",
     "outputSha256": "93a9501234399eb90ddc048e05b9683ee565fc7ac6563aafb9126ec7cad01ab8"
   },
-  "threadsText": "Rocky Beers got UP for this TD \ud83e\udd2f\n\nBeers finished with 2 catches, 43 yards and a TD in Oklahoma\u2019s 51-0 win over UTEP.\n\n#cfb #collegefootball #ncaafootball #oklahomafootball",
+  "threadsText": "Rocky Beers got UP for this TD 🤯\n\nBeers finished with 2 catches, 43 yards and a TD in Oklahoma’s 51-0 win over UTEP.\n\n#cfb #collegefootball #ncaafootball #oklahomafootball",
   "contentLane": "viral_sports",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,5 +52,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107104882915961",
+  "instagramContainerCreatedAt": "2026-09-05T03:21:16.353Z",
+  "instagramPublishRequestedAt": "2026-09-05T03:21:46.872Z",
+  "instagramMediaId": "17916313998239822",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc4-9ZKin4k/",
+  "instagramVerifiedAt": "2026-09-05T03:21:54.428Z"
 }
