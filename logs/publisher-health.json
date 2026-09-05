@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-09-05T19:38:27.278Z",
+  "checkedAt": "2026-09-05T19:46:28.716Z",
   "platforms": {
     "instagram": {
       "status": "healthy",
-      "usage": 8,
+      "usage": 9,
       "limit": 100
     },
     "threads": {
       "status": "healthy",
-      "usage": 8,
+      "usage": 9,
       "limit": 250
     }
   }
