@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 import json, os, shutil, subprocess
 from pathlib import Path
 from .config import ROOT, INBOX_QUEUE, QUEUE, MEDIA, LOGS, STATE, load_config, sources
-from .ranking import score
+from .ranking import score, apply_history_penalties, select_best
 from .qa import evaluate
 from .ollama import generate
 
@@ -19,7 +19,7 @@ def read_items() -> list[dict]:
 def delivery_items() -> dict[str, dict]:
     """Read the GitHub-backed delivery queue without trusting stale inbox state.
 
-    The inbox is intentionally durable local collection state.  The delivery
+    The inbox is intentionally durable local collection state. The delivery
     queue is the publishing source of truth, so a collector cycle must never
     replace a verified platform result with an older inbox copy.
     """
@@ -31,6 +31,20 @@ def delivery_items() -> dict[str, dict]:
             if value.get("shortcode"): items[value["shortcode"]] = value
         except Exception: pass
     return items
+
+def delivery_history(limit: int = 120) -> list[dict]:
+    """Recent delivery records used only for deterministic repeat suppression."""
+    if not QUEUE.is_dir(): return []
+    files = sorted(QUEUE.glob("*.json"), key=lambda path: path.stat().st_mtime, reverse=True)
+    history = []
+    for file in files[:max(0, limit)]:
+        try:
+            value = json.loads(file.read_text())
+            if value.get("sourceCaption") or value.get("publishCaption"):
+                history.append(value)
+        except Exception:
+            pass
+    return history
 
 ACTIVE_DELIVERY_STATUSES = {
     "ready", "publishing_uncertain", "partially_published",
@@ -61,17 +75,21 @@ def lock():
     finally: path.unlink(missing_ok=True)
 
 def prepare(item: dict, config: dict, approved: set[str]) -> dict:
-    ranked = score(item)
+    ranked = dict(item) if item.get("rankingVersion") == "sportswire-newsroom-v2" else score(item)
     generated, ollama_status = {}, "fallback_source_caption"
     try:
-        generated = generate(config, {k: ranked.get(k) for k in ("sourceCaption", "sourceHandle", "sourceUrl", "league", "sourceViewCount", "sourcePublishedAt")})
+        generated = generate(config, {k: ranked.get(k) for k in (
+            "sourceCaption", "sourceHandle", "sourceUrl", "league", "sportCategory",
+            "sportRank", "contentKind", "priority", "viralScore", "highlightQuality",
+            "sourceViewCount", "sourcePublishedAt"
+        )})
         ollama_status = "local_ollama"
     except Exception as error: ollama_status = f"fallback_source_caption: {type(error).__name__}"
     body = generated.get("caption") or ranked.get("sourceCaption", "")
     credit = f"Source: @{ranked.get('sourceHandle', '')}"
     ranked["publishCaption"] = f"{body}\n\n{credit}\n\n@sportswire247"
     ranked["threadsText"] = generated.get("threads_text") or body
-    ranked["contentLane"] = generated.get("content_lane") or "viral_sports"
+    ranked["contentLane"] = generated.get("content_lane") or ranked.get("contentKind") or "viral_sports"
     ranked["confidence"] = generated.get("confidence") or "reported"
     ranked["ollamaStatus"] = ollama_status
     ranked["qa"] = evaluate(ranked, approved)
@@ -80,23 +98,46 @@ def prepare(item: dict, config: dict, approved: set[str]) -> dict:
 
 def run(dry_run: bool = False) -> dict:
     config = load_config(); registry = sources(); approved = {x["handle"] for x in registry}
-    # A dry run is strictly read-only: it does not even create the overlap lock.
     with (nullcontext() if dry_run else lock()):
         deliveries = delivery_items()
-        # Once a record is handed to the delivery lane, leave it alone until
-        # that lane has resolved it. This prevents a second collection cycle
-        # from racing a Meta verification and erasing its idempotency record.
         candidates = [x for x in read_items()
             if x.get("status") in {"pending", "review", "held"}
             and x.get("localVideoPath")
             and deliveries.get(x.get("shortcode"), {}).get("status") not in ACTIVE_DELIVERY_STATUSES]
-        ranked = sorted((score(x) for x in candidates), key=lambda x: x["deterministicScore"], reverse=True)
-        selected = prepare(ranked[0], config, approved) if ranked else None
-        result = {"at": datetime.now(timezone.utc).isoformat(), "dryRun": dry_run, "mode": config.get("mode"), "sourcesChecked": sorted(approved), "candidates": [{"shortcode": x.get("shortcode"), "league": x.get("league"), "score": x.get("deterministicScore"), "reasons": x.get("scoreReasons")} for x in ranked], "selected": selected, "gitResult": "not attempted (dry-run)" if dry_run else "local queue only"}
+
+        ranked = [score(x) for x in candidates]
+        ranked = apply_history_penalties(ranked, delivery_history())
+        ranked = sorted(ranked, key=lambda x: x["deterministicScore"], reverse=True)
+        auto_candidates = select_best(ranked, 1)
+        selected = prepare(auto_candidates[0], config, approved) if auto_candidates else None
+
+        result = {
+            "at": datetime.now(timezone.utc).isoformat(),
+            "dryRun": dry_run,
+            "mode": config.get("mode"),
+            "rankingVersion": "sportswire-newsroom-v2",
+            "sportsPriority": ["basketball", "football", "mlb", "hockey"],
+            "sourcesChecked": sorted(approved),
+            "candidates": [{
+                "shortcode": x.get("shortcode"),
+                "league": x.get("league"),
+                "sport": x.get("sportCategory"),
+                "sportRank": x.get("sportRank"),
+                "kind": x.get("contentKind"),
+                "score": x.get("deterministicScore"),
+                "priority": x.get("priority"),
+                "highlightQuality": x.get("highlightQuality"),
+                "postingFloor": x.get("postingFloor"),
+                "eligible": x.get("eligibleForAutoPost"),
+                "duplicateOf": x.get("duplicateOf"),
+                "reasons": x.get("scoreReasons"),
+            } for x in ranked],
+            "selected": selected,
+            "gitResult": "not attempted (dry-run)" if dry_run else "local queue only",
+        }
         if selected and not dry_run:
             current = json.loads((INBOX_QUEUE / f"{selected['shortcode']}.json").read_text())
             if not current.get("branding", {}).get("bottomMargin"):
-                # Re-render from the full original, never stack a second logo.
                 source = current.get("sourceVideoPath")
                 if not source or not Path(source).is_file():
                     raise RuntimeError("Original video required to update logo placement")
@@ -113,7 +154,13 @@ def run(dry_run: bool = False) -> dict:
             QUEUE.mkdir(parents=True, exist_ok=True); MEDIA.mkdir(parents=True, exist_ok=True)
             media_target = MEDIA / f"{selected['shortcode']}-sportswire247.mp4"
             shutil.copy2(Path(current["localVideoPath"]), media_target)
-            current.update({k: selected[k] for k in ("publishCaption", "threadsText", "contentLane", "confidence", "ollamaStatus", "qa", "deterministicScore", "scoreReasons", "storyFingerprint")})
+            carry = (
+                "publishCaption", "threadsText", "contentLane", "confidence", "ollamaStatus", "qa",
+                "league", "sportCategory", "sportRank", "contentKind", "priority", "viralScore",
+                "highlightQuality", "postingFloor", "highlightFloor", "eligibleForAutoPost",
+                "rankingVersion", "duplicateOf", "deterministicScore", "scoreReasons", "storyFingerprint",
+            )
+            current.update({k: selected[k] for k in carry if k in selected})
             current.update({"status": selected["proposedStatus"], "video": str(media_target.relative_to(ROOT)), "brand": "SportsWire 247", "destinationHandle": "sportswire247", "instagramStatus": "pending", "threadsStatus": "pending"})
             current = preserve_delivery_state(current, existing)
             current.pop("localVideoPath", None); current.pop("sourceVideoPath", None)
@@ -144,5 +191,6 @@ def health() -> dict:
         "INSTAGRAM_ACCESS_TOKEN", "INSTAGRAM_USER_ID", "THREADS_ACCESS_TOKEN", "THREADS_USER_ID"
     ))
     checks["rapwireIsolation"] = not any("RapWire" in str(p) for p in (ROOT, QUEUE, MEDIA, LOGS, STATE))
+    checks["rankingVersion"] = "sportswire-newsroom-v2"
     required = ("repo", "inboxQueue", "queue", "media", "ollama", "modelInstalled", "gitUsable", "schedulerPlist", "destinationSafety", "rapwireIsolation")
     return {"healthy": all(checks[name] for name in required), "publishReady": checks["metaCredentialsPresentLocally"] and config.get("publishEnabled", False), "checks": checks, "mode": config.get("mode"), "publishingEnabled": bool(config.get("publishEnabled", False))}

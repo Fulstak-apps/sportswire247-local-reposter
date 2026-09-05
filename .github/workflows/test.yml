@@ -15,3 +15,5 @@ jobs:
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: npm ci
       - run: npm test
+      - run: python3 -m py_compile scripts/local-sportswire.py scripts/sportswire_local/*.py
+      - run: python3 -m unittest discover -s scripts -p 'test_local_sportswire*.py' -v

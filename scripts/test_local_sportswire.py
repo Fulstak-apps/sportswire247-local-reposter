@@ -20,7 +20,14 @@ BASE = {
 class SportsWireTests(unittest.TestCase):
     @patch("sportswire_local.qa.media_probe", return_value=(True, "video/audio verified"))
     def test_complete_video_can_be_ready(self, _):
-        self.assertTrue(evaluate({**score(BASE), "publishCaption": BASE["publishCaption"]}, {"houseofhighlights"})["ready"])
+        eligible = {
+            **BASE,
+            "sourceViewCount": 5_000_000,
+            "sourcePublishedAt": datetime.now(timezone.utc).isoformat(),
+        }
+        ranked = score(eligible)
+        self.assertTrue(ranked["eligibleForAutoPost"])
+        self.assertTrue(evaluate({**ranked, "publishCaption": BASE["publishCaption"]}, {"houseofhighlights"})["ready"])
 
     @patch("sportswire_local.qa.media_probe", return_value=(False, "missing media"))
     def test_missing_media_never_ready(self, _):
