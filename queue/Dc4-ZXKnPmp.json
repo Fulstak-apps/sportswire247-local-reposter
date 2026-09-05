@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "shortcode": "Dc4-ZXKnPmp",
+  "sourceHandle": "bleacherreport",
+  "sourceUrl": "https://www.instagram.com/br_cfb/p/Dc4-ZXKnPmp/",
+  "sourceCaption": "Rocky Beers got UP for this TD \ud83e\udd2f\n\nBeers finished with 2 catches, 43 yards and a TD in Oklahoma\u2019s 51-0 win over UTEP.\n\n#cfb #collegefootball #ncaafootball #oklahomafootball",
+  "publishCaption": "Rocky Beers got UP for this TD \ud83e\udd2f\n\nBeers finished with 2 catches, 43 yards and a TD in Oklahoma\u2019s 51-0 win over UTEP.\n\n#cfb #collegefootball #ncaafootball #oklahomafootball\n\nSource: @bleacherreport\n\n@sportswire247",
+  "discoveredAt": "2026-09-05T03:18:51.246Z",
+  "status": "ready",
+  "attempts": {
+    "download": 0,
+    "publish": 0
+  },
+  "publicationResult": null,
+  "body": "Rocky Beers got UP for this TD \ud83e\udd2f\n\nBeers finished with 2 catches, 43 yards and a TD in Oklahoma\u2019s 51-0 win over UTEP.\n\n#cfb #collegefootball #ncaafootball #oklahomafootball",
+  "captionMode": "source_verbatim_fallback",
+  "captionCheckedAt": "2026-09-05T03:19:39.803Z",
+  "sourceViewCount": 0,
+  "sourcePublishedAt": "2026-09-05T03:16:28.000Z",
+  "branding": {
+    "logoPath": "/Users/dw/Library/Application Support/SportsWire/publisher-runtime/assets/sportswire247-logo.png",
+    "logoPosition": "bottom-left",
+    "logoWidth": 91,
+    "margin": 18,
+    "bottomMargin": 108,
+    "logoApplied": true,
+    "contentSafeChecked": true,
+    "sampledFrames": 5,
+    "sourceDuration": 36.166667,
+    "outputDuration": 36.155011,
+    "sourceSha256": "dd5bb7ae4b565a513e6c65cb26c455edccd92e5b9dc017f258447a01789455d7",
+    "outputSha256": "93a9501234399eb90ddc048e05b9683ee565fc7ac6563aafb9126ec7cad01ab8"
+  },
+  "threadsText": "Rocky Beers got UP for this TD \ud83e\udd2f\n\nBeers finished with 2 catches, 43 yards and a TD in Oklahoma\u2019s 51-0 win over UTEP.\n\n#cfb #collegefootball #ncaafootball #oklahomafootball",
+  "contentLane": "viral_sports",
+  "confidence": "reported",
+  "ollamaStatus": "fallback_source_caption: ValueError",
+  "qa": {
+    "ready": true,
+    "reasons": [],
+    "media": "H.264/AAC video/audio verified"
+  },
+  "deterministicScore": 3059.93,
+  "scoreReasons": [
+    "approved sports source",
+    "views=0",
+    "freshness=29.9",
+    "sport priority=3 (basketball, football, MLB, NHL)"
+  ],
+  "storyFingerprint": "rocky beers got up for this td beers finished with 2 catches 43 yards and a td in oklahoma s 51 0 win over utep cfb collegefootball ncaafootball oklahomafootball",
+  "video": "media/Dc4-ZXKnPmp-sportswire247.mp4",
+  "brand": "SportsWire 247",
+  "destinationHandle": "sportswire247",
+  "instagramStatus": "pending",
+  "threadsStatus": "pending"
+}
