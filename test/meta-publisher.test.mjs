@@ -16,7 +16,7 @@ test("rate-limit cooldown grows exponentially and stays bounded", () => {
   assert.equal(Date.parse(retryAt(1, now)) - now, 120000);
   assert.ok(Date.parse(retryAt(20, now)) - now <= 6 * 3600000);
 });
-test("continuous cadence waits 24 minutes and enforces rolling daily cap", () => {
+test("continuous cadence enforces the configured gap and rolling daily cap", () => {
   const now = Date.parse("2026-09-05T12:00:00Z");
   const history = minutes => [{item: {instagramVerifiedAt: new Date(now - minutes * 60000).toISOString()}}];
   assert.equal(platformEligible(valid, "instagram", history(23), now, 60), false);

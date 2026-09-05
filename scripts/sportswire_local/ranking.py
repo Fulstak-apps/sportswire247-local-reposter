@@ -364,12 +364,25 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
         eligible = eligible and highlight_quality >= required_highlight
     elif content_kind == "routine":
         eligible = eligible and selection_score >= min(100.0, required_score + 8.0)
-    # Source-backed reactions and game clips need not go viral before selection.
-    # Keep sport identification, freshness and downstream media/duplicate QA.
-    if supported and age_hours is not None and age_hours <= 72:
-        if numeric_likes >= 1000 or numeric_comments >= 50:
-            eligible = selection_score >= required_score - 12
-            if eligible: reasons.append("recent supported sport with observed audience engagement")
+    # Source-backed game clips do not need a public view count to enter the
+    # preload buffer. Instagram frequently hides that field, so recent clips
+    # with real like/comment activity may clear a lower sport-specific floor.
+    # Media, source, caption, duplicate and branding QA still run afterward.
+    if supported and age_hours is not None and age_hours <= 96:
+        has_observed_engagement = numeric_likes >= 500 or numeric_comments >= 20
+        if has_observed_engagement and selection_score >= required_score - 20:
+            eligible = True
+            reasons.append("recent supported sport with observed audience engagement")
+    # Approved highlight publishers often write context-free captions such as
+    # "that was wild" or only name an athlete. Admit only strongly engaged,
+    # recent generic-sports items, beneath every explicitly classified sport in
+    # the sort order. This keeps the buffer full without treating random sites
+    # as trusted sports sources.
+    if not supported and source in SOURCE_PRIORS and age_hours is not None and age_hours <= 96:
+        strong_generic_signal = numeric_likes >= 100 or numeric_comments >= 5
+        if strong_generic_signal and selection_score >= 10:
+            eligible = True
+            reasons.append("recent high-engagement clip from approved sports publisher")
 
     reasons.append(f"posting floor {required_score:.0f}")
     if content_kind == "highlight":

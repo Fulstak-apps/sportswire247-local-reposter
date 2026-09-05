@@ -1,12 +1,15 @@
-"""Prepare a small batch each cycle until ten approved videos are waiting."""
+"""Preprocess clips until a 30-post publishing buffer is ready."""
 import json
 from sportswire_local.newsroom import run, delivery_items
 
-for attempt in range(3):
+TARGET_READY = 30
+MAX_ATTEMPTS_PER_CYCLE = 40
+
+for attempt in range(MAX_ATTEMPTS_PER_CYCLE):
     waiting = sum(1 for item in delivery_items().values()
                   if item.get("status") == "ready")
-    if waiting >= 10:
-        print(json.dumps({"ready": waiting, "target": 10}))
+    if waiting >= TARGET_READY:
+        print(json.dumps({"ready": waiting, "target": TARGET_READY}))
         break
     result = run()
     print(json.dumps(result))

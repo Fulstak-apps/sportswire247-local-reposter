@@ -91,6 +91,16 @@ class SportsWireV2RankingTests(unittest.TestCase):
         self.assertGreater(hot["highlightQuality"], quiet["highlightQuality"])
         self.assertTrue(hot["eligibleForAutoPost"])
 
+    def test_recent_engaged_clip_can_fill_preload_buffer_without_view_count(self):
+        clip = self.ranked(
+            "MLB season opener reaction",
+            views=0,
+            shortcode="BUFFER",
+            likes=1600,
+            comments=25,
+        )
+        self.assertTrue(clip["eligibleForAutoPost"])
+
     def test_engagement_is_bounded_when_views_are_already_available(self):
         no_engagement = self.ranked("NBA dunk", views=2_000_000, shortcode="A")
         with_engagement = self.ranked(
@@ -103,6 +113,17 @@ class SportsWireV2RankingTests(unittest.TestCase):
         soccer = self.ranked("Premier League viral goal", 20_000_000)
         self.assertEqual(soccer["sportCategory"], "other")
         self.assertFalse(soccer["eligibleForAutoPost"])
+
+    def test_context_light_approved_source_clip_can_fill_buffer(self):
+        item = self.ranked(
+            "That was absolutely wild",
+            views=0,
+            shortcode="GENERIC",
+            likes=5000,
+            comments=100,
+        )
+        self.assertEqual(item["sportCategory"], "other")
+        self.assertTrue(item["eligibleForAutoPost"])
 
     def test_near_duplicate_gets_penalized(self):
         item = self.ranked("NBA Steph Curry game winner from the logo", 2_000_000, "NEW")
