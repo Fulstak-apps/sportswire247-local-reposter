@@ -81,7 +81,8 @@ def prepare(item: dict, config: dict, approved: set[str]) -> dict:
         generated = generate(config, {k: ranked.get(k) for k in (
             "sourceCaption", "sourceHandle", "sourceUrl", "league", "sportCategory",
             "sportRank", "contentKind", "priority", "viralScore", "rawScore",
-            "scoreMargin", "highlightQuality", "sourceViewCount", "sourcePublishedAt"
+            "scoreMargin", "highlightQuality", "engagementScore", "sourceViewCount",
+            "sourceLikeCount", "sourceCommentCount", "sourcePublishedAt"
         )})
         ollama_status = "local_ollama"
     except Exception as error: ollama_status = f"fallback_source_caption: {type(error).__name__}"
@@ -127,10 +128,14 @@ def run(dry_run: bool = False) -> dict:
                 "score": x.get("deterministicScore"),
                 "rawScore": x.get("rawScore"),
                 "viralScore": x.get("viralScore"),
+                "engagementScore": x.get("engagementScore"),
                 "scoreMargin": x.get("scoreMargin"),
                 "priority": x.get("priority"),
                 "highlightQuality": x.get("highlightQuality"),
                 "postingFloor": x.get("postingFloor"),
+                "sourceViews": x.get("sourceViewCount"),
+                "sourceLikes": x.get("sourceLikeCount"),
+                "sourceComments": x.get("sourceCommentCount"),
                 "eligible": x.get("eligibleForAutoPost"),
                 "duplicateOf": x.get("duplicateOf"),
                 "reasons": x.get("scoreReasons"),
@@ -160,7 +165,7 @@ def run(dry_run: bool = False) -> dict:
             carry = (
                 "publishCaption", "threadsText", "contentLane", "confidence", "ollamaStatus", "qa",
                 "league", "sportCategory", "sportRank", "contentKind", "priority", "viralScore",
-                "rawScore", "scoreMargin", "highlightQuality", "postingFloor", "highlightFloor",
+                "rawScore", "engagementScore", "scoreMargin", "highlightQuality", "postingFloor", "highlightFloor",
                 "eligibleForAutoPost", "rankingVersion", "duplicateOf", "deterministicScore",
                 "scoreReasons", "storyFingerprint",
             )
