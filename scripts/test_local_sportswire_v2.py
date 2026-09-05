@@ -19,12 +19,14 @@ BASE = {
 }
 
 class SportsWireV2RankingTests(unittest.TestCase):
-    def ranked(self, caption, views=50_000, shortcode="CLIP1", source_url=None):
+    def ranked(self, caption, views=50_000, shortcode="CLIP1", source_url=None, likes=0, comments=0):
         return score({
             **BASE,
             "shortcode": shortcode,
             "sourceCaption": caption,
             "sourceViewCount": views,
+            "sourceLikeCount": likes,
+            "sourceCommentCount": comments,
             "sourceUrl": source_url or BASE["sourceUrl"],
         }, NOW)
 
@@ -75,6 +77,28 @@ class SportsWireV2RankingTests(unittest.TestCase):
         self.assertEqual(item["league"], "ncaa_football")
         self.assertEqual(item["sportCategory"], "football")
 
+    def test_engagement_rescues_viral_signal_when_views_are_hidden(self):
+        quiet = self.ranked("NFL touchdown", views=0, shortcode="QUIET")
+        hot = self.ranked(
+            "NFL touchdown",
+            views=0,
+            shortcode="HOT",
+            likes=180_000,
+            comments=12_000,
+        )
+        self.assertGreater(hot["engagementScore"], 0)
+        self.assertGreater(hot["deterministicScore"], quiet["deterministicScore"])
+        self.assertGreater(hot["highlightQuality"], quiet["highlightQuality"])
+        self.assertTrue(hot["eligibleForAutoPost"])
+
+    def test_engagement_is_bounded_when_views_are_already_available(self):
+        no_engagement = self.ranked("NBA dunk", views=2_000_000, shortcode="A")
+        with_engagement = self.ranked(
+            "NBA dunk", views=2_000_000, shortcode="B", likes=300_000, comments=20_000
+        )
+        self.assertGreater(with_engagement["deterministicScore"], no_engagement["deterministicScore"])
+        self.assertLess(with_engagement["engagementScore"], 12)
+
     def test_non_target_sport_is_not_autoposted(self):
         soccer = self.ranked("Premier League viral goal", 20_000_000)
         self.assertEqual(soccer["sportCategory"], "other")
@@ -105,7 +129,7 @@ class SportsWireV2RankingTests(unittest.TestCase):
     def test_v2_score_is_explainable(self):
         item = self.ranked("NFL wild one-handed catch touchdown", 1_000_000)
         for field in (
-            "viralScore", "rawScore", "highlightQuality", "postingFloor", "highlightFloor",
+            "viralScore", "rawScore", "engagementScore", "highlightQuality", "postingFloor", "highlightFloor",
             "scoreMargin", "priority", "contentKind", "sportRank", "scoreReasons", "rankingVersion"
         ):
             self.assertIn(field, item)
