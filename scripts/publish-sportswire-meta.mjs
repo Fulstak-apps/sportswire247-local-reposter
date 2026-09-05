@@ -7,7 +7,7 @@ const repository = process.env.GITHUB_REPOSITORY || "";
 const refName = process.env.GITHUB_REF_NAME || "main";
 const instagram = { name: "instagram", token: process.env.INSTAGRAM_ACCESS_TOKEN, userId: process.env.INSTAGRAM_USER_ID, base: "https://graph.instagram.com" };
 const threads = { name: "threads", token: process.env.THREADS_ACCESS_TOKEN, userId: process.env.THREADS_USER_ID, base: "https://graph.threads.net/v1.0" };
-const minimumGapMs = Number(process.env.MINIMUM_FEED_GAP_MINUTES || 10) * 60_000;
+const minimumGapMs = Number(process.env.MINIMUM_FEED_GAP_MINUTES || 24) * 60_000;
 
 export function credentialsReady(platform) { return Boolean(platform.token && platform.userId); }
 export function mediaUrl(item) {
@@ -93,11 +93,36 @@ async function main() {
   const records = await Promise.all(names.map(async name => ({ name, file: path.join(queueDir, name), item: JSON.parse(await fs.readFile(path.join(queueDir, name), "utf8")) })));
   const limits = { instagram: Number(process.env.INSTAGRAM_DAILY_LIMIT || 20), threads: Number(process.env.THREADS_DAILY_LIMIT || 20) };
   const configuredPlatforms = [instagram, threads].filter(credentialsReady);
-  const record = [...records].sort((a, b) => Number(b.item.deterministicScore || 0) - Number(a.item.deterministicScore || 0)).find(x => configuredPlatforms.some(platform => platformEligible(x.item, platform.name, records, Date.now(), limits[platform.name])));
-  if (!record) return console.log("No eligible SportsWire item (queue, independent spacing, cooldown, or quota gate)");
-  const { item, file } = record;
-  for (const platform of [instagram, threads]) {
-    if (!credentialsReady(platform) || !platformEligible(item, platform.name, records, Date.now(), limits[platform.name])) continue;
+  const health = { checkedAt: new Date().toISOString(), platforms: {} };
+  for (const platform of configuredPlatforms) {
+    const stateFile = path.join(logsDir, `${platform.name}-control.json`);
+    const control = JSON.parse(await fs.readFile(stateFile, "utf8").catch(() => "{}"));
+    if (Date.parse(control.pauseUntil || "") > Date.now()) { health.platforms[platform.name] = control; continue; }
+    const unresolved = records.find(x => x.item[`${platform.name}PublishRequestedAt`] && !x.item[`${platform.name}MediaId`]);
+    if (unresolved) {
+      health.platforms[platform.name] = { status: "reconciliation_required", shortcode: unresolved.item.shortcode };
+      console.log(`::warning::${platform.name}: uncertain publication requires review before more posts`);
+      continue;
+    }
+    try {
+      const endpoint = platform.name === "instagram" ? "content_publishing_limit" : "threads_publishing_limit";
+      const url = new URL(`${platform.base}/${platform.userId}/${endpoint}`);
+      url.searchParams.set("fields", "quota_usage,config"); url.searchParams.set("access_token", platform.token);
+      const response = await fetch(url, { signal: AbortSignal.timeout(30_000) });
+      const payload = await response.json();
+      if (!response.ok || payload.error) throw new Error(payload.error?.message || "Quota check failed");
+      const quota = payload.data?.[0];
+      if (!Number.isFinite(quota?.quota_usage) || !Number.isFinite(quota?.config?.quota_total)) throw new Error("Unrecognized quota response");
+      health.platforms[platform.name] = { status: "healthy", usage: quota.quota_usage, limit: quota.config.quota_total };
+      if (quota.quota_usage >= Math.min(limits[platform.name], quota.config.quota_total)) continue;
+    } catch (error) {
+      health.platforms[platform.name] = { status: "quota_or_auth_check_failed", error: error.message };
+      console.log(`::warning::${platform.name}: quota/auth check failed; publishing paused`);
+      continue;
+    }
+    const record = [...records].sort((a, b) => Number(b.item.deterministicScore || 0) - Number(a.item.deterministicScore || 0)).find(x => platformEligible(x.item, platform.name, records, Date.now(), limits[platform.name]));
+    if (!record) continue;
+    const { item, file } = record;
     if (item[`${platform.name}PublishRequestedAt`] && !item[`${platform.name}MediaId`]) {
       item[`${platform.name}ReconcileRequired`] = true; await save(file, item); continue;
     }
@@ -107,9 +132,9 @@ async function main() {
     } catch (error) {
       item[`${platform.name}Attempts`] = Number(item[`${platform.name}Attempts`] || 0) + 1;
       item[`${platform.name}Error`] = error.message; item[`${platform.name}NextRetryAt`] = retryAt(item[`${platform.name}Attempts`]);
+      await save(stateFile, { pauseUntil: item[`${platform.name}NextRetryAt`], error: error.message, checkedAt: new Date().toISOString() });
     }
     await save(file, item);
-  }
   if (item.instagramVerifiedAt && item.threadsVerifiedAt) {
     item.status = "published"; item.publishedAt = new Date().toISOString(); delete item.instagramNextRetryAt; delete item.threadsNextRetryAt;
   } else if (item.instagramVerifiedAt) {
@@ -118,6 +143,8 @@ async function main() {
     item.status = "threads_published_instagram_pending";
   }
   await save(file, item);
+  }
+  await save(path.join(logsDir, "publisher-health.json"), health);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) await main();

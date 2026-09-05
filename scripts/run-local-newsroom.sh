@@ -44,6 +44,6 @@ else
 fi
 
 node src/collect-only.mjs || echo "Collection failed; continuing with saved queue" >&2
-/usr/bin/python3 scripts/local-sportswire.py "$@"
+/usr/bin/python3 scripts/refill-queue.py
 scripts/push-sportswire-queue.sh
 gh workflow run publish-sportswire.yml --repo Fulstak-apps/sportswire247-local-reposter
