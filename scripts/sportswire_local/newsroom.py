@@ -56,6 +56,8 @@ def preserve_delivery_state(staged: dict, existing: dict | None) -> dict:
     """Keep publication facts owned by the publisher, never the collector."""
     if not existing: return staged
     for key, value in existing.items():
+        if key == "status" and value in {"held", "review"}:
+            continue
         if key.startswith(("instagram", "threads")) or key in {
             "status", "publishedAt", "publicationResult", "uncertainDestination",
             "publishRequestedAt", "nextRetryAt", "lastError",
