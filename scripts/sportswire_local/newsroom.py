@@ -80,8 +80,8 @@ def prepare(item: dict, config: dict, approved: set[str]) -> dict:
     try:
         generated = generate(config, {k: ranked.get(k) for k in (
             "sourceCaption", "sourceHandle", "sourceUrl", "league", "sportCategory",
-            "sportRank", "contentKind", "priority", "viralScore", "highlightQuality",
-            "sourceViewCount", "sourcePublishedAt"
+            "sportRank", "contentKind", "priority", "viralScore", "rawScore",
+            "scoreMargin", "highlightQuality", "sourceViewCount", "sourcePublishedAt"
         )})
         ollama_status = "local_ollama"
     except Exception as error: ollama_status = f"fallback_source_caption: {type(error).__name__}"
@@ -125,6 +125,9 @@ def run(dry_run: bool = False) -> dict:
                 "sportRank": x.get("sportRank"),
                 "kind": x.get("contentKind"),
                 "score": x.get("deterministicScore"),
+                "rawScore": x.get("rawScore"),
+                "viralScore": x.get("viralScore"),
+                "scoreMargin": x.get("scoreMargin"),
                 "priority": x.get("priority"),
                 "highlightQuality": x.get("highlightQuality"),
                 "postingFloor": x.get("postingFloor"),
@@ -157,8 +160,9 @@ def run(dry_run: bool = False) -> dict:
             carry = (
                 "publishCaption", "threadsText", "contentLane", "confidence", "ollamaStatus", "qa",
                 "league", "sportCategory", "sportRank", "contentKind", "priority", "viralScore",
-                "highlightQuality", "postingFloor", "highlightFloor", "eligibleForAutoPost",
-                "rankingVersion", "duplicateOf", "deterministicScore", "scoreReasons", "storyFingerprint",
+                "rawScore", "scoreMargin", "highlightQuality", "postingFloor", "highlightFloor",
+                "eligibleForAutoPost", "rankingVersion", "duplicateOf", "deterministicScore",
+                "scoreReasons", "storyFingerprint",
             )
             current.update({k: selected[k] for k in carry if k in selected})
             current.update({"status": selected["proposedStatus"], "video": str(media_target.relative_to(ROOT)), "brand": "SportsWire 247", "destinationHandle": "sportswire247", "instagramStatus": "pending", "threadsStatus": "pending"})
