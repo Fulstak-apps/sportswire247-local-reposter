@@ -111,9 +111,15 @@ export async function downloadOriginal(config, item, activeContext = null) {
   item.branding = await brandVideo(config, item.sourceVideoPath, item.localVideoPath);
 }
 
-function qualifiesForPopularBackfill(metadata, config) {
-  const policy = config.popularBackfill || {}; const age = Date.now() - Date.parse(metadata.publishedAt || "");
-  return policy.enabled === true && metadata.isVideo && Number(metadata.viewCount || 0) >= Number(policy.minimumViews || 1_000_000)
+export function qualifiesForPopularBackfill(metadata, config) {
+  const policy = config.popularBackfill || {};
+  const age = Date.now() - Date.parse(metadata.publishedAt || "");
+  const popular = (
+    Number(metadata.viewCount || 0) >= Number(policy.minimumViews || 1_000_000)
+    || Number(metadata.likeCount || 0) >= Number(policy.minimumLikes || 100_000)
+    || Number(metadata.commentCount || 0) >= Number(policy.minimumComments || 10_000)
+  );
+  return policy.enabled === true && metadata.isVideo && popular
     && Number.isFinite(age) && age >= 0 && age <= Number(policy.maximumAgeDays || 30) * 86_400_000;
 }
 
@@ -169,7 +175,7 @@ export async function collect(config, { forceBaseline = false } = {}) {
         };
         await saveItem(item);
         try { const metadata = await readPost(context, post.url); if (!metadata.isVideo) { item.status = "ignored_non_video"; await saveItem(item); continue; } await queueVideo(config, context, item, metadata, run); }
-        catch (error) { item.status = "pending"; item.lastError = error.message; item.attempts.download += 1; item.nextRetryAt = new Date(Date.now() + 60_000).toISOString(); await saveItem(item); run.errors.push({ sourceHandle, shortcode: post.shortcode, stage: "metadata", error: error.message }); }
+        catch (error) { item.status = "pending"; item.lastError = error.message; item.attempts.download += 1; item.nextRetryAt = new Date(Date.now() + 60_000).toISOString(); await saveItem(item); run.errors.push({ sourceHandle: item.sourceHandle, shortcode: item.shortcode, stage: "metadata", error: error.message }); }
       }
     }
     if (baseline && !run.errors.some(e => e.stage === "discover")) { ledger.baselineComplete = true; ledger.baselinedAt = new Date().toISOString(); }
