@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-09-06T06:32:23.604Z",
+  "checkedAt": "2026-09-06T06:38:50.924Z",
   "platforms": {
     "instagram": {
       "status": "healthy",
-      "usage": 16,
+      "usage": 17,
       "limit": 100,
-      "pendingItems": 29,
+      "pendingItems": 30,
       "lastVerifiedAt": "2026-09-06T06:34:04.021Z",
       "overdue": false,
       "unresolvedItems": []
@@ -13,7 +13,7 @@
     "threads": {
       "status": "quota_or_auth_check_failed",
       "error": "Error validating access token: You cannot access the app till you log in to www.threads.com and follow the instructions given.",
-      "pendingItems": 31,
+      "pendingItems": 32,
       "lastVerifiedAt": "2026-09-06T05:27:29.163Z",
       "overdue": true,
       "unresolvedItems": []
