@@ -3,16 +3,16 @@
   "shortcode": "Dc67cNyTOdr",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dc67cNyTOdr/",
-  "sourceCaption": "THIS JEREMIAH SMITH ROUTE. EFFORTLESS \ud83e\udd2f\ud83e\udd2f",
-  "publishCaption": "THIS JEREMIAH SMITH ROUTE. EFFORTLESS \ud83e\udd2f\ud83e\udd2f\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "THIS JEREMIAH SMITH ROUTE. EFFORTLESS 🤯🤯",
+  "publishCaption": "THIS JEREMIAH SMITH ROUTE. EFFORTLESS 🤯🤯\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-05T21:36:18.371Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "THIS JEREMIAH SMITH ROUTE. EFFORTLESS \ud83e\udd2f\ud83e\udd2f",
+  "body": "THIS JEREMIAH SMITH ROUTE. EFFORTLESS 🤯🤯",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T21:37:07.167Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "e16b2d2f99034cab4e77663476e8a16d4a5150f36c5aa53bb376e038e5e50ac9",
     "outputSha256": "a1faa90f4f3c31e87086f0fc781e2c254d18fbe1a8b84bc5c0648209d3ac8e0d"
   },
-  "threadsText": "THIS JEREMIAH SMITH ROUTE. EFFORTLESS \ud83e\udd2f\ud83e\udd2f\n\nSource: @houseofhighlights",
+  "threadsText": "THIS JEREMIAH SMITH ROUTE. EFFORTLESS 🤯🤯\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 12.41,
   "scoreMargin": -34.73,
   "highlightQuality": 12.41,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.27,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107465566915961",
+  "instagramContainerCreatedAt": "2026-09-06T09:16:26.520Z",
+  "instagramPublishRequestedAt": "2026-09-06T09:16:57.063Z",
+  "instagramMediaId": "18037943897833380",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc8MZV8jbat/",
+  "instagramVerifiedAt": "2026-09-06T09:17:03.734Z"
 }
