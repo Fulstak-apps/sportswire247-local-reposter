@@ -3,16 +3,16 @@
   "shortcode": "Dc8nDtqRjkd",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/Dc8nDtqRjkd/",
-  "sourceCaption": "#CapriSunPartner Take it from an NBA champ make sure yall hydrate first thing after practice \ud83e\udee1",
-  "publishCaption": "#CapriSunPartner Take it from an NBA champ make sure yall hydrate first thing after practice \ud83e\udee1\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "#CapriSunPartner Take it from an NBA champ make sure yall hydrate first thing after practice 🫡",
+  "publishCaption": "#CapriSunPartner Take it from an NBA champ make sure yall hydrate first thing after practice 🫡\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-06T13:16:29.881Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "#CapriSunPartner Take it from an NBA champ make sure yall hydrate first thing after practice \ud83e\udee1",
+  "body": "#CapriSunPartner Take it from an NBA champ make sure yall hydrate first thing after practice 🫡",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-06T13:17:18.448Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "fb2d3d5f182f5dbcdcf1a10719fd19444997e98307b2951e3b4683fcfee42066",
     "outputSha256": "2aba133429edb78bb162469d5878b3c9abdab1161c5f25741d6b1e487343a2c2"
   },
-  "threadsText": "#CapriSunPartner Take it from an NBA champ make sure yall hydrate first thing after practice \ud83e\udee1\n\nSource: @overtime",
+  "threadsText": "#CapriSunPartner Take it from an NBA champ make sure yall hydrate first thing after practice 🫡\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 3.81,
   "scoreMargin": -1.37,
   "highlightQuality": 3.81,
-  "postingFloor": 45.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 45,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.63,
@@ -74,5 +74,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107517889915961",
+  "instagramContainerCreatedAt": "2026-09-06T13:32:11.659Z",
+  "instagramPublishRequestedAt": "2026-09-06T13:32:42.338Z",
+  "instagramMediaId": "18126050980693605",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc8pqg8E2yO/",
+  "instagramVerifiedAt": "2026-09-06T13:32:50.603Z"
 }
