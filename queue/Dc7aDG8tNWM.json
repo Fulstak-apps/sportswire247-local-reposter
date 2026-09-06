@@ -6,7 +6,7 @@
   "sourceCaption": "#cfb",
   "publishCaption": "#cfb\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-06T02:01:10.973Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 12.75,
   "scoreMargin": 7.62,
   "highlightQuality": 12.75,
-  "postingFloor": 52.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 52,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 59.62,
@@ -73,5 +73,18 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107380030915961",
+  "instagramContainerCreatedAt": "2026-09-06T02:27:51.452Z",
+  "instagramPublishRequestedAt": "2026-09-06T02:28:37.373Z",
+  "instagramMediaId": "18075460619453001",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc7dq_sEhkX/",
+  "instagramVerifiedAt": "2026-09-06T02:28:44.365Z",
+  "threadsContainerId": "18093730946244801",
+  "threadsContainerCreatedAt": "2026-09-06T02:28:45.329Z",
+  "threadsPublishRequestedAt": "2026-09-06T02:29:15.844Z",
+  "threadsMediaId": "18067108013579226",
+  "threadsPermalink": "https://www.threads.com/@sportswire247/post/Dc7dvVXDTjV",
+  "threadsVerifiedAt": "2026-09-06T02:29:20.585Z",
+  "publishedAt": "2026-09-06T02:29:20.586Z"
 }
