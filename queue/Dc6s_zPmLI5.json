@@ -3,16 +3,16 @@
   "shortcode": "Dc6s_zPmLI5",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimeszn/p/Dc6s_zPmLI5/",
-  "sourceCaption": "LEGEND BEY IS SO SHIFTY MAN \ud83d\ude2e\u200d\ud83d\udca8 @legendbey7 (via @b1gfootball)",
-  "publishCaption": "LEGEND BEY IS SO SHIFTY MAN \ud83d\ude2e\u200d\ud83d\udca8 @legendbey7 (via @b1gfootball)\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "LEGEND BEY IS SO SHIFTY MAN 😮‍💨 @legendbey7 (via @b1gfootball)",
+  "publishCaption": "LEGEND BEY IS SO SHIFTY MAN 😮‍💨 @legendbey7 (via @b1gfootball)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-05T19:45:07.403Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "LEGEND BEY IS SO SHIFTY MAN \ud83d\ude2e\u200d\ud83d\udca8 @legendbey7 (via @b1gfootball)",
+  "body": "LEGEND BEY IS SO SHIFTY MAN 😮‍💨 @legendbey7 (via @b1gfootball)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T19:45:56.067Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "1a28e7419605ebcc7675a261db0ea08bbb67b9f110d93ef9f43f7277a8bc8428",
     "outputSha256": "76d63f15130a4b6ef109d84219bf45f92a2698e594b62e91b9cd310c7c03e081"
   },
-  "threadsText": "LEGEND BEY IS SO SHIFTY MAN \ud83d\ude2e\u200d\ud83d\udca8 @legendbey7 (via @b1gfootball)\n\nSource: @overtime",
+  "threadsText": "LEGEND BEY IS SO SHIFTY MAN 😮‍💨 @legendbey7 (via @b1gfootball)\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 13.28,
   "scoreMargin": -37.66,
   "highlightQuality": 13.28,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.34,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107502436915961",
+  "instagramContainerCreatedAt": "2026-09-06T12:25:52.516Z",
+  "instagramPublishRequestedAt": "2026-09-06T12:26:23.356Z",
+  "instagramMediaId": "18112756631041685",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc8iEyNDPCx/",
+  "instagramVerifiedAt": "2026-09-06T12:26:31.360Z"
 }
