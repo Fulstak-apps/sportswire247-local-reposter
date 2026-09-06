@@ -3,16 +3,16 @@
   "shortcode": "Dc6Ri4FOdqy",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dc6Ri4FOdqy/",
-  "sourceCaption": "Perfect spiral from his own seat \ud83d\udd25\ud83d\ude2d (via @matt.berman)",
-  "publishCaption": "Perfect spiral from his own seat \ud83d\udd25\ud83d\ude2d (via @matt.berman)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Perfect spiral from his own seat 🔥😭 (via @matt.berman)",
+  "publishCaption": "Perfect spiral from his own seat 🔥😭 (via @matt.berman)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-05T15:37:54.780Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Perfect spiral from his own seat \ud83d\udd25\ud83d\ude2d (via @matt.berman)",
+  "body": "Perfect spiral from his own seat 🔥😭 (via @matt.berman)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T15:38:43.444Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "edabc4ac80a56e25f7eb779b048efff3355f041e7a1e8468781cb19c13878e99",
     "outputSha256": "8f129184d3f4011b26f5f8a1c97d05d3f097fe0bf8bff1bb424c40a1e9972854"
   },
-  "threadsText": "Perfect spiral from his own seat \ud83d\udd25\ud83d\ude2d (via @matt.berman)\n\nSource: @houseofhighlights",
+  "threadsText": "Perfect spiral from his own seat 🔥😭 (via @matt.berman)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 11.47,
   "scoreMargin": -41.85,
   "highlightQuality": 11.47,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 38.15,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107640640915961",
+  "instagramContainerCreatedAt": "2026-09-06T21:37:45.380Z",
+  "instagramPublishRequestedAt": "2026-09-06T21:38:16.724Z",
+  "instagramMediaId": "18161036917490148",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc9hOsyCZX9/",
+  "instagramVerifiedAt": "2026-09-06T21:38:22.110Z"
 }
