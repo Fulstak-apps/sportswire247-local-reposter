@@ -6,7 +6,7 @@
   "sourceCaption": "Cardinals players and staff are rocking tilted caps in the dugout tonight. Some Rockies players are doing it too according to the broadcast",
   "publishCaption": "Cardinals players and staff are rocking tilted caps in the dugout tonight. Some Rockies players are doing it too according to the broadcast\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-06T01:08:02.402Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 10.12,
   "scoreMargin": -40.42,
   "highlightQuality": 10.12,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 39.58,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107534239915961",
+  "instagramContainerCreatedAt": "2026-09-06T14:38:37.404Z",
+  "instagramPublishRequestedAt": "2026-09-06T14:39:07.839Z",
+  "instagramMediaId": "18122092624914808",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc8xQ7dkw2c/",
+  "instagramVerifiedAt": "2026-09-06T14:39:15.701Z"
 }
