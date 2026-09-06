@@ -3,16 +3,16 @@
   "shortcode": "Dc9tF55NLpu",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dc9tF55NLpu/",
-  "sourceCaption": "Crowd understood the assignment \ud83d\ude05\ud83c\udf2d (via @mlb, @sportsnet, h/t maddiewhittle/X)",
-  "publishCaption": "Crowd understood the assignment \ud83d\ude05\ud83c\udf2d (via @mlb, @sportsnet, h/t maddiewhittle/X)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Crowd understood the assignment 😅🌭 (via @mlb, @sportsnet, h/t maddiewhittle/X)",
+  "publishCaption": "Crowd understood the assignment 😅🌭 (via @mlb, @sportsnet, h/t maddiewhittle/X)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-06T23:27:18.875Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Crowd understood the assignment \ud83d\ude05\ud83c\udf2d (via @mlb, @sportsnet, h/t maddiewhittle/X)",
+  "body": "Crowd understood the assignment 😅🌭 (via @mlb, @sportsnet, h/t maddiewhittle/X)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-06T23:28:07.605Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "7dc2936be25452625dcf890da4d106ec50171dd83f69fd2513252ae0b541487e",
     "outputSha256": "34f1f97d926d420ddca1dd67e2086a4e0fe6364e9d1e4d29b58670df9be0bb6b"
   },
-  "threadsText": "Crowd understood the assignment \ud83d\ude05\ud83c\udf2d (via @mlb, @sportsnet, h/t maddiewhittle/X)\n\nSource: @houseofhighlights",
+  "threadsText": "Crowd understood the assignment 😅🌭 (via @mlb, @sportsnet, h/t maddiewhittle/X)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 12.47,
   "scoreMargin": -2.65,
   "highlightQuality": 12.47,
-  "postingFloor": 60.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 60,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 57.35,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107658595915961",
+  "instagramContainerCreatedAt": "2026-09-06T23:48:22.877Z",
+  "instagramPublishRequestedAt": "2026-09-06T23:48:53.345Z",
+  "instagramMediaId": "17925582207420348",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc9wLmWDEk5/",
+  "instagramVerifiedAt": "2026-09-06T23:49:00.869Z"
 }
