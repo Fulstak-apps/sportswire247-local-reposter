@@ -19,8 +19,8 @@ test("rate-limit cooldown grows exponentially and stays bounded", () => {
 test("continuous cadence enforces the configured gap and rolling daily cap", () => {
   const now = Date.parse("2026-09-05T12:00:00Z");
   const history = minutes => [{item: {instagramVerifiedAt: new Date(now - minutes * 60000).toISOString()}}];
-  assert.equal(platformEligible(valid, "instagram", history(23), now, 60), false);
-  assert.equal(platformEligible(valid, "instagram", history(24), now, 60), true);
+  assert.equal(platformEligible(valid, "instagram", history(29), now, 60), false);
+  assert.equal(platformEligible(valid, "instagram", history(30), now, 60), true);
   const full = Array.from({length:60}, (_, i) => ({item:{instagramVerifiedAt:new Date(now - (i + 25) * 60000).toISOString()}}));
   assert.equal(platformEligible(valid, "instagram", full, now, 60), false);
   assert.equal(platformEligible(valid, "threads", full, now, 60), true);

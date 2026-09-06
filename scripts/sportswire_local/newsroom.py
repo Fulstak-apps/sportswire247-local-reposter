@@ -67,14 +67,14 @@ def preserve_delivery_state(staged: dict, existing: dict | None) -> dict:
 
 @contextmanager
 def lock():
+    import fcntl
     STATE.mkdir(parents=True, exist_ok=True)
-    path = STATE / "newsroom.lock"
-    try:
-        fd = os.open(path, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
-        os.write(fd, json.dumps({"pid": os.getpid(), "startedAt": datetime.now(timezone.utc).isoformat()}).encode()); os.close(fd)
-    except FileExistsError: raise RuntimeError("newsroom run already active")
-    try: yield
-    finally: path.unlink(missing_ok=True)
+    # Kernel releases this lock even if the worker is killed or crashes.
+    with (STATE / "newsroom.flock").open("a+") as handle:
+        try: fcntl.flock(handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError: raise RuntimeError("newsroom run already active")
+        try: yield
+        finally: fcntl.flock(handle, fcntl.LOCK_UN)
 
 def prepare(item: dict, config: dict, approved: set[str]) -> dict:
     ranked = dict(item) if item.get("rankingVersion") == "sportswire-newsroom-v2" else score(item)

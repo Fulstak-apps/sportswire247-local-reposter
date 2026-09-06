@@ -7,7 +7,7 @@ const repository = process.env.GITHUB_REPOSITORY || "";
 const refName = process.env.GITHUB_REF_NAME || "main";
 const instagram = { name: "instagram", token: process.env.INSTAGRAM_ACCESS_TOKEN, userId: process.env.INSTAGRAM_USER_ID, base: "https://graph.instagram.com" };
 const threads = { name: "threads", token: process.env.THREADS_ACCESS_TOKEN, userId: process.env.THREADS_USER_ID, base: "https://graph.threads.net/v1.0" };
-const minimumGapMs = Number(process.env.MINIMUM_FEED_GAP_MINUTES || 24) * 60_000;
+const minimumGapMs = Number(process.env.MINIMUM_FEED_GAP_MINUTES || 30) * 60_000;
 
 export function credentialsReady(platform) { return Boolean(platform.token && platform.userId); }
 export function mediaUrl(item) {
@@ -132,7 +132,15 @@ async function main() {
     } catch (error) {
       item[`${platform.name}Attempts`] = Number(item[`${platform.name}Attempts`] || 0) + 1;
       item[`${platform.name}Error`] = error.message; item[`${platform.name}NextRetryAt`] = retryAt(item[`${platform.name}Attempts`]);
-      await save(stateFile, { pauseUntil: item[`${platform.name}NextRetryAt`], error: error.message, checkedAt: new Date().toISOString() });
+      // Only account-wide errors pause other clips. Clip failures cool down
+      // individually, allowing the next queued clip on the next cycle.
+      if ([4, 17, 32, 190, 200, 613].includes(Number(error.code))) {
+        await save(stateFile, { pauseUntil: item[`${platform.name}NextRetryAt`], error: error.message, checkedAt: new Date().toISOString() });
+      }
+      if (!item[`${platform.name}PublishRequestedAt`] && /failed:.*(ERROR|EXPIRED)/i.test(error.message)) {
+        delete item[`${platform.name}ContainerId`];
+        delete item[`${platform.name}ContainerCreatedAt`];
+      }
     }
     await save(file, item);
   if (item.instagramVerifiedAt && item.threadsVerifiedAt) {

@@ -19,7 +19,7 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v6
-        with: { fetch-depth: 0, ref: main }
+        with: { fetch-depth: 1, ref: main }
       - uses: actions/setup-node@v6
         with: { node-version: "24" }
       - name: Publish one eligible item to SportsWire Instagram and Threads
@@ -40,6 +40,7 @@ jobs:
           echo "Publishing to each SportsWire destination with configured credentials; unavailable destinations remain pending."
           node scripts/publish-sportswire-meta.mjs
       - name: Save verified publication state
+        if: always()
         run: |
           if [ -z "$(git status --porcelain -- queue logs)" ]; then exit 0; fi
           git config user.name "SportsWire 247"

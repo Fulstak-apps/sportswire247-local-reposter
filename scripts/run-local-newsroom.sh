@@ -47,4 +47,3 @@ node src/collect-only.mjs || echo "Collection failed; continuing with saved queu
 /usr/bin/python3 scripts/refill-queue.py
 scripts/push-sportswire-queue.sh
 gh workflow run publish-sportswire.yml --repo Fulstak-apps/sportswire247-local-reposter
-scripts/run-local-watchdog.sh
