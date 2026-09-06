@@ -3,16 +3,16 @@
   "shortcode": "Dc89zviORXP",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dc89zviORXP/",
-  "sourceCaption": "Russ and Chris Paul doing all the side quests post-retirement \ud83d\ude2d\ud83d\udd25\n\n(via @cp3)\n\n#nba #basketball #russellwestbrook #cp3 #vacation",
-  "publishCaption": "Russ and Chris Paul doing all the side quests post-retirement \ud83d\ude2d\ud83d\udd25\n\n(via @cp3)\n\n#nba #basketball #russellwestbrook #cp3 #vacation\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Russ and Chris Paul doing all the side quests post-retirement 😭🔥\n\n(via @cp3)\n\n#nba #basketball #russellwestbrook #cp3 #vacation",
+  "publishCaption": "Russ and Chris Paul doing all the side quests post-retirement 😭🔥\n\n(via @cp3)\n\n#nba #basketball #russellwestbrook #cp3 #vacation\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-06T16:32:24.866Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Russ and Chris Paul doing all the side quests post-retirement \ud83d\ude2d\ud83d\udd25\n\n(via @cp3)\n\n#nba #basketball #russellwestbrook #cp3 #vacation",
+  "body": "Russ and Chris Paul doing all the side quests post-retirement 😭🔥\n\n(via @cp3)\n\n#nba #basketball #russellwestbrook #cp3 #vacation",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-06T16:33:16.650Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "b32fd08e0dcab786b0218e5623cadc0ca3cdc1de95fdb3693af5cbadb6f72458",
     "outputSha256": "22b61b90aa5df513a5663ac05bdaf7be32d089b7ecdb8d9f2fa1d2daff332298"
   },
-  "threadsText": "Russ and Chris Paul doing all the side quests post-retirement \ud83d\ude2d\ud83d\udd25\n\n(via @cp3)\n\n#nba #basketball #russellwestbrook #cp3 #vacation\n\nSource: @bleacherreport",
+  "threadsText": "Russ and Chris Paul doing all the side quests post-retirement 😭🔥\n\n(via @cp3)\n\n#nba #basketball #russellwestbrook #cp3 #vacation\n\nSource: @bleacherreport",
   "contentLane": "breaking_news",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 8.36,
   "scoreMargin": 22.24,
   "highlightQuality": 8.36,
-  "postingFloor": 45.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 45,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 67.24,
@@ -74,5 +74,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107583715915961",
+  "instagramContainerCreatedAt": "2026-09-06T17:03:57.169Z",
+  "instagramPublishRequestedAt": "2026-09-06T17:04:12.719Z",
+  "instagramMediaId": "17914235901443208",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc9B5dkAA5K/",
+  "instagramVerifiedAt": "2026-09-06T17:04:21.439Z"
 }
