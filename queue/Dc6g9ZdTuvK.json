@@ -3,16 +3,16 @@
   "shortcode": "Dc6g9ZdTuvK",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dc6g9ZdTuvK/",
-  "sourceCaption": "ALABAMA LOOKING GAME READY \ud83d\ude2d\ud83d\udd25 (via NickyPerks/X)",
-  "publishCaption": "ALABAMA LOOKING GAME READY \ud83d\ude2d\ud83d\udd25 (via NickyPerks/X)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "ALABAMA LOOKING GAME READY 😭🔥 (via NickyPerks/X)",
+  "publishCaption": "ALABAMA LOOKING GAME READY 😭🔥 (via NickyPerks/X)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-05T17:45:20.025Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "ALABAMA LOOKING GAME READY \ud83d\ude2d\ud83d\udd25 (via NickyPerks/X)",
+  "body": "ALABAMA LOOKING GAME READY 😭🔥 (via NickyPerks/X)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T17:46:09.181Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "a170369844976980a2f5e212e2cea375ca8c96693bd4c136926fef7eaa5391f9",
     "outputSha256": "f7490c0632cdfa1b32173ff7680ca122fad9ff5535abc392f234415683d4931f"
   },
-  "threadsText": "ALABAMA LOOKING GAME READY \ud83d\ude2d\ud83d\udd25 (via NickyPerks/X)\n\nSource: @houseofhighlights",
+  "threadsText": "ALABAMA LOOKING GAME READY 😭🔥 (via NickyPerks/X)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 9.72,
   "scoreMargin": -41.15,
   "highlightQuality": 9.72,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 38.85,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107620558915961",
+  "instagramContainerCreatedAt": "2026-09-06T19:51:23.553Z",
+  "instagramPublishRequestedAt": "2026-09-06T19:51:38.725Z",
+  "instagramMediaId": "17932786428379494",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc9VDw7EQcW/",
+  "instagramVerifiedAt": "2026-09-06T19:51:43.514Z"
 }
