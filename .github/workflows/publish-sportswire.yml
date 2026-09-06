@@ -39,6 +39,19 @@ jobs:
           fi
           echo "Publishing to each SportsWire destination with configured credentials; unavailable destinations remain pending."
           node scripts/publish-sportswire-meta.mjs
+      - name: Backup missed-post watchdog and retry pass
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          MEDIA_BASE_URL: ${{ secrets.MEDIA_BASE_URL }}
+          MINIMUM_FEED_GAP_MINUTES: "30"
+          INSTAGRAM_DAILY_LIMIT: "60"
+          THREADS_DAILY_LIMIT: "60"
+        run: |
+          node scripts/watchdog-sportswire.mjs
+          node scripts/publish-sportswire-meta.mjs
       - name: Save verified publication state
         run: |
           if [ -z "$(git status --porcelain -- queue logs)" ]; then exit 0; fi
