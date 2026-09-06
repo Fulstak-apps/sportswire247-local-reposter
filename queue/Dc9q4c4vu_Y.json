@@ -3,16 +3,16 @@
   "shortcode": "Dc9q4c4vu_Y",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dc9q4c4vu_Y/",
-  "sourceCaption": "Foul or nah? \ud83e\udd14\n\nLive games on TNT/TruTV/MAX \ud83d\udcfa #fibawwc #womensbasketball #basketball #usa",
-  "publishCaption": "Foul or nah? \ud83e\udd14\n\nLive games on TNT/TruTV/MAX \ud83d\udcfa #fibawwc #womensbasketball #basketball #usa\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Foul or nah? 🤔\n\nLive games on TNT/TruTV/MAX 📺 #fibawwc #womensbasketball #basketball #usa",
+  "publishCaption": "Foul or nah? 🤔\n\nLive games on TNT/TruTV/MAX 📺 #fibawwc #womensbasketball #basketball #usa\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-06T23:07:15.739Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Foul or nah? \ud83e\udd14\n\nLive games on TNT/TruTV/MAX \ud83d\udcfa #fibawwc #womensbasketball #basketball #usa",
+  "body": "Foul or nah? 🤔\n\nLive games on TNT/TruTV/MAX 📺 #fibawwc #womensbasketball #basketball #usa",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-06T23:08:04.449Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "b0c349e8c35057be7b2b6ffa3cc36a69737c5121b943731bfdfb3c6961fd15ce",
     "outputSha256": "ecb3717100ed047a4d49e149e5730c3925ba7b30b0a6a7f940932e4b6ffeab5d"
   },
-  "threadsText": "Foul or nah? \ud83e\udd14\n\nLive games on TNT/TruTV/MAX \ud83d\udcfa #fibawwc #womensbasketball #basketball #usa\n\nSource: @bleacherreport",
+  "threadsText": "Foul or nah? 🤔\n\nLive games on TNT/TruTV/MAX 📺 #fibawwc #womensbasketball #basketball #usa\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 10.79,
   "scoreMargin": 14.69,
   "highlightQuality": 10.79,
-  "postingFloor": 45.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 45,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 59.69,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107653636915961",
+  "instagramContainerCreatedAt": "2026-09-06T23:15:28.996Z",
+  "instagramPublishRequestedAt": "2026-09-06T23:15:59.371Z",
+  "instagramMediaId": "18112125491108849",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc9saqOFK9f/",
+  "instagramVerifiedAt": "2026-09-06T23:16:05.770Z"
 }
