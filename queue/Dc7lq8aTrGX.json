@@ -3,16 +3,16 @@
   "shortcode": "Dc7lq8aTrGX",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dc7lq8aTrGX/",
-  "sourceCaption": "The highest of highs and lowest of lows \ud83d\ude2d",
-  "publishCaption": "The highest of highs and lowest of lows \ud83d\ude2d\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "The highest of highs and lowest of lows 😭",
+  "publishCaption": "The highest of highs and lowest of lows 😭\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-06T03:46:58.114Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "The highest of highs and lowest of lows \ud83d\ude2d",
+  "body": "The highest of highs and lowest of lows 😭",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-06T03:47:46.593Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "15fb799c34d8493e11559e88165c6898566408b28dee497fcf2a1fc034cef400",
     "outputSha256": "9d06fb633af2b088e8280796117d889fb79160c74088c9062b271e74df59e874"
   },
-  "threadsText": "The highest of highs and lowest of lows \ud83d\ude2d\n\nSource: @houseofhighlights",
+  "threadsText": "The highest of highs and lowest of lows 😭\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 13.68,
   "scoreMargin": -34.96,
   "highlightQuality": 13.68,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.04,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107476234915961",
+  "instagramContainerCreatedAt": "2026-09-06T10:19:30.919Z",
+  "instagramPublishRequestedAt": "2026-09-06T10:20:01.516Z",
+  "instagramMediaId": "17975330789920951",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc8TnRdjPVL/",
+  "instagramVerifiedAt": "2026-09-06T10:20:09.187Z"
 }
