@@ -3,16 +3,16 @@
   "shortcode": "Dc9Nps_Jgky",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dc9Nps_Jgky/",
-  "sourceCaption": "Oh no \ud83d\ude2c\ud83d\ude2d \n\n(Via @emufb, h/t JMannsTakes/X)\n\n#cfb #collegefootball #easternmichigan #sports",
-  "publishCaption": "Oh no \ud83d\ude2c\ud83d\ude2d \n\n(Via @emufb, h/t JMannsTakes/X)\n\n#cfb #collegefootball #easternmichigan #sports\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Oh no 😬😭 \n\n(Via @emufb, h/t JMannsTakes/X)\n\n#cfb #collegefootball #easternmichigan #sports",
+  "publishCaption": "Oh no 😬😭 \n\n(Via @emufb, h/t JMannsTakes/X)\n\n#cfb #collegefootball #easternmichigan #sports\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-06T18:53:56.735Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Oh no \ud83d\ude2c\ud83d\ude2d \n\n(Via @emufb, h/t JMannsTakes/X)\n\n#cfb #collegefootball #easternmichigan #sports",
+  "body": "Oh no 😬😭 \n\n(Via @emufb, h/t JMannsTakes/X)\n\n#cfb #collegefootball #easternmichigan #sports",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-06T18:54:45.261Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "5e82df46bb1e6196585c629db1c4939695eb63c0dfe23b15d2fd131959626bb6",
     "outputSha256": "a1b6e7f2584763760e4cbc3d99940c1ccaae7663143fdbe24dd70d2ff8bb0c09"
   },
-  "threadsText": "Oh no \ud83d\ude2c\ud83d\ude2d \n\n(Via @emufb, h/t JMannsTakes/X)\n\n#cfb #collegefootball #easternmichigan #sports\n\nSource: @bleacherreport",
+  "threadsText": "Oh no 😬😭 \n\n(Via @emufb, h/t JMannsTakes/X)\n\n#cfb #collegefootball #easternmichigan #sports\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 11.53,
   "scoreMargin": 5.38,
   "highlightQuality": 11.53,
-  "postingFloor": 52.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 52,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 57.38,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107613226915961",
+  "instagramContainerCreatedAt": "2026-09-06T19:15:06.556Z",
+  "instagramPublishRequestedAt": "2026-09-06T19:15:38.824Z",
+  "instagramMediaId": "17987507777865501",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc9Q57fDt2r/",
+  "instagramVerifiedAt": "2026-09-06T19:15:49.123Z"
 }
