@@ -3,16 +3,16 @@
   "shortcode": "Dc8qb3gOvWz",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dc8qb3gOvWz/",
-  "sourceCaption": "No one would believe him if this wasn\u2019t on camera \ud83d\ude2d\ud83d\udd25(via @dylancrofts)",
-  "publishCaption": "No one would believe him if this wasn\u2019t on camera \ud83d\ude2d\ud83d\udd25(via @dylancrofts)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "No one would believe him if this wasn’t on camera 😭🔥(via @dylancrofts)",
+  "publishCaption": "No one would believe him if this wasn’t on camera 😭🔥(via @dylancrofts)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-06T13:43:47.051Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "No one would believe him if this wasn\u2019t on camera \ud83d\ude2d\ud83d\udd25(via @dylancrofts)",
+  "body": "No one would believe him if this wasn’t on camera 😭🔥(via @dylancrofts)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-06T13:44:35.616Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "e9a17ab8fcbe03e596fccbd4fefc9c8b43bdb1555ebcc4da3c6498595796a02b",
     "outputSha256": "0022b46daf635cec9d72ecbd3e840ca959a5ffbddf8060d37f50b1350cdab290"
   },
-  "threadsText": "No one would believe him if this wasn\u2019t on camera \ud83d\ude2d\ud83d\udd25(via @dylancrofts)\n\nSource: @houseofhighlights",
+  "threadsText": "No one would believe him if this wasn’t on camera 😭🔥(via @dylancrofts)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 11.02,
   "scoreMargin": -36.14,
   "highlightQuality": 11.02,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.86,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107526346915961",
+  "instagramContainerCreatedAt": "2026-09-06T14:06:06.853Z",
+  "instagramPublishRequestedAt": "2026-09-06T14:06:37.340Z",
+  "instagramMediaId": "18092660237274272",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc8ti70Eo-g/",
+  "instagramVerifiedAt": "2026-09-06T14:06:47.317Z"
 }
