@@ -3,16 +3,16 @@
   "shortcode": "Dc9EeI3TlOa",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dc9EeI3TlOa/",
-  "sourceCaption": "Just a slight miscommunication \ud83d\ude05",
-  "publishCaption": "Just a slight miscommunication \ud83d\ude05\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Just a slight miscommunication 😅",
+  "publishCaption": "Just a slight miscommunication 😅\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-06T17:32:27.633Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Just a slight miscommunication \ud83d\ude05",
+  "body": "Just a slight miscommunication 😅",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-06T17:33:17.135Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "1b897c7f61b1b889840a001e62adef3a07cf9d98a0ca781e9b60120754e67faa",
     "outputSha256": "a64bf90cc860d315f6df4c8c39de276c5da688bc23167b0a4976cc0e8689ac34"
   },
-  "threadsText": "Just a slight miscommunication \ud83d\ude05\n\nSource: @houseofhighlights",
+  "threadsText": "Just a slight miscommunication 😅\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 11.11,
   "scoreMargin": -36.01,
   "highlightQuality": 11.11,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.99,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107598034915961",
+  "instagramContainerCreatedAt": "2026-09-06T18:09:00.426Z",
+  "instagramPublishRequestedAt": "2026-09-06T18:09:30.728Z",
+  "instagramMediaId": "17958781578233944",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc9JV06icKk/",
+  "instagramVerifiedAt": "2026-09-06T18:09:35.991Z"
 }
