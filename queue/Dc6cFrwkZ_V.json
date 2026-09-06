@@ -6,7 +6,7 @@
   "sourceCaption": "JEREMIAH SMITH BLURRRR @primetimejj_.4 (via @b1gfootball)",
   "publishCaption": "JEREMIAH SMITH BLURRRR @primetimejj_.4 (via @b1gfootball)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-05T17:00:18.420Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 10.71,
   "scoreMargin": -43.07,
   "highlightQuality": 10.71,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 36.93,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107649517915961",
+  "instagramContainerCreatedAt": "2026-09-06T22:42:36.394Z",
+  "instagramPublishRequestedAt": "2026-09-06T22:43:06.686Z",
+  "instagramMediaId": "17893010640416418",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc9op0oFszW/",
+  "instagramVerifiedAt": "2026-09-06T22:43:14.782Z"
 }
