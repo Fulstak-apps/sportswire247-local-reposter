@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-09-06T05:17:38.648Z",
+  "checkedAt": "2026-09-06T05:26:03.466Z",
   "platforms": {
     "instagram": {
       "status": "healthy",
       "usage": 14,
       "limit": 100,
-      "pendingItems": 30,
-      "lastVerifiedAt": "2026-09-06T04:49:04.430Z",
+      "pendingItems": 29,
+      "lastVerifiedAt": "2026-09-06T05:26:46.783Z",
       "overdue": false,
       "unresolvedItems": []
     },
@@ -14,8 +14,8 @@
       "status": "healthy",
       "usage": 16,
       "limit": 250,
-      "pendingItems": 30,
-      "lastVerifiedAt": "2026-09-06T04:49:45.293Z",
+      "pendingItems": 29,
+      "lastVerifiedAt": "2026-09-06T05:27:29.163Z",
       "overdue": false,
       "unresolvedItems": []
     }

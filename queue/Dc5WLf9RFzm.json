@@ -6,7 +6,7 @@
   "sourceCaption": "Cardinals manager Oli Marmol was furious with umpire Doug Eddings after Eddings told rookie pitcher Hancel Rincon to fix his hat in the middle of his MLB debut",
   "publishCaption": "Cardinals manager Oli Marmol was furious with umpire Doug Eddings after Eddings told rookie pitcher Hancel Rincon to fix his hat in the middle of his MLB debut\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-05T07:32:00.005Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 1,
     "publish": 0
@@ -39,9 +39,9 @@
   "rawScore": 43.21,
   "engagementScore": 14.23,
   "scoreMargin": -16.79,
-  "highlightQuality": 14.0,
-  "postingFloor": 60.0,
-  "highlightFloor": 46.0,
+  "highlightQuality": 14,
+  "postingFloor": 60,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.21,
@@ -61,5 +61,18 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107418430915961",
+  "instagramContainerCreatedAt": "2026-09-06T05:26:05.069Z",
+  "instagramPublishRequestedAt": "2026-09-06T05:26:36.423Z",
+  "instagramMediaId": "18130234012706516",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc7yCJCiccL/",
+  "instagramVerifiedAt": "2026-09-06T05:26:46.783Z",
+  "threadsContainerId": "18093762605244801",
+  "threadsContainerCreatedAt": "2026-09-06T05:26:48.394Z",
+  "threadsPublishRequestedAt": "2026-09-06T05:27:20.189Z",
+  "threadsMediaId": "18064445996596541",
+  "threadsPermalink": "https://www.threads.com/@sportswire247/post/Dc7yHk2CekU",
+  "threadsVerifiedAt": "2026-09-06T05:27:29.163Z",
+  "publishedAt": "2026-09-06T05:27:29.163Z"
 }
