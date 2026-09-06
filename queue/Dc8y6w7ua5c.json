@@ -3,16 +3,16 @@
   "shortcode": "Dc8y6w7ua5c",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dc8y6w7ua5c/",
-  "sourceCaption": "He pulled those pants up real quick \ud83d\udc80\n\n#cfb #collegefootball #football #lsu",
-  "publishCaption": "He pulled those pants up real quick \ud83d\udc80\n\n#cfb #collegefootball #football #lsu\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "He pulled those pants up real quick 💀\n\n#cfb #collegefootball #football #lsu",
+  "publishCaption": "He pulled those pants up real quick 💀\n\n#cfb #collegefootball #football #lsu\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-06T14:56:44.465Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "He pulled those pants up real quick \ud83d\udc80\n\n#cfb #collegefootball #football #lsu",
+  "body": "He pulled those pants up real quick 💀\n\n#cfb #collegefootball #football #lsu",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-06T14:57:32.994Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "5961d2ab9da5bd0d950f5929c24a65fcabb25b8b062857904389af93a94ce033",
     "outputSha256": "ce914f570448ce656551d48368300e7c4d009963a11ec35f87de07fc8dc5892b"
   },
-  "threadsText": "He pulled those pants up real quick \ud83d\udc80\n\n#cfb #collegefootball #football #lsu\n\nSource: @bleacherreport",
+  "threadsText": "He pulled those pants up real quick 💀\n\n#cfb #collegefootball #football #lsu\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 6.86,
   "scoreMargin": 0.76,
   "highlightQuality": 6.86,
-  "postingFloor": 52.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 52,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 52.76,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107545117915961",
+  "instagramContainerCreatedAt": "2026-09-06T15:13:13.510Z",
+  "instagramPublishRequestedAt": "2026-09-06T15:13:44.001Z",
+  "instagramMediaId": "17913392217263325",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc81OhHj6mq/",
+  "instagramVerifiedAt": "2026-09-06T15:13:50.628Z"
 }
