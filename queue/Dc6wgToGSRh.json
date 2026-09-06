@@ -3,16 +3,16 @@
   "shortcode": "Dc6wgToGSRh",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/p/Dc6wgToGSRh/",
-  "sourceCaption": "JEREMIAH SMITH WASTED NO TIME IN WEEK 1. \ud83d\udd25\ud83d\udd25",
-  "publishCaption": "JEREMIAH SMITH WASTED NO TIME IN WEEK 1. \ud83d\udd25\ud83d\udd25\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "JEREMIAH SMITH WASTED NO TIME IN WEEK 1. 🔥🔥",
+  "publishCaption": "JEREMIAH SMITH WASTED NO TIME IN WEEK 1. 🔥🔥\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-05T19:58:34.721Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "JEREMIAH SMITH WASTED NO TIME IN WEEK 1. \ud83d\udd25\ud83d\udd25",
+  "body": "JEREMIAH SMITH WASTED NO TIME IN WEEK 1. 🔥🔥",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T19:59:23.491Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "e8a475348e2a473abae002507a52d030fccbc7d848164496da1a8a39c22d76fc",
     "outputSha256": "d4c957b525f367944bf6a3ffb21421ba92cc1eca7f25eba55abdcd66c4098186"
   },
-  "threadsText": "JEREMIAH SMITH WASTED NO TIME IN WEEK 1. \ud83d\udd25\ud83d\udd25\n\nSource: @houseofhighlights",
+  "threadsText": "JEREMIAH SMITH WASTED NO TIME IN WEEK 1. 🔥🔥\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: RuntimeError",
@@ -52,8 +52,8 @@
   "engagementScore": 13.47,
   "scoreMargin": -34.77,
   "highlightQuality": 13.47,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.23,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107471305915961",
+  "instagramContainerCreatedAt": "2026-09-06T09:47:59.916Z",
+  "instagramPublishRequestedAt": "2026-09-06T09:48:30.620Z",
+  "instagramMediaId": "17984097968882552",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc8QAYUAfSs/",
+  "instagramVerifiedAt": "2026-09-06T09:48:38.686Z"
 }
