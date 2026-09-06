@@ -3,16 +3,16 @@
   "shortcode": "Dc6SkE1gcRv",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/espn/reel/Dc6SkE1gcRv/",
-  "sourceCaption": "ONE MILLION DOLLARS ON THE LINE IN WEEK ONE \ud83d\ude33",
-  "publishCaption": "ONE MILLION DOLLARS ON THE LINE IN WEEK ONE \ud83d\ude33\n\nSource: @sportscenter\n\n@sportswire247",
+  "sourceCaption": "ONE MILLION DOLLARS ON THE LINE IN WEEK ONE 😳",
+  "publishCaption": "ONE MILLION DOLLARS ON THE LINE IN WEEK ONE 😳\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-05T15:58:56.814Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "ONE MILLION DOLLARS ON THE LINE IN WEEK ONE \ud83d\ude33",
+  "body": "ONE MILLION DOLLARS ON THE LINE IN WEEK ONE 😳",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T15:59:45.577Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "c2f3643d5289cfc14136d0e0f649ce17b92ad2570c51349db50d83740c8c8bec",
     "outputSha256": "68575f01f4216b1f59657c7461e083ae78b8d83435f187c71864eb915f9152e0"
   },
-  "threadsText": "ONE MILLION DOLLARS ON THE LINE IN WEEK ONE \ud83d\ude33\n\nSource: @sportscenter",
+  "threadsText": "ONE MILLION DOLLARS ON THE LINE IN WEEK ONE 😳\n\nSource: @sportscenter",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 13.47,
   "scoreMargin": -40.7,
   "highlightQuality": 13.47,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 39.3,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107604637915961",
+  "instagramContainerCreatedAt": "2026-09-06T18:42:10.405Z",
+  "instagramPublishRequestedAt": "2026-09-06T18:42:40.860Z",
+  "instagramMediaId": "18132447796572020",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc9NI17E7vL/",
+  "instagramVerifiedAt": "2026-09-06T18:42:48.757Z"
 }
