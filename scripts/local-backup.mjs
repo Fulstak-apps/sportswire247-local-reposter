@@ -9,9 +9,13 @@ try {
  const runs=JSON.parse(gh(['run','list','--repo',repo,'--workflow','publish-sportswire.yml','--limit','5','--json','status,conclusion,createdAt']));
  const active=runs.some(x=>x.status!=='completed');
  const recent=runs.some(x=>Date.now()-Date.parse(x.createdAt)<10*60000);
+ const health=JSON.parse(gh(['api',`repos/${repo}/contents/logs/publisher-health.json`,'-H','Accept: application/vnd.github.raw+json']));
+ result.publisherHealth=health;
+ const overdue=Object.values(health.platforms || {}).some(x=>x.overdue===true && x.status==='healthy');
+ const failed=runs[0]?.status==='completed' && runs[0]?.conclusion!=='success';
  const cooled=Date.now()-(Date.parse(previous.lastDispatchAt)||0)>=10*60000;
- result.action=active?'publisher_active':recent?'recent_run':!cooled?'cooldown':'retry_missing_run';
- if(!active&&!recent&&cooled){
+ result.action=active?'publisher_active':!cooled?'cooldown':overdue?'retry_overdue_post':failed?'retry_failed_run':recent?'recent_run':'retry_missing_run';
+ if(!active&&(!recent||failed||overdue)&&cooled){
   gh(['workflow','run','publish-sportswire.yml','--repo',repo]);
   result.lastDispatchAt=new Date().toISOString();
   try {

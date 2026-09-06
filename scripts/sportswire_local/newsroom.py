@@ -80,6 +80,10 @@ def prepare(item: dict, config: dict, approved: set[str]) -> dict:
     ranked = dict(item) if item.get("rankingVersion") == "sportswire-newsroom-v2" else score(item)
     generated, ollama_status = {}, "fallback_source_caption"
     try:
+        if not config.get('ollama', {}).get('enabled', False) or not config.get('ollama', {}).get('captionCleanup', True):
+            raise ValueError('caption cleanup disabled')
+        if ranked.get('captionCheckedAt'):
+            raise ValueError('caption already prepared by collector')
         generated = generate(config, {k: ranked.get(k) for k in (
             "sourceCaption", "sourceHandle", "sourceUrl", "league", "sportCategory",
             "sportRank", "contentKind", "priority", "viralScore", "rawScore",
@@ -88,7 +92,7 @@ def prepare(item: dict, config: dict, approved: set[str]) -> dict:
         )})
         ollama_status = "local_ollama"
     except Exception as error: ollama_status = f"fallback_source_caption: {type(error).__name__}"
-    body = generated.get("caption") or ranked.get("sourceCaption", "")
+    body = generated.get("caption") or ranked.get("body") or ranked.get("sourceCaption", "")
     credit = f"Source: @{ranked.get('sourceHandle', '')}"
     ranked["publishCaption"] = f"{body}\n\n{credit}\n\n@sportswire247"
     ranked["threadsText"] = f"{generated.get('threads_text') or body}\n\n{credit}"
@@ -113,6 +117,11 @@ def run(dry_run: bool = False) -> dict:
         ranked = sorted(ranked, key=lambda x: x["deterministicScore"], reverse=True)
         auto_candidates = select_best(ranked, 1)
         selected = prepare(auto_candidates[0], config, approved) if auto_candidates else None
+        if selected and selected['proposedStatus'] == 'held' and not dry_run:
+            rejected = json.loads((INBOX_QUEUE / f"{selected['shortcode']}.json").read_text())
+            rejected.update(status='qa_review', qa=selected['qa'])
+            (INBOX_QUEUE / f"{selected['shortcode']}.json").write_text(json.dumps(rejected, indent=2) + '\n')
+            return {'status': 'branding_review', 'shortcode': selected['shortcode'], 'message': 'QA hold; continuing to next candidate'}
 
         result = {
             "at": datetime.now(timezone.utc).isoformat(),

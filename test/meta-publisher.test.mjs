@@ -1,6 +1,22 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { eligible, platformEligible, retryAt } from "../scripts/publish-sportswire-meta.mjs";
+import { eligible, platformEligible, retryAt, reconciliationMatch } from "../scripts/publish-sportswire-meta.mjs";
+
+test('uncertain clips stay locked and reserve the posting gap for other clips', () => {
+ const now=Date.parse('2026-09-06T12:00:00Z');
+ const uncertain={...valid,instagramPublishRequestedAt:new Date(now-10*60000).toISOString()};
+ assert.equal(platformEligible(uncertain,'instagram',[],now,60),false);
+ assert.equal(platformEligible(valid,'instagram',[{item:uncertain}],now,60),false);
+ assert.equal(platformEligible(valid,'instagram',[{item:uncertain}],now+21*60000,60),true);
+});
+test('reconciliation accepts only a unique exact caption within the request window', () => {
+ const item={publishCaption:'Source caption',instagramPublishRequestedAt:'2026-09-06T12:00:00Z'};
+ const post={id:'123',permalink:'https://www.instagram.com/reel/example/',caption:'Source caption',timestamp:'2026-09-06T12:01:00Z'};
+ assert.equal(reconciliationMatch(item,'instagram',[post]),post);
+ assert.equal(reconciliationMatch(item,'instagram',[post,{...post,id:'456'}]),null);
+ assert.equal(reconciliationMatch(item,'instagram',[{...post,caption:'Different'}]),null);
+ assert.equal(reconciliationMatch(item,'instagram',[{...post,timestamp:'2026-09-05T12:00:00Z'}]),null);
+});
 import { chooseSafeLogo } from "../src/video-safety.mjs";
 
 const valid = { status: "ready", destinationHandle: "sportswire247", brand: "SportsWire 247", video: "media/x.mp4", sourceUrl: "https://instagram.com/reel/x/", shortcode: "x", publishCaption: "Caption\n\n@sportswire247" };
