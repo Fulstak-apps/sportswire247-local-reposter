@@ -3,16 +3,16 @@
   "shortcode": "Dc6VhFxuNUb",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dc6VhFxuNUb/",
-  "sourceCaption": "Looked like a video game IRL \ud83e\udd2f\ud83c\udfae\n\n#RuizKnyba live on @TNTSportsUS & @DAZNBoxing \ud83e\udd4a",
-  "publishCaption": "Looked like a video game IRL \ud83e\udd2f\ud83c\udfae\n\n#RuizKnyba live on @TNTSportsUS & @DAZNBoxing \ud83e\udd4a\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Looked like a video game IRL 🤯🎮\n\n#RuizKnyba live on @TNTSportsUS & @DAZNBoxing 🥊",
+  "publishCaption": "Looked like a video game IRL 🤯🎮\n\n#RuizKnyba live on @TNTSportsUS & @DAZNBoxing 🥊\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-05T16:00:11.028Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Looked like a video game IRL \ud83e\udd2f\ud83c\udfae\n\n#RuizKnyba live on @TNTSportsUS & @DAZNBoxing \ud83e\udd4a",
+  "body": "Looked like a video game IRL 🤯🎮\n\n#RuizKnyba live on @TNTSportsUS & @DAZNBoxing 🥊",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T16:00:59.827Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "31564d75f4b4a28f2d10a6c5ab286209cdf36b0599596abebe527fbc9fe93da8",
     "outputSha256": "4c58a84eca5030cd00df89de41f171d0b01b9178459dde8425eef1c9733c0942"
   },
-  "threadsText": "Looked like a video game IRL \ud83e\udd2f\ud83c\udfae\n\n#RuizKnyba live on @TNTSportsUS & @DAZNBoxing \ud83e\udd4a\n\nSource: @bleacherreport",
+  "threadsText": "Looked like a video game IRL 🤯🎮\n\n#RuizKnyba live on @TNTSportsUS & @DAZNBoxing 🥊\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: JSONDecodeError",
@@ -52,8 +52,8 @@
   "engagementScore": 2.12,
   "scoreMargin": -55.32,
   "highlightQuality": 2.12,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 24.68,
@@ -72,5 +72,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107794879915961",
+  "instagramContainerCreatedAt": "2026-09-07T11:10:41.891Z",
+  "instagramPublishRequestedAt": "2026-09-07T11:12:12.609Z",
+  "instagramMediaId": "18114477367987949",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc--X_gD8dY/",
+  "instagramVerifiedAt": "2026-09-07T11:12:20.457Z"
 }
