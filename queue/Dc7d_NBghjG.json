@@ -3,16 +3,16 @@
   "shortcode": "Dc7d_NBghjG",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/Dc7d_NBghjG/",
-  "sourceCaption": "Bro redeemed himself tho \ud83e\udd23 (via @espncfb)",
-  "publishCaption": "Bro redeemed himself tho \ud83e\udd23 (via @espncfb)\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "Bro redeemed himself tho 🤣 (via @espncfb)",
+  "publishCaption": "Bro redeemed himself tho 🤣 (via @espncfb)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-06T02:33:43.925Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Bro redeemed himself tho \ud83e\udd23 (via @espncfb)",
+  "body": "Bro redeemed himself tho 🤣 (via @espncfb)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-06T02:34:32.343Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "037a6c308e9a8809afab63954eeacfc6811f28db0809d25742a62eccedb6ca53",
     "outputSha256": "d1671b956ff493a0a2b1467b3d903b1356b94f50cd529b511d17a0a7f8ba1ea5"
   },
-  "threadsText": "Bro redeemed himself tho \ud83e\udd23 (via @espncfb)\n\nSource: @overtime",
+  "threadsText": "Bro redeemed himself tho 🤣 (via @espncfb)\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 4.07,
   "scoreMargin": -44.99,
   "highlightQuality": 4.07,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 35.01,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107723611915961",
+  "instagramContainerCreatedAt": "2026-09-07T05:22:59.412Z",
+  "instagramPublishRequestedAt": "2026-09-07T05:23:15.561Z",
+  "instagramMediaId": "17966890653187191",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc-WeLIk0_g/",
+  "instagramVerifiedAt": "2026-09-07T05:23:22.505Z"
 }
