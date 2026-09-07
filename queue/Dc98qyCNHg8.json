@@ -3,16 +3,16 @@
   "shortcode": "Dc98qyCNHg8",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dc98qyCNHg8/",
-  "sourceCaption": "Still scored the run \ud83d\ude05\ud83d\ude02 (via jolla321/TT)",
-  "publishCaption": "Still scored the run \ud83d\ude05\ud83d\ude02 (via jolla321/TT)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Still scored the run 😅😂 (via jolla321/TT)",
+  "publishCaption": "Still scored the run 😅😂 (via jolla321/TT)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-07T01:43:27.141Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Still scored the run \ud83d\ude05\ud83d\ude02 (via jolla321/TT)",
+  "body": "Still scored the run 😅😂 (via jolla321/TT)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-07T01:44:15.769Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "01d397ae94b91734b0fe63914095a5c778e9d661882e5d19f00b44dedc5ba914",
     "outputSha256": "62d48327a830d46e50778b6a0243218431e9db1ef88d3a84de02a44d05f2ce87"
   },
-  "threadsText": "Still scored the run \ud83d\ude05\ud83d\ude02 (via jolla321/TT)\n\nSource: @houseofhighlights",
+  "threadsText": "Still scored the run 😅😂 (via jolla321/TT)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 12.19,
   "scoreMargin": -34.91,
   "highlightQuality": 12.19,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.09,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107684755915961",
+  "instagramContainerCreatedAt": "2026-09-07T02:04:29.820Z",
+  "instagramPublishRequestedAt": "2026-09-07T02:04:45.242Z",
+  "instagramMediaId": "18580014094068967",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc9_wiZkpbv/",
+  "instagramVerifiedAt": "2026-09-07T02:04:54.112Z"
 }
