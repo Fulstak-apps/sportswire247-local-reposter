@@ -3,16 +3,16 @@
   "shortcode": "Dc_Xj58gDfS",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/Dc_Xj58gDfS/",
-  "sourceCaption": "Coach never letting him on the field again \ud83d\ude29 (via @jzls.flicks)",
-  "publishCaption": "Coach never letting him on the field again \ud83d\ude29 (via @jzls.flicks)\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "Coach never letting him on the field again 😩 (via @jzls.flicks)",
+  "publishCaption": "Coach never letting him on the field again 😩 (via @jzls.flicks)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-07T14:58:12.169Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Coach never letting him on the field again \ud83d\ude29 (via @jzls.flicks)",
+  "body": "Coach never letting him on the field again 😩 (via @jzls.flicks)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-07T14:59:00.671Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "36c8a4affdabfe9c0ca017218542a275ae8d7804730b6afa07c32169732701b2",
     "outputSha256": "330fa21726385fa5a427bf5c8b6f796b176561cb2015a6a225b9ed12bac1a83a"
   },
-  "threadsText": "Coach never letting him on the field again \ud83d\ude29 (via @jzls.flicks)\n\nSource: @overtime",
+  "threadsText": "Coach never letting him on the field again 😩 (via @jzls.flicks)\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 3.28,
   "scoreMargin": -45.93,
   "highlightQuality": 3.28,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 34.07,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107857981915961",
+  "instagramContainerCreatedAt": "2026-09-07T15:43:05.029Z",
+  "instagramPublishRequestedAt": "2026-09-07T15:43:35.654Z",
+  "instagramMediaId": "18094818584404016",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc_dcGUCXzx/",
+  "instagramVerifiedAt": "2026-09-07T15:43:42.518Z"
 }
