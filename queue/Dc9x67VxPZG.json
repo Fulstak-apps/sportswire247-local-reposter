@@ -3,16 +3,16 @@
   "shortcode": "Dc9x67VxPZG",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Dc9x67VxPZG/",
-  "sourceCaption": "Real hooper \ud83c\udfc0",
-  "publishCaption": "Real hooper \ud83c\udfc0\n\nSource: @sportscenter\n\n@sportswire247",
+  "sourceCaption": "Real hooper 🏀",
+  "publishCaption": "Real hooper 🏀\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-07T00:08:24.022Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Real hooper \ud83c\udfc0",
+  "body": "Real hooper 🏀",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-07T00:09:12.734Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "f60c1c83acede45b22770948ffdb7ee8a0d996efa91025ff1bdcbd010572044d",
     "outputSha256": "5bf5ca51f8500bdddaa9511557aa6861ed53745d284c53056db6b728aea6219d"
   },
-  "threadsText": "Real hooper \ud83c\udfc0\n\nSource: @sportscenter",
+  "threadsText": "Real hooper 🏀\n\nSource: @sportscenter",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 12.16,
   "scoreMargin": -35.97,
   "highlightQuality": 12.16,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 44.03,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107664655915961",
+  "instagramContainerCreatedAt": "2026-09-07T00:23:37.022Z",
+  "instagramPublishRequestedAt": "2026-09-07T00:24:07.649Z",
+  "instagramMediaId": "17947031496056762",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc90Nq3j6AT/",
+  "instagramVerifiedAt": "2026-09-07T00:24:14.268Z"
 }
