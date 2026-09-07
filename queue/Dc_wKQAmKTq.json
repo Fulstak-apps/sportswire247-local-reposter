@@ -3,16 +3,16 @@
   "shortcode": "Dc_wKQAmKTq",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/Dc_wKQAmKTq/",
-  "sourceCaption": "Ant really manifested it \ud83e\udd79 @theanthonyedwards_ @dcyoungfly (h/t gmzeroog/X)",
-  "publishCaption": "Ant really manifested it \ud83e\udd79 @theanthonyedwards_ @dcyoungfly (h/t gmzeroog/X)\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "Ant really manifested it 🥹 @theanthonyedwards_ @dcyoungfly (h/t gmzeroog/X)",
+  "publishCaption": "Ant really manifested it 🥹 @theanthonyedwards_ @dcyoungfly (h/t gmzeroog/X)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-07T18:28:45.621Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Ant really manifested it \ud83e\udd79 @theanthonyedwards_ @dcyoungfly (h/t gmzeroog/X)",
+  "body": "Ant really manifested it 🥹 @theanthonyedwards_ @dcyoungfly (h/t gmzeroog/X)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-07T18:29:34.204Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "c1bf1e0cd822039fe926f9449f4db9c1a4023246ad45202939ada2438461b6c7",
     "outputSha256": "7d15dd5c1f50119f941408d9be572e92a86b2d73ac77f34deca3f4ac1334c7ef"
   },
-  "threadsText": "Ant really manifested it \ud83e\udd79 @theanthonyedwards_ @dcyoungfly (h/t gmzeroog/X)\n\nSource: @overtime",
+  "threadsText": "Ant really manifested it 🥹 @theanthonyedwards_ @dcyoungfly (h/t gmzeroog/X)\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 5.27,
   "scoreMargin": -43.79,
   "highlightQuality": 5.27,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 36.21,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107900923915961",
+  "instagramContainerCreatedAt": "2026-09-07T18:31:09.835Z",
+  "instagramPublishRequestedAt": "2026-09-07T18:31:40.604Z",
+  "instagramMediaId": "18106950206230921",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc_wrDnlyZF/",
+  "instagramVerifiedAt": "2026-09-07T18:31:47.994Z"
 }
