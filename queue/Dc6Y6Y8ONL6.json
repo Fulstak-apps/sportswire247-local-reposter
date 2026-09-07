@@ -3,16 +3,16 @@
   "shortcode": "Dc6Y6Y8ONL6",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dc6Y6Y8ONL6/",
-  "sourceCaption": "Daejon Love got everyone out here trying to be a pro athlete \ud83d\ude02\u26be\ufe0f (via @chicklet.hf)",
-  "publishCaption": "Daejon Love got everyone out here trying to be a pro athlete \ud83d\ude02\u26be\ufe0f (via @chicklet.hf)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Daejon Love got everyone out here trying to be a pro athlete 😂⚾️ (via @chicklet.hf)",
+  "publishCaption": "Daejon Love got everyone out here trying to be a pro athlete 😂⚾️ (via @chicklet.hf)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-05T16:31:45.484Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Daejon Love got everyone out here trying to be a pro athlete \ud83d\ude02\u26be\ufe0f (via @chicklet.hf)",
+  "body": "Daejon Love got everyone out here trying to be a pro athlete 😂⚾️ (via @chicklet.hf)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T16:32:34.132Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "e4e2e282a58a355e3ba55ac5ad17da86d2da5dda3631d9f7c8d9ab7410ebe44c",
     "outputSha256": "b8afc6c6372b23bc6d354a7d6ebdeb413a7a4e8c5033172722d5f73d3125ad97"
   },
-  "threadsText": "Daejon Love got everyone out here trying to be a pro athlete \ud83d\ude02\u26be\ufe0f (via @chicklet.hf)\n\nSource: @houseofhighlights",
+  "threadsText": "Daejon Love got everyone out here trying to be a pro athlete 😂⚾️ (via @chicklet.hf)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 6.13,
   "scoreMargin": -46.13,
   "highlightQuality": 6.13,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 33.87,
@@ -72,5 +72,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107754940915961",
+  "instagramContainerCreatedAt": "2026-09-07T07:29:23.033Z",
+  "instagramPublishRequestedAt": "2026-09-07T07:29:53.510Z",
+  "instagramMediaId": "18124869247818616",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc-k8O0EhJx/",
+  "instagramVerifiedAt": "2026-09-07T07:30:02.152Z"
 }
