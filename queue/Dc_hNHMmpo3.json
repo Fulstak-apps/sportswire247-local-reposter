@@ -3,16 +3,16 @@
   "shortcode": "Dc_hNHMmpo3",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/Dc_hNHMmpo3/",
-  "sourceCaption": "Bro was everyone but himself \ud83d\udc80\ud83d\ude2d",
-  "publishCaption": "Bro was everyone but himself \ud83d\udc80\ud83d\ude2d\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "Bro was everyone but himself 💀😭",
+  "publishCaption": "Bro was everyone but himself 💀😭\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-07T16:21:58.678Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Bro was everyone but himself \ud83d\udc80\ud83d\ude2d",
+  "body": "Bro was everyone but himself 💀😭",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-07T16:22:47.286Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "4656cb1ec79948365a2a24681d79e94e36c87a00b42d58464ffa4aed501ca87f",
     "outputSha256": "a8fde381cc7286f94b66ff4661e29db69225e8fc2f4a7882519815aaa02e93f0"
   },
-  "threadsText": "Bro was everyone but himself \ud83d\udc80\ud83d\ude2d\n\nSource: @overtime",
+  "threadsText": "Bro was everyone but himself 💀😭\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 11.11,
   "scoreMargin": -38.05,
   "highlightQuality": 11.11,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.95,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107876101915961",
+  "instagramContainerCreatedAt": "2026-09-07T16:49:32.087Z",
+  "instagramPublishRequestedAt": "2026-09-07T16:50:02.503Z",
+  "instagramMediaId": "18170194639459423",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc_lCuVALiW/",
+  "instagramVerifiedAt": "2026-09-07T16:50:11.336Z"
 }
