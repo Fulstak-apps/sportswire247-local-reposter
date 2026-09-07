@@ -3,16 +3,16 @@
   "shortcode": "DdAPDewNYR8",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdAPDewNYR8/",
-  "sourceCaption": "Moms making him earn it \ud83d\ude02\ud83d\ude02 (via @neak4boys, @kobeamir_4)",
-  "publishCaption": "Moms making him earn it \ud83d\ude02\ud83d\ude02 (via @neak4boys, @kobeamir_4)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Moms making him earn it 😂😂 (via @neak4boys, @kobeamir_4)",
+  "publishCaption": "Moms making him earn it 😂😂 (via @neak4boys, @kobeamir_4)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-07T23:00:41.977Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Moms making him earn it \ud83d\ude02\ud83d\ude02 (via @neak4boys, @kobeamir_4)",
+  "body": "Moms making him earn it 😂😂 (via @neak4boys, @kobeamir_4)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-07T23:01:30.768Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "b4a2dce0dae37fcab4563f947581a31aae710412907ed81b0d34ac2ca9534687",
     "outputSha256": "a83cd7a456f3dea52f43ea45f62c2cc50e9539de0ece9496f1ec0f152516f091"
   },
-  "threadsText": "Moms making him earn it \ud83d\ude02\ud83d\ude02 (via @neak4boys, @kobeamir_4)\n\nSource: @houseofhighlights",
+  "threadsText": "Moms making him earn it 😂😂 (via @neak4boys, @kobeamir_4)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 10.46,
   "scoreMargin": -36.65,
   "highlightQuality": 10.46,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.35,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107944885915961",
+  "instagramContainerCreatedAt": "2026-09-07T23:02:48.485Z",
+  "instagramPublishRequestedAt": "2026-09-07T23:03:18.844Z",
+  "instagramMediaId": "18073971803439636",
+  "instagramPermalink": "https://www.instagram.com/reel/DdAPwq3D9sp/",
+  "instagramVerifiedAt": "2026-09-07T23:03:23.650Z"
 }
