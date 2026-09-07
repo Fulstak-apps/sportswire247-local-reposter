@@ -3,16 +3,16 @@
   "shortcode": "Dc_o-3omsBA",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/p/Dc_o-3omsBA/",
-  "sourceCaption": "This 2027 QB class is STACKED\u2026 \ud83e\udd2f\n\nWho\u2019s going #1 overall from this bunch?",
-  "publishCaption": "This 2027 QB class is STACKED\u2026 \ud83e\udd2f\n\nWho\u2019s going #1 overall from this bunch?\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "This 2027 QB class is STACKED… 🤯\n\nWho’s going #1 overall from this bunch?",
+  "publishCaption": "This 2027 QB class is STACKED… 🤯\n\nWho’s going #1 overall from this bunch?\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-07T17:28:04.714Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "This 2027 QB class is STACKED\u2026 \ud83e\udd2f\n\nWho\u2019s going #1 overall from this bunch?",
+  "body": "This 2027 QB class is STACKED… 🤯\n\nWho’s going #1 overall from this bunch?",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-07T17:28:53.422Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "42dbc8c1548b01df961195c7e27bf37834eed7f61e366ed069d0f87dca38b1f0",
     "outputSha256": "c732565be9a750bcf1f129ee2b8a482fb365b2daff8312fb56587235614ab81e"
   },
-  "threadsText": "This 2027 QB class is STACKED\u2026 \ud83e\udd2f\n\nWho\u2019s going #1 overall from this bunch?\n\nSource: @bleacherreport",
+  "threadsText": "This 2027 QB class is STACKED… 🤯\n\nWho’s going #1 overall from this bunch?\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 12.27,
   "scoreMargin": -36.87,
   "highlightQuality": 12.27,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.13,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107892775915961",
+  "instagramContainerCreatedAt": "2026-09-07T17:58:09.616Z",
+  "instagramPublishRequestedAt": "2026-09-07T17:58:40.358Z",
+  "instagramMediaId": "18019241732865657",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc_s5aWEanW/",
+  "instagramVerifiedAt": "2026-09-07T17:58:46.772Z"
 }
