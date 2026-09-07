@@ -3,16 +3,16 @@
   "shortcode": "Dc_VHXrObE9",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dc_VHXrObE9/",
-  "sourceCaption": "Doing all those pushups on his knuckles is wild \ud83d\ude2d\n\n#collegefootball #cfb #football #lsu",
-  "publishCaption": "Doing all those pushups on his knuckles is wild \ud83d\ude2d\n\n#collegefootball #cfb #football #lsu\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Doing all those pushups on his knuckles is wild 😭\n\n#collegefootball #cfb #football #lsu",
+  "publishCaption": "Doing all those pushups on his knuckles is wild 😭\n\n#collegefootball #cfb #football #lsu\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-07T14:36:06.823Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Doing all those pushups on his knuckles is wild \ud83d\ude2d\n\n#collegefootball #cfb #football #lsu",
+  "body": "Doing all those pushups on his knuckles is wild 😭\n\n#collegefootball #cfb #football #lsu",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-07T14:36:55.374Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "7abcd4427390c362e3eeeb80678f378d7bc8ea9e5bbcd9489bec65bdf6f373b1",
     "outputSha256": "cb912372c72a6732ae7b5816f6d9796a63784e8fd0f1b52ae8f942b81d9a373d"
   },
-  "threadsText": "Doing all those pushups on his knuckles is wild \ud83d\ude2d\n\n#collegefootball #cfb #football #lsu\n\nSource: @bleacherreport",
+  "threadsText": "Doing all those pushups on his knuckles is wild 😭\n\n#collegefootball #cfb #football #lsu\n\nSource: @bleacherreport",
   "contentLane": "sports_culture",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 10.32,
   "scoreMargin": 9.17,
   "highlightQuality": 10.32,
-  "postingFloor": 52.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 52,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 61.17,
@@ -74,5 +74,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107839039915961",
+  "instagramContainerCreatedAt": "2026-09-07T14:38:17.331Z",
+  "instagramPublishRequestedAt": "2026-09-07T14:38:47.707Z",
+  "instagramMediaId": "18107588042463871",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc_WBqWEecD/",
+  "instagramVerifiedAt": "2026-09-07T14:38:54.517Z"
 }
