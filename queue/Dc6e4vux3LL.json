@@ -3,16 +3,16 @@
   "shortcode": "Dc6e4vux3LL",
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymediafootball/reel/Dc6e4vux3LL/",
-  "sourceCaption": "Holy shit \ud83d\ude33 (via @cfbonfox)",
-  "publishCaption": "Holy shit \ud83d\ude33 (via @cfbonfox)\n\nSource: @jomboymedia\n\n@sportswire247",
+  "sourceCaption": "Holy shit 😳 (via @cfbonfox)",
+  "publishCaption": "Holy shit 😳 (via @cfbonfox)\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-05T17:27:22.262Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Holy shit \ud83d\ude33 (via @cfbonfox)",
+  "body": "Holy shit 😳 (via @cfbonfox)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T17:28:10.806Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "af2c4baf6a088b0ddf5bfc64f2bd8838ca86701cd1cbca7f493b72e5c39375c3",
     "outputSha256": "cdd0f89a1d6d3d59ed9163cde7be0c1293a05f48c9ec65a7eb78f0d7e337eacc"
   },
-  "threadsText": "Holy shit \ud83d\ude33 (via @cfbonfox)\n\nSource: @jomboymedia",
+  "threadsText": "Holy shit 😳 (via @cfbonfox)\n\nSource: @jomboymedia",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 2.05,
   "scoreMargin": -56.64,
   "highlightQuality": 2.05,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 23.36,
@@ -72,5 +72,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107800333915961",
+  "instagramContainerCreatedAt": "2026-09-07T11:42:20.878Z",
+  "instagramPublishRequestedAt": "2026-09-07T11:43:54.210Z",
+  "instagramMediaId": "18463063582141636",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc_CADPjQtK/",
+  "instagramVerifiedAt": "2026-09-07T11:44:03.137Z"
 }
