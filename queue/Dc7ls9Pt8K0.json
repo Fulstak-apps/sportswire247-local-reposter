@@ -3,16 +3,16 @@
   "shortcode": "Dc7ls9Pt8K0",
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymediafootball/reel/Dc7ls9Pt8K0/",
-  "sourceCaption": "Western Michigan thought they\u2019d pulled an all-time upset, but one second was added after review despite the clock appearing to show 0:00 before the ball hit the ground. Michigan won on the next play",
-  "publishCaption": "Western Michigan thought they\u2019d pulled an all-time upset, but one second was added after review despite the clock appearing to show 0:00 before the ball hit the ground. Michigan won on the next play\n\nSource: @jomboymedia\n\n@sportswire247",
+  "sourceCaption": "Western Michigan thought they’d pulled an all-time upset, but one second was added after review despite the clock appearing to show 0:00 before the ball hit the ground. Michigan won on the next play",
+  "publishCaption": "Western Michigan thought they’d pulled an all-time upset, but one second was added after review despite the clock appearing to show 0:00 before the ball hit the ground. Michigan won on the next play\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-06T03:49:03.856Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Western Michigan thought they\u2019d pulled an all-time upset, but one second was added after review despite the clock appearing to show 0:00 before the ball hit the ground. Michigan won on the next play",
+  "body": "Western Michigan thought they’d pulled an all-time upset, but one second was added after review despite the clock appearing to show 0:00 before the ball hit the ground. Michigan won on the next play",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-06T03:49:52.281Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "3f2137113021e67c71cc9f9e6f56bfaee61e7661ba20da5d2aaf945fa1f8b03f",
     "outputSha256": "a97876dc7cf8f7973cb18a15036fa7ea3d3dba2879ed17e3cc35bbf527cf1bcb"
   },
-  "threadsText": "Western Michigan thought they\u2019d pulled an all-time upset, but one second was added after review despite the clock appearing to show 0:00 before the ball hit the ground. Michigan won on the next play\n\nSource: @jomboymedia",
+  "threadsText": "Western Michigan thought they’d pulled an all-time upset, but one second was added after review despite the clock appearing to show 0:00 before the ball hit the ground. Michigan won on the next play\n\nSource: @jomboymedia",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 6.15,
   "scoreMargin": -48.74,
   "highlightQuality": 6.15,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 31.26,
@@ -72,5 +72,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107771323915961",
+  "instagramContainerCreatedAt": "2026-09-07T09:03:55.036Z",
+  "instagramPublishRequestedAt": "2026-09-07T09:04:10.382Z",
+  "instagramMediaId": "18118593944510548",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc-vwaBgK2L/",
+  "instagramVerifiedAt": "2026-09-07T09:04:17.347Z"
 }
