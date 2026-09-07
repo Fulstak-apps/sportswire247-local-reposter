@@ -6,7 +6,7 @@
   "sourceCaption": "Lane Kiffin is not holding back at the half.",
   "publishCaption": "Lane Kiffin is not holding back at the half.\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-07T04:23:29.000Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -51,9 +51,9 @@
   "rawScore": 36.8,
   "engagementScore": 22.84,
   "scoreMargin": -43.2,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 36.8,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107716255915961",
+  "instagramContainerCreatedAt": "2026-09-07T04:50:55.161Z",
+  "instagramPublishRequestedAt": "2026-09-07T04:51:25.611Z",
+  "instagramMediaId": "17971121744944268",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc-Szhzkg7i/",
+  "instagramVerifiedAt": "2026-09-07T04:51:33.943Z"
 }
