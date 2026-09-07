@@ -3,16 +3,16 @@
   "shortcode": "Dc5FPWUNR5F",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dc5FPWUNR5F/",
-  "sourceCaption": "WHAT A SEQUENCE FROM KNYBA \ud83e\udd4a\ud83d\udd25\n\nLive on @DAZNBoxing and @TNTSportsUS #RuizKnyba",
-  "publishCaption": "WHAT A SEQUENCE FROM KNYBA \ud83e\udd4a\ud83d\udd25\n\nLive on @DAZNBoxing and @TNTSportsUS #RuizKnyba\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "WHAT A SEQUENCE FROM KNYBA 🥊🔥\n\nLive on @DAZNBoxing and @TNTSportsUS #RuizKnyba",
+  "publishCaption": "WHAT A SEQUENCE FROM KNYBA 🥊🔥\n\nLive on @DAZNBoxing and @TNTSportsUS #RuizKnyba\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-05T04:22:15.028Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "WHAT A SEQUENCE FROM KNYBA \ud83e\udd4a\ud83d\udd25\n\nLive on @DAZNBoxing and @TNTSportsUS #RuizKnyba",
+  "body": "WHAT A SEQUENCE FROM KNYBA 🥊🔥\n\nLive on @DAZNBoxing and @TNTSportsUS #RuizKnyba",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T04:23:03.829Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "5e79e50acb03bbc9797b01d0751499b4bf634cb4d9694521ca69f45e621de441",
     "outputSha256": "58d613f6dc38d482bf0251e6e64cf1f34cba4c038eea1ea29bc4f9dfe4c32fbf"
   },
-  "threadsText": "WHAT A SEQUENCE FROM KNYBA \ud83e\udd4a\ud83d\udd25\n\nLive on @DAZNBoxing and @TNTSportsUS #RuizKnyba\n\nSource: @houseofhighlights",
+  "threadsText": "WHAT A SEQUENCE FROM KNYBA 🥊🔥\n\nLive on @DAZNBoxing and @TNTSportsUS #RuizKnyba\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 8.95,
   "scoreMargin": -53.92,
   "highlightQuality": 8.95,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 26.08,
@@ -72,5 +72,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107788390915961",
+  "instagramContainerCreatedAt": "2026-09-07T10:39:15.727Z",
+  "instagramPublishRequestedAt": "2026-09-07T10:40:31.533Z",
+  "instagramMediaId": "17910701526462775",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc-6wjAjEke/",
+  "instagramVerifiedAt": "2026-09-07T10:40:39.945Z"
 }
