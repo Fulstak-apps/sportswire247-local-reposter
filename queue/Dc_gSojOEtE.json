@@ -3,16 +3,16 @@
   "shortcode": "Dc_gSojOEtE",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dc_gSojOEtE/",
-  "sourceCaption": "\u201cWelcome to the 2026 Hoco Proposal Signing Day\u201d \ud83d\ude02\ud83d\udd25 (via @landonmorris307)",
-  "publishCaption": "\u201cWelcome to the 2026 Hoco Proposal Signing Day\u201d \ud83d\ude02\ud83d\udd25 (via @landonmorris307)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "“Welcome to the 2026 Hoco Proposal Signing Day” 😂🔥 (via @landonmorris307)",
+  "publishCaption": "“Welcome to the 2026 Hoco Proposal Signing Day” 😂🔥 (via @landonmorris307)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-07T16:13:33.038Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "\u201cWelcome to the 2026 Hoco Proposal Signing Day\u201d \ud83d\ude02\ud83d\udd25 (via @landonmorris307)",
+  "body": "“Welcome to the 2026 Hoco Proposal Signing Day” 😂🔥 (via @landonmorris307)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-07T16:14:21.615Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "d293339034a4e7954e276b3895c24a19bc98f78bb1da50a11764edc97a095366",
     "outputSha256": "3b304860f5b0d24eee6ea20810cc56761b80562132d7d453607d781ca95c116c"
   },
-  "threadsText": "\u201cWelcome to the 2026 Hoco Proposal Signing Day\u201d \ud83d\ude02\ud83d\udd25 (via @landonmorris307)\n\nSource: @houseofhighlights",
+  "threadsText": "“Welcome to the 2026 Hoco Proposal Signing Day” 😂🔥 (via @landonmorris307)\n\nSource: @houseofhighlights",
   "contentLane": "breaking_news",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 10.45,
   "scoreMargin": -26.71,
   "highlightQuality": 10.45,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 53.29,
@@ -74,5 +74,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107867983915961",
+  "instagramContainerCreatedAt": "2026-09-07T16:16:42.217Z",
+  "instagramPublishRequestedAt": "2026-09-07T16:17:12.579Z",
+  "instagramMediaId": "17991460218023827",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc_hSezCMV_/",
+  "instagramVerifiedAt": "2026-09-07T16:17:19.689Z"
 }
