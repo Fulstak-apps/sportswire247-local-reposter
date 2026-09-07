@@ -3,16 +3,16 @@
   "shortcode": "Dc6k46OGH_e",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/Dc6k46OGH_e/",
-  "sourceCaption": "BAHHHH BAHHHH BAHHHHH BAHHHHH \ud83d\udc10 (via @cfbonfox)",
-  "publishCaption": "BAHHHH BAHHHH BAHHHHH BAHHHHH \ud83d\udc10 (via @cfbonfox)\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "BAHHHH BAHHHH BAHHHHH BAHHHHH 🐐 (via @cfbonfox)",
+  "publishCaption": "BAHHHH BAHHHH BAHHHHH BAHHHHH 🐐 (via @cfbonfox)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-05T18:14:30.249Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "BAHHHH BAHHHH BAHHHHH BAHHHHH \ud83d\udc10 (via @cfbonfox)",
+  "body": "BAHHHH BAHHHH BAHHHHH BAHHHHH 🐐 (via @cfbonfox)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T18:15:18.831Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "aa78ef2b1556848090abb60b3d38e37a47d070913a6760750eee912a4b3151cd",
     "outputSha256": "d1936a3e0059301d7c88f739cbdb7ba91debb60590183ff9971cbde34ede243c"
   },
-  "threadsText": "BAHHHH BAHHHH BAHHHHH BAHHHHH \ud83d\udc10 (via @cfbonfox)\n\nSource: @overtime",
+  "threadsText": "BAHHHH BAHHHH BAHHHHH BAHHHHH 🐐 (via @cfbonfox)\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 8.17,
   "scoreMargin": -44.17,
   "highlightQuality": 8.17,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 35.83,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107696014915961",
+  "instagramContainerCreatedAt": "2026-09-07T03:07:52.529Z",
+  "instagramPublishRequestedAt": "2026-09-07T03:08:23.029Z",
+  "instagramMediaId": "18066862571575921",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc-HCFbmwLK/",
+  "instagramVerifiedAt": "2026-09-07T03:08:30.584Z"
 }
