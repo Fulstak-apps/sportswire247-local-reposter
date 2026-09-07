@@ -3,16 +3,16 @@
   "shortcode": "Dc6Y2tFlDMq",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/Dc6Y2tFlDMq/",
-  "sourceCaption": "15 year old prodigy Niles Neumann went undercover in a men\u2019s league game \ud83d\ude2d Link in bio to WATCH NOW \ud83d\udea8 @dat.kid_niles",
-  "publishCaption": "15 year old prodigy Niles Neumann went undercover in a men\u2019s league game \ud83d\ude2d Link in bio to WATCH NOW \ud83d\udea8 @dat.kid_niles\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "15 year old prodigy Niles Neumann went undercover in a men’s league game 😭 Link in bio to WATCH NOW 🚨 @dat.kid_niles",
+  "publishCaption": "15 year old prodigy Niles Neumann went undercover in a men’s league game 😭 Link in bio to WATCH NOW 🚨 @dat.kid_niles\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-05T16:33:50.237Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "15 year old prodigy Niles Neumann went undercover in a men\u2019s league game \ud83d\ude2d Link in bio to WATCH NOW \ud83d\udea8 @dat.kid_niles",
+  "body": "15 year old prodigy Niles Neumann went undercover in a men’s league game 😭 Link in bio to WATCH NOW 🚨 @dat.kid_niles",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T16:34:38.803Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "681e467231e2c7041276a72753897a364dc598e05091c17608610ef2e70a7e87",
     "outputSha256": "fbd216fc4e56545e6ab9694ee3be7da6fd4af78eab308649fa67c08459aabd66"
   },
-  "threadsText": "15 year old prodigy Niles Neumann went undercover in a men\u2019s league game \ud83d\ude2d Link in bio to WATCH NOW \ud83d\udea8 @dat.kid_niles\n\nSource: @overtime",
+  "threadsText": "15 year old prodigy Niles Neumann went undercover in a men’s league game 😭 Link in bio to WATCH NOW 🚨 @dat.kid_niles\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 6.93,
   "scoreMargin": -47.33,
   "highlightQuality": 6.93,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 32.67,
@@ -72,5 +72,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107759770915961",
+  "instagramContainerCreatedAt": "2026-09-07T08:00:43.959Z",
+  "instagramPublishRequestedAt": "2026-09-07T08:01:14.168Z",
+  "instagramMediaId": "17947813434050802",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc-ohleFRne/",
+  "instagramVerifiedAt": "2026-09-07T08:01:19.902Z"
 }
