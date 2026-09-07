@@ -3,16 +3,16 @@
   "shortcode": "Dc6YG8wlcUk",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Dc6YG8wlcUk/",
-  "sourceCaption": "Only Joe Mazzulla would make his assistant coaches run 22\u2019s after messing up a drill in practice \ud83e\udd23\n\n(via @oldmanandthethree)",
-  "publishCaption": "Only Joe Mazzulla would make his assistant coaches run 22\u2019s after messing up a drill in practice \ud83e\udd23\n\n(via @oldmanandthethree)\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Only Joe Mazzulla would make his assistant coaches run 22’s after messing up a drill in practice 🤣\n\n(via @oldmanandthethree)",
+  "publishCaption": "Only Joe Mazzulla would make his assistant coaches run 22’s after messing up a drill in practice 🤣\n\n(via @oldmanandthethree)\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-05T16:25:06.038Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Only Joe Mazzulla would make his assistant coaches run 22\u2019s after messing up a drill in practice \ud83e\udd23\n\n(via @oldmanandthethree)",
+  "body": "Only Joe Mazzulla would make his assistant coaches run 22’s after messing up a drill in practice 🤣\n\n(via @oldmanandthethree)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-05T16:25:54.879Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "7c124130d53ff181eee00f52b53d00ceac05558c88fe88ca45fce86fbacb3f7c",
     "outputSha256": "3735c445edd5b9b51f13765512eaf5ab3cc8465d370b0dca8fbddde34b928e38"
   },
-  "threadsText": "Only Joe Mazzulla would make his assistant coaches run 22\u2019s after messing up a drill in practice \ud83e\udd23\n\n(via @oldmanandthethree)\n\nSource: @bleacherreport",
+  "threadsText": "Only Joe Mazzulla would make his assistant coaches run 22’s after messing up a drill in practice 🤣\n\n(via @oldmanandthethree)\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 8.12,
   "scoreMargin": -59.43,
   "highlightQuality": 8.12,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 20.57,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107821537915961",
+  "instagramContainerCreatedAt": "2026-09-07T13:20:20.507Z",
+  "instagramPublishRequestedAt": "2026-09-07T13:20:51.292Z",
+  "instagramMediaId": "18421518979197351",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc_NGekjRUC/",
+  "instagramVerifiedAt": "2026-09-07T13:20:58.288Z"
 }
