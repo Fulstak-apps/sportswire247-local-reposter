@@ -3,16 +3,16 @@
   "shortcode": "Dc-HLgdRkQH",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dc-HLgdRkQH/",
-  "sourceCaption": "ABSOLUTE PERFECTION \ud83d\udd25\ud83d\ude2e\u200d\ud83d\udca8",
-  "publishCaption": "ABSOLUTE PERFECTION \ud83d\udd25\ud83d\ude2e\u200d\ud83d\udca8\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "ABSOLUTE PERFECTION 🔥😮‍💨",
+  "publishCaption": "ABSOLUTE PERFECTION 🔥😮‍💨\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-07T03:13:02.742Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "ABSOLUTE PERFECTION \ud83d\udd25\ud83d\ude2e\u200d\ud83d\udca8",
+  "body": "ABSOLUTE PERFECTION 🔥😮‍💨",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-07T03:13:51.293Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "a21fd76fcded8bd13bbb9b57c610bfce4cd57242e373ec5ad38d79007daffb17",
     "outputSha256": "6a8c3a34a57850e8f7b840c1e48d20804a8e9ddc65a2da1ae34247cdca2b77c4"
   },
-  "threadsText": "ABSOLUTE PERFECTION \ud83d\udd25\ud83d\ude2e\u200d\ud83d\udca8\n\nSource: @houseofhighlights",
+  "threadsText": "ABSOLUTE PERFECTION 🔥😮‍💨\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 12.4,
   "scoreMargin": -34.69,
   "highlightQuality": 12.4,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.31,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107710066915961",
+  "instagramContainerCreatedAt": "2026-09-07T04:18:34.872Z",
+  "instagramPublishRequestedAt": "2026-09-07T04:19:05.756Z",
+  "instagramMediaId": "17945936928295686",
+  "instagramPermalink": "https://www.instagram.com/reel/Dc-PGlwASZ4/",
+  "instagramVerifiedAt": "2026-09-07T04:19:13.914Z"
 }
