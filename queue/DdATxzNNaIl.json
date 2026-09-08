@@ -3,16 +3,16 @@
   "shortcode": "DdATxzNNaIl",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdATxzNNaIl/",
-  "sourceCaption": "Whole team got FLATTENED \ud83d\ude2d\ud83d\ude2d (h/t @willblackmon)",
-  "publishCaption": "Whole team got FLATTENED \ud83d\ude2d\ud83d\ude2d (h/t @willblackmon)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Whole team got FLATTENED 😭😭 (h/t @willblackmon)",
+  "publishCaption": "Whole team got FLATTENED 😭😭 (h/t @willblackmon)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-07T23:41:58.827Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Whole team got FLATTENED \ud83d\ude2d\ud83d\ude2d (h/t @willblackmon)",
+  "body": "Whole team got FLATTENED 😭😭 (h/t @willblackmon)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-07T23:42:47.548Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "c292ceb896021e55b8f00ca281055b535130fe53aa51edacc8d04f9136803079",
     "outputSha256": "0634c8d13c14fdffe298a38a991ed5bf80ea99d26c83c70bdd9518756b961ee2"
   },
-  "threadsText": "Whole team got FLATTENED \ud83d\ude2d\ud83d\ude2d (h/t @willblackmon)\n\nSource: @houseofhighlights",
+  "threadsText": "Whole team got FLATTENED 😭😭 (h/t @willblackmon)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 10.37,
   "scoreMargin": -36.74,
   "highlightQuality": 10.37,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.26,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107955562915961",
+  "instagramContainerCreatedAt": "2026-09-08T00:09:51.038Z",
+  "instagramPublishRequestedAt": "2026-09-08T00:10:21.437Z",
+  "instagramMediaId": "18185761273405337",
+  "instagramPermalink": "https://www.instagram.com/reel/DdAXchaFXmn/",
+  "instagramVerifiedAt": "2026-09-08T00:10:29.204Z"
 }
