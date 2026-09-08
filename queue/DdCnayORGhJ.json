@@ -3,16 +3,16 @@
   "shortcode": "DdCnayORGhJ",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/DdCnayORGhJ/",
-  "sourceCaption": "Real talk from Jaygup \ud83d\udd25 @jaygup (via @ricohinesbball)",
-  "publishCaption": "Real talk from Jaygup \ud83d\udd25 @jaygup (via @ricohinesbball)\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "Real talk from Jaygup 🔥 @jaygup (via @ricohinesbball)",
+  "publishCaption": "Real talk from Jaygup 🔥 @jaygup (via @ricohinesbball)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-08T21:13:48.432Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Real talk from Jaygup \ud83d\udd25 @jaygup (via @ricohinesbball)",
+  "body": "Real talk from Jaygup 🔥 @jaygup (via @ricohinesbball)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-08T21:14:36.891Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "15a2879217a5fd40572e6e3746010636ae9ac7cc3d46e85b6cdc3d263b50ccb6",
     "outputSha256": "4be9ed582f6bc21b0dcbd5f222358d115f80de91b226696008535d844ad4babf"
   },
-  "threadsText": "Real talk from Jaygup \ud83d\udd25 @jaygup (via @ricohinesbball)\n\nSource: @overtime",
+  "threadsText": "Real talk from Jaygup 🔥 @jaygup (via @ricohinesbball)\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 1.2,
   "scoreMargin": -47.94,
   "highlightQuality": 1.2,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 32.06,
@@ -72,5 +72,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108209758915961",
+  "instagramContainerCreatedAt": "2026-09-08T21:16:40.654Z",
+  "instagramPublishRequestedAt": "2026-09-08T21:17:11.015Z",
+  "instagramMediaId": "17902195332589278",
+  "instagramPermalink": "https://www.instagram.com/reel/DdCoaJiD8rN/",
+  "instagramVerifiedAt": "2026-09-08T21:17:17.986Z"
 }
