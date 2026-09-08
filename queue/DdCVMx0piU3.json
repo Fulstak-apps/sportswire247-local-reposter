@@ -3,16 +3,16 @@
   "shortcode": "DdCVMx0piU3",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdCVMx0piU3/",
-  "sourceCaption": "One of the more random heckles you\u2019ll hear \ud83d\ude2d\n\n#nba #basketball #nbabasketball",
-  "publishCaption": "One of the more random heckles you\u2019ll hear \ud83d\ude2d\n\n#nba #basketball #nbabasketball\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "One of the more random heckles you’ll hear 😭\n\n#nba #basketball #nbabasketball",
+  "publishCaption": "One of the more random heckles you’ll hear 😭\n\n#nba #basketball #nbabasketball\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-08T18:31:49.991Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "One of the more random heckles you\u2019ll hear \ud83d\ude2d\n\n#nba #basketball #nbabasketball",
+  "body": "One of the more random heckles you’ll hear 😭\n\n#nba #basketball #nbabasketball",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-08T18:32:38.621Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "70c8741083f3fcce33890aaa0d98564501f5ff7e6c8f496ee9d73bf2242696f0",
     "outputSha256": "1b67762e1bb75a08755ec8434b78bf6f8678857c00002f108a1b43dd906f952a"
   },
-  "threadsText": "One of the more random heckles you\u2019ll hear \ud83d\ude2d\n\n#nba #basketball #nbabasketball\n\nSource: @bleacherreport",
+  "threadsText": "One of the more random heckles you’ll hear 😭\n\n#nba #basketball #nbabasketball\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 5.23,
   "scoreMargin": 9.12,
   "highlightQuality": 5.23,
-  "postingFloor": 45.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 45,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 54.12,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108185233915961",
+  "instagramContainerCreatedAt": "2026-09-08T18:36:05.188Z",
+  "instagramPublishRequestedAt": "2026-09-08T18:36:35.687Z",
+  "instagramMediaId": "18209006125362648",
+  "instagramPermalink": "https://www.instagram.com/reel/DdCWB4cDadR/",
+  "instagramVerifiedAt": "2026-09-08T18:36:42.689Z"
 }
