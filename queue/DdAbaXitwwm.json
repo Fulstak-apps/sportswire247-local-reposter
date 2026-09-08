@@ -3,16 +3,16 @@
   "shortcode": "DdAbaXitwwm",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdAbaXitwwm/",
-  "sourceCaption": "Mercy rule activated \ud83e\udd2f",
-  "publishCaption": "Mercy rule activated \ud83e\udd2f\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Mercy rule activated 🤯",
+  "publishCaption": "Mercy rule activated 🤯\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-08T00:48:15.452Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Mercy rule activated \ud83e\udd2f",
+  "body": "Mercy rule activated 🤯",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-08T00:49:04.096Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "66e2d588aaa964b81fb64c29943f7de5ab89e5aa5b1499d961b6257564df1a35",
     "outputSha256": "8efdd2c75ce80dbe693580da81d6205c75dd713e3dbc555eac32ac301ad1c6aa"
   },
-  "threadsText": "Mercy rule activated \ud83e\udd2f\n\nSource: @houseofhighlights",
+  "threadsText": "Mercy rule activated 🤯\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 10.47,
   "scoreMargin": -36.61,
   "highlightQuality": 10.47,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.39,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107961910915961",
+  "instagramContainerCreatedAt": "2026-09-08T00:50:43.318Z",
+  "instagramPublishRequestedAt": "2026-09-08T00:51:44.050Z",
+  "instagramMediaId": "17946041562291317",
+  "instagramPermalink": "https://www.instagram.com/reel/DdAcKmZCsT6/",
+  "instagramVerifiedAt": "2026-09-08T00:51:50.563Z"
 }
