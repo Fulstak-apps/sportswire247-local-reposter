@@ -3,16 +3,16 @@
   "shortcode": "DdB5jEyu9-3",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdB5jEyu9-3/",
-  "sourceCaption": "Willie Wildcat was struggling at the end \ud83e\udd23\n\n(via WyattWheeler_/X)\n\n#collegefootball #cfb #football #kansasstate",
-  "publishCaption": "Willie Wildcat was struggling at the end \ud83e\udd23\n\n(via WyattWheeler_/X)\n\n#collegefootball #cfb #football #kansasstate\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Willie Wildcat was struggling at the end 🤣\n\n(via WyattWheeler_/X)\n\n#collegefootball #cfb #football #kansasstate",
+  "publishCaption": "Willie Wildcat was struggling at the end 🤣\n\n(via WyattWheeler_/X)\n\n#collegefootball #cfb #football #kansasstate\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-08T14:30:54.923Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Willie Wildcat was struggling at the end \ud83e\udd23\n\n(via WyattWheeler_/X)\n\n#collegefootball #cfb #football #kansasstate",
+  "body": "Willie Wildcat was struggling at the end 🤣\n\n(via WyattWheeler_/X)\n\n#collegefootball #cfb #football #kansasstate",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-08T14:31:43.468Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "23953ba928834f90a77dda0058f9e97715c3399c475e20b76b64eef2c734690b",
     "outputSha256": "1bc6c030c9893e687a29f5f6fc6f4ca83f65fa02ff424eed82cdcd70a9d99e91"
   },
-  "threadsText": "Willie Wildcat was struggling at the end \ud83e\udd23\n\n(via WyattWheeler_/X)\n\n#collegefootball #cfb #football #kansasstate\n\nSource: @bleacherreport",
+  "threadsText": "Willie Wildcat was struggling at the end 🤣\n\n(via WyattWheeler_/X)\n\n#collegefootball #cfb #football #kansasstate\n\nSource: @bleacherreport",
   "contentLane": "sports_culture",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 6.88,
   "scoreMargin": 5.78,
   "highlightQuality": 6.88,
-  "postingFloor": 52.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 52,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 57.78,
@@ -74,5 +74,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108128932915961",
+  "instagramContainerCreatedAt": "2026-09-08T14:33:44.402Z",
+  "instagramPublishRequestedAt": "2026-09-08T14:34:15.337Z",
+  "instagramMediaId": "18183847825407423",
+  "instagramPermalink": "https://www.instagram.com/reel/DdB6TKtiDo6/",
+  "instagramVerifiedAt": "2026-09-08T14:34:22.265Z"
 }
