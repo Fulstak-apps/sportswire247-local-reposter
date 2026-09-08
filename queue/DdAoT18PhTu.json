@@ -6,7 +6,7 @@
   "sourceCaption": "Blue Jays botched a rundown and gifted the A's their second run of the first inning against Dylan Cease\n\n#mlb #baseball #blooper",
   "publishCaption": "Blue Jays botched a rundown and gifted the A's their second run of the first inning against Dylan Cease\n\n#mlb #baseball #blooper\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-08T02:44:32.371Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 9.47,
   "scoreMargin": -8.7,
   "highlightQuality": 9.47,
-  "postingFloor": 60.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 60,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 51.3,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107981980915961",
+  "instagramContainerCreatedAt": "2026-09-08T03:06:26.903Z",
+  "instagramPublishRequestedAt": "2026-09-08T03:06:57.528Z",
+  "instagramMediaId": "18023077259915138",
+  "instagramPermalink": "https://www.instagram.com/reel/DdArpZwiKGy/",
+  "instagramVerifiedAt": "2026-09-08T03:07:03.786Z"
 }
