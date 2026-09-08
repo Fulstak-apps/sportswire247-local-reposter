@@ -3,16 +3,16 @@
   "shortcode": "DdAiv--MmO_",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdAiv--MmO_/",
-  "sourceCaption": "Toosii wants back on the team \ud83d\ude02\ud83d\ude05 (via @toosii)",
-  "publishCaption": "Toosii wants back on the team \ud83d\ude02\ud83d\ude05 (via @toosii)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Toosii wants back on the team 😂😅 (via @toosii)",
+  "publishCaption": "Toosii wants back on the team 😂😅 (via @toosii)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-08T01:52:01.210Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Toosii wants back on the team \ud83d\ude02\ud83d\ude05 (via @toosii)",
+  "body": "Toosii wants back on the team 😂😅 (via @toosii)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-08T01:52:49.728Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "7767cbbd106f601e74c9485ecb84858dd92268df8de6dd8731b164301d5592b7",
     "outputSha256": "3834ce7ea1aa600267a92622e3eb334d258a54cc00eb08acede1b38b777b905e"
   },
-  "threadsText": "Toosii wants back on the team \ud83d\ude02\ud83d\ude05 (via @toosii)\n\nSource: @houseofhighlights",
+  "threadsText": "Toosii wants back on the team 😂😅 (via @toosii)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 6.45,
   "scoreMargin": -40.64,
   "highlightQuality": 6.45,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 39.36,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18107987977915961",
+  "instagramContainerCreatedAt": "2026-09-08T03:38:23.256Z",
+  "instagramPublishRequestedAt": "2026-09-08T03:39:38.844Z",
+  "instagramMediaId": "17879921196688833",
+  "instagramPermalink": "https://www.instagram.com/reel/DdAvYNZkx5v/",
+  "instagramVerifiedAt": "2026-09-08T03:39:46.076Z"
 }
