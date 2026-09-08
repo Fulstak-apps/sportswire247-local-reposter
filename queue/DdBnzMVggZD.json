@@ -3,16 +3,16 @@
   "shortcode": "DdBnzMVggZD",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/DdBnzMVggZD/",
-  "sourceCaption": "Nah ts is FRYING me \ud83e\udd23 (h/t vern_funquist/TT)",
-  "publishCaption": "Nah ts is FRYING me \ud83e\udd23 (h/t vern_funquist/TT)\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "Nah ts is FRYING me 🤣 (h/t vern_funquist/TT)",
+  "publishCaption": "Nah ts is FRYING me 🤣 (h/t vern_funquist/TT)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-08T12:00:16.375Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Nah ts is FRYING me \ud83e\udd23 (h/t vern_funquist/TT)",
+  "body": "Nah ts is FRYING me 🤣 (h/t vern_funquist/TT)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-08T12:01:04.881Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "8400d9d74a954fea398d33ea6f7232ceda85203a659a2019404bce6dd931c8f4",
     "outputSha256": "3a205df1613dac7ec66f5a14fdbf5e4dfecd89406af13e26eb74e6a225b78870"
   },
-  "threadsText": "Nah ts is FRYING me \ud83e\udd23 (h/t vern_funquist/TT)\n\nSource: @overtime",
+  "threadsText": "Nah ts is FRYING me 🤣 (h/t vern_funquist/TT)\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 9.42,
   "scoreMargin": -39.75,
   "highlightQuality": 9.42,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 40.25,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108089575915961",
+  "instagramContainerCreatedAt": "2026-09-08T12:01:59.219Z",
+  "instagramPublishRequestedAt": "2026-09-08T12:02:44.786Z",
+  "instagramMediaId": "18115427959766425",
+  "instagramPermalink": "https://www.instagram.com/reel/DdBo87NCrRE/",
+  "instagramVerifiedAt": "2026-09-08T12:02:52.389Z"
 }
