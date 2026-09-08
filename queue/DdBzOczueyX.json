@@ -3,16 +3,16 @@
   "shortcode": "DdBzOczueyX",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdBzOczueyX/",
-  "sourceCaption": "She just added 50 nephews to her family. \u2764\ufe0f\ud83d\udc4f (via @anayahrose__)",
-  "publishCaption": "She just added 50 nephews to her family. \u2764\ufe0f\ud83d\udc4f (via @anayahrose__)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "She just added 50 nephews to her family. ❤️👏 (via @anayahrose__)",
+  "publishCaption": "She just added 50 nephews to her family. ❤️👏 (via @anayahrose__)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-08T13:36:41.600Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "She just added 50 nephews to her family. \u2764\ufe0f\ud83d\udc4f (via @anayahrose__)",
+  "body": "She just added 50 nephews to her family. ❤️👏 (via @anayahrose__)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-08T13:37:30.051Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "f5d2b568fff03c1f7abbd9eddc7c58ee14f813617148a30f7ac82153d0921cdb",
     "outputSha256": "beb9b1e9eafc27fe221dc87a000b380003dd08d0856b4b08c3b7b567b6e34ec0"
   },
-  "threadsText": "She just added 50 nephews to her family. \u2764\ufe0f\ud83d\udc4f (via @anayahrose__)\n\nSource: @houseofhighlights",
+  "threadsText": "She just added 50 nephews to her family. ❤️👏 (via @anayahrose__)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 10.61,
   "scoreMargin": -36.48,
   "highlightQuality": 10.61,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.52,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108111238915961",
+  "instagramContainerCreatedAt": "2026-09-08T13:38:50.945Z",
+  "instagramPublishRequestedAt": "2026-09-08T13:39:21.439Z",
+  "instagramMediaId": "18099761141378981",
+  "instagramPermalink": "https://www.instagram.com/reel/DdB0BSrAveV/",
+  "instagramVerifiedAt": "2026-09-08T13:39:28.914Z"
 }
