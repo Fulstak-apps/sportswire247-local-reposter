@@ -3,16 +3,16 @@
   "shortcode": "DdB7V-muK7u",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdB7V-muK7u/",
-  "sourceCaption": "Coach might be the one towing the bus with losing by 50 \ud83d\ude2d\ud83d\ude05 (via @2xx_majorr)",
-  "publishCaption": "Coach might be the one towing the bus with losing by 50 \ud83d\ude2d\ud83d\ude05 (via @2xx_majorr)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Coach might be the one towing the bus with losing by 50 😭😅 (via @2xx_majorr)",
+  "publishCaption": "Coach might be the one towing the bus with losing by 50 😭😅 (via @2xx_majorr)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-08T14:45:23.712Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Coach might be the one towing the bus with losing by 50 \ud83d\ude2d\ud83d\ude05 (via @2xx_majorr)",
+  "body": "Coach might be the one towing the bus with losing by 50 😭😅 (via @2xx_majorr)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-08T14:46:12.756Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "a8b3670b1f394462e0149c6af636303ac7d121c453fa99cfd9315f1d9720a166",
     "outputSha256": "b99369cbc0fe2f1361edd75ad5f659b2ab6af25feb0d9053f5fba3e83b1b2c35"
   },
-  "threadsText": "Coach might be the one towing the bus with losing by 50 \ud83d\ude2d\ud83d\ude05 (via @2xx_majorr)\n\nSource: @houseofhighlights",
+  "threadsText": "Coach might be the one towing the bus with losing by 50 😭😅 (via @2xx_majorr)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 6.29,
   "scoreMargin": -40.79,
   "highlightQuality": 6.29,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 39.21,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108137209915961",
+  "instagramContainerCreatedAt": "2026-09-08T15:06:30.985Z",
+  "instagramPublishRequestedAt": "2026-09-08T15:07:46.865Z",
+  "instagramMediaId": "17955258321210797",
+  "instagramPermalink": "https://www.instagram.com/reel/DdB-I_mmdat/",
+  "instagramVerifiedAt": "2026-09-08T15:07:53.672Z"
 }
