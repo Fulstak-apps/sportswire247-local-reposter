@@ -3,16 +3,16 @@
   "shortcode": "DdDFRYPTrVL",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/brkicks/reel/DdDFRYPTrVL/",
-  "sourceCaption": "At least his Ja\u2019s clean though \ud83d\ude2d\ud83d\udd25\n\n(via @itsthewilsonsss, @mrs_b_haven)",
-  "publishCaption": "At least his Ja\u2019s clean though \ud83d\ude2d\ud83d\udd25\n\n(via @itsthewilsonsss, @mrs_b_haven)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "At least his Ja’s clean though 😭🔥\n\n(via @itsthewilsonsss, @mrs_b_haven)",
+  "publishCaption": "At least his Ja’s clean though 😭🔥\n\n(via @itsthewilsonsss, @mrs_b_haven)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-09T01:50:35.195Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "At least his Ja\u2019s clean though \ud83d\ude2d\ud83d\udd25\n\n(via @itsthewilsonsss, @mrs_b_haven)",
+  "body": "At least his Ja’s clean though 😭🔥\n\n(via @itsthewilsonsss, @mrs_b_haven)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-09T01:51:23.952Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "0a133cace696c5f705aaa6926ce7f957f1b9752ca31d2ba2f1e03381800311c6",
     "outputSha256": "01e76541287b1a43574b3e375ec431362c30c50433cc5bae3817a95f00938d65"
   },
-  "threadsText": "At least his Ja\u2019s clean though \ud83d\ude2d\ud83d\udd25\n\n(via @itsthewilsonsss, @mrs_b_haven)\n\nSource: @houseofhighlights",
+  "threadsText": "At least his Ja’s clean though 😭🔥\n\n(via @itsthewilsonsss, @mrs_b_haven)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 8.42,
   "scoreMargin": -39.07,
   "highlightQuality": 8.42,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 40.93,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108256957915961",
+  "instagramContainerCreatedAt": "2026-09-09T02:18:15.625Z",
+  "instagramPublishRequestedAt": "2026-09-09T02:18:46.382Z",
+  "instagramMediaId": "18110452624844853",
+  "instagramPermalink": "https://www.instagram.com/reel/DdDK7UGiArS/",
+  "instagramVerifiedAt": "2026-09-09T02:18:53.875Z"
 }
