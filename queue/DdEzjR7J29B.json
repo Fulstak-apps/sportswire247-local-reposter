@@ -3,16 +3,16 @@
   "shortcode": "DdEzjR7J29B",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdEzjR7J29B/",
-  "sourceCaption": "Kawhi on if he\u2019s going to to Toronto: \u201cI hope so.\u201d \ud83d\udc40\n\n(Via @alexgmanofficial)",
-  "publishCaption": "Kawhi on if he\u2019s going to to Toronto: \u201cI hope so.\u201d \ud83d\udc40\n\n(Via @alexgmanofficial)\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Kawhi on if he’s going to to Toronto: “I hope so.” 👀\n\n(Via @alexgmanofficial)",
+  "publishCaption": "Kawhi on if he’s going to to Toronto: “I hope so.” 👀\n\n(Via @alexgmanofficial)\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-09T17:40:34.028Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Kawhi on if he\u2019s going to to Toronto: \u201cI hope so.\u201d \ud83d\udc40\n\n(Via @alexgmanofficial)",
+  "body": "Kawhi on if he’s going to to Toronto: “I hope so.” 👀\n\n(Via @alexgmanofficial)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-09T17:41:22.688Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "d6cc2282c0a56e51ddfdcf87117ada017011191cddd1ea33df231415a2b3cc4b",
     "outputSha256": "9d86b0c59ef4ffd1a406a7df4bcb2d78ff929f77a933999507164b6bc553afea"
   },
-  "threadsText": "Kawhi on if he\u2019s going to to Toronto: \u201cI hope so.\u201d \ud83d\udc40\n\n(Via @alexgmanofficial)\n\nSource: @bleacherreport",
+  "threadsText": "Kawhi on if he’s going to to Toronto: “I hope so.” 👀\n\n(Via @alexgmanofficial)\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 11.06,
   "scoreMargin": -38.06,
   "highlightQuality": 11.06,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.94,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108480343915961",
+  "instagramContainerCreatedAt": "2026-09-09T20:50:11.128Z",
+  "instagramPublishRequestedAt": "2026-09-09T20:50:41.684Z",
+  "instagramMediaId": "18114803734965772",
+  "instagramPermalink": "https://www.instagram.com/reel/DdFKK8CAcgP/",
+  "instagramVerifiedAt": "2026-09-09T20:50:49.936Z"
 }
