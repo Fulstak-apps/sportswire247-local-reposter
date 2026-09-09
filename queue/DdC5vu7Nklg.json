@@ -3,16 +3,16 @@
   "shortcode": "DdC5vu7Nklg",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdC5vu7Nklg/",
-  "sourceCaption": "Gil still listens to the Drake / Kendrick beef every day \ud83d\ude2d\ud83d\udd25 (via @plaqueboymax)",
-  "publishCaption": "Gil still listens to the Drake / Kendrick beef every day \ud83d\ude2d\ud83d\udd25 (via @plaqueboymax)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Gil still listens to the Drake / Kendrick beef every day 😭🔥 (via @plaqueboymax)",
+  "publishCaption": "Gil still listens to the Drake / Kendrick beef every day 😭🔥 (via @plaqueboymax)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-08T23:56:33.051Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Gil still listens to the Drake / Kendrick beef every day \ud83d\ude2d\ud83d\udd25 (via @plaqueboymax)",
+  "body": "Gil still listens to the Drake / Kendrick beef every day 😭🔥 (via @plaqueboymax)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-08T23:57:21.549Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "6b824d1ee178c3b808910c3716cdc93b6aa8edbecc5500dfc0ae42092640f31c",
     "outputSha256": "ebebd1b5d8b48e7a1310630f0ae07fd0e02cbf405d2a2235784f00aea0b2aed2"
   },
-  "threadsText": "Gil still listens to the Drake / Kendrick beef every day \ud83d\ude2d\ud83d\udd25 (via @plaqueboymax)\n\nSource: @houseofhighlights",
+  "threadsText": "Gil still listens to the Drake / Kendrick beef every day 😭🔥 (via @plaqueboymax)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 12.71,
   "scoreMargin": -34.49,
   "highlightQuality": 12.71,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.51,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108232441915961",
+  "instagramContainerCreatedAt": "2026-09-09T00:00:23.725Z",
+  "instagramPublishRequestedAt": "2026-09-09T00:00:54.547Z",
+  "instagramMediaId": "18616259470061477",
+  "instagramPermalink": "https://www.instagram.com/reel/DdC7JNQjlpP/",
+  "instagramVerifiedAt": "2026-09-09T00:01:01.493Z"
 }
