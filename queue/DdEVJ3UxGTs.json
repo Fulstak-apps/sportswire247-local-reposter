@@ -3,16 +3,16 @@
   "shortcode": "DdEVJ3UxGTs",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdEVJ3UxGTs/",
-  "sourceCaption": "Super Bowl LXI coming soon to a screen near you \ud83c\udfac\n\nFeb. 14, 2027 on ESPN and ABC \ud83c\udf7f",
-  "publishCaption": "Super Bowl LXI coming soon to a screen near you \ud83c\udfac\n\nFeb. 14, 2027 on ESPN and ABC \ud83c\udf7f\n\nSource: @sportscenter\n\n@sportswire247",
+  "sourceCaption": "Super Bowl LXI coming soon to a screen near you 🎬\n\nFeb. 14, 2027 on ESPN and ABC 🍿",
+  "publishCaption": "Super Bowl LXI coming soon to a screen near you 🎬\n\nFeb. 14, 2027 on ESPN and ABC 🍿\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-09T13:09:28.870Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Super Bowl LXI coming soon to a screen near you \ud83c\udfac\n\nFeb. 14, 2027 on ESPN and ABC \ud83c\udf7f",
+  "body": "Super Bowl LXI coming soon to a screen near you 🎬\n\nFeb. 14, 2027 on ESPN and ABC 🍿",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-09T13:10:17.787Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "659c329a9bf2ecf4c11dc2b145244511814d571a1cc448e817be827814587cd9",
     "outputSha256": "360175b5fda371201c791a648a5d275b3c0fd1ca41cb99e1495e144b217fabe8"
   },
-  "threadsText": "Super Bowl LXI coming soon to a screen near you \ud83c\udfac\n\nFeb. 14, 2027 on ESPN and ABC \ud83c\udf7f\n\nSource: @sportscenter",
+  "threadsText": "Super Bowl LXI coming soon to a screen near you 🎬\n\nFeb. 14, 2027 on ESPN and ABC 🍿\n\nSource: @sportscenter",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 4.48,
   "scoreMargin": -35.61,
   "highlightQuality": 16.48,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 44.39,
@@ -74,5 +74,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108371602915961",
+  "instagramContainerCreatedAt": "2026-09-09T13:13:02.718Z",
+  "instagramPublishRequestedAt": "2026-09-09T13:13:33.199Z",
+  "instagramMediaId": "17891468391612234",
+  "instagramPermalink": "https://www.instagram.com/reel/DdEV28clRUJ/",
+  "instagramVerifiedAt": "2026-09-09T13:13:40.053Z"
 }
