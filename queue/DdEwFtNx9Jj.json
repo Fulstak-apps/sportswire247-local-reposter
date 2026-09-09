@@ -3,16 +3,16 @@
   "shortcode": "DdEwFtNx9Jj",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/lethalshooter/reel/DdEwFtNx9Jj/",
-  "sourceCaption": "Ms. Rachel understands it now!\ud83c\udfc0 @msrachelforlittles \n-\nPasser: @coach21jones \nTrainer: ( @lethalshooter )",
-  "publishCaption": "Ms. Rachel understands it now!\ud83c\udfc0 @msrachelforlittles \n-\nPasser: @coach21jones \nTrainer: ( @lethalshooter )\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Ms. Rachel understands it now!🏀 @msrachelforlittles \n-\nPasser: @coach21jones \nTrainer: ( @lethalshooter )",
+  "publishCaption": "Ms. Rachel understands it now!🏀 @msrachelforlittles \n-\nPasser: @coach21jones \nTrainer: ( @lethalshooter )\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-09T17:11:48.599Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Ms. Rachel understands it now!\ud83c\udfc0 @msrachelforlittles \n-\nPasser: @coach21jones \nTrainer: ( @lethalshooter )",
+  "body": "Ms. Rachel understands it now!🏀 @msrachelforlittles \n-\nPasser: @coach21jones \nTrainer: ( @lethalshooter )",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-09T17:12:37.156Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "8101a766e8d822b0888ac159be5ef45d314929cb4e3190a7bef9aeaa7005940c",
     "outputSha256": "e2c6bcf866b20bd9d539a0ebfabac1fbacbb1d2dbc0a6eaf2298daa05ae11a53"
   },
-  "threadsText": "Ms. Rachel understands it now!\ud83c\udfc0 @msrachelforlittles \n-\nPasser: @coach21jones \nTrainer: ( @lethalshooter )\n\nSource: @bleacherreport",
+  "threadsText": "Ms. Rachel understands it now!🏀 @msrachelforlittles \n-\nPasser: @coach21jones \nTrainer: ( @lethalshooter )\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 10.75,
   "scoreMargin": -38.48,
   "highlightQuality": 10.75,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.52,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108435847915961",
+  "instagramContainerCreatedAt": "2026-09-09T17:21:14.079Z",
+  "instagramPublishRequestedAt": "2026-09-09T17:21:44.429Z",
+  "instagramMediaId": "18098749547638018",
+  "instagramPermalink": "https://www.instagram.com/reel/DdEyQrtALbG/",
+  "instagramVerifiedAt": "2026-09-09T17:21:52.262Z"
 }
