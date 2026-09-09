@@ -3,16 +3,16 @@
   "shortcode": "DdE2uuSmHPV",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/DdE2uuSmHPV/",
-  "sourceCaption": "I NEEEEEEEEEEEED IT \ud83d\ude2d",
-  "publishCaption": "I NEEEEEEEEEEEED IT \ud83d\ude2d\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "I NEEEEEEEEEEEED IT 😭",
+  "publishCaption": "I NEEEEEEEEEEEED IT 😭\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-09T18:01:24.850Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "I NEEEEEEEEEEEED IT \ud83d\ude2d",
+  "body": "I NEEEEEEEEEEEED IT 😭",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-09T18:02:13.385Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "f924a79d5e7b3a08e977f6d41bb585141f8e7bd0999ba725b58e353fa64a82b3",
     "outputSha256": "d65517cb61a8b9074b83e16d4681c5b92eb9f0817b76a77c4a820221c872c6a1"
   },
-  "threadsText": "I NEEEEEEEEEEEED IT \ud83d\ude2d\n\nSource: @overtime",
+  "threadsText": "I NEEEEEEEEEEEED IT 😭\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 0.87,
   "scoreMargin": -48.2,
   "highlightQuality": 0.87,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 31.8,
@@ -72,5 +72,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108491125915961",
+  "instagramContainerCreatedAt": "2026-09-09T21:59:18.780Z",
+  "instagramPublishRequestedAt": "2026-09-09T21:59:49.160Z",
+  "instagramMediaId": "17949913872273154",
+  "instagramPermalink": "https://www.instagram.com/reel/DdFSFVGDHC8/",
+  "instagramVerifiedAt": "2026-09-09T21:59:55.084Z"
 }
