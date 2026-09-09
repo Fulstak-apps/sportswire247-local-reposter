@@ -3,16 +3,16 @@
   "shortcode": "DdDGkMaMiV5",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdDGkMaMiV5/",
-  "sourceCaption": "Ant is pumped to play with Jonathan Kuminga this season \ud83d\ude02\ud83d\udd25\n\nGive this duo a nickname \ud83d\udc47\n\n(via @timberwolves)",
-  "publishCaption": "Ant is pumped to play with Jonathan Kuminga this season \ud83d\ude02\ud83d\udd25\n\nGive this duo a nickname \ud83d\udc47\n\n(via @timberwolves)\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Ant is pumped to play with Jonathan Kuminga this season 😂🔥\n\nGive this duo a nickname 👇\n\n(via @timberwolves)",
+  "publishCaption": "Ant is pumped to play with Jonathan Kuminga this season 😂🔥\n\nGive this duo a nickname 👇\n\n(via @timberwolves)\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-09T01:43:12.578Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Ant is pumped to play with Jonathan Kuminga this season \ud83d\ude02\ud83d\udd25\n\nGive this duo a nickname \ud83d\udc47\n\n(via @timberwolves)",
+  "body": "Ant is pumped to play with Jonathan Kuminga this season 😂🔥\n\nGive this duo a nickname 👇\n\n(via @timberwolves)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-09T01:44:01.181Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "92070da61ce0c50e580def91df126cb10020932478fed0ef9f7eec4abcb0bbf9",
     "outputSha256": "b9b7bc4fad97116cb9b3c371485984bc5caf5dd9388c4181df6345a180f182a7"
   },
-  "threadsText": "Ant is pumped to play with Jonathan Kuminga this season \ud83d\ude02\ud83d\udd25\n\nGive this duo a nickname \ud83d\udc47\n\n(via @timberwolves)\n\nSource: @bleacherreport",
+  "threadsText": "Ant is pumped to play with Jonathan Kuminga this season 😂🔥\n\nGive this duo a nickname 👇\n\n(via @timberwolves)\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 9.49,
   "scoreMargin": 13.4,
   "highlightQuality": 9.49,
-  "postingFloor": 45.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 45,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 58.4,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108249973915961",
+  "instagramContainerCreatedAt": "2026-09-09T01:45:19.396Z",
+  "instagramPublishRequestedAt": "2026-09-09T01:46:20.347Z",
+  "instagramMediaId": "18098325728380600",
+  "instagramPermalink": "https://www.instagram.com/reel/DdDHOX-gS8I/",
+  "instagramVerifiedAt": "2026-09-09T01:46:27.395Z"
 }
