@@ -3,16 +3,16 @@
   "shortcode": "DdE7dNjvOLD",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/DdE7dNjvOLD/",
-  "sourceCaption": "Our boy big time now \ud83e\udd79 @ishowspeed",
-  "publishCaption": "Our boy big time now \ud83e\udd79 @ishowspeed\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "Our boy big time now 🥹 @ishowspeed",
+  "publishCaption": "Our boy big time now 🥹 @ishowspeed\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-09T18:46:25.598Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Our boy big time now \ud83e\udd79 @ishowspeed",
+  "body": "Our boy big time now 🥹 @ishowspeed",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-09T18:47:14.324Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "9610c4164e1f14fa6ddbb6b4f73010cd1fa4f66b9847c232ef64e150e73bbd53",
     "outputSha256": "6feb83607d306d403877073593ffa7c41a473b000c35d73af3d0df6723553648"
   },
-  "threadsText": "Our boy big time now \ud83e\udd79 @ishowspeed\n\nSource: @overtime",
+  "threadsText": "Our boy big time now 🥹 @ishowspeed\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 6.29,
   "scoreMargin": -42.83,
   "highlightQuality": 6.29,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 37.17,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108487609915961",
+  "instagramContainerCreatedAt": "2026-09-09T21:26:50.891Z",
+  "instagramPublishRequestedAt": "2026-09-09T21:27:36.939Z",
+  "instagramMediaId": "18089009717489278",
+  "instagramPermalink": "https://www.instagram.com/reel/DdFOZVPlLWr/",
+  "instagramVerifiedAt": "2026-09-09T21:27:44.760Z"
 }
