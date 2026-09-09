@@ -3,16 +3,16 @@
   "shortcode": "DdFagLJtMFy",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdFagLJtMFy/",
-  "sourceCaption": "Come back soon Brock \ud83d\ude14\ud83d\udc94",
-  "publishCaption": "Come back soon Brock \ud83d\ude14\ud83d\udc94\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Come back soon Brock 😔💔",
+  "publishCaption": "Come back soon Brock 😔💔\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-09T23:18:54.599Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Come back soon Brock \ud83d\ude14\ud83d\udc94",
+  "body": "Come back soon Brock 😔💔",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-09T23:19:44.186Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "2cce9b194eca3b7411a5dce01be7d711ed8a72af31288208dd39ab79cd6f0e84",
     "outputSha256": "b24f6c7311955cd4de181bd0fd5de6c926fb94a2d639ff32c32eb3bca720d145"
   },
-  "threadsText": "Come back soon Brock \ud83d\ude14\ud83d\udc94\n\nSource: @houseofhighlights",
+  "threadsText": "Come back soon Brock 😔💔\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 11.21,
   "scoreMargin": -35.92,
   "highlightQuality": 11.21,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 44.08,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108503830915961",
+  "instagramContainerCreatedAt": "2026-09-09T23:21:34.323Z",
+  "instagramPublishRequestedAt": "2026-09-09T23:22:05.094Z",
+  "instagramMediaId": "18032611262845025",
+  "instagramPermalink": "https://www.instagram.com/reel/DdFbf9HAkPp/",
+  "instagramVerifiedAt": "2026-09-09T23:22:12.083Z"
 }
