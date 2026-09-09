@@ -3,16 +3,16 @@
   "shortcode": "DdE4Af7RYLb",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdE4Af7RYLb/",
-  "sourceCaption": "\u201cYou already know.\u201d \ud83d\ude02\n\n(via @chargers)",
-  "publishCaption": "\u201cYou already know.\u201d \ud83d\ude02\n\n(via @chargers)\n\nSource: @sportscenter\n\n@sportswire247",
+  "sourceCaption": "“You already know.” 😂\n\n(via @chargers)",
+  "publishCaption": "“You already know.” 😂\n\n(via @chargers)\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-09T18:16:53.855Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "\u201cYou already know.\u201d \ud83d\ude02\n\n(via @chargers)",
+  "body": "“You already know.” 😂\n\n(via @chargers)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-09T18:17:42.662Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "888d86169e70a44c77bf05e9f089a22f68c1b99de81c3b854114651f259a880b",
     "outputSha256": "f8d4539c4e2a60fc2d2a1dad1b80db25125c76679876885ba697d2129a3bfb9b"
   },
-  "threadsText": "\u201cYou already know.\u201d \ud83d\ude02\n\n(via @chargers)\n\nSource: @sportscenter",
+  "threadsText": "“You already know.” 😂\n\n(via @chargers)\n\nSource: @sportscenter",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 10.78,
   "scoreMargin": -37.35,
   "highlightQuality": 10.78,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.65,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108467797915961",
+  "instagramContainerCreatedAt": "2026-09-09T19:42:35.709Z",
+  "instagramPublishRequestedAt": "2026-09-09T19:43:21.735Z",
+  "instagramMediaId": "17899072674665959",
+  "instagramPermalink": "https://www.instagram.com/reel/DdFCenIjRJ6/",
+  "instagramVerifiedAt": "2026-09-09T19:43:30.373Z"
 }
