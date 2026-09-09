@@ -3,16 +3,16 @@
   "shortcode": "DdE_uZJSY90",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimeszn/reel/DdE_uZJSY90/",
-  "sourceCaption": "BEST DUO IN THE LEAGUE \ud83d\udd25 @teehiggins @lahjay10_ TUNE IN TONIGHT TO CHASING NO 1 \ud83c\udf7f @chasingno1show",
-  "publishCaption": "BEST DUO IN THE LEAGUE \ud83d\udd25 @teehiggins @lahjay10_ TUNE IN TONIGHT TO CHASING NO 1 \ud83c\udf7f @chasingno1show\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "BEST DUO IN THE LEAGUE 🔥 @teehiggins @lahjay10_ TUNE IN TONIGHT TO CHASING NO 1 🍿 @chasingno1show",
+  "publishCaption": "BEST DUO IN THE LEAGUE 🔥 @teehiggins @lahjay10_ TUNE IN TONIGHT TO CHASING NO 1 🍿 @chasingno1show\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-09T19:26:45.245Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "BEST DUO IN THE LEAGUE \ud83d\udd25 @teehiggins @lahjay10_ TUNE IN TONIGHT TO CHASING NO 1 \ud83c\udf7f @chasingno1show",
+  "body": "BEST DUO IN THE LEAGUE 🔥 @teehiggins @lahjay10_ TUNE IN TONIGHT TO CHASING NO 1 🍿 @chasingno1show",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-09T19:27:34.012Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "570383eece120204eb80c40310571a3545a5ba56ed8d41331f15ceea6405a38e",
     "outputSha256": "2668490e48a3849cf7955841f86b520710b671e68a942341f1bc516fbb862997"
   },
-  "threadsText": "BEST DUO IN THE LEAGUE \ud83d\udd25 @teehiggins @lahjay10_ TUNE IN TONIGHT TO CHASING NO 1 \ud83c\udf7f @chasingno1show\n\nSource: @overtime",
+  "threadsText": "BEST DUO IN THE LEAGUE 🔥 @teehiggins @lahjay10_ TUNE IN TONIGHT TO CHASING NO 1 🍿 @chasingno1show\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 0.34,
   "scoreMargin": -48.8,
   "highlightQuality": 0.34,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 31.2,
@@ -72,5 +72,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108496807915961",
+  "instagramContainerCreatedAt": "2026-09-09T22:32:45.216Z",
+  "instagramPublishRequestedAt": "2026-09-09T22:33:15.732Z",
+  "instagramMediaId": "18120789223926391",
+  "instagramPermalink": "https://www.instagram.com/reel/DdFV6R4jrDM/",
+  "instagramVerifiedAt": "2026-09-09T22:33:23.606Z"
 }
