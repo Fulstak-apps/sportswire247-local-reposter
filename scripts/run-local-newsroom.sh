@@ -7,6 +7,13 @@ export SPORTSWIRE_MLB_FLOOR="${SPORTSWIRE_MLB_FLOOR:-60}"
 export SPORTSWIRE_HOCKEY_FLOOR="${SPORTSWIRE_HOCKEY_FLOOR:-66}"
 cd "$(dirname "$0")/.."
 
+# launchd can begin the next interval while a slow source scan or Git sync is
+# still in progress.  One process owns the entire cycle so state files and
+# rebases cannot race each other.  The advisory lock is released on crashes.
+if [[ -z "${SPORTSWIRE_WORKER_LOCK_HELD:-}" ]]; then
+  exec /usr/bin/python3 scripts/with-worker-lock.py "$0" "$@"
+fi
+
 read_only=false
 for arg in "$@"; do
   if [[ "$arg" == "--dry-run" || "$arg" == "--health" ]]; then
