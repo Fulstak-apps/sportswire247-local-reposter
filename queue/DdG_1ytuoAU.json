@@ -3,16 +3,16 @@
   "shortcode": "DdG_1ytuoAU",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdG_1ytuoAU/",
-  "sourceCaption": "Pops wasn\u2019t having it. \ud83d\ude02\ud83d\ude2d (via @thatsndot)",
-  "publishCaption": "Pops wasn\u2019t having it. \ud83d\ude02\ud83d\ude2d (via @thatsndot)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Pops wasn’t having it. 😂😭 (via @thatsndot)",
+  "publishCaption": "Pops wasn’t having it. 😂😭 (via @thatsndot)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-10T14:05:03.867Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Pops wasn\u2019t having it. \ud83d\ude02\ud83d\ude2d (via @thatsndot)",
+  "body": "Pops wasn’t having it. 😂😭 (via @thatsndot)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-10T14:05:52.414Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "473c443e0bf5a94530565cf8ae4a23e02d056329afcfac78ae9100f50415a426",
     "outputSha256": "8a329f46d46c9ebd50e679356fa00a8c11bd03f2056575cc0dc67729ad5f9729"
   },
-  "threadsText": "Pops wasn\u2019t having it. \ud83d\ude02\ud83d\ude2d (via @thatsndot)\n\nSource: @houseofhighlights",
+  "threadsText": "Pops wasn’t having it. 😂😭 (via @thatsndot)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 12.74,
   "scoreMargin": -34.43,
   "highlightQuality": 12.74,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.57,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108690022915961",
+  "instagramContainerCreatedAt": "2026-09-10T14:07:34.127Z",
+  "instagramPublishRequestedAt": "2026-09-10T14:08:04.614Z",
+  "instagramMediaId": "18104530181217294",
+  "instagramPermalink": "https://www.instagram.com/reel/DdHA5JJjLAh/",
+  "instagramVerifiedAt": "2026-09-10T14:08:13.224Z"
 }
