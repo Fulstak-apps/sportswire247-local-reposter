@@ -3,16 +3,16 @@
   "shortcode": "DdGkwXWxYOD",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brwsports/reel/DdGkwXWxYOD/",
-  "sourceCaption": "Caitlin with a couple dimes to Angel \ud83e\udee1\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max \ud83c\udf7f",
-  "publishCaption": "Caitlin with a couple dimes to Angel \ud83e\udee1\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max \ud83c\udf7f\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Caitlin with a couple dimes to Angel 🫡\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max 🍿",
+  "publishCaption": "Caitlin with a couple dimes to Angel 🫡\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max 🍿\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-10T10:33:37.634Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Caitlin with a couple dimes to Angel \ud83e\udee1\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max \ud83c\udf7f",
+  "body": "Caitlin with a couple dimes to Angel 🫡\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max 🍿",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-10T10:34:26.230Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "5132b119ef9144891288beaa95003dd518cdc5439a303c92ad3be4a143458f1d",
     "outputSha256": "7e4e26d0f448bab0eaf367c9d4a955ed1c75ec0f25831b6ed5b6fb9b6805b8ac"
   },
-  "threadsText": "Caitlin with a couple dimes to Angel \ud83e\udee1\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max \ud83c\udf7f\n\nSource: @bleacherreport",
+  "threadsText": "Caitlin with a couple dimes to Angel 🫡\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max 🍿\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 9.91,
   "scoreMargin": -39.82,
   "highlightQuality": 9.91,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 40.18,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108638926915961",
+  "instagramContainerCreatedAt": "2026-09-10T10:50:02.965Z",
+  "instagramPublishRequestedAt": "2026-09-10T10:50:33.376Z",
+  "instagramMediaId": "18149617342540695",
+  "instagramPermalink": "https://www.instagram.com/reel/DdGqSgamUPx/",
+  "instagramVerifiedAt": "2026-09-10T10:50:40.313Z"
 }
