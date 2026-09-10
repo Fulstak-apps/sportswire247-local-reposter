@@ -3,16 +3,16 @@
   "shortcode": "DdF8edtupRz",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdF8edtupRz/",
-  "sourceCaption": "Tough loss for the Patriots in the season opener \ud83e\udd40\n\n(via @patriots) #drakemaye #patriots #football #nfl",
-  "publishCaption": "Tough loss for the Patriots in the season opener \ud83e\udd40\n\n(via @patriots) #drakemaye #patriots #football #nfl\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Tough loss for the Patriots in the season opener 🥀\n\n(via @patriots) #drakemaye #patriots #football #nfl",
+  "publishCaption": "Tough loss for the Patriots in the season opener 🥀\n\n(via @patriots) #drakemaye #patriots #football #nfl\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-10T04:13:24.748Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Tough loss for the Patriots in the season opener \ud83e\udd40\n\n(via @patriots) #drakemaye #patriots #football #nfl",
+  "body": "Tough loss for the Patriots in the season opener 🥀\n\n(via @patriots) #drakemaye #patriots #football #nfl",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-10T04:14:13.374Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "14d592345cc6e29331c07f571f964bd5cc0787d27b5c63f386d02eadf7946467",
     "outputSha256": "5aff0adf60642e0b2d5f2e922f79ab63eb9fdec8182ae531c9477ad8b76eeaa2"
   },
-  "threadsText": "Tough loss for the Patriots in the season opener \ud83e\udd40\n\n(via @patriots) #drakemaye #patriots #football #nfl\n\nSource: @bleacherreport",
+  "threadsText": "Tough loss for the Patriots in the season opener 🥀\n\n(via @patriots) #drakemaye #patriots #football #nfl\n\nSource: @bleacherreport",
   "contentLane": "sports_culture",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 5.1,
   "scoreMargin": 4.03,
   "highlightQuality": 5.1,
-  "postingFloor": 52.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 52,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 56.03,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108563488915961",
+  "instagramContainerCreatedAt": "2026-09-10T04:44:05.727Z",
+  "instagramPublishRequestedAt": "2026-09-10T04:45:36.905Z",
+  "instagramMediaId": "17884861440488296",
+  "instagramPermalink": "https://www.instagram.com/reel/DdGAg1VEfTC/",
+  "instagramVerifiedAt": "2026-09-10T04:45:44.416Z"
 }
