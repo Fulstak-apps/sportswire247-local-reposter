@@ -33,6 +33,17 @@ export function platformEligible(item, platformName, records = [], now = Date.no
   if (verified.length && now - Math.max(...verified) < minimumGapMs) return false;
   return verified.filter(at => now - at < 86_400_000).length < dailyLimit;
 }
+export function platformQueueOrder(platformName, left, right) {
+  // Finish the matching copy of a clip already live on the other account
+  // before selecting a brand-new clip. This keeps the two feeds aligned and
+  // prevents a platform outage from growing a one-sided backlog.
+  const other = platformName === "instagram" ? "threads" : "instagram";
+  const leftPartial = Number(Boolean(left.item?.[`${other}VerifiedAt`]) && !left.item?.[`${platformName}VerifiedAt`]);
+  const rightPartial = Number(Boolean(right.item?.[`${other}VerifiedAt`]) && !right.item?.[`${platformName}VerifiedAt`]);
+  return rightPartial - leftPartial ||
+    Number(left.item.sportRank || 99) - Number(right.item.sportRank || 99) ||
+    Number(right.item.deterministicScore || 0) - Number(left.item.deterministicScore || 0);
+}
 
 async function save(file, item) {
   const temporary = `${file}.${process.pid}.tmp`;
@@ -146,11 +157,14 @@ async function main() {
       health.platforms[platform.name] = { status: "healthy", usage: quota.quota_usage, limit: quota.config.quota_total };
       if (quota.quota_usage >= Math.min(limits[platform.name], quota.config.quota_total)) continue;
     } catch (error) {
-      health.platforms[platform.name] = { status: "quota_or_auth_check_failed", error: error.message };
+      const authFailure = /access token|session key|invalid user id|oauth/i.test(error.message);
+      const pauseUntil = authFailure ? new Date(Date.now() + 60 * 60_000).toISOString() : null;
+      health.platforms[platform.name] = { status: "quota_or_auth_check_failed", error: error.message, reauthRequired: authFailure, pauseUntil };
+      if (pauseUntil) await save(stateFile, { pauseUntil, error: error.message, reauthRequired: true, checkedAt: new Date().toISOString() });
       console.log(`::warning::${platform.name}: quota/auth check failed; publishing paused`);
       continue;
     }
-    const record = [...records].sort((a, b) => Number(a.item.sportRank || 99) - Number(b.item.sportRank || 99) || Number(b.item.deterministicScore || 0) - Number(a.item.deterministicScore || 0)).find(x => platformEligible(x.item, platform.name, records, Date.now(), limits[platform.name]));
+    const record = [...records].sort((a, b) => platformQueueOrder(platform.name, a, b)).find(x => platformEligible(x.item, platform.name, records, Date.now(), limits[platform.name]));
     if (!record) continue;
     const { item, file } = record;
     if (item[`${platform.name}PublishRequestedAt`] && !item[`${platform.name}MediaId`]) {
@@ -186,7 +200,7 @@ async function main() {
     const name = platform.name;
     const pending = records.filter(x => eligible(x.item) && !x.item[`${name}VerifiedAt`]);
     const dates = records.map(x => x.item[`${name}VerifiedAt`]).filter(Boolean).sort();
-    Object.assign(health.platforms[name], {
+    Object.assign(health.platforms[name] ||= { status: "not_checked" }, {
       pendingItems: pending.length,
       lastVerifiedAt: dates.at(-1) || null,
       overdue: pending.length > 0 && (!dates.length || Date.now() - Date.parse(dates.at(-1)) > minimumGapMs + 10 * 60_000),

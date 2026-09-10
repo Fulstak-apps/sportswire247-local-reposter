@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { eligible, platformEligible, retryAt, reconciliationMatch } from "../scripts/publish-sportswire-meta.mjs";
+import { eligible, platformEligible, platformQueueOrder, retryAt, reconciliationMatch } from "../scripts/publish-sportswire-meta.mjs";
 
 test('uncertain clips stay locked and reserve the posting gap for other clips', () => {
  const now=Date.parse('2026-09-06T12:00:00Z');
@@ -48,6 +48,12 @@ test("Instagram and Threads cooldowns and quotas are independent", () => {
   assert.equal(platformEligible(item, "threads", [], now, 20), true);
   const history = [{ item: { threadsVerifiedAt: new Date(now - 1_000).toISOString() } }];
   assert.equal(platformEligible(valid, "threads", history, now, 20), false);
+});
+test("platform queue finishes a one-sided publication before a fresh clip", () => {
+  const fresh = { item: { ...valid, sportRank: 1, deterministicScore: 99 } };
+  const instagramLive = { item: { ...valid, sportRank: 99, deterministicScore: 0, instagramVerifiedAt: "2026-09-10T00:00:00Z" } };
+  assert.ok(platformQueueOrder("threads", instagramLive, fresh) < 0);
+  assert.ok(platformQueueOrder("instagram", fresh, instagramLive) < 0);
 });
 test("five-frame logo placement shrinks around detected text and fails closed", () => {
   const empty = Array.from({ length: 5 }, () => ({ text: [], faces: [] }));

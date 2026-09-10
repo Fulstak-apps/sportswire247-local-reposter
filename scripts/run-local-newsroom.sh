@@ -46,4 +46,7 @@ fi
 node src/collect-only.mjs || echo "Collection failed; continuing with saved queue" >&2
 /usr/bin/python3 scripts/refill-queue.py
 scripts/push-sportswire-queue.sh
-gh workflow run publish-sportswire.yml --repo Fulstak-apps/sportswire247-local-reposter
+# Publishing is scheduled by GitHub and independently supervised by the local
+# backup job.  Do not dispatch here: a five-minute worker plus a five-minute
+# workflow schedule otherwise creates duplicate runs and can make the queue
+# appear stuck while jobs wait behind each other.
