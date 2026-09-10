@@ -3,16 +3,16 @@
   "shortcode": "DdFuenyjdjk",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/p/DdFuenyjdjk/",
-  "sourceCaption": "JB out here boxing in Nigeria \ud83e\udd4a\ud83d\udd25 (via @fchwpo)",
-  "publishCaption": "JB out here boxing in Nigeria \ud83e\udd4a\ud83d\udd25 (via @fchwpo)\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "JB out here boxing in Nigeria 🥊🔥 (via @fchwpo)",
+  "publishCaption": "JB out here boxing in Nigeria 🥊🔥 (via @fchwpo)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-10T02:08:26.833Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "JB out here boxing in Nigeria \ud83e\udd4a\ud83d\udd25 (via @fchwpo)",
+  "body": "JB out here boxing in Nigeria 🥊🔥 (via @fchwpo)",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-10T02:09:15.365Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "12ebf0f6357f6e1d8b63dc6940aed16401a5223649ee22bea89fbc9d9af776a8",
     "outputSha256": "8a5acadf6a74b1b74ffc87630e5ce45d4b46fecf5f869f4fb4eb3bfb0344358e"
   },
-  "threadsText": "JB out here boxing in Nigeria \ud83e\udd4a\ud83d\udd25 (via @fchwpo)\n\nSource: @houseofhighlights",
+  "threadsText": "JB out here boxing in Nigeria 🥊🔥 (via @fchwpo)\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 5.21,
   "scoreMargin": -41.88,
   "highlightQuality": 5.21,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 38.12,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108656566915961",
+  "instagramContainerCreatedAt": "2026-09-10T11:53:12.890Z",
+  "instagramPublishRequestedAt": "2026-09-10T11:53:58.452Z",
+  "instagramMediaId": "17899632924657687",
+  "instagramPermalink": "https://www.instagram.com/reel/DdGxiAwCHOG/",
+  "instagramVerifiedAt": "2026-09-10T11:54:06.407Z"
 }
