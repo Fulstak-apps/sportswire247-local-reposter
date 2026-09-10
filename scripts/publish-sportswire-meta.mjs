@@ -50,6 +50,18 @@ async function save(file, item) {
   await fs.writeFile(temporary, JSON.stringify(item, null, 2) + "\n");
   await fs.rename(temporary, file);
 }
+function healthSnapshot(health) {
+  const copy = structuredClone(health);
+  delete copy.checkedAt;
+  return JSON.stringify(copy);
+}
+async function saveHealthIfChanged(file, health) {
+  const previous = JSON.parse(await fs.readFile(file, "utf8").catch(() => "{}"));
+  // The worker checks frequently, but a timestamp-only update would create a
+  // Git commit every five minutes. Persist only meaningful health transitions;
+  // publication state and auth/limit changes still remain durable.
+  if (healthSnapshot(previous) !== healthSnapshot(health)) await save(file, health);
+}
 async function graph(platform, endpoint, fields, item, stage) {
   const response = await fetch(`${platform.base}/${platform.userId}/${endpoint}`, { method: "POST", body: new URLSearchParams({ ...fields, access_token: platform.token }), signal: AbortSignal.timeout(90_000) });
   const payload = await response.json();
@@ -207,7 +219,7 @@ async function main() {
       unresolvedItems: records.filter(x => x.item[`${name}PublishRequestedAt`] && !x.item[`${name}MediaId`]).map(x => x.item.shortcode),
     });
   }
-  await save(path.join(logsDir, "publisher-health.json"), health);
+  await saveHealthIfChanged(path.join(logsDir, "publisher-health.json"), health);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) await main();
