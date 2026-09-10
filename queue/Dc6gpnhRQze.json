@@ -6,7 +6,7 @@
   "sourceCaption": "Not the player helping him up 😭 (via nickyperks/X)",
   "publishCaption": "Not the player helping him up 😭 (via nickyperks/X)\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-05T17:38:59.004Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -72,11 +72,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107750617915961",
   "instagramContainerCreatedAt": "2026-09-07T06:57:52.233Z",
   "instagramPublishRequestedAt": "2026-09-07T06:58:22.565Z",
   "instagramMediaId": "17989015086049285",
   "instagramPermalink": "https://www.instagram.com/reel/Dc-hVMxE5AY/",
-  "instagramVerifiedAt": "2026-09-07T06:58:28.719Z"
+  "instagramVerifiedAt": "2026-09-07T06:58:28.719Z",
+  "publishedAt": "2026-09-07T06:58:28.719Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

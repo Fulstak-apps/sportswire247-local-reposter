@@ -6,7 +6,7 @@
   "sourceCaption": "Pops wasn’t having it. 😂😭 (via @thatsndot)",
   "publishCaption": "Pops wasn’t having it. 😂😭 (via @thatsndot)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-10T14:05:03.867Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108690022915961",
   "instagramContainerCreatedAt": "2026-09-10T14:07:34.127Z",
   "instagramPublishRequestedAt": "2026-09-10T14:08:04.614Z",
   "instagramMediaId": "18104530181217294",
   "instagramPermalink": "https://www.instagram.com/reel/DdHA5JJjLAh/",
-  "instagramVerifiedAt": "2026-09-10T14:08:13.224Z"
+  "instagramVerifiedAt": "2026-09-10T14:08:13.224Z",
+  "publishedAt": "2026-09-10T14:08:13.224Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

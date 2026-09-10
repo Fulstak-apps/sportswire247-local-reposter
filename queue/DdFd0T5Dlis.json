@@ -6,7 +6,7 @@
   "sourceCaption": "2500 hits for Jose Altuve! He and Freddie Freeman are the only active players to reach that mark",
   "publishCaption": "2500 hits for Jose Altuve! He and Freddie Freeman are the only active players to reach that mark\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-09T23:51:24.159Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108508978915961",
   "instagramContainerCreatedAt": "2026-09-09T23:53:56.075Z",
   "instagramPublishRequestedAt": "2026-09-09T23:54:26.518Z",
   "instagramMediaId": "17935276257367143",
   "instagramPermalink": "https://www.instagram.com/reel/DdFfM4JkkoK/",
-  "instagramVerifiedAt": "2026-09-09T23:54:33.765Z"
+  "instagramVerifiedAt": "2026-09-09T23:54:33.765Z",
+  "publishedAt": "2026-09-09T23:54:33.765Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

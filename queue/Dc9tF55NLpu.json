@@ -6,7 +6,7 @@
   "sourceCaption": "Crowd understood the assignment 😅🌭 (via @mlb, @sportsnet, h/t maddiewhittle/X)",
   "publishCaption": "Crowd understood the assignment 😅🌭 (via @mlb, @sportsnet, h/t maddiewhittle/X)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-06T23:27:18.875Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107658595915961",
   "instagramContainerCreatedAt": "2026-09-06T23:48:22.877Z",
   "instagramPublishRequestedAt": "2026-09-06T23:48:53.345Z",
   "instagramMediaId": "17925582207420348",
   "instagramPermalink": "https://www.instagram.com/reel/Dc9wLmWDEk5/",
-  "instagramVerifiedAt": "2026-09-06T23:49:00.869Z"
+  "instagramVerifiedAt": "2026-09-06T23:49:00.869Z",
+  "publishedAt": "2026-09-06T23:49:00.869Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

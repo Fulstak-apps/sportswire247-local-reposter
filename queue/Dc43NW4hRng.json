@@ -6,7 +6,7 @@
   "sourceCaption": "TALK TO EM TRAYVIS 🗣️ @_tray.4",
   "publishCaption": "TALK TO EM TRAYVIS 🗣️ @_tray.4\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-05T15:52:24.134Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107782687915961",
   "instagramContainerCreatedAt": "2026-09-07T10:07:40.937Z",
   "instagramPublishRequestedAt": "2026-09-07T10:08:26.638Z",
   "instagramMediaId": "18164786959411191",
   "instagramPermalink": "https://www.instagram.com/reel/Dc-3GJPDoUM/",
-  "instagramVerifiedAt": "2026-09-07T10:08:34.115Z"
+  "instagramVerifiedAt": "2026-09-07T10:08:34.115Z",
+  "publishedAt": "2026-09-07T10:08:34.115Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

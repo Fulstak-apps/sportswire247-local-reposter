@@ -6,7 +6,7 @@
   "sourceCaption": "Lane Kiffin heard all the noise and blew out Dabo Swinney and Clemson 🤐🍿\n\n#cfb #collegefootball #ncaafootball #lsu #sec",
   "publishCaption": "Lane Kiffin heard all the noise and blew out Dabo Swinney and Clemson 🤐🍿\n\n#cfb #collegefootball #ncaafootball #lsu #sec\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-06T06:04:42.390Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107437792915961",
   "instagramContainerCreatedAt": "2026-09-06T07:10:13.475Z",
   "instagramPublishRequestedAt": "2026-09-06T07:10:44.107Z",
   "instagramMediaId": "18120683045302046",
   "instagramPermalink": "https://www.instagram.com/reel/Dc79828FOxc/",
-  "instagramVerifiedAt": "2026-09-06T07:10:50.283Z"
+  "instagramVerifiedAt": "2026-09-06T07:10:50.283Z",
+  "publishedAt": "2026-09-06T07:10:50.283Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "Holy shit 😳 (via @cfbonfox)",
   "publishCaption": "Holy shit 😳 (via @cfbonfox)\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-05T17:27:22.262Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -72,11 +72,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107800333915961",
   "instagramContainerCreatedAt": "2026-09-07T11:42:20.878Z",
   "instagramPublishRequestedAt": "2026-09-07T11:43:54.210Z",
   "instagramMediaId": "18463063582141636",
   "instagramPermalink": "https://www.instagram.com/reel/Dc_CADPjQtK/",
-  "instagramVerifiedAt": "2026-09-07T11:44:03.137Z"
+  "instagramVerifiedAt": "2026-09-07T11:44:03.137Z",
+  "publishedAt": "2026-09-07T11:44:03.137Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

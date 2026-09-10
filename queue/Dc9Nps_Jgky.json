@@ -6,7 +6,7 @@
   "sourceCaption": "Oh no 😬😭 \n\n(Via @emufb, h/t JMannsTakes/X)\n\n#cfb #collegefootball #easternmichigan #sports",
   "publishCaption": "Oh no 😬😭 \n\n(Via @emufb, h/t JMannsTakes/X)\n\n#cfb #collegefootball #easternmichigan #sports\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-06T18:53:56.735Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107613226915961",
   "instagramContainerCreatedAt": "2026-09-06T19:15:06.556Z",
   "instagramPublishRequestedAt": "2026-09-06T19:15:38.824Z",
   "instagramMediaId": "17987507777865501",
   "instagramPermalink": "https://www.instagram.com/reel/Dc9Q57fDt2r/",
-  "instagramVerifiedAt": "2026-09-06T19:15:49.123Z"
+  "instagramVerifiedAt": "2026-09-06T19:15:49.123Z",
+  "publishedAt": "2026-09-06T19:15:49.123Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "I’m sorry but what in the world was that 😭☠️ @h00pify",
   "publishCaption": "I’m sorry but what in the world was that 😭☠️ @h00pify\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-10T03:40:38.869Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108632368915961",
   "instagramContainerCreatedAt": "2026-09-10T10:14:51.681Z",
   "instagramPublishRequestedAt": "2026-09-10T10:15:23.103Z",
   "instagramMediaId": "17898829020378618",
   "instagramPermalink": "https://www.instagram.com/reel/DdGmQ82ijPf/",
-  "instagramVerifiedAt": "2026-09-10T10:15:31.970Z"
+  "instagramVerifiedAt": "2026-09-10T10:15:31.970Z",
+  "publishedAt": "2026-09-10T10:15:31.970Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

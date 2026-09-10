@@ -6,7 +6,7 @@
   "sourceCaption": "She just added 50 nephews to her family. ❤️👏 (via @anayahrose__)",
   "publishCaption": "She just added 50 nephews to her family. ❤️👏 (via @anayahrose__)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-08T13:36:41.600Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108111238915961",
   "instagramContainerCreatedAt": "2026-09-08T13:38:50.945Z",
   "instagramPublishRequestedAt": "2026-09-08T13:39:21.439Z",
   "instagramMediaId": "18099761141378981",
   "instagramPermalink": "https://www.instagram.com/reel/DdB0BSrAveV/",
-  "instagramVerifiedAt": "2026-09-08T13:39:28.914Z"
+  "instagramVerifiedAt": "2026-09-08T13:39:28.914Z",
+  "publishedAt": "2026-09-08T13:39:28.914Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

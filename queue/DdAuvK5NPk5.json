@@ -6,7 +6,7 @@
   "sourceCaption": "This doesn’t even look fair 😅😂 (via @billycoachcoff, h/t LukaDoncicStanD/X)",
   "publishCaption": "This doesn’t even look fair 😅😂 (via @billycoachcoff, h/t LukaDoncicStanD/X)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-08T03:43:32.375Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107994529915961",
   "instagramContainerCreatedAt": "2026-09-08T04:12:06.878Z",
   "instagramPublishRequestedAt": "2026-09-08T04:12:37.712Z",
   "instagramMediaId": "18127748945507976",
   "instagramPermalink": "https://www.instagram.com/reel/DdAzKHSkU7b/",
-  "instagramVerifiedAt": "2026-09-08T04:12:43.899Z"
+  "instagramVerifiedAt": "2026-09-08T04:12:43.899Z",
+  "publishedAt": "2026-09-08T04:12:43.899Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

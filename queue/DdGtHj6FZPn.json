@@ -6,7 +6,7 @@
   "sourceCaption": "USA defeats Hungary by 52 POINTS to advance to FIBA World Cup Semis 💪🏆",
   "publishCaption": "USA defeats Hungary by 52 POINTS to advance to FIBA World Cup Semis 💪🏆\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-10T11:16:52.025Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108645205915961",
   "instagramContainerCreatedAt": "2026-09-10T11:20:49.463Z",
   "instagramPublishRequestedAt": "2026-09-10T11:21:04.694Z",
   "instagramMediaId": "17920769724427490",
   "instagramPermalink": "https://www.instagram.com/reel/DdGtzwlFO4C/",
-  "instagramVerifiedAt": "2026-09-10T11:21:13.686Z"
+  "instagramVerifiedAt": "2026-09-10T11:21:13.686Z",
+  "publishedAt": "2026-09-10T11:21:13.686Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

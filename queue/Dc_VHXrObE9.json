@@ -6,7 +6,7 @@
   "sourceCaption": "Doing all those pushups on his knuckles is wild 😭\n\n#collegefootball #cfb #football #lsu",
   "publishCaption": "Doing all those pushups on his knuckles is wild 😭\n\n#collegefootball #cfb #football #lsu\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-07T14:36:06.823Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -74,11 +74,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107839039915961",
   "instagramContainerCreatedAt": "2026-09-07T14:38:17.331Z",
   "instagramPublishRequestedAt": "2026-09-07T14:38:47.707Z",
   "instagramMediaId": "18107588042463871",
   "instagramPermalink": "https://www.instagram.com/reel/Dc_WBqWEecD/",
-  "instagramVerifiedAt": "2026-09-07T14:38:54.517Z"
+  "instagramVerifiedAt": "2026-09-07T14:38:54.517Z",
+  "publishedAt": "2026-09-07T14:38:54.517Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

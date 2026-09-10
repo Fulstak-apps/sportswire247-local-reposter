@@ -6,7 +6,7 @@
   "sourceCaption": "They’ll never forget this. 😭😭 (via jmoneyhissong57/tt)",
   "publishCaption": "They’ll never forget this. 😭😭 (via jmoneyhissong57/tt)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-09T17:26:04.664Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108443149915961",
   "instagramContainerCreatedAt": "2026-09-09T17:56:20.090Z",
   "instagramPublishRequestedAt": "2026-09-09T17:56:50.689Z",
   "instagramMediaId": "18046787924771345",
   "instagramPermalink": "https://www.instagram.com/reel/DdE2RwOmptu/",
-  "instagramVerifiedAt": "2026-09-09T17:57:00.010Z"
+  "instagramVerifiedAt": "2026-09-09T17:57:00.010Z",
+  "publishedAt": "2026-09-09T17:57:00.010Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

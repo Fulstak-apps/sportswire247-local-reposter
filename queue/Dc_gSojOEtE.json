@@ -6,7 +6,7 @@
   "sourceCaption": "“Welcome to the 2026 Hoco Proposal Signing Day” 😂🔥 (via @landonmorris307)",
   "publishCaption": "“Welcome to the 2026 Hoco Proposal Signing Day” 😂🔥 (via @landonmorris307)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-07T16:13:33.038Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -74,11 +74,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107867983915961",
   "instagramContainerCreatedAt": "2026-09-07T16:16:42.217Z",
   "instagramPublishRequestedAt": "2026-09-07T16:17:12.579Z",
   "instagramMediaId": "17991460218023827",
   "instagramPermalink": "https://www.instagram.com/reel/Dc_hSezCMV_/",
-  "instagramVerifiedAt": "2026-09-07T16:17:19.689Z"
+  "instagramVerifiedAt": "2026-09-07T16:17:19.689Z",
+  "publishedAt": "2026-09-07T16:17:19.689Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

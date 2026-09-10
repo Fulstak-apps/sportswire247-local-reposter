@@ -6,7 +6,7 @@
   "sourceCaption": "Kentucky and Penn State Women’s Volleyball are playing at Wrigley Field tonight and the crowd sang “Take Me Out to the Ballgame” before the second set\n\n(via benbarker155 / X)",
   "publishCaption": "Kentucky and Penn State Women’s Volleyball are playing at Wrigley Field tonight and the crowd sang “Take Me Out to the Ballgame” before the second set\n\n(via benbarker155 / X)\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-07T00:29:15.453Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107737840915961",
   "instagramContainerCreatedAt": "2026-09-07T05:54:10.853Z",
   "instagramPublishRequestedAt": "2026-09-07T05:54:41.295Z",
   "instagramMediaId": "18106676081521597",
   "instagramPermalink": "https://www.instagram.com/reel/Dc-aCq6FLWm/",
-  "instagramVerifiedAt": "2026-09-07T05:54:47.843Z"
+  "instagramVerifiedAt": "2026-09-07T05:54:47.843Z",
+  "publishedAt": "2026-09-07T05:54:47.843Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

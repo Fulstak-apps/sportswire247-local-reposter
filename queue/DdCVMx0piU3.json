@@ -6,7 +6,7 @@
   "sourceCaption": "One of the more random heckles you’ll hear 😭\n\n#nba #basketball #nbabasketball",
   "publishCaption": "One of the more random heckles you’ll hear 😭\n\n#nba #basketball #nbabasketball\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-08T18:31:49.991Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108185233915961",
   "instagramContainerCreatedAt": "2026-09-08T18:36:05.188Z",
   "instagramPublishRequestedAt": "2026-09-08T18:36:35.687Z",
   "instagramMediaId": "18209006125362648",
   "instagramPermalink": "https://www.instagram.com/reel/DdCWB4cDadR/",
-  "instagramVerifiedAt": "2026-09-08T18:36:42.689Z"
+  "instagramVerifiedAt": "2026-09-08T18:36:42.689Z",
+  "publishedAt": "2026-09-08T18:36:42.689Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

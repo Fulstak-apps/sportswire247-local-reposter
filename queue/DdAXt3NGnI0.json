@@ -6,7 +6,7 @@
   "sourceCaption": "Breaking: The Yankees have activated Aaron Judge from the injured list, the team announced.\n\nHe will make his return Tuesday against the Rockies.\n\n(🎥 @yankees)",
   "publishCaption": "Breaking: The Yankees have activated Aaron Judge from the injured list, the team announced.\n\nHe will make his return Tuesday against the Rockies.\n\n(🎥 @yankees)\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-08T01:02:37.542Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -74,11 +74,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107966767915961",
   "instagramContainerCreatedAt": "2026-09-08T01:26:28.274Z",
   "instagramPublishRequestedAt": "2026-09-08T01:26:58.500Z",
   "instagramMediaId": "17979968642905351",
   "instagramPermalink": "https://www.instagram.com/reel/DdAgM0LDi0o/",
-  "instagramVerifiedAt": "2026-09-08T01:27:05.222Z"
+  "instagramVerifiedAt": "2026-09-08T01:27:05.222Z",
+  "publishedAt": "2026-09-08T01:27:05.222Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

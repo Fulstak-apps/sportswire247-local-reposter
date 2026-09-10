@@ -6,7 +6,7 @@
   "sourceCaption": "LEGEND BEY IS SO SHIFTY MAN 😮‍💨 @legendbey7 (via @b1gfootball)",
   "publishCaption": "LEGEND BEY IS SO SHIFTY MAN 😮‍💨 @legendbey7 (via @b1gfootball)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-05T19:45:07.403Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107502436915961",
   "instagramContainerCreatedAt": "2026-09-06T12:25:52.516Z",
   "instagramPublishRequestedAt": "2026-09-06T12:26:23.356Z",
   "instagramMediaId": "18112756631041685",
   "instagramPermalink": "https://www.instagram.com/reel/Dc8iEyNDPCx/",
-  "instagramVerifiedAt": "2026-09-06T12:26:31.360Z"
+  "instagramVerifiedAt": "2026-09-06T12:26:31.360Z",
+  "publishedAt": "2026-09-06T12:26:31.360Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "Caitlin with a couple dimes to Angel 🫡\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max 🍿",
   "publishCaption": "Caitlin with a couple dimes to Angel 🫡\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max 🍿\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-10T10:33:37.634Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108638926915961",
   "instagramContainerCreatedAt": "2026-09-10T10:50:02.965Z",
   "instagramPublishRequestedAt": "2026-09-10T10:50:33.376Z",
   "instagramMediaId": "18149617342540695",
   "instagramPermalink": "https://www.instagram.com/reel/DdGqSgamUPx/",
-  "instagramVerifiedAt": "2026-09-10T10:50:40.313Z"
+  "instagramVerifiedAt": "2026-09-10T10:50:40.313Z",
+  "publishedAt": "2026-09-10T10:50:40.313Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

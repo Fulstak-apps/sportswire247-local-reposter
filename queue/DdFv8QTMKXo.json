@@ -6,7 +6,7 @@
   "sourceCaption": "Jaylen Brown’s side quests continue 🔥\n\n(via @fchwpo) #jaylenbrown #boxing #nigeria #basketball #nba",
   "publishCaption": "Jaylen Brown’s side quests continue 🔥\n\n(via @fchwpo) #jaylenbrown #boxing #nigeria #basketball #nba\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-10T02:24:41.029Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108533440915961",
   "instagramContainerCreatedAt": "2026-09-10T02:27:34.635Z",
   "instagramPublishRequestedAt": "2026-09-10T02:28:05.200Z",
   "instagramMediaId": "18128980088495063",
   "instagramPermalink": "https://www.instagram.com/reel/DdFwyKUAbvU/",
-  "instagramVerifiedAt": "2026-09-10T02:28:13.089Z"
+  "instagramVerifiedAt": "2026-09-10T02:28:13.089Z",
+  "publishedAt": "2026-09-10T02:28:13.089Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

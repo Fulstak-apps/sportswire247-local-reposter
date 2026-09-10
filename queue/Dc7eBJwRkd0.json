@@ -6,7 +6,7 @@
   "sourceCaption": "Despite the loss, what a year it’s been for the Filipina sensation 🇵🇭",
   "publishCaption": "Despite the loss, what a year it’s been for the Filipina sensation 🇵🇭\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-06T21:35:11.539Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107676379915961",
   "instagramContainerCreatedAt": "2026-09-07T01:27:59.973Z",
   "instagramPublishRequestedAt": "2026-09-07T01:28:30.336Z",
   "instagramMediaId": "18106188248229099",
   "instagramPermalink": "https://www.instagram.com/reel/Dc97lvRiaxJ/",
-  "instagramVerifiedAt": "2026-09-07T01:28:36.339Z"
+  "instagramVerifiedAt": "2026-09-07T01:28:36.339Z",
+  "publishedAt": "2026-09-07T01:28:36.339Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

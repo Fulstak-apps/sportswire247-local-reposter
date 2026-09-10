@@ -6,7 +6,7 @@
   "sourceCaption": "This 2027 QB class is STACKED… 🤯\n\nWho’s going #1 overall from this bunch?",
   "publishCaption": "This 2027 QB class is STACKED… 🤯\n\nWho’s going #1 overall from this bunch?\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-07T17:28:04.714Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107892775915961",
   "instagramContainerCreatedAt": "2026-09-07T17:58:09.616Z",
   "instagramPublishRequestedAt": "2026-09-07T17:58:40.358Z",
   "instagramMediaId": "18019241732865657",
   "instagramPermalink": "https://www.instagram.com/reel/Dc_s5aWEanW/",
-  "instagramVerifiedAt": "2026-09-07T17:58:46.772Z"
+  "instagramVerifiedAt": "2026-09-07T17:58:46.772Z",
+  "publishedAt": "2026-09-07T17:58:46.772Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

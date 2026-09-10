@@ -6,7 +6,7 @@
   "sourceCaption": "Moms making him earn it 😂😂 (via @neak4boys, @kobeamir_4)",
   "publishCaption": "Moms making him earn it 😂😂 (via @neak4boys, @kobeamir_4)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-07T23:00:41.977Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107944885915961",
   "instagramContainerCreatedAt": "2026-09-07T23:02:48.485Z",
   "instagramPublishRequestedAt": "2026-09-07T23:03:18.844Z",
   "instagramMediaId": "18073971803439636",
   "instagramPermalink": "https://www.instagram.com/reel/DdAPwq3D9sp/",
-  "instagramVerifiedAt": "2026-09-07T23:03:23.650Z"
+  "instagramVerifiedAt": "2026-09-07T23:03:23.650Z",
+  "publishedAt": "2026-09-07T23:03:23.650Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

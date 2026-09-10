@@ -6,7 +6,7 @@
   "sourceCaption": "Whole team got FLATTENED 😭😭 (h/t @willblackmon)",
   "publishCaption": "Whole team got FLATTENED 😭😭 (h/t @willblackmon)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-07T23:41:58.827Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107955562915961",
   "instagramContainerCreatedAt": "2026-09-08T00:09:51.038Z",
   "instagramPublishRequestedAt": "2026-09-08T00:10:21.437Z",
   "instagramMediaId": "18185761273405337",
   "instagramPermalink": "https://www.instagram.com/reel/DdAXchaFXmn/",
-  "instagramVerifiedAt": "2026-09-08T00:10:29.204Z"
+  "instagramVerifiedAt": "2026-09-08T00:10:29.204Z",
+  "publishedAt": "2026-09-08T00:10:29.204Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

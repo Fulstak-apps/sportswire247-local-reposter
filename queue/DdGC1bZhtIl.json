@@ -6,7 +6,7 @@
   "sourceCaption": "Pirates and White Sox cleared the benches after the Pirates didn’t like the way Sam Antonacci slid into second on a double play",
   "publishCaption": "Pirates and White Sox cleared the benches after the Pirates didn’t like the way Sam Antonacci slid into second on a double play\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-10T05:13:18.903Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -75,11 +75,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108570502915961",
   "instagramContainerCreatedAt": "2026-09-10T05:17:23.825Z",
   "instagramPublishRequestedAt": "2026-09-10T05:17:55.048Z",
   "instagramMediaId": "18147644635550763",
   "instagramPermalink": "https://www.instagram.com/reel/DdGEOEeDpop/",
-  "instagramVerifiedAt": "2026-09-10T05:18:01.286Z"
+  "instagramVerifiedAt": "2026-09-10T05:18:01.286Z",
+  "publishedAt": "2026-09-10T05:18:01.286Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

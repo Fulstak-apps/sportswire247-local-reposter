@@ -6,7 +6,7 @@
   "sourceCaption": "Angel hyping the squad up 😤👏🏾\n\n(h/t ShowCaseShabazz/X)",
   "publishCaption": "Angel hyping the squad up 😤👏🏾\n\n(h/t ShowCaseShabazz/X)\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-06T20:09:57.868Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107690224915961",
   "instagramContainerCreatedAt": "2026-09-07T02:36:06.156Z",
   "instagramPublishRequestedAt": "2026-09-07T02:36:36.817Z",
   "instagramMediaId": "18156526774507982",
   "instagramPermalink": "https://www.instagram.com/reel/Dc-DYDSkWkR/",
-  "instagramVerifiedAt": "2026-09-07T02:36:44.035Z"
+  "instagramVerifiedAt": "2026-09-07T02:36:44.035Z",
+  "publishedAt": "2026-09-07T02:36:44.035Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

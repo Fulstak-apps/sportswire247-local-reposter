@@ -6,7 +6,7 @@
   "sourceCaption": "😭😭😭 \n\n(via @flight23white_, NBC) #nflfootball",
   "publishCaption": "😭😭😭 \n\n(via @flight23white_, NBC) #nflfootball\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-10T05:09:20.482Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108593317915961",
   "instagramContainerCreatedAt": "2026-09-10T06:59:18.116Z",
   "instagramPublishRequestedAt": "2026-09-10T07:00:49.258Z",
   "instagramMediaId": "17909490222466703",
   "instagramPermalink": "https://www.instagram.com/reel/DdGP-wHjXl5/",
-  "instagramVerifiedAt": "2026-09-10T07:00:56.558Z"
+  "instagramVerifiedAt": "2026-09-10T07:00:56.558Z",
+  "publishedAt": "2026-09-10T07:00:56.558Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "SMU vs. Florida State was delayed due to a power outage 🔌 The game will be played WITHOUT:\n\n➖ Coach-to-player communication\n➖ iPads\n➖ PA announcer\n➖ A working scoreboard\n\n(via deanralsky, 13d_riera/X)",
   "publishCaption": "SMU vs. Florida State was delayed due to a power outage 🔌 The game will be played WITHOUT:\n\n➖ Coach-to-player communication\n➖ iPads\n➖ PA announcer\n➖ A working scoreboard\n\n(via deanralsky, 13d_riera/X)\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-08T01:53:06.842Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107977390915961",
   "instagramContainerCreatedAt": "2026-09-08T02:35:35.603Z",
   "instagramPublishRequestedAt": "2026-09-08T02:36:06.091Z",
   "instagramMediaId": "18085051727273171",
   "instagramPermalink": "https://www.instagram.com/reel/DdAoHJjkfiK/",
-  "instagramVerifiedAt": "2026-09-08T02:36:12.611Z"
+  "instagramVerifiedAt": "2026-09-08T02:36:12.611Z",
+  "publishedAt": "2026-09-08T02:36:12.611Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

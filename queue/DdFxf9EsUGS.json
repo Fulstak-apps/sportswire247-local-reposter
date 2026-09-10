@@ -6,7 +6,7 @@
   "sourceCaption": "COOPER KUPP WITH THE SNAG 🔥\n\n(via @seahawks)",
   "publishCaption": "COOPER KUPP WITH THE SNAG 🔥\n\n(via @seahawks)\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-10T02:40:50.767Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108540760915961",
   "instagramContainerCreatedAt": "2026-09-10T02:58:34.142Z",
   "instagramPublishRequestedAt": "2026-09-10T02:59:04.528Z",
   "instagramMediaId": "18121442446911603",
   "instagramPermalink": "https://www.instagram.com/reel/DdF0VLTj2Az/",
-  "instagramVerifiedAt": "2026-09-10T02:59:10.921Z"
+  "instagramVerifiedAt": "2026-09-10T02:59:10.921Z",
+  "publishedAt": "2026-09-10T02:59:10.921Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "Lil bro got me ready to run through a brick wall. 😂🔥 (via @swbroncos, @monimanv8)",
   "publishCaption": "Lil bro got me ready to run through a brick wall. 😂🔥 (via @swbroncos, @monimanv8)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-09T18:30:53.871Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108459475915961",
   "instagramContainerCreatedAt": "2026-09-09T19:08:31.416Z",
   "instagramPublishRequestedAt": "2026-09-09T19:09:02.008Z",
   "instagramMediaId": "18472270318114607",
   "instagramPermalink": "https://www.instagram.com/reel/DdE-iawAOYJ/",
-  "instagramVerifiedAt": "2026-09-09T19:09:09.791Z"
+  "instagramVerifiedAt": "2026-09-09T19:09:09.791Z",
+  "publishedAt": "2026-09-09T19:09:09.791Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

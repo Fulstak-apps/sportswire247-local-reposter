@@ -6,7 +6,7 @@
   "sourceCaption": "“You already know.” 😂\n\n(via @chargers)",
   "publishCaption": "“You already know.” 😂\n\n(via @chargers)\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-09T18:16:53.855Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108467797915961",
   "instagramContainerCreatedAt": "2026-09-09T19:42:35.709Z",
   "instagramPublishRequestedAt": "2026-09-09T19:43:21.735Z",
   "instagramMediaId": "17899072674665959",
   "instagramPermalink": "https://www.instagram.com/reel/DdFCenIjRJ6/",
-  "instagramVerifiedAt": "2026-09-09T19:43:30.373Z"
+  "instagramVerifiedAt": "2026-09-09T19:43:30.373Z",
+  "publishedAt": "2026-09-09T19:43:30.373Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

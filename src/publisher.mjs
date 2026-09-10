@@ -7,7 +7,7 @@ import { gapRemainingMs, listQueue, paths, readJson, retryDelay, saveItem, write
 function validate(config) {
   if (config.destinations?.facebook && (!/^https:\/\/(?:www\.)?facebook\.com\/[A-Za-z0-9._-]+/.test(config.facebookPageUrl || "") || config.facebookPageUrl.includes("PASTE_"))) throw new Error("Configure the exact sports facebookPageUrl.");
   if (config.destinations?.instagram && config.instagramHandle !== "sportswire247") throw new Error("instagramHandle must be sportswire247.");
-  if (config.destinations?.threads && config.threadsHandle !== "sportswire247") throw new Error("threadsHandle must be sportswire247.");
+  if (config.destinations?.threads) throw new Error("Threads is disabled for SportsWire; use Instagram only.");
 }
 const needle = item => item.publishCaption.slice(0, 100).trim();
 async function recentFacebook(page, config, item) {
@@ -51,18 +51,6 @@ async function instagram(page, config, item) {
   // tab untouched until profile verification succeeds.
   return publishWithMirror(item.localVideoPath, item.publishCaption, { verifyNeedle: needle(item) });
 }
-async function recentThreads(page, config, item) {
-  await page.goto(`https://www.threads.net/@${config.threadsHandle}`, { waitUntil: "domcontentloaded", timeout: 45_000 }); await page.waitForTimeout(2500);
-  const links = await page.locator('a[href*="/post/"]').evaluateAll((nodes, text) => nodes.map(n => ({ href: n.href, text: n.closest('[data-pressable-container="true"]')?.innerText || n.parentElement?.innerText || "" })).filter(x => x.text.includes(text)), needle(item));
-  if (!links.length) return null; const permalink = links[0].href; return { postId: permalink.match(/\/post\/([^/?]+)/)?.[1] || "", permalink, verifiedAt: new Date().toISOString() };
-}
-async function threads(page, config, item) {
-  let found = await recentThreads(page, config, item); if (found) return found;
-  await page.goto("https://www.threads.net/", { waitUntil: "domcontentloaded" }); await page.getByText(/Start a thread|What's new/i).first().click({ timeout: 20_000 });
-  const dialog = page.getByRole("dialog").last(); await dialog.locator('[contenteditable="true"]').first().fill(item.publishCaption); await dialog.locator('input[type="file"]').first().setInputFiles(item.localVideoPath); await dialog.getByRole("button", { name: /^Post$/i }).click();
-  for (let i = 0; i < 18; i++) { await page.waitForTimeout(10_000); found = await recentThreads(page, config, item); if (found) return found; }
-  throw new Error("UNCERTAIN: Threads Post clicked but no matching @sportswire247 thread was verified.");
-}
 export async function publishOne(config) {
   validate(config); const state = await readJson(paths.publisher, { lastPublishedAt: null }); const remaining = gapRemainingMs(state.lastPublishedAt, config.postingGapMinutes); if (remaining) return { status: "posting_gap", remainingMs: remaining };
   const item = (await listQueue()).filter(x => ["ready", "pending", "publishing_uncertain", "partially_published"].includes(x.status) && (!x.nextRetryAt || Date.parse(x.nextRetryAt) <= Date.now()))
@@ -78,7 +66,7 @@ export async function publishOne(config) {
   const enabled = Object.entries(config.destinations || { facebook: true }).filter(([, yes]) => yes).map(([name]) => name); if (!enabled.length) return { status: "no_destinations" };
   item.publicationResult ||= {}; let context = null;
   try {
-    const methods = { facebook, instagram, threads };
+    const methods = { facebook, instagram };
     for (const destination of enabled) {
       if (item.publicationResult[destination]?.permalink) continue;
       item.status = "publishing_uncertain"; item.uncertainDestination = destination; item.publishRequestedAt = new Date().toISOString(); await saveItem(item);

@@ -6,7 +6,7 @@
   "sourceCaption": "DEFENDING CHAMPS PICK UP WHERE THEY LEFT OFF 🔥\n\nSeahawks come back to defend their ring despite losing Sam Darnold early in the game 💍",
   "publishCaption": "DEFENDING CHAMPS PICK UP WHERE THEY LEFT OFF 🔥\n\nSeahawks come back to defend their ring despite losing Sam Darnold early in the game 💍\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-10T04:28:24.477Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108577582915961",
   "instagramContainerCreatedAt": "2026-09-10T05:53:45.736Z",
   "instagramPublishRequestedAt": "2026-09-10T05:54:16.422Z",
   "instagramMediaId": "18129725599662260",
   "instagramPermalink": "https://www.instagram.com/reel/DdGIYXLgZIT/",
-  "instagramVerifiedAt": "2026-09-10T05:54:25.044Z"
+  "instagramVerifiedAt": "2026-09-10T05:54:25.044Z",
+  "publishedAt": "2026-09-10T05:54:25.044Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

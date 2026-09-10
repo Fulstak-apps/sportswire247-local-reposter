@@ -6,7 +6,7 @@
   "sourceCaption": "Kawhi on if he’s going to to Toronto: “I hope so.” 👀\n\n(Via @alexgmanofficial)",
   "publishCaption": "Kawhi on if he’s going to to Toronto: “I hope so.” 👀\n\n(Via @alexgmanofficial)\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-09T17:40:34.028Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108480343915961",
   "instagramContainerCreatedAt": "2026-09-09T20:50:11.128Z",
   "instagramPublishRequestedAt": "2026-09-09T20:50:41.684Z",
   "instagramMediaId": "18114803734965772",
   "instagramPermalink": "https://www.instagram.com/reel/DdFKK8CAcgP/",
-  "instagramVerifiedAt": "2026-09-09T20:50:49.936Z"
+  "instagramVerifiedAt": "2026-09-09T20:50:49.936Z",
+  "publishedAt": "2026-09-09T20:50:49.936Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "Looked like a video game IRL 🤯🎮\n\n#RuizKnyba live on @TNTSportsUS & @DAZNBoxing 🥊",
   "publishCaption": "Looked like a video game IRL 🤯🎮\n\n#RuizKnyba live on @TNTSportsUS & @DAZNBoxing 🥊\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-05T16:00:11.028Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -72,11 +72,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107794879915961",
   "instagramContainerCreatedAt": "2026-09-07T11:10:41.891Z",
   "instagramPublishRequestedAt": "2026-09-07T11:12:12.609Z",
   "instagramMediaId": "18114477367987949",
   "instagramPermalink": "https://www.instagram.com/reel/Dc--X_gD8dY/",
-  "instagramVerifiedAt": "2026-09-07T11:12:20.457Z"
+  "instagramVerifiedAt": "2026-09-07T11:12:20.457Z",
+  "publishedAt": "2026-09-07T11:12:20.457Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

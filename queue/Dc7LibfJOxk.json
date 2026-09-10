@@ -6,7 +6,7 @@
   "sourceCaption": "A new era at Lane Stadium 🦃 #cfb",
   "publishCaption": "A new era at Lane Stadium 🦃 #cfb\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-06T20:17:16.170Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107627242915961",
   "instagramContainerCreatedAt": "2026-09-06T20:26:27.599Z",
   "instagramPublishRequestedAt": "2026-09-06T20:26:58.023Z",
   "instagramMediaId": "17921471529426966",
   "instagramPermalink": "https://www.instagram.com/reel/Dc9ZEqVDuuD/",
-  "instagramVerifiedAt": "2026-09-06T20:27:05.814Z"
+  "instagramVerifiedAt": "2026-09-06T20:27:05.814Z",
+  "publishedAt": "2026-09-06T20:27:05.814Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

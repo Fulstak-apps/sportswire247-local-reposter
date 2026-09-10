@@ -6,7 +6,7 @@
   "sourceCaption": "Nike just SNAPPED with these new “Spectre” NBA jerseys 🥵",
   "publishCaption": "Nike just SNAPPED with these new “Spectre” NBA jerseys 🥵\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-10T14:45:32.335Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108702325915961",
   "instagramContainerCreatedAt": "2026-09-10T14:51:39.609Z",
   "instagramPublishRequestedAt": "2026-09-10T14:52:40.129Z",
   "instagramMediaId": "18069617450736299",
   "instagramPermalink": "https://www.instagram.com/reel/DdHF_B-gcV2/",
-  "instagramVerifiedAt": "2026-09-10T14:52:48.855Z"
+  "instagramVerifiedAt": "2026-09-10T14:52:48.855Z",
+  "publishedAt": "2026-09-10T14:52:48.855Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "“Am I supposed to guard that?” 😂😭 @brgaming (via tonickeyboard/X)",
   "publishCaption": "“Am I supposed to guard that?” 😂😭 @brgaming (via tonickeyboard/X)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-07T14:56:09.057Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107848900915961",
   "instagramContainerCreatedAt": "2026-09-07T15:11:01.584Z",
   "instagramPublishRequestedAt": "2026-09-07T15:11:31.893Z",
   "instagramMediaId": "17929275855403901",
   "instagramPermalink": "https://www.instagram.com/reel/Dc_ZxJ6GU4F/",
-  "instagramVerifiedAt": "2026-09-07T15:11:38.091Z"
+  "instagramVerifiedAt": "2026-09-07T15:11:38.091Z",
+  "publishedAt": "2026-09-07T15:11:38.091Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

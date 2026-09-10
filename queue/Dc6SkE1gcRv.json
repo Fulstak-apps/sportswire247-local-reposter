@@ -6,7 +6,7 @@
   "sourceCaption": "ONE MILLION DOLLARS ON THE LINE IN WEEK ONE 😳",
   "publishCaption": "ONE MILLION DOLLARS ON THE LINE IN WEEK ONE 😳\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-05T15:58:56.814Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107604637915961",
   "instagramContainerCreatedAt": "2026-09-06T18:42:10.405Z",
   "instagramPublishRequestedAt": "2026-09-06T18:42:40.860Z",
   "instagramMediaId": "18132447796572020",
   "instagramPermalink": "https://www.instagram.com/reel/Dc9NI17E7vL/",
-  "instagramVerifiedAt": "2026-09-06T18:42:48.757Z"
+  "instagramVerifiedAt": "2026-09-06T18:42:48.757Z",
+  "publishedAt": "2026-09-06T18:42:48.757Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

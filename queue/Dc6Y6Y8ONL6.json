@@ -6,7 +6,7 @@
   "sourceCaption": "Daejon Love got everyone out here trying to be a pro athlete 😂⚾️ (via @chicklet.hf)",
   "publishCaption": "Daejon Love got everyone out here trying to be a pro athlete 😂⚾️ (via @chicklet.hf)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-05T16:31:45.484Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -72,11 +72,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107754940915961",
   "instagramContainerCreatedAt": "2026-09-07T07:29:23.033Z",
   "instagramPublishRequestedAt": "2026-09-07T07:29:53.510Z",
   "instagramMediaId": "18124869247818616",
   "instagramPermalink": "https://www.instagram.com/reel/Dc-k8O0EhJx/",
-  "instagramVerifiedAt": "2026-09-07T07:30:02.152Z"
+  "instagramVerifiedAt": "2026-09-07T07:30:02.152Z",
+  "publishedAt": "2026-09-07T07:30:02.152Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

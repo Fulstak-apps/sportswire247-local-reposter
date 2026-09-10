@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { eligible, platformEligible, platformQueueOrder, retryAt, reconciliationMatch } from "../scripts/publish-sportswire-meta.mjs";
+import { eligible, platformEligible, retryAt, reconciliationMatch } from "../scripts/publish-sportswire-meta.mjs";
 
 test('uncertain clips stay locked and reserve the posting gap for other clips', () => {
  const now=Date.parse('2026-09-06T12:00:00Z');
@@ -22,7 +22,7 @@ import { chooseSafeLogo } from "../src/video-safety.mjs";
 const valid = { status: "ready", destinationHandle: "sportswire247", brand: "SportsWire 247", video: "media/x.mp4", sourceUrl: "https://instagram.com/reel/x/", shortcode: "x", publishCaption: "Caption\n\n@sportswire247" };
 test("publisher accepts only complete SportsWire queue records", () => {
   assert.equal(eligible(valid), true);
-  assert.equal(eligible({ ...valid, status: "instagram_published_threads_pending", instagramVerifiedAt: new Date().toISOString() }), true);
+  assert.equal(eligible({ ...valid, status: "instagram_published_threads_pending", instagramVerifiedAt: new Date().toISOString() }), false);
   assert.equal(eligible({ ...valid, video: "" }), false);
   assert.equal(eligible({ ...valid, brand: "RapWire 24/7" }), false);
   assert.equal(eligible({ ...valid, destinationHandle: "rapwire247" }), false);
@@ -39,21 +39,11 @@ test("continuous cadence enforces the configured gap and rolling daily cap", () 
   assert.equal(platformEligible(valid, "instagram", history(30), now, 60), true);
   const full = Array.from({length:60}, (_, i) => ({item:{instagramVerifiedAt:new Date(now - (i + 25) * 60000).toISOString()}}));
   assert.equal(platformEligible(valid, "instagram", full, now, 60), false);
-  assert.equal(platformEligible(valid, "threads", full, now, 60), true);
 });
-test("Instagram and Threads cooldowns and quotas are independent", () => {
+test("Instagram cooldown and quota are enforced", () => {
   const now = Date.parse("2026-09-03T00:00:00Z");
   const item = { ...valid, instagramNextRetryAt: new Date(now + 60_000).toISOString() };
   assert.equal(platformEligible(item, "instagram", [], now, 20), false);
-  assert.equal(platformEligible(item, "threads", [], now, 20), true);
-  const history = [{ item: { threadsVerifiedAt: new Date(now - 1_000).toISOString() } }];
-  assert.equal(platformEligible(valid, "threads", history, now, 20), false);
-});
-test("platform queue finishes a one-sided publication before a fresh clip", () => {
-  const fresh = { item: { ...valid, sportRank: 1, deterministicScore: 99 } };
-  const instagramLive = { item: { ...valid, sportRank: 99, deterministicScore: 0, instagramVerifiedAt: "2026-09-10T00:00:00Z" } };
-  assert.ok(platformQueueOrder("threads", instagramLive, fresh) < 0);
-  assert.ok(platformQueueOrder("instagram", fresh, instagramLive) < 0);
 });
 test("five-frame logo placement shrinks around detected text and fails closed", () => {
   const empty = Array.from({ length: 5 }, () => ({ text: [], faces: [] }));

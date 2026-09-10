@@ -6,7 +6,7 @@
   "sourceCaption": "I don’t even think this is gonna get that many likes and I hate y’all for that 🥱",
   "publishCaption": "I don’t even think this is gonna get that many likes and I hate y’all for that 🥱\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-07T23:08:42.090Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107950663915961",
   "instagramContainerCreatedAt": "2026-09-07T23:36:36.358Z",
   "instagramPublishRequestedAt": "2026-09-07T23:37:07.158Z",
   "instagramMediaId": "18442392322125949",
   "instagramPermalink": "https://www.instagram.com/reel/DdAToZ4AlFc/",
-  "instagramVerifiedAt": "2026-09-07T23:37:14.582Z"
+  "instagramVerifiedAt": "2026-09-07T23:37:14.582Z",
+  "publishedAt": "2026-09-07T23:37:14.582Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

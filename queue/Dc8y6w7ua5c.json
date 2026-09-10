@@ -6,7 +6,7 @@
   "sourceCaption": "He pulled those pants up real quick 💀\n\n#cfb #collegefootball #football #lsu",
   "publishCaption": "He pulled those pants up real quick 💀\n\n#cfb #collegefootball #football #lsu\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-06T14:56:44.465Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107545117915961",
   "instagramContainerCreatedAt": "2026-09-06T15:13:13.510Z",
   "instagramPublishRequestedAt": "2026-09-06T15:13:44.001Z",
   "instagramMediaId": "17913392217263325",
   "instagramPermalink": "https://www.instagram.com/reel/Dc81OhHj6mq/",
-  "instagramVerifiedAt": "2026-09-06T15:13:50.628Z"
+  "instagramVerifiedAt": "2026-09-06T15:13:50.628Z",
+  "publishedAt": "2026-09-06T15:13:50.628Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

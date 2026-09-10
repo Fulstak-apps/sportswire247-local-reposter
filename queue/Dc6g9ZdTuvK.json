@@ -6,7 +6,7 @@
   "sourceCaption": "ALABAMA LOOKING GAME READY 😭🔥 (via NickyPerks/X)",
   "publishCaption": "ALABAMA LOOKING GAME READY 😭🔥 (via NickyPerks/X)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-05T17:45:20.025Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107620558915961",
   "instagramContainerCreatedAt": "2026-09-06T19:51:23.553Z",
   "instagramPublishRequestedAt": "2026-09-06T19:51:38.725Z",
   "instagramMediaId": "17932786428379494",
   "instagramPermalink": "https://www.instagram.com/reel/Dc9VDw7EQcW/",
-  "instagramVerifiedAt": "2026-09-06T19:51:43.514Z"
+  "instagramVerifiedAt": "2026-09-06T19:51:43.514Z",
+  "publishedAt": "2026-09-06T19:51:43.514Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

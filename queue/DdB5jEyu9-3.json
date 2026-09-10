@@ -6,7 +6,7 @@
   "sourceCaption": "Willie Wildcat was struggling at the end 🤣\n\n(via WyattWheeler_/X)\n\n#collegefootball #cfb #football #kansasstate",
   "publishCaption": "Willie Wildcat was struggling at the end 🤣\n\n(via WyattWheeler_/X)\n\n#collegefootball #cfb #football #kansasstate\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-08T14:30:54.923Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -74,11 +74,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108128932915961",
   "instagramContainerCreatedAt": "2026-09-08T14:33:44.402Z",
   "instagramPublishRequestedAt": "2026-09-08T14:34:15.337Z",
   "instagramMediaId": "18183847825407423",
   "instagramPermalink": "https://www.instagram.com/reel/DdB6TKtiDo6/",
-  "instagramVerifiedAt": "2026-09-08T14:34:22.265Z"
+  "instagramVerifiedAt": "2026-09-08T14:34:22.265Z",
+  "publishedAt": "2026-09-08T14:34:22.265Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "Russ and Chris Paul doing all the side quests post-retirement 😭🔥\n\n(via @cp3)\n\n#nba #basketball #russellwestbrook #cp3 #vacation",
   "publishCaption": "Russ and Chris Paul doing all the side quests post-retirement 😭🔥\n\n(via @cp3)\n\n#nba #basketball #russellwestbrook #cp3 #vacation\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-06T16:32:24.866Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -74,11 +74,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107583715915961",
   "instagramContainerCreatedAt": "2026-09-06T17:03:57.169Z",
   "instagramPublishRequestedAt": "2026-09-06T17:04:12.719Z",
   "instagramMediaId": "17914235901443208",
   "instagramPermalink": "https://www.instagram.com/reel/Dc9B5dkAA5K/",
-  "instagramVerifiedAt": "2026-09-06T17:04:21.439Z"
+  "instagramVerifiedAt": "2026-09-06T17:04:21.439Z",
+  "publishedAt": "2026-09-06T17:04:21.439Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

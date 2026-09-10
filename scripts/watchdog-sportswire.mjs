@@ -17,7 +17,7 @@ let released = 0;
 for (const record of records) {
   const item = record.item;
   if (item.status === "ready") stale++;
-  for (const platform of ["instagram", "threads"]) {
+  for (const platform of ["instagram"]) {
     const error = String(item[`${platform}Error`] || "");
     const retryAt = Date.parse(item[`${platform}NextRetryAt`] || "") || 0;
     // A failed, non-uncertain request may be retried immediately once its

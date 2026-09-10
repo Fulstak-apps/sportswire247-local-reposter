@@ -6,7 +6,7 @@
   "sourceCaption": "Nah ts is FRYING me 🤣 (h/t vern_funquist/TT)",
   "publishCaption": "Nah ts is FRYING me 🤣 (h/t vern_funquist/TT)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-08T12:00:16.375Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108089575915961",
   "instagramContainerCreatedAt": "2026-09-08T12:01:59.219Z",
   "instagramPublishRequestedAt": "2026-09-08T12:02:44.786Z",
   "instagramMediaId": "18115427959766425",
   "instagramPermalink": "https://www.instagram.com/reel/DdBo87NCrRE/",
-  "instagramVerifiedAt": "2026-09-08T12:02:52.389Z"
+  "instagramVerifiedAt": "2026-09-08T12:02:52.389Z",
+  "publishedAt": "2026-09-08T12:02:52.389Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

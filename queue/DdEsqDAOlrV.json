@@ -6,7 +6,7 @@
   "sourceCaption": "Having the time of his life. 😂😂 (via @landeros_carnicerias)",
   "publishCaption": "Having the time of his life. 😂😂 (via @landeros_carnicerias)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-09T16:36:38.375Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108423877915961",
   "instagramContainerCreatedAt": "2026-09-09T16:39:13.744Z",
   "instagramPublishRequestedAt": "2026-09-09T16:39:44.421Z",
   "instagramMediaId": "17978050968108964",
   "instagramPermalink": "https://www.instagram.com/reel/DdEtdFUlAqP/",
-  "instagramVerifiedAt": "2026-09-09T16:39:52.501Z"
+  "instagramVerifiedAt": "2026-09-09T16:39:52.501Z",
+  "publishedAt": "2026-09-09T16:39:52.501Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

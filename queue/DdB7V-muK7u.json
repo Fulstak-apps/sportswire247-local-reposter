@@ -6,7 +6,7 @@
   "sourceCaption": "Coach might be the one towing the bus with losing by 50 😭😅 (via @2xx_majorr)",
   "publishCaption": "Coach might be the one towing the bus with losing by 50 😭😅 (via @2xx_majorr)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-08T14:45:23.712Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108137209915961",
   "instagramContainerCreatedAt": "2026-09-08T15:06:30.985Z",
   "instagramPublishRequestedAt": "2026-09-08T15:07:46.865Z",
   "instagramMediaId": "17955258321210797",
   "instagramPermalink": "https://www.instagram.com/reel/DdB-I_mmdat/",
-  "instagramVerifiedAt": "2026-09-08T15:07:53.672Z"
+  "instagramVerifiedAt": "2026-09-08T15:07:53.672Z",
+  "publishedAt": "2026-09-08T15:07:53.672Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

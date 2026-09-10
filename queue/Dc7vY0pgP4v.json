@@ -6,7 +6,7 @@
   "sourceCaption": "WELCOME TO THE LANE KIFFIN ERA 🍿 (via @espncfb joeschwartz25/X)",
   "publishCaption": "WELCOME TO THE LANE KIFFIN ERA 🍿 (via @espncfb joeschwartz25/X)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-06T05:09:49.310Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107745019915961",
   "instagramContainerCreatedAt": "2026-09-07T06:26:10.687Z",
   "instagramPublishRequestedAt": "2026-09-07T06:26:56.237Z",
   "instagramMediaId": "17967824868167479",
   "instagramPermalink": "https://www.instagram.com/reel/Dc-dty1iO0q/",
-  "instagramVerifiedAt": "2026-09-07T06:27:03.706Z"
+  "instagramVerifiedAt": "2026-09-07T06:27:03.706Z",
+  "publishedAt": "2026-09-07T06:27:03.706Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "USA DOMINANT VS. CZECHIA IN BOUCEBACK WIN 😤🔥\n\nEveryone on the roster scored with Stewie (19 pts) leading the way 👏",
   "publishCaption": "USA DOMINANT VS. CZECHIA IN BOUCEBACK WIN 😤🔥\n\nEveryone on the roster scored with Stewie (19 pts) leading the way 👏\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-07T20:47:47.887Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107924533915961",
   "instagramContainerCreatedAt": "2026-09-07T20:50:54.819Z",
   "instagramPublishRequestedAt": "2026-09-07T20:51:25.510Z",
   "instagramMediaId": "18056145875555984",
   "instagramPermalink": "https://www.instagram.com/reel/DdAAqhwlVOP/",
-  "instagramVerifiedAt": "2026-09-07T20:51:32.409Z"
+  "instagramVerifiedAt": "2026-09-07T20:51:32.409Z",
+  "publishedAt": "2026-09-07T20:51:32.409Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

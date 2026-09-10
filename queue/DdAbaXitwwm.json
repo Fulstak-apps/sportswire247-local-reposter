@@ -6,7 +6,7 @@
   "sourceCaption": "Mercy rule activated 🤯",
   "publishCaption": "Mercy rule activated 🤯\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-08T00:48:15.452Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107961910915961",
   "instagramContainerCreatedAt": "2026-09-08T00:50:43.318Z",
   "instagramPublishRequestedAt": "2026-09-08T00:51:44.050Z",
   "instagramMediaId": "17946041562291317",
   "instagramPermalink": "https://www.instagram.com/reel/DdAcKmZCsT6/",
-  "instagramVerifiedAt": "2026-09-08T00:51:50.563Z"
+  "instagramVerifiedAt": "2026-09-08T00:51:50.563Z",
+  "publishedAt": "2026-09-08T00:51:50.563Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "Two legends of the game enjoying retirement 🔥 @cp3",
   "publishCaption": "Two legends of the game enjoying retirement 🔥 @cp3\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-06T15:04:34.558Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -74,11 +74,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107560198915961",
   "instagramContainerCreatedAt": "2026-09-06T15:50:28.968Z",
   "instagramPublishRequestedAt": "2026-09-06T15:50:59.614Z",
   "instagramMediaId": "18114655397098269",
   "instagramPermalink": "https://www.instagram.com/reel/Dc85fnygg5s/",
-  "instagramVerifiedAt": "2026-09-06T15:51:05.902Z"
+  "instagramVerifiedAt": "2026-09-06T15:51:05.902Z",
+  "publishedAt": "2026-09-06T15:51:05.902Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

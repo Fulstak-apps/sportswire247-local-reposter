@@ -6,7 +6,7 @@
   "sourceCaption": "This game is so bad 🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣",
   "publishCaption": "This game is so bad 🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-10T02:49:39.023Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108619966915961",
   "instagramContainerCreatedAt": "2026-09-10T09:09:34.249Z",
   "instagramPublishRequestedAt": "2026-09-10T09:10:04.926Z",
   "instagramMediaId": "18009718775767614",
   "instagramPermalink": "https://www.instagram.com/reel/DdGeyy0AmcA/",
-  "instagramVerifiedAt": "2026-09-10T09:10:16.375Z"
+  "instagramVerifiedAt": "2026-09-10T09:10:16.375Z",
+  "publishedAt": "2026-09-10T09:10:16.375Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

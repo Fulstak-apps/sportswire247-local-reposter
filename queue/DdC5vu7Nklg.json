@@ -6,7 +6,7 @@
   "sourceCaption": "Gil still listens to the Drake / Kendrick beef every day 😭🔥 (via @plaqueboymax)",
   "publishCaption": "Gil still listens to the Drake / Kendrick beef every day 😭🔥 (via @plaqueboymax)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-08T23:56:33.051Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108232441915961",
   "instagramContainerCreatedAt": "2026-09-09T00:00:23.725Z",
   "instagramPublishRequestedAt": "2026-09-09T00:00:54.547Z",
   "instagramMediaId": "18616259470061477",
   "instagramPermalink": "https://www.instagram.com/reel/DdC7JNQjlpP/",
-  "instagramVerifiedAt": "2026-09-09T00:01:01.493Z"
+  "instagramVerifiedAt": "2026-09-09T00:01:01.493Z",
+  "publishedAt": "2026-09-09T00:01:01.493Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

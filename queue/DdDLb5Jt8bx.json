@@ -6,7 +6,7 @@
   "sourceCaption": "Hali 1v1 with Ausar 😭🔥 (h/t hali_muse/X)",
   "publishCaption": "Hali 1v1 with Ausar 😭🔥 (h/t hali_muse/X)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-09T02:29:56.456Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108263101915961",
   "instagramContainerCreatedAt": "2026-09-09T02:52:35.072Z",
   "instagramPublishRequestedAt": "2026-09-09T02:53:06.736Z",
   "instagramMediaId": "18214422139351383",
   "instagramPermalink": "https://www.instagram.com/reel/DdDO2YPIC9T/",
-  "instagramVerifiedAt": "2026-09-09T02:53:18.107Z"
+  "instagramVerifiedAt": "2026-09-09T02:53:18.107Z",
+  "publishedAt": "2026-09-09T02:53:18.107Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

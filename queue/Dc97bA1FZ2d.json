@@ -6,7 +6,7 @@
   "sourceCaption": "THIS IS GOING TO BE 🍿\n\nCarlos Alcaraz. Ben Shelton. US Open quarterfinals. 🔥",
   "publishCaption": "THIS IS GOING TO BE 🍿\n\nCarlos Alcaraz. Ben Shelton. US Open quarterfinals. 🔥\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-07T03:20:35.810Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -74,11 +74,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107701240915961",
   "instagramContainerCreatedAt": "2026-09-07T03:44:26.151Z",
   "instagramPublishRequestedAt": "2026-09-07T03:45:26.616Z",
   "instagramMediaId": "17956152162248811",
   "instagramPermalink": "https://www.instagram.com/reel/Dc-LPmkEj92/",
-  "instagramVerifiedAt": "2026-09-07T03:45:32.835Z"
+  "instagramVerifiedAt": "2026-09-07T03:45:32.835Z",
+  "publishedAt": "2026-09-07T03:45:32.835Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

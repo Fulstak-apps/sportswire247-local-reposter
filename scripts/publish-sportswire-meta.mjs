@@ -6,7 +6,6 @@ const logsDir = "logs";
 const repository = process.env.GITHUB_REPOSITORY || "";
 const refName = process.env.GITHUB_REF_NAME || "main";
 const instagram = { name: "instagram", token: process.env.INSTAGRAM_ACCESS_TOKEN, userId: process.env.INSTAGRAM_USER_ID, base: "https://graph.instagram.com" };
-const threads = { name: "threads", token: process.env.THREADS_ACCESS_TOKEN, userId: process.env.THREADS_USER_ID, base: "https://graph.threads.net/v1.0" };
 const minimumGapMs = Number(process.env.MINIMUM_FEED_GAP_MINUTES || 30) * 60_000;
 
 export function credentialsReady(platform) { return Boolean(platform.token && platform.userId); }
@@ -16,7 +15,7 @@ export function mediaUrl(item) {
   return `https://raw.githubusercontent.com/${repository}/${refName}/${item.video}`;
 }
 export function eligible(item, now = Date.now()) {
-  if (!["ready", "instagram_published_threads_pending", "threads_published_instagram_pending"].includes(item.status) || item.destinationHandle !== "sportswire247" || item.brand !== "SportsWire 247") return false;
+  if (item.status !== "ready" || item.destinationHandle !== "sportswire247" || item.brand !== "SportsWire 247") return false;
   if (!item.video || !item.sourceUrl || !item.shortcode || !item.publishCaption?.endsWith("@sportswire247")) return false;
   return true;
 }
@@ -32,17 +31,6 @@ export function platformEligible(item, platformName, records = [], now = Date.no
   });
   if (verified.length && now - Math.max(...verified) < minimumGapMs) return false;
   return verified.filter(at => now - at < 86_400_000).length < dailyLimit;
-}
-export function platformQueueOrder(platformName, left, right) {
-  // Finish the matching copy of a clip already live on the other account
-  // before selecting a brand-new clip. This keeps the two feeds aligned and
-  // prevents a platform outage from growing a one-sided backlog.
-  const other = platformName === "instagram" ? "threads" : "instagram";
-  const leftPartial = Number(Boolean(left.item?.[`${other}VerifiedAt`]) && !left.item?.[`${platformName}VerifiedAt`]);
-  const rightPartial = Number(Boolean(right.item?.[`${other}VerifiedAt`]) && !right.item?.[`${platformName}VerifiedAt`]);
-  return rightPartial - leftPartial ||
-    Number(left.item.sportRank || 99) - Number(right.item.sportRank || 99) ||
-    Number(right.item.deterministicScore || 0) - Number(left.item.deterministicScore || 0);
 }
 
 async function save(file, item) {
@@ -94,7 +82,7 @@ async function verify(platform, mediaId) {
 }
 
 export function reconciliationMatch(item, platformName, posts) {
-  const text = platformName === 'instagram' ? item.publishCaption : item.threadsText || item.publishCaption;
+  const text = item.publishCaption;
   const requested = Date.parse(item[`${platformName}PublishRequestedAt`]);
   const matches = posts.filter(post => post.id && post.permalink &&
     (post.caption ?? post.text) === text &&
@@ -103,8 +91,8 @@ export function reconciliationMatch(item, platformName, posts) {
 }
 
 async function reconcile(platform, record) {
-  const url = new URL(`${platform.base}/${platform.userId}/${platform.name === 'instagram' ? 'media' : 'threads'}`);
-  url.searchParams.set('fields', platform.name === 'instagram' ? 'id,caption,timestamp,permalink' : 'id,text,timestamp,permalink');
+  const url = new URL(`${platform.base}/${platform.userId}/media`);
+  url.searchParams.set('fields', 'id,caption,timestamp,permalink');
   url.searchParams.set('limit', '100');
   url.searchParams.set('access_token', platform.token);
   const response = await fetch(url, {signal: AbortSignal.timeout(30_000)});
@@ -116,7 +104,7 @@ async function reconcile(platform, record) {
     record.item[`${platform.name}MediaId`] = result.mediaId;
     record.item[`${platform.name}Permalink`] = result.permalink;
     record.item[`${platform.name}VerifiedAt`] = result.verifiedAt;
-    record.item.status = record.item.instagramVerifiedAt && record.item.threadsVerifiedAt ? 'published' : record.item.instagramVerifiedAt ? 'instagram_published_threads_pending' : 'threads_published_instagram_pending';
+    record.item.status = record.item.instagramVerifiedAt ? 'published' : 'ready';
   } else record.item[`${platform.name}ReconcileRequired`] = true;
   await save(record.file, record.item);
 }
@@ -124,17 +112,15 @@ async function publishPlatform(platform, item, file) {
   const prefix = platform.name;
   if (item[`${prefix}MediaId`]) return verify(platform, item[`${prefix}MediaId`]);
   if (!item[`${prefix}ContainerId`]) {
-    const fields = prefix === "instagram"
-      ? { media_type: "REELS", video_url: mediaUrl(item), caption: item.publishCaption, share_to_feed: "true" }
-      : { media_type: "VIDEO", video_url: mediaUrl(item), text: item.threadsText || item.publishCaption };
-    const created = await graph(platform, prefix === "instagram" ? "media" : "threads", fields, item, "create");
+    const fields = { media_type: "REELS", video_url: mediaUrl(item), caption: item.publishCaption, share_to_feed: "true" };
+    const created = await graph(platform, "media", fields, item, "create");
     item[`${prefix}ContainerId`] = created.id; item[`${prefix}ContainerCreatedAt`] = new Date().toISOString(); await save(file, item);
   }
   await waitReady(platform, item[`${prefix}ContainerId`]);
   // Persist the publish request before the non-idempotent action. Any failure
   // after this point requires reconciliation, never blind repetition.
   item[`${prefix}PublishRequestedAt`] = new Date().toISOString(); await save(file, item);
-  const published = await graph(platform, prefix === "instagram" ? "media_publish" : "threads_publish", { creation_id: item[`${prefix}ContainerId`] }, item, "publish");
+  const published = await graph(platform, "media_publish", { creation_id: item[`${prefix}ContainerId`] }, item, "publish");
   item[`${prefix}MediaId`] = published.id; await save(file, item);
   return verify(platform, published.id);
 }
@@ -143,8 +129,8 @@ async function main() {
   await fs.mkdir(logsDir, { recursive: true });
   const names = (await fs.readdir(queueDir).catch(() => [])).filter(name => name.endsWith(".json")).sort();
   const records = await Promise.all(names.map(async name => ({ name, file: path.join(queueDir, name), item: JSON.parse(await fs.readFile(path.join(queueDir, name), "utf8")) })));
-  const limits = { instagram: Number(process.env.INSTAGRAM_DAILY_LIMIT || 20), threads: Number(process.env.THREADS_DAILY_LIMIT || 20) };
-  const configuredPlatforms = [instagram, threads].filter(credentialsReady);
+  const limits = { instagram: Number(process.env.INSTAGRAM_DAILY_LIMIT || 20) };
+  const configuredPlatforms = [instagram].filter(credentialsReady);
   const health = { checkedAt: new Date().toISOString(), platforms: {} };
   for (const platform of configuredPlatforms) {
     const stateFile = path.join(logsDir, `${platform.name}-control.json`);
@@ -158,7 +144,7 @@ async function main() {
       // posting slot; other clips can proceed after the normal gap.
     }
     try {
-      const endpoint = platform.name === "instagram" ? "content_publishing_limit" : "threads_publishing_limit";
+      const endpoint = "content_publishing_limit";
       const url = new URL(`${platform.base}/${platform.userId}/${endpoint}`);
       url.searchParams.set("fields", "quota_usage,config"); url.searchParams.set("access_token", platform.token);
       const response = await fetch(url, { signal: AbortSignal.timeout(30_000) });
@@ -176,7 +162,7 @@ async function main() {
       console.log(`::warning::${platform.name}: quota/auth check failed; publishing paused`);
       continue;
     }
-    const record = [...records].sort((a, b) => platformQueueOrder(platform.name, a, b)).find(x => platformEligible(x.item, platform.name, records, Date.now(), limits[platform.name]));
+    const record = [...records].sort((a, b) => Number(a.item.sportRank || 99) - Number(b.item.sportRank || 99) || Number(b.item.deterministicScore || 0) - Number(a.item.deterministicScore || 0)).find(x => platformEligible(x.item, platform.name, records, Date.now(), limits[platform.name]));
     if (!record) continue;
     const { item, file } = record;
     if (item[`${platform.name}PublishRequestedAt`] && !item[`${platform.name}MediaId`]) {
@@ -199,12 +185,8 @@ async function main() {
       }
     }
     await save(file, item);
-  if (item.instagramVerifiedAt && item.threadsVerifiedAt) {
-    item.status = "published"; item.publishedAt = new Date().toISOString(); delete item.instagramNextRetryAt; delete item.threadsNextRetryAt;
-  } else if (item.instagramVerifiedAt) {
-    item.status = "instagram_published_threads_pending";
-  } else if (item.threadsVerifiedAt) {
-    item.status = "threads_published_instagram_pending";
+  if (item.instagramVerifiedAt) {
+    item.status = "published"; item.publishedAt = new Date().toISOString(); delete item.instagramNextRetryAt;
   }
   await save(file, item);
   }

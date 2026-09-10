@@ -6,7 +6,7 @@
   "sourceCaption": "AJ Brown leaves game with ankle injury 🙏🚨 (via @yahoosports)",
   "publishCaption": "AJ Brown leaves game with ankle injury 🙏🚨 (via @yahoosports)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-10T02:33:11.665Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108583774915961",
   "instagramContainerCreatedAt": "2026-09-10T06:26:37.958Z",
   "instagramPublishRequestedAt": "2026-09-10T06:27:08.309Z",
   "instagramMediaId": "17994770528828802",
   "instagramPermalink": "https://www.instagram.com/reel/DdGMJGWAADv/",
-  "instagramVerifiedAt": "2026-09-10T06:27:15.346Z"
+  "instagramVerifiedAt": "2026-09-10T06:27:15.346Z",
+  "publishedAt": "2026-09-10T06:27:15.346Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "The @bigsgjamo celly, too 😭 \n-\n\n#nfl #jamesonwilliams #detroitlions",
   "publishCaption": "The @bigsgjamo celly, too 😭 \n-\n\n#nfl #jamesonwilliams #detroitlions\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-08T01:38:18.654Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107971552915961",
   "instagramContainerCreatedAt": "2026-09-08T02:01:53.182Z",
   "instagramPublishRequestedAt": "2026-09-08T02:02:38.850Z",
   "instagramMediaId": "17904330663487764",
   "instagramPermalink": "https://www.instagram.com/reel/DdAkSlMCpix/",
-  "instagramVerifiedAt": "2026-09-08T02:02:45.436Z"
+  "instagramVerifiedAt": "2026-09-08T02:02:45.436Z",
+  "publishedAt": "2026-09-08T02:02:45.436Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

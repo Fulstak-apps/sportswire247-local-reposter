@@ -6,7 +6,7 @@
   "sourceCaption": "The turnover to dunked on combo is as bad as it gets 😭 @giannihunt",
   "publishCaption": "The turnover to dunked on combo is as bad as it gets 😭 @giannihunt\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-06T15:25:39.749Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -75,11 +75,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107589886915961",
   "instagramContainerCreatedAt": "2026-09-06T17:35:22.123Z",
   "instagramPublishRequestedAt": "2026-09-06T17:36:53.205Z",
   "instagramMediaId": "18112524929085269",
   "instagramPermalink": "https://www.instagram.com/reel/Dc9FmJhDx-K/",
-  "instagramVerifiedAt": "2026-09-06T17:37:01.370Z"
+  "instagramVerifiedAt": "2026-09-06T17:37:01.370Z",
+  "publishedAt": "2026-09-06T17:37:01.370Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "Only Joe Mazzulla would make his assistant coaches run 22’s after messing up a drill in practice 🤣\n\n(via @oldmanandthethree)",
   "publishCaption": "Only Joe Mazzulla would make his assistant coaches run 22’s after messing up a drill in practice 🤣\n\n(via @oldmanandthethree)\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-05T16:25:06.038Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107821537915961",
   "instagramContainerCreatedAt": "2026-09-07T13:20:20.507Z",
   "instagramPublishRequestedAt": "2026-09-07T13:20:51.292Z",
   "instagramMediaId": "18421518979197351",
   "instagramPermalink": "https://www.instagram.com/reel/Dc_NGekjRUC/",
-  "instagramVerifiedAt": "2026-09-07T13:20:58.288Z"
+  "instagramVerifiedAt": "2026-09-07T13:20:58.288Z",
+  "publishedAt": "2026-09-07T13:20:58.288Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

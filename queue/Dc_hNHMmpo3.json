@@ -6,7 +6,7 @@
   "sourceCaption": "Bro was everyone but himself 💀😭",
   "publishCaption": "Bro was everyone but himself 💀😭\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-07T16:21:58.678Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107876101915961",
   "instagramContainerCreatedAt": "2026-09-07T16:49:32.087Z",
   "instagramPublishRequestedAt": "2026-09-07T16:50:02.503Z",
   "instagramMediaId": "18170194639459423",
   "instagramPermalink": "https://www.instagram.com/reel/Dc_lCuVALiW/",
-  "instagramVerifiedAt": "2026-09-07T16:50:11.336Z"
+  "instagramVerifiedAt": "2026-09-07T16:50:11.336Z",
+  "publishedAt": "2026-09-07T16:50:11.336Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

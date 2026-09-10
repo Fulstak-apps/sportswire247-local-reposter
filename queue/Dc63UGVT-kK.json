@@ -6,7 +6,7 @@
   "sourceCaption": "THIS ONE HANDED PICK BY BENI NGOYI WOW 😳😳",
   "publishCaption": "THIS ONE HANDED PICK BY BENI NGOYI WOW 😳😳\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-05T20:59:36.410Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107447413915961",
   "instagramContainerCreatedAt": "2026-09-06T08:13:25.403Z",
   "instagramPublishRequestedAt": "2026-09-06T08:14:11.587Z",
   "instagramMediaId": "17921620854204741",
   "instagramPermalink": "https://www.instagram.com/reel/Dc8FOWGEsGo/",
-  "instagramVerifiedAt": "2026-09-06T08:14:21.400Z"
+  "instagramVerifiedAt": "2026-09-06T08:14:21.400Z",
+  "publishedAt": "2026-09-06T08:14:21.400Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

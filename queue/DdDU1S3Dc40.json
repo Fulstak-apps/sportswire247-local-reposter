@@ -6,7 +6,7 @@
   "sourceCaption": "Dillon the Villain taking offseason training to a new level 🤯🔥\n\n(via @suns)",
   "publishCaption": "Dillon the Villain taking offseason training to a new level 🤯🔥\n\n(via @suns)\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-09T03:47:27.765Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108273919915961",
   "instagramContainerCreatedAt": "2026-09-09T03:50:03.111Z",
   "instagramPublishRequestedAt": "2026-09-09T03:51:34.077Z",
   "instagramMediaId": "17931523518391359",
   "instagramPermalink": "https://www.instagram.com/reel/DdDVhl-CK8D/",
-  "instagramVerifiedAt": "2026-09-09T03:51:41.400Z"
+  "instagramVerifiedAt": "2026-09-09T03:51:41.400Z",
+  "publishedAt": "2026-09-09T03:51:41.400Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

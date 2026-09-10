@@ -6,7 +6,7 @@
   "sourceCaption": "Come back soon Brock 😔💔",
   "publishCaption": "Come back soon Brock 😔💔\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-09T23:18:54.599Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108503830915961",
   "instagramContainerCreatedAt": "2026-09-09T23:21:34.323Z",
   "instagramPublishRequestedAt": "2026-09-09T23:22:05.094Z",
   "instagramMediaId": "18032611262845025",
   "instagramPermalink": "https://www.instagram.com/reel/DdFbf9HAkPp/",
-  "instagramVerifiedAt": "2026-09-09T23:22:12.083Z"
+  "instagramVerifiedAt": "2026-09-09T23:22:12.083Z",
+  "publishedAt": "2026-09-09T23:22:12.083Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

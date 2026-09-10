@@ -6,7 +6,7 @@
   "sourceCaption": "JKS is special 😮 #CFB",
   "publishCaption": "JKS is special 😮 #CFB\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-06T05:44:25.139Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107430334915961",
   "instagramContainerCreatedAt": "2026-09-06T06:32:25.041Z",
   "instagramPublishRequestedAt": "2026-09-06T06:33:56.450Z",
   "instagramMediaId": "18047502665607666",
   "instagramPermalink": "https://www.instagram.com/reel/Dc75ukVDhJ6/",
-  "instagramVerifiedAt": "2026-09-06T06:34:04.021Z"
+  "instagramVerifiedAt": "2026-09-06T06:34:04.021Z",
+  "publishedAt": "2026-09-06T06:34:04.021Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

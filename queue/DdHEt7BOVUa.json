@@ -6,7 +6,7 @@
   "sourceCaption": "Dog having the time of his life. 😂❤️ (via @mlb, @sportsnetpittsburgh)",
   "publishCaption": "Dog having the time of his life. 😂❤️ (via @mlb, @sportsnetpittsburgh)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-10T14:56:43.268Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108711361915961",
   "instagramContainerCreatedAt": "2026-09-10T15:28:25.623Z",
   "instagramPublishRequestedAt": "2026-09-10T15:28:40.928Z",
   "instagramMediaId": "17945438400323026",
   "instagramPermalink": "https://www.instagram.com/reel/DdHKJRhEkaa/",
-  "instagramVerifiedAt": "2026-09-10T15:28:49.402Z"
+  "instagramVerifiedAt": "2026-09-10T15:28:49.402Z",
+  "publishedAt": "2026-09-10T15:28:49.402Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

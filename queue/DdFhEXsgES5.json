@@ -6,7 +6,7 @@
   "sourceCaption": "Don’t worry bro I think it looks good 🫡 (via youcantseeeme_/TT)",
   "publishCaption": "Don’t worry bro I think it looks good 🫡 (via youcantseeeme_/TT)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-10T00:13:41.741Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -72,11 +72,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108514324915961",
   "instagramContainerCreatedAt": "2026-09-10T00:29:38.926Z",
   "instagramPublishRequestedAt": "2026-09-10T00:31:10.557Z",
   "instagramMediaId": "18109271681125338",
   "instagramPermalink": "https://www.instagram.com/reel/DdFjYyCAhmr/",
-  "instagramVerifiedAt": "2026-09-10T00:31:17.635Z"
+  "instagramVerifiedAt": "2026-09-10T00:31:17.635Z",
+  "publishedAt": "2026-09-10T00:31:17.635Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

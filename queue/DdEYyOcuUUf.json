@@ -6,7 +6,7 @@
   "sourceCaption": "Bro gotta get employee of the month. 🤯😭 (via @qhal.s1177)",
   "publishCaption": "Bro gotta get employee of the month. 🤯😭 (via @qhal.s1177)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-09T13:44:31.427Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108386740915961",
   "instagramContainerCreatedAt": "2026-09-09T14:19:07.008Z",
   "instagramPublishRequestedAt": "2026-09-09T14:19:37.480Z",
   "instagramMediaId": "17847013368697248",
   "instagramPermalink": "https://www.instagram.com/reel/DdEdao1ASZo/",
-  "instagramVerifiedAt": "2026-09-09T14:19:47.153Z"
+  "instagramVerifiedAt": "2026-09-09T14:19:47.153Z",
+  "publishedAt": "2026-09-09T14:19:47.153Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

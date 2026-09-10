@@ -6,7 +6,7 @@
   "sourceCaption": "Sam Darnold is questionable to return vs. Patriots \n\n(via @yahoosports)\n\n#nfl #football #nflfootball #Seahawks #samdarnold",
   "publishCaption": "Sam Darnold is questionable to return vs. Patriots \n\n(via @yahoosports)\n\n#nfl #football #nflfootball #Seahawks #samdarnold\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-10T01:14:20.515Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108522280915961",
   "instagramContainerCreatedAt": "2026-09-10T01:17:14.801Z",
   "instagramPublishRequestedAt": "2026-09-10T01:17:45.126Z",
   "instagramMediaId": "17894118672671888",
   "instagramPermalink": "https://www.instagram.com/reel/DdFou98GvaC/",
-  "instagramVerifiedAt": "2026-09-10T01:17:52.465Z"
+  "instagramVerifiedAt": "2026-09-10T01:17:52.465Z",
+  "publishedAt": "2026-09-10T01:17:52.465Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

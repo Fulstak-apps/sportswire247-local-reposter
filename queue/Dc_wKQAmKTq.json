@@ -6,7 +6,7 @@
   "sourceCaption": "Ant really manifested it 🥹 @theanthonyedwards_ @dcyoungfly (h/t gmzeroog/X)",
   "publishCaption": "Ant really manifested it 🥹 @theanthonyedwards_ @dcyoungfly (h/t gmzeroog/X)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-07T18:28:45.621Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107900923915961",
   "instagramContainerCreatedAt": "2026-09-07T18:31:09.835Z",
   "instagramPublishRequestedAt": "2026-09-07T18:31:40.604Z",
   "instagramMediaId": "18106950206230921",
   "instagramPermalink": "https://www.instagram.com/reel/Dc_wrDnlyZF/",
-  "instagramVerifiedAt": "2026-09-07T18:31:47.994Z"
+  "instagramVerifiedAt": "2026-09-07T18:31:47.994Z",
+  "publishedAt": "2026-09-07T18:31:47.994Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

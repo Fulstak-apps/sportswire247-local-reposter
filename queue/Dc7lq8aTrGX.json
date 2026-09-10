@@ -6,7 +6,7 @@
   "sourceCaption": "The highest of highs and lowest of lows 😭",
   "publishCaption": "The highest of highs and lowest of lows 😭\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-06T03:46:58.114Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107476234915961",
   "instagramContainerCreatedAt": "2026-09-06T10:19:30.919Z",
   "instagramPublishRequestedAt": "2026-09-06T10:20:01.516Z",
   "instagramMediaId": "17975330789920951",
   "instagramPermalink": "https://www.instagram.com/reel/Dc8TnRdjPVL/",
-  "instagramVerifiedAt": "2026-09-06T10:20:09.187Z"
+  "instagramVerifiedAt": "2026-09-06T10:20:09.187Z",
+  "publishedAt": "2026-09-06T10:20:09.187Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

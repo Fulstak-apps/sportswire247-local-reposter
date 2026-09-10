@@ -6,7 +6,7 @@
   "sourceCaption": "Perfect spiral from his own seat 🔥😭 (via @matt.berman)",
   "publishCaption": "Perfect spiral from his own seat 🔥😭 (via @matt.berman)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-05T15:37:54.780Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107640640915961",
   "instagramContainerCreatedAt": "2026-09-06T21:37:45.380Z",
   "instagramPublishRequestedAt": "2026-09-06T21:38:16.724Z",
   "instagramMediaId": "18161036917490148",
   "instagramPermalink": "https://www.instagram.com/reel/Dc9hOsyCZX9/",
-  "instagramVerifiedAt": "2026-09-06T21:38:22.110Z"
+  "instagramVerifiedAt": "2026-09-06T21:38:22.110Z",
+  "publishedAt": "2026-09-06T21:38:22.110Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

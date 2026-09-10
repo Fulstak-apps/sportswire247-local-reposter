@@ -6,7 +6,7 @@
   "sourceCaption": "Toosii wants back on the team 😂😅 (via @toosii)",
   "publishCaption": "Toosii wants back on the team 😂😅 (via @toosii)\n\nSource: @houseofhighlights\n\n@sportswire247",
   "discoveredAt": "2026-09-08T01:52:01.210Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107987977915961",
   "instagramContainerCreatedAt": "2026-09-08T03:38:23.256Z",
   "instagramPublishRequestedAt": "2026-09-08T03:39:38.844Z",
   "instagramMediaId": "17879921196688833",
   "instagramPermalink": "https://www.instagram.com/reel/DdAvYNZkx5v/",
-  "instagramVerifiedAt": "2026-09-08T03:39:46.076Z"
+  "instagramVerifiedAt": "2026-09-08T03:39:46.076Z",
+  "publishedAt": "2026-09-08T03:39:46.076Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

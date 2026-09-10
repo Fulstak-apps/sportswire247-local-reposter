@@ -6,7 +6,7 @@
   "sourceCaption": "BAHHHH BAHHHH BAHHHHH BAHHHHH 🐐 (via @cfbonfox)",
   "publishCaption": "BAHHHH BAHHHH BAHHHHH BAHHHHH 🐐 (via @cfbonfox)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-05T18:14:30.249Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107696014915961",
   "instagramContainerCreatedAt": "2026-09-07T03:07:52.529Z",
   "instagramPublishRequestedAt": "2026-09-07T03:08:23.029Z",
   "instagramMediaId": "18066862571575921",
   "instagramPermalink": "https://www.instagram.com/reel/Dc-HCFbmwLK/",
-  "instagramVerifiedAt": "2026-09-07T03:08:30.584Z"
+  "instagramVerifiedAt": "2026-09-07T03:08:30.584Z",
+  "publishedAt": "2026-09-07T03:08:30.584Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

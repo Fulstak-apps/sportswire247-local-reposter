@@ -6,7 +6,7 @@
   "sourceCaption": "Lionel Messi’s performance against Atlanta United. \n(via @mls on Apple TV)",
   "publishCaption": "Lionel Messi’s performance against Atlanta United. \n(via @mls on Apple TV)\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-07T12:38:27.430Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18107814121915961",
   "instagramContainerCreatedAt": "2026-09-07T12:48:44.149Z",
   "instagramPublishRequestedAt": "2026-09-07T12:49:44.784Z",
   "instagramMediaId": "18149013319530024",
   "instagramPermalink": "https://www.instagram.com/reel/Dc_Jif2jkJy/",
-  "instagramVerifiedAt": "2026-09-07T12:49:51.885Z"
+  "instagramVerifiedAt": "2026-09-07T12:49:51.885Z",
+  "publishedAt": "2026-09-07T12:49:51.885Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }

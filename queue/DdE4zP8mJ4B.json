@@ -6,7 +6,7 @@
   "sourceCaption": "Y’all copping the new iPhone Duo? 👀🤔",
   "publishCaption": "Y’all copping the new iPhone Duo? 👀🤔\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-09T18:32:07.775Z",
-  "status": "instagram_published_threads_pending",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,11 +73,14 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending",
+  "threadsStatus": "disabled",
   "instagramContainerId": "18108451477915961",
   "instagramContainerCreatedAt": "2026-09-09T18:34:56.104Z",
   "instagramPublishRequestedAt": "2026-09-09T18:36:11.993Z",
   "instagramMediaId": "18085102664694069",
   "instagramPermalink": "https://www.instagram.com/reel/DdE6y2Flbv5/",
-  "instagramVerifiedAt": "2026-09-09T18:36:20.392Z"
+  "instagramVerifiedAt": "2026-09-09T18:36:20.392Z",
+  "publishedAt": "2026-09-09T18:36:20.392Z",
+  "threadsDisabledAt": "2026-09-10T15:44:27.051Z",
+  "threadsDisabledReason": "Threads delivery removed from SportsWire"
 }
