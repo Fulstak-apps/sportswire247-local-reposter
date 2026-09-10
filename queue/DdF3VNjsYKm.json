@@ -3,16 +3,16 @@
   "shortcode": "DdF3VNjsYKm",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimeszn/reel/DdF3VNjsYKm/",
-  "sourceCaption": "DRAKE CMON YOU GIVE ME NO CHOICE \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
-  "publishCaption": "DRAKE CMON YOU GIVE ME NO CHOICE \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "DRAKE CMON YOU GIVE ME NO CHOICE 😭😭😭",
+  "publishCaption": "DRAKE CMON YOU GIVE ME NO CHOICE 😭😭😭\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-10T03:41:43.588Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "DRAKE CMON YOU GIVE ME NO CHOICE \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
+  "body": "DRAKE CMON YOU GIVE ME NO CHOICE 😭😭😭",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-10T03:42:32.085Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "2e572d3e6218c3e073387969a8ede3a52f9f6dc955ce71a50cfd7b9811f9ab88",
     "outputSha256": "9723ee461695a85110a01542050629d993031145876de4f09fc56717704b8e6b"
   },
-  "threadsText": "DRAKE CMON YOU GIVE ME NO CHOICE \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\n\nSource: @overtime",
+  "threadsText": "DRAKE CMON YOU GIVE ME NO CHOICE 😭😭😭\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 10.95,
   "scoreMargin": -38.52,
   "highlightQuality": 10.95,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.48,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108612178915961",
+  "instagramContainerCreatedAt": "2026-09-10T08:36:57.319Z",
+  "instagramPublishRequestedAt": "2026-09-10T08:38:28.378Z",
+  "instagramMediaId": "17925398919180720",
+  "instagramPermalink": "https://www.instagram.com/reel/DdGbKRvD-fD/",
+  "instagramVerifiedAt": "2026-09-10T08:38:35.757Z"
 }
