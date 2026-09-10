@@ -6,7 +6,7 @@
   "sourceCaption": "A wonderful tribute to Barry Melrose from Scott Van Pelt and Jeremy Schaap ❤️",
   "publishCaption": "A wonderful tribute to Barry Melrose from Scott Van Pelt and Jeremy Schaap ❤️\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-10T17:34:02.069Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -76,5 +76,11 @@
   "threadsStatus": "pending",
   "instagramAttempts": 1,
   "instagramError": "An unexpected error has occurred. Please retry your request later.",
-  "instagramNextRetryAt": "2026-09-10T21:54:22.914Z"
+  "instagramContainerId": "18108791536915961",
+  "instagramContainerCreatedAt": "2026-09-10T22:04:31.960Z",
+  "instagramPublishRequestedAt": "2026-09-10T22:05:17.909Z",
+  "instagramMediaId": "17975837066924458",
+  "instagramPermalink": "https://www.instagram.com/reel/DdH3enLgEH0/",
+  "instagramVerifiedAt": "2026-09-10T22:05:26.133Z",
+  "publishedAt": "2026-09-10T22:05:26.134Z"
 }
