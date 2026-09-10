@@ -3,8 +3,8 @@
   "shortcode": "DdHXhL0xJdh",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdHXhL0xJdh/",
-  "sourceCaption": "A wonderful tribute to Barry Melrose from Scott Van Pelt and Jeremy Schaap \u2764\ufe0f",
-  "publishCaption": "A wonderful tribute to Barry Melrose from Scott Van Pelt and Jeremy Schaap \u2764\ufe0f\n\nSource: @sportscenter\n\n@sportswire247",
+  "sourceCaption": "A wonderful tribute to Barry Melrose from Scott Van Pelt and Jeremy Schaap ❤️",
+  "publishCaption": "A wonderful tribute to Barry Melrose from Scott Van Pelt and Jeremy Schaap ❤️\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-10T17:34:02.069Z",
   "status": "ready",
   "attempts": {
@@ -12,7 +12,7 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "A wonderful tribute to Barry Melrose from Scott Van Pelt and Jeremy Schaap \u2764\ufe0f",
+  "body": "A wonderful tribute to Barry Melrose from Scott Van Pelt and Jeremy Schaap ❤️",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-10T17:34:50.740Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "b00cc0a9e1ecb2a5ba6fd0fad130e2e6621cab033d397f2661a44d98657ef41e",
     "outputSha256": "5493dcb1c67013ad99f18aa79d41647893915569508a54adbf72fdd18efcef5f"
   },
-  "threadsText": "A wonderful tribute to Barry Melrose from Scott Van Pelt and Jeremy Schaap \u2764\ufe0f\n\nSource: @sportscenter",
+  "threadsText": "A wonderful tribute to Barry Melrose from Scott Van Pelt and Jeremy Schaap ❤️\n\nSource: @sportscenter",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 11.05,
   "scoreMargin": -37.36,
   "highlightQuality": 11.05,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.64,
@@ -73,5 +73,8 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramAttempts": 1,
+  "instagramError": "An unexpected error has occurred. Please retry your request later.",
+  "instagramNextRetryAt": "2026-09-10T21:54:22.914Z"
 }
