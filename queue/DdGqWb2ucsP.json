@@ -3,16 +3,16 @@
   "shortcode": "DdGqWb2ucsP",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdGqWb2ucsP/",
-  "sourceCaption": "Caitlim Clark finds Angel Reese to beat the buzzer as USA goes up 93-47 vs. Hungary \ud83d\udd25\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max \ud83c\udf7f",
-  "publishCaption": "Caitlim Clark finds Angel Reese to beat the buzzer as USA goes up 93-47 vs. Hungary \ud83d\udd25\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max \ud83c\udf7f\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Caitlim Clark finds Angel Reese to beat the buzzer as USA goes up 93-47 vs. Hungary 🔥\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max 🍿",
+  "publishCaption": "Caitlim Clark finds Angel Reese to beat the buzzer as USA goes up 93-47 vs. Hungary 🔥\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max 🍿\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-10T10:55:46.224Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Caitlim Clark finds Angel Reese to beat the buzzer as USA goes up 93-47 vs. Hungary \ud83d\udd25\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max \ud83c\udf7f",
+  "body": "Caitlim Clark finds Angel Reese to beat the buzzer as USA goes up 93-47 vs. Hungary 🔥\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max 🍿",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-10T10:56:34.724Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "3c0b74e361c495ecccb708a55130fc3e9948c4188fb416d200a1b327bd541894",
     "outputSha256": "bc1e1c2bd66443c536134fd203f507f20525688c8e16e1293162f42ce79e5630"
   },
-  "threadsText": "Caitlim Clark finds Angel Reese to beat the buzzer as USA goes up 93-47 vs. Hungary \ud83d\udd25\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max \ud83c\udf7f\n\nSource: @bleacherreport",
+  "threadsText": "Caitlim Clark finds Angel Reese to beat the buzzer as USA goes up 93-47 vs. Hungary 🔥\n\nWatch USA vs. Hungary in the #FIBAWWC LIVE on TNT, truTV, & HBO Max 🍿\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 7.15,
   "scoreMargin": -41.96,
   "highlightQuality": 7.15,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 38.04,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108665242915961",
+  "instagramContainerCreatedAt": "2026-09-10T12:26:11.762Z",
+  "instagramPublishRequestedAt": "2026-09-10T12:26:43.552Z",
+  "instagramMediaId": "18087800660215316",
+  "instagramPermalink": "https://www.instagram.com/reel/DdG1SoxDJgu/",
+  "instagramVerifiedAt": "2026-09-10T12:26:52.262Z"
 }
