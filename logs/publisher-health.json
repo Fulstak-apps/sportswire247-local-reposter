@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-09-10T03:46:22.871Z",
+  "checkedAt": "2026-09-10T03:54:38.282Z",
   "platforms": {
     "instagram": {
       "status": "healthy",
-      "usage": 23,
+      "usage": 22,
       "limit": 100,
-      "pendingItems": 6,
+      "pendingItems": 10,
       "lastVerifiedAt": "2026-09-10T03:33:42.907Z",
       "overdue": false,
       "unresolvedItems": []
@@ -13,7 +13,7 @@
     "threads": {
       "status": "quota_or_auth_check_failed",
       "error": "Error validating access token: Session key is malformed because of invalid user id.",
-      "pendingItems": 121,
+      "pendingItems": 125,
       "lastVerifiedAt": "2026-09-06T05:27:29.163Z",
       "overdue": true,
       "unresolvedItems": []
