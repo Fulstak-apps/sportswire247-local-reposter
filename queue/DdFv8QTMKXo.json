@@ -3,16 +3,16 @@
   "shortcode": "DdFv8QTMKXo",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdFv8QTMKXo/",
-  "sourceCaption": "Jaylen Brown\u2019s side quests continue \ud83d\udd25\n\n(via @fchwpo) #jaylenbrown #boxing #nigeria #basketball #nba",
-  "publishCaption": "Jaylen Brown\u2019s side quests continue \ud83d\udd25\n\n(via @fchwpo) #jaylenbrown #boxing #nigeria #basketball #nba\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Jaylen Brown’s side quests continue 🔥\n\n(via @fchwpo) #jaylenbrown #boxing #nigeria #basketball #nba",
+  "publishCaption": "Jaylen Brown’s side quests continue 🔥\n\n(via @fchwpo) #jaylenbrown #boxing #nigeria #basketball #nba\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-10T02:24:41.029Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jaylen Brown\u2019s side quests continue \ud83d\udd25\n\n(via @fchwpo) #jaylenbrown #boxing #nigeria #basketball #nba",
+  "body": "Jaylen Brown’s side quests continue 🔥\n\n(via @fchwpo) #jaylenbrown #boxing #nigeria #basketball #nba",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-10T02:25:29.706Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "7a2bec949086955395f7c42d381a24d7b509591651f2d8f85ec3ea6b15f72e48",
     "outputSha256": "bd6bb0f759d512cd6635f22fbaa28aaa454bb9b43c6f4221f9a52d59174a39b3"
   },
-  "threadsText": "Jaylen Brown\u2019s side quests continue \ud83d\udd25\n\n(via @fchwpo) #jaylenbrown #boxing #nigeria #basketball #nba\n\nSource: @bleacherreport",
+  "threadsText": "Jaylen Brown’s side quests continue 🔥\n\n(via @fchwpo) #jaylenbrown #boxing #nigeria #basketball #nba\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 10.9,
   "scoreMargin": 14.78,
   "highlightQuality": 10.9,
-  "postingFloor": 45.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 45,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 59.78,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108533440915961",
+  "instagramContainerCreatedAt": "2026-09-10T02:27:34.635Z",
+  "instagramPublishRequestedAt": "2026-09-10T02:28:05.200Z",
+  "instagramMediaId": "18128980088495063",
+  "instagramPermalink": "https://www.instagram.com/reel/DdFwyKUAbvU/",
+  "instagramVerifiedAt": "2026-09-10T02:28:13.089Z"
 }
