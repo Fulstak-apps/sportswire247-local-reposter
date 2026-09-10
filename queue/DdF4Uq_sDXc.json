@@ -3,16 +3,16 @@
   "shortcode": "DdF4Uq_sDXc",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimeszn/reel/DdF4Uq_sDXc/",
-  "sourceCaption": "I\u2019m sorry but what in the world was that \ud83d\ude2d\u2620\ufe0f @h00pify",
-  "publishCaption": "I\u2019m sorry but what in the world was that \ud83d\ude2d\u2620\ufe0f @h00pify\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "I’m sorry but what in the world was that 😭☠️ @h00pify",
+  "publishCaption": "I’m sorry but what in the world was that 😭☠️ @h00pify\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-10T03:40:38.869Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "I\u2019m sorry but what in the world was that \ud83d\ude2d\u2620\ufe0f @h00pify",
+  "body": "I’m sorry but what in the world was that 😭☠️ @h00pify",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-10T03:41:27.490Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "7d1a9d1f81410205f09b85f23475889c033487d44f76a78e083d2c34ac43b9b1",
     "outputSha256": "5e23d50b9b4b655bf4304b8817020ac71007f13597037307bb7dbaecc3f8fd00"
   },
-  "threadsText": "I\u2019m sorry but what in the world was that \ud83d\ude2d\u2620\ufe0f @h00pify\n\nSource: @overtime",
+  "threadsText": "I’m sorry but what in the world was that 😭☠️ @h00pify\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 8.73,
   "scoreMargin": -40.54,
   "highlightQuality": 8.73,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 39.46,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108632368915961",
+  "instagramContainerCreatedAt": "2026-09-10T10:14:51.681Z",
+  "instagramPublishRequestedAt": "2026-09-10T10:15:23.103Z",
+  "instagramMediaId": "17898829020378618",
+  "instagramPermalink": "https://www.instagram.com/reel/DdGmQ82ijPf/",
+  "instagramVerifiedAt": "2026-09-10T10:15:31.970Z"
 }
