@@ -3,16 +3,16 @@
   "shortcode": "DdFz1cgM7eq",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimeszn/reel/DdFz1cgM7eq/",
-  "sourceCaption": "hahahahahahahahah sorry Drake \ud83d\ude2d\ud83e\udd23",
-  "publishCaption": "hahahahahahahahah sorry Drake \ud83d\ude2d\ud83e\udd23\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "hahahahahahahahah sorry Drake 😭🤣",
+  "publishCaption": "hahahahahahahahah sorry Drake 😭🤣\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-10T02:56:40.313Z",
-  "status": "ready",
+  "status": "instagram_published_threads_pending",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "hahahahahahahahah sorry Drake \ud83d\ude2d\ud83e\udd23",
+  "body": "hahahahahahahahah sorry Drake 😭🤣",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-10T02:57:29.153Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "a1756f6692332dd721dbef205219cb0e5e502850fd8ed0cab5bccd7a837d9116",
     "outputSha256": "6a2542042529cf62b0ed970d03274d2155b3c134f91e5e6eb9daf0658185a792"
   },
-  "threadsText": "hahahahahahahahah sorry Drake \ud83d\ude2d\ud83e\udd23\n\nSource: @overtime",
+  "threadsText": "hahahahahahahahah sorry Drake 😭🤣\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 4.08,
   "scoreMargin": -44.98,
   "highlightQuality": 4.08,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 35.02,
@@ -73,5 +73,11 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108674302915961",
+  "instagramContainerCreatedAt": "2026-09-10T12:58:47.143Z",
+  "instagramPublishRequestedAt": "2026-09-10T12:59:17.696Z",
+  "instagramMediaId": "18073101839712543",
+  "instagramPermalink": "https://www.instagram.com/reel/DdG5BPYkiLL/",
+  "instagramVerifiedAt": "2026-09-10T12:59:25.793Z"
 }
