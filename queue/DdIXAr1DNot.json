@@ -6,7 +6,7 @@
   "sourceCaption": "I have no words bro",
   "publishCaption": "I have no words bro\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-11T02:43:27.352Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 11.66,
   "scoreMargin": -37.44,
   "highlightQuality": 11.66,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.56,
@@ -73,5 +73,12 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108863743915961",
+  "instagramContainerCreatedAt": "2026-09-11T04:58:20.940Z",
+  "instagramPublishRequestedAt": "2026-09-11T04:58:51.577Z",
+  "instagramMediaId": "18623344558014637",
+  "instagramPermalink": "https://www.instagram.com/reel/DdIm2JYkVLl/",
+  "instagramVerifiedAt": "2026-09-11T04:58:57.563Z",
+  "publishedAt": "2026-09-11T04:58:57.564Z"
 }
