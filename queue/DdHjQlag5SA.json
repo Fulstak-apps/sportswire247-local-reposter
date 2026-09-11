@@ -6,7 +6,7 @@
   "sourceCaption": "One of the greatest shots in the history of golf (via @themasters)",
   "publishCaption": "One of the greatest shots in the history of golf (via @themasters)\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-11T02:42:00.468Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -49,11 +49,11 @@
   "priority": "P4",
   "viralScore": 49.74,
   "rawScore": 49.74,
-  "engagementScore": 26.0,
+  "engagementScore": 26,
   "scoreMargin": -30.26,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 49.74,
@@ -73,5 +73,12 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18108836929915961",
+  "instagramContainerCreatedAt": "2026-09-11T02:56:31.743Z",
+  "instagramPublishRequestedAt": "2026-09-11T02:57:02.233Z",
+  "instagramMediaId": "18009708509760472",
+  "instagramPermalink": "https://www.instagram.com/reel/DdIY5AxgU0V/",
+  "instagramVerifiedAt": "2026-09-11T02:57:10.243Z",
+  "publishedAt": "2026-09-11T02:57:10.244Z"
 }
