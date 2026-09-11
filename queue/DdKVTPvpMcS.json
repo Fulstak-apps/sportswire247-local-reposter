@@ -6,7 +6,7 @@
   "sourceCaption": "Jonathan Kuminga talks about giving up more money to join the Wolves\n\n(via @timberwolves) #timberwolves #lakers #basketball #nba",
   "publishCaption": "Jonathan Kuminga talks about giving up more money to join the Wolves\n\n(via @timberwolves) #timberwolves #lakers #basketball #nba\n\nSource: @bleacherreport\n\n@sportswire247",
   "discoveredAt": "2026-09-11T21:08:21.882Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 10.72,
   "scoreMargin": 14.61,
   "highlightQuality": 10.72,
-  "postingFloor": 45.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 45,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 59.61,
@@ -73,5 +73,12 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18109092046915961",
+  "instagramContainerCreatedAt": "2026-09-11T21:21:37.654Z",
+  "instagramPublishRequestedAt": "2026-09-11T21:22:08.136Z",
+  "instagramMediaId": "18142433437593538",
+  "instagramPermalink": "https://www.instagram.com/reel/DdKXXARESCu/",
+  "instagramVerifiedAt": "2026-09-11T21:22:16.229Z",
+  "publishedAt": "2026-09-11T21:22:16.230Z"
 }
