@@ -6,7 +6,7 @@
   "sourceCaption": "Immediately ran the no-huddle 😭 #cfb #collegefootball #football",
   "publishCaption": "Immediately ran the no-huddle 😭 #cfb #collegefootball #football\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-12T20:16:15.062Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -76,5 +76,11 @@
   "threadsStatus": "pending",
   "instagramAttempts": 1,
   "instagramError": "instagram container 18109396909915961 failed: ERROR",
-  "instagramNextRetryAt": "2026-09-12T20:59:23.836Z"
+  "instagramContainerId": "18109398493915961",
+  "instagramContainerCreatedAt": "2026-09-12T21:06:22.017Z",
+  "instagramPublishRequestedAt": "2026-09-12T21:06:52.551Z",
+  "instagramMediaId": "18031296368665724",
+  "instagramPermalink": "https://www.instagram.com/reel/DdM6aGHAYPg/",
+  "instagramVerifiedAt": "2026-09-12T21:07:00.657Z",
+  "publishedAt": "2026-09-12T21:07:00.658Z"
 }
