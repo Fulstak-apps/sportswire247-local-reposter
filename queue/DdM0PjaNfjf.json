@@ -3,8 +3,8 @@
   "shortcode": "DdM0PjaNfjf",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdM0PjaNfjf/",
-  "sourceCaption": "Immediately ran the no-huddle \ud83d\ude2d #cfb #collegefootball #football",
-  "publishCaption": "Immediately ran the no-huddle \ud83d\ude2d #cfb #collegefootball #football\n\nSource: @sportscenter\n\n@sportswire247",
+  "sourceCaption": "Immediately ran the no-huddle 😭 #cfb #collegefootball #football",
+  "publishCaption": "Immediately ran the no-huddle 😭 #cfb #collegefootball #football\n\nSource: @sportscenter\n\n@sportswire247",
   "discoveredAt": "2026-09-12T20:16:15.062Z",
   "status": "ready",
   "attempts": {
@@ -12,7 +12,7 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Immediately ran the no-huddle \ud83d\ude2d #cfb #collegefootball #football",
+  "body": "Immediately ran the no-huddle 😭 #cfb #collegefootball #football",
   "captionMode": "source_verbatim_fallback",
   "captionCheckedAt": "2026-09-12T20:17:03.828Z",
   "sourceViewCount": 0,
@@ -33,7 +33,7 @@
     "sourceSha256": "a660c9950eddc2c29b56fc4846a30446c48dbba4ad48e12f7dba30425ef69ea9",
     "outputSha256": "94a4ceeef178c5dcc6f154990dc6c599a5bcb81a29e9f77849970d201f44f765"
   },
-  "threadsText": "Immediately ran the no-huddle \ud83d\ude2d #cfb #collegefootball #football\n\nSource: @sportscenter",
+  "threadsText": "Immediately ran the no-huddle 😭 #cfb #collegefootball #football\n\nSource: @sportscenter",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
@@ -52,8 +52,8 @@
   "engagementScore": 10.75,
   "scoreMargin": 5.63,
   "highlightQuality": 10.75,
-  "postingFloor": 52.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 52,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 57.63,
@@ -73,5 +73,8 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramAttempts": 1,
+  "instagramError": "instagram container 18109396909915961 failed: ERROR",
+  "instagramNextRetryAt": "2026-09-12T20:59:23.836Z"
 }
