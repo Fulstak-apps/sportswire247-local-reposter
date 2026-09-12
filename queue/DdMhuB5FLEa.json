@@ -52,8 +52,8 @@
   "engagementScore": 4.24,
   "scoreMargin": -44.95,
   "highlightQuality": 4.24,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 35.05,
@@ -73,5 +73,8 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramAttempts": 1,
+  "instagramError": "instagram container 18109348693915961 failed: ERROR",
+  "instagramNextRetryAt": "2026-09-12T17:09:27.028Z"
 }
