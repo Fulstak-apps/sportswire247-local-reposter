@@ -6,7 +6,7 @@
   "sourceCaption": "This throw??? wtf???????? @lahzeek2_ (via @cfbonfox)",
   "publishCaption": "This throw??? wtf???????? @lahzeek2_ (via @cfbonfox)\n\nSource: @overtime\n\n@sportswire247",
   "discoveredAt": "2026-09-12T14:23:39.558Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -76,5 +76,11 @@
   "threadsStatus": "pending",
   "instagramAttempts": 1,
   "instagramError": "instagram container 18109348693915961 failed: ERROR",
-  "instagramNextRetryAt": "2026-09-12T17:09:27.028Z"
+  "instagramContainerId": "18109351027915961",
+  "instagramContainerCreatedAt": "2026-09-12T17:17:18.680Z",
+  "instagramPublishRequestedAt": "2026-09-12T17:18:04.499Z",
+  "instagramMediaId": "17889847053676152",
+  "instagramPermalink": "https://www.instagram.com/reel/DdMgOGjoOV9/",
+  "instagramVerifiedAt": "2026-09-12T17:18:13.383Z",
+  "publishedAt": "2026-09-12T17:18:13.384Z"
 }
