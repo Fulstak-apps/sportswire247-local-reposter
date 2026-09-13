@@ -6,7 +6,7 @@
   "sourceCaption": "Arch Manning throws one of the most bizarre interceptions you will ever see \n\n#texas #ohiostate #football #cfb #sports",
   "publishCaption": "Arch Manning throws one of the most bizarre interceptions you will ever see \n\n#texas #ohiostate #football #cfb #sports\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-13T00:32:07.756Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 6.45,
   "scoreMargin": 9.23,
   "highlightQuality": 26.45,
-  "postingFloor": 52.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 52,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 61.23,
@@ -75,5 +75,12 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18109444468915961",
+  "instagramContainerCreatedAt": "2026-09-13T01:05:58.197Z",
+  "instagramPublishRequestedAt": "2026-09-13T01:06:28.643Z",
+  "instagramMediaId": "18059014718531188",
+  "instagramPermalink": "https://www.instagram.com/reel/DdNV1OqCfBW/",
+  "instagramVerifiedAt": "2026-09-13T01:06:36.513Z",
+  "publishedAt": "2026-09-13T01:06:36.513Z"
 }
