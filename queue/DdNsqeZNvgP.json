@@ -6,7 +6,7 @@
   "sourceCaption": "Texas head coach Steve Sarkisian blew off the postgame interview after completing 20-point comeback against No. 1 Ohio State \n\n#ohiostate #texaslonghorns #football #sports #cfb",
   "publishCaption": "Texas head coach Steve Sarkisian blew off the postgame interview after completing 20-point comeback against No. 1 Ohio State \n\n#ohiostate #texaslonghorns #football #sports #cfb\n\nSource: @jomboymedia\n\n@sportswire247",
   "discoveredAt": "2026-09-13T04:38:01.704Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 11.26,
   "scoreMargin": 3.45,
   "highlightQuality": 11.26,
-  "postingFloor": 52.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 52,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 55.45,
@@ -73,5 +73,12 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "instagramContainerId": "18109530376915961",
+  "instagramContainerCreatedAt": "2026-09-13T06:56:50.736Z",
+  "instagramPublishRequestedAt": "2026-09-13T06:57:21.186Z",
+  "instagramMediaId": "17914104810266058",
+  "instagramPermalink": "https://www.instagram.com/reel/DdN9_DBkT8F/",
+  "instagramVerifiedAt": "2026-09-13T06:57:27.961Z",
+  "publishedAt": "2026-09-13T06:57:27.961Z"
 }
