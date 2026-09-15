@@ -6,7 +6,7 @@
   "sourceCaption": "Ohio State up 20-3 going into half 👀 @primetimejj_.4",
   "publishCaption": "The moment says it all 👀\n\nOhio State up 20-3 going into half 👀 @primetimejj_.4\n\n#sports\n\nSource: @overtime\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-13T01:20:40.582Z",
-  "status": "ready",
+  "status": "held",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 0.46,
   "scoreMargin": -48.68,
   "highlightQuality": 0.46,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 31.32,
@@ -72,5 +72,7 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "editorialHold": "outside target sports lane",
+  "heldAt": "2026-09-15T03:02:49.912Z"
 }

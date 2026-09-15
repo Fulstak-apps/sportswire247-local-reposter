@@ -6,7 +6,7 @@
   "sourceCaption": "Teofimo Lopez tried STORMING the ring after Ryan called him out. 😳😅 \n\nLive on @DAZNBoxing #GarciaBenn 🥊",
   "publishCaption": "You have to see this one twice 👀\n\nTeofimo Lopez tried STORMING the ring after Ryan called him out. 😳😅 \n\nLive on @DAZNBoxing #GarciaBenn 🥊\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-13T04:46:43.724Z",
-  "status": "ready",
+  "status": "held",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 10.45,
   "scoreMargin": -37.8,
   "highlightQuality": 10.45,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.2,
@@ -73,5 +73,7 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "editorialHold": "outside target sports lane",
+  "heldAt": "2026-09-15T03:02:49.919Z"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "Yeah… Caleb Downs is a problem 💀",
   "publishCaption": "You have to see this one twice 👀\n\nYeah… Caleb Downs is a problem 💀\n\n#sports\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-14T05:15:32.762Z",
-  "status": "ready",
+  "status": "held",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 13.69,
   "scoreMargin": -46.47,
   "highlightQuality": 13.69,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 33.53,
@@ -73,5 +73,7 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "editorialHold": "outside target sports lane",
+  "heldAt": "2026-09-15T03:02:49.924Z"
 }

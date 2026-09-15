@@ -6,7 +6,7 @@
   "sourceCaption": "It’s a party in Austin 🤠",
   "publishCaption": "This is why sports stay must-watch 🔥\n\nIt’s a party in Austin 🤠\n\n#sports\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-13T15:21:06.630Z",
-  "status": "ready",
+  "status": "held",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -51,9 +51,9 @@
   "rawScore": 39.47,
   "engagementScore": 19.16,
   "scoreMargin": -40.53,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 39.47,
@@ -73,5 +73,7 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "editorialHold": "outside target sports lane",
+  "heldAt": "2026-09-15T03:02:49.915Z"
 }

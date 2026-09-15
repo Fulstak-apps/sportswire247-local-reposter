@@ -6,7 +6,7 @@
   "sourceCaption": "WE ARE SO BACK OMGGGGG 🍿🤩",
   "publishCaption": "The moment says it all 👀\n\nWE ARE SO BACK OMGGGGG 🍿🤩\n\n#sports\n\nSource: @overtime\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-13T16:09:06.457Z",
-  "status": "ready",
+  "status": "held",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 11.2,
   "scoreMargin": -38.09,
   "highlightQuality": 11.2,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.91,
@@ -73,5 +73,7 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "editorialHold": "outside target sports lane",
+  "heldAt": "2026-09-15T03:02:49.920Z"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "JAGS BLOWING OUT BROWNS 24-0 IN FIRST HALF 😳🤯 (via @kaicenat)",
   "publishCaption": "You have to see this one twice 👀\n\nJAGS BLOWING OUT BROWNS 24-0 IN FIRST HALF 😳🤯 (via @kaicenat)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-13T18:18:23.744Z",
-  "status": "ready",
+  "status": "held",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 10.57,
   "scoreMargin": -36.55,
   "highlightQuality": 10.57,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.45,
@@ -73,5 +73,7 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "editorialHold": "outside target sports lane",
+  "heldAt": "2026-09-15T03:02:49.928Z"
 }

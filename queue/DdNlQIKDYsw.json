@@ -6,7 +6,7 @@
   "sourceCaption": "TEXAS 20-POINT COMEBACK IN THE 4Q VS NO. 1 OHIO STATE 🚨🚨🚨🚨\n\nWHAT A GAME 🔥",
   "publishCaption": "You have to see this one twice 👀\n\nTEXAS 20-POINT COMEBACK IN THE 4Q VS NO. 1 OHIO STATE 🚨🚨🚨🚨\n\nWHAT A GAME 🔥\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-13T03:21:15.993Z",
-  "status": "ready",
+  "status": "held",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 4.37,
   "scoreMargin": -42.85,
   "highlightQuality": 4.37,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 37.15,
@@ -73,5 +73,7 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "editorialHold": "outside target sports lane",
+  "heldAt": "2026-09-15T03:02:49.915Z"
 }

@@ -6,7 +6,7 @@
   "sourceCaption": "Gotta love it. 😂🔥 (via @straightfromtherack, @coach_p817, jp_goingd11)",
   "publishCaption": "This is why sports stay must-watch 🔥\n\nGotta love it. 😂🔥 (via @straightfromtherack, @coach_p817, jp_goingd11)\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-14T14:05:49.176Z",
-  "status": "ready",
+  "status": "held",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 2.04,
   "scoreMargin": -49.41,
   "highlightQuality": 2.04,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 30.59,
@@ -72,5 +72,7 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "editorialHold": "outside target sports lane",
+  "heldAt": "2026-09-15T03:02:49.941Z"
 }

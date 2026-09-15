@@ -6,7 +6,7 @@
   "sourceCaption": "Alexander Zverev to Trinity Rodman after he beat her boyfriend Ben Shelton in the US Open Final 🎾",
   "publishCaption": "The moment says it all 👀\n\nAlexander Zverev to Trinity Rodman after he beat her boyfriend Ben Shelton in the US Open Final 🎾\n\n#sports\n\nSource: @sportscenter\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-14T05:07:53.819Z",
-  "status": "ready",
+  "status": "held",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -51,9 +51,9 @@
   "rawScore": 42.54,
   "engagementScore": 22.75,
   "scoreMargin": -37.46,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.54,
@@ -73,5 +73,7 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "editorialHold": "outside target sports lane",
+  "heldAt": "2026-09-15T03:02:49.936Z"
 }

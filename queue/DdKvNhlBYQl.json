@@ -6,7 +6,7 @@
   "sourceCaption": "This FACE OFF 🤩\n\n🎟️ Buy #GarciaBenn at DAZN.com | Sept 12 | Live Exclusively on DAZN in UK & Ireland, plus other select territories | @ringmagazine ▪️",
   "publishCaption": "You have to see this one twice 👀\n\nThis FACE OFF 🤩\n\n🎟️ Buy #GarciaBenn at DAZN.com | Sept 12 | Live Exclusively on DAZN in UK & Ireland, plus other select territories | @ringmagazine ▪️\n\n#sports\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-12T01:15:48.607Z",
-  "status": "ready",
+  "status": "held",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,8 +52,8 @@
   "engagementScore": 7.73,
   "scoreMargin": -63.14,
   "highlightQuality": 7.73,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 16.86,
@@ -72,5 +72,7 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "threadsStatus": "pending"
+  "threadsStatus": "pending",
+  "editorialHold": "outside target sports lane",
+  "heldAt": "2026-09-15T03:02:49.896Z"
 }
