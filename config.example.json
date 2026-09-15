@@ -16,7 +16,7 @@
     "minimumLikes": 100000,
     "minimumComments": 10000,
     "maximumAgeDays": 30,
-    "maximumQueuePerCycle": 1
+    "maximumQueuePerCycle": 5
   },
   "branding": {
     "enabled": true,

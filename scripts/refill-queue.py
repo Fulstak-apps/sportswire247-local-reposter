@@ -3,7 +3,7 @@ import json
 from sportswire_local.newsroom import run, delivery_items
 
 TARGET_READY = 30
-MAX_ATTEMPTS_PER_CYCLE = 40
+MAX_ATTEMPTS_PER_CYCLE = 80
 
 for attempt in range(MAX_ATTEMPTS_PER_CYCLE):
     # Instagram is the sole destination, so only clips not yet published to
