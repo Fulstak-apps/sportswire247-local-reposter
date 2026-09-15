@@ -3,8 +3,8 @@
   "shortcode": "DdNg9zTsnAV",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/DdNg9zTsnAV/",
-  "sourceCaption": "WE HAVE A GAME \ud83d\udd25",
-  "publishCaption": "WE HAVE A GAME \ud83d\udd25\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "WE HAVE A GAME 🔥",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nWE HAVE A GAME 🔥\n\n#sports\n\nSource: @overtime\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-13T02:50:57.995Z",
   "status": "ready",
   "attempts": {
@@ -12,8 +12,8 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "WE HAVE A GAME \ud83d\udd25",
-  "captionMode": "source_verbatim_fallback",
+  "body": "WE HAVE A GAME 🔥",
+  "captionMode": "bounded_human_packaged",
   "captionCheckedAt": "2026-09-13T02:51:46.644Z",
   "sourceViewCount": 0,
   "sourceLikeCount": 2948,
@@ -33,7 +33,7 @@
     "sourceSha256": "ea322560cc20c1e328634c354ddfbb5553d6e9e6e56706b13c3ab378daf6f7af",
     "outputSha256": "f0668edfe90e75ea6a6de43b23030bfe1c0bcc1b2a077b3394edd933fec11159"
   },
-  "threadsText": "WE HAVE A GAME \ud83d\udd25\n\nSource: @overtime",
+  "threadsText": "WE HAVE A GAME 🔥\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",

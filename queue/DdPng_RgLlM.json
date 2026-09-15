@@ -3,8 +3,8 @@
   "shortcode": "DdPng_RgLlM",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/espn/reel/DdPng_RgLlM/",
-  "sourceCaption": "Alexander Zverev to Trinity Rodman after he beat her boyfriend Ben Shelton in the US Open Final \ud83c\udfbe",
-  "publishCaption": "Alexander Zverev to Trinity Rodman after he beat her boyfriend Ben Shelton in the US Open Final \ud83c\udfbe\n\nSource: @sportscenter\n\n@sportswire247",
+  "sourceCaption": "Alexander Zverev to Trinity Rodman after he beat her boyfriend Ben Shelton in the US Open Final 🎾",
+  "publishCaption": "The moment says it all 👀\n\nAlexander Zverev to Trinity Rodman after he beat her boyfriend Ben Shelton in the US Open Final 🎾\n\n#sports\n\nSource: @sportscenter\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-14T05:07:53.819Z",
   "status": "ready",
   "attempts": {
@@ -12,8 +12,8 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Alexander Zverev to Trinity Rodman after he beat her boyfriend Ben Shelton in the US Open Final \ud83c\udfbe",
-  "captionMode": "source_verbatim_fallback",
+  "body": "Alexander Zverev to Trinity Rodman after he beat her boyfriend Ben Shelton in the US Open Final 🎾",
+  "captionMode": "bounded_human_packaged",
   "captionCheckedAt": "2026-09-14T05:08:42.475Z",
   "sourceViewCount": 0,
   "sourceLikeCount": 152000,
@@ -33,7 +33,7 @@
     "sourceSha256": "ca1dc208cbfd1fe6be6f108ab19e3433c225864df495e0cc6cf6ac72c1db0467",
     "outputSha256": "0aae5cdb5ba876ae43f97033853de88a3b58d1679888000e8ace8cbbd324fee9"
   },
-  "threadsText": "Alexander Zverev to Trinity Rodman after he beat her boyfriend Ben Shelton in the US Open Final \ud83c\udfbe\n\nSource: @sportscenter",
+  "threadsText": "Alexander Zverev to Trinity Rodman after he beat her boyfriend Ben Shelton in the US Open Final 🎾\n\nSource: @sportscenter",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",

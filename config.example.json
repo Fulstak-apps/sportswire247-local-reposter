@@ -8,8 +8,8 @@
   },
   "chromeExecutable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
   "chromeProfileDir": "~/Library/Application Support/LocalSportsReposter/ChromeProfile",
-  "pollSeconds": 120,
-  "postingGapMinutes": 10,
+  "pollSeconds": 300,
+  "postingGapMinutes": 30,
   "popularBackfill": {
     "enabled": true,
     "minimumViews": 1000000,

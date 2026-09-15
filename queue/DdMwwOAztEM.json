@@ -3,8 +3,8 @@
   "shortcode": "DdMwwOAztEM",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdMwwOAztEM/",
-  "sourceCaption": "Bro dropped it at the worst time \ud83d\ude02\ud83d\ude2d",
-  "publishCaption": "Bro dropped it at the worst time \ud83d\ude02\ud83d\ude2d\n\nSource: @houseofhighlights\n\n@sportswire247",
+  "sourceCaption": "Bro dropped it at the worst time 😂😭",
+  "publishCaption": "The moment says it all 👀\n\nBro dropped it at the worst time 😂😭\n\n#sports\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-12T19:45:11.387Z",
   "status": "ready",
   "attempts": {
@@ -12,8 +12,8 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Bro dropped it at the worst time \ud83d\ude02\ud83d\ude2d",
-  "captionMode": "source_verbatim_fallback",
+  "body": "Bro dropped it at the worst time 😂😭",
+  "captionMode": "bounded_human_packaged",
   "captionCheckedAt": "2026-09-12T19:46:00.106Z",
   "sourceViewCount": 0,
   "sourceLikeCount": 671,
@@ -33,7 +33,7 @@
     "sourceSha256": "c9da4a9c43fac521923354aaad597d752b887667ce5c5364da708db5ed3ad937",
     "outputSha256": "677e4b59e041d7581368370cacd3f2fa9cf9c63253e1ba4d37fb974314b92789"
   },
-  "threadsText": "Bro dropped it at the worst time \ud83d\ude02\ud83d\ude2d\n\nSource: @houseofhighlights",
+  "threadsText": "Bro dropped it at the worst time 😂😭\n\nSource: @houseofhighlights",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",

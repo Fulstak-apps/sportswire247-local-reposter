@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { gapRemainingMs, processIsAlive, recoverQueueItem, unseenPosts, withCredit } from "../src/lib.mjs";
 import { assembleRanges } from "../src/collector.mjs";
-import { safeHumanizedCaption } from "../src/caption.mjs";
+import { composeCaption, safeHumanizedCaption } from "../src/caption.mjs";
 
 test("deduplicates Instagram posts by shortcode", () => {
   const ledger = { seenShortcodes: { AAA: { firstSeenAt: "earlier" } } };
@@ -27,6 +27,14 @@ test("caption is preserved and source credit is appended", () => {
 test("local caption cleanup cannot change source facts", () => {
   assert.equal(safeHumanizedCaption("Player scored 30 points #NBA", "Player scored 30 points #NBA"), "Player scored 30 points #NBA");
   assert.equal(safeHumanizedCaption("Player scored 30 points #NBA", "Player scored 31 points #NBA"), null);
+});
+test("caption packaging keeps source text while adding a varied hook and follow prompt", () => {
+  const source = "Amazing dunk #nba";
+  const caption = composeCaption(source, "HouseOfHighlights", { contentKind: "highlight", shortcode: "abc", sport: "basketball" });
+  assert.ok(caption.includes(source));
+  assert.ok(caption.includes("Source: @houseofhighlights"));
+  assert.ok(caption.includes("Follow @sportswire247"));
+  assert.ok(caption.includes("#basketball"));
 });
 test("reassembles browser media ranges without gaps", () => {
   const result = assembleRanges([{ start: 3, body: Buffer.from("def") }, { start: 0, body: Buffer.from("abc") }]);

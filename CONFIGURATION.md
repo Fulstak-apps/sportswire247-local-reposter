@@ -14,9 +14,9 @@ Source code and offline tests are backed up in the private repository `Fulstak-a
    - `instagramHandle`: keep `sportswire247`.
    - `destinations`: keep Instagram enabled and Facebook/Threads disabled.
    - `chromeProfileDir`: dedicated sports-only browser profile. Never point this at RapWire or your normal Chrome profile.
-   - `postingGapMinutes`: minimum gap between confirmed Instagram posts; default 10, matching RapWire's current feed pacing.
+   - `postingGapMinutes`: minimum gap between confirmed Instagram posts; default 30 minutes (two posts per hour).
    - `publishEnabled`: master safety switch. Keep `false` through login, baseline, and verification.
-   - `ollama.enabled`: local Ollama caption editing. It can improve punctuation and line breaks, but is blocked from adding or removing facts, names, scores, hashtags, or attribution. If Ollama is unavailable, the exact source caption is used instead; no ChatGPT credits are involved.
+   - `ollama.enabled`: optional local Ollama editorial metadata. Published captions preserve the exact source caption, then add a rotating human hook, two relevant sport tags, a discussion prompt, source credit, and a follow prompt. The same bounded packaging works when Ollama is unavailable; no ChatGPT credits are involved.
 3. Run `npm run mirror:login`. Sign into the non-RapWire sports Instagram account `@sportswire247` in the dedicated window. Close Chrome when done. Facebook and Threads are not destinations.
 4. Run `npm run baseline`. Every currently visible source shortcode is recorded with `baseline: true`; none is downloaded or posted. If any source fails, baseline completion remains false.
 5. Run `npm test`, then `npm run status`.
@@ -30,7 +30,7 @@ Source code and offline tests are backed up in the private repository `Fulstak-a
 - `npm run logs` — tail both worker logs.
 - `npm run retry -- SHORTCODE` — clear retry delay for one non-complete item; omit shortcode for all. Partial/uncertain cross-posts keep completed destination permalinks and reconcile before retrying.
 - `npm run newsroom:dry-run` — rank, locally edit, and QA candidates without writing or publishing.
-- `npm run newsroom:health` — verify Ollama/model, repository, isolated paths, queue/media, scheduler, and disabled development publisher.
+- `npm run newsroom:health` — verify repository, isolated paths, queue/media, scheduler, and Instagram readiness. Ollama is reported as optional.
 - `npm run newsroom:install` — install the separate `com.sportswire247.newsroom` five-minute LaunchAgent; installation never publishes.
 - `npm run repost:monitor` — run exactly one local collector/publisher cycle, using only the SportsWire247 profile.
 - `npm run dispatch` — run the GitHub verification-workflow dispatcher for this separate repository. It never dispatches or touches RapWire.
@@ -44,7 +44,7 @@ Each `runtime/queue/SHORTCODE.json` records the source handle, URL, shortcode, e
 ## Important operational notes
 
 - Browser selectors can change when Meta changes its sites. An uncertain result is never treated as complete; the worker searches the destination profile/Page for the caption before another upload.
-- Authenticated Chrome captures the exact visible source stream with its audio; it does not rely on a shared downloader or any RapWire process. The source caption is kept and only `Source: @SOURCEHANDLE` is appended.
+- Authenticated Chrome captures the exact visible source stream with its audio; it does not rely on a shared downloader or any RapWire process. The exact source caption is preserved, then packaged with a rotating hook, relevant tags, a discussion prompt, source credit, and follow prompt.
 - Every publish asset retains the full source frame—there is no aspect-ratio crop—so embedded captions and subtitles stay in view. The exact supplied SportsWire 24/7 RGBA logo is bottom-left. The full video duration is validated, audio is preserved as AAC, and an unbranded or silent render is refused. The post caption is also present below the video as an accessible fallback.
 - macOS must remain plugged in and logged into the user session. The separate `com.local.sports-reposter.keep-awake` agent prevents idle sleep while on AC power. The main launchd agent restarts after login/reboot and invokes the worker every 120 seconds, matching RapWire's current scheduler; the PID lock prevents overlapping cycles.
 - Instagram/Threads may have their own upload length or format constraints. Those failures remain queued for retry and are never silently marked complete.

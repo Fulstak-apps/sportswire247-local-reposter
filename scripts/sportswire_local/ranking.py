@@ -373,16 +373,8 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
         if has_observed_engagement and selection_score >= required_score - 20:
             eligible = True
             reasons.append("recent supported sport with observed audience engagement")
-    # Approved highlight publishers often write context-free captions such as
-    # "that was wild" or only name an athlete. Admit only strongly engaged,
-    # recent generic-sports items, beneath every explicitly classified sport in
-    # the sort order. This keeps the buffer full without treating random sites
-    # as trusted sports sources.
-    if not supported and source in SOURCE_PRIORS and age_hours is not None and age_hours <= 96:
-        strong_generic_signal = numeric_likes >= 100 or numeric_comments >= 5
-        if strong_generic_signal and selection_score >= 10:
-            eligible = True
-            reasons.append("recent high-engagement clip from approved sports publisher")
+    # The automatic lane is limited to basketball, football, MLB, and hockey.
+    # Context-free clips stay out of the queue even when engagement is high.
 
     reasons.append(f"posting floor {required_score:.0f}")
     if content_kind == "highlight":

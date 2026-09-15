@@ -3,8 +3,8 @@
   "shortcode": "DdNRH4Fpvgv",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdNRH4Fpvgv/",
-  "sourceCaption": "An Akron fan got to be the OC for the first drive vs. RMU, but his duties were cut short after a fumble just 4 plays in \ud83d\ude15\ud83d\udc94",
-  "publishCaption": "An Akron fan got to be the OC for the first drive vs. RMU, but his duties were cut short after a fumble just 4 plays in \ud83d\ude15\ud83d\udc94\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "An Akron fan got to be the OC for the first drive vs. RMU, but his duties were cut short after a fumble just 4 plays in 😕💔",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nAn Akron fan got to be the OC for the first drive vs. RMU, but his duties were cut short after a fumble just 4 plays in 😕💔\n\n#sports\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-13T00:30:02.582Z",
   "status": "ready",
   "attempts": {
@@ -12,8 +12,8 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "An Akron fan got to be the OC for the first drive vs. RMU, but his duties were cut short after a fumble just 4 plays in \ud83d\ude15\ud83d\udc94",
-  "captionMode": "source_verbatim_fallback",
+  "body": "An Akron fan got to be the OC for the first drive vs. RMU, but his duties were cut short after a fumble just 4 plays in 😕💔",
+  "captionMode": "bounded_human_packaged",
   "captionCheckedAt": "2026-09-13T00:30:51.134Z",
   "sourceViewCount": 0,
   "sourceLikeCount": 359,
@@ -33,7 +33,7 @@
     "sourceSha256": "ee65e36404bc46829b0e64bd3fb593619ed3bf317d067cdc1d83a1f8f47f30f9",
     "outputSha256": "5704eb6b341c3dc8597d70e3a85f8ebf4ed64a8d0c62b8aad0859a14213f2957"
   },
-  "threadsText": "An Akron fan got to be the OC for the first drive vs. RMU, but his duties were cut short after a fumble just 4 plays in \ud83d\ude15\ud83d\udc94\n\nSource: @bleacherreport",
+  "threadsText": "An Akron fan got to be the OC for the first drive vs. RMU, but his duties were cut short after a fumble just 4 plays in 😕💔\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",

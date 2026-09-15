@@ -3,8 +3,8 @@
   "shortcode": "DdO8ZbjEZu-",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimeszn/p/DdO8ZbjEZu-/",
-  "sourceCaption": "WE ARE SO BACK OMGGGGG \ud83c\udf7f\ud83e\udd29",
-  "publishCaption": "WE ARE SO BACK OMGGGGG \ud83c\udf7f\ud83e\udd29\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "WE ARE SO BACK OMGGGGG 🍿🤩",
+  "publishCaption": "The moment says it all 👀\n\nWE ARE SO BACK OMGGGGG 🍿🤩\n\n#sports\n\nSource: @overtime\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-13T16:09:06.457Z",
   "status": "ready",
   "attempts": {
@@ -12,8 +12,8 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "WE ARE SO BACK OMGGGGG \ud83c\udf7f\ud83e\udd29",
-  "captionMode": "source_verbatim_fallback",
+  "body": "WE ARE SO BACK OMGGGGG 🍿🤩",
+  "captionMode": "bounded_human_packaged",
   "captionCheckedAt": "2026-09-13T16:09:55.342Z",
   "sourceViewCount": 0,
   "sourceLikeCount": 2838,
@@ -33,7 +33,7 @@
     "sourceSha256": "db499b945a8375808408566b6825e2f91fdf0e1a2791ac507a1cfc4f218f8a19",
     "outputSha256": "4b8910f78cb2b3866ece0af6bebc4567a3c75e663507696f29aea44c5083bf5b"
   },
-  "threadsText": "WE ARE SO BACK OMGGGGG \ud83c\udf7f\ud83e\udd29\n\nSource: @overtime",
+  "threadsText": "WE ARE SO BACK OMGGGGG 🍿🤩\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",

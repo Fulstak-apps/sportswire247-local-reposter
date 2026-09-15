@@ -3,8 +3,8 @@
   "shortcode": "DdPVu_YgBWr",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/DdPVu_YgBWr/",
-  "sourceCaption": "Bro has no chill \ud83e\udd23 @c.dubbb (via @rossmartinnc)",
-  "publishCaption": "Bro has no chill \ud83e\udd23 @c.dubbb (via @rossmartinnc)\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "Bro has no chill 🤣 @c.dubbb (via @rossmartinnc)",
+  "publishCaption": "The moment says it all 👀\n\nBro has no chill 🤣 @c.dubbb (via @rossmartinnc)\n\n#sports\n\nSource: @overtime\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-13T19:48:08.496Z",
   "status": "ready",
   "attempts": {
@@ -12,8 +12,8 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Bro has no chill \ud83e\udd23 @c.dubbb (via @rossmartinnc)",
-  "captionMode": "source_verbatim_fallback",
+  "body": "Bro has no chill 🤣 @c.dubbb (via @rossmartinnc)",
+  "captionMode": "bounded_human_packaged",
   "captionCheckedAt": "2026-09-13T19:48:57.069Z",
   "sourceViewCount": 0,
   "sourceLikeCount": 1279,
@@ -33,7 +33,7 @@
     "sourceSha256": "df37000eca3e5e9aacbd22cedd69202c986adac78b1c2e703c2d50fbc0095c8d",
     "outputSha256": "82170ac0e24c24268a6862b7c5900cf53bb2c303f51307d620c7799f1775bc14"
   },
-  "threadsText": "Bro has no chill \ud83e\udd23 @c.dubbb (via @rossmartinnc)\n\nSource: @overtime",
+  "threadsText": "Bro has no chill 🤣 @c.dubbb (via @rossmartinnc)\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",

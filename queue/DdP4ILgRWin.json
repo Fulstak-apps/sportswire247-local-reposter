@@ -3,8 +3,8 @@
   "shortcode": "DdP4ILgRWin",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdP4ILgRWin/",
-  "sourceCaption": "Real teammate \ud83d\udcaf (\ud83d\udcfa: NBC)",
-  "publishCaption": "Real teammate \ud83d\udcaf (\ud83d\udcfa: NBC)\n\nSource: @sportscenter\n\n@sportswire247",
+  "sourceCaption": "Real teammate 💯 (📺: NBC)",
+  "publishCaption": "The moment says it all 👀\n\nReal teammate 💯 (📺: NBC)\n\n#sports\n\nSource: @sportscenter\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-14T04:58:53.944Z",
   "status": "ready",
   "attempts": {
@@ -12,8 +12,8 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Real teammate \ud83d\udcaf (\ud83d\udcfa: NBC)",
-  "captionMode": "source_verbatim_fallback",
+  "body": "Real teammate 💯 (📺: NBC)",
+  "captionMode": "bounded_human_packaged",
   "captionCheckedAt": "2026-09-14T04:59:42.759Z",
   "sourceViewCount": 0,
   "sourceLikeCount": 50000,
@@ -33,7 +33,7 @@
     "sourceSha256": "c90bc160d007b48de1fcf097e42f375bc1156cc2eb4e2038769647bc8a4d2c5e",
     "outputSha256": "34b84df5c5ddb1d0ebc3fff8b720aece8150212a8e65e68aa2e12868ba247ce7"
   },
-  "threadsText": "Real teammate \ud83d\udcaf (\ud83d\udcfa: NBC)\n\nSource: @sportscenter",
+  "threadsText": "Real teammate 💯 (📺: NBC)\n\nSource: @sportscenter",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",

@@ -7,6 +7,7 @@ from .config import ROOT, INBOX_QUEUE, QUEUE, MEDIA, LOGS, STATE, load_config, s
 from .ranking import score, apply_history_penalties, select_best
 from .qa import evaluate
 from .ollama import generate
+from .captions import compose_caption
 
 def read_items() -> list[dict]:
     items = []
@@ -47,9 +48,7 @@ def delivery_history(limit: int = 120) -> list[dict]:
     return history
 
 ACTIVE_DELIVERY_STATUSES = {
-    "ready", "publishing_uncertain", "partially_published",
-    "instagram_published_threads_pending", "threads_published_instagram_pending",
-    "published",
+    "ready", "publishing_uncertain", "partially_published", "published",
 }
 
 def preserve_delivery_state(staged: dict, existing: dict | None) -> dict:
@@ -58,7 +57,7 @@ def preserve_delivery_state(staged: dict, existing: dict | None) -> dict:
     for key, value in existing.items():
         if key == "status" and value in {"held", "review"}:
             continue
-        if key.startswith(("instagram", "threads")) or key in {
+        if key.startswith("instagram") or key in {
             "status", "publishedAt", "publicationResult", "uncertainDestination",
             "publishRequestedAt", "nextRetryAt", "lastError",
         }:
@@ -92,10 +91,11 @@ def prepare(item: dict, config: dict, approved: set[str]) -> dict:
         )})
         ollama_status = "local_ollama"
     except Exception as error: ollama_status = f"fallback_source_caption: {type(error).__name__}"
-    body = generated.get("caption") or ranked.get("body") or ranked.get("sourceCaption", "")
-    credit = f"Source: @{ranked.get('sourceHandle', '')}"
-    ranked["publishCaption"] = f"{body}\n\n{credit}\n\n@sportswire247"
-    ranked["threadsText"] = f"{generated.get('threads_text') or body}\n\n{credit}"
+    source_caption = ranked.get("sourceCaption", "")
+    # Ollama can provide editorial metadata, but the published copy always
+    # preserves the exact source caption and uses bounded packaging.
+    body = source_caption
+    ranked["publishCaption"] = compose_caption(body, ranked.get("sourceHandle", ""), ranked.get("contentKind", "routine"), ranked.get("shortcode", ""), ranked.get("sportCategory", ""))
     ranked["contentLane"] = generated.get("content_lane") or ranked.get("contentKind") or "viral_sports"
     ranked["confidence"] = generated.get("confidence") or "reported"
     ranked["ollamaStatus"] = ollama_status
@@ -174,14 +174,14 @@ def run(dry_run: bool = False) -> dict:
             media_target = MEDIA / f"{selected['shortcode']}-sportswire247.mp4"
             shutil.copy2(Path(current["localVideoPath"]), media_target)
             carry = (
-                "publishCaption", "threadsText", "contentLane", "confidence", "ollamaStatus", "qa",
+                "publishCaption", "contentLane", "confidence", "ollamaStatus", "qa",
                 "league", "sportCategory", "sportRank", "contentKind", "priority", "viralScore",
                 "rawScore", "engagementScore", "scoreMargin", "highlightQuality", "postingFloor", "highlightFloor",
                 "eligibleForAutoPost", "rankingVersion", "duplicateOf", "deterministicScore",
                 "scoreReasons", "storyFingerprint",
             )
             current.update({k: selected[k] for k in carry if k in selected})
-            current.update({"status": selected["proposedStatus"], "video": str(media_target.relative_to(ROOT)), "brand": "SportsWire 247", "destinationHandle": "sportswire247", "instagramStatus": "pending", "threadsStatus": "pending"})
+            current.update({"status": selected["proposedStatus"], "video": str(media_target.relative_to(ROOT)), "brand": "SportsWire 247", "destinationHandle": "sportswire247", "instagramStatus": "pending"})
             current = preserve_delivery_state(current, existing)
             current.pop("localVideoPath", None); current.pop("sourceVideoPath", None)
             (QUEUE / f"{selected['shortcode']}.json").write_text(json.dumps(current, indent=2) + "\n")
@@ -202,15 +202,9 @@ def health() -> dict:
     except Exception: checks["ollama"] = checks["modelInstalled"] = False
     checks["gitUsable"] = subprocess.run(["git", "rev-parse", "--is-inside-work-tree"], cwd=ROOT, capture_output=True).returncode == 0
     checks["schedulerPlist"] = (Path.home() / "Library/LaunchAgents/com.sportswire247.newsroom.plist").exists()
-    checks["destinationSafety"] = (
-        config.get("instagramHandle") == "sportswire247"
-        and config.get("threadsHandle") == "sportswire247"
-        and config.get("destinations", {}).get("facebook") is False
-    )
-    checks["metaCredentialsPresentLocally"] = all(os.environ.get(name) for name in (
-        "INSTAGRAM_ACCESS_TOKEN", "INSTAGRAM_USER_ID", "THREADS_ACCESS_TOKEN", "THREADS_USER_ID"
-    ))
+    checks["destinationSafety"] = config.get("instagramHandle") == "sportswire247" and config.get("destinations", {}).get("facebook") is False and not config.get("destinations", {}).get("threads", False)
+    checks["metaCredentialsPresentLocally"] = all(os.environ.get(name) for name in ("INSTAGRAM_ACCESS_TOKEN", "INSTAGRAM_USER_ID"))
     checks["rapwireIsolation"] = not any("RapWire" in str(p) for p in (ROOT, QUEUE, MEDIA, LOGS, STATE))
     checks["rankingVersion"] = "sportswire-newsroom-v2"
-    required = ("repo", "inboxQueue", "queue", "media", "ollama", "modelInstalled", "gitUsable", "schedulerPlist", "destinationSafety", "rapwireIsolation")
+    required = ("repo", "inboxQueue", "queue", "media", "gitUsable", "schedulerPlist", "destinationSafety", "rapwireIsolation")
     return {"healthy": all(checks[name] for name in required), "publishReady": checks["metaCredentialsPresentLocally"] and config.get("publishEnabled", False), "checks": checks, "mode": config.get("mode"), "publishingEnabled": bool(config.get("publishEnabled", False))}

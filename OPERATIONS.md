@@ -6,9 +6,9 @@ This repository is the isolated local-first newsroom and Meta publisher for `@sp
 
 The Mac launch agent `com.sportswire247.newsroom` runs every five minutes from `~/Library/Application Support/SportsWire/publisher-runtime`. It uses the dedicated SportsWire Chrome profile to discover authorized video posts, records Instagram shortcodes before processing, downloads complete video/audio, and prepares one ranked candidate. Ollama `qwen3:4b` supplies optional local wording; exact source copy is the fallback when Ollama is unavailable or malformed.
 
-The local job writes only SportsWire `queue/`, `media/`, and `logs/`, then fetches, rebases, and pushes without force. A conflict stops delivery while preserving the local commit. GitHub Actions publishes at most one feed item at a time to Instagram, with cooldown, spacing, attempt state, container ID, media ID, and permalink verification.
+The local job writes only SportsWire `queue/`, `media/`, and small operational logs, then fetches, rebases, and pushes without force. The high-volume newsroom JSONL log stays local and is ignored by Git. A conflict stops delivery while preserving the local commit. GitHub Actions publishes at most one feed item at a time to Instagram, with cooldown, spacing, attempt state, container ID, media ID, and permalink verification.
 
-Development is left in `review` mode with `publishEnabled: false`. `--dry-run` is strictly read-only and never locks, writes, commits, pushes, collects, or publishes. Change to `autonomous` only after account and media-host configuration is complete and reviewed.
+The installed runtime is in `autonomous` mode with `publishEnabled: true`. `--dry-run` is strictly read-only and never locks, writes, commits, pushes, collects, or publishes.
 
 ## Newsroom v2 ranking
 
@@ -47,7 +47,7 @@ Meta must be able to fetch each queued video by public HTTPS URL. Configure `MED
 
 ## Media and editorial gates
 
-Only configured, authorized source accounts are accepted. Video must contain video plus audio and finish as H.264/AAC. Five frames are sampled with local Apple Vision OCR/face detection. The full source frame is retained; the bottom-left SportsWire logo shrinks to avoid detected text/faces, and ambiguous content is held for review. Captions preserve source meaning, include `Source: @handle`, and end with `@sportswire247`.
+Only configured, authorized source accounts are accepted. Video must contain video plus audio and finish as H.264/AAC. Five frames are sampled with local Apple Vision OCR/face detection. The full source frame is retained; the bottom-left SportsWire logo shrinks to avoid detected text/faces, and ambiguous content is held for review. Captions preserve the exact source text, then add a rotating hook, relevant tags, a discussion prompt, source credit, and follow prompt.
 
 Serious medical, death, criminal, or legal items require explicit reporting verification. Unsupported sources, stale non-viral posts, unverified tags, duplicate/near-duplicate stories, missing media, wrong-athlete evidence, below-threshold clips, and RapWire contamination fail closed.
 

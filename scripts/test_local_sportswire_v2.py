@@ -114,7 +114,7 @@ class SportsWireV2RankingTests(unittest.TestCase):
         self.assertEqual(soccer["sportCategory"], "other")
         self.assertFalse(soccer["eligibleForAutoPost"])
 
-    def test_context_light_approved_source_clip_can_fill_buffer(self):
+    def test_context_light_clip_stays_out_of_target_sports_lane(self):
         item = self.ranked(
             "That was absolutely wild",
             views=0,
@@ -123,7 +123,7 @@ class SportsWireV2RankingTests(unittest.TestCase):
             comments=100,
         )
         self.assertEqual(item["sportCategory"], "other")
-        self.assertTrue(item["eligibleForAutoPost"])
+        self.assertFalse(item["eligibleForAutoPost"])
 
     def test_near_duplicate_gets_penalized(self):
         item = self.ranked("NBA Steph Curry game winner from the logo", 2_000_000, "NEW")

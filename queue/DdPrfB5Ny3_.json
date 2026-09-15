@@ -3,8 +3,8 @@
   "shortcode": "DdPrfB5Ny3_",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdPrfB5Ny3_/",
-  "sourceCaption": "THAT\u2019S NASTYYY \u203c\ufe0f\n\n(via @philadelphiaeagles)",
-  "publishCaption": "THAT\u2019S NASTYYY \u203c\ufe0f\n\n(via @philadelphiaeagles)\n\nSource: @sportscenter\n\n@sportswire247",
+  "sourceCaption": "THAT’S NASTYYY ‼️\n\n(via @philadelphiaeagles)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nTHAT’S NASTYYY ‼️\n\n(via @philadelphiaeagles)\n\n#sports\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-14T05:04:27.480Z",
   "status": "ready",
   "attempts": {
@@ -12,8 +12,8 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "THAT\u2019S NASTYYY \u203c\ufe0f\n\n(via @philadelphiaeagles)",
-  "captionMode": "source_verbatim_fallback",
+  "body": "THAT’S NASTYYY ‼️\n\n(via @philadelphiaeagles)",
+  "captionMode": "bounded_human_packaged",
   "captionCheckedAt": "2026-09-14T05:05:16.164Z",
   "sourceViewCount": 0,
   "sourceLikeCount": 94000,
@@ -33,7 +33,7 @@
     "sourceSha256": "432cd5a4f5660b55bed6aa97fc3830b32ae3dc94c05464f53b4b29d88a8c2cba",
     "outputSha256": "585c999b376e6f09de3d8baf584c8637d81a824eeac99c966fd94130e250b17e"
   },
-  "threadsText": "THAT\u2019S NASTYYY \u203c\ufe0f\n\n(via @philadelphiaeagles)\n\nSource: @sportscenter",
+  "threadsText": "THAT’S NASTYYY ‼️\n\n(via @philadelphiaeagles)\n\nSource: @sportscenter",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",

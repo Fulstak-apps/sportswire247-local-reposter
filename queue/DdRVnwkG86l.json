@@ -3,8 +3,8 @@
   "shortcode": "DdRVnwkG86l",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/p/DdRVnwkG86l/",
-  "sourceCaption": "Chris Olave speaks out on why he\u2019s wearing a guardian cap \n\n(via @saints)",
-  "publishCaption": "Chris Olave speaks out on why he\u2019s wearing a guardian cap \n\n(via @saints)\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Chris Olave speaks out on why he’s wearing a guardian cap \n\n(via @saints)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nChris Olave speaks out on why he’s wearing a guardian cap \n\n(via @saints)\n\n#sports\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-14T14:37:08.439Z",
   "status": "ready",
   "attempts": {
@@ -12,8 +12,8 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Chris Olave speaks out on why he\u2019s wearing a guardian cap \n\n(via @saints)",
-  "captionMode": "source_verbatim_fallback",
+  "body": "Chris Olave speaks out on why he’s wearing a guardian cap \n\n(via @saints)",
+  "captionMode": "bounded_human_packaged",
   "captionCheckedAt": "2026-09-14T14:37:56.761Z",
   "sourceViewCount": 0,
   "sourceLikeCount": 5692,
@@ -33,7 +33,7 @@
     "sourceSha256": "607743fc490278945dc2fa646155975e89cd93b2a7c610b0f3be278d63ea0a76",
     "outputSha256": "23fb0ba3021f3a8e75a675ff93003c9aa36e2699fdcafec2a249ddeecd9ed38f"
   },
-  "threadsText": "Chris Olave speaks out on why he\u2019s wearing a guardian cap \n\n(via @saints)\n\nSource: @bleacherreport",
+  "threadsText": "Chris Olave speaks out on why he’s wearing a guardian cap \n\n(via @saints)\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",

@@ -3,8 +3,8 @@
   "shortcode": "DdKvNhlBYQl",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/daznboxing/reel/DdKvNhlBYQl/",
-  "sourceCaption": "This FACE OFF \ud83e\udd29\n\n\ud83c\udf9f\ufe0f Buy #GarciaBenn at DAZN.com | Sept 12 | Live Exclusively on DAZN in UK & Ireland, plus other select territories | @ringmagazine \u25aa\ufe0f",
-  "publishCaption": "This FACE OFF \ud83e\udd29\n\n\ud83c\udf9f\ufe0f Buy #GarciaBenn at DAZN.com | Sept 12 | Live Exclusively on DAZN in UK & Ireland, plus other select territories | @ringmagazine \u25aa\ufe0f\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "This FACE OFF 🤩\n\n🎟️ Buy #GarciaBenn at DAZN.com | Sept 12 | Live Exclusively on DAZN in UK & Ireland, plus other select territories | @ringmagazine ▪️",
+  "publishCaption": "You have to see this one twice 👀\n\nThis FACE OFF 🤩\n\n🎟️ Buy #GarciaBenn at DAZN.com | Sept 12 | Live Exclusively on DAZN in UK & Ireland, plus other select territories | @ringmagazine ▪️\n\n#sports\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-12T01:15:48.607Z",
   "status": "ready",
   "attempts": {
@@ -12,8 +12,8 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "This FACE OFF \ud83e\udd29\n\n\ud83c\udf9f\ufe0f Buy #GarciaBenn at DAZN.com | Sept 12 | Live Exclusively on DAZN in UK & Ireland, plus other select territories | @ringmagazine \u25aa\ufe0f",
-  "captionMode": "source_verbatim_fallback",
+  "body": "This FACE OFF 🤩\n\n🎟️ Buy #GarciaBenn at DAZN.com | Sept 12 | Live Exclusively on DAZN in UK & Ireland, plus other select territories | @ringmagazine ▪️",
+  "captionMode": "bounded_human_packaged",
   "captionCheckedAt": "2026-09-12T01:16:37.223Z",
   "sourceViewCount": 0,
   "sourceLikeCount": 3142,
@@ -33,7 +33,7 @@
     "sourceSha256": "dbdba1d82a019432f92191b1ac580da7f423f9eccbe9d89ce4140991d14d7301",
     "outputSha256": "888bdeb09f40c563c992c15d1ad8a9c17a4d940461d3924264a43a14abf6b5cf"
   },
-  "threadsText": "This FACE OFF \ud83e\udd29\n\n\ud83c\udf9f\ufe0f Buy #GarciaBenn at DAZN.com | Sept 12 | Live Exclusively on DAZN in UK & Ireland, plus other select territories | @ringmagazine \u25aa\ufe0f\n\nSource: @bleacherreport",
+  "threadsText": "This FACE OFF 🤩\n\n🎟️ Buy #GarciaBenn at DAZN.com | Sept 12 | Live Exclusively on DAZN in UK & Ireland, plus other select territories | @ringmagazine ▪️\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",

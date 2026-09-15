@@ -3,8 +3,8 @@
   "shortcode": "DdP-6CIjI2l",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimeszn/p/DdP-6CIjI2l/",
-  "sourceCaption": "Yeah\u2026 Caleb Downs is a problem \ud83d\udc80",
-  "publishCaption": "Yeah\u2026 Caleb Downs is a problem \ud83d\udc80\n\nSource: @overtime\n\n@sportswire247",
+  "sourceCaption": "Yeah… Caleb Downs is a problem 💀",
+  "publishCaption": "You have to see this one twice 👀\n\nYeah… Caleb Downs is a problem 💀\n\n#sports\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-14T05:15:32.762Z",
   "status": "ready",
   "attempts": {
@@ -12,8 +12,8 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Yeah\u2026 Caleb Downs is a problem \ud83d\udc80",
-  "captionMode": "source_verbatim_fallback",
+  "body": "Yeah… Caleb Downs is a problem 💀",
+  "captionMode": "bounded_human_packaged",
   "captionCheckedAt": "2026-09-14T05:16:21.479Z",
   "sourceViewCount": 0,
   "sourceLikeCount": 15000,
@@ -33,7 +33,7 @@
     "sourceSha256": "32d6337a146743b9174ae08e64e021d704432e7a7771bb380a1a7ebf9fc2702a",
     "outputSha256": "d9dd555e44ad44249569dacdeed6ddb87bfda7c5c568af65c9952b6d64b588db"
   },
-  "threadsText": "Yeah\u2026 Caleb Downs is a problem \ud83d\udc80\n\nSource: @overtime",
+  "threadsText": "Yeah… Caleb Downs is a problem 💀\n\nSource: @overtime",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",

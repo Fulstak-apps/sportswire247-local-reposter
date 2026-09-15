@@ -3,8 +3,8 @@
   "shortcode": "DdNlVVnsjTh",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/espncfb/reel/DdNlVVnsjTh/",
-  "sourceCaption": "It\u2019s a party in Austin \ud83e\udd20",
-  "publishCaption": "It\u2019s a party in Austin \ud83e\udd20\n\nSource: @sportscenter\n\n@sportswire247",
+  "sourceCaption": "It’s a party in Austin 🤠",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nIt’s a party in Austin 🤠\n\n#sports\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-13T15:21:06.630Z",
   "status": "ready",
   "attempts": {
@@ -12,8 +12,8 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "It\u2019s a party in Austin \ud83e\udd20",
-  "captionMode": "source_verbatim_fallback",
+  "body": "It’s a party in Austin 🤠",
+  "captionMode": "bounded_human_packaged",
   "captionCheckedAt": "2026-09-13T15:21:55.471Z",
   "sourceViewCount": 0,
   "sourceLikeCount": 62000,
@@ -33,7 +33,7 @@
     "sourceSha256": "9dcf141c6e9565304b7cfdabe8672f7785cb03923af505a76de753c4089eac73",
     "outputSha256": "cccf0a530f0b7cc346897fb166a818c83347a222c973881b6e936ba5d728a407"
   },
-  "threadsText": "It\u2019s a party in Austin \ud83e\udd20\n\nSource: @sportscenter",
+  "threadsText": "It’s a party in Austin 🤠\n\nSource: @sportscenter",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",

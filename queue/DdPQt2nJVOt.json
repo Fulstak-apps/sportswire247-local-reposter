@@ -3,8 +3,8 @@
   "shortcode": "DdPQt2nJVOt",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brwsports/reel/DdPQt2nJVOt/",
-  "sourceCaption": "Angel with the clamps \ud83d\udd12\nCaitlin hits the triple \ud83d\udc4c\n\nWatch the second half of the #FIBAWWC Gold Medal game on TNT, truTV, & HBO Max \ud83c\udf7f",
-  "publishCaption": "Angel with the clamps \ud83d\udd12\nCaitlin hits the triple \ud83d\udc4c\n\nWatch the second half of the #FIBAWWC Gold Medal game on TNT, truTV, & HBO Max \ud83c\udf7f\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Angel with the clamps 🔒\nCaitlin hits the triple 👌\n\nWatch the second half of the #FIBAWWC Gold Medal game on TNT, truTV, & HBO Max 🍿",
+  "publishCaption": "The moment says it all 👀\n\nAngel with the clamps 🔒\nCaitlin hits the triple 👌\n\nWatch the second half of the #FIBAWWC Gold Medal game on TNT, truTV, & HBO Max 🍿\n\n#sports\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-13T19:07:00.272Z",
   "status": "ready",
   "attempts": {
@@ -12,8 +12,8 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Angel with the clamps \ud83d\udd12\nCaitlin hits the triple \ud83d\udc4c\n\nWatch the second half of the #FIBAWWC Gold Medal game on TNT, truTV, & HBO Max \ud83c\udf7f",
-  "captionMode": "source_verbatim_fallback",
+  "body": "Angel with the clamps 🔒\nCaitlin hits the triple 👌\n\nWatch the second half of the #FIBAWWC Gold Medal game on TNT, truTV, & HBO Max 🍿",
+  "captionMode": "bounded_human_packaged",
   "captionCheckedAt": "2026-09-13T19:07:49.087Z",
   "sourceViewCount": 0,
   "sourceLikeCount": 1621,
@@ -33,7 +33,7 @@
     "sourceSha256": "356573d577000f45d1f562fb8f418ff53c76f56651709072bb3bc6b3bbd9b9b1",
     "outputSha256": "286db5a743c3cd4eafabb7321135e9eea0a7c83d66860b2a54fd8cba9fbc1bc1"
   },
-  "threadsText": "Angel with the clamps \ud83d\udd12\nCaitlin hits the triple \ud83d\udc4c\n\nWatch the second half of the #FIBAWWC Gold Medal game on TNT, truTV, & HBO Max \ud83c\udf7f\n\nSource: @bleacherreport",
+  "threadsText": "Angel with the clamps 🔒\nCaitlin hits the triple 👌\n\nWatch the second half of the #FIBAWWC Gold Medal game on TNT, truTV, & HBO Max 🍿\n\nSource: @bleacherreport",
   "contentLane": "routine",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
