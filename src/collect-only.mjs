@@ -18,10 +18,17 @@ await ensureRuntime();
 if (!await acquire()) process.exit(0);
 try {
   const config = await loadConfig();
-  for (let item of await listQueue()) {
+  const recoverable = (await listQueue())
+    .filter(item => ["pending", "downloading"].includes(item.status))
+    .sort((a, b) => Date.parse(b.sourcePublishedAt || b.discoveredAt || 0) - Date.parse(a.sourcePublishedAt || a.discoveredAt || 0));
+  let recoveryAttempts = 0;
+  for (let item of recoverable) {
     const recovered = recoverQueueItem(item);
     if (recovered !== item) { item = recovered; await saveItem(item); }
-    if (item.status !== "pending" || item.localVideoPath || (item.nextRetryAt && Date.parse(item.nextRetryAt) > Date.now())) continue;
+    if (item.status !== "pending" || (item.nextRetryAt && Date.parse(item.nextRetryAt) > Date.now())) continue;
+    if (item.localVideoPath && item.branding?.logoApplied && await fs.access(item.localVideoPath).then(() => true).catch(() => false)) continue;
+    if (recoveryAttempts >= 5) break;
+    recoveryAttempts++;
     try {
       await downloadOriginal(config, item);
       delete item.lastError; delete item.nextRetryAt; await saveItem(item);
