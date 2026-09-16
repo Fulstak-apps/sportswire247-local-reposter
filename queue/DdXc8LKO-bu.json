@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/talkinbaseball_/reel/DdXc8LKO-bu/",
   "sourceCaption": "Pete Alonso does it again! He crushes home run #301 in the first inning at Citi Field\n\n#mlb #baseball #sports #mets",
-  "publishCaption": "Had to run that one back \ud83d\udc40\n\nPete Alonso does it again! He crushes home run #301 in the first inning at Citi Field\n\n#mlb #baseball #sports #mets\n\nSource: @jomboymedia\n\nRate this one 1\u201310.\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "Had to run that one back 👀\n\nPete Alonso does it again! He crushes home run #301 in the first inning at Citi Field\n\n#mlb #baseball #sports #mets\n\nSource: @jomboymedia\n\nRate this one 1–10.\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-16T23:27:00.133Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 9.99,
   "scoreMargin": 16.83,
   "highlightQuality": 29.99,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 61.83,
@@ -75,5 +75,12 @@
   "video": "media/DdXc8LKO-bu-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110652313915961",
+  "instagramContainerCreatedAt": "2026-09-16T23:57:20.651Z",
+  "instagramPublishRequestedAt": "2026-09-16T23:58:37.821Z",
+  "instagramMediaId": "18122932289483057",
+  "instagramPermalink": "https://www.instagram.com/reel/DdXhQw5DkIZ/",
+  "instagramVerifiedAt": "2026-09-16T23:58:47.402Z",
+  "publishedAt": "2026-09-16T23:58:47.403Z"
 }
