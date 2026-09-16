@@ -9,6 +9,7 @@
   "chromeExecutable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
   "chromeProfileDir": "~/Library/Application Support/LocalSportsReposter/ChromeProfile",
   "pollSeconds": 300,
+  "maximumFreshVideosPerCycle": 5,
   "postingGapMinutes": 30,
   "popularBackfill": {
     "enabled": true,

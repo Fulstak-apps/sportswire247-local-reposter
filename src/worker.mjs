@@ -33,7 +33,7 @@ try {
     const recovered = recoverQueueItem(item); if (recovered !== item) { item = recovered; await saveItem(item); }
     if (item.status !== "pending" || (item.nextRetryAt && Date.parse(item.nextRetryAt) > Date.now())) continue;
     if (item.localVideoPath && item.branding?.logoApplied && await fs.access(item.localVideoPath).then(() => true).catch(() => false)) continue;
-    if (recoveryAttempts >= 5) break;
+    if (recoveryAttempts >= 2) break;
     recoveryAttempts++;
     try { await downloadOriginal(config, item); delete item.lastError; delete item.nextRetryAt; await saveItem(item); }
     catch (error) { item.attempts.download += 1; item.lastError = error.message; item.nextRetryAt = new Date(Date.now() + 300_000).toISOString(); await saveItem(item); }

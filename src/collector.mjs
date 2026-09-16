@@ -28,7 +28,7 @@ export async function brandVideo(config, sourcePath, destinationPath) {
   const temp = `${destinationPath}.${process.pid}.tmp.mp4`;
   await execFileAsync(ffmpegPath, ["-y", "-i", sourcePath, "-loop", "1", "-i", logoPath,
     "-filter_complex", `[1:v]scale=${logoWidth}:-1[logo];[0:v][logo]overlay=x=${margin}:y=H-h-${bottomMargin}:shortest=1[v]`,
-    "-map", "[v]", "-map", "0:a:0", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
+    "-map", "[v]", "-map", "0:a:0", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-pix_fmt", "yuv420p",
     "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", temp], { timeout: 20 * 60_000, maxBuffer: 4_000_000 });
   const output = await probe(temp, ffprobePath); const outputVideo = output.streams?.find(stream => stream.codec_type === "video"); const outputAudio = output.streams?.find(stream => stream.codec_type === "audio");
   if (outputVideo?.codec_name !== "h264" || outputAudio?.codec_name !== "aac") { await fs.rm(temp, { force: true }); throw new Error("Branded output failed H.264/AAC validation."); }
@@ -139,6 +139,8 @@ export async function collect(config, { forceBaseline = false } = {}) {
   const baseline = forceBaseline || !ledger.baselineComplete;
   const run = { startedAt: new Date().toISOString(), baseline, discovered: 0, queued: [], errors: [] };
   let backfillsQueued = 0;
+  let freshVideosQueued = 0;
+  const maximumFreshVideos = Math.max(1, Number(config.maximumFreshVideosPerCycle || 5));
   const context = await launchBrowser(config, true);
   try {
     for (const sourceHandle of config.sourceHandles) {
@@ -164,6 +166,7 @@ export async function collect(config, { forceBaseline = false } = {}) {
         } catch (error) { run.errors.push({ sourceHandle, shortcode: post.shortcode, stage: "backfill_review", error: error.message }); }
       }
       for (const post of unseenPosts(ledger, posts)) {
+        if (freshVideosQueued >= maximumFreshVideos) break;
         // Record first, durably: baseline posts and failed new posts can never be mistaken for one another.
         ledger.seenShortcodes[post.shortcode] = { sourceHandle, sourceUrl: post.url, firstSeenAt: new Date().toISOString(), baseline };
         await writeJson(paths.ledger, ledger);
@@ -174,7 +177,7 @@ export async function collect(config, { forceBaseline = false } = {}) {
           status: "downloading", attempts: { download: 0, publish: 0 }, publicationResult: null
         };
         await saveItem(item);
-        try { const metadata = await readPost(context, post.url); if (!metadata.isVideo) { item.status = "ignored_non_video"; await saveItem(item); continue; } await queueVideo(config, context, item, metadata, run); }
+        try { const metadata = await readPost(context, post.url); if (!metadata.isVideo) { item.status = "ignored_non_video"; await saveItem(item); continue; } await queueVideo(config, context, item, metadata, run); freshVideosQueued += 1; }
         catch (error) { item.status = "pending"; item.lastError = error.message; item.attempts.download += 1; item.nextRetryAt = new Date(Date.now() + 60_000).toISOString(); await saveItem(item); run.errors.push({ sourceHandle: item.sourceHandle, shortcode: item.shortcode, stage: "metadata", error: error.message }); }
       }
     }
