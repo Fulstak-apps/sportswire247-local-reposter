@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/talkinbaseball_/p/DdW4SWBHCB0/",
   "sourceCaption": "Padres fan says he wants to play the Dodgers in the playoffs\n\nPresented by @fanaticssports",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nPadres fan says he wants to play the Dodgers in the playoffs\n\nPresented by @fanaticssports\n\n#sports\n\nSource: @jomboymedia\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nPadres fan says he wants to play the Dodgers in the playoffs\n\nPresented by @fanaticssports\n\n#sports\n\nSource: @jomboymedia\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-16T18:17:03.718Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 11.65,
   "scoreMargin": -30.72,
   "highlightQuality": 23.65,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 49.28,
@@ -74,5 +74,12 @@
   "video": "media/DdW4SWBHCB0-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110626435915961",
+  "instagramContainerCreatedAt": "2026-09-16T20:49:36.061Z",
+  "instagramPublishRequestedAt": "2026-09-16T20:50:52.349Z",
+  "instagramMediaId": "18472743436117711",
+  "instagramPermalink": "https://www.instagram.com/reel/DdXLv8Sj5S2/",
+  "instagramVerifiedAt": "2026-09-16T20:51:01.262Z",
+  "publishedAt": "2026-09-16T20:51:01.263Z"
 }
