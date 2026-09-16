@@ -373,8 +373,16 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
         if has_observed_engagement and selection_score >= required_score - 20:
             eligible = True
             reasons.append("recent supported sport with observed audience engagement")
+    # Approved sports publishers sometimes post clean highlights with no
+    # sport-identifying caption. Permit only fresh, strongly engaged examples
+    # from the configured source set; these remain below classified sports in
+    # selection priority and are still subject to every media/duplicate QA gate.
+    if sport == "other" and source in SOURCE_PRIORS and age_hours is not None and age_hours <= 72:
+        if (numeric_likes >= 1_000 or numeric_comments >= 100) and selection_score >= 35:
+            eligible = True
+            reasons.append("recent high-engagement clip from approved sports publisher")
     # The automatic lane is limited to basketball, football, MLB, and hockey.
-    # Context-free clips stay out of the queue even when engagement is high.
+    # Context-free clips from unapproved publishers remain out of the queue.
 
     reasons.append(f"posting floor {required_score:.0f}")
     if content_kind == "highlight":

@@ -13,7 +13,7 @@ cd "$(dirname "$0")/.."
 # still in progress.  One process owns the entire cycle so state files and
 # rebases cannot race each other.  The advisory lock is released on crashes.
 if [[ -z "${SPORTSWIRE_WORKER_LOCK_HELD:-}" ]]; then
-  exec /usr/bin/python3 scripts/with-worker-lock.py "$0" "$@"
+  exec python3 scripts/with-worker-lock.py "$0" "$@"
 fi
 
 read_only=false
@@ -26,7 +26,7 @@ done
 # Dry-run/health stay strictly read-only: no collection, git mutation, queue push,
 # or workflow dispatch.
 if [[ "$read_only" == "true" ]]; then
-  /usr/bin/python3 scripts/local-sportswire.py "$@"
+  python3 scripts/local-sportswire.py "$@"
   exit $?
 fi
 
@@ -53,7 +53,7 @@ else
 fi
 
 node src/collect-only.mjs || echo "Collection failed; continuing with saved queue" >&2
-/usr/bin/python3 scripts/refill-queue.py
+python3 scripts/refill-queue.py
 scripts/push-sportswire-queue.sh
 # Publishing is scheduled by GitHub and independently supervised by the local
 # backup job.  Do not dispatch here: a five-minute worker plus a five-minute

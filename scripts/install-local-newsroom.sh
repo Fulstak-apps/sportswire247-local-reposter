@@ -16,5 +16,5 @@ sed "s|__PROJECT_DIR__|$project_dir|g" "$template" > "$destination"
 plutil -lint "$destination"
 launchctl bootout "gui/$(id -u)/$label" 2>/dev/null || true
 launchctl bootstrap "gui/$(id -u)" "$destination"
-/usr/bin/python3 "$project_dir/scripts/local-sportswire.py" --health
+python3 "$project_dir/scripts/local-sportswire.py" --health
 echo "Installed $label. Logs: $project_dir/runtime/logs/newsroom.out.log and newsroom.err.log"
