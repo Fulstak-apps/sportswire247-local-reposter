@@ -23,7 +23,7 @@ export async function brandVideo(config, sourcePath, destinationPath) {
   if (!video || !audio) throw new Error("Source must contain complete video and audio before branding.");
   const width = Number(video.width); const height = Number(video.height); const duration = Number(source.format?.duration || 0);
   const reviewDirectory = destinationPath.replace(/\.mp4$/i, "-logo-review");
-  const { logoWidth, margin, bottomMargin, sampledFrames } = await inspectLogoPlacement(sourcePath, { width, height, duration,
+  const { logoWidth, margin, bottomMargin, sampledFrames, inspectionMethod, faceDetectionAvailable } = await inspectLogoPlacement(sourcePath, { width, height, duration,
     preferredFraction: Number(config.branding.logoWidthFraction || 0.1574), marginFraction: Number(config.branding.marginFraction || 0.0315), directory: reviewDirectory, ffmpegPath });
   const temp = `${destinationPath}.${process.pid}.tmp.mp4`;
   await execFileAsync(ffmpegPath, ["-y", "-i", sourcePath, "-loop", "1", "-i", logoPath,
@@ -35,7 +35,7 @@ export async function brandVideo(config, sourcePath, destinationPath) {
   if (Math.abs(Number(output.format?.duration) - Number(source.format?.duration)) > 1) { await fs.rm(temp, { force: true }); throw new Error("Branded output duration does not match the full source video."); }
   await fs.rename(temp, destinationPath);
   return { logoPath, logoPosition: "bottom-left", logoWidth, margin, bottomMargin, logoApplied: true, contentSafeChecked: true,
-    sampledFrames, sourceDuration: Number(source.format?.duration), outputDuration: Number(output.format?.duration),
+    sampledFrames, inspectionMethod, faceDetectionAvailable, sourceDuration: Number(source.format?.duration), outputDuration: Number(output.format?.duration),
     sourceSha256: await sha256(sourcePath), outputSha256: await sha256(destinationPath) };
 }
 
