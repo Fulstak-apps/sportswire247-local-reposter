@@ -40,8 +40,8 @@ jobs:
           INSTAGRAM_DAILY_LIMIT: "60"
         run: |
           if [ -z "$INSTAGRAM_ACCESS_TOKEN" ] || [ -z "$INSTAGRAM_USER_ID" ]; then
-            echo "BLOCKED: no SportsWire Instagram credentials are configured; no publish attempted."
-            exit 0
+            echo "::error::BLOCKED: no SportsWire Instagram credentials are configured; no publish attempted."
+            exit 1
           fi
           echo "Publishing to SportsWire Instagram only."
           node scripts/publish-sportswire-meta.mjs

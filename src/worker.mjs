@@ -38,6 +38,15 @@ try {
     try { await downloadOriginal(config, item); delete item.lastError; delete item.nextRetryAt; await saveItem(item); }
     catch (error) { item.attempts.download += 1; item.lastError = error.message; item.nextRetryAt = new Date(Date.now() + 300_000).toISOString(); await saveItem(item); }
   }
-  const collection = await collect(config);
-  console.log(JSON.stringify({ at: new Date().toISOString(), ollama: await ollamaHealth(config), collection, publication }));
+  let collection;
+  try { collection = await collect(config); }
+  catch (error) {
+    // Collection is an independent lane. Preserve publisher/recovery results
+    // and let the next scheduled cycle retry if a browser/source scan fails.
+    collection = { status: "error", error: error.message, at: new Date().toISOString() };
+  }
+  let ollama;
+  try { ollama = await ollamaHealth(config); }
+  catch (error) { ollama = { available: false, error: error.message }; }
+  console.log(JSON.stringify({ at: new Date().toISOString(), ollama, collection, publication }));
 } finally { await fs.rm(paths.lock, { force: true }); }

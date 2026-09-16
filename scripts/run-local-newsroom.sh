@@ -52,10 +52,12 @@ else
   echo "SportsWire runtime is not on main; skipping pre-run sync." >&2
 fi
 
-node src/collect-only.mjs || echo "Collection failed; continuing with saved queue" >&2
-python3 scripts/refill-queue.py
-scripts/push-sportswire-queue.sh
+cycle_failed=false
+node src/collect-only.mjs || { echo "Collection failed; continuing with saved queue" >&2; cycle_failed=true; }
+python3 scripts/refill-queue.py || { echo "Queue refill failed; continuing to sync any already-ready items" >&2; cycle_failed=true; }
+scripts/push-sportswire-queue.sh || { echo "Queue sync failed; local queue retained for the next cycle" >&2; cycle_failed=true; }
 # Publishing is scheduled by GitHub and independently supervised by the local
 # backup job.  Do not dispatch here: a five-minute worker plus a five-minute
 # workflow schedule otherwise creates duplicate runs and can make the queue
 # appear stuck while jobs wait behind each other.
+[[ "$cycle_failed" == "false" ]] || exit 1

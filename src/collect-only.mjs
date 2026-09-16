@@ -37,7 +37,13 @@ try {
       item.nextRetryAt = new Date(Date.now() + 300_000).toISOString(); await saveItem(item);
     }
   }
-  console.log(JSON.stringify(await collect(config)));
+  try { console.log(JSON.stringify(await collect(config))); }
+  catch (error) {
+    // A transient Chrome/Instagram outage must not strand the already-saved
+    // queue or prevent the next launchd interval from running.
+    console.error(JSON.stringify({ at: new Date().toISOString(), status: "collection_error", error: error.message }));
+    process.exitCode = 1;
+  }
 } finally {
   await fs.rm(paths.lock, { force: true });
 }

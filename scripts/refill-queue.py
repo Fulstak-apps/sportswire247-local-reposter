@@ -13,7 +13,14 @@ for attempt in range(MAX_ATTEMPTS_PER_CYCLE):
     if waiting >= TARGET_READY:
         print(json.dumps({"ready": waiting, "target": TARGET_READY}))
         break
-    result = run()
+    try:
+        result = run()
+    except Exception as error:
+        # One corrupt file, failed encode, or transient local service error
+        # must not kill queue recovery or the later Git queue push.
+        print(json.dumps({"status": "error", "attempt": attempt + 1,
+                          "error": f"{type(error).__name__}: {error}"}))
+        continue
     print(json.dumps(result))
     if not result.get("selected") and result.get("status") != "branding_review":
         break
