@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/talkinbaseball_/p/DdVYzxJDsDK/",
   "sourceCaption": "Mets pitcher Sean Manaea said it was crazy the way the Met fans cheered after Pete Alonso hit his 300th home run against the Mets \n\n(via @snytv)\n\n#mets #baseball #sports #mlb #orioles",
-  "publishCaption": "Had to run that one back \ud83d\udc40\n\nMets pitcher Sean Manaea said it was crazy the way the Met fans cheered after Pete Alonso hit his 300th home run against the Mets \n\n(via @snytv)\n\n#mets #baseball #sports #mlb #orioles\n\nSource: @jomboymedia\n\nRate this one 1\u201310.\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "Had to run that one back 👀\n\nMets pitcher Sean Manaea said it was crazy the way the Met fans cheered after Pete Alonso hit his 300th home run against the Mets \n\n(via @snytv)\n\n#mets #baseball #sports #mlb #orioles\n\nSource: @jomboymedia\n\nRate this one 1–10.\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-16T11:16:55.212Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,9 +52,9 @@
   "rawScore": 55.81,
   "engagementScore": 14.26,
   "scoreMargin": 10.81,
-  "highlightQuality": 34.0,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "highlightQuality": 34,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 55.81,
@@ -75,5 +75,12 @@
   "video": "media/DdVYzxJDsDK-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110592199915961",
+  "instagramContainerCreatedAt": "2026-09-16T18:11:26.322Z",
+  "instagramPublishRequestedAt": "2026-09-16T18:12:12.021Z",
+  "instagramMediaId": "17983760732888965",
+  "instagramPermalink": "https://www.instagram.com/reel/DdW5mMRk838/",
+  "instagramVerifiedAt": "2026-09-16T18:12:18.305Z",
+  "publishedAt": "2026-09-16T18:12:18.306Z"
 }
