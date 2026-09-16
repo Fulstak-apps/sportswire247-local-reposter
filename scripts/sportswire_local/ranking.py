@@ -373,15 +373,6 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
         if has_observed_engagement and selection_score >= required_score - 20:
             eligible = True
             reasons.append("recent supported sport with observed audience engagement")
-    # Some approved publisher clips do not expose enough text to classify the
-    # league (e.g. a clean highlight with no caption). Keep the buffer alive by
-    # admitting only very recent, strongly engaged clips from approved sources;
-    # explicit basketball/football/MLB/hockey candidates still outrank these.
-    if sport == "other" and age_hours is not None and age_hours <= 72:
-        high_engagement = numeric_likes >= 1000 or numeric_comments >= 100
-        if high_engagement and selection_score >= 35:
-            eligible = True
-            reasons.append("recent high-engagement clip from approved sports publisher")
     # The automatic lane is limited to basketball, football, MLB, and hockey.
     # Context-free clips stay out of the queue even when engagement is high.
 
