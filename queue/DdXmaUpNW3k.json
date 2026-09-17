@@ -3,16 +3,16 @@
   "shortcode": "DdXmaUpNW3k",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdXmaUpNW3k/",
-  "sourceCaption": "Kawhi let Raps know he\u2019s there to support Scottie Barnes. \ud83d\ude4c\u2764\ufe0f (via @raptors)",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nKawhi let Raps know he\u2019s there to support Scottie Barnes. \ud83d\ude4c\u2764\ufe0f (via @raptors)\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Kawhi let Raps know he’s there to support Scottie Barnes. 🙌❤️ (via @raptors)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nKawhi let Raps know he’s there to support Scottie Barnes. 🙌❤️ (via @raptors)\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-17T00:49:23.106Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Kawhi let Raps know he\u2019s there to support Scottie Barnes. \ud83d\ude4c\u2764\ufe0f (via @raptors)",
+  "body": "Kawhi let Raps know he’s there to support Scottie Barnes. 🙌❤️ (via @raptors)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-17T00:50:12.527Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.78,
   "scoreMargin": -34.36,
   "highlightQuality": 12.78,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.64,
@@ -73,5 +73,17 @@
   "video": "media/DdXmaUpNW3k-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110711773915961",
+  "instagramContainerCreatedAt": "2026-09-17T05:17:03.859Z",
+  "instagramPublishRequestedAt": "2026-09-17T05:17:34.365Z",
+  "instagramMediaId": "18115296917077248",
+  "instagramPermalink": "https://www.instagram.com/reel/DdYFvowlGFQ/",
+  "instagramVerifiedAt": "2026-09-17T05:17:40.665Z",
+  "publishedAt": "2026-09-17T05:17:40.665Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdXmaUpNW3k-sportswire247.mp4",
+    "at": "2026-09-17T05:17:40.666Z"
+  }
 }
