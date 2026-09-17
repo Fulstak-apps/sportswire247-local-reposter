@@ -3,16 +3,16 @@
   "shortcode": "DdZyy5FAX3N",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/DdZyy5FAX3N/",
-  "sourceCaption": "DUNK ON HIS AHH MEL \ud83d\ude08 @magic_m31",
-  "publishCaption": "Sports are unreal sometimes \ud83d\ude2e\u200d\ud83d\udca8\n\nDUNK ON HIS AHH MEL \ud83d\ude08 @magic_m31\n\n#basketball #nba\n\nSource: @overtime\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "DUNK ON HIS AHH MEL 😈 @magic_m31",
+  "publishCaption": "Sports are unreal sometimes 😮‍💨\n\nDUNK ON HIS AHH MEL 😈 @magic_m31\n\n#basketball #nba\n\nSource: @overtime\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-17T21:14:34.450Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "DUNK ON HIS AHH MEL \ud83d\ude08 @magic_m31",
+  "body": "DUNK ON HIS AHH MEL 😈 @magic_m31",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-17T21:15:23.153Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 9.25,
   "scoreMargin": 33.14,
   "highlightQuality": 29.25,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 68.14,
@@ -75,5 +75,17 @@
   "video": "media/DdZyy5FAX3N-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110936839915961",
+  "instagramContainerCreatedAt": "2026-09-17T21:47:46.523Z",
+  "instagramPublishRequestedAt": "2026-09-17T21:48:01.817Z",
+  "instagramMediaId": "17953003269250691",
+  "instagramPermalink": "https://www.instagram.com/reel/DdZ3HxIDHTG/",
+  "instagramVerifiedAt": "2026-09-17T21:48:08.856Z",
+  "publishedAt": "2026-09-17T21:48:08.857Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdZyy5FAX3N-sportswire247.mp4",
+    "at": "2026-09-17T21:48:08.876Z"
+  }
 }
