@@ -3,16 +3,16 @@
   "shortcode": "DdU1tK7mDq9",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/DdU1tK7mDq9/",
-  "sourceCaption": "Production to the rescue lmaooo \ud83d\ude29 @kaicenat",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nProduction to the rescue lmaooo \ud83d\ude29 @kaicenat\n\n#sports\n\nSource: @overtime\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Production to the rescue lmaooo 😩 @kaicenat",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nProduction to the rescue lmaooo 😩 @kaicenat\n\n#sports\n\nSource: @overtime\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-16T11:03:55.861Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Production to the rescue lmaooo \ud83d\ude29 @kaicenat",
+  "body": "Production to the rescue lmaooo 😩 @kaicenat",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-16T11:04:44.260Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 37.7,
   "engagementScore": 18.51,
   "scoreMargin": -42.3,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 37.7,
@@ -73,5 +73,17 @@
   "video": "media/DdU1tK7mDq9-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110879893915961",
+  "instagramContainerCreatedAt": "2026-09-17T17:12:55.907Z",
+  "instagramPublishRequestedAt": "2026-09-17T17:13:26.229Z",
+  "instagramMediaId": "18076019084402858",
+  "instagramPermalink": "https://www.instagram.com/reel/DdZXsl7jUt0/",
+  "instagramVerifiedAt": "2026-09-17T17:13:34.943Z",
+  "publishedAt": "2026-09-17T17:13:34.943Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdU1tK7mDq9-sportswire247.mp4",
+    "at": "2026-09-17T17:13:34.944Z"
+  }
 }
