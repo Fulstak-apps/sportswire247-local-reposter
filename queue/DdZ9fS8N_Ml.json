@@ -3,16 +3,16 @@
   "shortcode": "DdZ9fS8N_Ml",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdZ9fS8N_Ml/",
-  "sourceCaption": "First time playing pool btw \ud83d\ude05 (via malz/TT)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nFirst time playing pool btw \ud83d\ude05 (via malz/TT)\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "First time playing pool btw 😅 (via malz/TT)",
+  "publishCaption": "You have to see this one twice 👀\n\nFirst time playing pool btw 😅 (via malz/TT)\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-17T22:46:11.304Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "First time playing pool btw \ud83d\ude05 (via malz/TT)",
+  "body": "First time playing pool btw 😅 (via malz/TT)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-17T22:46:59.796Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.74,
   "scoreMargin": -37.33,
   "highlightQuality": 10.74,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.67,
@@ -73,5 +73,17 @@
   "video": "media/DdZ9fS8N_Ml-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110948974915961",
+  "instagramContainerCreatedAt": "2026-09-17T22:58:51.592Z",
+  "instagramPublishRequestedAt": "2026-09-17T22:59:21.916Z",
+  "instagramMediaId": "18051893219587901",
+  "instagramPermalink": "https://www.instagram.com/reel/DdZ_QghkkKu/",
+  "instagramVerifiedAt": "2026-09-17T22:59:28.795Z",
+  "publishedAt": "2026-09-17T22:59:28.796Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdZ9fS8N_Ml-sportswire247.mp4",
+    "at": "2026-09-17T22:59:28.796Z"
+  }
 }
