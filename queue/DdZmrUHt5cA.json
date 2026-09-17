@@ -4,9 +4,9 @@
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/DdZmrUHt5cA/",
   "sourceCaption": "Cam Ward has a 3-15 record as a starter\n\n(via: @titans)\n#nfl #nflfootball #titans",
-  "publishCaption": "Here\u2019s the update everyone is talking about \ud83d\udea8\n\nCam Ward has a 3-15 record as a starter\n\n(via: @titans)\n#nfl #nflfootball #titans\n\n#football\n\nSource: @bleacherreport\n\nWhat\u2019s your reaction?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "Here’s the update everyone is talking about 🚨\n\nCam Ward has a 3-15 record as a starter\n\n(via: @titans)\n#nfl #nflfootball #titans\n\n#football\n\nSource: @bleacherreport\n\nWhat’s your reaction?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-17T20:09:21.046Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,9 +52,9 @@
   "rawScore": 72.7,
   "engagementScore": 17.69,
   "scoreMargin": 32.7,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 72.7,
@@ -74,5 +74,17 @@
   "video": "media/DdZmrUHt5cA-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110924002915961",
+  "instagramContainerCreatedAt": "2026-09-17T20:26:25.815Z",
+  "instagramPublishRequestedAt": "2026-09-17T20:26:56.145Z",
+  "instagramMediaId": "18133836712652393",
+  "instagramPermalink": "https://www.instagram.com/reel/DdZt0PiAt8O/",
+  "instagramVerifiedAt": "2026-09-17T20:27:05.483Z",
+  "publishedAt": "2026-09-17T20:27:05.484Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdZmrUHt5cA-sportswire247.mp4",
+    "at": "2026-09-17T20:27:05.485Z"
+  }
 }
