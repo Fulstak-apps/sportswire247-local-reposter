@@ -3,16 +3,16 @@
   "shortcode": "DdXoTbigFWj",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/chasingno1show/reel/DdXoTbigFWj/",
-  "sourceCaption": "\u201cI snuck out twice on road games.\u201d \ud83d\udc40\n\nJohnny Manziel looks back at his rookie year with the Cleveland Browns and drops unfiltered stories about sneaking out on team road trips in Baltimore and San Diego.\n\n@annieagar5 @lahjay10_ @overtimeszn @overtime @jmanziel2",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\n\u201cI snuck out twice on road games.\u201d \ud83d\udc40\n\nJohnny Manziel looks back at his rookie year with the Cleveland Browns and drops unfiltered stories about sneaking out on team road trips in Baltimore and San Diego.\n\n@annieagar5 @lahjay10_ @overtimeszn @overtime @jmanziel2\n\n#football #nfl\n\nSource: @overtime\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "“I snuck out twice on road games.” 👀\n\nJohnny Manziel looks back at his rookie year with the Cleveland Browns and drops unfiltered stories about sneaking out on team road trips in Baltimore and San Diego.\n\n@annieagar5 @lahjay10_ @overtimeszn @overtime @jmanziel2",
+  "publishCaption": "The moment says it all 👀\n\n“I snuck out twice on road games.” 👀\n\nJohnny Manziel looks back at his rookie year with the Cleveland Browns and drops unfiltered stories about sneaking out on team road trips in Baltimore and San Diego.\n\n@annieagar5 @lahjay10_ @overtimeszn @overtime @jmanziel2\n\n#football #nfl\n\nSource: @overtime\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-17T17:49:53.324Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "\u201cI snuck out twice on road games.\u201d \ud83d\udc40\n\nJohnny Manziel looks back at his rookie year with the Cleveland Browns and drops unfiltered stories about sneaking out on team road trips in Baltimore and San Diego.\n\n@annieagar5 @lahjay10_ @overtimeszn @overtime @jmanziel2",
+  "body": "“I snuck out twice on road games.” 👀\n\nJohnny Manziel looks back at his rookie year with the Cleveland Browns and drops unfiltered stories about sneaking out on team road trips in Baltimore and San Diego.\n\n@annieagar5 @lahjay10_ @overtimeszn @overtime @jmanziel2",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-17T17:50:42.025Z",
   "sourceViewCount": 2,
@@ -53,8 +53,8 @@
   "engagementScore": 0.14,
   "scoreMargin": 14.06,
   "highlightQuality": 12.14,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 54.06,
@@ -72,5 +72,17 @@
   "video": "media/DdXoTbigFWj-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110899552915961",
+  "instagramContainerCreatedAt": "2026-09-17T18:34:21.781Z",
+  "instagramPublishRequestedAt": "2026-09-17T18:34:52.401Z",
+  "instagramMediaId": "18074249240451542",
+  "instagramPermalink": "https://www.instagram.com/reel/DdZg_bvgbiA/",
+  "instagramVerifiedAt": "2026-09-17T18:35:01.864Z",
+  "publishedAt": "2026-09-17T18:35:01.865Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdXoTbigFWj-sportswire247.mp4",
+    "at": "2026-09-17T18:35:01.866Z"
+  }
 }
