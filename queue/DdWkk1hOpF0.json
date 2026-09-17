@@ -3,16 +3,16 @@
   "shortcode": "DdWkk1hOpF0",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdWkk1hOpF0/",
-  "sourceCaption": "Barrow High School in Alaska shows what practice is like in 12\u00b0F \ud83e\uddca\n\nThe team is forced into a heavy run scheme due to 30+ mph crosswinds coming off the ocean \ud83d\ude33\n\n(Via @coachcbattle/X)",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nBarrow High School in Alaska shows what practice is like in 12\u00b0F \ud83e\uddca\n\nThe team is forced into a heavy run scheme due to 30+ mph crosswinds coming off the ocean \ud83d\ude33\n\n(Via @coachcbattle/X)\n\n#sports\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Barrow High School in Alaska shows what practice is like in 12°F 🧊\n\nThe team is forced into a heavy run scheme due to 30+ mph crosswinds coming off the ocean 😳\n\n(Via @coachcbattle/X)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nBarrow High School in Alaska shows what practice is like in 12°F 🧊\n\nThe team is forced into a heavy run scheme due to 30+ mph crosswinds coming off the ocean 😳\n\n(Via @coachcbattle/X)\n\n#sports\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-16T15:21:07.860Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 1,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Barrow High School in Alaska shows what practice is like in 12\u00b0F \ud83e\uddca\n\nThe team is forced into a heavy run scheme due to 30+ mph crosswinds coming off the ocean \ud83d\ude33\n\n(Via @coachcbattle/X)",
+  "body": "Barrow High School in Alaska shows what practice is like in 12°F 🧊\n\nThe team is forced into a heavy run scheme due to 30+ mph crosswinds coming off the ocean 😳\n\n(Via @coachcbattle/X)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-16T15:21:56.660Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 37.16,
   "engagementScore": 15.6,
   "scoreMargin": -42.84,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 37.16,
@@ -74,5 +74,17 @@
   "video": "media/DdWkk1hOpF0-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110930899915961",
+  "instagramContainerCreatedAt": "2026-09-17T21:07:13.210Z",
+  "instagramPublishRequestedAt": "2026-09-17T21:07:43.571Z",
+  "instagramMediaId": "18101391452341332",
+  "instagramPermalink": "https://www.instagram.com/reel/DdZyfHgggYJ/",
+  "instagramVerifiedAt": "2026-09-17T21:07:50.081Z",
+  "publishedAt": "2026-09-17T21:07:50.081Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdWkk1hOpF0-sportswire247.mp4",
+    "at": "2026-09-17T21:07:50.082Z"
+  }
 }
