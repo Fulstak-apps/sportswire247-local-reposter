@@ -3,16 +3,16 @@
   "shortcode": "DdWsTecus4b",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdWsTecus4b/",
-  "sourceCaption": "Spurs G League affiliate Austin Spurs held open tryouts, giving players a chance to compete for a roster spot with a $200 non-refundable registration fee \ud83d\udcaa\n\n(via @austin_spurs, @spurs)",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nSpurs G League affiliate Austin Spurs held open tryouts, giving players a chance to compete for a roster spot with a $200 non-refundable registration fee \ud83d\udcaa\n\n(via @austin_spurs, @spurs)\n\n#sports\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Spurs G League affiliate Austin Spurs held open tryouts, giving players a chance to compete for a roster spot with a $200 non-refundable registration fee 💪\n\n(via @austin_spurs, @spurs)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nSpurs G League affiliate Austin Spurs held open tryouts, giving players a chance to compete for a roster spot with a $200 non-refundable registration fee 💪\n\n(via @austin_spurs, @spurs)\n\n#sports\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-16T16:22:12.127Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Spurs G League affiliate Austin Spurs held open tryouts, giving players a chance to compete for a roster spot with a $200 non-refundable registration fee \ud83d\udcaa\n\n(via @austin_spurs, @spurs)",
+  "body": "Spurs G League affiliate Austin Spurs held open tryouts, giving players a chance to compete for a roster spot with a $200 non-refundable registration fee 💪\n\n(via @austin_spurs, @spurs)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-16T16:23:01.504Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.33,
   "scoreMargin": -38.91,
   "highlightQuality": 10.33,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.09,
@@ -73,5 +73,17 @@
   "video": "media/DdWsTecus4b-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110839360915961",
+  "instagramContainerCreatedAt": "2026-09-17T14:29:59.010Z",
+  "instagramPublishRequestedAt": "2026-09-17T14:30:14.305Z",
+  "instagramMediaId": "17874748050635590",
+  "instagramPermalink": "https://www.instagram.com/reel/DdZFBWqktn3/",
+  "instagramVerifiedAt": "2026-09-17T14:30:31.355Z",
+  "publishedAt": "2026-09-17T14:30:31.355Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdWsTecus4b-sportswire247.mp4",
+    "at": "2026-09-17T14:30:31.356Z"
+  }
 }
