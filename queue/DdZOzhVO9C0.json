@@ -3,16 +3,16 @@
   "shortcode": "DdZOzhVO9C0",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdZOzhVO9C0/",
-  "sourceCaption": "Stevie Johnson & Ryan Fitzpatrick still got it \ud83d\ude02\ud83d\udd25 (via @hbhf.stevie)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nStevie Johnson & Ryan Fitzpatrick still got it \ud83d\ude02\ud83d\udd25 (via @hbhf.stevie)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Stevie Johnson & Ryan Fitzpatrick still got it 😂🔥 (via @hbhf.stevie)",
+  "publishCaption": "The moment says it all 👀\n\nStevie Johnson & Ryan Fitzpatrick still got it 😂🔥 (via @hbhf.stevie)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-17T15:59:38.837Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Stevie Johnson & Ryan Fitzpatrick still got it \ud83d\ude02\ud83d\udd25 (via @hbhf.stevie)",
+  "body": "Stevie Johnson & Ryan Fitzpatrick still got it 😂🔥 (via @hbhf.stevie)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-17T16:00:27.502Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.71,
   "scoreMargin": -36.38,
   "highlightQuality": 10.71,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.62,
@@ -73,5 +73,17 @@
   "video": "media/DdZOzhVO9C0-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110869222915961",
+  "instagramContainerCreatedAt": "2026-09-17T16:32:18.633Z",
+  "instagramPublishRequestedAt": "2026-09-17T16:32:49.182Z",
+  "instagramMediaId": "18628911193041934",
+  "instagramPermalink": "https://www.instagram.com/reel/DdZTBdNDyip/",
+  "instagramVerifiedAt": "2026-09-17T16:32:55.925Z",
+  "publishedAt": "2026-09-17T16:32:55.925Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdZOzhVO9C0-sportswire247.mp4",
+    "at": "2026-09-17T16:32:55.926Z"
+  }
 }
