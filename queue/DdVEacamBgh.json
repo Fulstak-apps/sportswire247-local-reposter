@@ -3,16 +3,16 @@
   "shortcode": "DdVEacamBgh",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/DdVEacamBgh/",
-  "sourceCaption": "MPJ editing his animations like it\u2019s 2K \ud83d\ude2d @mpj @n3onsingh (via Nathaniel S. Butler/Getty)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nMPJ editing his animations like it\u2019s 2K \ud83d\ude2d @mpj @n3onsingh (via Nathaniel S. Butler/Getty)\n\n#sports\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "MPJ editing his animations like it’s 2K 😭 @mpj @n3onsingh (via Nathaniel S. Butler/Getty)",
+  "publishCaption": "You have to see this one twice 👀\n\nMPJ editing his animations like it’s 2K 😭 @mpj @n3onsingh (via Nathaniel S. Butler/Getty)\n\n#sports\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-16T11:07:50.886Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "MPJ editing his animations like it\u2019s 2K \ud83d\ude2d @mpj @n3onsingh (via Nathaniel S. Butler/Getty)",
+  "body": "MPJ editing his animations like it’s 2K 😭 @mpj @n3onsingh (via Nathaniel S. Butler/Getty)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-16T11:08:40.264Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 37.12,
   "engagementScore": 16.32,
   "scoreMargin": -42.88,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 37.12,
@@ -73,5 +73,17 @@
   "video": "media/DdVEacamBgh-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110956537915961",
+  "instagramContainerCreatedAt": "2026-09-17T23:39:33.625Z",
+  "instagramPublishRequestedAt": "2026-09-17T23:40:04.251Z",
+  "instagramMediaId": "18087365429689182",
+  "instagramPermalink": "https://www.instagram.com/reel/DdaD6nWj63V/",
+  "instagramVerifiedAt": "2026-09-17T23:40:12.535Z",
+  "publishedAt": "2026-09-17T23:40:12.536Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdVEacamBgh-sportswire247.mp4",
+    "at": "2026-09-17T23:40:12.537Z"
+  }
 }
