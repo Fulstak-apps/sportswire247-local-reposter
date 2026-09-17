@@ -8,6 +8,10 @@ export function composeCaption(source, handle, { contentKind = "routine", shortc
 
 const words = text => String(text || "").toLowerCase().match(/[\p{L}\p{N}_@#]+/gu) || [];
 
+function stripModelThinking(value) {
+  return String(value || "").replace(/<think>[\s\S]*?<\/think>/gi, "").trim();
+}
+
 export function safeHumanizedCaption(source, candidate) {
   const original = String(source || "").trim();
   const rewritten = String(candidate || "").trim();
@@ -35,7 +39,7 @@ export async function localCaption(config, sourceCaption, sourceHandle) {
         ].join("\n") })
       });
       if (response.ok) {
-        const accepted = safeHumanizedCaption(source, (await response.json()).response);
+        const accepted = safeHumanizedCaption(source, stripModelThinking((await response.json()).response));
         if (accepted) { body = accepted; captionMode = "ollama_local_humanized"; }
       }
     } catch { /* publishing safely falls back to the exact source caption */ }
