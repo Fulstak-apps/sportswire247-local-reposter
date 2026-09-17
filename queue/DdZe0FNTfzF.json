@@ -3,16 +3,16 @@
   "shortcode": "DdZe0FNTfzF",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdZe0FNTfzF/",
-  "sourceCaption": "Gotta love it. \ud83d\ude02\ud83d\udd25 (via USCSST/x)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nGotta love it. \ud83d\ude02\ud83d\udd25 (via USCSST/x)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Gotta love it. 😂🔥 (via USCSST/x)",
+  "publishCaption": "The moment says it all 👀\n\nGotta love it. 😂🔥 (via USCSST/x)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-17T18:20:42.663Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Gotta love it. \ud83d\ude02\ud83d\udd25 (via USCSST/x)",
+  "body": "Gotta love it. 😂🔥 (via USCSST/x)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-17T18:21:31.302Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.45,
   "scoreMargin": -35.66,
   "highlightQuality": 11.45,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 44.34,
@@ -73,5 +73,17 @@
   "video": "media/DdZe0FNTfzF-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110915833915961",
+  "instagramContainerCreatedAt": "2026-09-17T19:53:37.428Z",
+  "instagramPublishRequestedAt": "2026-09-17T19:54:07.916Z",
+  "instagramMediaId": "18113899349091128",
+  "instagramPermalink": "https://www.instagram.com/reel/DdZqDvXAXM8/",
+  "instagramVerifiedAt": "2026-09-17T19:54:16.995Z",
+  "publishedAt": "2026-09-17T19:54:16.996Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdZe0FNTfzF-sportswire247.mp4",
+    "at": "2026-09-17T19:54:16.997Z"
+  }
 }
