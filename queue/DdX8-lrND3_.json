@@ -3,16 +3,16 @@
   "shortcode": "DdX8-lrND3_",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdX8-lrND3_/",
-  "sourceCaption": "Jared Dudley demon time on Ben Simmons \ud83d\ude2d\ud83d\udd25 (h/t hoopmixonly/x)",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nJared Dudley demon time on Ben Simmons \ud83d\ude2d\ud83d\udd25 (h/t hoopmixonly/x)\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Jared Dudley demon time on Ben Simmons 😭🔥 (h/t hoopmixonly/x)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nJared Dudley demon time on Ben Simmons 😭🔥 (h/t hoopmixonly/x)\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-17T04:06:40.852Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jared Dudley demon time on Ben Simmons \ud83d\ude2d\ud83d\udd25 (h/t hoopmixonly/x)",
+  "body": "Jared Dudley demon time on Ben Simmons 😭🔥 (h/t hoopmixonly/x)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-17T04:07:29.452Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.4,
   "scoreMargin": -35.78,
   "highlightQuality": 11.4,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 44.22,
@@ -73,5 +73,17 @@
   "video": "media/DdX8-lrND3_-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110730130915961",
+  "instagramContainerCreatedAt": "2026-09-17T06:39:20.490Z",
+  "instagramPublishRequestedAt": "2026-09-17T06:40:51.393Z",
+  "instagramMediaId": "18130339219775740",
+  "instagramPermalink": "https://www.instagram.com/reel/DdYPRGdDIlN/",
+  "instagramVerifiedAt": "2026-09-17T06:40:59.162Z",
+  "publishedAt": "2026-09-17T06:40:59.162Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdX8-lrND3_-sportswire247.mp4",
+    "at": "2026-09-17T06:40:59.164Z"
+  }
 }
