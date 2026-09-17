@@ -3,16 +3,16 @@
   "shortcode": "DdZMXWnRcrY",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdZMXWnRcrY/",
-  "sourceCaption": "Whole bench was hyped \ud83d\ude05\ud83d\udd25",
-  "publishCaption": "Only sports can create a moment like this \ud83d\ude02\n\nWhole bench was hyped \ud83d\ude05\ud83d\udd25\n\n#sports\n\nSource: @sportscenter\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Whole bench was hyped 😅🔥",
+  "publishCaption": "Only sports can create a moment like this 😂\n\nWhole bench was hyped 😅🔥\n\n#sports\n\nSource: @sportscenter\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-17T15:38:29.271Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Whole bench was hyped \ud83d\ude05\ud83d\udd25",
+  "body": "Whole bench was hyped 😅🔥",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-17T15:39:18.539Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 9.49,
   "scoreMargin": -33.7,
   "highlightQuality": 9.49,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 46.3,
@@ -74,5 +74,17 @@
   "video": "media/DdZMXWnRcrY-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110858950915961",
+  "instagramContainerCreatedAt": "2026-09-17T15:51:27.336Z",
+  "instagramPublishRequestedAt": "2026-09-17T15:51:57.756Z",
+  "instagramMediaId": "17958921617999187",
+  "instagramPermalink": "https://www.instagram.com/reel/DdZOWHoDaXl/",
+  "instagramVerifiedAt": "2026-09-17T15:52:04.698Z",
+  "publishedAt": "2026-09-17T15:52:04.699Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdZMXWnRcrY-sportswire247.mp4",
+    "at": "2026-09-17T15:52:04.700Z"
+  }
 }
