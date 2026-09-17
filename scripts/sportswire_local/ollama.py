@@ -7,6 +7,8 @@ def strip_model_thinking(value: str) -> str:
     end = text.lower().find("</think>")
     if start >= 0 and end > start:
         text = text[:start] + text[end + len("</think>"):]
+    elif end >= 0:
+        text = text[end + len("</think>"):]
     return text.strip()
 
 def generate(config: dict, evidence: dict) -> dict:

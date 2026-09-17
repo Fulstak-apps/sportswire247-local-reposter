@@ -9,7 +9,13 @@ export function composeCaption(source, handle, { contentKind = "routine", shortc
 const words = text => String(text || "").toLowerCase().match(/[\p{L}\p{N}_@#]+/gu) || [];
 
 function stripModelThinking(value) {
-  return String(value || "").replace(/<think>[\s\S]*?<\/think>/gi, "").trim();
+  let text = String(value || "");
+  text = text.replace(/<think>[\s\S]*?<\/think>/gi, "");
+  // Some Qwen builds omit the opening marker but leave the closing marker;
+  // everything before it is still reasoning, not caption copy.
+  const closing = text.toLowerCase().lastIndexOf("</think>");
+  if (closing >= 0) text = text.slice(closing + "</think>".length);
+  return text.trim();
 }
 
 export function safeHumanizedCaption(source, candidate) {
