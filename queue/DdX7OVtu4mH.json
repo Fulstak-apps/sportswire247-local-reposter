@@ -3,16 +3,16 @@
   "shortcode": "DdX7OVtu4mH",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdX7OVtu4mH/",
-  "sourceCaption": "Announcer calls out the Mets \ud83d\udc40\n\n(via @mlb) #mets #baseball #mlb",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nAnnouncer calls out the Mets \ud83d\udc40\n\n(via @mlb) #mets #baseball #mlb\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Announcer calls out the Mets 👀\n\n(via @mlb) #mets #baseball #mlb",
+  "publishCaption": "The moment says it all 👀\n\nAnnouncer calls out the Mets 👀\n\n(via @mlb) #mets #baseball #mlb\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-17T03:47:41.184Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Announcer calls out the Mets \ud83d\udc40\n\n(via @mlb) #mets #baseball #mlb",
+  "body": "Announcer calls out the Mets 👀\n\n(via @mlb) #mets #baseball #mlb",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-17T03:48:29.879Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 5.56,
   "scoreMargin": 3.5,
   "highlightQuality": 5.56,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.5,
@@ -73,5 +73,17 @@
   "video": "media/DdX7OVtu4mH-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110705509915961",
+  "instagramContainerCreatedAt": "2026-09-17T04:36:21.276Z",
+  "instagramPublishRequestedAt": "2026-09-17T04:37:52.927Z",
+  "instagramMediaId": "18108168326023407",
+  "instagramPermalink": "https://www.instagram.com/reel/DdYBMVdj35q/",
+  "instagramVerifiedAt": "2026-09-17T04:38:04.280Z",
+  "publishedAt": "2026-09-17T04:38:04.280Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdX7OVtu4mH-sportswire247.mp4",
+    "at": "2026-09-17T04:38:04.281Z"
+  }
 }
