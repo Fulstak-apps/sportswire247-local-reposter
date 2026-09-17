@@ -3,16 +3,16 @@
   "shortcode": "DdXG_N4BVaW",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdXG_N4BVaW/",
-  "sourceCaption": "Cobee Bryant stopped by Chef Junior to order a Looney Tunes Pan - Hot Cheeto burger, Hot Cheeto balls, loaded fries, lemon pepper chicken wings, and Fruity Pebble waffles \ud83c\udf7d\ufe0f\ud83d\ude0b\n\n(Via @_chefjunior)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nCobee Bryant stopped by Chef Junior to order a Looney Tunes Pan - Hot Cheeto burger, Hot Cheeto balls, loaded fries, lemon pepper chicken wings, and Fruity Pebble waffles \ud83c\udf7d\ufe0f\ud83d\ude0b\n\n(Via @_chefjunior)\n\n#sports\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Cobee Bryant stopped by Chef Junior to order a Looney Tunes Pan - Hot Cheeto burger, Hot Cheeto balls, loaded fries, lemon pepper chicken wings, and Fruity Pebble waffles 🍽️😋\n\n(Via @_chefjunior)",
+  "publishCaption": "The moment says it all 👀\n\nCobee Bryant stopped by Chef Junior to order a Looney Tunes Pan - Hot Cheeto burger, Hot Cheeto balls, loaded fries, lemon pepper chicken wings, and Fruity Pebble waffles 🍽️😋\n\n(Via @_chefjunior)\n\n#sports\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-16T20:16:37.193Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Cobee Bryant stopped by Chef Junior to order a Looney Tunes Pan - Hot Cheeto burger, Hot Cheeto balls, loaded fries, lemon pepper chicken wings, and Fruity Pebble waffles \ud83c\udf7d\ufe0f\ud83d\ude0b\n\n(Via @_chefjunior)",
+  "body": "Cobee Bryant stopped by Chef Junior to order a Looney Tunes Pan - Hot Cheeto burger, Hot Cheeto balls, loaded fries, lemon pepper chicken wings, and Fruity Pebble waffles 🍽️😋\n\n(Via @_chefjunior)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-16T20:17:25.667Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.73,
   "scoreMargin": -37.44,
   "highlightQuality": 11.73,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.56,
@@ -73,5 +73,17 @@
   "video": "media/DdXG_N4BVaW-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110768020915961",
+  "instagramContainerCreatedAt": "2026-09-17T09:58:05.796Z",
+  "instagramPublishRequestedAt": "2026-09-17T09:58:36.210Z",
+  "instagramMediaId": "17900916693582534",
+  "instagramPermalink": "https://www.instagram.com/reel/DdYl5-ciZto/",
+  "instagramVerifiedAt": "2026-09-17T09:58:43.230Z",
+  "publishedAt": "2026-09-17T09:58:43.230Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdXG_N4BVaW-sportswire247.mp4",
+    "at": "2026-09-17T09:58:43.232Z"
+  }
 }
