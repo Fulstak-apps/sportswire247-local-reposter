@@ -3,16 +3,16 @@
   "shortcode": "DdW5EfOiUPE",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/p/DdW5EfOiUPE/",
-  "sourceCaption": "Robert Saleh with an all-timer \ud83d\ude2d\n\n(via: @titans)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nRobert Saleh with an all-timer \ud83d\ude2d\n\n(via: @titans)\n\n#sports\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Robert Saleh with an all-timer 😭\n\n(via: @titans)",
+  "publishCaption": "The moment says it all 👀\n\nRobert Saleh with an all-timer 😭\n\n(via: @titans)\n\n#sports\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-16T18:15:58.477Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Robert Saleh with an all-timer \ud83d\ude2d\n\n(via: @titans)",
+  "body": "Robert Saleh with an all-timer 😭\n\n(via: @titans)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-16T18:16:46.882Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.63,
   "scoreMargin": -38.61,
   "highlightQuality": 10.63,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.39,
@@ -73,5 +73,17 @@
   "video": "media/DdW5EfOiUPE-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110799898915961",
+  "instagramContainerCreatedAt": "2026-09-17T12:03:25.622Z",
+  "instagramPublishRequestedAt": "2026-09-17T12:04:41.467Z",
+  "instagramMediaId": "17957969931249621",
+  "instagramPermalink": "https://www.instagram.com/reel/DdY0WI5icPJ/",
+  "instagramVerifiedAt": "2026-09-17T12:04:49.445Z",
+  "publishedAt": "2026-09-17T12:04:49.446Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdW5EfOiUPE-sportswire247.mp4",
+    "at": "2026-09-17T12:04:49.447Z"
+  }
 }
