@@ -7,12 +7,30 @@ const repository = process.env.GITHUB_REPOSITORY || "";
 const refName = process.env.GITHUB_REF_NAME || "main";
 const instagram = { name: "instagram", token: process.env.INSTAGRAM_ACCESS_TOKEN, userId: process.env.INSTAGRAM_USER_ID, base: "https://graph.instagram.com" };
 const minimumGapMs = Number(process.env.MINIMUM_FEED_GAP_MINUTES || 30) * 60_000;
+const mediaRoot = path.resolve("media");
 
 export function credentialsReady(platform) { return Boolean(platform.token && platform.userId); }
 export function mediaUrl(item) {
   const base = String(process.env.MEDIA_BASE_URL || "").replace(/\/$/, "");
   if (base) return `${base}/${item.video}`;
   return `https://raw.githubusercontent.com/${repository}/${refName}/${item.video}`;
+}
+
+/**
+ * Remove the checked-in delivery asset only after the platform result has
+ * been verified. Pending, failed, and uncertain records retain their media
+ * so a later run can retry or reconcile without creating a duplicate post.
+ */
+export async function cleanupPublishedMedia(item) {
+  if (item.status !== "published" || !item.instagramVerifiedAt || !item.video) {
+    return { removed: false, reason: "publication_not_verified" };
+  }
+  const target = path.resolve(item.video);
+  if (target !== mediaRoot && !target.startsWith(`${mediaRoot}${path.sep}`)) {
+    return { removed: false, reason: "outside_media_root" };
+  }
+  await fs.rm(target, { force: true });
+  return { removed: true, path: item.video };
 }
 export function eligible(item, now = Date.now()) {
   if (item.status !== "ready" || item.destinationHandle !== "sportswire247" || item.brand !== "SportsWire 247") return false;
@@ -189,6 +207,21 @@ async function main() {
     item.status = "published"; item.publishedAt = new Date().toISOString(); delete item.instagramNextRetryAt;
   }
   await save(file, item);
+  if (item.status === "published") {
+    try {
+      const cleanup = await cleanupPublishedMedia(item);
+      item.mediaCleanup = { ...cleanup, at: new Date().toISOString() };
+      // Keep the queue record as the durable publication receipt while the
+      // large delivery file is no longer retained in the repository.
+      await save(file, item);
+    } catch (error) {
+      // Cleanup is maintenance, never a reason to mark a verified post as
+      // failed. The next run can retry removal safely.
+      item.mediaCleanup = { removed: false, reason: error.message, at: new Date().toISOString() };
+      await save(file, item);
+      console.log(`::warning::media cleanup failed for ${item.shortcode}: ${error.message}`);
+    }
+  }
   }
   for (const platform of configuredPlatforms) {
     const name = platform.name;

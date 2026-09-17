@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { eligible, platformEligible, retryAt, reconciliationMatch } from "../scripts/publish-sportswire-meta.mjs";
+import { eligible, platformEligible, retryAt, reconciliationMatch, cleanupPublishedMedia } from "../scripts/publish-sportswire-meta.mjs";
 
 test('uncertain clips stay locked and reserve the posting gap for other clips', () => {
  const now=Date.parse('2026-09-06T12:00:00Z');
@@ -20,6 +20,13 @@ test('reconciliation accepts only a unique exact caption within the request wind
 import { chooseSafeLogo, parseTesseractTsv } from "../src/video-safety.mjs";
 
 const valid = { status: "ready", destinationHandle: "sportswire247", brand: "SportsWire 247", video: "media/x.mp4", sourceUrl: "https://instagram.com/reel/x/", shortcode: "x", publishCaption: "Caption\n\n@sportswire247" };
+test("published media cleanup is gated on verified publication and media root", async () => {
+  const pending = await cleanupPublishedMedia(valid);
+  assert.equal(pending.removed, false);
+  const outside = await cleanupPublishedMedia({ ...valid, status: "published", instagramVerifiedAt: new Date().toISOString(), video: "../outside.mp4" });
+  assert.equal(outside.removed, false);
+  assert.equal(outside.reason, "outside_media_root");
+});
 test("publisher accepts only complete SportsWire queue records", () => {
   assert.equal(eligible(valid), true);
   assert.equal(eligible({ ...valid, status: "instagram_published_threads_pending", instagramVerifiedAt: new Date().toISOString() }), false);
