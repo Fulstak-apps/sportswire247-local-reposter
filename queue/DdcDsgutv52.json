@@ -3,16 +3,16 @@
   "shortcode": "DdcDsgutv52",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_hoops/reel/DdcDsgutv52/",
-  "sourceCaption": "Imagine Donovan Mitchell hyping you up like this \ud83d\ude2d @josiahrose24 @spidadmitchell \n\n#basketball #adidasbasketball #micdup #nba",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nImagine Donovan Mitchell hyping you up like this \ud83d\ude2d @josiahrose24 @spidadmitchell \n\n#basketball #adidasbasketball #micdup #nba\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Imagine Donovan Mitchell hyping you up like this 😭 @josiahrose24 @spidadmitchell \n\n#basketball #adidasbasketball #micdup #nba",
+  "publishCaption": "You have to see this one twice 👀\n\nImagine Donovan Mitchell hyping you up like this 😭 @josiahrose24 @spidadmitchell \n\n#basketball #adidasbasketball #micdup #nba\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-18T18:20:07.939Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Imagine Donovan Mitchell hyping you up like this \ud83d\ude2d @josiahrose24 @spidadmitchell \n\n#basketball #adidasbasketball #micdup #nba",
+  "body": "Imagine Donovan Mitchell hyping you up like this 😭 @josiahrose24 @spidadmitchell \n\n#basketball #adidasbasketball #micdup #nba",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-18T18:20:56.802Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 6.27,
   "scoreMargin": 20.16,
   "highlightQuality": 6.27,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 55.16,
@@ -73,5 +73,17 @@
   "video": "media/DdcDsgutv52-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111213736915961",
+  "instagramContainerCreatedAt": "2026-09-18T18:29:51.352Z",
+  "instagramPublishRequestedAt": "2026-09-18T18:30:21.693Z",
+  "instagramMediaId": "17877820407554791",
+  "instagramPermalink": "https://www.instagram.com/reel/DdcFRPkD-bI/",
+  "instagramVerifiedAt": "2026-09-18T18:30:27.367Z",
+  "publishedAt": "2026-09-18T18:30:27.368Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdcDsgutv52-sportswire247.mp4",
+    "at": "2026-09-18T18:30:27.369Z"
+  }
 }
