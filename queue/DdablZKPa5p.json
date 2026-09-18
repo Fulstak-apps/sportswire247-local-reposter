@@ -3,16 +3,16 @@
   "shortcode": "DdablZKPa5p",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_cfb/reel/DdablZKPa5p/",
-  "sourceCaption": "Bro\u2019s FG attempt was a tad bit off \ud83d\ude02\n\n#cfb #collegefootball #football #ncaafootball",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nBro\u2019s FG attempt was a tad bit off \ud83d\ude02\n\n#cfb #collegefootball #football #ncaafootball\n\n#nfl\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Bro’s FG attempt was a tad bit off 😂\n\n#cfb #collegefootball #football #ncaafootball",
+  "publishCaption": "The moment says it all 👀\n\nBro’s FG attempt was a tad bit off 😂\n\n#cfb #collegefootball #football #ncaafootball\n\n#nfl\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-18T03:16:27.249Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Bro\u2019s FG attempt was a tad bit off \ud83d\ude02\n\n#cfb #collegefootball #football #ncaafootball",
+  "body": "Bro’s FG attempt was a tad bit off 😂\n\n#cfb #collegefootball #football #ncaafootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-18T03:17:15.889Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.52,
   "scoreMargin": 16.27,
   "highlightQuality": 10.52,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 56.27,
@@ -73,5 +73,17 @@
   "video": "media/DdablZKPa5p-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111002443915961",
+  "instagramContainerCreatedAt": "2026-09-18T03:42:58.085Z",
+  "instagramPublishRequestedAt": "2026-09-18T03:43:28.600Z",
+  "instagramMediaId": "17895886155397356",
+  "instagramPermalink": "https://www.instagram.com/reel/DdafxWljJOi/",
+  "instagramVerifiedAt": "2026-09-18T03:43:36.010Z",
+  "publishedAt": "2026-09-18T03:43:36.011Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdablZKPa5p-sportswire247.mp4",
+    "at": "2026-09-18T03:43:36.012Z"
+  }
 }
