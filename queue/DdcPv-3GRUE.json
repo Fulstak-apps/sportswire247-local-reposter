@@ -3,16 +3,16 @@
   "shortcode": "DdcPv-3GRUE",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/p/DdcPv-3GRUE/",
-  "sourceCaption": "Who is the BEST NFL QB right now? \ud83e\udd14\ud83c\udfc8",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nWho is the BEST NFL QB right now? \ud83e\udd14\ud83c\udfc8\n\n#football #nfl\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Who is the BEST NFL QB right now? 🤔🏈",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nWho is the BEST NFL QB right now? 🤔🏈\n\n#football #nfl\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-18T20:05:18.680Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Who is the BEST NFL QB right now? \ud83e\udd14\ud83c\udfc8",
+  "body": "Who is the BEST NFL QB right now? 🤔🏈",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-18T20:06:07.151Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 9.91,
   "scoreMargin": 17.75,
   "highlightQuality": 9.91,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 57.75,
@@ -73,5 +73,17 @@
   "video": "media/DdcPv-3GRUE-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111233254915961",
+  "instagramContainerCreatedAt": "2026-09-18T20:11:15.105Z",
+  "instagramPublishRequestedAt": "2026-09-18T20:11:45.351Z",
+  "instagramMediaId": "17907064101507973",
+  "instagramPermalink": "https://www.instagram.com/reel/DdcQ3xDjgMT/",
+  "instagramVerifiedAt": "2026-09-18T20:11:52.296Z",
+  "publishedAt": "2026-09-18T20:11:52.297Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdcPv-3GRUE-sportswire247.mp4",
+    "at": "2026-09-18T20:11:52.298Z"
+  }
 }
