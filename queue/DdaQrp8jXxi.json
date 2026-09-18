@@ -3,16 +3,16 @@
   "shortcode": "DdaQrp8jXxi",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/p/DdaQrp8jXxi/",
-  "sourceCaption": "ANGEL REESE PICKED UP HER 30TH DOUBLE DOUBLE OF THE SEASON BY DROPPING 30 PTS \ud83e\udd2f\ud83e\udd2f\n\nSHE ONLY MISSED 3 SHOTS ALL GAME \ud83d\udc40",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nANGEL REESE PICKED UP HER 30TH DOUBLE DOUBLE OF THE SEASON BY DROPPING 30 PTS \ud83e\udd2f\ud83e\udd2f\n\nSHE ONLY MISSED 3 SHOTS ALL GAME \ud83d\udc40\n\n#sports\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "ANGEL REESE PICKED UP HER 30TH DOUBLE DOUBLE OF THE SEASON BY DROPPING 30 PTS 🤯🤯\n\nSHE ONLY MISSED 3 SHOTS ALL GAME 👀",
+  "publishCaption": "The moment says it all 👀\n\nANGEL REESE PICKED UP HER 30TH DOUBLE DOUBLE OF THE SEASON BY DROPPING 30 PTS 🤯🤯\n\nSHE ONLY MISSED 3 SHOTS ALL GAME 👀\n\n#sports\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-18T01:33:24.274Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "ANGEL REESE PICKED UP HER 30TH DOUBLE DOUBLE OF THE SEASON BY DROPPING 30 PTS \ud83e\udd2f\ud83e\udd2f\n\nSHE ONLY MISSED 3 SHOTS ALL GAME \ud83d\udc40",
+  "body": "ANGEL REESE PICKED UP HER 30TH DOUBLE DOUBLE OF THE SEASON BY DROPPING 30 PTS 🤯🤯\n\nSHE ONLY MISSED 3 SHOTS ALL GAME 👀",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-18T01:34:14.301Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.37,
   "scoreMargin": -35.77,
   "highlightQuality": 11.37,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 44.23,
@@ -73,5 +73,17 @@
   "video": "media/DdaQrp8jXxi-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111026017915961",
+  "instagramContainerCreatedAt": "2026-09-18T05:39:48.315Z",
+  "instagramPublishRequestedAt": "2026-09-18T05:40:18.702Z",
+  "instagramMediaId": "18629795035007868",
+  "instagramPermalink": "https://www.instagram.com/reel/DdatJcMgtD5/",
+  "instagramVerifiedAt": "2026-09-18T05:40:25.211Z",
+  "publishedAt": "2026-09-18T05:40:25.212Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdaQrp8jXxi-sportswire247.mp4",
+    "at": "2026-09-18T05:40:25.213Z"
+  }
 }
