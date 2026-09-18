@@ -3,16 +3,16 @@
   "shortcode": "DdckWQNjZh2",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/p/DdckWQNjZh2/",
-  "sourceCaption": "The Thompson twins become the first brothers in NBA history to each get $100M+ deals \ud83d\ude24\ud83d\udd25\n\nLEGENDARY \ud83d\ude4c",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nThe Thompson twins become the first brothers in NBA history to each get $100M+ deals \ud83d\ude24\ud83d\udd25\n\nLEGENDARY \ud83d\ude4c\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "The Thompson twins become the first brothers in NBA history to each get $100M+ deals 😤🔥\n\nLEGENDARY 🙌",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nThe Thompson twins become the first brothers in NBA history to each get $100M+ deals 😤🔥\n\nLEGENDARY 🙌\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-18T23:06:28.207Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "The Thompson twins become the first brothers in NBA history to each get $100M+ deals \ud83d\ude24\ud83d\udd25\n\nLEGENDARY \ud83d\ude4c",
+  "body": "The Thompson twins become the first brothers in NBA history to each get $100M+ deals 😤🔥\n\nLEGENDARY 🙌",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-18T23:07:17.047Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 67.36,
   "engagementScore": 16.5,
   "scoreMargin": 32.36,
-  "highlightQuality": 14.0,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "highlightQuality": 14,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 67.36,
@@ -73,5 +73,17 @@
   "video": "media/DdckWQNjZh2-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111265822915961",
+  "instagramContainerCreatedAt": "2026-09-18T23:17:27.161Z",
+  "instagramPublishRequestedAt": "2026-09-18T23:17:57.958Z",
+  "instagramMediaId": "18118792481513440",
+  "instagramPermalink": "https://www.instagram.com/reel/DdcmLZMFPMc/",
+  "instagramVerifiedAt": "2026-09-18T23:18:04.582Z",
+  "publishedAt": "2026-09-18T23:18:04.583Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdckWQNjZh2-sportswire247.mp4",
+    "at": "2026-09-18T23:18:04.584Z"
+  }
 }
