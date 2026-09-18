@@ -3,16 +3,16 @@
   "shortcode": "Ddab7VQNCc4",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Ddab7VQNCc4/",
-  "sourceCaption": "Cameraman fell in love \ud83d\ude2d\ud83d\ude2d (Via @a_derrick14, @totalmainemove)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nCameraman fell in love \ud83d\ude2d\ud83d\ude2d (Via @a_derrick14, @totalmainemove)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Cameraman fell in love 😭😭 (Via @a_derrick14, @totalmainemove)",
+  "publishCaption": "You have to see this one twice 👀\n\nCameraman fell in love 😭😭 (Via @a_derrick14, @totalmainemove)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-18T03:15:20.978Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Cameraman fell in love \ud83d\ude2d\ud83d\ude2d (Via @a_derrick14, @totalmainemove)",
+  "body": "Cameraman fell in love 😭😭 (Via @a_derrick14, @totalmainemove)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-18T03:16:09.702Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.55,
   "scoreMargin": -36.54,
   "highlightQuality": 10.55,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.46,
@@ -73,5 +73,17 @@
   "video": "media/Ddab7VQNCc4-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111033733915961",
+  "instagramContainerCreatedAt": "2026-09-18T06:20:25.944Z",
+  "instagramPublishRequestedAt": "2026-09-18T06:20:56.503Z",
+  "instagramMediaId": "18126703639701228",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddaxyr4CSYV/",
+  "instagramVerifiedAt": "2026-09-18T06:21:04.193Z",
+  "publishedAt": "2026-09-18T06:21:04.194Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddab7VQNCc4-sportswire247.mp4",
+    "at": "2026-09-18T06:21:04.195Z"
+  }
 }
