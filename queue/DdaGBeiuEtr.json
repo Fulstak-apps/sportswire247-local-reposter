@@ -3,16 +3,16 @@
   "shortcode": "DdaGBeiuEtr",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdaGBeiuEtr/",
-  "sourceCaption": "Deion took action after Jimmy Horn Jr. got cut by the Panthers \ud83e\udd1d\n\n(via @cubuffs) #deionsanders #colorado #cfb #football #nfl",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nDeion took action after Jimmy Horn Jr. got cut by the Panthers \ud83e\udd1d\n\n(via @cubuffs) #deionsanders #colorado #cfb #football #nfl\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Deion took action after Jimmy Horn Jr. got cut by the Panthers 🤝\n\n(via @cubuffs) #deionsanders #colorado #cfb #football #nfl",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nDeion took action after Jimmy Horn Jr. got cut by the Panthers 🤝\n\n(via @cubuffs) #deionsanders #colorado #cfb #football #nfl\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-18T00:04:55.289Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Deion took action after Jimmy Horn Jr. got cut by the Panthers \ud83e\udd1d\n\n(via @cubuffs) #deionsanders #colorado #cfb #football #nfl",
+  "body": "Deion took action after Jimmy Horn Jr. got cut by the Panthers 🤝\n\n(via @cubuffs) #deionsanders #colorado #cfb #football #nfl",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-18T00:05:44.173Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 62.28,
   "engagementScore": 16.45,
   "scoreMargin": 22.28,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 62.28,
@@ -73,5 +73,17 @@
   "video": "media/DdaGBeiuEtr-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110965015915961",
+  "instagramContainerCreatedAt": "2026-09-18T00:20:05.952Z",
+  "instagramPublishRequestedAt": "2026-09-18T00:20:36.599Z",
+  "instagramMediaId": "17980940250080507",
+  "instagramPermalink": "https://www.instagram.com/reel/DdaIjmJgUIY/",
+  "instagramVerifiedAt": "2026-09-18T00:20:45.684Z",
+  "publishedAt": "2026-09-18T00:20:45.684Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdaGBeiuEtr-sportswire247.mp4",
+    "at": "2026-09-18T00:20:45.685Z"
+  }
 }
