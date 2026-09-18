@@ -3,16 +3,16 @@
   "shortcode": "DdbpcYbuSZE",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdbpcYbuSZE/",
-  "sourceCaption": "LeBron really gave Savannah a kiss mid-game \ud83d\ude2d\u2764\ufe0f \n\n(via @lakersalldayeveryday, Lilmikyb/X) \n\n#nba #basketball #lebron #lebronjames",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nLeBron really gave Savannah a kiss mid-game \ud83d\ude2d\u2764\ufe0f \n\n(via @lakersalldayeveryday, Lilmikyb/X) \n\n#nba #basketball #lebron #lebronjames\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "LeBron really gave Savannah a kiss mid-game 😭❤️ \n\n(via @lakersalldayeveryday, Lilmikyb/X) \n\n#nba #basketball #lebron #lebronjames",
+  "publishCaption": "The moment says it all 👀\n\nLeBron really gave Savannah a kiss mid-game 😭❤️ \n\n(via @lakersalldayeveryday, Lilmikyb/X) \n\n#nba #basketball #lebron #lebronjames\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-18T14:31:48.714Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "LeBron really gave Savannah a kiss mid-game \ud83d\ude2d\u2764\ufe0f \n\n(via @lakersalldayeveryday, Lilmikyb/X) \n\n#nba #basketball #lebron #lebronjames",
+  "body": "LeBron really gave Savannah a kiss mid-game 😭❤️ \n\n(via @lakersalldayeveryday, Lilmikyb/X) \n\n#nba #basketball #lebron #lebronjames",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-18T14:32:37.170Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.98,
   "scoreMargin": 25.85,
   "highlightQuality": 11.98,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 60.85,
@@ -73,5 +73,17 @@
   "video": "media/DdbpcYbuSZE-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111148339915961",
+  "instagramContainerCreatedAt": "2026-09-18T14:36:25.401Z",
+  "instagramPublishRequestedAt": "2026-09-18T14:36:55.768Z",
+  "instagramMediaId": "18109947338147322",
+  "instagramPermalink": "https://www.instagram.com/reel/DdbqjWmjh7d/",
+  "instagramVerifiedAt": "2026-09-18T14:37:04.638Z",
+  "publishedAt": "2026-09-18T14:37:04.639Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdbpcYbuSZE-sportswire247.mp4",
+    "at": "2026-09-18T14:37:04.640Z"
+  }
 }
