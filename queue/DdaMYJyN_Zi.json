@@ -4,9 +4,9 @@
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/DdaMYJyN_Zi/",
   "sourceCaption": "This angle Josh Allen warming up in the new stadium >> \n\n(via JAcostaTV/X) #nfl #nflfootball #football #bills #joshallen",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nThis angle Josh Allen warming up in the new stadium >> \n\n(via JAcostaTV/X) #nfl #nflfootball #football #bills #joshallen\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nThis angle Josh Allen warming up in the new stadium >> \n\n(via JAcostaTV/X) #nfl #nflfootball #football #bills #joshallen\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-18T01:10:26.450Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 11.75,
   "scoreMargin": 17.38,
   "highlightQuality": 11.75,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 57.38,
@@ -73,5 +73,17 @@
   "video": "media/DdaMYJyN_Zi-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18110980963915961",
+  "instagramContainerCreatedAt": "2026-09-18T01:41:15.979Z",
+  "instagramPublishRequestedAt": "2026-09-18T01:42:01.710Z",
+  "instagramMediaId": "17983273653077432",
+  "instagramPermalink": "https://www.instagram.com/reel/DdaR2crgrJe/",
+  "instagramVerifiedAt": "2026-09-18T01:42:09.362Z",
+  "publishedAt": "2026-09-18T01:42:09.363Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdaMYJyN_Zi-sportswire247.mp4",
+    "at": "2026-09-18T01:42:09.364Z"
+  }
 }
