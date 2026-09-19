@@ -3,16 +3,16 @@
   "shortcode": "Ddc4VwKkdv5",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brwsports/p/Ddc4VwKkdv5/",
-  "sourceCaption": "This duo is on absolute fire \ud83e\udd2f\ud83d\udd25\n\nKM and Caitlin combine for 61 to get the 103-85 win over the Toronto Tempo \ud83d\udd25\ud83d\ude24",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nThis duo is on absolute fire \ud83e\udd2f\ud83d\udd25\n\nKM and Caitlin combine for 61 to get the 103-85 win over the Toronto Tempo \ud83d\udd25\ud83d\ude24\n\n#sports\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "This duo is on absolute fire 🤯🔥\n\nKM and Caitlin combine for 61 to get the 103-85 win over the Toronto Tempo 🔥😤",
+  "publishCaption": "You have to see this one twice 👀\n\nThis duo is on absolute fire 🤯🔥\n\nKM and Caitlin combine for 61 to get the 103-85 win over the Toronto Tempo 🔥😤\n\n#sports\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T02:21:15.166Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "This duo is on absolute fire \ud83e\udd2f\ud83d\udd25\n\nKM and Caitlin combine for 61 to get the 103-85 win over the Toronto Tempo \ud83d\udd25\ud83d\ude24",
+  "body": "This duo is on absolute fire 🤯🔥\n\nKM and Caitlin combine for 61 to get the 103-85 win over the Toronto Tempo 🔥😤",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T02:22:03.863Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.6,
   "scoreMargin": -37.98,
   "highlightQuality": 11.6,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.02,
@@ -73,5 +73,17 @@
   "video": "media/Ddc4VwKkdv5-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111326281915961",
+  "instagramContainerCreatedAt": "2026-09-19T03:56:22.707Z",
+  "instagramPublishRequestedAt": "2026-09-19T03:57:08.130Z",
+  "instagramMediaId": "18116048260974417",
+  "instagramPermalink": "https://www.instagram.com/reel/DddGHWFgox5/",
+  "instagramVerifiedAt": "2026-09-19T03:57:14.715Z",
+  "publishedAt": "2026-09-19T03:57:14.716Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddc4VwKkdv5-sportswire247.mp4",
+    "at": "2026-09-19T03:57:14.717Z"
+  }
 }
