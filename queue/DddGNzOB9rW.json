@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymedia/reel/DddGNzOB9rW/",
   "sourceCaption": "Pitcher hit a backflip after sending the Amarillo Sod Poodles to the Texas League Championship Series\n\n#minorleague #baseball #sports #backflip #celebration",
-  "publishCaption": "Sports and the internet stay undefeated \ud83d\ude02\n\nPitcher hit a backflip after sending the Amarillo Sod Poodles to the Texas League Championship Series\n\n#minorleague #baseball #sports #backflip #celebration\n\n#mlb\n\nSource: @jomboymedia\n\nBe honest\u2014would you have done the same?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "Sports and the internet stay undefeated 😂\n\nPitcher hit a backflip after sending the Amarillo Sod Poodles to the Texas League Championship Series\n\n#minorleague #baseball #sports #backflip #celebration\n\n#mlb\n\nSource: @jomboymedia\n\nBe honest—would you have done the same?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T04:04:00.729Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 4.45,
   "scoreMargin": 14.31,
   "highlightQuality": 16.45,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 59.31,
@@ -74,5 +74,17 @@
   "video": "media/DddGNzOB9rW-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111333175915961",
+  "instagramContainerCreatedAt": "2026-09-19T04:29:49.286Z",
+  "instagramPublishRequestedAt": "2026-09-19T04:30:19.646Z",
+  "instagramMediaId": "18112899074034519",
+  "instagramPermalink": "https://www.instagram.com/reel/DddJ7amj18_/",
+  "instagramVerifiedAt": "2026-09-19T04:30:27.472Z",
+  "publishedAt": "2026-09-19T04:30:27.472Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DddGNzOB9rW-sportswire247.mp4",
+    "at": "2026-09-19T04:30:27.487Z"
+  }
 }
