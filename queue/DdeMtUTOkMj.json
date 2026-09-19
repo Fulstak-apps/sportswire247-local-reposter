@@ -3,16 +3,16 @@
   "shortcode": "DdeMtUTOkMj",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdeMtUTOkMj/",
-  "sourceCaption": "You know bro was like that back in high school \ud83d\udd25\ud83e\udd23 (via @chase6bank)",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nYou know bro was like that back in high school \ud83d\udd25\ud83e\udd23 (via @chase6bank)\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "You know bro was like that back in high school 🔥🤣 (via @chase6bank)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nYou know bro was like that back in high school 🔥🤣 (via @chase6bank)\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T14:33:41.832Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "You know bro was like that back in high school \ud83d\udd25\ud83e\udd23 (via @chase6bank)",
+  "body": "You know bro was like that back in high school 🔥🤣 (via @chase6bank)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T14:34:30.596Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 48.17,
   "engagementScore": 15.62,
   "scoreMargin": -31.83,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.17,
@@ -73,5 +73,17 @@
   "video": "media/DdeMtUTOkMj-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111472612915961",
+  "instagramContainerCreatedAt": "2026-09-19T14:45:13.756Z",
+  "instagramPublishRequestedAt": "2026-09-19T14:45:44.166Z",
+  "instagramMediaId": "18110844818111054",
+  "instagramPermalink": "https://www.instagram.com/reel/DdeQWvID0y7/",
+  "instagramVerifiedAt": "2026-09-19T14:45:50.772Z",
+  "publishedAt": "2026-09-19T14:45:50.773Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdeMtUTOkMj-sportswire247.mp4",
+    "at": "2026-09-19T14:45:50.774Z"
+  }
 }
