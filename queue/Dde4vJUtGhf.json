@@ -3,16 +3,16 @@
   "shortcode": "Dde4vJUtGhf",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Dde4vJUtGhf/",
-  "sourceCaption": "How Vanderbilt took the lead in the final seconds \ud83e\udd2f #cfb #collegefootball #football",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nHow Vanderbilt took the lead in the final seconds \ud83e\udd2f #cfb #collegefootball #football\n\n#nfl\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "How Vanderbilt took the lead in the final seconds 🤯 #cfb #collegefootball #football",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nHow Vanderbilt took the lead in the final seconds 🤯 #cfb #collegefootball #football\n\n#nfl\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T20:52:19.889Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "How Vanderbilt took the lead in the final seconds \ud83e\udd2f #cfb #collegefootball #football",
+  "body": "How Vanderbilt took the lead in the final seconds 🤯 #cfb #collegefootball #football",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T20:53:08.666Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 64.13,
   "engagementScore": 17.49,
   "scoreMargin": 24.13,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 64.13,
@@ -73,5 +73,17 @@
   "video": "media/Dde4vJUtGhf-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111586681915961",
+  "instagramContainerCreatedAt": "2026-09-19T21:30:20.042Z",
+  "instagramPublishRequestedAt": "2026-09-19T21:30:50.586Z",
+  "instagramMediaId": "18117203650743718",
+  "instagramPermalink": "https://www.instagram.com/reel/Dde-t7HiVFB/",
+  "instagramVerifiedAt": "2026-09-19T21:30:58.554Z",
+  "publishedAt": "2026-09-19T21:30:58.554Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Dde4vJUtGhf-sportswire247.mp4",
+    "at": "2026-09-19T21:30:58.555Z"
+  }
 }
