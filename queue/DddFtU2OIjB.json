@@ -3,16 +3,16 @@
   "shortcode": "DddFtU2OIjB",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DddFtU2OIjB/",
-  "sourceCaption": "Skating LEGEND Tony Hawk threw the first pitch for his hometown team, San Diego Padres \ud83d\udef9\n\n(via @mlb) #tonyhawk #skate #padres #baseball #mlb",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nSkating LEGEND Tony Hawk threw the first pitch for his hometown team, San Diego Padres \ud83d\udef9\n\n(via @mlb) #tonyhawk #skate #padres #baseball #mlb\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Skating LEGEND Tony Hawk threw the first pitch for his hometown team, San Diego Padres 🛹\n\n(via @mlb) #tonyhawk #skate #padres #baseball #mlb",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nSkating LEGEND Tony Hawk threw the first pitch for his hometown team, San Diego Padres 🛹\n\n(via @mlb) #tonyhawk #skate #padres #baseball #mlb\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T04:02:53.811Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Skating LEGEND Tony Hawk threw the first pitch for his hometown team, San Diego Padres \ud83d\udef9\n\n(via @mlb) #tonyhawk #skate #padres #baseball #mlb",
+  "body": "Skating LEGEND Tony Hawk threw the first pitch for his hometown team, San Diego Padres 🛹\n\n(via @mlb) #tonyhawk #skate #padres #baseball #mlb",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T04:03:42.348Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.88,
   "scoreMargin": 8.61,
   "highlightQuality": 10.88,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 53.61,
@@ -73,5 +73,17 @@
   "video": "media/DddFtU2OIjB-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111340513915961",
+  "instagramContainerCreatedAt": "2026-09-19T05:10:14.292Z",
+  "instagramPublishRequestedAt": "2026-09-19T05:10:44.925Z",
+  "instagramMediaId": "17877501786553280",
+  "instagramPermalink": "https://www.instagram.com/reel/DddOjmHAnDP/",
+  "instagramVerifiedAt": "2026-09-19T05:10:53.580Z",
+  "publishedAt": "2026-09-19T05:10:53.581Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DddFtU2OIjB-sportswire247.mp4",
+    "at": "2026-09-19T05:10:53.582Z"
+  }
 }
