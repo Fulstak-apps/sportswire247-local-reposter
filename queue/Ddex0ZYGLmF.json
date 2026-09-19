@@ -3,16 +3,16 @@
   "shortcode": "Ddex0ZYGLmF",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brwsports/p/Ddex0ZYGLmF/",
-  "sourceCaption": "Paige doing Paige things \ud83d\udd25\n\nPaige now holds the record for the most points scored in the WNBA by a player in their first two seasons. \n\nBueckers: 26 PTS | 5 AST | 5 3PM | 3 STL",
-  "publishCaption": "This one changes the conversation \ud83d\udea8\n\nPaige doing Paige things \ud83d\udd25\n\nPaige now holds the record for the most points scored in the WNBA by a player in their first two seasons. \n\nBueckers: 26 PTS | 5 AST | 5 3PM | 3 STL\n\n#basketball #nba\n\nSource: @bleacherreport\n\nWhat do you think?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Paige doing Paige things 🔥\n\nPaige now holds the record for the most points scored in the WNBA by a player in their first two seasons. \n\nBueckers: 26 PTS | 5 AST | 5 3PM | 3 STL",
+  "publishCaption": "This one changes the conversation 🚨\n\nPaige doing Paige things 🔥\n\nPaige now holds the record for the most points scored in the WNBA by a player in their first two seasons. \n\nBueckers: 26 PTS | 5 AST | 5 3PM | 3 STL\n\n#basketball #nba\n\nSource: @bleacherreport\n\nWhat do you think?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T19:43:27.590Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Paige doing Paige things \ud83d\udd25\n\nPaige now holds the record for the most points scored in the WNBA by a player in their first two seasons. \n\nBueckers: 26 PTS | 5 AST | 5 3PM | 3 STL",
+  "body": "Paige doing Paige things 🔥\n\nPaige now holds the record for the most points scored in the WNBA by a player in their first two seasons. \n\nBueckers: 26 PTS | 5 AST | 5 3PM | 3 STL",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T19:44:16.538Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.84,
   "scoreMargin": 34.66,
   "highlightQuality": 10.84,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 69.66,
@@ -74,5 +74,17 @@
   "video": "media/Ddex0ZYGLmF-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111571963915961",
+  "instagramContainerCreatedAt": "2026-09-19T19:57:12.592Z",
+  "instagramPublishRequestedAt": "2026-09-19T19:57:43.216Z",
+  "instagramMediaId": "18040605524820541",
+  "instagramPermalink": "https://www.instagram.com/reel/Dde0DwLALCN/",
+  "instagramVerifiedAt": "2026-09-19T19:57:51.685Z",
+  "publishedAt": "2026-09-19T19:57:51.686Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddex0ZYGLmF-sportswire247.mp4",
+    "at": "2026-09-19T19:57:51.686Z"
+  }
 }
