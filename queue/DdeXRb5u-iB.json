@@ -3,16 +3,16 @@
   "shortcode": "DdeXRb5u-iB",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdeXRb5u-iB/",
-  "sourceCaption": "Speed let his intrusive thoughts win \ud83d\ude05\ud83d\ude2d (via @ishowspeed, h/t imJustRed/X)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nSpeed let his intrusive thoughts win \ud83d\ude05\ud83d\ude2d (via @ishowspeed, h/t imJustRed/X)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Speed let his intrusive thoughts win 😅😭 (via @ishowspeed, h/t imJustRed/X)",
+  "publishCaption": "You have to see this one twice 👀\n\nSpeed let his intrusive thoughts win 😅😭 (via @ishowspeed, h/t imJustRed/X)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T15:50:54.465Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Speed let his intrusive thoughts win \ud83d\ude05\ud83d\ude2d (via @ishowspeed, h/t imJustRed/X)",
+  "body": "Speed let his intrusive thoughts win 😅😭 (via @ishowspeed, h/t imJustRed/X)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T15:51:44.177Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.13,
   "scoreMargin": -36.98,
   "highlightQuality": 10.13,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.02,
@@ -73,5 +73,17 @@
   "video": "media/DdeXRb5u-iB-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111541585915961",
+  "instagramContainerCreatedAt": "2026-09-19T17:56:43.714Z",
+  "instagramPublishRequestedAt": "2026-09-19T17:57:14.021Z",
+  "instagramMediaId": "17935238859381125",
+  "instagramPermalink": "https://www.instagram.com/reel/DdemRZVE76c/",
+  "instagramVerifiedAt": "2026-09-19T17:57:19.760Z",
+  "publishedAt": "2026-09-19T17:57:19.761Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdeXRb5u-iB-sportswire247.mp4",
+    "at": "2026-09-19T17:57:19.762Z"
+  }
 }
