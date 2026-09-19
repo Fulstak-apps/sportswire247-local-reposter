@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymediafootball/reel/Dde0xHaSGRL/",
   "sourceCaption": "A Clemson wide receiver was wide open but freshman quarterback Tait Reynolds spiked the ball and the Tigers ultimately settled for a field goal\n\n#football #collegefootball #clemson #tarheels #acc",
-  "publishCaption": "That finish was ridiculous \ud83d\ude33\n\nA Clemson wide receiver was wide open but freshman quarterback Tait Reynolds spiked the ball and the Tigers ultimately settled for a field goal\n\n#football #collegefootball #clemson #tarheels #acc\n\n#nfl\n\nSource: @jomboymedia\n\nDid you see that coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "That finish was ridiculous 😳\n\nA Clemson wide receiver was wide open but freshman quarterback Tait Reynolds spiked the ball and the Tigers ultimately settled for a field goal\n\n#football #collegefootball #clemson #tarheels #acc\n\n#nfl\n\nSource: @jomboymedia\n\nDid you see that coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T20:23:40.917Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -50,11 +50,11 @@
   "priority": "P3",
   "viralScore": 59.57,
   "rawScore": 59.57,
-  "engagementScore": 5.0,
+  "engagementScore": 5,
   "scoreMargin": 19.57,
-  "highlightQuality": 25.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 25,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 59.57,
@@ -75,5 +75,17 @@
   "video": "media/Dde0xHaSGRL-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111605644915961",
+  "instagramContainerCreatedAt": "2026-09-19T23:26:11.551Z",
+  "instagramPublishRequestedAt": "2026-09-19T23:26:42.566Z",
+  "instagramMediaId": "18328105663274050",
+  "instagramPermalink": "https://www.instagram.com/reel/DdfL-a1DnXh/",
+  "instagramVerifiedAt": "2026-09-19T23:26:49.317Z",
+  "publishedAt": "2026-09-19T23:26:49.317Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Dde0xHaSGRL-sportswire247.mp4",
+    "at": "2026-09-19T23:26:49.319Z"
+  }
 }
