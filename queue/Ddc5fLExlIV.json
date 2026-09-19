@@ -3,16 +3,16 @@
   "shortcode": "Ddc5fLExlIV",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Ddc5fLExlIV/",
-  "sourceCaption": "\ud83d\udd25\ud83d\udd25\ud83d\udd25#cfb",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\n\ud83d\udd25\ud83d\udd25\ud83d\udd25#cfb\n\n#football #nfl\n\nSource: @sportscenter\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "🔥🔥🔥#cfb",
+  "publishCaption": "The moment says it all 👀\n\n🔥🔥🔥#cfb\n\n#football #nfl\n\nSource: @sportscenter\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T02:09:01.101Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "\ud83d\udd25\ud83d\udd25\ud83d\udd25#cfb",
+  "body": "🔥🔥🔥#cfb",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T02:09:49.686Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.54,
   "scoreMargin": 17.51,
   "highlightQuality": 10.54,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 57.51,
@@ -73,5 +73,17 @@
   "video": "media/Ddc5fLExlIV-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111303340915961",
+  "instagramContainerCreatedAt": "2026-09-19T02:14:36.417Z",
+  "instagramPublishRequestedAt": "2026-09-19T02:15:06.837Z",
+  "instagramMediaId": "18127774510747227",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddc6dNegLbs/",
+  "instagramVerifiedAt": "2026-09-19T02:15:14.239Z",
+  "publishedAt": "2026-09-19T02:15:14.240Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddc5fLExlIV-sportswire247.mp4",
+    "at": "2026-09-19T02:15:14.242Z"
+  }
 }
