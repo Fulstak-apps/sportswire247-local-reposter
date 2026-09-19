@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymediafootball/reel/Ddeu3aTpIHp/",
   "sourceCaption": "Minnesota punt returner Javon Tracy accidentally runs out of bounds because he was looking behind him\n\n#football #collegefootball #punt #cfb #fail",
-  "publishCaption": "That finish was ridiculous \ud83d\ude33\n\nMinnesota punt returner Javon Tracy accidentally runs out of bounds because he was looking behind him\n\n#football #collegefootball #punt #cfb #fail\n\n#nfl\n\nSource: @jomboymedia\n\nDid you see that coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "That finish was ridiculous 😳\n\nMinnesota punt returner Javon Tracy accidentally runs out of bounds because he was looking behind him\n\n#football #collegefootball #punt #cfb #fail\n\n#nfl\n\nSource: @jomboymedia\n\nDid you see that coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T19:21:33.088Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 5.62,
   "scoreMargin": 32.4,
   "highlightQuality": 49.62,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 72.4,
@@ -75,5 +75,17 @@
   "video": "media/Ddeu3aTpIHp-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111580774915961",
+  "instagramContainerCreatedAt": "2026-09-19T20:49:41.040Z",
+  "instagramPublishRequestedAt": "2026-09-19T20:50:11.355Z",
+  "instagramMediaId": "17880867126529330",
+  "instagramPermalink": "https://www.instagram.com/reel/Dde6EMEifhc/",
+  "instagramVerifiedAt": "2026-09-19T20:50:19.725Z",
+  "publishedAt": "2026-09-19T20:50:19.726Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddeu3aTpIHp-sportswire247.mp4",
+    "at": "2026-09-19T20:50:19.727Z"
+  }
 }
