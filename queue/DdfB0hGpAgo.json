@@ -3,16 +3,16 @@
   "shortcode": "DdfB0hGpAgo",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/lethalshooter/reel/DdfB0hGpAgo/",
-  "sourceCaption": "Jonathan Kuminga (Minnesota Timberwolves ) is committed to getting better everyday! He understands it!\ud83c\udfaf \n-\nPlayer: @jonathan_kuminga \nTrainer: @antwells_thetrainer \nTrainer: ( @lethalshooter )\n#Timberwolves #NBA #LethalShooter",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nJonathan Kuminga (Minnesota Timberwolves ) is committed to getting better everyday! He understands it!\ud83c\udfaf \n-\nPlayer: @jonathan_kuminga \nTrainer: @antwells_thetrainer \nTrainer: ( @lethalshooter )\n#Timberwolves #NBA #LethalShooter\n\n#basketball\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Jonathan Kuminga (Minnesota Timberwolves ) is committed to getting better everyday! He understands it!🎯 \n-\nPlayer: @jonathan_kuminga \nTrainer: @antwells_thetrainer \nTrainer: ( @lethalshooter )\n#Timberwolves #NBA #LethalShooter",
+  "publishCaption": "You have to see this one twice 👀\n\nJonathan Kuminga (Minnesota Timberwolves ) is committed to getting better everyday! He understands it!🎯 \n-\nPlayer: @jonathan_kuminga \nTrainer: @antwells_thetrainer \nTrainer: ( @lethalshooter )\n#Timberwolves #NBA #LethalShooter\n\n#basketball\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T22:10:32.869Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jonathan Kuminga (Minnesota Timberwolves ) is committed to getting better everyday! He understands it!\ud83c\udfaf \n-\nPlayer: @jonathan_kuminga \nTrainer: @antwells_thetrainer \nTrainer: ( @lethalshooter )\n#Timberwolves #NBA #LethalShooter",
+  "body": "Jonathan Kuminga (Minnesota Timberwolves ) is committed to getting better everyday! He understands it!🎯 \n-\nPlayer: @jonathan_kuminga \nTrainer: @antwells_thetrainer \nTrainer: ( @lethalshooter )\n#Timberwolves #NBA #LethalShooter",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T22:11:21.488Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.11,
   "scoreMargin": 25.8,
   "highlightQuality": 12.11,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 60.8,
@@ -73,5 +73,17 @@
   "video": "media/DdfB0hGpAgo-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111598546915961",
+  "instagramContainerCreatedAt": "2026-09-19T22:46:31.601Z",
+  "instagramPublishRequestedAt": "2026-09-19T22:47:02.180Z",
+  "instagramMediaId": "17907242118482757",
+  "instagramPermalink": "https://www.instagram.com/reel/DdfHcOwiszv/",
+  "instagramVerifiedAt": "2026-09-19T22:47:11.779Z",
+  "publishedAt": "2026-09-19T22:47:11.780Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfB0hGpAgo-sportswire247.mp4",
+    "at": "2026-09-19T22:47:11.781Z"
+  }
 }
