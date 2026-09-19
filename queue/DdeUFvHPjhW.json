@@ -3,16 +3,16 @@
   "shortcode": "DdeUFvHPjhW",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_cfb/reel/DdeUFvHPjhW/",
-  "sourceCaption": "LSU-Ole Miss will be FIREWORKS \ud83d\udd25\n\n#cfb #collegefootball #ncaafootball #lsu #olemiss",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nLSU-Ole Miss will be FIREWORKS \ud83d\udd25\n\n#cfb #collegefootball #ncaafootball #lsu #olemiss\n\n#football #nfl\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "LSU-Ole Miss will be FIREWORKS 🔥\n\n#cfb #collegefootball #ncaafootball #lsu #olemiss",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nLSU-Ole Miss will be FIREWORKS 🔥\n\n#cfb #collegefootball #ncaafootball #lsu #olemiss\n\n#football #nfl\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T15:25:57.467Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "LSU-Ole Miss will be FIREWORKS \ud83d\udd25\n\n#cfb #collegefootball #ncaafootball #lsu #olemiss",
+  "body": "LSU-Ole Miss will be FIREWORKS 🔥\n\n#cfb #collegefootball #ncaafootball #lsu #olemiss",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T15:26:46.274Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 6.69,
   "scoreMargin": 12.48,
   "highlightQuality": 6.69,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 52.48,
@@ -73,5 +73,17 @@
   "video": "media/DdeUFvHPjhW-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111516346915961",
+  "instagramContainerCreatedAt": "2026-09-19T16:44:33.303Z",
+  "instagramPublishRequestedAt": "2026-09-19T16:45:34.123Z",
+  "instagramMediaId": "18121779046899672",
+  "instagramPermalink": "https://www.instagram.com/reel/DdeeDkmgZdC/",
+  "instagramVerifiedAt": "2026-09-19T16:45:41.492Z",
+  "publishedAt": "2026-09-19T16:45:41.493Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdeUFvHPjhW-sportswire247.mp4",
+    "at": "2026-09-19T16:45:41.494Z"
+  }
 }
