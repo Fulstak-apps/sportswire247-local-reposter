@@ -3,16 +3,16 @@
   "shortcode": "Ddc7C9cumXQ",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Ddc7C9cumXQ/",
-  "sourceCaption": "Sean McVay \u2018hopes\u2019 to never play in Australia again after Week 1\u2019s brutal loss vs. 49ers \ud83d\ude05\n\n(via @rams) #rams #49ers #australia #football #nfl",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nSean McVay \u2018hopes\u2019 to never play in Australia again after Week 1\u2019s brutal loss vs. 49ers \ud83d\ude05\n\n(via @rams) #rams #49ers #australia #football #nfl\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Sean McVay ‘hopes’ to never play in Australia again after Week 1’s brutal loss vs. 49ers 😅\n\n(via @rams) #rams #49ers #australia #football #nfl",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nSean McVay ‘hopes’ to never play in Australia again after Week 1’s brutal loss vs. 49ers 😅\n\n(via @rams) #rams #49ers #australia #football #nfl\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T02:28:08.906Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Sean McVay \u2018hopes\u2019 to never play in Australia again after Week 1\u2019s brutal loss vs. 49ers \ud83d\ude05\n\n(via @rams) #rams #49ers #australia #football #nfl",
+  "body": "Sean McVay ‘hopes’ to never play in Australia again after Week 1’s brutal loss vs. 49ers 😅\n\n(via @rams) #rams #49ers #australia #football #nfl",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T02:28:57.436Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.9,
   "scoreMargin": 18.72,
   "highlightQuality": 12.9,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 58.72,
@@ -73,5 +73,17 @@
   "video": "media/Ddc7C9cumXQ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111313093915961",
+  "instagramContainerCreatedAt": "2026-09-19T02:55:10.345Z",
+  "instagramPublishRequestedAt": "2026-09-19T02:55:25.549Z",
+  "instagramMediaId": "18109186063888140",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddc_GSGE8xH/",
+  "instagramVerifiedAt": "2026-09-19T02:55:32.768Z",
+  "publishedAt": "2026-09-19T02:55:32.769Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddc7C9cumXQ-sportswire247.mp4",
+    "at": "2026-09-19T02:55:32.770Z"
+  }
 }
