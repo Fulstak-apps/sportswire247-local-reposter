@@ -3,16 +3,16 @@
   "shortcode": "DdeUHosIka0",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimeeur/reel/DdeUHosIka0/",
-  "sourceCaption": "3 time dunk contest champ in Europe \ud83d\udd25 @macmcclung37 (via BasquetGirona/X)",
-  "publishCaption": "Sports are unreal sometimes \ud83d\ude2e\u200d\ud83d\udca8\n\n3 time dunk contest champ in Europe \ud83d\udd25 @macmcclung37 (via BasquetGirona/X)\n\n#basketball #nba\n\nSource: @overtime\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "3 time dunk contest champ in Europe 🔥 @macmcclung37 (via BasquetGirona/X)",
+  "publishCaption": "Sports are unreal sometimes 😮‍💨\n\n3 time dunk contest champ in Europe 🔥 @macmcclung37 (via BasquetGirona/X)\n\n#basketball #nba\n\nSource: @overtime\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T15:27:25.673Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "3 time dunk contest champ in Europe \ud83d\udd25 @macmcclung37 (via BasquetGirona/X)",
+  "body": "3 time dunk contest champ in Europe 🔥 @macmcclung37 (via BasquetGirona/X)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T15:28:14.312Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 8.23,
   "scoreMargin": 32.05,
   "highlightQuality": 28.23,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 67.05,
@@ -75,5 +75,17 @@
   "video": "media/DdeUHosIka0-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111504379915961",
+  "instagramContainerCreatedAt": "2026-09-19T16:06:21.421Z",
+  "instagramPublishRequestedAt": "2026-09-19T16:06:51.913Z",
+  "instagramMediaId": "17934954363370282",
+  "instagramPermalink": "https://www.instagram.com/reel/DdeZpDvCnin/",
+  "instagramVerifiedAt": "2026-09-19T16:07:01.286Z",
+  "publishedAt": "2026-09-19T16:07:01.286Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdeUHosIka0-sportswire247.mp4",
+    "at": "2026-09-19T16:07:01.287Z"
+  }
 }
