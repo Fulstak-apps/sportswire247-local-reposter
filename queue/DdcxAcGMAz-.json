@@ -3,16 +3,16 @@
   "shortcode": "DdcxAcGMAz-",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/ot7/reel/DdcxAcGMAz-/",
-  "sourceCaption": "I DONT UNDERSTAND HAHAHAHAH. and he hit the Heisman. \ud83c\udfc6 @bfye904",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nI DONT UNDERSTAND HAHAHAHAH. and he hit the Heisman. \ud83c\udfc6 @bfye904\n\n#sports\n\nSource: @overtime\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "I DONT UNDERSTAND HAHAHAHAH. and he hit the Heisman. 🏆 @bfye904",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nI DONT UNDERSTAND HAHAHAHAH. and he hit the Heisman. 🏆 @bfye904\n\n#sports\n\nSource: @overtime\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T00:57:57.450Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "I DONT UNDERSTAND HAHAHAHAH. and he hit the Heisman. \ud83c\udfc6 @bfye904",
+  "body": "I DONT UNDERSTAND HAHAHAHAH. and he hit the Heisman. 🏆 @bfye904",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T00:58:46.088Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 8.33,
   "scoreMargin": -40.81,
   "highlightQuality": 8.33,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 39.19,
@@ -73,5 +73,17 @@
   "video": "media/DdcxAcGMAz--sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111286381915961",
+  "instagramContainerCreatedAt": "2026-09-19T01:03:43.390Z",
+  "instagramPublishRequestedAt": "2026-09-19T01:04:28.652Z",
+  "instagramMediaId": "17994389823031378",
+  "instagramPermalink": "https://www.instagram.com/reel/DdcyX7vgbsx/",
+  "instagramVerifiedAt": "2026-09-19T01:04:35.438Z",
+  "publishedAt": "2026-09-19T01:04:35.439Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdcxAcGMAz--sportswire247.mp4",
+    "at": "2026-09-19T01:04:35.440Z"
+  }
 }
