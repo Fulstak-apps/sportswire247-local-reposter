@@ -3,16 +3,16 @@
   "shortcode": "DdedK7qkQmP",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimeszn/p/DdedK7qkQmP/",
-  "sourceCaption": "JEREMIAH SMITH IS ONE OF ONE \ud83d\udd25 CONGRATS MAN @primetimejj_.4",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nJEREMIAH SMITH IS ONE OF ONE \ud83d\udd25 CONGRATS MAN @primetimejj_.4\n\n#sports\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "JEREMIAH SMITH IS ONE OF ONE 🔥 CONGRATS MAN @primetimejj_.4",
+  "publishCaption": "You have to see this one twice 👀\n\nJEREMIAH SMITH IS ONE OF ONE 🔥 CONGRATS MAN @primetimejj_.4\n\n#sports\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T16:44:20.494Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "JEREMIAH SMITH IS ONE OF ONE \ud83d\udd25 CONGRATS MAN @primetimejj_.4",
+  "body": "JEREMIAH SMITH IS ONE OF ONE 🔥 CONGRATS MAN @primetimejj_.4",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T16:45:18.194Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.03,
   "scoreMargin": -38.19,
   "highlightQuality": 11.03,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.81,
@@ -73,5 +73,17 @@
   "video": "media/DdedK7qkQmP-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111564121915961",
+  "instagramContainerCreatedAt": "2026-09-19T19:21:41.273Z",
+  "instagramPublishRequestedAt": "2026-09-19T19:22:11.893Z",
+  "instagramMediaId": "18170228374417084",
+  "instagramPermalink": "https://www.instagram.com/reel/DdewAjKj_qp/",
+  "instagramVerifiedAt": "2026-09-19T19:22:21.494Z",
+  "publishedAt": "2026-09-19T19:22:21.495Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdedK7qkQmP-sportswire247.mp4",
+    "at": "2026-09-19T19:22:21.496Z"
+  }
 }
