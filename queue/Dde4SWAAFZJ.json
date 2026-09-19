@@ -3,16 +3,16 @@
   "shortcode": "Dde4SWAAFZJ",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/Dde4SWAAFZJ/",
-  "sourceCaption": "Nah this might be the worst play in the history of football \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d (via @secnetwork)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nNah this might be the worst play in the history of football \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d (via @secnetwork)\n\n#football #nfl\n\nSource: @overtime\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Nah this might be the worst play in the history of football 😭😭😭😭😭😭😭 (via @secnetwork)",
+  "publishCaption": "The moment says it all 👀\n\nNah this might be the worst play in the history of football 😭😭😭😭😭😭😭 (via @secnetwork)\n\n#football #nfl\n\nSource: @overtime\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T20:53:46.288Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Nah this might be the worst play in the history of football \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d (via @secnetwork)",
+  "body": "Nah this might be the worst play in the history of football 😭😭😭😭😭😭😭 (via @secnetwork)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T20:54:35.232Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 62.64,
   "engagementScore": 17.09,
   "scoreMargin": 22.64,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 62.64,
@@ -73,5 +73,17 @@
   "video": "media/Dde4SWAAFZJ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111591499915961",
+  "instagramContainerCreatedAt": "2026-09-19T22:05:53.925Z",
+  "instagramPublishRequestedAt": "2026-09-19T22:06:24.213Z",
+  "instagramMediaId": "18139977925613822",
+  "instagramPermalink": "https://www.instagram.com/reel/DdfCyaYkoPF/",
+  "instagramVerifiedAt": "2026-09-19T22:06:30.384Z",
+  "publishedAt": "2026-09-19T22:06:30.385Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Dde4SWAAFZJ-sportswire247.mp4",
+    "at": "2026-09-19T22:06:30.386Z"
+  }
 }
