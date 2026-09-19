@@ -3,16 +3,16 @@
   "shortcode": "DdeysTHzdlM",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/br_cfb/reel/DdeysTHzdlM/",
-  "sourceCaption": "Buckeye fans gave Jeremiah a standing O after \ud83d\udd25 \n\n#cfb #collegefootball #football #osu #ohiostate",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nBuckeye fans gave Jeremiah a standing O after \ud83d\udd25 \n\n#cfb #collegefootball #football #osu #ohiostate\n\n#nfl\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Buckeye fans gave Jeremiah a standing O after 🔥 \n\n#cfb #collegefootball #football #osu #ohiostate",
+  "publishCaption": "The moment says it all 👀\n\nBuckeye fans gave Jeremiah a standing O after 🔥 \n\n#cfb #collegefootball #football #osu #ohiostate\n\n#nfl\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T19:51:33.503Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Buckeye fans gave Jeremiah a standing O after \ud83d\udd25 \n\n#cfb #collegefootball #football #osu #ohiostate",
+  "body": "Buckeye fans gave Jeremiah a standing O after 🔥 \n\n#cfb #collegefootball #football #osu #ohiostate",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T19:52:22.177Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.25,
   "scoreMargin": 18.2,
   "highlightQuality": 10.25,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 58.2,
@@ -73,5 +73,17 @@
   "video": "media/DdeysTHzdlM-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111610393915961",
+  "instagramContainerCreatedAt": "2026-09-19T23:57:30.014Z",
+  "instagramPublishRequestedAt": "2026-09-19T23:58:00.497Z",
+  "instagramMediaId": "18022274687875046",
+  "instagramPermalink": "https://www.instagram.com/reel/DdfPkBvgiQ-/",
+  "instagramVerifiedAt": "2026-09-19T23:58:10.129Z",
+  "publishedAt": "2026-09-19T23:58:10.129Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdeysTHzdlM-sportswire247.mp4",
+    "at": "2026-09-19T23:58:10.130Z"
+  }
 }
