@@ -3,16 +3,16 @@
   "shortcode": "Ddc-JLJNFjp",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Ddc-JLJNFjp/",
-  "sourceCaption": "Catch was too nice \ud83d\ude2d\ud83d\udd25 (Via pwashington97/IG, toptieredits_/IG, 1geeskiiii/IG)",
-  "publishCaption": "Sports are unreal sometimes \ud83d\ude2e\u200d\ud83d\udca8\n\nCatch was too nice \ud83d\ude2d\ud83d\udd25 (Via pwashington97/IG, toptieredits_/IG, 1geeskiiii/IG)\n\n#sports\n\nSource: @houseofhighlights\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Catch was too nice 😭🔥 (Via pwashington97/IG, toptieredits_/IG, 1geeskiiii/IG)",
+  "publishCaption": "Sports are unreal sometimes 😮‍💨\n\nCatch was too nice 😭🔥 (Via pwashington97/IG, toptieredits_/IG, 1geeskiiii/IG)\n\n#sports\n\nSource: @houseofhighlights\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T02:56:58.397Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Catch was too nice \ud83d\ude2d\ud83d\udd25 (Via pwashington97/IG, toptieredits_/IG, 1geeskiiii/IG)",
+  "body": "Catch was too nice 😭🔥 (Via pwashington97/IG, toptieredits_/IG, 1geeskiiii/IG)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T02:57:46.878Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.11,
   "scoreMargin": -25.02,
   "highlightQuality": 32.11,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 54.98,
@@ -75,5 +75,17 @@
   "video": "media/Ddc-JLJNFjp-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111320035915961",
+  "instagramContainerCreatedAt": "2026-09-19T03:25:36.866Z",
+  "instagramPublishRequestedAt": "2026-09-19T03:26:07.287Z",
+  "instagramMediaId": "17917337076446206",
+  "instagramPermalink": "https://www.instagram.com/reel/DddClTXCvam/",
+  "instagramVerifiedAt": "2026-09-19T03:26:14.701Z",
+  "publishedAt": "2026-09-19T03:26:14.702Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddc-JLJNFjp-sportswire247.mp4",
+    "at": "2026-09-19T03:26:14.703Z"
+  }
 }
