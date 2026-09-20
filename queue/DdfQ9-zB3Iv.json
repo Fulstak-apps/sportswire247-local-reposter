@@ -3,16 +3,16 @@
   "shortcode": "DdfQ9-zB3Iv",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/br_cfb/reel/DdfQ9-zB3Iv/",
-  "sourceCaption": "Lane Kiffin got welcomed by BOO\u2019s from Ole Miss fans \ud83d\udc40\n\n#cfb #collegefootball #lanekiffin #lsu #olemiss",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nLane Kiffin got welcomed by BOO\u2019s from Ole Miss fans \ud83d\udc40\n\n#cfb #collegefootball #lanekiffin #lsu #olemiss\n\n#football #nfl\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Lane Kiffin got welcomed by BOO’s from Ole Miss fans 👀\n\n#cfb #collegefootball #lanekiffin #lsu #olemiss",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nLane Kiffin got welcomed by BOO’s from Ole Miss fans 👀\n\n#cfb #collegefootball #lanekiffin #lsu #olemiss\n\n#football #nfl\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T01:55:37.099Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Lane Kiffin got welcomed by BOO\u2019s from Ole Miss fans \ud83d\udc40\n\n#cfb #collegefootball #lanekiffin #lsu #olemiss",
+  "body": "Lane Kiffin got welcomed by BOO’s from Ole Miss fans 👀\n\n#cfb #collegefootball #lanekiffin #lsu #olemiss",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T01:56:25.614Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 65.5,
   "engagementScore": 19.74,
   "scoreMargin": 25.5,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 65.5,
@@ -73,5 +73,17 @@
   "video": "media/DdfQ9-zB3Iv-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111659593915961",
+  "instagramContainerCreatedAt": "2026-09-20T03:57:09.178Z",
+  "instagramPublishRequestedAt": "2026-09-20T03:57:39.459Z",
+  "instagramMediaId": "18631625161044009",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddfq_C3FRc1/",
+  "instagramVerifiedAt": "2026-09-20T03:57:48.805Z",
+  "publishedAt": "2026-09-20T03:57:48.805Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfQ9-zB3Iv-sportswire247.mp4",
+    "at": "2026-09-20T03:57:48.807Z"
+  }
 }
