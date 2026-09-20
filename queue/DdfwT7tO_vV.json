@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/talkinbaseball_/reel/DdfwT7tO_vV/",
   "sourceCaption": "20-year-old Ethan Salas walks it off and has a powerful message for Padres fans\n\n#mlb #baseball #sports #padres #sandiegopadres",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\n20-year-old Ethan Salas walks it off and has a powerful message for Padres fans\n\n#mlb #baseball #sports #padres #sandiegopadres\n\nSource: @jomboymedia\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "You have to see this one twice 👀\n\n20-year-old Ethan Salas walks it off and has a powerful message for Padres fans\n\n#mlb #baseball #sports #padres #sandiegopadres\n\nSource: @jomboymedia\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T04:49:32.716Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 9.11,
   "scoreMargin": 5.99,
   "highlightQuality": 9.11,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 50.99,
@@ -73,5 +73,17 @@
   "video": "media/DdfwT7tO_vV-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111836089915961",
+  "instagramContainerCreatedAt": "2026-09-20T15:56:09.776Z",
+  "instagramPublishRequestedAt": "2026-09-20T15:56:40.371Z",
+  "instagramMediaId": "18100114286041041",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddg9RKvDqor/",
+  "instagramVerifiedAt": "2026-09-20T15:56:48.252Z",
+  "publishedAt": "2026-09-20T15:56:48.252Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfwT7tO_vV-sportswire247.mp4",
+    "at": "2026-09-20T15:56:48.254Z"
+  }
 }
