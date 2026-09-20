@@ -3,16 +3,16 @@
   "shortcode": "DdhjwL4tyhi",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/DdhjwL4tyhi/",
-  "sourceCaption": "The Ravens fall to the Saints after a controversial TD by Tyler Shough \ud83e\udd14\n\n(via @ravens) \n\n#nfl #football #baltimoreravens #ravens",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nThe Ravens fall to the Saints after a controversial TD by Tyler Shough \ud83e\udd14\n\n(via @ravens) \n\n#nfl #football #baltimoreravens #ravens\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "The Ravens fall to the Saints after a controversial TD by Tyler Shough 🤔\n\n(via @ravens) \n\n#nfl #football #baltimoreravens #ravens",
+  "publishCaption": "The moment says it all 👀\n\nThe Ravens fall to the Saints after a controversial TD by Tyler Shough 🤔\n\n(via @ravens) \n\n#nfl #football #baltimoreravens #ravens\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T22:18:24.981Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "The Ravens fall to the Saints after a controversial TD by Tyler Shough \ud83e\udd14\n\n(via @ravens) \n\n#nfl #football #baltimoreravens #ravens",
+  "body": "The Ravens fall to the Saints after a controversial TD by Tyler Shough 🤔\n\n(via @ravens) \n\n#nfl #football #baltimoreravens #ravens",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T22:19:13.337Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 62.86,
   "engagementScore": 18.56,
   "scoreMargin": 22.86,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 62.86,
@@ -73,5 +73,17 @@
   "video": "media/DdhjwL4tyhi-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111933322915961",
+  "instagramContainerCreatedAt": "2026-09-20T23:27:16.267Z",
+  "instagramPublishRequestedAt": "2026-09-20T23:27:31.532Z",
+  "instagramMediaId": "18127084423839659",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddhw5NQCKh6/",
+  "instagramVerifiedAt": "2026-09-20T23:27:45.426Z",
+  "publishedAt": "2026-09-20T23:27:45.427Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdhjwL4tyhi-sportswire247.mp4",
+    "at": "2026-09-20T23:27:45.428Z"
+  }
 }
