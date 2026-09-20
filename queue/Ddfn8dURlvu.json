@@ -3,16 +3,16 @@
   "shortcode": "Ddfn8dURlvu",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Ddfn8dURlvu/",
-  "sourceCaption": "OLE MISS INT IN THE END ZONE IN THE FINAL MINUTE \u203c\ufe0f #cfb",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nOLE MISS INT IN THE END ZONE IN THE FINAL MINUTE \u203c\ufe0f #cfb\n\n#football #nfl\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "OLE MISS INT IN THE END ZONE IN THE FINAL MINUTE ‼️ #cfb",
+  "publishCaption": "You have to see this one twice 👀\n\nOLE MISS INT IN THE END ZONE IN THE FINAL MINUTE ‼️ #cfb\n\n#football #nfl\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T03:35:29.613Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "OLE MISS INT IN THE END ZONE IN THE FINAL MINUTE \u203c\ufe0f #cfb",
+  "body": "OLE MISS INT IN THE END ZONE IN THE FINAL MINUTE ‼️ #cfb",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T03:36:18.638Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 63.81,
   "engagementScore": 17.07,
   "scoreMargin": 23.81,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 63.81,
@@ -73,5 +73,17 @@
   "video": "media/Ddfn8dURlvu-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111685675915961",
+  "instagramContainerCreatedAt": "2026-09-20T05:53:03.682Z",
+  "instagramPublishRequestedAt": "2026-09-20T05:53:34.103Z",
+  "instagramMediaId": "18204336412375416",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddf4P1kDvAQ/",
+  "instagramVerifiedAt": "2026-09-20T05:53:41.356Z",
+  "publishedAt": "2026-09-20T05:53:41.357Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddfn8dURlvu-sportswire247.mp4",
+    "at": "2026-09-20T05:53:41.358Z"
+  }
 }
