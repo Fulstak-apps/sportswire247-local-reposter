@@ -3,16 +3,16 @@
   "shortcode": "Dde3_u2TORH",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dde3_u2TORH/",
-  "sourceCaption": "Imagine losing like this \ud83e\udd2f",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nImagine losing like this \ud83e\udd2f\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Imagine losing like this 🤯",
+  "publishCaption": "You have to see this one twice 👀\n\nImagine losing like this 🤯\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T20:50:18.378Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Imagine losing like this \ud83e\udd2f",
+  "body": "Imagine losing like this 🤯",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T20:51:07.116Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 54.88,
   "engagementScore": 22.39,
   "scoreMargin": -25.12,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 54.88,
@@ -73,5 +73,17 @@
   "video": "media/Dde3_u2TORH-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111622708915961",
+  "instagramContainerCreatedAt": "2026-09-20T01:20:28.047Z",
+  "instagramPublishRequestedAt": "2026-09-20T01:20:58.658Z",
+  "instagramMediaId": "18117495662517639",
+  "instagramPermalink": "https://www.instagram.com/reel/DdfZDaeCbf8/",
+  "instagramVerifiedAt": "2026-09-20T01:21:07.169Z",
+  "publishedAt": "2026-09-20T01:21:07.170Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Dde3_u2TORH-sportswire247.mp4",
+    "at": "2026-09-20T01:21:07.171Z"
+  }
 }
