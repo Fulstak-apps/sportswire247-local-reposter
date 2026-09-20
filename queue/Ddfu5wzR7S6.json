@@ -3,16 +3,16 @@
   "shortcode": "Ddfu5wzR7S6",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Ddfu5wzR7S6/",
-  "sourceCaption": "How LSU-Ole Miss ended in Oxford \ud83c\udf7f \n\n#lsu #cfb #olemiss #collegefootball",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nHow LSU-Ole Miss ended in Oxford \ud83c\udf7f \n\n#lsu #cfb #olemiss #collegefootball\n\n#football #nfl\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "How LSU-Ole Miss ended in Oxford 🍿 \n\n#lsu #cfb #olemiss #collegefootball",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nHow LSU-Ole Miss ended in Oxford 🍿 \n\n#lsu #cfb #olemiss #collegefootball\n\n#football #nfl\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T04:47:23.281Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "How LSU-Ole Miss ended in Oxford \ud83c\udf7f \n\n#lsu #cfb #olemiss #collegefootball",
+  "body": "How LSU-Ole Miss ended in Oxford 🍿 \n\n#lsu #cfb #olemiss #collegefootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T04:48:11.904Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 62.92,
   "engagementScore": 16.3,
   "scoreMargin": 22.92,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 62.92,
@@ -73,5 +73,17 @@
   "video": "media/Ddfu5wzR7S6-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111693784915961",
+  "instagramContainerCreatedAt": "2026-09-20T06:25:12.600Z",
+  "instagramPublishRequestedAt": "2026-09-20T06:25:58.055Z",
+  "instagramMediaId": "17991540834028794",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddf79XdD4r6/",
+  "instagramVerifiedAt": "2026-09-20T06:26:05.496Z",
+  "publishedAt": "2026-09-20T06:26:05.497Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddfu5wzR7S6-sportswire247.mp4",
+    "at": "2026-09-20T06:26:05.498Z"
+  }
 }
