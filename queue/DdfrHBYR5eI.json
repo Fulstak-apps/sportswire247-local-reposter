@@ -3,16 +3,16 @@
   "shortcode": "DdfrHBYR5eI",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdfrHBYR5eI/",
-  "sourceCaption": "Trinidad Chambliss was excited after Ole Miss\u2019 win over LSU \ud83d\ude02 #cfb #olemiss #lsu #collegefootball",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nTrinidad Chambliss was excited after Ole Miss\u2019 win over LSU \ud83d\ude02 #cfb #olemiss #lsu #collegefootball\n\n#football #nfl\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Trinidad Chambliss was excited after Ole Miss’ win over LSU 😂 #cfb #olemiss #lsu #collegefootball",
+  "publishCaption": "You have to see this one twice 👀\n\nTrinidad Chambliss was excited after Ole Miss’ win over LSU 😂 #cfb #olemiss #lsu #collegefootball\n\n#football #nfl\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T04:03:02.338Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Trinidad Chambliss was excited after Ole Miss\u2019 win over LSU \ud83d\ude02 #cfb #olemiss #lsu #collegefootball",
+  "body": "Trinidad Chambliss was excited after Ole Miss’ win over LSU 😂 #cfb #olemiss #lsu #collegefootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T04:03:51.019Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 62.51,
   "engagementScore": 15.65,
   "scoreMargin": 22.51,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 62.51,
@@ -73,5 +73,17 @@
   "video": "media/DdfrHBYR5eI-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111751045915961",
+  "instagramContainerCreatedAt": "2026-09-20T10:31:57.323Z",
+  "instagramPublishRequestedAt": "2026-09-20T10:32:12.548Z",
+  "instagramMediaId": "17965957962173341",
+  "instagramPermalink": "https://www.instagram.com/reel/DdgYKkCgKa_/",
+  "instagramVerifiedAt": "2026-09-20T10:32:19.096Z",
+  "publishedAt": "2026-09-20T10:32:19.096Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfrHBYR5eI-sportswire247.mp4",
+    "at": "2026-09-20T10:32:19.097Z"
+  }
 }
