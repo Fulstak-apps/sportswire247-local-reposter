@@ -3,16 +3,16 @@
   "shortcode": "DdfNQ0KPS7p",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_cfb/reel/DdfNQ0KPS7p/",
-  "sourceCaption": "Lane is a menace \ud83d\ude02\n\n(via isabellecal17/X)\n\n#cfb #collegefootball #lanekiffin #lsu #olemiss",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nLane is a menace \ud83d\ude02\n\n(via isabellecal17/X)\n\n#cfb #collegefootball #lanekiffin #lsu #olemiss\n\n#football #nfl\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Lane is a menace 😂\n\n(via isabellecal17/X)\n\n#cfb #collegefootball #lanekiffin #lsu #olemiss",
+  "publishCaption": "The moment says it all 👀\n\nLane is a menace 😂\n\n(via isabellecal17/X)\n\n#cfb #collegefootball #lanekiffin #lsu #olemiss\n\n#football #nfl\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T02:18:37.811Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Lane is a menace \ud83d\ude02\n\n(via isabellecal17/X)\n\n#cfb #collegefootball #lanekiffin #lsu #olemiss",
+  "body": "Lane is a menace 😂\n\n(via isabellecal17/X)\n\n#cfb #collegefootball #lanekiffin #lsu #olemiss",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T02:19:26.300Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 57.75,
   "engagementScore": 15.1,
   "scoreMargin": 17.75,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 57.75,
@@ -73,5 +73,17 @@
   "video": "media/DdfNQ0KPS7p-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111814372915961",
+  "instagramContainerCreatedAt": "2026-09-20T14:35:02.147Z",
+  "instagramPublishRequestedAt": "2026-09-20T14:35:32.528Z",
+  "instagramMediaId": "18134699287728641",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddgz_GNlVVY/",
+  "instagramVerifiedAt": "2026-09-20T14:35:40.211Z",
+  "publishedAt": "2026-09-20T14:35:40.212Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfNQ0KPS7p-sportswire247.mp4",
+    "at": "2026-09-20T14:35:40.213Z"
+  }
 }
