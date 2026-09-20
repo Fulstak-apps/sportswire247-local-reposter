@@ -3,16 +3,16 @@
   "shortcode": "Ddg2E-eJ2-s",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/espncfb/reel/Ddg2E-eJ2-s/",
-  "sourceCaption": "The SEC slate is LOADED this week \ud83c\udf7f\n\n(via Eddie Smith/FB, h/t @joshpatecfb) #cfb",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nThe SEC slate is LOADED this week \ud83c\udf7f\n\n(via Eddie Smith/FB, h/t @joshpatecfb) #cfb\n\n#football #nfl\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "The SEC slate is LOADED this week 🍿\n\n(via Eddie Smith/FB, h/t @joshpatecfb) #cfb",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nThe SEC slate is LOADED this week 🍿\n\n(via Eddie Smith/FB, h/t @joshpatecfb) #cfb\n\n#football #nfl\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T20:35:17.722Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "The SEC slate is LOADED this week \ud83c\udf7f\n\n(via Eddie Smith/FB, h/t @joshpatecfb) #cfb",
+  "body": "The SEC slate is LOADED this week 🍿\n\n(via Eddie Smith/FB, h/t @joshpatecfb) #cfb",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T20:36:06.474Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 61.64,
   "engagementScore": 21.43,
   "scoreMargin": 21.64,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 61.64,
@@ -73,5 +73,17 @@
   "video": "media/Ddg2E-eJ2-s-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111916174915961",
+  "instagramContainerCreatedAt": "2026-09-20T21:25:21.416Z",
+  "instagramPublishRequestedAt": "2026-09-20T21:26:37.171Z",
+  "instagramMediaId": "17944765140343060",
+  "instagramPermalink": "https://www.instagram.com/reel/DdhjB_LiMkC/",
+  "instagramVerifiedAt": "2026-09-20T21:26:43.867Z",
+  "publishedAt": "2026-09-20T21:26:43.867Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddg2E-eJ2-s-sportswire247.mp4",
+    "at": "2026-09-20T21:26:43.868Z"
+  }
 }
