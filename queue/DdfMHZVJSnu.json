@@ -3,16 +3,16 @@
   "shortcode": "DdfMHZVJSnu",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdfMHZVJSnu/",
-  "sourceCaption": "Rutgers HC Greg Schiano was NOT happy with the call \ud83d\ude2f\n\n#cfb #collegefootball #football",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nRutgers HC Greg Schiano was NOT happy with the call \ud83d\ude2f\n\n#cfb #collegefootball #football\n\n#nfl\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Rutgers HC Greg Schiano was NOT happy with the call 😯\n\n#cfb #collegefootball #football",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nRutgers HC Greg Schiano was NOT happy with the call 😯\n\n#cfb #collegefootball #football\n\n#nfl\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T02:27:59.733Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Rutgers HC Greg Schiano was NOT happy with the call \ud83d\ude2f\n\n#cfb #collegefootball #football",
+  "body": "Rutgers HC Greg Schiano was NOT happy with the call 😯\n\n#cfb #collegefootball #football",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T02:28:48.306Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 58.06,
   "engagementScore": 15.8,
   "scoreMargin": 18.06,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 58.06,
@@ -73,5 +73,17 @@
   "video": "media/DdfMHZVJSnu-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111804745915961",
+  "instagramContainerCreatedAt": "2026-09-20T14:01:44.947Z",
+  "instagramPublishRequestedAt": "2026-09-20T14:02:30.403Z",
+  "instagramMediaId": "18632118505005326",
+  "instagramPermalink": "https://www.instagram.com/reel/DdgwMtKER66/",
+  "instagramVerifiedAt": "2026-09-20T14:02:35.828Z",
+  "publishedAt": "2026-09-20T14:02:35.829Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfMHZVJSnu-sportswire247.mp4",
+    "at": "2026-09-20T14:02:35.830Z"
+  }
 }
