@@ -3,16 +3,16 @@
   "shortcode": "Ddhi_mmNZa8",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Ddhi_mmNZa8/",
-  "sourceCaption": "Jalen Hurts and Jeffrey Simmons after Simmons had said, \u201cWe just need to make Jalen Hurts be a QB.\u201d \ud83e\udd23\ud83e\udd1d (\ud83d\udcfa: FOX) #nflfootball",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nJalen Hurts and Jeffrey Simmons after Simmons had said, \u201cWe just need to make Jalen Hurts be a QB.\u201d \ud83e\udd23\ud83e\udd1d (\ud83d\udcfa: FOX) #nflfootball\n\n#football #nfl\n\nSource: @sportscenter\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Jalen Hurts and Jeffrey Simmons after Simmons had said, “We just need to make Jalen Hurts be a QB.” 🤣🤝 (📺: FOX) #nflfootball",
+  "publishCaption": "The moment says it all 👀\n\nJalen Hurts and Jeffrey Simmons after Simmons had said, “We just need to make Jalen Hurts be a QB.” 🤣🤝 (📺: FOX) #nflfootball\n\n#football #nfl\n\nSource: @sportscenter\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T21:30:45.921Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jalen Hurts and Jeffrey Simmons after Simmons had said, \u201cWe just need to make Jalen Hurts be a QB.\u201d \ud83e\udd23\ud83e\udd1d (\ud83d\udcfa: FOX) #nflfootball",
+  "body": "Jalen Hurts and Jeffrey Simmons after Simmons had said, “We just need to make Jalen Hurts be a QB.” 🤣🤝 (📺: FOX) #nflfootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T21:31:34.538Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 62.31,
   "engagementScore": 15.49,
   "scoreMargin": 22.31,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 62.31,
@@ -73,5 +73,17 @@
   "video": "media/Ddhi_mmNZa8-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111922564915961",
+  "instagramContainerCreatedAt": "2026-09-20T22:05:58.031Z",
+  "instagramPublishRequestedAt": "2026-09-20T22:06:28.518Z",
+  "instagramMediaId": "18380593129232847",
+  "instagramPermalink": "https://www.instagram.com/reel/DdhnllCjUha/",
+  "instagramVerifiedAt": "2026-09-20T22:06:38.371Z",
+  "publishedAt": "2026-09-20T22:06:38.372Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddhi_mmNZa8-sportswire247.mp4",
+    "at": "2026-09-20T22:06:38.373Z"
+  }
 }
