@@ -3,16 +3,16 @@
   "shortcode": "DdfPdDjx07V",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdfPdDjx07V/",
-  "sourceCaption": "The calm before the storm in Oxford \ud83c\udf7f\n\n#cfb #lsu #olemiss #collegefootball",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nThe calm before the storm in Oxford \ud83c\udf7f\n\n#cfb #lsu #olemiss #collegefootball\n\n#football #nfl\n\nSource: @sportscenter\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "The calm before the storm in Oxford 🍿\n\n#cfb #lsu #olemiss #collegefootball",
+  "publishCaption": "The moment says it all 👀\n\nThe calm before the storm in Oxford 🍿\n\n#cfb #lsu #olemiss #collegefootball\n\n#football #nfl\n\nSource: @sportscenter\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T02:15:27.389Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "The calm before the storm in Oxford \ud83c\udf7f\n\n#cfb #lsu #olemiss #collegefootball",
+  "body": "The calm before the storm in Oxford 🍿\n\n#cfb #lsu #olemiss #collegefootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T02:16:16.246Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 66.8,
   "engagementScore": 22.75,
   "scoreMargin": 26.8,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 66.8,
@@ -73,5 +73,17 @@
   "video": "media/DdfPdDjx07V-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111646126915961",
+  "instagramContainerCreatedAt": "2026-09-20T03:16:37.323Z",
+  "instagramPublishRequestedAt": "2026-09-20T03:17:08.019Z",
+  "instagramMediaId": "18139114840719779",
+  "instagramPermalink": "https://www.instagram.com/reel/DdfmWFTlBke/",
+  "instagramVerifiedAt": "2026-09-20T03:17:15.902Z",
+  "publishedAt": "2026-09-20T03:17:15.902Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfPdDjx07V-sportswire247.mp4",
+    "at": "2026-09-20T03:17:15.903Z"
+  }
 }
