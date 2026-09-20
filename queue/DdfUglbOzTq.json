@@ -3,16 +3,16 @@
   "shortcode": "DdfUglbOzTq",
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/talkinbaseball_/reel/DdfUglbOzTq/",
-  "sourceCaption": "Ryan O\u2019Hearn goes between the legs to get out the out!\n\n#baseball #mlb #trickplay #sports #glovework",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nRyan O\u2019Hearn goes between the legs to get out the out!\n\n#baseball #mlb #trickplay #sports #glovework\n\nSource: @jomboymedia\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Ryan O’Hearn goes between the legs to get out the out!\n\n#baseball #mlb #trickplay #sports #glovework",
+  "publishCaption": "The moment says it all 👀\n\nRyan O’Hearn goes between the legs to get out the out!\n\n#baseball #mlb #trickplay #sports #glovework\n\nSource: @jomboymedia\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T02:38:21.385Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Ryan O\u2019Hearn goes between the legs to get out the out!\n\n#baseball #mlb #trickplay #sports #glovework",
+  "body": "Ryan O’Hearn goes between the legs to get out the out!\n\n#baseball #mlb #trickplay #sports #glovework",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T02:39:09.940Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 8.59,
   "scoreMargin": 3.12,
   "highlightQuality": 8.59,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.12,
@@ -73,5 +73,17 @@
   "video": "media/DdfUglbOzTq-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111866707915961",
+  "instagramContainerCreatedAt": "2026-09-20T17:53:43.571Z",
+  "instagramPublishRequestedAt": "2026-09-20T17:54:14.053Z",
+  "instagramMediaId": "18030895841852087",
+  "instagramPermalink": "https://www.instagram.com/reel/DdhKuQ-j2u9/",
+  "instagramVerifiedAt": "2026-09-20T17:54:18.769Z",
+  "publishedAt": "2026-09-20T17:54:18.770Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfUglbOzTq-sportswire247.mp4",
+    "at": "2026-09-20T17:54:18.771Z"
+  }
 }
