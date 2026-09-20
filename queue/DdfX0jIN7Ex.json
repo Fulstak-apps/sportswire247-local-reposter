@@ -3,16 +3,16 @@
   "shortcode": "DdfX0jIN7Ex",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdfX0jIN7Ex/",
-  "sourceCaption": "Ryan Coleman-Williams scored his first TD this year with his wife in the building. \ud83d\ude4c\u2764\ufe0f",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nRyan Coleman-Williams scored his first TD this year with his wife in the building. \ud83d\ude4c\u2764\ufe0f\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Ryan Coleman-Williams scored his first TD this year with his wife in the building. 🙌❤️",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nRyan Coleman-Williams scored his first TD this year with his wife in the building. 🙌❤️\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T01:53:37.463Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Ryan Coleman-Williams scored his first TD this year with his wife in the building. \ud83d\ude4c\u2764\ufe0f",
+  "body": "Ryan Coleman-Williams scored his first TD this year with his wife in the building. 🙌❤️",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T01:54:26.100Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 53.41,
   "engagementScore": 21.42,
   "scoreMargin": -26.59,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 53.41,
@@ -73,5 +73,17 @@
   "video": "media/DdfX0jIN7Ex-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111887566915961",
+  "instagramContainerCreatedAt": "2026-09-20T19:26:14.535Z",
+  "instagramPublishRequestedAt": "2026-09-20T19:27:30.399Z",
+  "instagramMediaId": "18132423763732604",
+  "instagramPermalink": "https://www.instagram.com/reel/DdhVYsaDbUU/",
+  "instagramVerifiedAt": "2026-09-20T19:27:40.118Z",
+  "publishedAt": "2026-09-20T19:27:40.119Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfX0jIN7Ex-sportswire247.mp4",
+    "at": "2026-09-20T19:27:40.120Z"
+  }
 }
