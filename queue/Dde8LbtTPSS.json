@@ -3,16 +3,16 @@
   "shortcode": "Dde8LbtTPSS",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dde8LbtTPSS/",
-  "sourceCaption": "Nahhh they set her up \ud83d\ude05\ud83d\udc80 (via iim.myleah)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nNahhh they set her up \ud83d\ude05\ud83d\udc80 (via iim.myleah)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Nahhh they set her up 😅💀 (via iim.myleah)",
+  "publishCaption": "The moment says it all 👀\n\nNahhh they set her up 😅💀 (via iim.myleah)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T21:15:53.794Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Nahhh they set her up \ud83d\ude05\ud83d\udc80 (via iim.myleah)",
+  "body": "Nahhh they set her up 😅💀 (via iim.myleah)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T21:16:42.700Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 48.53,
   "engagementScore": 15.69,
   "scoreMargin": -31.47,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.53,
@@ -73,5 +73,17 @@
   "video": "media/Dde8LbtTPSS-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111630670915961",
+  "instagramContainerCreatedAt": "2026-09-20T01:54:46.332Z",
+  "instagramPublishRequestedAt": "2026-09-20T01:55:17.650Z",
+  "instagramMediaId": "17919392067432484",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddfc-nBjCKE/",
+  "instagramVerifiedAt": "2026-09-20T01:55:25.916Z",
+  "publishedAt": "2026-09-20T01:55:25.917Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Dde8LbtTPSS-sportswire247.mp4",
+    "at": "2026-09-20T01:55:25.918Z"
+  }
 }
