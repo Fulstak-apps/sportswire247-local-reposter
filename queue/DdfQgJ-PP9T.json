@@ -3,16 +3,16 @@
   "shortcode": "DdfQgJ-PP9T",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdfQgJ-PP9T/",
-  "sourceCaption": "Kamario Taylor, PHEW \ud83d\udd25 #CFB",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nKamario Taylor, PHEW \ud83d\udd25 #CFB\n\n#football #nfl\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Kamario Taylor, PHEW 🔥 #CFB",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nKamario Taylor, PHEW 🔥 #CFB\n\n#football #nfl\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T02:07:24.431Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Kamario Taylor, PHEW \ud83d\udd25 #CFB",
+  "body": "Kamario Taylor, PHEW 🔥 #CFB",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T02:08:13.045Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 64.9,
   "engagementScore": 20.47,
   "scoreMargin": 24.9,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 64.9,
@@ -73,5 +73,17 @@
   "video": "media/DdfQgJ-PP9T-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111669730915961",
+  "instagramContainerCreatedAt": "2026-09-20T04:37:40.771Z",
+  "instagramPublishRequestedAt": "2026-09-20T04:38:11.186Z",
+  "instagramMediaId": "18007646024993196",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddfvn5xk-rr/",
+  "instagramVerifiedAt": "2026-09-20T04:38:18.173Z",
+  "publishedAt": "2026-09-20T04:38:18.175Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfQgJ-PP9T-sportswire247.mp4",
+    "at": "2026-09-20T04:38:18.176Z"
+  }
 }
