@@ -3,16 +3,16 @@
   "shortcode": "DdfaVdADApv",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/DdfaVdADApv/",
-  "sourceCaption": "ANGEL REESE KEEPS MAKING HISTORY \ud83d\udd25\n\nFirst player in WNBA history to record 500 REBS in a season and also the first to record 31 double doubles \ud83d\udc4f",
-  "publishCaption": "This one changes the conversation \ud83d\udea8\n\nANGEL REESE KEEPS MAKING HISTORY \ud83d\udd25\n\nFirst player in WNBA history to record 500 REBS in a season and also the first to record 31 double doubles \ud83d\udc4f\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nWhat do you think?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "ANGEL REESE KEEPS MAKING HISTORY 🔥\n\nFirst player in WNBA history to record 500 REBS in a season and also the first to record 31 double doubles 👏",
+  "publishCaption": "This one changes the conversation 🚨\n\nANGEL REESE KEEPS MAKING HISTORY 🔥\n\nFirst player in WNBA history to record 500 REBS in a season and also the first to record 31 double doubles 👏\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nWhat do you think?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T01:52:19.796Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "ANGEL REESE KEEPS MAKING HISTORY \ud83d\udd25\n\nFirst player in WNBA history to record 500 REBS in a season and also the first to record 31 double doubles \ud83d\udc4f",
+  "body": "ANGEL REESE KEEPS MAKING HISTORY 🔥\n\nFirst player in WNBA history to record 500 REBS in a season and also the first to record 31 double doubles 👏",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T01:53:08.370Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 81.8,
   "engagementScore": 21.29,
   "scoreMargin": 46.8,
-  "highlightQuality": 14.0,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "highlightQuality": 14,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 81.8,
@@ -74,5 +74,17 @@
   "video": "media/DdfaVdADApv-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111637309915961",
+  "instagramContainerCreatedAt": "2026-09-20T02:36:01.251Z",
+  "instagramPublishRequestedAt": "2026-09-20T02:36:31.734Z",
+  "instagramMediaId": "18125783464861616",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddfhs1PjVQG/",
+  "instagramVerifiedAt": "2026-09-20T02:36:41.256Z",
+  "publishedAt": "2026-09-20T02:36:41.257Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfaVdADApv-sportswire247.mp4",
+    "at": "2026-09-20T02:36:41.258Z"
+  }
 }
