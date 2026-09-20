@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymediafootball/reel/Dde6nrzysa0/",
   "sourceCaption": "Brand new way to lose a football game just dropped\n\n#collegefootball #cfb #football #vanderbilt #ncstate",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nBrand new way to lose a football game just dropped\n\n#collegefootball #cfb #football #vanderbilt #ncstate\n\n#nfl\n\nSource: @jomboymedia\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "The moment says it all 👀\n\nBrand new way to lose a football game just dropped\n\n#collegefootball #cfb #football #vanderbilt #ncstate\n\n#nfl\n\nSource: @jomboymedia\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T21:02:47.908Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 4.82,
   "scoreMargin": 9.64,
   "highlightQuality": 4.82,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 49.64,
@@ -72,5 +72,17 @@
   "video": "media/Dde6nrzysa0-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111616441915961",
+  "instagramContainerCreatedAt": "2026-09-20T00:38:09.395Z",
+  "instagramPublishRequestedAt": "2026-09-20T00:39:40.150Z",
+  "instagramMediaId": "18455415238185136",
+  "instagramPermalink": "https://www.instagram.com/reel/DdfUT-OArqE/",
+  "instagramVerifiedAt": "2026-09-20T00:39:45.769Z",
+  "publishedAt": "2026-09-20T00:39:45.769Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Dde6nrzysa0-sportswire247.mp4",
+    "at": "2026-09-20T00:39:45.770Z"
+  }
 }
