@@ -3,16 +3,16 @@
   "shortcode": "DdhqBxLhqpw",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/DdhqBxLhqpw/",
-  "sourceCaption": "Bucs lose to the Browns and fall to 0-2 \ud83d\ude2c\n\n#nfl #football #nflfootball #Bucs #bakermayfield",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nBucs lose to the Browns and fall to 0-2 \ud83d\ude2c\n\n#nfl #football #nflfootball #Bucs #bakermayfield\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Bucs lose to the Browns and fall to 0-2 😬\n\n#nfl #football #nflfootball #Bucs #bakermayfield",
+  "publishCaption": "The moment says it all 👀\n\nBucs lose to the Browns and fall to 0-2 😬\n\n#nfl #football #nflfootball #Bucs #bakermayfield\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T22:34:41.743Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Bucs lose to the Browns and fall to 0-2 \ud83d\ude2c\n\n#nfl #football #nflfootball #Bucs #bakermayfield",
+  "body": "Bucs lose to the Browns and fall to 0-2 😬\n\n#nfl #football #nflfootball #Bucs #bakermayfield",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T22:35:30.422Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 13.63,
   "scoreMargin": 18.16,
   "highlightQuality": 13.63,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 58.16,
@@ -73,5 +73,17 @@
   "video": "media/DdhqBxLhqpw-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111940579915961",
+  "instagramContainerCreatedAt": "2026-09-21T00:07:42.658Z",
+  "instagramPublishRequestedAt": "2026-09-21T00:08:13.115Z",
+  "instagramMediaId": "17943334200086238",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddh1hcQD8O9/",
+  "instagramVerifiedAt": "2026-09-21T00:08:20.730Z",
+  "publishedAt": "2026-09-21T00:08:20.731Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdhqBxLhqpw-sportswire247.mp4",
+    "at": "2026-09-21T00:08:20.732Z"
+  }
 }
