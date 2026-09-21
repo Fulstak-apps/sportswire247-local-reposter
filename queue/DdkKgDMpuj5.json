@@ -3,16 +3,16 @@
   "shortcode": "DdkKgDMpuj5",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdkKgDMpuj5/",
-  "sourceCaption": "Kyle Shanahan shuts down Brandon Aiyuk return rumors amid 49ers' WR injuries \ud83d\ude2c\n\n(Via @49ers ) \n\n#nfl #football #49ers #brandonaiyuk",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nKyle Shanahan shuts down Brandon Aiyuk return rumors amid 49ers' WR injuries \ud83d\ude2c\n\n(Via @49ers ) \n\n#nfl #football #49ers #brandonaiyuk\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Kyle Shanahan shuts down Brandon Aiyuk return rumors amid 49ers' WR injuries 😬\n\n(Via @49ers ) \n\n#nfl #football #49ers #brandonaiyuk",
+  "publishCaption": "You have to see this one twice 👀\n\nKyle Shanahan shuts down Brandon Aiyuk return rumors amid 49ers' WR injuries 😬\n\n(Via @49ers ) \n\n#nfl #football #49ers #brandonaiyuk\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T21:53:01.644Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Kyle Shanahan shuts down Brandon Aiyuk return rumors amid 49ers' WR injuries \ud83d\ude2c\n\n(Via @49ers ) \n\n#nfl #football #49ers #brandonaiyuk",
+  "body": "Kyle Shanahan shuts down Brandon Aiyuk return rumors amid 49ers' WR injuries 😬\n\n(Via @49ers ) \n\n#nfl #football #49ers #brandonaiyuk",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-21T21:53:50.159Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.16,
   "scoreMargin": 16.06,
   "highlightQuality": 10.16,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 56.06,
@@ -73,5 +73,17 @@
   "video": "media/DdkKgDMpuj5-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112251577915961",
+  "instagramContainerCreatedAt": "2026-09-21T22:21:54.624Z",
+  "instagramPublishRequestedAt": "2026-09-21T22:22:25.318Z",
+  "instagramMediaId": "17967240804169626",
+  "instagramPermalink": "https://www.instagram.com/reel/DdkONUQDH2O/",
+  "instagramVerifiedAt": "2026-09-21T22:22:31.636Z",
+  "publishedAt": "2026-09-21T22:22:31.636Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdkKgDMpuj5-sportswire247.mp4",
+    "at": "2026-09-21T22:22:31.637Z"
+  }
 }
