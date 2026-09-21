@@ -3,16 +3,16 @@
   "shortcode": "Ddh9eDxJy73",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Ddh9eDxJy73/",
-  "sourceCaption": "Taylor Swift showing all the love to her husband Travis Kelce \u2764\ufe0f (via @just_steph_isfine)\n\n#nfl #taylorswift #traviskelce #chiefs #nflfootball",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nTaylor Swift showing all the love to her husband Travis Kelce \u2764\ufe0f (via @just_steph_isfine)\n\n#nfl #taylorswift #traviskelce #chiefs #nflfootball\n\n#football\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Taylor Swift showing all the love to her husband Travis Kelce ❤️ (via @just_steph_isfine)\n\n#nfl #taylorswift #traviskelce #chiefs #nflfootball",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nTaylor Swift showing all the love to her husband Travis Kelce ❤️ (via @just_steph_isfine)\n\n#nfl #taylorswift #traviskelce #chiefs #nflfootball\n\n#football\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T01:18:55.152Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Taylor Swift showing all the love to her husband Travis Kelce \u2764\ufe0f (via @just_steph_isfine)\n\n#nfl #taylorswift #traviskelce #chiefs #nflfootball",
+  "body": "Taylor Swift showing all the love to her husband Travis Kelce ❤️ (via @just_steph_isfine)\n\n#nfl #taylorswift #traviskelce #chiefs #nflfootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-21T01:19:43.673Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 3.19,
   "scoreMargin": 8.91,
   "highlightQuality": 3.19,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.91,
@@ -72,5 +72,17 @@
   "video": "media/Ddh9eDxJy73-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111961630915961",
+  "instagramContainerCreatedAt": "2026-09-21T02:09:27.349Z",
+  "instagramPublishRequestedAt": "2026-09-21T02:09:57.804Z",
+  "instagramMediaId": "17869084149647493",
+  "instagramPermalink": "https://www.instagram.com/reel/DdiDdQAiFK1/",
+  "instagramVerifiedAt": "2026-09-21T02:10:04.932Z",
+  "publishedAt": "2026-09-21T02:10:04.933Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddh9eDxJy73-sportswire247.mp4",
+    "at": "2026-09-21T02:10:04.935Z"
+  }
 }
