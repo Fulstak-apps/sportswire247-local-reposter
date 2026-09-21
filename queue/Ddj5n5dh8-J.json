@@ -4,9 +4,9 @@
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/Ddj5n5dh8-J/",
   "sourceCaption": "Raiders rookie CB Hezekiah Masses speaks on his 2 interceptions on Justin Herbert and his first career start \n\n(via @raiders) \n\n#nfl #football #nflfootball #raiders",
-  "publishCaption": "Sports are unreal sometimes \ud83d\ude2e\u200d\ud83d\udca8\n\nRaiders rookie CB Hezekiah Masses speaks on his 2 interceptions on Justin Herbert and his first career start \n\n(via @raiders) \n\n#nfl #football #nflfootball #raiders\n\nSource: @bleacherreport\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "Sports are unreal sometimes 😮‍💨\n\nRaiders rookie CB Hezekiah Masses speaks on his 2 interceptions on Justin Herbert and his first career start \n\n(via @raiders) \n\n#nfl #football #nflfootball #raiders\n\nSource: @bleacherreport\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T19:59:05.536Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,9 +52,9 @@
   "rawScore": 77.2,
   "engagementScore": 22.18,
   "scoreMargin": 37.2,
-  "highlightQuality": 34.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 34,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 77.2,
@@ -75,5 +75,17 @@
   "video": "media/Ddj5n5dh8-J-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112230898915961",
+  "instagramContainerCreatedAt": "2026-09-21T20:40:20.923Z",
+  "instagramPublishRequestedAt": "2026-09-21T20:40:51.750Z",
+  "instagramMediaId": "18628856362050684",
+  "instagramPermalink": "https://www.instagram.com/reel/DdkClcpgIEN/",
+  "instagramVerifiedAt": "2026-09-21T20:41:00.356Z",
+  "publishedAt": "2026-09-21T20:41:00.357Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddj5n5dh8-J-sportswire247.mp4",
+    "at": "2026-09-21T20:41:00.358Z"
+  }
 }
