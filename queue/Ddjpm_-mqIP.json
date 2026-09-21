@@ -3,16 +3,16 @@
   "shortcode": "Ddjpm_-mqIP",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/Ddjpm_-mqIP/",
-  "sourceCaption": "Working on the lost art of basketball \ud83c\udfc0 \n\nCheck out the full workout in my bio \ud83d\udc40 @gatorade",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nWorking on the lost art of basketball \ud83c\udfc0 \n\nCheck out the full workout in my bio \ud83d\udc40 @gatorade\n\n#basketball #nba\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Working on the lost art of basketball 🏀 \n\nCheck out the full workout in my bio 👀 @gatorade",
+  "publishCaption": "You have to see this one twice 👀\n\nWorking on the lost art of basketball 🏀 \n\nCheck out the full workout in my bio 👀 @gatorade\n\n#basketball #nba\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T17:05:49.917Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Working on the lost art of basketball \ud83c\udfc0 \n\nCheck out the full workout in my bio \ud83d\udc40 @gatorade",
+  "body": "Working on the lost art of basketball 🏀 \n\nCheck out the full workout in my bio 👀 @gatorade",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-21T17:06:38.608Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 9.42,
   "scoreMargin": 13.81,
   "highlightQuality": 9.42,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.81,
@@ -74,5 +74,17 @@
   "video": "media/Ddjpm_-mqIP-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112198525915961",
+  "instagramContainerCreatedAt": "2026-09-21T18:01:47.230Z",
+  "instagramPublishRequestedAt": "2026-09-21T18:02:17.553Z",
+  "instagramMediaId": "18026695253857842",
+  "instagramPermalink": "https://www.instagram.com/reel/DdjwcIcDqnn/",
+  "instagramVerifiedAt": "2026-09-21T18:02:23.789Z",
+  "publishedAt": "2026-09-21T18:02:23.821Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddjpm_-mqIP-sportswire247.mp4",
+    "at": "2026-09-21T18:02:23.822Z"
+  }
 }
