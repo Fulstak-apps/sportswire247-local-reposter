@@ -3,16 +3,16 @@
   "shortcode": "DdfauRtty4n",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdfauRtty4n/",
-  "sourceCaption": "OLE MISS IS BLOWING OUT LSU IN THE FIRST HALF \ud83d\ude31\ud83e\udd2f (via daiquanharris/TT)",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nOLE MISS IS BLOWING OUT LSU IN THE FIRST HALF \ud83d\ude31\ud83e\udd2f (via daiquanharris/TT)\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "OLE MISS IS BLOWING OUT LSU IN THE FIRST HALF 😱🤯 (via daiquanharris/TT)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nOLE MISS IS BLOWING OUT LSU IN THE FIRST HALF 😱🤯 (via daiquanharris/TT)\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T01:51:22.706Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "OLE MISS IS BLOWING OUT LSU IN THE FIRST HALF \ud83d\ude31\ud83e\udd2f (via daiquanharris/TT)",
+  "body": "OLE MISS IS BLOWING OUT LSU IN THE FIRST HALF 😱🤯 (via daiquanharris/TT)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T01:52:11.266Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 50.41,
   "engagementScore": 17.83,
   "scoreMargin": -29.59,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 50.41,
@@ -73,5 +73,17 @@
   "video": "media/DdfauRtty4n-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112144378915961",
+  "instagramContainerCreatedAt": "2026-09-21T14:44:57.822Z",
+  "instagramPublishRequestedAt": "2026-09-21T14:45:28.153Z",
+  "instagramMediaId": "17989917021102717",
+  "instagramPermalink": "https://www.instagram.com/reel/DdjZ6qTiCbq/",
+  "instagramVerifiedAt": "2026-09-21T14:45:37.310Z",
+  "publishedAt": "2026-09-21T14:45:37.311Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfauRtty4n-sportswire247.mp4",
+    "at": "2026-09-21T14:45:37.312Z"
+  }
 }
