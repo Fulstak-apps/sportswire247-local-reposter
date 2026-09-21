@@ -3,16 +3,16 @@
   "shortcode": "Ddja0XbNSn6",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/Ddja0XbNSn6/",
-  "sourceCaption": "Aaron Rodgers wants to call plays that have a better chance going forward \ud83d\udc40\n\n(via @steelers)\n\n#nfl #football #nflfootball #Steelers #aaronrodgers",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nAaron Rodgers wants to call plays that have a better chance going forward \ud83d\udc40\n\n(via @steelers)\n\n#nfl #football #nflfootball #Steelers #aaronrodgers\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Aaron Rodgers wants to call plays that have a better chance going forward 👀\n\n(via @steelers)\n\n#nfl #football #nflfootball #Steelers #aaronrodgers",
+  "publishCaption": "The moment says it all 👀\n\nAaron Rodgers wants to call plays that have a better chance going forward 👀\n\n(via @steelers)\n\n#nfl #football #nflfootball #Steelers #aaronrodgers\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T15:06:08.909Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Aaron Rodgers wants to call plays that have a better chance going forward \ud83d\udc40\n\n(via @steelers)\n\n#nfl #football #nflfootball #Steelers #aaronrodgers",
+  "body": "Aaron Rodgers wants to call plays that have a better chance going forward 👀\n\n(via @steelers)\n\n#nfl #football #nflfootball #Steelers #aaronrodgers",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-21T15:06:57.375Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.63,
   "scoreMargin": 15.84,
   "highlightQuality": 10.63,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 55.84,
@@ -73,5 +73,17 @@
   "video": "media/Ddja0XbNSn6-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112167982915961",
+  "instagramContainerCreatedAt": "2026-09-21T16:06:15.006Z",
+  "instagramPublishRequestedAt": "2026-09-21T16:06:45.310Z",
+  "instagramMediaId": "18073240040743013",
+  "instagramPermalink": "https://www.instagram.com/reel/DdjjN6UET9A/",
+  "instagramVerifiedAt": "2026-09-21T16:06:52.111Z",
+  "publishedAt": "2026-09-21T16:06:52.111Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddja0XbNSn6-sportswire247.mp4",
+    "at": "2026-09-21T16:06:52.112Z"
+  }
 }
