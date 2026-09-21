@@ -3,16 +3,16 @@
   "shortcode": "DdfTqfbJ8Oc",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdfTqfbJ8Oc/",
-  "sourceCaption": "LSU\u2019s Kevin Smith says the best RBs to come through Ole Miss are because of him \ud83d\udc40\n\nSmith spent a total of 5 seasons as the Rebels\u2019 RB coach \ud83d\ude2e\n\n(via @bootkrewemedia, will012109/X)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nLSU\u2019s Kevin Smith says the best RBs to come through Ole Miss are because of him \ud83d\udc40\n\nSmith spent a total of 5 seasons as the Rebels\u2019 RB coach \ud83d\ude2e\n\n(via @bootkrewemedia, will012109/X)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "LSU’s Kevin Smith says the best RBs to come through Ole Miss are because of him 👀\n\nSmith spent a total of 5 seasons as the Rebels’ RB coach 😮\n\n(via @bootkrewemedia, will012109/X)",
+  "publishCaption": "The moment says it all 👀\n\nLSU’s Kevin Smith says the best RBs to come through Ole Miss are because of him 👀\n\nSmith spent a total of 5 seasons as the Rebels’ RB coach 😮\n\n(via @bootkrewemedia, will012109/X)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T01:54:37.467Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "LSU\u2019s Kevin Smith says the best RBs to come through Ole Miss are because of him \ud83d\udc40\n\nSmith spent a total of 5 seasons as the Rebels\u2019 RB coach \ud83d\ude2e\n\n(via @bootkrewemedia, will012109/X)",
+  "body": "LSU’s Kevin Smith says the best RBs to come through Ole Miss are because of him 👀\n\nSmith spent a total of 5 seasons as the Rebels’ RB coach 😮\n\n(via @bootkrewemedia, will012109/X)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T01:55:26.069Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 52.87,
   "engagementScore": 21.66,
   "scoreMargin": -27.13,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 52.87,
@@ -73,5 +73,17 @@
   "video": "media/DdfTqfbJ8Oc-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112055098915961",
+  "instagramContainerCreatedAt": "2026-09-21T08:44:00.315Z",
+  "instagramPublishRequestedAt": "2026-09-21T08:44:30.973Z",
+  "instagramMediaId": "18133570102629877",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddiwm0pFFYH/",
+  "instagramVerifiedAt": "2026-09-21T08:44:38.102Z",
+  "publishedAt": "2026-09-21T08:44:38.102Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfTqfbJ8Oc-sportswire247.mp4",
+    "at": "2026-09-21T08:44:38.103Z"
+  }
 }
