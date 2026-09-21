@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/talkinbaseball_/reel/DdhfGZ7yQv_/",
   "sourceCaption": "Alex Bregman was hit in the face with a foul ball and left the game after his face started bleeding \n\n#cubs #baseball #sports #mlb",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nAlex Bregman was hit in the face with a foul ball and left the game after his face started bleeding \n\n#cubs #baseball #sports #mlb\n\nSource: @jomboymedia\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "The moment says it all 👀\n\nAlex Bregman was hit in the face with a foul ball and left the game after his face started bleeding \n\n#cubs #baseball #sports #mlb\n\nSource: @jomboymedia\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T20:58:40.684Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 4.43,
   "scoreMargin": -8.88,
   "highlightQuality": 4.43,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 36.12,
@@ -72,5 +72,17 @@
   "video": "media/DdhfGZ7yQv_-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112039642915961",
+  "instagramContainerCreatedAt": "2026-09-21T07:35:46.480Z",
+  "instagramPublishRequestedAt": "2026-09-21T07:36:17.228Z",
+  "instagramMediaId": "18116355163975041",
+  "instagramPermalink": "https://www.instagram.com/reel/DdiozKFDtIZ/",
+  "instagramVerifiedAt": "2026-09-21T07:36:25.236Z",
+  "publishedAt": "2026-09-21T07:36:25.237Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdhfGZ7yQv_-sportswire247.mp4",
+    "at": "2026-09-21T07:36:25.238Z"
+  }
 }
