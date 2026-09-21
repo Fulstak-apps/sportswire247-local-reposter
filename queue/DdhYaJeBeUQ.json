@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymediafootball/reel/DdhYaJeBeUQ/",
   "sourceCaption": "Caleb Williams went down and was in tears as he pumped up the Bears crowd while he left on a cart \n\n#bears #football #nfl #sports",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nCaleb Williams went down and was in tears as he pumped up the Bears crowd while he left on a cart \n\n#bears #football #nfl #sports\n\nSource: @jomboymedia\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "The moment says it all 👀\n\nCaleb Williams went down and was in tears as he pumped up the Bears crowd while he left on a cart \n\n#bears #football #nfl #sports\n\nSource: @jomboymedia\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T20:02:38.291Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 4.65,
   "scoreMargin": -0.85,
   "highlightQuality": 4.65,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 39.15,
@@ -72,5 +72,17 @@
   "video": "media/DdhYaJeBeUQ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112029256915961",
+  "instagramContainerCreatedAt": "2026-09-21T06:53:46.399Z",
+  "instagramPublishRequestedAt": "2026-09-21T06:54:16.836Z",
+  "instagramMediaId": "18125650042825673",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddij_nuAgH5/",
+  "instagramVerifiedAt": "2026-09-21T06:54:23.754Z",
+  "publishedAt": "2026-09-21T06:54:23.754Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdhYaJeBeUQ-sportswire247.mp4",
+    "at": "2026-09-21T06:54:23.755Z"
+  }
 }
