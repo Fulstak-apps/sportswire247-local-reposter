@@ -3,16 +3,16 @@
   "shortcode": "DdiBQPAOep1",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdiBQPAOep1/",
-  "sourceCaption": "Alex Bregman shared an update after he got hit in the eye while waiting in the on-deck circle \ud83d\ude2e (via @abreg_1, @mlb, REDS.TV, @watchmarquee)\n\n#mlb #baseball #alexbregman",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nAlex Bregman shared an update after he got hit in the eye while waiting in the on-deck circle \ud83d\ude2e (via @abreg_1, @mlb, REDS.TV, @watchmarquee)\n\n#mlb #baseball #alexbregman\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Alex Bregman shared an update after he got hit in the eye while waiting in the on-deck circle 😮 (via @abreg_1, @mlb, REDS.TV, @watchmarquee)\n\n#mlb #baseball #alexbregman",
+  "publishCaption": "The moment says it all 👀\n\nAlex Bregman shared an update after he got hit in the eye while waiting in the on-deck circle 😮 (via @abreg_1, @mlb, REDS.TV, @watchmarquee)\n\n#mlb #baseball #alexbregman\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T01:53:51.413Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Alex Bregman shared an update after he got hit in the eye while waiting in the on-deck circle \ud83d\ude2e (via @abreg_1, @mlb, REDS.TV, @watchmarquee)\n\n#mlb #baseball #alexbregman",
+  "body": "Alex Bregman shared an update after he got hit in the eye while waiting in the on-deck circle 😮 (via @abreg_1, @mlb, REDS.TV, @watchmarquee)\n\n#mlb #baseball #alexbregman",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-21T01:54:39.933Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 13.1,
   "scoreMargin": 10.65,
   "highlightQuality": 13.1,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 55.65,
@@ -73,5 +73,17 @@
   "video": "media/DdiBQPAOep1-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111988306915961",
+  "instagramContainerCreatedAt": "2026-09-21T04:11:15.547Z",
+  "instagramPublishRequestedAt": "2026-09-21T04:11:45.950Z",
+  "instagramMediaId": "17996074097826442",
+  "instagramPermalink": "https://www.instagram.com/reel/DdiRZNLgcXz/",
+  "instagramVerifiedAt": "2026-09-21T04:11:50.480Z",
+  "publishedAt": "2026-09-21T04:11:50.481Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdiBQPAOep1-sportswire247.mp4",
+    "at": "2026-09-21T04:11:50.482Z"
+  }
 }
