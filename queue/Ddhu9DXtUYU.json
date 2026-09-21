@@ -3,16 +3,16 @@
   "shortcode": "Ddhu9DXtUYU",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Ddhu9DXtUYU/",
-  "sourceCaption": "Coolest base running I\u2019ve ever seen \ud83d\ude2e\u200d\ud83d\udca8\ud83d\udd25 (via @mlb, h/t lynziekate/X)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nCoolest base running I\u2019ve ever seen \ud83d\ude2e\u200d\ud83d\udca8\ud83d\udd25 (via @mlb, h/t lynziekate/X)\n\n#mlb #baseball\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Coolest base running I’ve ever seen 😮‍💨🔥 (via @mlb, h/t lynziekate/X)",
+  "publishCaption": "You have to see this one twice 👀\n\nCoolest base running I’ve ever seen 😮‍💨🔥 (via @mlb, h/t lynziekate/X)\n\n#mlb #baseball\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T23:14:12.814Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Coolest base running I\u2019ve ever seen \ud83d\ude2e\u200d\ud83d\udca8\ud83d\udd25 (via @mlb, h/t lynziekate/X)",
+  "body": "Coolest base running I’ve ever seen 😮‍💨🔥 (via @mlb, h/t lynziekate/X)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T23:15:01.594Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.05,
   "scoreMargin": 10.75,
   "highlightQuality": 12.05,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 55.75,
@@ -73,5 +73,17 @@
   "video": "media/Ddhu9DXtUYU-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111968272915961",
+  "instagramContainerCreatedAt": "2026-09-21T02:50:01.044Z",
+  "instagramPublishRequestedAt": "2026-09-21T02:51:01.564Z",
+  "instagramMediaId": "18216962377349642",
+  "instagramPermalink": "https://www.instagram.com/reel/DdiIJ6MCpne/",
+  "instagramVerifiedAt": "2026-09-21T02:51:11.129Z",
+  "publishedAt": "2026-09-21T02:51:11.129Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddhu9DXtUYU-sportswire247.mp4",
+    "at": "2026-09-21T02:51:11.131Z"
+  }
 }
