@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymediafootball/reel/DdhN1e5JYOF/",
   "sourceCaption": "Aaron Rodgers got crushed and nobody wanted to pick up the football \n\n#steelers #patriots #football #sports #nfl",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nAaron Rodgers got crushed and nobody wanted to pick up the football \n\n#steelers #patriots #football #sports #nfl\n\nSource: @jomboymedia\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nAaron Rodgers got crushed and nobody wanted to pick up the football \n\n#steelers #patriots #football #sports #nfl\n\nSource: @jomboymedia\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T20:10:44.176Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 10.38,
   "scoreMargin": 10.75,
   "highlightQuality": 10.38,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 50.75,
@@ -73,5 +73,17 @@
   "video": "media/DdhN1e5JYOF-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111947209915961",
+  "instagramContainerCreatedAt": "2026-09-21T00:48:23.121Z",
+  "instagramPublishRequestedAt": "2026-09-21T00:49:38.912Z",
+  "instagramMediaId": "18060475253622584",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddh6Q3Hjf9x/",
+  "instagramVerifiedAt": "2026-09-21T00:49:46.039Z",
+  "publishedAt": "2026-09-21T00:49:46.040Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdhN1e5JYOF-sportswire247.mp4",
+    "at": "2026-09-21T00:49:46.041Z"
+  }
 }
