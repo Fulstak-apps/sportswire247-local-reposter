@@ -3,16 +3,16 @@
   "shortcode": "DdhOVUjTssQ",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdhOVUjTssQ/",
-  "sourceCaption": "Weirdest HBP you\u2019ll ever see. \ud83d\ude2d\ud83d\ude05 (via @sportsnetla, @mlb)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nWeirdest HBP you\u2019ll ever see. \ud83d\ude2d\ud83d\ude05 (via @sportsnetla, @mlb)\n\n#mlb #baseball\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Weirdest HBP you’ll ever see. 😭😅 (via @sportsnetla, @mlb)",
+  "publishCaption": "The moment says it all 👀\n\nWeirdest HBP you’ll ever see. 😭😅 (via @sportsnetla, @mlb)\n\n#mlb #baseball\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T19:47:52.129Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Weirdest HBP you\u2019ll ever see. \ud83d\ude2d\ud83d\ude05 (via @sportsnetla, @mlb)",
+  "body": "Weirdest HBP you’ll ever see. 😭😅 (via @sportsnetla, @mlb)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T19:48:40.763Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 62.46,
   "engagementScore": 19.32,
   "scoreMargin": 17.46,
-  "highlightQuality": 14.0,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "highlightQuality": 14,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 62.46,
@@ -73,5 +73,17 @@
   "video": "media/DdhOVUjTssQ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111954697915961",
+  "instagramContainerCreatedAt": "2026-09-21T01:28:56.642Z",
+  "instagramPublishRequestedAt": "2026-09-21T01:29:27.175Z",
+  "instagramMediaId": "18141768772608693",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddh-0N1jiCA/",
+  "instagramVerifiedAt": "2026-09-21T01:29:35.947Z",
+  "publishedAt": "2026-09-21T01:29:35.948Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdhOVUjTssQ-sportswire247.mp4",
+    "at": "2026-09-21T01:29:35.949Z"
+  }
 }
