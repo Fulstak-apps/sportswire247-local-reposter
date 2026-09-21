@@ -4,9 +4,9 @@
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/DdiE7M_NtFe/",
   "sourceCaption": "Commanders HC Dan Quinn kept it short when asked about the playcall that led to Jayden Daniels injury \n\n(via @commanders)\n\n#nfl #football #nflfootball #commanders",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nCommanders HC Dan Quinn kept it short when asked about the playcall that led to Jayden Daniels injury \n\n(via @commanders)\n\n#nfl #football #nflfootball #commanders\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nCommanders HC Dan Quinn kept it short when asked about the playcall that led to Jayden Daniels injury \n\n(via @commanders)\n\n#nfl #football #nflfootball #commanders\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T02:33:27.758Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 12.76,
   "scoreMargin": 18.04,
   "highlightQuality": 12.76,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 58.04,
@@ -73,5 +73,17 @@
   "video": "media/DdiE7M_NtFe-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111979408915961",
+  "instagramContainerCreatedAt": "2026-09-21T03:30:35.927Z",
+  "instagramPublishRequestedAt": "2026-09-21T03:32:06.890Z",
+  "instagramMediaId": "18175311943448944",
+  "instagramPermalink": "https://www.instagram.com/reel/DdiM2gSlBky/",
+  "instagramVerifiedAt": "2026-09-21T03:32:11.402Z",
+  "publishedAt": "2026-09-21T03:32:11.403Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdiE7M_NtFe-sportswire247.mp4",
+    "at": "2026-09-21T03:32:11.404Z"
+  }
 }
