@@ -3,16 +3,16 @@
   "shortcode": "DdiQB--kXCz",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/p/DdiQB--kXCz/",
-  "sourceCaption": "CHIEFS SURVIVE IN OT VS. THE COLTS \ud83e\udd2f\n\n(via @nfl)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nCHIEFS SURVIVE IN OT VS. THE COLTS \ud83e\udd2f\n\n(via @nfl)\n\n#football #nfl\n\nSource: @sportscenter\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "CHIEFS SURVIVE IN OT VS. THE COLTS 🤯\n\n(via @nfl)",
+  "publishCaption": "The moment says it all 👀\n\nCHIEFS SURVIVE IN OT VS. THE COLTS 🤯\n\n(via @nfl)\n\n#football #nfl\n\nSource: @sportscenter\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T04:04:27.027Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "CHIEFS SURVIVE IN OT VS. THE COLTS \ud83e\udd2f\n\n(via @nfl)",
+  "body": "CHIEFS SURVIVE IN OT VS. THE COLTS 🤯\n\n(via @nfl)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-21T04:05:16.245Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 64.03,
   "engagementScore": 17.45,
   "scoreMargin": 24.03,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 64.03,
@@ -73,5 +73,17 @@
   "video": "media/DdiQB--kXCz-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18111997141915961",
+  "instagramContainerCreatedAt": "2026-09-21T04:51:52.604Z",
+  "instagramPublishRequestedAt": "2026-09-21T04:53:08.124Z",
+  "instagramMediaId": "18192378997399126",
+  "instagramPermalink": "https://www.instagram.com/reel/DdiWHZMAidd/",
+  "instagramVerifiedAt": "2026-09-21T04:53:14.573Z",
+  "publishedAt": "2026-09-21T04:53:14.573Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdiQB--kXCz-sportswire247.mp4",
+    "at": "2026-09-21T04:53:14.574Z"
+  }
 }
