@@ -3,16 +3,16 @@
   "shortcode": "DdjwKyalYCj",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/p/DdjwKyalYCj/",
-  "sourceCaption": "OG is a Knicks legend even to Jose\u2019s daughters \ud83d\ude02\u2764\ufe0f (via @therealgta)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nOG is a Knicks legend even to Jose\u2019s daughters \ud83d\ude02\u2764\ufe0f (via @therealgta)\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "OG is a Knicks legend even to Jose’s daughters 😂❤️ (via @therealgta)",
+  "publishCaption": "The moment says it all 👀\n\nOG is a Knicks legend even to Jose’s daughters 😂❤️ (via @therealgta)\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T18:04:30.269Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "OG is a Knicks legend even to Jose\u2019s daughters \ud83d\ude02\u2764\ufe0f (via @therealgta)",
+  "body": "OG is a Knicks legend even to Jose’s daughters 😂❤️ (via @therealgta)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-21T18:05:19.232Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.55,
   "scoreMargin": 28.36,
   "highlightQuality": 12.55,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 63.36,
@@ -73,5 +73,17 @@
   "video": "media/DdjwKyalYCj-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112211422915961",
+  "instagramContainerCreatedAt": "2026-09-21T18:50:28.421Z",
+  "instagramPublishRequestedAt": "2026-09-21T18:50:59.528Z",
+  "instagramMediaId": "18030598268851134",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddj2A__ik4a/",
+  "instagramVerifiedAt": "2026-09-21T18:51:08.515Z",
+  "publishedAt": "2026-09-21T18:51:08.515Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdjwKyalYCj-sportswire247.mp4",
+    "at": "2026-09-21T18:51:08.517Z"
+  }
 }
