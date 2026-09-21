@@ -3,16 +3,16 @@
   "shortcode": "DdjhIVxHCan",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_cfb/p/DdjhIVxHCan/",
-  "sourceCaption": "Jon Sumrall had jokes after finding out No. 21 Florida is favored over No. 4 Ole Miss on Saturday \ud83d\ude02\n\n(via Florida Gators Football) \n\n#cfb #collegefootball #football #floridafootball #jonsumrall",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nJon Sumrall had jokes after finding out No. 21 Florida is favored over No. 4 Ole Miss on Saturday \ud83d\ude02\n\n(via Florida Gators Football) \n\n#cfb #collegefootball #football #floridafootball #jonsumrall\n\n#nfl\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Jon Sumrall had jokes after finding out No. 21 Florida is favored over No. 4 Ole Miss on Saturday 😂\n\n(via Florida Gators Football) \n\n#cfb #collegefootball #football #floridafootball #jonsumrall",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nJon Sumrall had jokes after finding out No. 21 Florida is favored over No. 4 Ole Miss on Saturday 😂\n\n(via Florida Gators Football) \n\n#cfb #collegefootball #football #floridafootball #jonsumrall\n\n#nfl\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T16:25:26.205Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jon Sumrall had jokes after finding out No. 21 Florida is favored over No. 4 Ole Miss on Saturday \ud83d\ude02\n\n(via Florida Gators Football) \n\n#cfb #collegefootball #football #floridafootball #jonsumrall",
+  "body": "Jon Sumrall had jokes after finding out No. 21 Florida is favored over No. 4 Ole Miss on Saturday 😂\n\n(via Florida Gators Football) \n\n#cfb #collegefootball #football #floridafootball #jonsumrall",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-21T16:26:14.527Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 13.16,
   "scoreMargin": 17.83,
   "highlightQuality": 13.16,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 57.83,
@@ -73,5 +73,17 @@
   "video": "media/DdjhIVxHCan-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112190716915961",
+  "instagramContainerCreatedAt": "2026-09-21T17:27:22.497Z",
+  "instagramPublishRequestedAt": "2026-09-21T17:27:52.913Z",
+  "instagramMediaId": "18183093754416593",
+  "instagramPermalink": "https://www.instagram.com/reel/DdjsgEhgBgO/",
+  "instagramVerifiedAt": "2026-09-21T17:28:02.250Z",
+  "publishedAt": "2026-09-21T17:28:02.251Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdjhIVxHCan-sportswire247.mp4",
+    "at": "2026-09-21T17:28:02.252Z"
+  }
 }
