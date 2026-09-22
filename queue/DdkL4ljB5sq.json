@@ -3,16 +3,16 @@
   "shortcode": "DdkL4ljB5sq",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/DdkL4ljB5sq/",
-  "sourceCaption": "Patrick Mahomes is too smart and knows the rules \ud83e\udde0 \n\n(via @Chiefs) \n\n#nfl #football #nflfootball #chiefs #patrickmahomes",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nPatrick Mahomes is too smart and knows the rules \ud83e\udde0 \n\n(via @Chiefs) \n\n#nfl #football #nflfootball #chiefs #patrickmahomes\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Patrick Mahomes is too smart and knows the rules 🧠 \n\n(via @Chiefs) \n\n#nfl #football #nflfootball #chiefs #patrickmahomes",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nPatrick Mahomes is too smart and knows the rules 🧠 \n\n(via @Chiefs) \n\n#nfl #football #nflfootball #chiefs #patrickmahomes\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T00:48:08.015Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Patrick Mahomes is too smart and knows the rules \ud83e\udde0 \n\n(via @Chiefs) \n\n#nfl #football #nflfootball #chiefs #patrickmahomes",
+  "body": "Patrick Mahomes is too smart and knows the rules 🧠 \n\n(via @Chiefs) \n\n#nfl #football #nflfootball #chiefs #patrickmahomes",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T00:48:57.353Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 63.64,
   "engagementScore": 21.32,
   "scoreMargin": 23.64,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 63.64,
@@ -73,5 +73,17 @@
   "video": "media/DdkL4ljB5sq-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112284418915961",
+  "instagramContainerCreatedAt": "2026-09-22T01:34:43.404Z",
+  "instagramPublishRequestedAt": "2026-09-22T01:35:13.938Z",
+  "instagramMediaId": "17911151274283415",
+  "instagramPermalink": "https://www.instagram.com/reel/DdkkRdRDAHi/",
+  "instagramVerifiedAt": "2026-09-22T01:35:20.632Z",
+  "publishedAt": "2026-09-22T01:35:20.633Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdkL4ljB5sq-sportswire247.mp4",
+    "at": "2026-09-22T01:35:20.634Z"
+  }
 }
