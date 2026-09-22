@@ -3,16 +3,16 @@
   "shortcode": "Ddmt9Rrpb8H",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Ddmt9Rrpb8H/",
-  "sourceCaption": "Cam Skatebo got stopped playing as himself \ud83d\ude02\ud83d\ude2d\n\n(via Cameron \"Natureboy\" Skatebo)\n\n #nfl #camskattebo #madden #funny #nflfootball",
-  "publishCaption": "Sports and the internet stay undefeated \ud83d\ude02\n\nCam Skatebo got stopped playing as himself \ud83d\ude02\ud83d\ude2d\n\n(via Cameron \"Natureboy\" Skatebo)\n\n #nfl #camskattebo #madden #funny #nflfootball\n\n#football\n\nSource: @bleacherreport\n\nBe honest\u2014would you have done the same?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Cam Skatebo got stopped playing as himself 😂😭\n\n(via Cameron \"Natureboy\" Skatebo)\n\n #nfl #camskattebo #madden #funny #nflfootball",
+  "publishCaption": "Sports and the internet stay undefeated 😂\n\nCam Skatebo got stopped playing as himself 😂😭\n\n(via Cameron \"Natureboy\" Skatebo)\n\n #nfl #camskattebo #madden #funny #nflfootball\n\n#football\n\nSource: @bleacherreport\n\nBe honest—would you have done the same?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T21:42:06.552Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Cam Skatebo got stopped playing as himself \ud83d\ude02\ud83d\ude2d\n\n(via Cameron \"Natureboy\" Skatebo)\n\n #nfl #camskattebo #madden #funny #nflfootball",
+  "body": "Cam Skatebo got stopped playing as himself 😂😭\n\n(via Cameron \"Natureboy\" Skatebo)\n\n #nfl #camskattebo #madden #funny #nflfootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T21:42:55.183Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 6.31,
   "scoreMargin": 17.23,
   "highlightQuality": 6.31,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 57.23,
@@ -74,5 +74,17 @@
   "video": "media/Ddmt9Rrpb8H-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112598692915961",
+  "instagramContainerCreatedAt": "2026-09-22T22:20:20.188Z",
+  "instagramPublishRequestedAt": "2026-09-22T22:21:35.631Z",
+  "instagramMediaId": "18133043869661301",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddmy55Qkojv/",
+  "instagramVerifiedAt": "2026-09-22T22:21:44.707Z",
+  "publishedAt": "2026-09-22T22:21:44.708Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddmt9Rrpb8H-sportswire247.mp4",
+    "at": "2026-09-22T22:21:44.709Z"
+  }
 }
