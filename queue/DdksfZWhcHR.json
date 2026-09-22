@@ -3,16 +3,16 @@
   "shortcode": "DdksfZWhcHR",
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymedia/reel/DdksfZWhcHR/",
-  "sourceCaption": "Cameraman wasn\u2019t interested in listening to Tigers broadcaster Jason Benetti babble about history \ud83d\ude02\n\n#mlb #baseball #sports #broadcaster #funny",
-  "publishCaption": "Sports and the internet stay undefeated \ud83d\ude02\n\nCameraman wasn\u2019t interested in listening to Tigers broadcaster Jason Benetti babble about history \ud83d\ude02\n\n#mlb #baseball #sports #broadcaster #funny\n\nSource: @jomboymedia\n\nBe honest\u2014would you have done the same?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Cameraman wasn’t interested in listening to Tigers broadcaster Jason Benetti babble about history 😂\n\n#mlb #baseball #sports #broadcaster #funny",
+  "publishCaption": "Sports and the internet stay undefeated 😂\n\nCameraman wasn’t interested in listening to Tigers broadcaster Jason Benetti babble about history 😂\n\n#mlb #baseball #sports #broadcaster #funny\n\nSource: @jomboymedia\n\nBe honest—would you have done the same?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T02:52:54.289Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Cameraman wasn\u2019t interested in listening to Tigers broadcaster Jason Benetti babble about history \ud83d\ude02\n\n#mlb #baseball #sports #broadcaster #funny",
+  "body": "Cameraman wasn’t interested in listening to Tigers broadcaster Jason Benetti babble about history 😂\n\n#mlb #baseball #sports #broadcaster #funny",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T02:53:42.992Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 3.21,
   "scoreMargin": -4.2,
   "highlightQuality": 3.21,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 40.8,
@@ -73,5 +73,17 @@
   "video": "media/DdksfZWhcHR-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112448185915961",
+  "instagramContainerCreatedAt": "2026-09-22T13:04:17.944Z",
+  "instagramPublishRequestedAt": "2026-09-22T13:04:48.464Z",
+  "instagramMediaId": "18116221225777363",
+  "instagramPermalink": "https://www.instagram.com/reel/DdlzMeHjSeb/",
+  "instagramVerifiedAt": "2026-09-22T13:04:56.461Z",
+  "publishedAt": "2026-09-22T13:04:56.461Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdksfZWhcHR-sportswire247.mp4",
+    "at": "2026-09-22T13:04:56.462Z"
+  }
 }
