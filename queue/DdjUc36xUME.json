@@ -3,16 +3,16 @@
   "shortcode": "DdjUc36xUME",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdjUc36xUME/",
-  "sourceCaption": "\ud83d\ude2e\u200d\ud83d\udca8\ud83d\ude2e\u200d\ud83d\udca8\ud83d\ude2e\u200d\ud83d\udca8 (via @Adham.coach)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\n\ud83d\ude2e\u200d\ud83d\udca8\ud83d\ude2e\u200d\ud83d\udca8\ud83d\ude2e\u200d\ud83d\udca8 (via @Adham.coach)\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "😮‍💨😮‍💨😮‍💨 (via @Adham.coach)",
+  "publishCaption": "You have to see this one twice 👀\n\n😮‍💨😮‍💨😮‍💨 (via @Adham.coach)\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T14:47:07.726Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "\ud83d\ude2e\u200d\ud83d\udca8\ud83d\ude2e\u200d\ud83d\udca8\ud83d\ude2e\u200d\ud83d\udca8 (via @Adham.coach)",
+  "body": "😮‍💨😮‍💨😮‍💨 (via @Adham.coach)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-21T14:47:29.482Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 49.24,
   "engagementScore": 18.57,
   "scoreMargin": -30.76,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 49.24,
@@ -73,5 +73,17 @@
   "video": "media/DdjUc36xUME-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112415770915961",
+  "instagramContainerCreatedAt": "2026-09-22T11:25:44.571Z",
+  "instagramPublishRequestedAt": "2026-09-22T11:26:15.240Z",
+  "instagramMediaId": "18099722369560557",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddln6h1iqZ3/",
+  "instagramVerifiedAt": "2026-09-22T11:26:23.419Z",
+  "publishedAt": "2026-09-22T11:26:23.420Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdjUc36xUME-sportswire247.mp4",
+    "at": "2026-09-22T11:26:23.421Z"
+  }
 }
