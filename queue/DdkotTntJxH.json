@@ -3,16 +3,16 @@
   "shortcode": "DdkotTntJxH",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdkotTntJxH/",
-  "sourceCaption": "Jaxson Dart has been ruled OUT vs Rams but he was determined to walk off the field by himself \ud83d\ude4f (Via @licenseplateguy)",
-  "publishCaption": "Had to run that one back \ud83d\udc40\n\nJaxson Dart has been ruled OUT vs Rams but he was determined to walk off the field by himself \ud83d\ude4f (Via @licenseplateguy)\n\n#sports\n\nSource: @houseofhighlights\n\nRate this one 1\u201310.\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Jaxson Dart has been ruled OUT vs Rams but he was determined to walk off the field by himself 🙏 (Via @licenseplateguy)",
+  "publishCaption": "Had to run that one back 👀\n\nJaxson Dart has been ruled OUT vs Rams but he was determined to walk off the field by himself 🙏 (Via @licenseplateguy)\n\n#sports\n\nSource: @houseofhighlights\n\nRate this one 1–10.\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T02:17:38.638Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jaxson Dart has been ruled OUT vs Rams but he was determined to walk off the field by himself \ud83d\ude4f (Via @licenseplateguy)",
+  "body": "Jaxson Dart has been ruled OUT vs Rams but he was determined to walk off the field by himself 🙏 (Via @licenseplateguy)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T02:18:27.353Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.21,
   "scoreMargin": -2.89,
   "highlightQuality": 56.21,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 77.11,
@@ -76,5 +76,17 @@
   "video": "media/DdkotTntJxH-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112311541915961",
+  "instagramContainerCreatedAt": "2026-09-22T02:55:47.484Z",
+  "instagramPublishRequestedAt": "2026-09-22T02:56:18.134Z",
+  "instagramMediaId": "17944471593337146",
+  "instagramPermalink": "https://www.instagram.com/reel/DdktjUjCSWJ/",
+  "instagramVerifiedAt": "2026-09-22T02:56:24.462Z",
+  "publishedAt": "2026-09-22T02:56:24.462Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdkotTntJxH-sportswire247.mp4",
+    "at": "2026-09-22T02:56:24.463Z"
+  }
 }
