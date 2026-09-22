@@ -3,16 +3,16 @@
   "shortcode": "Ddk1_HBN3bB",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/Ddk1_HBN3bB/",
-  "sourceCaption": "Sean McVay on the difference between the Week 1 loss and Week 2 win \ud83d\udc80\n\n(via: ArashMarkazi/X)\n#nfl #nflfootball #rams",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nSean McVay on the difference between the Week 1 loss and Week 2 win \ud83d\udc80\n\n(via: ArashMarkazi/X)\n#nfl #nflfootball #rams\n\n#football\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Sean McVay on the difference between the Week 1 loss and Week 2 win 💀\n\n(via: ArashMarkazi/X)\n#nfl #nflfootball #rams",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nSean McVay on the difference between the Week 1 loss and Week 2 win 💀\n\n(via: ArashMarkazi/X)\n#nfl #nflfootball #rams\n\n#football\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T04:15:17.469Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Sean McVay on the difference between the Week 1 loss and Week 2 win \ud83d\udc80\n\n(via: ArashMarkazi/X)\n#nfl #nflfootball #rams",
+  "body": "Sean McVay on the difference between the Week 1 loss and Week 2 win 💀\n\n(via: ArashMarkazi/X)\n#nfl #nflfootball #rams",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T04:16:06.079Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.84,
   "scoreMargin": 16.88,
   "highlightQuality": 12.84,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 56.88,
@@ -73,5 +73,17 @@
   "video": "media/Ddk1_HBN3bB-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112348489915961",
+  "instagramContainerCreatedAt": "2026-09-22T06:13:52.450Z",
+  "instagramPublishRequestedAt": "2026-09-22T06:14:23.048Z",
+  "instagramMediaId": "17990242857059121",
+  "instagramPermalink": "https://www.instagram.com/reel/DdlEOAjjpRl/",
+  "instagramVerifiedAt": "2026-09-22T06:14:33.919Z",
+  "publishedAt": "2026-09-22T06:14:33.920Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddk1_HBN3bB-sportswire247.mp4",
+    "at": "2026-09-22T06:14:33.921Z"
+  }
 }
