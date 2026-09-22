@@ -53,6 +53,7 @@ else
 fi
 
 cycle_failed=false
+python3 scripts/purge-confirmed-runtime-media.py || { echo "SportsWire cache cleanup failed; continuing safely" >&2; }
 node src/collect-only.mjs || { echo "Collection failed; continuing with saved queue" >&2; cycle_failed=true; }
 python3 scripts/refill-queue.py || { echo "Queue refill failed; continuing to sync any already-ready items" >&2; cycle_failed=true; }
 scripts/push-sportswire-queue.sh || { echo "Queue sync failed; local queue retained for the next cycle" >&2; cycle_failed=true; }
