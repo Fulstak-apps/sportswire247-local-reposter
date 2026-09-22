@@ -3,16 +3,16 @@
   "shortcode": "DdkZMgbx72p",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdkZMgbx72p/",
-  "sourceCaption": "Safe to say he\u2019s hyped for MNF \ud83d\ude05 #nflfootball",
-  "publishCaption": "Only sports can create a moment like this \ud83d\ude02\n\nSafe to say he\u2019s hyped for MNF \ud83d\ude05 #nflfootball\n\n#sports\n\nSource: @sportscenter\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Safe to say he’s hyped for MNF 😅 #nflfootball",
+  "publishCaption": "Only sports can create a moment like this 😂\n\nSafe to say he’s hyped for MNF 😅 #nflfootball\n\n#sports\n\nSource: @sportscenter\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T00:05:13.609Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Safe to say he\u2019s hyped for MNF \ud83d\ude05 #nflfootball",
+  "body": "Safe to say he’s hyped for MNF 😅 #nflfootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T00:06:02.555Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.12,
   "scoreMargin": -31.27,
   "highlightQuality": 12.12,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.73,
@@ -74,5 +74,17 @@
   "video": "media/DdkZMgbx72p-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112584106915961",
+  "instagramContainerCreatedAt": "2026-09-22T20:59:11.982Z",
+  "instagramPublishRequestedAt": "2026-09-22T20:59:42.283Z",
+  "instagramMediaId": "17883674061504519",
+  "instagramPermalink": "https://www.instagram.com/reel/DdmpjyTFdeK/",
+  "instagramVerifiedAt": "2026-09-22T20:59:49.620Z",
+  "publishedAt": "2026-09-22T20:59:49.621Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdkZMgbx72p-sportswire247.mp4",
+    "at": "2026-09-22T20:59:49.624Z"
+  }
 }
