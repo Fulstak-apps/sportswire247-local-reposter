@@ -3,16 +3,16 @@
   "shortcode": "DdmVArjT9oi",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdmVArjT9oi/",
-  "sourceCaption": "Steven Adams says NBA performance will plummet when GTA6 comes out. \ud83d\ude02\ud83d\ude02 (via @houstonrockets)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nSteven Adams says NBA performance will plummet when GTA6 comes out. \ud83d\ude02\ud83d\ude02 (via @houstonrockets)\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Steven Adams says NBA performance will plummet when GTA6 comes out. 😂😂 (via @houstonrockets)",
+  "publishCaption": "The moment says it all 👀\n\nSteven Adams says NBA performance will plummet when GTA6 comes out. 😂😂 (via @houstonrockets)\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T18:04:52.969Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Steven Adams says NBA performance will plummet when GTA6 comes out. \ud83d\ude02\ud83d\ude02 (via @houstonrockets)",
+  "body": "Steven Adams says NBA performance will plummet when GTA6 comes out. 😂😂 (via @houstonrockets)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T18:05:41.411Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.71,
   "scoreMargin": 26.6,
   "highlightQuality": 10.71,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 61.6,
@@ -73,5 +73,17 @@
   "video": "media/DdmVArjT9oi-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112555051915961",
+  "instagramContainerCreatedAt": "2026-09-22T18:41:28.445Z",
+  "instagramPublishRequestedAt": "2026-09-22T18:41:58.824Z",
+  "instagramMediaId": "17963098265979882",
+  "instagramPermalink": "https://www.instagram.com/reel/DdmZxxHgcN4/",
+  "instagramVerifiedAt": "2026-09-22T18:42:04.923Z",
+  "publishedAt": "2026-09-22T18:42:04.923Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdmVArjT9oi-sportswire247.mp4",
+    "at": "2026-09-22T18:42:04.924Z"
+  }
 }
