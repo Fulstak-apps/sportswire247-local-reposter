@@ -3,16 +3,16 @@
   "shortcode": "Ddk1RV3N6sK",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Ddk1RV3N6sK/",
-  "sourceCaption": "Chet dropped a crazy bar \ud83d\ude02\ud83d\udd25\n\n(Via @jmac ) \n\n#nba #basketball #jaredmccain #chetholmgren",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nChet dropped a crazy bar \ud83d\ude02\ud83d\udd25\n\n(Via @jmac ) \n\n#nba #basketball #jaredmccain #chetholmgren\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Chet dropped a crazy bar 😂🔥\n\n(Via @jmac ) \n\n#nba #basketball #jaredmccain #chetholmgren",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nChet dropped a crazy bar 😂🔥\n\n(Via @jmac ) \n\n#nba #basketball #jaredmccain #chetholmgren\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T04:08:44.036Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Chet dropped a crazy bar \ud83d\ude02\ud83d\udd25\n\n(Via @jmac ) \n\n#nba #basketball #jaredmccain #chetholmgren",
+  "body": "Chet dropped a crazy bar 😂🔥\n\n(Via @jmac ) \n\n#nba #basketball #jaredmccain #chetholmgren",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T04:09:32.804Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.94,
   "scoreMargin": 26.54,
   "highlightQuality": 12.94,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 61.54,
@@ -73,5 +73,17 @@
   "video": "media/Ddk1RV3N6sK-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112336681915961",
+  "instagramContainerCreatedAt": "2026-09-22T04:57:45.205Z",
+  "instagramPublishRequestedAt": "2026-09-22T04:58:15.758Z",
+  "instagramMediaId": "18121040386916693",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddk7gxxiErh/",
+  "instagramVerifiedAt": "2026-09-22T04:58:23.357Z",
+  "publishedAt": "2026-09-22T04:58:23.358Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddk1RV3N6sK-sportswire247.mp4",
+    "at": "2026-09-22T04:58:23.359Z"
+  }
 }
