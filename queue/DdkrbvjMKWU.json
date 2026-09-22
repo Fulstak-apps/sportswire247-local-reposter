@@ -3,16 +3,16 @@
   "shortcode": "DdkrbvjMKWU",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdkrbvjMKWU/",
-  "sourceCaption": "Durant had to let Wolf know after his miss DRILLED him \ud83d\ude05\n\n#nba #basketball #kevindurant",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nDurant had to let Wolf know after his miss DRILLED him \ud83d\ude05\n\n#nba #basketball #kevindurant\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Durant had to let Wolf know after his miss DRILLED him 😅\n\n#nba #basketball #kevindurant",
+  "publishCaption": "The moment says it all 👀\n\nDurant had to let Wolf know after his miss DRILLED him 😅\n\n#nba #basketball #kevindurant\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T02:40:47.040Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Durant had to let Wolf know after his miss DRILLED him \ud83d\ude05\n\n#nba #basketball #kevindurant",
+  "body": "Durant had to let Wolf know after his miss DRILLED him 😅\n\n#nba #basketball #kevindurant",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T02:41:35.618Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.23,
   "scoreMargin": 24.75,
   "highlightQuality": 11.23,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 59.75,
@@ -73,5 +73,17 @@
   "video": "media/DdkrbvjMKWU-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112321027915961",
+  "instagramContainerCreatedAt": "2026-09-22T03:36:29.583Z",
+  "instagramPublishRequestedAt": "2026-09-22T03:37:00.173Z",
+  "instagramMediaId": "17921424330426016",
+  "instagramPermalink": "https://www.instagram.com/reel/DdkyNe9gSoP/",
+  "instagramVerifiedAt": "2026-09-22T03:37:10.342Z",
+  "publishedAt": "2026-09-22T03:37:10.343Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdkrbvjMKWU-sportswire247.mp4",
+    "at": "2026-09-22T03:37:10.344Z"
+  }
 }
