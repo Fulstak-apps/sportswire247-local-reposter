@@ -3,16 +3,16 @@
   "shortcode": "DdmqJNkA3h1",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/DdmqJNkA3h1/",
-  "sourceCaption": "These are 2 of the nastiest dunks you\u2019ll ever see \ud83e\udee8 @koapeat @chris__livingston",
-  "publishCaption": "That finish was ridiculous \ud83d\ude33\n\nThese are 2 of the nastiest dunks you\u2019ll ever see \ud83e\udee8 @koapeat @chris__livingston\n\n#sports\n\nSource: @overtime\n\nDid you see that coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "These are 2 of the nastiest dunks you’ll ever see 🫨 @koapeat @chris__livingston",
+  "publishCaption": "That finish was ridiculous 😳\n\nThese are 2 of the nastiest dunks you’ll ever see 🫨 @koapeat @chris__livingston\n\n#sports\n\nSource: @overtime\n\nDid you see that coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T21:12:06.689Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "These are 2 of the nastiest dunks you\u2019ll ever see \ud83e\udee8 @koapeat @chris__livingston",
+  "body": "These are 2 of the nastiest dunks you’ll ever see 🫨 @koapeat @chris__livingston",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T21:12:55.931Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 9.82,
   "scoreMargin": -29.35,
   "highlightQuality": 29.82,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 50.65,
@@ -75,5 +75,17 @@
   "video": "media/DdmqJNkA3h1-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112591576915961",
+  "instagramContainerCreatedAt": "2026-09-22T21:39:48.028Z",
+  "instagramPublishRequestedAt": "2026-09-22T21:41:03.840Z",
+  "instagramMediaId": "18113475602119358",
+  "instagramPermalink": "https://www.instagram.com/reel/DdmuRMFCYJJ/",
+  "instagramVerifiedAt": "2026-09-22T21:41:13.503Z",
+  "publishedAt": "2026-09-22T21:41:13.504Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdmqJNkA3h1-sportswire247.mp4",
+    "at": "2026-09-22T21:41:13.505Z"
+  }
 }
