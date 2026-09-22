@@ -4,9 +4,9 @@
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimeszn/p/DdiLsL0DNts/",
   "sourceCaption": "THATS MY DADS NAME @overtime !!!!!",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nTHATS MY DADS NAME @overtime !!!!!\n\n#sports\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "You have to see this one twice 👀\n\nTHATS MY DADS NAME @overtime !!!!!\n\n#sports\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T03:29:46.347Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -50,11 +50,11 @@
   "priority": "P4",
   "viralScore": 49.67,
   "rawScore": 49.67,
-  "engagementScore": 11.0,
+  "engagementScore": 11,
   "scoreMargin": -30.33,
-  "highlightQuality": 23.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 23,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 49.67,
@@ -74,5 +74,17 @@
   "video": "media/DdiLsL0DNts-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112303441915961",
+  "instagramContainerCreatedAt": "2026-09-22T02:15:13.873Z",
+  "instagramPublishRequestedAt": "2026-09-22T02:15:44.302Z",
+  "instagramMediaId": "18431652559179068",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddko6IclUhP/",
+  "instagramVerifiedAt": "2026-09-22T02:15:49.160Z",
+  "publishedAt": "2026-09-22T02:15:49.160Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdiLsL0DNts-sportswire247.mp4",
+    "at": "2026-09-22T02:15:49.161Z"
+  }
 }
