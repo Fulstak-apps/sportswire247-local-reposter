@@ -3,16 +3,16 @@
   "shortcode": "DdkxSbbtRpf",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/DdkxSbbtRpf/",
-  "sourceCaption": "Davante Adams put on an absolute masterclass in prime time \ud83d\udd25\n\n(via: @rams)\n#nfl #fantasyfootball #rams",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nDavante Adams put on an absolute masterclass in prime time \ud83d\udd25\n\n(via: @rams)\n#nfl #fantasyfootball #rams\n\n#football\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Davante Adams put on an absolute masterclass in prime time 🔥\n\n(via: @rams)\n#nfl #fantasyfootball #rams",
+  "publishCaption": "The moment says it all 👀\n\nDavante Adams put on an absolute masterclass in prime time 🔥\n\n(via: @rams)\n#nfl #fantasyfootball #rams\n\n#football\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T03:33:33.444Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Davante Adams put on an absolute masterclass in prime time \ud83d\udd25\n\n(via: @rams)\n#nfl #fantasyfootball #rams",
+  "body": "Davante Adams put on an absolute masterclass in prime time 🔥\n\n(via: @rams)\n#nfl #fantasyfootball #rams",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T03:34:22.013Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 9.48,
   "scoreMargin": 11.97,
   "highlightQuality": 9.48,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 51.97,
@@ -73,5 +73,17 @@
   "video": "media/DdkxSbbtRpf-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112383892915961",
+  "instagramContainerCreatedAt": "2026-09-22T09:12:40.138Z",
+  "instagramPublishRequestedAt": "2026-09-22T09:13:10.821Z",
+  "instagramMediaId": "17861494128692470",
+  "instagramPermalink": "https://www.instagram.com/reel/DdlYrnMDTtO/",
+  "instagramVerifiedAt": "2026-09-22T09:13:18.562Z",
+  "publishedAt": "2026-09-22T09:13:18.563Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdkxSbbtRpf-sportswire247.mp4",
+    "at": "2026-09-22T09:13:18.564Z"
+  }
 }
