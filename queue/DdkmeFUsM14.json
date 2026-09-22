@@ -3,16 +3,16 @@
   "shortcode": "DdkmeFUsM14",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdkmeFUsM14/",
-  "sourceCaption": "Jaxson Dart walked off the field like a champ \ud83d\udcaa\n\n(via LicensePlateGuy/X)\n\n#nfl  #jaxsondart #giants #football",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nJaxson Dart walked off the field like a champ \ud83d\udcaa\n\n(via LicensePlateGuy/X)\n\n#nfl  #jaxsondart #giants #football\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Jaxson Dart walked off the field like a champ 💪\n\n(via LicensePlateGuy/X)\n\n#nfl  #jaxsondart #giants #football",
+  "publishCaption": "The moment says it all 👀\n\nJaxson Dart walked off the field like a champ 💪\n\n(via LicensePlateGuy/X)\n\n#nfl  #jaxsondart #giants #football\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T01:59:10.965Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jaxson Dart walked off the field like a champ \ud83d\udcaa\n\n(via LicensePlateGuy/X)\n\n#nfl  #jaxsondart #giants #football",
+  "body": "Jaxson Dart walked off the field like a champ 💪\n\n(via LicensePlateGuy/X)\n\n#nfl  #jaxsondart #giants #football",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T01:59:59.450Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 13.58,
   "scoreMargin": 17.34,
   "highlightQuality": 13.58,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 57.34,
@@ -73,5 +73,17 @@
   "video": "media/DdkmeFUsM14-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112328245915961",
+  "instagramContainerCreatedAt": "2026-09-22T04:17:06.422Z",
+  "instagramPublishRequestedAt": "2026-09-22T04:18:07.004Z",
+  "instagramMediaId": "18074896082441731",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddk27y-IEoJ/",
+  "instagramVerifiedAt": "2026-09-22T04:18:15.122Z",
+  "publishedAt": "2026-09-22T04:18:15.123Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdkmeFUsM14-sportswire247.mp4",
+    "at": "2026-09-22T04:18:15.124Z"
+  }
 }
