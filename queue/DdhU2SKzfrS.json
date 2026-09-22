@@ -3,16 +3,16 @@
   "shortcode": "DdhU2SKzfrS",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdhU2SKzfrS/",
-  "sourceCaption": "Lil bro was okay \ud83d\ude05 (via @tulsa.king54)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nLil bro was okay \ud83d\ude05 (via @tulsa.king54)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Lil bro was okay 😅 (via @tulsa.king54)",
+  "publishCaption": "You have to see this one twice 👀\n\nLil bro was okay 😅 (via @tulsa.king54)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T19:46:53.463Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Lil bro was okay \ud83d\ude05 (via @tulsa.king54)",
+  "body": "Lil bro was okay 😅 (via @tulsa.king54)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T19:47:42.281Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 49.02,
   "engagementScore": 16.65,
   "scoreMargin": -30.98,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 49.02,
@@ -73,5 +73,17 @@
   "video": "media/DdhU2SKzfrS-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112493179915961",
+  "instagramContainerCreatedAt": "2026-09-22T15:03:41.565Z",
+  "instagramPublishRequestedAt": "2026-09-22T15:04:12.012Z",
+  "instagramMediaId": "18116870645057511",
+  "instagramPermalink": "https://www.instagram.com/reel/DdmA3BqDPCm/",
+  "instagramVerifiedAt": "2026-09-22T15:04:20.417Z",
+  "publishedAt": "2026-09-22T15:04:20.418Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdhU2SKzfrS-sportswire247.mp4",
+    "at": "2026-09-22T15:04:20.419Z"
+  }
 }
