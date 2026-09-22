@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/talkingiants/reel/Ddma5yBpqge/",
   "sourceCaption": "I am not happy about this Jaxson Dart news\n\n#nfl #giants #sports #football",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nI am not happy about this Jaxson Dart news\n\n#nfl #giants #sports #football\n\nSource: @jomboymedia\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "You have to see this one twice 👀\n\nI am not happy about this Jaxson Dart news\n\n#nfl #giants #sports #football\n\nSource: @jomboymedia\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T18:56:17.394Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 5.47,
   "scoreMargin": 10.35,
   "highlightQuality": 5.47,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 50.35,
@@ -73,5 +73,17 @@
   "video": "media/Ddma5yBpqge-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112569703915961",
+  "instagramContainerCreatedAt": "2026-09-22T19:47:35.608Z",
+  "instagramPublishRequestedAt": "2026-09-22T19:48:05.939Z",
+  "instagramMediaId": "18114555628825347",
+  "instagramPermalink": "https://www.instagram.com/reel/DdmhWC7jAOU/",
+  "instagramVerifiedAt": "2026-09-22T19:48:13.332Z",
+  "publishedAt": "2026-09-22T19:48:13.332Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddma5yBpqge-sportswire247.mp4",
+    "at": "2026-09-22T19:48:13.363Z"
+  }
 }
