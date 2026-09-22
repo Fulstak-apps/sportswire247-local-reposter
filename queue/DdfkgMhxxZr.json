@@ -3,16 +3,16 @@
   "shortcode": "DdfkgMhxxZr",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdfkgMhxxZr/",
-  "sourceCaption": "Walking out to N3on\u2019s song at #UFC331 \ud83d\ude02",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nWalking out to N3on\u2019s song at #UFC331 \ud83d\ude02\n\n#sports\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Walking out to N3on’s song at #UFC331 😂",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nWalking out to N3on’s song at #UFC331 😂\n\n#sports\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T03:08:57.785Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Walking out to N3on\u2019s song at #UFC331 \ud83d\ude02",
+  "body": "Walking out to N3on’s song at #UFC331 😂",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T03:09:46.870Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 48.78,
   "engagementScore": 17.01,
   "scoreMargin": -31.22,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.78,
@@ -73,5 +73,17 @@
   "video": "media/DdfkgMhxxZr-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112537756915961",
+  "instagramContainerCreatedAt": "2026-09-22T17:27:46.897Z",
+  "instagramPublishRequestedAt": "2026-09-22T17:28:17.233Z",
+  "instagramMediaId": "18115961009000684",
+  "instagramPermalink": "https://www.instagram.com/reel/DdmRV4qDauM/",
+  "instagramVerifiedAt": "2026-09-22T17:28:25.117Z",
+  "publishedAt": "2026-09-22T17:28:25.117Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfkgMhxxZr-sportswire247.mp4",
+    "at": "2026-09-22T17:28:25.118Z"
+  }
 }
