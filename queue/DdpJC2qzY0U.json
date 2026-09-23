@@ -3,16 +3,16 @@
   "shortcode": "DdpJC2qzY0U",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdpJC2qzY0U/",
-  "sourceCaption": "Marriage goals \ud83d\ude2d\u2764\ufe0f @brgaming (via @trinhud3)",
-  "publishCaption": "Had to run that one back \ud83d\udc40\n\nMarriage goals \ud83d\ude2d\u2764\ufe0f @brgaming (via @trinhud3)\n\n#sports\n\nSource: @houseofhighlights\n\nRate this one 1\u201310.\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Marriage goals 😭❤️ @brgaming (via @trinhud3)",
+  "publishCaption": "Had to run that one back 👀\n\nMarriage goals 😭❤️ @brgaming (via @trinhud3)\n\n#sports\n\nSource: @houseofhighlights\n\nRate this one 1–10.\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-23T20:24:02.982Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Marriage goals \ud83d\ude2d\u2764\ufe0f @brgaming (via @trinhud3)",
+  "body": "Marriage goals 😭❤️ @brgaming (via @trinhud3)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-23T20:24:51.537Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 57.54,
   "engagementScore": 14.73,
   "scoreMargin": -22.46,
-  "highlightQuality": 34.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 34,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 57.54,
@@ -75,5 +75,17 @@
   "video": "media/DdpJC2qzY0U-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112926712915961",
+  "instagramContainerCreatedAt": "2026-09-23T20:52:08.864Z",
+  "instagramPublishRequestedAt": "2026-09-23T20:52:39.337Z",
+  "instagramMediaId": "18121170928920893",
+  "instagramPermalink": "https://www.instagram.com/reel/DdpNhoflAWC/",
+  "instagramVerifiedAt": "2026-09-23T20:52:47.028Z",
+  "publishedAt": "2026-09-23T20:52:47.029Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdpJC2qzY0U-sportswire247.mp4",
+    "at": "2026-09-23T20:52:47.044Z"
+  }
 }
