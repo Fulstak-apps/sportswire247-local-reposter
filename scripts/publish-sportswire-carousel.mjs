@@ -43,7 +43,9 @@ async function main() {
   if (!token || !userId) throw new Error("Instagram carousel credentials are missing");
   const manifest = await read(manifestFile, null); if (!manifest) throw new Error("carousel/current.json is missing"); validate(manifest);
   const existing = await read(queueFile, {});
-  if (existing.instagramVerifiedAt) { console.log(JSON.stringify({ status: "already_published", ...existing })); return; }
+  // A receipt applies only to the package that created it.  Without this check,
+  // the first successful carousel would accidentally block every future run.
+  if (existing.runId === manifest.runId && existing.instagramVerifiedAt) { console.log(JSON.stringify({ status: "already_published", ...existing })); return; }
   const children = [];
   for (const slide of manifest.slides) {
     const child = await graph("media", { image_url: slide.imageUrl, is_carousel_item: "true" });

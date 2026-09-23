@@ -2,9 +2,6 @@ name: SportsWire scheduled carousel
 
 on:
   workflow_dispatch:
-  schedule:
-    # 8:00 AM, 2:00 PM, and 5:00 PM Pacific (PDT; update UTC offsets at DST transition).
-    - cron: "0 15,21,0 * * *"
 
 permissions:
   contents: write
