@@ -3,16 +3,16 @@
   "shortcode": "DdmKRlCR5Jw",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdmKRlCR5Jw/",
-  "sourceCaption": "Mission accomplished \ud83d\udc4f (via @Isaiahrodgers, \ud83d\udcfa FOX) #nflfootball",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nMission accomplished \ud83d\udc4f (via @Isaiahrodgers, \ud83d\udcfa FOX) #nflfootball\n\n#sports\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Mission accomplished 👏 (via @Isaiahrodgers, 📺 FOX) #nflfootball",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nMission accomplished 👏 (via @Isaiahrodgers, 📺 FOX) #nflfootball\n\n#sports\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T16:34:22.999Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Mission accomplished \ud83d\udc4f (via @Isaiahrodgers, \ud83d\udcfa FOX) #nflfootball",
+  "body": "Mission accomplished 👏 (via @Isaiahrodgers, 📺 FOX) #nflfootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T16:35:12.423Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.09,
   "scoreMargin": -36.04,
   "highlightQuality": 12.09,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.96,
@@ -73,5 +73,17 @@
   "video": "media/DdmKRlCR5Jw-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112814560915961",
+  "instagramContainerCreatedAt": "2026-09-23T14:20:23.912Z",
+  "instagramPublishRequestedAt": "2026-09-23T14:20:54.303Z",
+  "instagramMediaId": "18095904164566643",
+  "instagramPermalink": "https://www.instagram.com/reel/DdogsWQDIMd/",
+  "instagramVerifiedAt": "2026-09-23T14:21:02.316Z",
+  "publishedAt": "2026-09-23T14:21:02.317Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdmKRlCR5Jw-sportswire247.mp4",
+    "at": "2026-09-23T14:21:02.318Z"
+  }
 }
