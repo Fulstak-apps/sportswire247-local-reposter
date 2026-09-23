@@ -48,7 +48,16 @@ async function stories() {
   const approved = [];
   for (const [key, group] of grouped) {
     const unique = [...new Map(group.map(x => [x.source.toLowerCase(), x])).values()];
-    if (used.has(key) || unique.length < 2) continue;
+    if (used.has(key)) continue;
+    // A broad RSS search commonly has one article per outlet. Search the
+    // candidate headline again to collect an independent corroborating outlet.
+    if (unique.length < 2) {
+      try {
+        const corroboration = await fetchRss(`\"${group[0].title}\"");
+        for (const item of corroboration) if (!unique.some(x => x.source.toLowerCase() === item.source.toLowerCase())) unique.push(item);
+      } catch { /* keep this candidate unapproved rather than lower the bar */ }
+    }
+    if (unique.length < 2) continue;
     approved.push({ key, headline: group[0].title, sources: unique.slice(0, 2), publishedAt: group[0].publishedAt });
   }
   approved.sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt));

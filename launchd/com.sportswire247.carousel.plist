@@ -8,7 +8,9 @@
     <dict><key>Hour</key><integer>14</integer><key>Minute</key><integer>0</integer></dict>
     <dict><key>Hour</key><integer>17</integer><key>Minute</key><integer>0</integer></dict>
   </array>
-  <key>KeepAlive</key><dict><key>SuccessfulExit</key><false/></dict>
+  <!-- Calendar runs are self-contained. A held edition must wait for the next
+       newsroom slot, not relaunch in a tight failure loop. -->
+  <key>ThrottleInterval</key><integer>300</integer>
   <key>ProcessType</key><string>Background</string>
   <key>StandardOutPath</key><string>/Users/dw/Library/Application Support/SportsWire/publisher-runtime/logs/carousel.log</string>
   <key>StandardErrorPath</key><string>/Users/dw/Library/Application Support/SportsWire/publisher-runtime/logs/carousel-error.log</string>
