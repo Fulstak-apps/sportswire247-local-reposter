@@ -3,16 +3,16 @@
   "shortcode": "Ddo_GeXj2jW",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Ddo_GeXj2jW/",
-  "sourceCaption": "Lonzo Ball says despite never reaching his \u201cpeak\u201d in the NBA, he\u2019s appreciative of everything basketball has given him \ud83d\udcaf\n\n(Via @ballinthefamilypod)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nLonzo Ball says despite never reaching his \u201cpeak\u201d in the NBA, he\u2019s appreciative of everything basketball has given him \ud83d\udcaf\n\n(Via @ballinthefamilypod)\n\n#basketball #nba\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Lonzo Ball says despite never reaching his “peak” in the NBA, he’s appreciative of everything basketball has given him 💯\n\n(Via @ballinthefamilypod)",
+  "publishCaption": "You have to see this one twice 👀\n\nLonzo Ball says despite never reaching his “peak” in the NBA, he’s appreciative of everything basketball has given him 💯\n\n(Via @ballinthefamilypod)\n\n#basketball #nba\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-23T18:48:19.898Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Lonzo Ball says despite never reaching his \u201cpeak\u201d in the NBA, he\u2019s appreciative of everything basketball has given him \ud83d\udcaf\n\n(Via @ballinthefamilypod)",
+  "body": "Lonzo Ball says despite never reaching his “peak” in the NBA, he’s appreciative of everything basketball has given him 💯\n\n(Via @ballinthefamilypod)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-23T18:49:08.503Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.24,
   "scoreMargin": 24.15,
   "highlightQuality": 10.24,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 59.15,
@@ -73,5 +73,17 @@
   "video": "media/Ddo_GeXj2jW-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112908004915961",
+  "instagramContainerCreatedAt": "2026-09-23T19:30:57.921Z",
+  "instagramPublishRequestedAt": "2026-09-23T19:31:43.453Z",
+  "instagramMediaId": "17886632103479187",
+  "instagramPermalink": "https://www.instagram.com/reel/DdpEQKYkqSm/",
+  "instagramVerifiedAt": "2026-09-23T19:31:52.076Z",
+  "publishedAt": "2026-09-23T19:31:52.076Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddo_GeXj2jW-sportswire247.mp4",
+    "at": "2026-09-23T19:31:52.077Z"
+  }
 }
