@@ -3,16 +3,16 @@
   "shortcode": "DdfB1hFx0iE",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimeszn/reel/DdfB1hFx0iE/",
-  "sourceCaption": "HE\u2019S BAAAAAAAACK \ud83e\udee3",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nHE\u2019S BAAAAAAAACK \ud83e\udee3\n\n#sports\n\nSource: @overtime\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "HE’S BAAAAAAAACK 🫣",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nHE’S BAAAAAAAACK 🫣\n\n#sports\n\nSource: @overtime\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T22:13:48.616Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "HE\u2019S BAAAAAAAACK \ud83e\udee3",
+  "body": "HE’S BAAAAAAAACK 🫣",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T22:14:37.352Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.98,
   "scoreMargin": -36.4,
   "highlightQuality": 12.98,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.6,
@@ -73,5 +73,17 @@
   "video": "media/DdfB1hFx0iE-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112919731915961",
+  "instagramContainerCreatedAt": "2026-09-23T20:11:31.612Z",
+  "instagramPublishRequestedAt": "2026-09-23T20:13:02.534Z",
+  "instagramMediaId": "18108333221335202",
+  "instagramPermalink": "https://www.instagram.com/reel/DdpI_bpAsZj/",
+  "instagramVerifiedAt": "2026-09-23T20:13:11.378Z",
+  "publishedAt": "2026-09-23T20:13:11.379Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfB1hFx0iE-sportswire247.mp4",
+    "at": "2026-09-23T20:13:11.379Z"
+  }
 }
