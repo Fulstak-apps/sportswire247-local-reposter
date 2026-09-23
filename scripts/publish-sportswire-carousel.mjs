@@ -33,8 +33,8 @@ async function graph(path, fields) {
   if (!response.ok || payload.error) throw new Error(payload.error?.message || `Instagram API HTTP ${response.status}`);
   return payload;
 }
-async function inspect(id) {
-  const url = new URL(`${api}/${id}`); url.searchParams.set("fields", "id,permalink,status_code,status"); url.searchParams.set("access_token", token);
+async function inspect(id, finalPost = false) {
+  const url = new URL(`${api}/${id}`); url.searchParams.set("fields", finalPost ? "id,permalink" : "id,status_code,status"); url.searchParams.set("access_token", token);
   const response = await fetch(url, { signal: AbortSignal.timeout(60_000) }); const payload = await response.json();
   if (!response.ok || payload.error) throw new Error(payload.error?.message || "Instagram verification failed");
   return payload;
@@ -63,7 +63,7 @@ async function main() {
   const container = await graph("media", { media_type: "CAROUSEL", children: children.join(","), caption: instagramCaption(manifest) });
   await waitReady(container.id);
   const published = await graph("media_publish", { creation_id: container.id });
-  const verified = await inspect(published.id);
+  const verified = await inspect(published.id, true);
   if (!verified.permalink) throw new Error("Carousel published without a permalink");
   const record = { ...manifest, instagramContainerId: container.id, instagramMediaId: published.id, instagramPermalink: verified.permalink, instagramVerifiedAt: new Date().toISOString() };
   await save(queueFile, record); console.log(JSON.stringify({ status: "published", mediaId: published.id, permalink: verified.permalink }));
