@@ -3,16 +3,16 @@
   "shortcode": "DdnNPt8NVeJ",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdnNPt8NVeJ/",
-  "sourceCaption": "\u201cYup still the big dawg\u201d \ud83d\ude02\ud83d\ude02 (via @twobigbullies.xl)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\n\u201cYup still the big dawg\u201d \ud83d\ude02\ud83d\ude02 (via @twobigbullies.xl)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "“Yup still the big dawg” 😂😂 (via @twobigbullies.xl)",
+  "publishCaption": "You have to see this one twice 👀\n\n“Yup still the big dawg” 😂😂 (via @twobigbullies.xl)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-23T02:16:11.442Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "\u201cYup still the big dawg\u201d \ud83d\ude02\ud83d\ude02 (via @twobigbullies.xl)",
+  "body": "“Yup still the big dawg” 😂😂 (via @twobigbullies.xl)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-23T02:16:59.952Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.53,
   "scoreMargin": -36.59,
   "highlightQuality": 10.53,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.41,
@@ -73,5 +73,17 @@
   "video": "media/DdnNPt8NVeJ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112957411915961",
+  "instagramContainerCreatedAt": "2026-09-23T23:55:55.296Z",
+  "instagramPublishRequestedAt": "2026-09-23T23:56:56.099Z",
+  "instagramMediaId": "18380629612233639",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddpint1iJfA/",
+  "instagramVerifiedAt": "2026-09-23T23:57:02.708Z",
+  "publishedAt": "2026-09-23T23:57:02.708Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdnNPt8NVeJ-sportswire247.mp4",
+    "at": "2026-09-23T23:57:02.709Z"
+  }
 }
