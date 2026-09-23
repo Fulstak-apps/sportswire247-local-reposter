@@ -3,16 +3,16 @@
   "shortcode": "Ddm6TOJjfJF",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/p/Ddm6TOJjfJF/",
-  "sourceCaption": "Reed still waiting to get that cut \ud83d\ude02 (via @houstonrockets, h/t @bradeauxnba)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nReed still waiting to get that cut \ud83d\ude02 (via @houstonrockets, h/t @bradeauxnba)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Reed still waiting to get that cut 😂 (via @houstonrockets, h/t @bradeauxnba)",
+  "publishCaption": "You have to see this one twice 👀\n\nReed still waiting to get that cut 😂 (via @houstonrockets, h/t @bradeauxnba)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T23:30:32.624Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Reed still waiting to get that cut \ud83d\ude02 (via @houstonrockets, h/t @bradeauxnba)",
+  "body": "Reed still waiting to get that cut 😂 (via @houstonrockets, h/t @bradeauxnba)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T23:31:21.367Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 48.11,
   "engagementScore": 15.24,
   "scoreMargin": -31.89,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.11,
@@ -73,5 +73,17 @@
   "video": "media/Ddm6TOJjfJF-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112618336915961",
+  "instagramContainerCreatedAt": "2026-09-23T00:17:01.150Z",
+  "instagramPublishRequestedAt": "2026-09-23T00:17:31.438Z",
+  "instagramMediaId": "18038458526834147",
+  "instagramPermalink": "https://www.instagram.com/reel/DdnALVxCg-q/",
+  "instagramVerifiedAt": "2026-09-23T00:17:39.759Z",
+  "publishedAt": "2026-09-23T00:17:39.759Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddm6TOJjfJF-sportswire247.mp4",
+    "at": "2026-09-23T00:17:39.761Z"
+  }
 }
