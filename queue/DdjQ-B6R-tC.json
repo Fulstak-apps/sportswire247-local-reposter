@@ -3,16 +3,16 @@
   "shortcode": "DdjQ-B6R-tC",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdjQ-B6R-tC/",
-  "sourceCaption": "AD. IS. BACK. \ud83d\udc40\n\nWatch Aaron Donald\u2019s return at 8 ET on ABC and\nESPN \ud83c\udf7f#NFLFootball",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nAD. IS. BACK. \ud83d\udc40\n\nWatch Aaron Donald\u2019s return at 8 ET on ABC and\nESPN \ud83c\udf7f#NFLFootball\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "AD. IS. BACK. 👀\n\nWatch Aaron Donald’s return at 8 ET on ABC and\nESPN 🍿#NFLFootball",
+  "publishCaption": "You have to see this one twice 👀\n\nAD. IS. BACK. 👀\n\nWatch Aaron Donald’s return at 8 ET on ABC and\nESPN 🍿#NFLFootball\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T14:47:39.005Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "AD. IS. BACK. \ud83d\udc40\n\nWatch Aaron Donald\u2019s return at 8 ET on ABC and\nESPN \ud83c\udf7f#NFLFootball",
+  "body": "AD. IS. BACK. 👀\n\nWatch Aaron Donald’s return at 8 ET on ABC and\nESPN 🍿#NFLFootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-21T14:48:27.638Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 43.45,
   "engagementScore": 14.75,
   "scoreMargin": -36.55,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.45,
@@ -73,5 +73,17 @@
   "video": "media/DdjQ-B6R-tC-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112947559915961",
+  "instagramContainerCreatedAt": "2026-09-23T22:50:51.859Z",
+  "instagramPublishRequestedAt": "2026-09-23T22:51:22.192Z",
+  "instagramMediaId": "17991107310019626",
+  "instagramPermalink": "https://www.instagram.com/reel/DdpbHK6lN4n/",
+  "instagramVerifiedAt": "2026-09-23T22:51:32.362Z",
+  "publishedAt": "2026-09-23T22:51:32.363Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdjQ-B6R-tC-sportswire247.mp4",
+    "at": "2026-09-23T22:51:32.364Z"
+  }
 }
