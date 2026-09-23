@@ -3,16 +3,16 @@
   "shortcode": "DdoqhHaDoy7",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/p/DdoqhHaDoy7/",
-  "sourceCaption": "Lonzo Ball is RETIRING. \ud83d\udea8\ud83d\udea8 (per @ballinthefamilypod) \n\nGonna miss watching him hoop. \ud83e\udd72",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nLonzo Ball is RETIRING. \ud83d\udea8\ud83d\udea8 (per @ballinthefamilypod) \n\nGonna miss watching him hoop. \ud83e\udd72\n\n#sports\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Lonzo Ball is RETIRING. 🚨🚨 (per @ballinthefamilypod) \n\nGonna miss watching him hoop. 🥲",
+  "publishCaption": "The moment says it all 👀\n\nLonzo Ball is RETIRING. 🚨🚨 (per @ballinthefamilypod) \n\nGonna miss watching him hoop. 🥲\n\n#sports\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-23T15:52:19.352Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Lonzo Ball is RETIRING. \ud83d\udea8\ud83d\udea8 (per @ballinthefamilypod) \n\nGonna miss watching him hoop. \ud83e\udd72",
+  "body": "Lonzo Ball is RETIRING. 🚨🚨 (per @ballinthefamilypod) \n\nGonna miss watching him hoop. 🥲",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-23T15:53:08.068Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 54.7,
   "engagementScore": 21.86,
   "scoreMargin": -25.3,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 54.7,
@@ -73,5 +73,17 @@
   "video": "media/DdoqhHaDoy7-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112853263915961",
+  "instagramContainerCreatedAt": "2026-09-23T16:13:02.318Z",
+  "instagramPublishRequestedAt": "2026-09-23T16:13:32.755Z",
+  "instagramMediaId": "18407629684094497",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddotli0DFjH/",
+  "instagramVerifiedAt": "2026-09-23T16:13:40.293Z",
+  "publishedAt": "2026-09-23T16:13:40.294Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdoqhHaDoy7-sportswire247.mp4",
+    "at": "2026-09-23T16:13:40.295Z"
+  }
 }
