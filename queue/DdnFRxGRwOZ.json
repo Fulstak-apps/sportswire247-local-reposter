@@ -3,16 +3,16 @@
   "shortcode": "DdnFRxGRwOZ",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdnFRxGRwOZ/",
-  "sourceCaption": "Caitlin Clark trusts the mid-range \ud83d\udd25 \n\n#caitlinclark #wnba",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nCaitlin Clark trusts the mid-range \ud83d\udd25 \n\n#caitlinclark #wnba\n\n#basketball #nba\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Caitlin Clark trusts the mid-range 🔥 \n\n#caitlinclark #wnba",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nCaitlin Clark trusts the mid-range 🔥 \n\n#caitlinclark #wnba\n\n#basketball #nba\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-23T01:04:46.770Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Caitlin Clark trusts the mid-range \ud83d\udd25 \n\n#caitlinclark #wnba",
+  "body": "Caitlin Clark trusts the mid-range 🔥 \n\n#caitlinclark #wnba",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-23T01:05:35.414Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 5.09,
   "scoreMargin": 20.03,
   "highlightQuality": 5.09,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 55.03,
@@ -73,5 +73,17 @@
   "video": "media/DdnFRxGRwOZ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112631380915961",
+  "instagramContainerCreatedAt": "2026-09-23T01:27:59.406Z",
+  "instagramPublishRequestedAt": "2026-09-23T01:29:15.585Z",
+  "instagramMediaId": "18447646387193730",
+  "instagramPermalink": "https://www.instagram.com/reel/DdnIYHfDisj/",
+  "instagramVerifiedAt": "2026-09-23T01:29:24.153Z",
+  "publishedAt": "2026-09-23T01:29:24.154Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdnFRxGRwOZ-sportswire247.mp4",
+    "at": "2026-09-23T01:29:24.155Z"
+  }
 }
