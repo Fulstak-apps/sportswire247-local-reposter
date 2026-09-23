@@ -3,16 +3,16 @@
   "shortcode": "DdneutGuAr5",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdneutGuAr5/",
-  "sourceCaption": "Josh Giddey takes us inside his thought process on his crazy game-winner \ud83d\udd25\ud83c\udf7f\n\n(via @joshgiddey) \n\n#nba #basketball #joshgiddey #bulls",
-  "publishCaption": "That finish was ridiculous \ud83d\ude33\n\nJosh Giddey takes us inside his thought process on his crazy game-winner \ud83d\udd25\ud83c\udf7f\n\n(via @joshgiddey) \n\n#nba #basketball #joshgiddey #bulls\n\nSource: @bleacherreport\n\nDid you see that coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Josh Giddey takes us inside his thought process on his crazy game-winner 🔥🍿\n\n(via @joshgiddey) \n\n#nba #basketball #joshgiddey #bulls",
+  "publishCaption": "That finish was ridiculous 😳\n\nJosh Giddey takes us inside his thought process on his crazy game-winner 🔥🍿\n\n(via @joshgiddey) \n\n#nba #basketball #joshgiddey #bulls\n\nSource: @bleacherreport\n\nDid you see that coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-23T04:49:26.727Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Josh Giddey takes us inside his thought process on his crazy game-winner \ud83d\udd25\ud83c\udf7f\n\n(via @joshgiddey) \n\n#nba #basketball #joshgiddey #bulls",
+  "body": "Josh Giddey takes us inside his thought process on his crazy game-winner 🔥🍿\n\n(via @joshgiddey) \n\n#nba #basketball #joshgiddey #bulls",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-23T04:50:15.343Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.2,
   "scoreMargin": 46.06,
   "highlightQuality": 54.2,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 81.06,
@@ -75,5 +75,17 @@
   "video": "media/DdneutGuAr5-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112686709915961",
+  "instagramContainerCreatedAt": "2026-09-23T05:31:09.851Z",
+  "instagramPublishRequestedAt": "2026-09-23T05:32:40.674Z",
+  "instagramMediaId": "18105388244349947",
+  "instagramPermalink": "https://www.instagram.com/reel/DdnkPYyiNtQ/",
+  "instagramVerifiedAt": "2026-09-23T05:32:48.471Z",
+  "publishedAt": "2026-09-23T05:32:48.472Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdneutGuAr5-sportswire247.mp4",
+    "at": "2026-09-23T05:32:48.473Z"
+  }
 }
