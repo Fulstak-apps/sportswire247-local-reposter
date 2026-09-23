@@ -45,21 +45,20 @@ async function stories() {
   for (const item of results) { const key = normalize(item.title); if (key.length < 12) continue; const group = grouped.get(key) || []; group.push(item); grouped.set(key, group); }
   const ledger = await json(path.join(CAROUSEL, "story-ledger.json"), { used: [] });
   const used = new Set(ledger.used.map(x => x.key));
-  const approved = [];
-  for (const [key, group] of grouped) {
+  const candidates = [...grouped].filter(([key]) => !used.has(key)).slice(0, 18);
+  const approved = (await Promise.all(candidates.map(async ([key, group]) => {
     const unique = [...new Map(group.map(x => [x.source.toLowerCase(), x])).values()];
-    if (used.has(key)) continue;
     // A broad RSS search commonly has one article per outlet. Search the
     // candidate headline again to collect an independent corroborating outlet.
     if (unique.length < 2) {
       try {
-        const corroboration = await fetchRss(`\"${group[0].title}\"");
+        const corroboration = await fetchRss(`\"${group[0].title}\"`);
         for (const item of corroboration) if (!unique.some(x => x.source.toLowerCase() === item.source.toLowerCase())) unique.push(item);
       } catch { /* keep this candidate unapproved rather than lower the bar */ }
     }
-    if (unique.length < 2) continue;
-    approved.push({ key, headline: group[0].title, sources: unique.slice(0, 2), publishedAt: group[0].publishedAt });
-  }
+    if (unique.length < 2) return null;
+    return { key, headline: group[0].title, sources: unique.slice(0, 2), publishedAt: group[0].publishedAt };
+  }))).filter(Boolean);
   approved.sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt));
   if (approved.length < 5) throw new Error(`Held: only ${approved.length}/5 independently corroborated current stories were available`);
   return { selected: approved.slice(0, 5), ledger };
