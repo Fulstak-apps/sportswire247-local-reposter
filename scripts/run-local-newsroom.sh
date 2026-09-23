@@ -35,7 +35,10 @@ fi
 # onto origin/main. Never reset or force-push. If tracked files are dirty, leave
 # them untouched and run the installed code rather than risking user state.
 if [[ "$(git rev-parse --abbrev-ref HEAD 2>/dev/null || true)" == "main" ]]; then
-  if [[ -z "$(git status --porcelain --untracked-files=no)" ]]; then
+  # Runtime logs are intentionally durable and change every pass; they must
+  # not make a harmless worker run look like a source-code edit and block the
+  # rebase. Protect every other tracked modification.
+  if git diff --quiet --no-ext-diff -- . ':(exclude)logs' ':(exclude)runtime'; then
     if git fetch origin main; then
       if ! git rebase origin/main; then
         git rebase --abort >/dev/null 2>&1 || true
