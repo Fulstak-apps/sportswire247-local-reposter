@@ -97,7 +97,9 @@ async function main() {
   const packageDir = path.join(MEDIA, runId); await fs.mkdir(packageDir, { recursive: true });
   const slides = selected.map(story => ({ ...story, summary: `${story.headline}. SportsWire verified this report with two independent outlets before publication.` }));
   slides.push({ headline: "FINAL SCORES", summary: "Verified completed games only.", scores }); await render(slides, packageDir);
-  const caption = selected.map((story, i) => `${i + 1}. ${story.headline}\nSources: ${story.sources.map(s => s.url).join(" | ")}`).join("\n\n") + "\n\nFollow @sportswire247 for verified sports updates.";
+  // Links are preserved in each slide's source ledger; the public caption is
+  // intentionally compact enough for Instagram's 2,200-character limit.
+  const caption = selected.map((story, i) => `${i + 1}. ${story.headline}\nSource reporting: ${story.sources.map(s => s.source).join(" + ")}`).join("\n\n") + "\n\nFollow @sportswire247 for verified sports updates.";
   const manifest = { runId, generatedAt: new Date().toISOString(), scoreboardVerifiedAt: new Date().toISOString(), slides: slides.map((slide, i) => ({ ...slide, story: i < 5 ? slide.headline : undefined, width: 1080, height: 1350, imageUrl: `${RAW}/carousel/media/${runId}/slide-${i + 1}.png` })), caption };
   await write(path.join(CAROUSEL, "current.json"), manifest); ledger.used = [...ledger.used, ...selected.map(s => ({ key: s.key, runId, usedAt: manifest.generatedAt }))].slice(-500); await write(path.join(CAROUSEL, "story-ledger.json"), ledger);
   await exec("git", ["add", "carousel/current.json", "carousel/story-ledger.json", `carousel/media/${runId}`], { cwd: ROOT }); await exec("git", ["commit", "-m", `Generate SportsWire carousel ${runId}`], { cwd: ROOT }); await exec("git", ["push", "origin", "main"], { cwd: ROOT });

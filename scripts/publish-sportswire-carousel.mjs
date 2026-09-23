@@ -18,6 +18,15 @@ function validate(manifest) {
   if (!/^1\./m.test(manifest.caption || "") || !/^5\./m.test(manifest.caption || "")) throw new Error("Caption must contain five numbered sections");
   if (!manifest.scoreboardVerifiedAt) throw new Error("Scoreboard verification is missing");
 }
+function instagramCaption(manifest) {
+  // Full URLs remain in the local manifest/source ledger. Instagram captions
+  // have a hard character ceiling, so the public post uses readable outlet
+  // names rather than five opaque redirect links.
+  const body = manifest.slides.slice(0, 5).map((slide, index) => `${index + 1}. ${slide.headline}\nSource reporting: ${(slide.sources || []).map(s => s.source).join(" + ")}`).join("\n\n");
+  const caption = `${body}\n\nFollow @sportswire247 for verified sports updates.`;
+  if (caption.length > 2200) throw new Error("Compact carousel caption still exceeds Instagram's limit");
+  return caption;
+}
 async function graph(path, fields) {
   const response = await fetch(`${api}/${userId}/${path}`, { method: "POST", body: new URLSearchParams({ ...fields, access_token: token }), signal: AbortSignal.timeout(90_000) });
   const payload = await response.json();
@@ -51,7 +60,7 @@ async function main() {
     const child = await graph("media", { image_url: slide.imageUrl, is_carousel_item: "true" });
     children.push(child.id); await waitReady(child.id);
   }
-  const container = await graph("media", { media_type: "CAROUSEL", children: children.join(","), caption: manifest.caption });
+  const container = await graph("media", { media_type: "CAROUSEL", children: children.join(","), caption: instagramCaption(manifest) });
   await waitReady(container.id);
   const published = await graph("media_publish", { creation_id: container.id });
   const verified = await inspect(published.id);
