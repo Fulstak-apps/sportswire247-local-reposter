@@ -3,16 +3,16 @@
   "shortcode": "DdmdEarTZhF",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdmdEarTZhF/",
-  "sourceCaption": "What it\u2019s all about. \u2764\ufe0f\ud83d\udc4f (via jenniferetheridge6/tt)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nWhat it\u2019s all about. \u2764\ufe0f\ud83d\udc4f (via jenniferetheridge6/tt)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "What it’s all about. ❤️👏 (via jenniferetheridge6/tt)",
+  "publishCaption": "The moment says it all 👀\n\nWhat it’s all about. ❤️👏 (via jenniferetheridge6/tt)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-22T19:15:34.722Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "What it\u2019s all about. \u2764\ufe0f\ud83d\udc4f (via jenniferetheridge6/tt)",
+  "body": "What it’s all about. ❤️👏 (via jenniferetheridge6/tt)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-22T19:16:24.202Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.68,
   "scoreMargin": -35.45,
   "highlightQuality": 11.68,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 44.55,
@@ -73,5 +73,17 @@
   "video": "media/DdmdEarTZhF-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112738900915961",
+  "instagramContainerCreatedAt": "2026-09-23T09:30:57.114Z",
+  "instagramPublishRequestedAt": "2026-09-23T09:31:27.541Z",
+  "instagramMediaId": "17989303461021945",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddn_kTSDka7/",
+  "instagramVerifiedAt": "2026-09-23T09:31:34.514Z",
+  "publishedAt": "2026-09-23T09:31:34.514Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdmdEarTZhF-sportswire247.mp4",
+    "at": "2026-09-23T09:31:34.515Z"
+  }
 }
