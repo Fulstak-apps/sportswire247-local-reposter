@@ -3,16 +3,16 @@
   "shortcode": "DdkVC7cNANB",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdkVC7cNANB/",
-  "sourceCaption": "League this man rn \ud83d\ude02\ud83d\udd25 (via @chainsaw_lenon, connorhapper/X)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nLeague this man rn \ud83d\ude02\ud83d\udd25 (via @chainsaw_lenon, connorhapper/X)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "League this man rn 😂🔥 (via @chainsaw_lenon, connorhapper/X)",
+  "publishCaption": "You have to see this one twice 👀\n\nLeague this man rn 😂🔥 (via @chainsaw_lenon, connorhapper/X)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T23:28:31.417Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "League this man rn \ud83d\ude02\ud83d\udd25 (via @chainsaw_lenon, connorhapper/X)",
+  "body": "League this man rn 😂🔥 (via @chainsaw_lenon, connorhapper/X)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-21T23:29:20.414Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.61,
   "scoreMargin": -35.53,
   "highlightQuality": 11.61,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 44.47,
@@ -73,5 +73,17 @@
   "video": "media/DdkVC7cNANB-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112784167915961",
+  "instagramContainerCreatedAt": "2026-09-23T12:24:52.740Z",
+  "instagramPublishRequestedAt": "2026-09-23T12:25:23.125Z",
+  "instagramMediaId": "18122021702490766",
+  "instagramPermalink": "https://www.instagram.com/reel/DdoTeXbDQ3t/",
+  "instagramVerifiedAt": "2026-09-23T12:25:31.145Z",
+  "publishedAt": "2026-09-23T12:25:31.146Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdkVC7cNANB-sportswire247.mp4",
+    "at": "2026-09-23T12:25:31.148Z"
+  }
 }
