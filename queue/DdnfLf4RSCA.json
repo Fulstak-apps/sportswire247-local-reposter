@@ -3,16 +3,16 @@
   "shortcode": "DdnfLf4RSCA",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/whrissss/reel/DdnfLf4RSCA/",
-  "sourceCaption": "Had to put the NBA ref shirt to use. \ud83d\ude4f\n\n#nba #meme #basketball #prank #bball",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nHad to put the NBA ref shirt to use. \ud83d\ude4f\n\n#nba #meme #basketball #prank #bball\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Had to put the NBA ref shirt to use. 🙏\n\n#nba #meme #basketball #prank #bball",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nHad to put the NBA ref shirt to use. 🙏\n\n#nba #meme #basketball #prank #bball\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-23T17:03:02.217Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Had to put the NBA ref shirt to use. \ud83d\ude4f\n\n#nba #meme #basketball #prank #bball",
+  "body": "Had to put the NBA ref shirt to use. 🙏\n\n#nba #meme #basketball #prank #bball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-23T17:03:50.687Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 56.56,
   "engagementScore": 17.41,
   "scoreMargin": 21.56,
-  "highlightQuality": 14.0,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "highlightQuality": 14,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 56.56,
@@ -73,5 +73,17 @@
   "video": "media/DdnfLf4RSCA-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112878328915961",
+  "instagramContainerCreatedAt": "2026-09-23T17:34:20.945Z",
+  "instagramPublishRequestedAt": "2026-09-23T17:35:06.281Z",
+  "instagramMediaId": "18105178393967014",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddo25CBlFg6/",
+  "instagramVerifiedAt": "2026-09-23T17:35:13.887Z",
+  "publishedAt": "2026-09-23T17:35:13.888Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdnfLf4RSCA-sportswire247.mp4",
+    "at": "2026-09-23T17:35:13.889Z"
+  }
 }
