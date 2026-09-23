@@ -3,16 +3,16 @@
   "shortcode": "DdotFGdFJZr",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/DdotFGdFJZr/",
-  "sourceCaption": "Damn Zo \ud83d\ude14\ud83d\udc94 @zo (via @ballinthefamilypod)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nDamn Zo \ud83d\ude14\ud83d\udc94 @zo (via @ballinthefamilypod)\n\n#sports\n\nSource: @overtime\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Damn Zo 😔💔 @zo (via @ballinthefamilypod)",
+  "publishCaption": "The moment says it all 👀\n\nDamn Zo 😔💔 @zo (via @ballinthefamilypod)\n\n#sports\n\nSource: @overtime\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-23T16:19:55.689Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Damn Zo \ud83d\ude14\ud83d\udc94 @zo (via @ballinthefamilypod)",
+  "body": "Damn Zo 😔💔 @zo (via @ballinthefamilypod)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-23T16:20:44.011Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 46.77,
   "engagementScore": 16.06,
   "scoreMargin": -33.23,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 46.77,
@@ -73,5 +73,17 @@
   "video": "media/DdotFGdFJZr-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112897711915961",
+  "instagramContainerCreatedAt": "2026-09-23T18:50:22.009Z",
+  "instagramPublishRequestedAt": "2026-09-23T18:50:52.605Z",
+  "instagramMediaId": "18126943426851852",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddo_lv2ExL_/",
+  "instagramVerifiedAt": "2026-09-23T18:51:04.274Z",
+  "publishedAt": "2026-09-23T18:51:04.275Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdotFGdFJZr-sportswire247.mp4",
+    "at": "2026-09-23T18:51:04.276Z"
+  }
 }
