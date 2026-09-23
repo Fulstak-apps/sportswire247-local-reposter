@@ -3,16 +3,16 @@
   "shortcode": "DdkYFSSRIsw",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdkYFSSRIsw/",
-  "sourceCaption": "One of the greatest defensive players of all time returns on MNF \ud83d\udd25\n\n#nflfootball",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nOne of the greatest defensive players of all time returns on MNF \ud83d\udd25\n\n#nflfootball\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "One of the greatest defensive players of all time returns on MNF 🔥\n\n#nflfootball",
+  "publishCaption": "You have to see this one twice 👀\n\nOne of the greatest defensive players of all time returns on MNF 🔥\n\n#nflfootball\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T23:53:02.495Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "One of the greatest defensive players of all time returns on MNF \ud83d\udd25\n\n#nflfootball",
+  "body": "One of the greatest defensive players of all time returns on MNF 🔥\n\n#nflfootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-21T23:53:51.338Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.92,
   "scoreMargin": -35.19,
   "highlightQuality": 12.92,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 44.81,
@@ -73,5 +73,17 @@
   "video": "media/DdkYFSSRIsw-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112713346915961",
+  "instagramContainerCreatedAt": "2026-09-23T07:33:04.207Z",
+  "instagramPublishRequestedAt": "2026-09-23T07:33:34.648Z",
+  "instagramMediaId": "17889177351455644",
+  "instagramPermalink": "https://www.instagram.com/reel/DdnyFEqleBj/",
+  "instagramVerifiedAt": "2026-09-23T07:33:42.131Z",
+  "publishedAt": "2026-09-23T07:33:42.132Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdkYFSSRIsw-sportswire247.mp4",
+    "at": "2026-09-23T07:33:42.133Z"
+  }
 }
