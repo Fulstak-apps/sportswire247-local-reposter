@@ -3,16 +3,16 @@
   "shortcode": "DdrHzPwOa4Q",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdrHzPwOa4Q/",
-  "sourceCaption": "Tyson Fury and Anthony Joshua are officially fighting on Dec. 11 in Cardiff \ud83d\udc40\ud83d\udd25 @DAZNBoxing\n\n(via @netflix)\n\n#boxing #anthonyjoshua #tysonfury",
-  "publishCaption": "That finish was ridiculous \ud83d\ude33\n\nTyson Fury and Anthony Joshua are officially fighting on Dec. 11 in Cardiff \ud83d\udc40\ud83d\udd25 @DAZNBoxing\n\n(via @netflix)\n\n#boxing #anthonyjoshua #tysonfury\n\n#sports\n\nSource: @bleacherreport\n\nDid you see that coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Tyson Fury and Anthony Joshua are officially fighting on Dec. 11 in Cardiff 👀🔥 @DAZNBoxing\n\n(via @netflix)\n\n#boxing #anthonyjoshua #tysonfury",
+  "publishCaption": "That finish was ridiculous 😳\n\nTyson Fury and Anthony Joshua are officially fighting on Dec. 11 in Cardiff 👀🔥 @DAZNBoxing\n\n(via @netflix)\n\n#boxing #anthonyjoshua #tysonfury\n\n#sports\n\nSource: @bleacherreport\n\nDid you see that coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-24T15:08:23.695Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Tyson Fury and Anthony Joshua are officially fighting on Dec. 11 in Cardiff \ud83d\udc40\ud83d\udd25 @DAZNBoxing\n\n(via @netflix)\n\n#boxing #anthonyjoshua #tysonfury",
+  "body": "Tyson Fury and Anthony Joshua are officially fighting on Dec. 11 in Cardiff 👀🔥 @DAZNBoxing\n\n(via @netflix)\n\n#boxing #anthonyjoshua #tysonfury",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-24T15:09:12.420Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 56.63,
   "engagementScore": 16.33,
   "scoreMargin": -23.37,
-  "highlightQuality": 34.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 34,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 56.63,
@@ -75,5 +75,17 @@
   "video": "media/DdrHzPwOa4Q-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113218696915961",
+  "instagramContainerCreatedAt": "2026-09-24T17:52:23.818Z",
+  "instagramPublishRequestedAt": "2026-09-24T17:52:54.351Z",
+  "instagramMediaId": "18148895791559395",
+  "instagramPermalink": "https://www.instagram.com/reel/DdrdwB2lPnW/",
+  "instagramVerifiedAt": "2026-09-24T17:53:02.986Z",
+  "publishedAt": "2026-09-24T17:53:02.987Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdrHzPwOa4Q-sportswire247.mp4",
+    "at": "2026-09-24T17:53:02.988Z"
+  }
 }
