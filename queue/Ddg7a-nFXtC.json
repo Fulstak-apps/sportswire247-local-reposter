@@ -3,16 +3,16 @@
   "shortcode": "Ddg7a-nFXtC",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Ddg7a-nFXtC/",
-  "sourceCaption": "Lane Kiffin had jokes when asked about the crowd at Ole Miss \ud83d\ude2d\n\n(via @lsufootball)",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nLane Kiffin had jokes when asked about the crowd at Ole Miss \ud83d\ude2d\n\n(via @lsufootball)\n\n#sports\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Lane Kiffin had jokes when asked about the crowd at Ole Miss 😭\n\n(via @lsufootball)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nLane Kiffin had jokes when asked about the crowd at Ole Miss 😭\n\n(via @lsufootball)\n\n#sports\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T15:43:35.199Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Lane Kiffin had jokes when asked about the crowd at Ole Miss \ud83d\ude2d\n\n(via @lsufootball)",
+  "body": "Lane Kiffin had jokes when asked about the crowd at Ole Miss 😭\n\n(via @lsufootball)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T15:44:23.595Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.8,
   "scoreMargin": -37.31,
   "highlightQuality": 11.8,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.69,
@@ -73,5 +73,17 @@
   "video": "media/Ddg7a-nFXtC-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113020177915961",
+  "instagramContainerCreatedAt": "2026-09-24T05:05:24.988Z",
+  "instagramPublishRequestedAt": "2026-09-24T05:05:55.397Z",
+  "instagramMediaId": "18125455829489764",
+  "instagramPermalink": "https://www.instagram.com/reel/DdqF-cUjGxg/",
+  "instagramVerifiedAt": "2026-09-24T05:06:01.170Z",
+  "publishedAt": "2026-09-24T05:06:01.170Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddg7a-nFXtC-sportswire247.mp4",
+    "at": "2026-09-24T05:06:01.171Z"
+  }
 }
