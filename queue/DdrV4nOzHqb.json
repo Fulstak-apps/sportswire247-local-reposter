@@ -3,16 +3,16 @@
   "shortcode": "DdrV4nOzHqb",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdrV4nOzHqb/",
-  "sourceCaption": "The end is near. \ud83d\udc94\ud83d\udc94 @brgaming (via unidentifiedyjwaun/TT)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nThe end is near. \ud83d\udc94\ud83d\udc94 @brgaming (via unidentifiedyjwaun/TT)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "The end is near. 💔💔 @brgaming (via unidentifiedyjwaun/TT)",
+  "publishCaption": "The moment says it all 👀\n\nThe end is near. 💔💔 @brgaming (via unidentifiedyjwaun/TT)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-24T16:49:51.994Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "The end is near. \ud83d\udc94\ud83d\udc94 @brgaming (via unidentifiedyjwaun/TT)",
+  "body": "The end is near. 💔💔 @brgaming (via unidentifiedyjwaun/TT)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-24T16:50:40.619Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.56,
   "scoreMargin": -34.58,
   "highlightQuality": 12.56,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.42,
@@ -73,5 +73,17 @@
   "video": "media/DdrV4nOzHqb-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113264464915961",
+  "instagramContainerCreatedAt": "2026-09-24T21:47:07.540Z",
+  "instagramPublishRequestedAt": "2026-09-24T21:47:37.937Z",
+  "instagramMediaId": "18043238552820828",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddr4nPQErdI/",
+  "instagramVerifiedAt": "2026-09-24T21:47:46.117Z",
+  "publishedAt": "2026-09-24T21:47:46.118Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdrV4nOzHqb-sportswire247.mp4",
+    "at": "2026-09-24T21:47:46.119Z"
+  }
 }
