@@ -3,16 +3,16 @@
   "shortcode": "DdnV2RINQBs",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdnV2RINQBs/",
-  "sourceCaption": "Who\u2019s tryna run 5\u2019s on an angle? \ud83d\ude02\ud83d\ude02 (via @jonniblvnts)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nWho\u2019s tryna run 5\u2019s on an angle? \ud83d\ude02\ud83d\ude02 (via @jonniblvnts)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Who’s tryna run 5’s on an angle? 😂😂 (via @jonniblvnts)",
+  "publishCaption": "The moment says it all 👀\n\nWho’s tryna run 5’s on an angle? 😂😂 (via @jonniblvnts)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-23T03:33:39.308Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Who\u2019s tryna run 5\u2019s on an angle? \ud83d\ude02\ud83d\ude02 (via @jonniblvnts)",
+  "body": "Who’s tryna run 5’s on an angle? 😂😂 (via @jonniblvnts)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-23T03:34:27.900Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.39,
   "scoreMargin": -36.74,
   "highlightQuality": 10.39,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.26,
@@ -73,5 +73,17 @@
   "video": "media/DdnV2RINQBs-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113000764915961",
+  "instagramContainerCreatedAt": "2026-09-24T03:44:19.565Z",
+  "instagramPublishRequestedAt": "2026-09-24T03:44:50.215Z",
+  "instagramMediaId": "18128439070789610",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddp8sl6gTTm/",
+  "instagramVerifiedAt": "2026-09-24T03:44:58.589Z",
+  "publishedAt": "2026-09-24T03:44:58.589Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdnV2RINQBs-sportswire247.mp4",
+    "at": "2026-09-24T03:44:58.590Z"
+  }
 }
