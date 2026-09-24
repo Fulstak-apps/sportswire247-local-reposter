@@ -3,16 +3,16 @@
   "shortcode": "DdeoDfomJ6l",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/DdeoDfomJ6l/",
-  "sourceCaption": "Bro risked it all for the dub \ud83d\ude2d @xfinity",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nBro risked it all for the dub \ud83d\ude2d @xfinity\n\n#sports\n\nSource: @overtime\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Bro risked it all for the dub 😭 @xfinity",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nBro risked it all for the dub 😭 @xfinity\n\n#sports\n\nSource: @overtime\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-19T18:15:38.673Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Bro risked it all for the dub \ud83d\ude2d @xfinity",
+  "body": "Bro risked it all for the dub 😭 @xfinity",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-19T18:16:27.465Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 9.82,
   "scoreMargin": -39.31,
   "highlightQuality": 9.82,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 40.69,
@@ -73,5 +73,17 @@
   "video": "media/DdeoDfomJ6l-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113132836915961",
+  "instagramContainerCreatedAt": "2026-09-24T12:55:39.886Z",
+  "instagramPublishRequestedAt": "2026-09-24T12:56:10.281Z",
+  "instagramMediaId": "18056831750799112",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddq7zTIDGC6/",
+  "instagramVerifiedAt": "2026-09-24T12:56:18.102Z",
+  "publishedAt": "2026-09-24T12:56:18.103Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdeoDfomJ6l-sportswire247.mp4",
+    "at": "2026-09-24T12:56:18.104Z"
+  }
 }
