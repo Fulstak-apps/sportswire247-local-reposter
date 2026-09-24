@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymediafootball/p/DdhXYpgiWxX/",
   "sourceCaption": "Caleb Williams screams after going down and then was helped off the field",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nCaleb Williams screams after going down and then was helped off the field\n\n#sports\n\nSource: @jomboymedia\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "You have to see this one twice 👀\n\nCaleb Williams screams after going down and then was helped off the field\n\n#sports\n\nSource: @jomboymedia\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T19:50:22.437Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 11.06,
   "scoreMargin": -39.14,
   "highlightQuality": 11.06,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 40.86,
@@ -73,5 +73,17 @@
   "video": "media/DdhXYpgiWxX-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113101015915961",
+  "instagramContainerCreatedAt": "2026-09-24T11:00:00.263Z",
+  "instagramPublishRequestedAt": "2026-09-24T11:00:46.002Z",
+  "instagramMediaId": "18084726482695681",
+  "instagramPermalink": "https://www.instagram.com/reel/DdqujeSCRa7/",
+  "instagramVerifiedAt": "2026-09-24T11:00:53.767Z",
+  "publishedAt": "2026-09-24T11:00:53.768Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdhXYpgiWxX-sportswire247.mp4",
+    "at": "2026-09-24T11:00:53.769Z"
+  }
 }
