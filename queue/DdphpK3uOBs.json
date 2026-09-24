@@ -3,16 +3,16 @@
   "shortcode": "DdphpK3uOBs",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdphpK3uOBs/",
-  "sourceCaption": "Goalkeeper Andr\u00e9 Onana doing fire cupping therapy \ud83d\udc40\n\n(via @andreonana.24) #andreonana #cuppingtherapy #soccer #futbol",
-  "publishCaption": "That finish was ridiculous \ud83d\ude33\n\nGoalkeeper Andr\u00e9 Onana doing fire cupping therapy \ud83d\udc40\n\n(via @andreonana.24) #andreonana #cuppingtherapy #soccer #futbol\n\n#sports\n\nSource: @bleacherreport\n\nDid you see that coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Goalkeeper André Onana doing fire cupping therapy 👀\n\n(via @andreonana.24) #andreonana #cuppingtherapy #soccer #futbol",
+  "publishCaption": "That finish was ridiculous 😳\n\nGoalkeeper André Onana doing fire cupping therapy 👀\n\n(via @andreonana.24) #andreonana #cuppingtherapy #soccer #futbol\n\n#sports\n\nSource: @bleacherreport\n\nDid you see that coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-24T00:06:14.376Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Goalkeeper Andr\u00e9 Onana doing fire cupping therapy \ud83d\udc40\n\n(via @andreonana.24) #andreonana #cuppingtherapy #soccer #futbol",
+  "body": "Goalkeeper André Onana doing fire cupping therapy 👀\n\n(via @andreonana.24) #andreonana #cuppingtherapy #soccer #futbol",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-24T00:07:03.323Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 58.81,
   "engagementScore": 18.13,
   "scoreMargin": -21.19,
-  "highlightQuality": 34.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 34,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 58.81,
@@ -75,5 +75,17 @@
   "video": "media/DdphpK3uOBs-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112964305915961",
+  "instagramContainerCreatedAt": "2026-09-24T00:36:54.801Z",
+  "instagramPublishRequestedAt": "2026-09-24T00:37:25.057Z",
+  "instagramMediaId": "17950025580051362",
+  "instagramPermalink": "https://www.instagram.com/reel/DdpnP3JDLTd/",
+  "instagramVerifiedAt": "2026-09-24T00:37:33.035Z",
+  "publishedAt": "2026-09-24T00:37:33.038Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdphpK3uOBs-sportswire247.mp4",
+    "at": "2026-09-24T00:37:33.042Z"
+  }
 }
