@@ -3,16 +3,16 @@
   "shortcode": "Ddq_CROusYQ",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Ddq_CROusYQ/",
-  "sourceCaption": "Mendoza at the end. \ud83d\ude02\ud83d\ude02 (via @raiders)",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nMendoza at the end. \ud83d\ude02\ud83d\ude02 (via @raiders)\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Mendoza at the end. 😂😂 (via @raiders)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nMendoza at the end. 😂😂 (via @raiders)\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-24T15:05:32.086Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Mendoza at the end. \ud83d\ude02\ud83d\ude02 (via @raiders)",
+  "body": "Mendoza at the end. 😂😂 (via @raiders)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-24T15:06:54.249Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 52.3,
   "engagementScore": 21.61,
   "scoreMargin": -27.7,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 52.3,
@@ -73,5 +73,17 @@
   "video": "media/Ddq_CROusYQ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113251615915961",
+  "instagramContainerCreatedAt": "2026-09-24T20:25:55.929Z",
+  "instagramPublishRequestedAt": "2026-09-24T20:26:26.272Z",
+  "instagramMediaId": "18144684004577433",
+  "instagramPermalink": "https://www.instagram.com/reel/DdrvUnUFScC/",
+  "instagramVerifiedAt": "2026-09-24T20:26:33.097Z",
+  "publishedAt": "2026-09-24T20:26:33.098Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddq_CROusYQ-sportswire247.mp4",
+    "at": "2026-09-24T20:26:33.099Z"
+  }
 }
