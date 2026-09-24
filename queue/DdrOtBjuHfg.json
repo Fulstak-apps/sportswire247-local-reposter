@@ -3,16 +3,16 @@
   "shortcode": "DdrOtBjuHfg",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdrOtBjuHfg/",
-  "sourceCaption": "Legendary game winner OMG \ud83d\ude2d\ud83d\udd25 (via @bcfieldhockey)",
-  "publishCaption": "Sports are unreal sometimes \ud83d\ude2e\u200d\ud83d\udca8\n\nLegendary game winner OMG \ud83d\ude2d\ud83d\udd25 (via @bcfieldhockey)\n\n#sports\n\nSource: @houseofhighlights\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Legendary game winner OMG 😭🔥 (via @bcfieldhockey)",
+  "publishCaption": "Sports are unreal sometimes 😮‍💨\n\nLegendary game winner OMG 😭🔥 (via @bcfieldhockey)\n\n#sports\n\nSource: @houseofhighlights\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-24T15:48:55.178Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Legendary game winner OMG \ud83d\ude2d\ud83d\udd25 (via @bcfieldhockey)",
+  "body": "Legendary game winner OMG 😭🔥 (via @bcfieldhockey)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-24T15:49:43.979Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.24,
   "scoreMargin": -13.91,
   "highlightQuality": 55.24,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 66.09,
@@ -75,5 +75,17 @@
   "video": "media/DdrOtBjuHfg-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113208301915961",
+  "instagramContainerCreatedAt": "2026-09-24T17:11:52.690Z",
+  "instagramPublishRequestedAt": "2026-09-24T17:12:08.039Z",
+  "instagramMediaId": "18110912762134871",
+  "instagramPermalink": "https://www.instagram.com/reel/DdrZHPxjRJh/",
+  "instagramVerifiedAt": "2026-09-24T17:12:15.052Z",
+  "publishedAt": "2026-09-24T17:12:15.052Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdrOtBjuHfg-sportswire247.mp4",
+    "at": "2026-09-24T17:12:15.053Z"
+  }
 }
