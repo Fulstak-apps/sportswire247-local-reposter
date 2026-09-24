@@ -3,16 +3,16 @@
   "shortcode": "DdrPwDlurjg",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdrPwDlurjg/",
-  "sourceCaption": "LeBron wasn\u2019t playing around \ud83d\ude05 \n\n#nba #basketball #lebron #lebronjames #lakers",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nLeBron wasn\u2019t playing around \ud83d\ude05 \n\n#nba #basketball #lebron #lebronjames #lakers\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "LeBron wasn’t playing around 😅 \n\n#nba #basketball #lebron #lebronjames #lakers",
+  "publishCaption": "You have to see this one twice 👀\n\nLeBron wasn’t playing around 😅 \n\n#nba #basketball #lebron #lebronjames #lakers\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-24T15:57:24.709Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "LeBron wasn\u2019t playing around \ud83d\ude05 \n\n#nba #basketball #lebron #lebronjames #lakers",
+  "body": "LeBron wasn’t playing around 😅 \n\n#nba #basketball #lebron #lebronjames #lakers",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-24T15:58:13.319Z",
   "sourceViewCount": 0,
@@ -53,9 +53,9 @@
   "rawScore": 65.38,
   "engagementScore": 16.73,
   "scoreMargin": 30.38,
-  "highlightQuality": 14.0,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "highlightQuality": 14,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 65.38,
@@ -74,5 +74,17 @@
   "video": "media/DdrPwDlurjg-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113196175915961",
+  "instagramContainerCreatedAt": "2026-09-24T16:31:15.750Z",
+  "instagramPublishRequestedAt": "2026-09-24T16:31:46.162Z",
+  "instagramMediaId": "17895365319608484",
+  "instagramPermalink": "https://www.instagram.com/reel/DdrUdnQgDOu/",
+  "instagramVerifiedAt": "2026-09-24T16:31:53.487Z",
+  "publishedAt": "2026-09-24T16:31:53.488Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdrPwDlurjg-sportswire247.mp4",
+    "at": "2026-09-24T16:31:53.489Z"
+  }
 }
