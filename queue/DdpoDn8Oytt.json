@@ -3,16 +3,16 @@
   "shortcode": "DdpoDn8Oytt",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdpoDn8Oytt/",
-  "sourceCaption": "Jameis Winston shows love to Dart but is ready to be QB1 \ud83d\ude4f\n\n(via @SNYGiants/X) #jameiswinston #jaxsondart #giants #football #nfl",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nJameis Winston shows love to Dart but is ready to be QB1 \ud83d\ude4f\n\n(via @SNYGiants/X) #jameiswinston #jaxsondart #giants #football #nfl\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Jameis Winston shows love to Dart but is ready to be QB1 🙏\n\n(via @SNYGiants/X) #jameiswinston #jaxsondart #giants #football #nfl",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nJameis Winston shows love to Dart but is ready to be QB1 🙏\n\n(via @SNYGiants/X) #jameiswinston #jaxsondart #giants #football #nfl\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-24T00:51:22.084Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jameis Winston shows love to Dart but is ready to be QB1 \ud83d\ude4f\n\n(via @SNYGiants/X) #jameiswinston #jaxsondart #giants #football #nfl",
+  "body": "Jameis Winston shows love to Dart but is ready to be QB1 🙏\n\n(via @SNYGiants/X) #jameiswinston #jaxsondart #giants #football #nfl",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-24T00:52:10.612Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 61.66,
   "engagementScore": 15.8,
   "scoreMargin": 21.66,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 61.66,
@@ -73,5 +73,17 @@
   "video": "media/DdpoDn8Oytt-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112970740915961",
+  "instagramContainerCreatedAt": "2026-09-24T01:17:27.883Z",
+  "instagramPublishRequestedAt": "2026-09-24T01:17:58.106Z",
+  "instagramMediaId": "18627142018025987",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddpr5BICgJ9/",
+  "instagramVerifiedAt": "2026-09-24T01:18:05.734Z",
+  "publishedAt": "2026-09-24T01:18:05.735Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdpoDn8Oytt-sportswire247.mp4",
+    "at": "2026-09-24T01:18:05.736Z"
+  }
 }
