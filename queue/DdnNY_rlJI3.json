@@ -3,16 +3,16 @@
   "shortcode": "DdnNY_rlJI3",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brwsports/p/DdnNY_rlJI3/",
-  "sourceCaption": "Caitlin Clark was unstoppable in the win over the Lynx \ud83d\ude24\ud83d\udd25\n\nLynx have lost 2 of their 3 games since the FIBA break",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nCaitlin Clark was unstoppable in the win over the Lynx \ud83d\ude24\ud83d\udd25\n\nLynx have lost 2 of their 3 games since the FIBA break\n\n#sports\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Caitlin Clark was unstoppable in the win over the Lynx 😤🔥\n\nLynx have lost 2 of their 3 games since the FIBA break",
+  "publishCaption": "The moment says it all 👀\n\nCaitlin Clark was unstoppable in the win over the Lynx 😤🔥\n\nLynx have lost 2 of their 3 games since the FIBA break\n\n#sports\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-23T02:17:15.614Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Caitlin Clark was unstoppable in the win over the Lynx \ud83d\ude24\ud83d\udd25\n\nLynx have lost 2 of their 3 games since the FIBA break",
+  "body": "Caitlin Clark was unstoppable in the win over the Lynx 😤🔥\n\nLynx have lost 2 of their 3 games since the FIBA break",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-23T02:18:04.208Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.37,
   "scoreMargin": -36.79,
   "highlightQuality": 12.37,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.21,
@@ -73,5 +73,17 @@
   "video": "media/DdnNY_rlJI3-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113010736915961",
+  "instagramContainerCreatedAt": "2026-09-24T04:24:51.836Z",
+  "instagramPublishRequestedAt": "2026-09-24T04:26:07.985Z",
+  "instagramMediaId": "18196282075390437",
+  "instagramPermalink": "https://www.instagram.com/reel/DdqBa3hjFuB/",
+  "instagramVerifiedAt": "2026-09-24T04:26:15.850Z",
+  "publishedAt": "2026-09-24T04:26:15.851Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdnNY_rlJI3-sportswire247.mp4",
+    "at": "2026-09-24T04:26:15.853Z"
+  }
 }
