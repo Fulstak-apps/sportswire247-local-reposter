@@ -3,16 +3,16 @@
   "shortcode": "DdfpqZSN1Pl",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdfpqZSN1Pl/",
-  "sourceCaption": "Ole Miss fans were letting Lane Kiffin HEAR IT in his return to Oxford \ud83d\ude2e",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nOle Miss fans were letting Lane Kiffin HEAR IT in his return to Oxford \ud83d\ude2e\n\n#sports\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Ole Miss fans were letting Lane Kiffin HEAR IT in his return to Oxford 😮",
+  "publishCaption": "You have to see this one twice 👀\n\nOle Miss fans were letting Lane Kiffin HEAR IT in his return to Oxford 😮\n\n#sports\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T03:48:51.930Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Ole Miss fans were letting Lane Kiffin HEAR IT in his return to Oxford \ud83d\ude2e",
+  "body": "Ole Miss fans were letting Lane Kiffin HEAR IT in his return to Oxford 😮",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T03:49:40.626Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.18,
   "scoreMargin": -37.91,
   "highlightQuality": 11.18,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.09,
@@ -73,5 +73,17 @@
   "video": "media/DdfpqZSN1Pl-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113043592915961",
+  "instagramContainerCreatedAt": "2026-09-24T06:26:35.137Z",
+  "instagramPublishRequestedAt": "2026-09-24T06:28:05.986Z",
+  "instagramMediaId": "18122838559857718",
+  "instagramPermalink": "https://www.instagram.com/reel/DdqPXq-Gubx/",
+  "instagramVerifiedAt": "2026-09-24T06:28:14.194Z",
+  "publishedAt": "2026-09-24T06:28:14.194Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfpqZSN1Pl-sportswire247.mp4",
+    "at": "2026-09-24T06:28:14.196Z"
+  }
 }
