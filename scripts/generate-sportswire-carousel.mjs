@@ -78,14 +78,31 @@ async function scorecard() {
   // final was verified than to block an otherwise corroborated news edition.
   return cards.length ? cards.slice(0, 12) : [{ league: "SCOREBOARD", line: "No completed scores were verified at generation time." }];
 }
+async function storyVisual(story) {
+  // Google News exposes the publisher's story thumbnail as og:image. It gives
+  // each slide an actual event/athlete visual instead of a generic template.
+  for (const source of story.sources || []) {
+    try {
+      const page = await fetch(source.url, { signal: AbortSignal.timeout(25_000), headers: { "User-Agent": "Mozilla/5.0 SportsWire newsroom" } });
+      const html = await page.text();
+      const match = html.match(/<meta[^>]+(?:property|name)=["'](?:og:image|twitter:image)["'][^>]+content=["']([^"']+)/i) || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["'](?:og:image|twitter:image)["']/i);
+      if (!match?.[1]) continue;
+      const imageUrl = match[1].replace(/=s0-w\d+$/, "=s0-w1200");
+      const image = await fetch(imageUrl, { signal: AbortSignal.timeout(25_000), headers: { "User-Agent": "Mozilla/5.0" } });
+      const type = image.headers.get("content-type") || ""; const bytes = Buffer.from(await image.arrayBuffer());
+      if (!image.ok || !type.startsWith("image/") || bytes.length < 12_000) continue;
+      return `data:${type.split(";")[0]};base64,${bytes.toString("base64")}`;
+    } catch { /* try the independent source */ }
+  }
+  throw new Error(`Held: no usable editorial visual for “${story.headline}”`);
+}
 function visual(slide, logo, index) {
   const title = esc(slide.headline).toUpperCase();
   const text = index < 5 ? esc(slide.summary) : esc(slide.summary);
   const footer = index < 5 ? `STORY ${index + 1} OF 5  •  SPORTSWIRE 24/7` : "TODAY'S VERIFIED FINAL SCORES";
   return `<!doctype html><html><head><style>
   *{box-sizing:border-box} body{margin:0;width:1080px;height:1350px;overflow:hidden;background:#07110d;color:#fff;font-family:Impact,Arial Black,sans-serif}
-  .art{height:100%;padding:58px 60px;position:relative;background:radial-gradient(circle at 83% 24%,#cbff00 0 3%,transparent 3.5%),radial-gradient(circle at 84% 24%,#1e7d44 0 14%,transparent 35%),linear-gradient(135deg,#091611 0 52%,#202419 52%);}
-  .art:before{content:"";position:absolute;inset:0;opacity:.30;background-image:radial-gradient(#d7f82b 1.6px,transparent 1.6px);background-size:11px 11px;mix-blend-mode:screen}.kicker{position:relative;color:#caff00;font:700 26px Arial;letter-spacing:5px;margin-bottom:27px}.title{position:relative;width:82%;font-size:104px;line-height:.88;letter-spacing:-2px;text-shadow:7px 7px #000,-2px 2px #000;transform:skew(-5deg)}.title span{color:#d5ff00}.copy{position:relative;margin-top:46px;width:72%;font:700 34px/1.16 Arial;color:#f5f5e9;text-shadow:2px 2px #000}.comic-ball{position:absolute;right:-76px;bottom:120px;width:510px;height:510px;border-radius:50%;border:16px solid #d5ff00;box-shadow:0 0 0 14px #111,0 0 60px #d5ff00;background:repeating-conic-gradient(#273d2c 0 7deg,#08110d 7deg 14deg);opacity:.9}.comic-ball:after{content:"SPORTS\A WIRE";white-space:pre;text-align:center;position:absolute;inset:145px 0;font:90px/.75 Impact;color:#fff;transform:rotate(-22deg);text-shadow:5px 5px #000}.scores{position:relative;margin-top:44px;width:88%;display:grid;grid-template-columns:1fr 1fr;gap:12px}.score{font:700 29px Arial;background:#f1f0dc;color:#10140e;padding:16px;border-left:11px solid #ccff00}.logo{position:absolute;left:50px;bottom:104px;width:160px;max-height:160px;object-fit:contain;filter:drop-shadow(3px 4px 0 #000)}.footer{position:absolute;right:42px;bottom:42px;background:#f7f1d2;color:#15170f;border:4px solid #171710;padding:12px 17px;font:700 21px Arial;letter-spacing:1px}.source{position:absolute;left:60px;bottom:58px;font:600 17px Arial;color:#d5d5c7;width:650px}.num{position:absolute;right:58px;top:50px;color:#d5ff00;font-size:30px}</style></head><body><main class="art"><div class="kicker">SPORTSWIRE 24/7 • VERIFIED DESK</div><div class="num">${index < 5 ? index + 1 : "6"}/6</div><div class="title">${title.replace(/\n/g,"<br>")}</div>${index < 5 ? `<div class="copy">${text}</div><div class="comic-ball"></div><div class="source">SOURCES: ${slide.sources.map(s => esc(s.source)).join(" • ")}</div>` : `<section class="scores">${slide.scores.map(s => `<div class="score">${esc(s.league)}<br>${esc(s.line)}</div>`).join("")}</section>`}<img class="logo" src="${logo}"><div class="footer">${footer}</div></main></body></html>`;
+  .art{height:100%;padding:58px 60px;position:relative;background:#07110d}.art:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,10,7,.94) 0%,rgba(2,10,7,.56) 51%,rgba(2,10,7,.18)),url('${slide.visual || ""}') center/cover;filter:contrast(1.15) saturate(1.1)}.art:after{content:"";position:absolute;inset:0;opacity:.25;background-image:radial-gradient(#d7f82b 1.4px,transparent 1.4px);background-size:11px 11px;mix-blend-mode:screen}.kicker{position:relative;color:#caff00;font:700 26px Arial;letter-spacing:5px;margin-bottom:27px}.title{position:relative;width:76%;font-size:92px;line-height:.88;letter-spacing:-2px;text-shadow:7px 7px #000,-2px 2px #000;transform:skew(-5deg)}.copy{position:relative;margin-top:40px;width:60%;font:700 30px/1.16 Arial;color:#f5f5e9;text-shadow:2px 2px #000}.scores{position:relative;margin-top:44px;width:88%;display:grid;grid-template-columns:1fr 1fr;gap:12px}.score{font:700 29px Arial;background:#f1f0dc;color:#10140e;padding:16px;border-left:11px solid #ccff00}.logo{position:absolute;left:50px;bottom:104px;width:130px;max-height:130px;object-fit:contain;filter:drop-shadow(3px 4px 0 #000)}.footer{position:absolute;right:42px;bottom:42px;background:#f7f1d2;color:#15170f;border:4px solid #171710;padding:12px 17px;font:700 21px Arial;letter-spacing:1px}.source{position:absolute;left:60px;bottom:58px;font:600 17px Arial;color:#fff;width:650px;text-shadow:2px 2px #000}.num{position:absolute;right:58px;top:50px;color:#d5ff00;font-size:30px}</style></head><body><main class="art"><div class="kicker">SPORTSWIRE 24/7 • VERIFIED DESK</div><div class="num">${index < 5 ? index + 1 : "6"}/6</div><div class="title">${title.replace(/\n/g,"<br>")}</div>${index < 5 ? `<div class="copy">${text}</div><div class="source">SOURCES: ${slide.sources.map(s => esc(s.source)).join(" • ")}</div>` : `<section class="scores">${slide.scores.map(s => `<div class="score">${esc(s.league)}<br>${esc(s.line)}</div>`).join("")}</section>`}<img class="logo" src="${logo}"><div class="footer">${footer}</div></main></body></html>`;
 }
 async function render(slides, output) {
   const logo = `data:image/png;base64,${(await fs.readFile(logoPath)).toString("base64")}`;
@@ -95,12 +112,12 @@ async function render(slides, output) {
 async function main() {
   const runId = new Date().toISOString().replace(/[:.]/g, "-"); const { selected, ledger } = await stories(); const scores = await scorecard();
   const packageDir = path.join(MEDIA, runId); await fs.mkdir(packageDir, { recursive: true });
-  const slides = selected.map(story => ({ ...story, summary: `${story.headline}. SportsWire verified this report with two independent outlets before publication.` }));
+  const slides = await Promise.all(selected.map(async story => ({ ...story, visual: await storyVisual(story), summary: `${story.headline}. SportsWire verified this report with two independent outlets before publication.` })));
   slides.push({ headline: "FINAL SCORES", summary: "Verified completed games only.", scores }); await render(slides, packageDir);
   // Links are preserved in each slide's source ledger; the public caption is
   // intentionally compact enough for Instagram's 2,200-character limit.
   const caption = selected.map((story, i) => `${i + 1}. ${story.headline}\nSource reporting: ${story.sources.map(s => s.source).join(" + ")}`).join("\n\n") + "\n\nFollow @sportswire247 for verified sports updates.";
-  const manifest = { runId, generatedAt: new Date().toISOString(), scoreboardVerifiedAt: new Date().toISOString(), slides: slides.map((slide, i) => ({ ...slide, story: i < 5 ? slide.headline : undefined, width: 1080, height: 1350, imageUrl: `${RAW}/carousel/media/${runId}/slide-${i + 1}.png` })), caption };
+  const manifest = { runId, generatedAt: new Date().toISOString(), scoreboardVerifiedAt: new Date().toISOString(), slides: slides.map(({ visual, ...slide }, i) => ({ ...slide, story: i < 5 ? slide.headline : undefined, width: 1080, height: 1350, imageUrl: `${RAW}/carousel/media/${runId}/slide-${i + 1}.png` })), caption };
   await write(path.join(CAROUSEL, "current.json"), manifest); ledger.used = [...ledger.used, ...selected.map(s => ({ key: s.key, runId, usedAt: manifest.generatedAt }))].slice(-500); await write(path.join(CAROUSEL, "story-ledger.json"), ledger);
   await exec("git", ["add", "carousel/current.json", "carousel/story-ledger.json", `carousel/media/${runId}`], { cwd: ROOT }); await exec("git", ["commit", "-m", `Generate SportsWire carousel ${runId}`], { cwd: ROOT }); await exec("git", ["push", "origin", "main"], { cwd: ROOT });
   await exec("gh", ["workflow", "run", "sportswire-carousel.yml", "--ref", "main"], { cwd: ROOT }); console.log(JSON.stringify({ status: "generated_and_dispatched", runId }));
