@@ -3,16 +3,16 @@
   "shortcode": "Ddj2IsPt28p",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Ddj2IsPt28p/",
-  "sourceCaption": "Whole team was MOVING \ud83d\ude24 (via jj325352/TT)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nWhole team was MOVING \ud83d\ude24 (via jj325352/TT)\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Whole team was MOVING 😤 (via jj325352/TT)",
+  "publishCaption": "You have to see this one twice 👀\n\nWhole team was MOVING 😤 (via jj325352/TT)\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-21T18:56:34.115Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Whole team was MOVING \ud83d\ude24 (via jj325352/TT)",
+  "body": "Whole team was MOVING 😤 (via jj325352/TT)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-21T18:57:25.248Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.89,
   "scoreMargin": -37.78,
   "highlightQuality": 10.89,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.22,
@@ -73,5 +73,17 @@
   "video": "media/Ddj2IsPt28p-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113034274915961",
+  "instagramContainerCreatedAt": "2026-09-24T05:46:13.972Z",
+  "instagramPublishRequestedAt": "2026-09-24T05:46:59.523Z",
+  "instagramMediaId": "18060003578623153",
+  "instagramPermalink": "https://www.instagram.com/reel/DdqKpxKAm7X/",
+  "instagramVerifiedAt": "2026-09-24T05:47:12.799Z",
+  "publishedAt": "2026-09-24T05:47:12.800Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddj2IsPt28p-sportswire247.mp4",
+    "at": "2026-09-24T05:47:12.801Z"
+  }
 }
