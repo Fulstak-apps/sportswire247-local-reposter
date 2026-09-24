@@ -3,16 +3,16 @@
   "shortcode": "DdrEFFxlXjF",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/DdrEFFxlXjF/",
-  "sourceCaption": "Cristiano Ronaldo will continue to play for Portugal after considering retirement from international football following the World Cup \ud83d\udea8\n\nRonaldo believes he can help the national team \u201creach what they want,\u201d and will finish playing when he feels like he\u2019s \u201cnot doing anything here\u201d \ud83d\ude4c\n\n(via @beanymansports)",
-  "publishCaption": "Here\u2019s the update everyone is talking about \ud83d\udea8\n\nCristiano Ronaldo will continue to play for Portugal after considering retirement from international football following the World Cup \ud83d\udea8\n\nRonaldo believes he can help the national team \u201creach what they want,\u201d and will finish playing when he feels like he\u2019s \u201cnot doing anything here\u201d \ud83d\ude4c\n\n(via @beanymansports)\n\n#football #nfl\n\nSource: @bleacherreport\n\nWhat\u2019s your reaction?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Cristiano Ronaldo will continue to play for Portugal after considering retirement from international football following the World Cup 🚨\n\nRonaldo believes he can help the national team “reach what they want,” and will finish playing when he feels like he’s “not doing anything here” 🙌\n\n(via @beanymansports)",
+  "publishCaption": "Here’s the update everyone is talking about 🚨\n\nCristiano Ronaldo will continue to play for Portugal after considering retirement from international football following the World Cup 🚨\n\nRonaldo believes he can help the national team “reach what they want,” and will finish playing when he feels like he’s “not doing anything here” 🙌\n\n(via @beanymansports)\n\n#football #nfl\n\nSource: @bleacherreport\n\nWhat’s your reaction?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-24T15:09:57.250Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Cristiano Ronaldo will continue to play for Portugal after considering retirement from international football following the World Cup \ud83d\udea8\n\nRonaldo believes he can help the national team \u201creach what they want,\u201d and will finish playing when he feels like he\u2019s \u201cnot doing anything here\u201d \ud83d\ude4c\n\n(via @beanymansports)",
+  "body": "Cristiano Ronaldo will continue to play for Portugal after considering retirement from international football following the World Cup 🚨\n\nRonaldo believes he can help the national team “reach what they want,” and will finish playing when he feels like he’s “not doing anything here” 🙌\n\n(via @beanymansports)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-24T15:10:45.855Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 78.11,
   "engagementScore": 23.52,
   "scoreMargin": 38.11,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 78.11,
@@ -74,5 +74,17 @@
   "video": "media/DdrEFFxlXjF-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113184271915961",
+  "instagramContainerCreatedAt": "2026-09-24T15:50:39.699Z",
+  "instagramPublishRequestedAt": "2026-09-24T15:51:10.174Z",
+  "instagramMediaId": "18098737388074296",
+  "instagramPermalink": "https://www.instagram.com/reel/DdrP0WNFJJq/",
+  "instagramVerifiedAt": "2026-09-24T15:51:17.767Z",
+  "publishedAt": "2026-09-24T15:51:17.768Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdrEFFxlXjF-sportswire247.mp4",
+    "at": "2026-09-24T15:51:17.770Z"
+  }
 }
