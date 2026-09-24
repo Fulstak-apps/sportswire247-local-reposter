@@ -3,16 +3,16 @@
   "shortcode": "DdpgtyfNXZU",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdpgtyfNXZU/",
-  "sourceCaption": "Haven\u2019t seen this one before \ud83d\ude2e\ud83d\ude02 (via @klimteam.ru)",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nHaven\u2019t seen this one before \ud83d\ude2e\ud83d\ude02 (via @klimteam.ru)\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Haven’t seen this one before 😮😂 (via @klimteam.ru)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nHaven’t seen this one before 😮😂 (via @klimteam.ru)\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-24T00:05:08.247Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Haven\u2019t seen this one before \ud83d\ude2e\ud83d\ude02 (via @klimteam.ru)",
+  "body": "Haven’t seen this one before 😮😂 (via @klimteam.ru)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-24T00:05:57.035Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 50.13,
   "engagementScore": 17.65,
   "scoreMargin": -29.87,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 50.13,
@@ -73,5 +73,17 @@
   "video": "media/DdpgtyfNXZU-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18112992139915961",
+  "instagramContainerCreatedAt": "2026-09-24T03:03:48.465Z",
+  "instagramPublishRequestedAt": "2026-09-24T03:04:18.903Z",
+  "instagramMediaId": "18124270378883789",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddp4ErelIJK/",
+  "instagramVerifiedAt": "2026-09-24T03:04:26.434Z",
+  "publishedAt": "2026-09-24T03:04:26.435Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdpgtyfNXZU-sportswire247.mp4",
+    "at": "2026-09-24T03:04:26.436Z"
+  }
 }
