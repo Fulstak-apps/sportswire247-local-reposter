@@ -3,16 +3,16 @@
   "shortcode": "Ddg_k9vFKdN",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/Ddg_k9vFKdN/",
-  "sourceCaption": "N3ON the goat cornerman \ud83e\udd23 @n3onsingh @arm_011 (via @ufc)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nN3ON the goat cornerman \ud83e\udd23 @n3onsingh @arm_011 (via @ufc)\n\n#sports\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "N3ON the goat cornerman 🤣 @n3onsingh @arm_011 (via @ufc)",
+  "publishCaption": "You have to see this one twice 👀\n\nN3ON the goat cornerman 🤣 @n3onsingh @arm_011 (via @ufc)\n\n#sports\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T16:20:14.499Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "N3ON the goat cornerman \ud83e\udd23 @n3onsingh @arm_011 (via @ufc)",
+  "body": "N3ON the goat cornerman 🤣 @n3onsingh @arm_011 (via @ufc)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T16:21:03.003Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.26,
   "scoreMargin": -38.85,
   "highlightQuality": 10.26,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.15,
@@ -73,5 +73,17 @@
   "video": "media/Ddg_k9vFKdN-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113059636915961",
+  "instagramContainerCreatedAt": "2026-09-24T07:46:25.536Z",
+  "instagramPublishRequestedAt": "2026-09-24T07:47:41.538Z",
+  "instagramMediaId": "18410844850087979",
+  "instagramPermalink": "https://www.instagram.com/reel/DdqYfXZlLNH/",
+  "instagramVerifiedAt": "2026-09-24T07:47:49.332Z",
+  "publishedAt": "2026-09-24T07:47:49.333Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddg_k9vFKdN-sportswire247.mp4",
+    "at": "2026-09-24T07:47:49.334Z"
+  }
 }
