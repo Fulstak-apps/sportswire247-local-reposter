@@ -3,16 +3,16 @@
   "shortcode": "DdpB-tKAajr",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/DdpB-tKAajr/",
-  "sourceCaption": "Chris Paul II got to work right after getting his SOUTH CAROLINA offer \ud83d\udc40 @nxtuphoops @ehacircuit @hsfallinvite",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nChris Paul II got to work right after getting his SOUTH CAROLINA offer \ud83d\udc40 @nxtuphoops @ehacircuit @hsfallinvite\n\n#sports\n\nSource: @overtime\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Chris Paul II got to work right after getting his SOUTH CAROLINA offer 👀 @nxtuphoops @ehacircuit @hsfallinvite",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nChris Paul II got to work right after getting his SOUTH CAROLINA offer 👀 @nxtuphoops @ehacircuit @hsfallinvite\n\n#sports\n\nSource: @overtime\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-23T19:16:49.093Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Chris Paul II got to work right after getting his SOUTH CAROLINA offer \ud83d\udc40 @nxtuphoops @ehacircuit @hsfallinvite",
+  "body": "Chris Paul II got to work right after getting his SOUTH CAROLINA offer 👀 @nxtuphoops @ehacircuit @hsfallinvite",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-23T19:17:37.817Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 9.2,
   "scoreMargin": -39.96,
   "highlightQuality": 9.2,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 40.04,
@@ -73,5 +73,17 @@
   "video": "media/DdpB-tKAajr-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113170864915961",
+  "instagramContainerCreatedAt": "2026-09-24T15:09:43.010Z",
+  "instagramPublishRequestedAt": "2026-09-24T15:10:13.295Z",
+  "instagramMediaId": "18245354590309866",
+  "instagramPermalink": "https://www.instagram.com/reel/DdrLIkKiepy/",
+  "instagramVerifiedAt": "2026-09-24T15:10:18.492Z",
+  "publishedAt": "2026-09-24T15:10:18.492Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdpB-tKAajr-sportswire247.mp4",
+    "at": "2026-09-24T15:10:18.493Z"
+  }
 }
