@@ -3,16 +3,16 @@
   "shortcode": "Ddf0lDtO44d",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Ddf0lDtO44d/",
-  "sourceCaption": "Ole Miss takes out LSU in a THRILLER in Oxford, 32-24 \ud83d\udd25",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nOle Miss takes out LSU in a THRILLER in Oxford, 32-24 \ud83d\udd25\n\n#sports\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Ole Miss takes out LSU in a THRILLER in Oxford, 32-24 🔥",
+  "publishCaption": "You have to see this one twice 👀\n\nOle Miss takes out LSU in a THRILLER in Oxford, 32-24 🔥\n\n#sports\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T05:26:47.555Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Ole Miss takes out LSU in a THRILLER in Oxford, 32-24 \ud83d\udd25",
+  "body": "Ole Miss takes out LSU in a THRILLER in Oxford, 32-24 🔥",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T05:27:36.050Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.47,
   "scoreMargin": -38.67,
   "highlightQuality": 10.47,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.33,
@@ -73,5 +73,17 @@
   "video": "media/Ddf0lDtO44d-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113051422915961",
+  "instagramContainerCreatedAt": "2026-09-24T07:07:10.611Z",
+  "instagramPublishRequestedAt": "2026-09-24T07:08:11.390Z",
+  "instagramMediaId": "18114423197002848",
+  "instagramPermalink": "https://www.instagram.com/reel/DdqT-j5ld0b/",
+  "instagramVerifiedAt": "2026-09-24T07:08:18.326Z",
+  "publishedAt": "2026-09-24T07:08:18.326Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddf0lDtO44d-sportswire247.mp4",
+    "at": "2026-09-24T07:08:18.327Z"
+  }
 }
