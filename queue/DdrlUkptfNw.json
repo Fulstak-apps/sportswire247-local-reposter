@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymedia/reel/DdrlUkptfNw/",
   "sourceCaption": "Before his potential last home game as a Cub, Ian Happ tossed the fans in the Wrigley bleachers a baseball with some cash for beer\n\n#mlb #baseball #cubs #beer #wrigleyfield",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nBefore his potential last home game as a Cub, Ian Happ tossed the fans in the Wrigley bleachers a baseball with some cash for beer\n\n#mlb #baseball #cubs #beer #wrigleyfield\n\nSource: @jomboymedia\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "You have to see this one twice 👀\n\nBefore his potential last home game as a Cub, Ian Happ tossed the fans in the Wrigley bleachers a baseball with some cash for beer\n\n#mlb #baseball #cubs #beer #wrigleyfield\n\nSource: @jomboymedia\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-24T19:04:31.715Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 8.1,
   "scoreMargin": 4.95,
   "highlightQuality": 8.1,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 49.95,
@@ -73,5 +73,17 @@
   "video": "media/DdrlUkptfNw-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113244835915961",
+  "instagramContainerCreatedAt": "2026-09-24T19:54:07.367Z",
+  "instagramPublishRequestedAt": "2026-09-24T19:54:38.065Z",
+  "instagramMediaId": "17948364648290159",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddrrry1AmlQ/",
+  "instagramVerifiedAt": "2026-09-24T19:54:49.265Z",
+  "publishedAt": "2026-09-24T19:54:49.265Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdrlUkptfNw-sportswire247.mp4",
+    "at": "2026-09-24T19:54:49.266Z"
+  }
 }
