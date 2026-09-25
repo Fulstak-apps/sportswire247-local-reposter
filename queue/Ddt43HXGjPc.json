@@ -3,16 +3,16 @@
   "shortcode": "Ddt43HXGjPc",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Ddt43HXGjPc/",
-  "sourceCaption": "Rob Gronkowski says he \u201cwasn\u2019t consulted at all\u201d but is \u201ccool with\u201d the Patriots giving No. 87 to Romeo Doubs \ud83d\ude05\n\nGronk thinks Tom Brady\u2019s No. 12 should be the only number retired by New England \ud83d\udc40\n\n(Via @upandadamsshow, @heykayadams)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nRob Gronkowski says he \u201cwasn\u2019t consulted at all\u201d but is \u201ccool with\u201d the Patriots giving No. 87 to Romeo Doubs \ud83d\ude05\n\nGronk thinks Tom Brady\u2019s No. 12 should be the only number retired by New England \ud83d\udc40\n\n(Via @upandadamsshow, @heykayadams)\n\n#sports\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Rob Gronkowski says he “wasn’t consulted at all” but is “cool with” the Patriots giving No. 87 to Romeo Doubs 😅\n\nGronk thinks Tom Brady’s No. 12 should be the only number retired by New England 👀\n\n(Via @upandadamsshow, @heykayadams)",
+  "publishCaption": "The moment says it all 👀\n\nRob Gronkowski says he “wasn’t consulted at all” but is “cool with” the Patriots giving No. 87 to Romeo Doubs 😅\n\nGronk thinks Tom Brady’s No. 12 should be the only number retired by New England 👀\n\n(Via @upandadamsshow, @heykayadams)\n\n#sports\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-25T16:33:34.846Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Rob Gronkowski says he \u201cwasn\u2019t consulted at all\u201d but is \u201ccool with\u201d the Patriots giving No. 87 to Romeo Doubs \ud83d\ude05\n\nGronk thinks Tom Brady\u2019s No. 12 should be the only number retired by New England \ud83d\udc40\n\n(Via @upandadamsshow, @heykayadams)",
+  "body": "Rob Gronkowski says he “wasn’t consulted at all” but is “cool with” the Patriots giving No. 87 to Romeo Doubs 😅\n\nGronk thinks Tom Brady’s No. 12 should be the only number retired by New England 👀\n\n(Via @upandadamsshow, @heykayadams)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-25T16:34:23.545Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 46.91,
   "engagementScore": 16.09,
   "scoreMargin": -33.09,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 46.91,
@@ -73,5 +73,17 @@
   "video": "media/Ddt43HXGjPc-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113546212915961",
+  "instagramContainerCreatedAt": "2026-09-25T16:48:37.569Z",
+  "instagramPublishRequestedAt": "2026-09-25T16:49:08.162Z",
+  "instagramMediaId": "18018845264928618",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddt7P8BE7Iw/",
+  "instagramVerifiedAt": "2026-09-25T16:49:15.804Z",
+  "publishedAt": "2026-09-25T16:49:15.804Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddt43HXGjPc-sportswire247.mp4",
+    "at": "2026-09-25T16:49:15.805Z"
+  }
 }
