@@ -3,16 +3,16 @@
   "shortcode": "DdsMp4wNMI9",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdsMp4wNMI9/",
-  "sourceCaption": "JJ Redick on Lakers lineup this season \ud83d\udc40 (Via @spectrumsportsnet)",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nJJ Redick on Lakers lineup this season \ud83d\udc40 (Via @spectrumsportsnet)\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "JJ Redick on Lakers lineup this season 👀 (Via @spectrumsportsnet)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nJJ Redick on Lakers lineup this season 👀 (Via @spectrumsportsnet)\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-25T00:46:25.220Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "JJ Redick on Lakers lineup this season \ud83d\udc40 (Via @spectrumsportsnet)",
+  "body": "JJ Redick on Lakers lineup this season 👀 (Via @spectrumsportsnet)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-25T00:47:13.791Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 9.42,
   "scoreMargin": 25.33,
   "highlightQuality": 9.42,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 60.33,
@@ -73,5 +73,17 @@
   "video": "media/DdsMp4wNMI9-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113308324915961",
+  "instagramContainerCreatedAt": "2026-09-25T01:23:36.674Z",
+  "instagramPublishRequestedAt": "2026-09-25T01:24:07.083Z",
+  "instagramMediaId": "18028943279684964",
+  "instagramPermalink": "https://www.instagram.com/reel/DdsRYz6Fass/",
+  "instagramVerifiedAt": "2026-09-25T01:24:15.947Z",
+  "publishedAt": "2026-09-25T01:24:15.948Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdsMp4wNMI9-sportswire247.mp4",
+    "at": "2026-09-25T01:24:15.949Z"
+  }
 }
