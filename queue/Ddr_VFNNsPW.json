@@ -3,16 +3,16 @@
   "shortcode": "Ddr_VFNNsPW",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/Ddr_VFNNsPW/",
-  "sourceCaption": "Malik Nabers on hearing the Jaxson Dart injury news \ud83d\ude4f\n\n(via: @sny_giants)\n#nfl #giants #jaxsondart",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nMalik Nabers on hearing the Jaxson Dart injury news \ud83d\ude4f\n\n(via: @sny_giants)\n#nfl #giants #jaxsondart\n\n#football\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Malik Nabers on hearing the Jaxson Dart injury news 🙏\n\n(via: @sny_giants)\n#nfl #giants #jaxsondart",
+  "publishCaption": "You have to see this one twice 👀\n\nMalik Nabers on hearing the Jaxson Dart injury news 🙏\n\n(via: @sny_giants)\n#nfl #giants #jaxsondart\n\n#football\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-25T00:02:03.465Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Malik Nabers on hearing the Jaxson Dart injury news \ud83d\ude4f\n\n(via: @sny_giants)\n#nfl #giants #jaxsondart",
+  "body": "Malik Nabers on hearing the Jaxson Dart injury news 🙏\n\n(via: @sny_giants)\n#nfl #giants #jaxsondart",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-25T00:02:52.009Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 61.23,
   "engagementScore": 16.9,
   "scoreMargin": 21.23,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 61.23,
@@ -73,5 +73,17 @@
   "video": "media/Ddr_VFNNsPW-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113297230915961",
+  "instagramContainerCreatedAt": "2026-09-25T00:43:05.761Z",
+  "instagramPublishRequestedAt": "2026-09-25T00:43:51.409Z",
+  "instagramMediaId": "17983847487019950",
+  "instagramPermalink": "https://www.instagram.com/reel/DdsMxRRlHjo/",
+  "instagramVerifiedAt": "2026-09-25T00:43:59.693Z",
+  "publishedAt": "2026-09-25T00:43:59.694Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddr_VFNNsPW-sportswire247.mp4",
+    "at": "2026-09-25T00:43:59.695Z"
+  }
 }
