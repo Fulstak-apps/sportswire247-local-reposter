@@ -3,16 +3,16 @@
   "shortcode": "Ddttxb9ODnP",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Ddttxb9ODnP/",
-  "sourceCaption": "Big year for Embiid loading.\ud83d\udd25\ud83d\ude24 (via @mindthegamepod, @uninterrupted)",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nBig year for Embiid loading.\ud83d\udd25\ud83d\ude24 (via @mindthegamepod, @uninterrupted)\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Big year for Embiid loading.🔥😤 (via @mindthegamepod, @uninterrupted)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nBig year for Embiid loading.🔥😤 (via @mindthegamepod, @uninterrupted)\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-25T15:01:29.824Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Big year for Embiid loading.\ud83d\udd25\ud83d\ude24 (via @mindthegamepod, @uninterrupted)",
+  "body": "Big year for Embiid loading.🔥😤 (via @mindthegamepod, @uninterrupted)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-25T15:02:19.256Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.82,
   "scoreMargin": 28.57,
   "highlightQuality": 12.82,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 63.57,
@@ -73,5 +73,17 @@
   "video": "media/Ddttxb9ODnP-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113525065915961",
+  "instagramContainerCreatedAt": "2026-09-25T15:37:34.693Z",
+  "instagramPublishRequestedAt": "2026-09-25T15:38:20.236Z",
+  "instagramMediaId": "18430092313178456",
+  "instagramPermalink": "https://www.instagram.com/reel/DdtzHfmFfdi/",
+  "instagramVerifiedAt": "2026-09-25T15:38:27.496Z",
+  "publishedAt": "2026-09-25T15:38:27.497Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddttxb9ODnP-sportswire247.mp4",
+    "at": "2026-09-25T15:38:27.498Z"
+  }
 }
