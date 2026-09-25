@@ -3,16 +3,16 @@
   "shortcode": "Ddrv2oezv_V",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Ddrv2oezv_V/",
-  "sourceCaption": "\u201cOnce again\u201d \ud83d\ude02\ud83d\ude02 lil bro a pro at this \ud83d\udd25 (via @morgane_10)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\n\u201cOnce again\u201d \ud83d\ude02\ud83d\ude02 lil bro a pro at this \ud83d\udd25 (via @morgane_10)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "“Once again” 😂😂 lil bro a pro at this 🔥 (via @morgane_10)",
+  "publishCaption": "The moment says it all 👀\n\n“Once again” 😂😂 lil bro a pro at this 🔥 (via @morgane_10)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-24T20:38:00.663Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "\u201cOnce again\u201d \ud83d\ude02\ud83d\ude02 lil bro a pro at this \ud83d\udd25 (via @morgane_10)",
+  "body": "“Once again” 😂😂 lil bro a pro at this 🔥 (via @morgane_10)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-24T20:38:49.596Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.61,
   "scoreMargin": -35.54,
   "highlightQuality": 11.61,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 44.46,
@@ -73,5 +73,17 @@
   "video": "media/Ddrv2oezv_V-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113535304915961",
+  "instagramContainerCreatedAt": "2026-09-25T16:18:09.212Z",
+  "instagramPublishRequestedAt": "2026-09-25T16:18:24.391Z",
+  "instagramMediaId": "18470686060118905",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddt3wqxDIr2/",
+  "instagramVerifiedAt": "2026-09-25T16:18:31.942Z",
+  "publishedAt": "2026-09-25T16:18:31.942Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddrv2oezv_V-sportswire247.mp4",
+    "at": "2026-09-25T16:18:31.943Z"
+  }
 }
