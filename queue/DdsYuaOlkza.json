@@ -3,16 +3,16 @@
   "shortcode": "DdsYuaOlkza",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/espnw/p/DdsYuaOlkza/",
-  "sourceCaption": "No. 1 seed Lynx hands Indiana its largest loss of the season by 22 PTS \ud83d\ude24",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nNo. 1 seed Lynx hands Indiana its largest loss of the season by 22 PTS \ud83d\ude24\n\n#sports\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "No. 1 seed Lynx hands Indiana its largest loss of the season by 22 PTS 😤",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nNo. 1 seed Lynx hands Indiana its largest loss of the season by 22 PTS 😤\n\n#sports\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-25T02:36:22.113Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "No. 1 seed Lynx hands Indiana its largest loss of the season by 22 PTS \ud83d\ude24",
+  "body": "No. 1 seed Lynx hands Indiana its largest loss of the season by 22 PTS 😤",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-25T02:37:10.759Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 46.97,
   "engagementScore": 15.19,
   "scoreMargin": -33.03,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 46.97,
@@ -73,5 +73,17 @@
   "video": "media/DdsYuaOlkza-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113485501915961",
+  "instagramContainerCreatedAt": "2026-09-25T13:39:49.226Z",
+  "instagramPublishRequestedAt": "2026-09-25T13:40:19.800Z",
+  "instagramMediaId": "17900363469375105",
+  "instagramPermalink": "https://www.instagram.com/reel/DdtlpIliFWO/",
+  "instagramVerifiedAt": "2026-09-25T13:40:27.050Z",
+  "publishedAt": "2026-09-25T13:40:27.051Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdsYuaOlkza-sportswire247.mp4",
+    "at": "2026-09-25T13:40:27.052Z"
+  }
 }
