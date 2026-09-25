@@ -3,16 +3,16 @@
   "shortcode": "DdulASbzKcc",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdulASbzKcc/",
-  "sourceCaption": "Giannis got a warm welcome to Miami \ud83d\ude05\ud83e\udd8e (@giannis_an34, h/t WadexFlash)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nGiannis got a warm welcome to Miami \ud83d\ude05\ud83e\udd8e (@giannis_an34, h/t WadexFlash)\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Giannis got a warm welcome to Miami 😅🦎 (@giannis_an34, h/t WadexFlash)",
+  "publishCaption": "You have to see this one twice 👀\n\nGiannis got a warm welcome to Miami 😅🦎 (@giannis_an34, h/t WadexFlash)\n\n#basketball #nba\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-25T22:58:20.500Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Giannis got a warm welcome to Miami \ud83d\ude05\ud83e\udd8e (@giannis_an34, h/t WadexFlash)",
+  "body": "Giannis got a warm welcome to Miami 😅🦎 (@giannis_an34, h/t WadexFlash)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-25T22:59:09.235Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 5.57,
   "scoreMargin": 21.51,
   "highlightQuality": 5.57,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 56.51,
@@ -73,5 +73,17 @@
   "video": "media/DdulASbzKcc-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113623882915961",
+  "instagramContainerCreatedAt": "2026-09-25T23:01:30.390Z",
+  "instagramPublishRequestedAt": "2026-09-25T23:02:00.857Z",
+  "instagramMediaId": "18113809343032340",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddul654Dvul/",
+  "instagramVerifiedAt": "2026-09-25T23:02:07.927Z",
+  "publishedAt": "2026-09-25T23:02:07.928Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdulASbzKcc-sportswire247.mp4",
+    "at": "2026-09-25T23:02:07.929Z"
+  }
 }
