@@ -3,16 +3,16 @@
   "shortcode": "DdsHG4lAzMd",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/DdsHG4lAzMd/",
-  "sourceCaption": "Nobody is peeping Usian Bolt??? \ud83d\ude2d (h/t memesss073/TT)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nNobody is peeping Usian Bolt??? \ud83d\ude2d (h/t memesss073/TT)\n\n#sports\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Nobody is peeping Usian Bolt??? 😭 (h/t memesss073/TT)",
+  "publishCaption": "You have to see this one twice 👀\n\nNobody is peeping Usian Bolt??? 😭 (h/t memesss073/TT)\n\n#sports\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-25T00:03:13.607Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Nobody is peeping Usian Bolt??? \ud83d\ude2d (h/t memesss073/TT)",
+  "body": "Nobody is peeping Usian Bolt??? 😭 (h/t memesss073/TT)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-25T00:04:03.026Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.77,
   "scoreMargin": -38.44,
   "highlightQuality": 10.77,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.56,
@@ -73,5 +73,17 @@
   "video": "media/DdsHG4lAzMd-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113607478915961",
+  "instagramContainerCreatedAt": "2026-09-25T21:40:16.134Z",
+  "instagramPublishRequestedAt": "2026-09-25T21:40:47.150Z",
+  "instagramMediaId": "18021568292866941",
+  "instagramPermalink": "https://www.instagram.com/reel/DducnyxFQWc/",
+  "instagramVerifiedAt": "2026-09-25T21:40:56.405Z",
+  "publishedAt": "2026-09-25T21:40:56.406Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdsHG4lAzMd-sportswire247.mp4",
+    "at": "2026-09-25T21:40:56.406Z"
+  }
 }
