@@ -3,16 +3,16 @@
   "shortcode": "Ddsdn5ENMPp",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Ddsdn5ENMPp/",
-  "sourceCaption": "BIJAN ROBINSON COOKED GREEN BAY \ud83d\ude33 (Via @valleyysports)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nBIJAN ROBINSON COOKED GREEN BAY \ud83d\ude33 (Via @valleyysports)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "BIJAN ROBINSON COOKED GREEN BAY 😳 (Via @valleyysports)",
+  "publishCaption": "You have to see this one twice 👀\n\nBIJAN ROBINSON COOKED GREEN BAY 😳 (Via @valleyysports)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-25T03:20:40.278Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "BIJAN ROBINSON COOKED GREEN BAY \ud83d\ude33 (Via @valleyysports)",
+  "body": "BIJAN ROBINSON COOKED GREEN BAY 😳 (Via @valleyysports)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-25T03:21:28.938Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.34,
   "scoreMargin": -35.77,
   "highlightQuality": 11.34,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 44.23,
@@ -73,5 +73,17 @@
   "video": "media/Ddsdn5ENMPp-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113557300915961",
+  "instagramContainerCreatedAt": "2026-09-25T17:24:25.177Z",
+  "instagramPublishRequestedAt": "2026-09-25T17:24:55.567Z",
+  "instagramMediaId": "18227550538331003",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddt_WksiW3J/",
+  "instagramVerifiedAt": "2026-09-25T17:25:02.186Z",
+  "publishedAt": "2026-09-25T17:25:02.186Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddsdn5ENMPp-sportswire247.mp4",
+    "at": "2026-09-25T17:25:02.187Z"
+  }
 }
