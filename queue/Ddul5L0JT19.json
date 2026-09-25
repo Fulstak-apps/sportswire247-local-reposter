@@ -3,16 +3,16 @@
   "shortcode": "Ddul5L0JT19",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Ddul5L0JT19/",
-  "sourceCaption": "W manners\ud83d\udd25\n\n(via @imfromthestead) \n\n#wholesome #lebronjames #lakers #nba",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nW manners\ud83d\udd25\n\n(via @imfromthestead) \n\n#wholesome #lebronjames #lakers #nba\n\n#basketball\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "W manners🔥\n\n(via @imfromthestead) \n\n#wholesome #lebronjames #lakers #nba",
+  "publishCaption": "The moment says it all 👀\n\nW manners🔥\n\n(via @imfromthestead) \n\n#wholesome #lebronjames #lakers #nba\n\n#basketball\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-25T23:05:37.526Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "W manners\ud83d\udd25\n\n(via @imfromthestead) \n\n#wholesome #lebronjames #lakers #nba",
+  "body": "W manners🔥\n\n(via @imfromthestead) \n\n#wholesome #lebronjames #lakers #nba",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-25T23:06:26.495Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 6.19,
   "scoreMargin": 20.1,
   "highlightQuality": 6.19,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 55.1,
@@ -73,5 +73,17 @@
   "video": "media/Ddul5L0JT19-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113632564915961",
+  "instagramContainerCreatedAt": "2026-09-25T23:36:54.984Z",
+  "instagramPublishRequestedAt": "2026-09-25T23:37:55.805Z",
+  "instagramMediaId": "18104356847209834",
+  "instagramPermalink": "https://www.instagram.com/reel/DduqB4hDUvs/",
+  "instagramVerifiedAt": "2026-09-25T23:38:02.209Z",
+  "publishedAt": "2026-09-25T23:38:02.210Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddul5L0JT19-sportswire247.mp4",
+    "at": "2026-09-25T23:38:02.212Z"
+  }
 }
