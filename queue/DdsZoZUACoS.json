@@ -3,16 +3,16 @@
   "shortcode": "DdsZoZUACoS",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/espn/reel/DdsZoZUACoS/",
-  "sourceCaption": "@omar surprised these Yankees fans sitting in the top section with a once in a lifetime fan experience! \u2764\ufe0f",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\n@omar surprised these Yankees fans sitting in the top section with a once in a lifetime fan experience! \u2764\ufe0f\n\n#sports\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "@omar surprised these Yankees fans sitting in the top section with a once in a lifetime fan experience! ❤️",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\n@omar surprised these Yankees fans sitting in the top section with a once in a lifetime fan experience! ❤️\n\n#sports\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-25T02:44:05.685Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "@omar surprised these Yankees fans sitting in the top section with a once in a lifetime fan experience! \u2764\ufe0f",
+  "body": "@omar surprised these Yankees fans sitting in the top section with a once in a lifetime fan experience! ❤️",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-25T02:44:54.315Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.66,
   "scoreMargin": -36.6,
   "highlightQuality": 11.66,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.4,
@@ -73,5 +73,17 @@
   "video": "media/DdsZoZUACoS-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113584792915961",
+  "instagramContainerCreatedAt": "2026-09-25T19:38:37.864Z",
+  "instagramPublishRequestedAt": "2026-09-25T19:39:23.552Z",
+  "instagramMediaId": "18448534792131092",
+  "instagramPermalink": "https://www.instagram.com/reel/DduOteDgi7M/",
+  "instagramVerifiedAt": "2026-09-25T19:39:30.879Z",
+  "publishedAt": "2026-09-25T19:39:30.880Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdsZoZUACoS-sportswire247.mp4",
+    "at": "2026-09-25T19:39:30.881Z"
+  }
 }
