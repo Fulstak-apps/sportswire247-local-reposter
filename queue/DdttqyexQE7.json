@@ -3,16 +3,16 @@
   "shortcode": "DdttqyexQE7",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/DdttqyexQE7/",
-  "sourceCaption": "When I go to make a bowl of cereal but there\u2019s no milk \ud83d\ude43 @bluearrowclassic",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nWhen I go to make a bowl of cereal but there\u2019s no milk \ud83d\ude43 @bluearrowclassic\n\n#sports\n\nSource: @overtime\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "When I go to make a bowl of cereal but there’s no milk 🙃 @bluearrowclassic",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nWhen I go to make a bowl of cereal but there’s no milk 🙃 @bluearrowclassic\n\n#sports\n\nSource: @overtime\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-25T15:03:48.302Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "When I go to make a bowl of cereal but there\u2019s no milk \ud83d\ude43 @bluearrowclassic",
+  "body": "When I go to make a bowl of cereal but there’s no milk 🙃 @bluearrowclassic",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-25T15:04:36.716Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.84,
   "scoreMargin": -37.45,
   "highlightQuality": 11.84,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.55,
@@ -73,5 +73,17 @@
   "video": "media/DdttqyexQE7-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113600572915961",
+  "instagramContainerCreatedAt": "2026-09-25T20:59:40.429Z",
+  "instagramPublishRequestedAt": "2026-09-25T21:00:10.756Z",
+  "instagramMediaId": "17960448987243618",
+  "instagramPermalink": "https://www.instagram.com/reel/DduX-ltj9Rk/",
+  "instagramVerifiedAt": "2026-09-25T21:00:19.492Z",
+  "publishedAt": "2026-09-25T21:00:19.493Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdttqyexQE7-sportswire247.mp4",
+    "at": "2026-09-25T21:00:19.494Z"
+  }
 }
