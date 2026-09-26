@@ -3,16 +3,16 @@
   "shortcode": "Ddu1qkVNZkq",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Ddu1qkVNZkq/",
-  "sourceCaption": "Whole squad is cooked \ud83d\ude2d\ud83d\udc94 (Via @a_butt_07)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nWhole squad is cooked \ud83d\ude2d\ud83d\udc94 (Via @a_butt_07)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Whole squad is cooked 😭💔 (Via @a_butt_07)",
+  "publishCaption": "You have to see this one twice 👀\n\nWhole squad is cooked 😭💔 (Via @a_butt_07)\n\n#sports\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-26T01:25:25.760Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Whole squad is cooked \ud83d\ude2d\ud83d\udc94 (Via @a_butt_07)",
+  "body": "Whole squad is cooked 😭💔 (Via @a_butt_07)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-26T01:26:14.735Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.17,
   "scoreMargin": -36.03,
   "highlightQuality": 11.17,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 43.97,
@@ -73,5 +73,17 @@
   "video": "media/Ddu1qkVNZkq-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113690572915961",
+  "instagramContainerCreatedAt": "2026-09-26T04:10:48.487Z",
+  "instagramPublishRequestedAt": "2026-09-26T04:11:18.750Z",
+  "instagramMediaId": "17909329353480336",
+  "instagramPermalink": "https://www.instagram.com/reel/DdvJU37HSeb/",
+  "instagramVerifiedAt": "2026-09-26T04:11:25.319Z",
+  "publishedAt": "2026-09-26T04:11:25.320Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddu1qkVNZkq-sportswire247.mp4",
+    "at": "2026-09-26T04:11:25.321Z"
+  }
 }
