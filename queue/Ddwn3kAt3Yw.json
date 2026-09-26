@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymedia/reel/Ddwn3kAt3Yw/",
   "sourceCaption": "Texas defensive end Colin Simmons got penalized from pretending to pee after sacking the quarterback\n\n#football #referee #collegefootball #sports #hookem",
-  "publishCaption": "Sports are unreal sometimes \ud83d\ude2e\u200d\ud83d\udca8\n\nTexas defensive end Colin Simmons got penalized from pretending to pee after sacking the quarterback\n\n#football #referee #collegefootball #sports #hookem\n\n#nfl\n\nSource: @jomboymedia\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "Sports are unreal sometimes 😮‍💨\n\nTexas defensive end Colin Simmons got penalized from pretending to pee after sacking the quarterback\n\n#football #referee #collegefootball #sports #hookem\n\n#nfl\n\nSource: @jomboymedia\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-26T18:04:12.575Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 8.61,
   "scoreMargin": 23.44,
   "highlightQuality": 28.61,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 63.44,
@@ -75,5 +75,17 @@
   "video": "media/Ddwn3kAt3Yw-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113919247915961",
+  "instagramContainerCreatedAt": "2026-09-26T18:32:18.516Z",
+  "instagramPublishRequestedAt": "2026-09-26T18:32:49.037Z",
+  "instagramMediaId": "18192013033409112",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddwr6GGEdXx/",
+  "instagramVerifiedAt": "2026-09-26T18:32:57.363Z",
+  "publishedAt": "2026-09-26T18:32:57.364Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddwn3kAt3Yw-sportswire247.mp4",
+    "at": "2026-09-26T18:32:57.365Z"
+  }
 }
