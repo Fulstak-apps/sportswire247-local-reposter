@@ -3,16 +3,16 @@
   "shortcode": "DdwEvqgzWcS",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdwEvqgzWcS/",
-  "sourceCaption": "BRON IS SO FUNNY \u203c\ufe0f\ud83d\ude02",
-  "publishCaption": "The crossover nobody saw coming \ud83d\ude02\n\nBRON IS SO FUNNY \u203c\ufe0f\ud83d\ude02\n\n#sports\n\nSource: @houseofhighlights\n\nWho had the better moment here?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "BRON IS SO FUNNY ‼️😂",
+  "publishCaption": "The crossover nobody saw coming 😂\n\nBRON IS SO FUNNY ‼️😂\n\n#sports\n\nSource: @houseofhighlights\n\nWho had the better moment here?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-26T13:47:51.260Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 1,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "BRON IS SO FUNNY \u203c\ufe0f\ud83d\ude02",
+  "body": "BRON IS SO FUNNY ‼️😂",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-26T14:04:21.075Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 51.28,
   "engagementScore": 15.62,
   "scoreMargin": -28.72,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 51.28,
@@ -74,5 +74,17 @@
   "video": "media/DdwEvqgzWcS-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113933284915961",
+  "instagramContainerCreatedAt": "2026-09-26T19:35:27.168Z",
+  "instagramPublishRequestedAt": "2026-09-26T19:35:57.568Z",
+  "instagramMediaId": "18108587243127398",
+  "instagramPermalink": "https://www.instagram.com/reel/DdwzIh3DvrO/",
+  "instagramVerifiedAt": "2026-09-26T19:36:05.058Z",
+  "publishedAt": "2026-09-26T19:36:05.060Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdwEvqgzWcS-sportswire247.mp4",
+    "at": "2026-09-26T19:36:05.106Z"
+  }
 }
