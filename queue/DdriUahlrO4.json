@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/talkinbaseball_/p/DdriUahlrO4/",
   "sourceCaption": "Pete Crow-Armstrong  joins the 40/40 club! He is the third player since 2023 to reach this milestone",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nPete Crow-Armstrong  joins the 40/40 club! He is the third player since 2023 to reach this milestone\n\n#sports\n\nSource: @jomboymedia\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "The moment says it all 👀\n\nPete Crow-Armstrong  joins the 40/40 club! He is the third player since 2023 to reach this milestone\n\n#sports\n\nSource: @jomboymedia\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-24T18:39:02.500Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 11.28,
   "scoreMargin": -38.91,
   "highlightQuality": 11.28,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.09,
@@ -73,5 +73,17 @@
   "video": "media/DdriUahlrO4-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113848957915961",
+  "instagramContainerCreatedAt": "2026-09-26T14:33:41.662Z",
+  "instagramPublishRequestedAt": "2026-09-26T14:34:57.611Z",
+  "instagramMediaId": "18066512933782234",
+  "instagramPermalink": "https://www.instagram.com/reel/DdwQr6pAowC/",
+  "instagramVerifiedAt": "2026-09-26T14:35:05.413Z",
+  "publishedAt": "2026-09-26T14:35:05.414Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdriUahlrO4-sportswire247.mp4",
+    "at": "2026-09-26T14:35:05.415Z"
+  }
 }
