@@ -3,16 +3,16 @@
   "shortcode": "DdwXhf1G2wP",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_cfb/p/DdwXhf1G2wP/",
-  "sourceCaption": "Coach Cig was NOT happy with Indiana\u2019s start last night \ud83d\ude33\n\n(via ian_plaskoff/X)\n\n#cfb #collegefootball #indiana #hoosiers #curtcignetti",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nCoach Cig was NOT happy with Indiana\u2019s start last night \ud83d\ude33\n\n(via ian_plaskoff/X)\n\n#cfb #collegefootball #indiana #hoosiers #curtcignetti\n\n#football #nfl\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Coach Cig was NOT happy with Indiana’s start last night 😳\n\n(via ian_plaskoff/X)\n\n#cfb #collegefootball #indiana #hoosiers #curtcignetti",
+  "publishCaption": "You have to see this one twice 👀\n\nCoach Cig was NOT happy with Indiana’s start last night 😳\n\n(via ian_plaskoff/X)\n\n#cfb #collegefootball #indiana #hoosiers #curtcignetti\n\n#football #nfl\n\nSource: @bleacherreport\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-26T15:38:09.801Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Coach Cig was NOT happy with Indiana\u2019s start last night \ud83d\ude33\n\n(via ian_plaskoff/X)\n\n#cfb #collegefootball #indiana #hoosiers #curtcignetti",
+  "body": "Coach Cig was NOT happy with Indiana’s start last night 😳\n\n(via ian_plaskoff/X)\n\n#cfb #collegefootball #indiana #hoosiers #curtcignetti",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-26T15:38:58.504Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 8.39,
   "scoreMargin": 14.28,
   "highlightQuality": 8.39,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 54.28,
@@ -73,5 +73,17 @@
   "video": "media/DdwXhf1G2wP-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113881780915961",
+  "instagramContainerCreatedAt": "2026-09-26T16:10:03.721Z",
+  "instagramPublishRequestedAt": "2026-09-26T16:10:33.993Z",
+  "instagramMediaId": "17911637274536463",
+  "instagramPermalink": "https://www.instagram.com/reel/DdwboFuAeJ8/",
+  "instagramVerifiedAt": "2026-09-26T16:10:40.498Z",
+  "publishedAt": "2026-09-26T16:10:40.499Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdwXhf1G2wP-sportswire247.mp4",
+    "at": "2026-09-26T16:10:40.500Z"
+  }
 }
