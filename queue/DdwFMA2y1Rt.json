@@ -4,9 +4,9 @@
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymedia/reel/DdwFMA2y1Rt/",
   "sourceCaption": "Legendary hockey announcer Doc Emrick gave his keys to the game on the Pirates broadcast",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nLegendary hockey announcer Doc Emrick gave his keys to the game on the Pirates broadcast\n\n#nhl #hockey\n\nSource: @jomboymedia\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "You have to see this one twice 👀\n\nLegendary hockey announcer Doc Emrick gave his keys to the game on the Pirates broadcast\n\n#nhl #hockey\n\nSource: @jomboymedia\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-26T14:25:16.201Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 1,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 8.44,
   "scoreMargin": -3.81,
   "highlightQuality": 8.44,
-  "postingFloor": 50.0,
-  "highlightFloor": 54.0,
+  "postingFloor": 50,
+  "highlightFloor": 54,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 46.19,
@@ -73,5 +73,17 @@
   "video": "media/DdwFMA2y1Rt-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113925958915961",
+  "instagramContainerCreatedAt": "2026-09-26T19:04:38.506Z",
+  "instagramPublishRequestedAt": "2026-09-26T19:05:08.795Z",
+  "instagramMediaId": "17918890326446831",
+  "instagramPermalink": "https://www.instagram.com/reel/DdwvnF6AeNT/",
+  "instagramVerifiedAt": "2026-09-26T19:05:16.965Z",
+  "publishedAt": "2026-09-26T19:05:16.965Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdwFMA2y1Rt-sportswire247.mp4",
+    "at": "2026-09-26T19:05:16.967Z"
+  }
 }
