@@ -4,9 +4,9 @@
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdwmUg4x23Q/",
   "sourceCaption": "Colin Simmons was called for an unsportsmanslike conduct penalty after a sack on 3rd down. #cfb",
-  "publishCaption": "Sports are unreal sometimes \ud83d\ude2e\u200d\ud83d\udca8\n\nColin Simmons was called for an unsportsmanslike conduct penalty after a sack on 3rd down. #cfb\n\n#football #nfl\n\nSource: @sportscenter\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "Sports are unreal sometimes 😮‍💨\n\nColin Simmons was called for an unsportsmanslike conduct penalty after a sack on 3rd down. #cfb\n\n#football #nfl\n\nSource: @sportscenter\n\nWould you have made that play?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-26T17:46:51.732Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 4.96,
   "scoreMargin": 21.87,
   "highlightQuality": 24.96,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 61.87,
@@ -75,5 +75,17 @@
   "video": "media/DdwmUg4x23Q-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113910793915961",
+  "instagramContainerCreatedAt": "2026-09-26T17:53:50.637Z",
+  "instagramPublishRequestedAt": "2026-09-26T17:54:20.954Z",
+  "instagramMediaId": "18057994700795116",
+  "instagramPermalink": "https://www.instagram.com/reel/DdwngZRkU3U/",
+  "instagramVerifiedAt": "2026-09-26T17:54:29.177Z",
+  "publishedAt": "2026-09-26T17:54:29.178Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdwmUg4x23Q-sportswire247.mp4",
+    "at": "2026-09-26T17:54:29.181Z"
+  }
 }
