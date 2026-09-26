@@ -3,16 +3,16 @@
   "shortcode": "Ddwf8g4TyTD",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Ddwf8g4TyTD/",
-  "sourceCaption": "NAHHH HE DID HIM DIRTY \ud83d\ude33\ud83d\ude2d (via awireman/X)",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nNAHHH HE DID HIM DIRTY \ud83d\ude33\ud83d\ude2d (via awireman/X)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "NAHHH HE DID HIM DIRTY 😳😭 (via awireman/X)",
+  "publishCaption": "The moment says it all 👀\n\nNAHHH HE DID HIM DIRTY 😳😭 (via awireman/X)\n\n#sports\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-26T17:03:56.856Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "NAHHH HE DID HIM DIRTY \ud83d\ude33\ud83d\ude2d (via awireman/X)",
+  "body": "NAHHH HE DID HIM DIRTY 😳😭 (via awireman/X)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-26T17:04:45.396Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.58,
   "scoreMargin": -34.66,
   "highlightQuality": 12.58,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.34,
@@ -73,5 +73,17 @@
   "video": "media/Ddwf8g4TyTD-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113949484915961",
+  "instagramContainerCreatedAt": "2026-09-26T20:46:47.103Z",
+  "instagramPublishRequestedAt": "2026-09-26T20:47:17.343Z",
+  "instagramMediaId": "18468504367140898",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddw7TNxiF_U/",
+  "instagramVerifiedAt": "2026-09-26T20:47:27.764Z",
+  "publishedAt": "2026-09-26T20:47:27.765Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddwf8g4TyTD-sportswire247.mp4",
+    "at": "2026-09-26T20:47:27.766Z"
+  }
 }
