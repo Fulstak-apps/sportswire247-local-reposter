@@ -3,16 +3,16 @@
   "shortcode": "DdtgakzstQQ",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/espn/reel/DdtgakzstQQ/",
-  "sourceCaption": "Ian Happ showing love to the fans in Chicago \ud83d\udc99 \n\n(via @bleacher_bums)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nIan Happ showing love to the fans in Chicago \ud83d\udc99 \n\n(via @bleacher_bums)\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Ian Happ showing love to the fans in Chicago 💙 \n\n(via @bleacher_bums)",
+  "publishCaption": "You have to see this one twice 👀\n\nIan Happ showing love to the fans in Chicago 💙 \n\n(via @bleacher_bums)\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-26T02:47:07.146Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Ian Happ showing love to the fans in Chicago \ud83d\udc99 \n\n(via @bleacher_bums)",
+  "body": "Ian Happ showing love to the fans in Chicago 💙 \n\n(via @bleacher_bums)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-26T02:47:55.966Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 41.75,
   "engagementScore": 22.66,
   "scoreMargin": -38.25,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.75,
@@ -73,5 +73,17 @@
   "video": "media/DdtgakzstQQ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113813845915961",
+  "instagramContainerCreatedAt": "2026-09-26T12:41:22.015Z",
+  "instagramPublishRequestedAt": "2026-09-26T12:41:52.478Z",
+  "instagramMediaId": "18623730106009810",
+  "instagramPermalink": "https://www.instagram.com/reel/DdwDv0lCQrc/",
+  "instagramVerifiedAt": "2026-09-26T12:41:59.266Z",
+  "publishedAt": "2026-09-26T12:41:59.266Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdtgakzstQQ-sportswire247.mp4",
+    "at": "2026-09-26T12:41:59.268Z"
+  }
 }
