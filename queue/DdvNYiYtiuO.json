@@ -3,16 +3,16 @@
   "shortcode": "DdvNYiYtiuO",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdvNYiYtiuO/",
-  "sourceCaption": "HOCKEY IS BACK \ud83d\ude2d\ud83d\ude4c (h/t starsofthunder/x)",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nHOCKEY IS BACK \ud83d\ude2d\ud83d\ude4c (h/t starsofthunder/x)\n\n#nhl #hockey\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "HOCKEY IS BACK 😭🙌 (h/t starsofthunder/x)",
+  "publishCaption": "You have to see this one twice 👀\n\nHOCKEY IS BACK 😭🙌 (h/t starsofthunder/x)\n\n#nhl #hockey\n\nSource: @houseofhighlights\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-26T04:50:22.512Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "HOCKEY IS BACK \ud83d\ude2d\ud83d\ude4c (h/t starsofthunder/x)",
+  "body": "HOCKEY IS BACK 😭🙌 (h/t starsofthunder/x)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-26T04:51:10.872Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 5.71,
   "scoreMargin": -1.39,
   "highlightQuality": 5.71,
-  "postingFloor": 50.0,
-  "highlightFloor": 54.0,
+  "postingFloor": 50,
+  "highlightFloor": 54,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.61,
@@ -73,5 +73,17 @@
   "video": "media/DdvNYiYtiuO-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113788852915961",
+  "instagramContainerCreatedAt": "2026-09-26T11:44:47.978Z",
+  "instagramPublishRequestedAt": "2026-09-26T11:45:18.423Z",
+  "instagramMediaId": "18128151517796360",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddv9RXAFWlE/",
+  "instagramVerifiedAt": "2026-09-26T11:45:30.260Z",
+  "publishedAt": "2026-09-26T11:45:30.261Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdvNYiYtiuO-sportswire247.mp4",
+    "at": "2026-09-26T11:45:30.262Z"
+  }
 }
