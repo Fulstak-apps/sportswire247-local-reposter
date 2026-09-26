@@ -4,9 +4,9 @@
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/DduqIo7mGRx/",
   "sourceCaption": "Giannis Antetokounmpo was reportedly spotted running for cover after a Florida iguana appeared in his Miami home. \n\nSources say the two-time MVP refused to come back outside until help arrived. \n\nThe iguana remains at large. Please contact authorities if seen.",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nGiannis Antetokounmpo was reportedly spotted running for cover after a Florida iguana appeared in his Miami home. \n\nSources say the two-time MVP refused to come back outside until help arrived. \n\nThe iguana remains at large. Please contact authorities if seen.\n\n#basketball #nba\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "publishCaption": "You have to see this one twice 👀\n\nGiannis Antetokounmpo was reportedly spotted running for cover after a Florida iguana appeared in his Miami home. \n\nSources say the two-time MVP refused to come back outside until help arrived. \n\nThe iguana remains at large. Please contact authorities if seen.\n\n#basketball #nba\n\nSource: @overtime\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-25T23:40:23.804Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 5.81,
   "scoreMargin": 19.76,
   "highlightQuality": 5.81,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 54.76,
@@ -73,5 +73,17 @@
   "video": "media/DduqIo7mGRx-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113644267915961",
+  "instagramContainerCreatedAt": "2026-09-26T00:58:06.458Z",
+  "instagramPublishRequestedAt": "2026-09-26T00:58:36.861Z",
+  "instagramMediaId": "18379372414300291",
+  "instagramPermalink": "https://www.instagram.com/reel/DduzQ1KjkCu/",
+  "instagramVerifiedAt": "2026-09-26T00:58:49.503Z",
+  "publishedAt": "2026-09-26T00:58:49.503Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DduqIo7mGRx-sportswire247.mp4",
+    "at": "2026-09-26T00:58:49.505Z"
+  }
 }
