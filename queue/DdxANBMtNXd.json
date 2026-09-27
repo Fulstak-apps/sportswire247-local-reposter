@@ -3,16 +3,16 @@
   "shortcode": "DdxANBMtNXd",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdxANBMtNXd/",
-  "sourceCaption": "Jeremiah Smith couldn\u2019t help himself but laugh when he had the defender lost \ud83d\ude05\ud83d\ude2d #cfb",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nJeremiah Smith couldn\u2019t help himself but laugh when he had the defender lost \ud83d\ude05\ud83d\ude2d #cfb\n\n#football #nfl\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Jeremiah Smith couldn’t help himself but laugh when he had the defender lost 😅😭 #cfb",
+  "publishCaption": "You have to see this one twice 👀\n\nJeremiah Smith couldn’t help himself but laugh when he had the defender lost 😅😭 #cfb\n\n#football #nfl\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-26T21:36:26.213Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jeremiah Smith couldn\u2019t help himself but laugh when he had the defender lost \ud83d\ude05\ud83d\ude2d #cfb",
+  "body": "Jeremiah Smith couldn’t help himself but laugh when he had the defender lost 😅😭 #cfb",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-26T21:37:15.968Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 62.58,
   "engagementScore": 15.75,
   "scoreMargin": 22.58,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 62.58,
@@ -73,5 +73,17 @@
   "video": "media/DdxANBMtNXd-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114058900915961",
+  "instagramContainerCreatedAt": "2026-09-27T05:29:40.512Z",
+  "instagramPublishRequestedAt": "2026-09-27T05:30:10.966Z",
+  "instagramMediaId": "17885902047486974",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddx3Iw8kYup/",
+  "instagramVerifiedAt": "2026-09-27T05:30:18.851Z",
+  "publishedAt": "2026-09-27T05:30:18.853Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdxANBMtNXd-sportswire247.mp4",
+    "at": "2026-09-27T05:30:18.856Z"
+  }
 }
