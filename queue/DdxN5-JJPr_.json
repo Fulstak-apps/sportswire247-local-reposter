@@ -3,16 +3,16 @@
   "shortcode": "DdxN5-JJPr_",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdxN5-JJPr_/",
-  "sourceCaption": "Darren Till beats fellow former UFC fighter Yoel Romero via unanimous decision at BKFC 94\ud83d\udd25\n\n@bareknucklefc live on @daznboxing \n\n#bkfc94 #fighting",
-  "publishCaption": "Had to run that one back \ud83d\udc40\n\nDarren Till beats fellow former UFC fighter Yoel Romero via unanimous decision at BKFC 94\ud83d\udd25\n\n@bareknucklefc live on @daznboxing \n\n#bkfc94 #fighting\n\n#sports\n\nSource: @bleacherreport\n\nRate this one 1\u201310.\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Darren Till beats fellow former UFC fighter Yoel Romero via unanimous decision at BKFC 94🔥\n\n@bareknucklefc live on @daznboxing \n\n#bkfc94 #fighting",
+  "publishCaption": "Had to run that one back 👀\n\nDarren Till beats fellow former UFC fighter Yoel Romero via unanimous decision at BKFC 94🔥\n\n@bareknucklefc live on @daznboxing \n\n#bkfc94 #fighting\n\n#sports\n\nSource: @bleacherreport\n\nRate this one 1–10.\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-26T23:32:45.213Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Darren Till beats fellow former UFC fighter Yoel Romero via unanimous decision at BKFC 94\ud83d\udd25\n\n@bareknucklefc live on @daznboxing \n\n#bkfc94 #fighting",
+  "body": "Darren Till beats fellow former UFC fighter Yoel Romero via unanimous decision at BKFC 94🔥\n\n@bareknucklefc live on @daznboxing \n\n#bkfc94 #fighting",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-26T23:33:33.901Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.78,
   "scoreMargin": -28.32,
   "highlightQuality": 30.78,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 51.68,
@@ -75,5 +75,17 @@
   "video": "media/DdxN5-JJPr_-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114096130915961",
+  "instagramContainerCreatedAt": "2026-09-27T08:11:37.959Z",
+  "instagramPublishRequestedAt": "2026-09-27T08:12:08.379Z",
+  "instagramMediaId": "18089063162230203",
+  "instagramPermalink": "https://www.instagram.com/reel/DdyJrCWkjj3/",
+  "instagramVerifiedAt": "2026-09-27T08:12:14.809Z",
+  "publishedAt": "2026-09-27T08:12:14.810Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdxN5-JJPr_-sportswire247.mp4",
+    "at": "2026-09-27T08:12:14.811Z"
+  }
 }
