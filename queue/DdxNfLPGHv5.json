@@ -3,16 +3,16 @@
   "shortcode": "DdxNfLPGHv5",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/espn/p/DdxNfLPGHv5/",
-  "sourceCaption": "NO. 21 FLORIDA HANDS NO. 4 OLE MISS ITS FIRST LOSS OF THE SEASON \ud83d\udd25\n\nTHE GATORS ARE ROCKIN\u2019 \ud83d\udc0a",
-  "publishCaption": "You have to see this one twice \ud83d\udc40\n\nNO. 21 FLORIDA HANDS NO. 4 OLE MISS ITS FIRST LOSS OF THE SEASON \ud83d\udd25\n\nTHE GATORS ARE ROCKIN\u2019 \ud83d\udc0a\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "NO. 21 FLORIDA HANDS NO. 4 OLE MISS ITS FIRST LOSS OF THE SEASON 🔥\n\nTHE GATORS ARE ROCKIN’ 🐊",
+  "publishCaption": "You have to see this one twice 👀\n\nNO. 21 FLORIDA HANDS NO. 4 OLE MISS ITS FIRST LOSS OF THE SEASON 🔥\n\nTHE GATORS ARE ROCKIN’ 🐊\n\n#sports\n\nSource: @sportscenter\n\nWho saw this coming?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-27T01:05:28.348Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "NO. 21 FLORIDA HANDS NO. 4 OLE MISS ITS FIRST LOSS OF THE SEASON \ud83d\udd25\n\nTHE GATORS ARE ROCKIN\u2019 \ud83d\udc0a",
+  "body": "NO. 21 FLORIDA HANDS NO. 4 OLE MISS ITS FIRST LOSS OF THE SEASON 🔥\n\nTHE GATORS ARE ROCKIN’ 🐊",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-27T01:06:17.008Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 54.92,
   "engagementScore": 25.08,
   "scoreMargin": -25.08,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 54.92,
@@ -73,5 +73,17 @@
   "video": "media/DdxNfLPGHv5-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114077599915961",
+  "instagramContainerCreatedAt": "2026-09-27T06:50:38.912Z",
+  "instagramPublishRequestedAt": "2026-09-27T06:51:09.357Z",
+  "instagramMediaId": "18080462549394932",
+  "instagramPermalink": "https://www.instagram.com/reel/DdyAZ08k26P/",
+  "instagramVerifiedAt": "2026-09-27T06:51:18.472Z",
+  "publishedAt": "2026-09-27T06:51:18.472Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdxNfLPGHv5-sportswire247.mp4",
+    "at": "2026-09-27T06:51:18.475Z"
+  }
 }
