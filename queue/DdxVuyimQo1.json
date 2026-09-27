@@ -3,16 +3,16 @@
   "shortcode": "DdxVuyimQo1",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_hoops/p/DdxVuyimQo1/",
-  "sourceCaption": "Bryce James enters year 2 with the Arizona Wildcats, who are coming off a Final Four appearance last season \ud83d\ude08 \ud83d\udd25 @_justbryce",
-  "publishCaption": "Only sports can create a moment like this \ud83d\ude02\n\nBryce James enters year 2 with the Arizona Wildcats, who are coming off a Final Four appearance last season \ud83d\ude08 \ud83d\udd25 @_justbryce\n\n#sports\n\nSource: @bleacherreport\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Bryce James enters year 2 with the Arizona Wildcats, who are coming off a Final Four appearance last season 😈 🔥 @_justbryce",
+  "publishCaption": "Only sports can create a moment like this 😂\n\nBryce James enters year 2 with the Arizona Wildcats, who are coming off a Final Four appearance last season 😈 🔥 @_justbryce\n\n#sports\n\nSource: @bleacherreport\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-27T00:54:45.034Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Bryce James enters year 2 with the Arizona Wildcats, who are coming off a Final Four appearance last season \ud83d\ude08 \ud83d\udd25 @_justbryce",
+  "body": "Bryce James enters year 2 with the Arizona Wildcats, who are coming off a Final Four appearance last season 😈 🔥 @_justbryce",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-27T00:55:33.472Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.7,
   "scoreMargin": -32.7,
   "highlightQuality": 11.7,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 47.3,
@@ -74,5 +74,17 @@
   "video": "media/DdxVuyimQo1-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114232924915961",
+  "instagramContainerCreatedAt": "2026-09-27T15:48:52.685Z",
+  "instagramPublishRequestedAt": "2026-09-27T15:49:08.077Z",
+  "instagramMediaId": "17950368441257466",
+  "instagramPermalink": "https://www.instagram.com/reel/Ddy9_93AXDD/",
+  "instagramVerifiedAt": "2026-09-27T15:49:15.312Z",
+  "publishedAt": "2026-09-27T15:49:15.321Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdxVuyimQo1-sportswire247.mp4",
+    "at": "2026-09-27T15:49:15.340Z"
+  }
 }
