@@ -3,16 +3,16 @@
   "shortcode": "DdxXsxIxZ1A",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/whrissss/reel/DdxXsxIxZ1A/",
-  "sourceCaption": "They\u2019re starting to recognize me. \ud83e\udee3\n\n#nba #meme #basketball #ref #prank",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nThey\u2019re starting to recognize me. \ud83e\udee3\n\n#nba #meme #basketball #ref #prank\n\nSource: @houseofhighlights\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "They’re starting to recognize me. 🫣\n\n#nba #meme #basketball #ref #prank",
+  "publishCaption": "The moment says it all 👀\n\nThey’re starting to recognize me. 🫣\n\n#nba #meme #basketball #ref #prank\n\nSource: @houseofhighlights\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-27T01:02:10.130Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "They\u2019re starting to recognize me. \ud83e\udee3\n\n#nba #meme #basketball #ref #prank",
+  "body": "They’re starting to recognize me. 🫣\n\n#nba #meme #basketball #ref #prank",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-27T01:02:58.590Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.41,
   "scoreMargin": 26.13,
   "highlightQuality": 10.41,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 61.13,
@@ -73,5 +73,17 @@
   "video": "media/DdxXsxIxZ1A-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114023989915961",
+  "instagramContainerCreatedAt": "2026-09-27T03:02:33.221Z",
+  "instagramPublishRequestedAt": "2026-09-27T03:03:03.647Z",
+  "instagramMediaId": "18150730852493934",
+  "instagramPermalink": "https://www.instagram.com/reel/DdxmTiICKFR/",
+  "instagramVerifiedAt": "2026-09-27T03:03:12.162Z",
+  "publishedAt": "2026-09-27T03:03:12.163Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdxXsxIxZ1A-sportswire247.mp4",
+    "at": "2026-09-27T03:03:12.164Z"
+  }
 }
