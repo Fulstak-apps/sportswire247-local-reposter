@@ -22,8 +22,8 @@ function instagramCaption(manifest) {
   // Full URLs remain in the local manifest/source ledger. Instagram captions
   // have a hard character ceiling, so the public post uses readable outlet
   // names rather than five opaque redirect links.
-  const body = manifest.slides.slice(0, 5).map((slide, index) => `${index + 1}. ${slide.headline}\nSource reporting: ${(slide.sources || []).map(s => s.source).join(" + ")}`).join("\n\n");
-  const caption = `${body}\n\nFollow @sportswire247 for verified sports updates.`;
+  const body = manifest.slides.slice(0, 5).map((slide, index) => `${index + 1}. ${slide.headline}\nReporting: ${(slide.sources || []).map(s => s.source).join(" + ")}`).join("\n\n");
+  const caption = body;
   if (caption.length > 2200) throw new Error("Compact carousel caption still exceeds Instagram's limit");
   return caption;
 }

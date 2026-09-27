@@ -92,9 +92,9 @@ def prepare(item: dict, config: dict, approved: set[str]) -> dict:
         ollama_status = "local_ollama"
     except Exception as error: ollama_status = f"fallback_source_caption: {type(error).__name__}"
     source_caption = ranked.get("sourceCaption", "")
-    # Ollama can provide editorial metadata, but the published copy always
-    # preserves the exact source caption and uses bounded packaging.
-    body = source_caption
+    # Use the local editor when it produced an evidence-preserving rewrite;
+    # otherwise publish clean source copy with no stock engagement filler.
+    body = generated.get("caption") or source_caption
     ranked["publishCaption"] = compose_caption(body, ranked.get("sourceHandle", ""), ranked.get("contentKind", "routine"), ranked.get("shortcode", ""), ranked.get("sportCategory", ""))
     ranked["contentLane"] = generated.get("content_lane") or ranked.get("contentKind") or "viral_sports"
     ranked["confidence"] = generated.get("confidence") or "reported"
