@@ -3,16 +3,16 @@
   "shortcode": "Ddw01EyzTso",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Ddw01EyzTso/",
-  "sourceCaption": "What was bro thinking \ud83d\ude02\ud83d\ude2d",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nWhat was bro thinking \ud83d\ude02\ud83d\ude2d\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "What was bro thinking 😂😭",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nWhat was bro thinking 😂😭\n\n#sports\n\nSource: @houseofhighlights\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-26T19:57:43.655Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "What was bro thinking \ud83d\ude02\ud83d\ude2d",
+  "body": "What was bro thinking 😂😭",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-26T19:58:32.492Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 48.39,
   "engagementScore": 15.58,
   "scoreMargin": -31.61,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.39,
@@ -73,5 +73,17 @@
   "video": "media/Ddw01EyzTso-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114168871915961",
+  "instagramContainerCreatedAt": "2026-09-27T12:59:01.986Z",
+  "instagramPublishRequestedAt": "2026-09-27T13:00:02.788Z",
+  "instagramMediaId": "18142880752518131",
+  "instagramPermalink": "https://www.instagram.com/reel/DdyqnZ7jXtP/",
+  "instagramVerifiedAt": "2026-09-27T13:00:11.396Z",
+  "publishedAt": "2026-09-27T13:00:11.396Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddw01EyzTso-sportswire247.mp4",
+    "at": "2026-09-27T13:00:11.397Z"
+  }
 }
