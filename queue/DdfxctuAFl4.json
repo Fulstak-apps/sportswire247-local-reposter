@@ -3,16 +3,16 @@
   "shortcode": "DdfxctuAFl4",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimeszn/p/DdfxctuAFl4/",
-  "sourceCaption": "This game was a MOVIEEEE \ud83c\udf7f",
-  "publishCaption": "The moment says it all \ud83d\udc40\n\nThis game was a MOVIEEEE \ud83c\udf7f\n\n#sports\n\nSource: @overtime\n\nWhat\u2019s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "This game was a MOVIEEEE 🍿",
+  "publishCaption": "The moment says it all 👀\n\nThis game was a MOVIEEEE 🍿\n\n#sports\n\nSource: @overtime\n\nWhat’s your take?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T05:13:54.558Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "This game was a MOVIEEEE \ud83c\udf7f",
+  "body": "This game was a MOVIEEEE 🍿",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T05:14:43.073Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 8.51,
   "scoreMargin": -40.97,
   "highlightQuality": 8.51,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 39.03,
@@ -73,5 +73,17 @@
   "video": "media/DdfxctuAFl4-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113993233915961",
+  "instagramContainerCreatedAt": "2026-09-27T00:35:13.234Z",
+  "instagramPublishRequestedAt": "2026-09-27T00:35:43.726Z",
+  "instagramMediaId": "18051914180598605",
+  "instagramPermalink": "https://www.instagram.com/reel/DdxVcIojSiX/",
+  "instagramVerifiedAt": "2026-09-27T00:35:59.813Z",
+  "publishedAt": "2026-09-27T00:35:59.814Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/DdfxctuAFl4-sportswire247.mp4",
+    "at": "2026-09-27T00:35:59.816Z"
+  }
 }
