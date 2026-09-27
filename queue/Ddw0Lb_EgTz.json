@@ -3,16 +3,16 @@
   "shortcode": "Ddw0Lb_EgTz",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Ddw0Lb_EgTz/",
-  "sourceCaption": "JEREMIAH SMITH CONTINUES HIS HEISMAN CAMPAIGN \u2b50\ufe0f\n\n12 REC, 217 YDS, 4 TDS \ud83d\udd25",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nJEREMIAH SMITH CONTINUES HIS HEISMAN CAMPAIGN \u2b50\ufe0f\n\n12 REC, 217 YDS, 4 TDS \ud83d\udd25\n\n#sports\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "JEREMIAH SMITH CONTINUES HIS HEISMAN CAMPAIGN ⭐️\n\n12 REC, 217 YDS, 4 TDS 🔥",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nJEREMIAH SMITH CONTINUES HIS HEISMAN CAMPAIGN ⭐️\n\n12 REC, 217 YDS, 4 TDS 🔥\n\n#sports\n\nSource: @bleacherreport\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-26T19:48:57.787Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "JEREMIAH SMITH CONTINUES HIS HEISMAN CAMPAIGN \u2b50\ufe0f\n\n12 REC, 217 YDS, 4 TDS \ud83d\udd25",
+  "body": "JEREMIAH SMITH CONTINUES HIS HEISMAN CAMPAIGN ⭐️\n\n12 REC, 217 YDS, 4 TDS 🔥",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-26T19:49:47.438Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 45.94,
   "engagementScore": 15.1,
   "scoreMargin": -34.06,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.94,
@@ -73,5 +73,17 @@
   "video": "media/Ddw0Lb_EgTz-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114244822915961",
+  "instagramContainerCreatedAt": "2026-09-27T16:19:25.281Z",
+  "instagramPublishRequestedAt": "2026-09-27T16:19:55.763Z",
+  "instagramMediaId": "18108993281519389",
+  "instagramPermalink": "https://www.instagram.com/reel/DdzBfpCDS0b/",
+  "instagramVerifiedAt": "2026-09-27T16:20:04.904Z",
+  "publishedAt": "2026-09-27T16:20:04.905Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddw0Lb_EgTz-sportswire247.mp4",
+    "at": "2026-09-27T16:20:04.906Z"
+  }
 }
