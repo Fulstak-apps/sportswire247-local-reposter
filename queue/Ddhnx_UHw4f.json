@@ -3,16 +3,16 @@
   "shortcode": "Ddhnx_UHw4f",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/p/Ddhnx_UHw4f/",
-  "sourceCaption": "Daniels tried to hold himself up as he was falling down and his elbow bent in an awkward way. (\ud83d\udcfa FOX)",
-  "publishCaption": "This is why sports stay must-watch \ud83d\udd25\n\nDaniels tried to hold himself up as he was falling down and his elbow bent in an awkward way. (\ud83d\udcfa FOX)\n\n#sports\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
+  "sourceCaption": "Daniels tried to hold himself up as he was falling down and his elbow bent in an awkward way. (📺 FOX)",
+  "publishCaption": "This is why sports stay must-watch 🔥\n\nDaniels tried to hold himself up as he was falling down and his elbow bent in an awkward way. (📺 FOX)\n\n#sports\n\nSource: @sportscenter\n\nDid you catch this live?\n\nFollow @sportswire247 for daily sports moments, reactions, and updates.\n\n@sportswire247",
   "discoveredAt": "2026-09-20T22:11:27.585Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Daniels tried to hold himself up as he was falling down and his elbow bent in an awkward way. (\ud83d\udcfa FOX)",
+  "body": "Daniels tried to hold himself up as he was falling down and his elbow bent in an awkward way. (📺 FOX)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-20T22:12:15.979Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 13.35,
   "scoreMargin": -44.51,
   "highlightQuality": 13.35,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 35.49,
@@ -73,5 +73,17 @@
   "video": "media/Ddhnx_UHw4f-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18113999383915961",
+  "instagramContainerCreatedAt": "2026-09-27T01:15:57.783Z",
+  "instagramPublishRequestedAt": "2026-09-27T01:16:28.136Z",
+  "instagramMediaId": "17935849254378624",
+  "instagramPermalink": "https://www.instagram.com/reel/DdxaGuEDNKj/",
+  "instagramVerifiedAt": "2026-09-27T01:16:43.031Z",
+  "publishedAt": "2026-09-27T01:16:43.032Z",
+  "mediaCleanup": {
+    "removed": true,
+    "path": "media/Ddhnx_UHw4f-sportswire247.mp4",
+    "at": "2026-09-27T01:16:43.033Z"
+  }
 }
