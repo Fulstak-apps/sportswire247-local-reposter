@@ -3,8 +3,8 @@
   "shortcode": "Dc3xZP5zgf1",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_cfb/reel/Dc3xZP5zgf1/",
-  "sourceCaption": "Nothing but respect for Coach Prime and the Buffs after their Week 1 win \ud83e\udd1d\n\n(via @deionsanders)\n\n#cfb #collegefootball #deionsanders #football #colorado",
-  "publishCaption": "Nothing but respect for Coach Prime and the Buffs after their Week 1 win \ud83e\udd1d\n\n(via @deionsanders)\n\n#cfb #collegefootball #deionsanders #football #colorado\n\nSource: @bleacherreport\n\n@sportswire247",
+  "sourceCaption": "Nothing but respect for Coach Prime and the Buffs after their Week 1 win 🤝\n\n(via @deionsanders)\n\n#cfb #collegefootball #deionsanders #football #colorado",
+  "publishCaption": "Nothing but respect for Coach Prime and the Buffs after their Week 1 win 🤝\n\n(via @deionsanders)\n\n#cfb #collegefootball #deionsanders #football #colorado\n\n#nfl\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-04T16:22:43.134Z",
   "status": "held",
   "attempts": {
@@ -12,9 +12,9 @@
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Nothing but respect for Coach Prime and the Buffs after their Week 1 win \ud83e\udd1d\n\n(via @deionsanders)\n\n#cfb #collegefootball #deionsanders #football #colorado",
-  "captionMode": "source_verbatim_fallback",
-  "captionCheckedAt": "2026-09-04T16:23:31.674Z",
+  "body": "Nothing but respect for Coach Prime and the Buffs after their Week 1 win 🤝\n\n(via @deionsanders)\n\n#cfb #collegefootball #deionsanders #football #colorado",
+  "captionMode": "specific_source_caption_packaged",
+  "captionCheckedAt": "2026-09-27T16:57:23.991Z",
   "sourceViewCount": 0,
   "sourcePublishedAt": "2026-09-04T16:05:07.000Z",
   "branding": {
@@ -30,7 +30,7 @@
     "sourceSha256": "0db96e449d3224d3ff89047f6cb8aa4eb3dc7eb6de8bd73d49bb722072a5305c",
     "outputSha256": "aa06d84be066367e1b939426e052127cfda37bd50d697dc962add37c21f9de30"
   },
-  "threadsText": "Nothing but respect for Coach Prime and the Buffs after their Week 1 win \ud83e\udd1d\n\n(via @deionsanders)\n\n#cfb #collegefootball #deionsanders #football #colorado",
+  "threadsText": "Nothing but respect for Coach Prime and the Buffs after their Week 1 win 🤝\n\n(via @deionsanders)\n\n#cfb #collegefootball #deionsanders #football #colorado",
   "contentLane": "viral_sports",
   "confidence": "reported",
   "ollamaStatus": "fallback_source_caption: ValueError",
