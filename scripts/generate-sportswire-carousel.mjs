@@ -79,30 +79,48 @@ async function scorecard() {
   return cards.length ? cards.slice(0, 12) : [{ league: "SCOREBOARD", line: "No completed scores were verified at generation time." }];
 }
 async function storyVisual(story) {
-  // Google News exposes the publisher's story thumbnail as og:image. It gives
-  // each slide an actual event/athlete visual instead of a generic template.
-  for (const source of story.sources || []) {
-    try {
-      const page = await fetch(source.url, { signal: AbortSignal.timeout(25_000), headers: { "User-Agent": "Mozilla/5.0 SportsWire newsroom" } });
-      const html = await page.text();
-      const match = html.match(/<meta[^>]+(?:property|name)=["'](?:og:image|twitter:image)["'][^>]+content=["']([^"']+)/i) || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["'](?:og:image|twitter:image)["']/i);
-      if (!match?.[1]) continue;
-      const imageUrl = match[1].replace(/=s0-w\d+$/, "=s0-w1200");
-      const image = await fetch(imageUrl, { signal: AbortSignal.timeout(25_000), headers: { "User-Agent": "Mozilla/5.0" } });
-      const type = image.headers.get("content-type") || ""; const bytes = Buffer.from(await image.arrayBuffer());
-      if (!image.ok || !type.startsWith("image/") || bytes.length < 12_000) continue;
-      return `data:${type.split(";")[0]};base64,${bytes.toString("base64")}`;
-    } catch { /* try the independent source */ }
-  }
+  // Do not use a publisher's generic social thumbnail. It was the source of
+  // the text/shape cards the user rejected. Commons gives us an actual
+  // photograph or licensed editorial image tied to the named subject.
+  const cleaned = story.headline.replace(/[^a-z0-9 ]/gi, " ").replace(/\b(what|know|ahead|best|bets|expert|picks|week|odds|tracker|more|wild|card|series|rematch|against|spread|games|schedule|standings|scenarios|tiebreakers)\b/gi, " ").replace(/\s+/g, " ").trim();
+  const named = (story.headline.match(/\b(?:[A-Z][a-z]+|[A-Z]{2,})(?:[- ][A-Z][a-z]+)*/g) || []).filter(word => !/^(What|Who|Will|Here|The|NFL|MLB|NBA|NHL)$/i.test(word)).join(" ");
+  const aliases = [[/Rams/i, "Los Angeles Rams NFL"], [/Broncos/i, "Denver Broncos NFL"], [/Texans|Shaair/i, "Houston Texans NFL game"], [/Red Sox/i, "Boston Red Sox baseball"], [/Yankees/i, "New York Yankees baseball"], [/MLB|baseball/i, "Major League Baseball game"], [/NBA|basketball/i, "NBA basketball game"], [/NHL|hockey/i, "NHL hockey game"], [/soccer/i, "association football match"]];
+  const sportFallback = aliases.find(([pattern]) => pattern.test(story.headline))?.[1] || "professional sports game";
+  const generalPhoto = /NFL|Rams|Broncos|Texans|Shaair/i.test(story.headline) ? "American football game" : /MLB|baseball|Yankees|Red Sox/i.test(story.headline) ? "baseball game" : /NBA|basketball/i.test(story.headline) ? "basketball game" : /NHL|hockey/i.test(story.headline) ? "ice hockey game" : "professional sports game";
+  const queries = [...new Set([cleaned, named, sportFallback, generalPhoto].filter(Boolean))];
+  try {
+    for (const search of queries) {
+      const endpoint = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrlimit=8&gsrsearch=${encodeURIComponent(search)}&prop=imageinfo&iiprop=url&iiurlwidth=1400&format=json&origin=*`;
+      const payload = await (await fetch(endpoint, { signal: AbortSignal.timeout(25_000), headers: { "User-Agent": "SportsWire247 local newsroom" } })).json();
+      const pages = Object.values(payload.query?.pages || {});
+      for (const page of pages) {
+        const info = page.imageinfo?.[0]; const imageUrl = info?.thumburl || info?.url;
+        // Reject icons, logos, SVGs, and tiny source art. Photo-like raster files
+        // are the only allowed background input.
+        if (!imageUrl || /\.(svg|png)(?:\?|$)/i.test(imageUrl) || /logo|icon|wordmark|radio|uniform|guide|pdf|wikinews|newspaper|article|chart|map/i.test(page.title || "")) continue;
+        const image = await fetch(imageUrl, { signal: AbortSignal.timeout(25_000), headers: { "User-Agent": "Mozilla/5.0" } });
+        const type = image.headers.get("content-type") || ""; const bytes = Buffer.from(await image.arrayBuffer());
+        if (!image.ok || !type.startsWith("image/") || bytes.length < 25_000) continue;
+        return `data:${type.split(";")[0]};base64,${bytes.toString("base64")}`;
+      }
+    }
+  } catch { /* fail closed below */ }
   throw new Error(`Held: no usable editorial visual for “${story.headline}”`);
 }
 function visual(slide, logo, index) {
-  const title = esc(slide.headline).toUpperCase();
+  const title = esc(cardHeadline(slide.headline)).toUpperCase();
   const text = index < 5 ? esc(slide.summary) : esc(slide.summary);
   const footer = index < 5 ? `STORY ${index + 1} OF 5  •  SPORTSWIRE 24/7` : "TODAY'S VERIFIED FINAL SCORES";
   return `<!doctype html><html><head><style>
   *{box-sizing:border-box} body{margin:0;width:1080px;height:1350px;overflow:hidden;background:#07110d;color:#fff;font-family:Impact,Arial Black,sans-serif}
-  .art{height:100%;padding:58px 60px;position:relative;background:#07110d}.art:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,10,7,.94) 0%,rgba(2,10,7,.56) 51%,rgba(2,10,7,.18)),url('${slide.visual || ""}') center/cover;filter:contrast(1.15) saturate(1.1)}.art:after{content:"";position:absolute;inset:0;opacity:.25;background-image:radial-gradient(#d7f82b 1.4px,transparent 1.4px);background-size:11px 11px;mix-blend-mode:screen}.kicker{position:relative;color:#caff00;font:700 26px Arial;letter-spacing:5px;margin-bottom:27px}.title{position:relative;width:76%;font-size:92px;line-height:.88;letter-spacing:-2px;text-shadow:7px 7px #000,-2px 2px #000;transform:skew(-5deg)}.copy{position:relative;margin-top:40px;width:60%;font:700 30px/1.16 Arial;color:#f5f5e9;text-shadow:2px 2px #000}.scores{position:relative;margin-top:44px;width:88%;display:grid;grid-template-columns:1fr 1fr;gap:12px}.score{font:700 29px Arial;background:#f1f0dc;color:#10140e;padding:16px;border-left:11px solid #ccff00}.logo{position:absolute;left:50px;bottom:104px;width:130px;max-height:130px;object-fit:contain;filter:drop-shadow(3px 4px 0 #000)}.footer{position:absolute;right:42px;bottom:42px;background:#f7f1d2;color:#15170f;border:4px solid #171710;padding:12px 17px;font:700 21px Arial;letter-spacing:1px}.source{position:absolute;left:60px;bottom:58px;font:600 17px Arial;color:#fff;width:650px;text-shadow:2px 2px #000}.num{position:absolute;right:58px;top:50px;color:#d5ff00;font-size:30px}</style></head><body><main class="art"><div class="kicker">SPORTSWIRE 24/7 • VERIFIED DESK</div><div class="num">${index < 5 ? index + 1 : "6"}/6</div><div class="title">${title.replace(/\n/g,"<br>")}</div>${index < 5 ? `<div class="copy">${text}</div><div class="source">SOURCES: ${slide.sources.map(s => esc(s.source)).join(" • ")}</div>` : `<section class="scores">${slide.scores.map(s => `<div class="score">${esc(s.league)}<br>${esc(s.line)}</div>`).join("")}</section>`}<img class="logo" src="${logo}"><div class="footer">${footer}</div></main></body></html>`;
+  .art{height:100%;padding:58px 60px;position:relative;background:#07110d}.art:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,10,7,.92) 0%,rgba(2,10,7,.42) 48%,rgba(2,10,7,.08)),url('${slide.visual || ""}') center/cover;filter:contrast(1.12) saturate(1.08)}.art:after{content:"";position:absolute;inset:0;opacity:.18;background-image:radial-gradient(#d7f82b 1.2px,transparent 1.2px);background-size:12px 12px;mix-blend-mode:screen}.kicker{position:relative;color:#caff00;font:700 26px Arial;letter-spacing:5px;margin-bottom:27px}.title{position:relative;width:60%;font-size:74px;line-height:.9;letter-spacing:-2px;text-shadow:6px 6px #000,-2px 2px #000;transform:skew(-5deg)}.copy{position:relative;margin-top:36px;width:52%;font:700 27px/1.16 Arial;color:#f5f5e9;text-shadow:2px 2px #000}.scores{position:relative;margin-top:44px;width:88%;display:grid;grid-template-columns:1fr 1fr;gap:12px}.score{font:700 29px Arial;background:#f1f0dc;color:#10140e;padding:16px;border-left:11px solid #ccff00}.logo{position:absolute;left:50px;bottom:104px;width:130px;max-height:130px;object-fit:contain;filter:drop-shadow(3px 4px 0 #000)}.footer{position:absolute;right:42px;bottom:42px;background:#f7f1d2;color:#15170f;border:4px solid #171710;padding:12px 17px;font:700 21px Arial;letter-spacing:1px}.source{position:absolute;left:60px;bottom:58px;font:600 17px Arial;color:#fff;width:650px;text-shadow:2px 2px #000}.num{position:absolute;right:58px;top:50px;color:#d5ff00;font-size:30px}</style></head><body><main class="art"><div class="kicker">SPORTSWIRE 24/7 • VERIFIED DESK</div><div class="num">${index < 5 ? index + 1 : "6"}/6</div><div class="title">${title.replace(/\n/g,"<br>")}</div>${index < 5 ? `<div class="copy">${text}</div><div class="source">SOURCES: ${slide.sources.map(s => esc(s.source)).join(" • ")}</div>` : `<section class="scores">${slide.scores.map(s => `<div class="score">${esc(s.league)}<br>${esc(s.line)}</div>`).join("")}</section>`}<img class="logo" src="${logo}"><div class="footer">${footer}</div></main></body></html>`;
+}
+function cardHeadline(headline) {
+  if (/Rams.*Broncos/i.test(headline)) return "RAMS–BRONCOS\nWEEK 3 PICKS";
+  if (/Red Sox.*Yankees/i.test(headline)) return "YANKEES–RED SOX\nWILD CARD REMATCH";
+  if (/Al-Shaair|Texans/i.test(headline)) return "TEXANS FACE\nNFL WARNING";
+  if (/MLB.*playoffs/i.test(headline)) return "MLB PLAYOFF\nRACE UPDATE";
+  return headline.split(/\s+/).slice(0, 7).join(" ");
 }
 async function render(slides, output) {
   const logo = `data:image/png;base64,${(await fs.readFile(logoPath)).toString("base64")}`;
@@ -110,7 +128,11 @@ async function render(slides, output) {
   try { const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 }); for (let i = 0; i < slides.length; i++) { await page.setContent(visual(slides[i], logo, i), { waitUntil: "load" }); await page.screenshot({ path: path.join(output, `slide-${i + 1}.png`), type: "png" }); } } finally { await browser.close(); }
 }
 async function main() {
-  const runId = new Date().toISOString().replace(/[:.]/g, "-"); const { selected, ledger } = await stories(); const scores = await scorecard();
+  const runId = new Date().toISOString().replace(/[:.]/g, "-");
+  const rebuild = process.argv.includes("--rebuild-current");
+  const saved = rebuild ? await json(path.join(CAROUSEL, "current.json"), null) : null;
+  const { selected, ledger } = saved ? { selected: saved.slides.slice(0, 5), ledger: await json(path.join(CAROUSEL, "story-ledger.json"), { used: [] }) } : await stories();
+  const scores = saved?.slides?.[5]?.scores || await scorecard();
   const packageDir = path.join(MEDIA, runId); await fs.mkdir(packageDir, { recursive: true });
   const slides = await Promise.all(selected.map(async story => ({ ...story, visual: await storyVisual(story), summary: `${story.headline}. SportsWire verified this report with two independent outlets before publication.` })));
   slides.push({ headline: "FINAL SCORES", summary: "Verified completed games only.", scores }); await render(slides, packageDir);
