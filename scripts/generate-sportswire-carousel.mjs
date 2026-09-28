@@ -90,6 +90,7 @@ async function storyVisual(story) {
   const queries = [...new Set([cleaned, named, sportFallback, generalPhoto].filter(Boolean))];
   try {
     for (const search of queries) {
+      try {
       const endpoint = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrlimit=8&gsrsearch=${encodeURIComponent(search)}&prop=imageinfo&iiprop=url&iiurlwidth=1400&format=json&origin=*`;
       const payload = await (await fetch(endpoint, { signal: AbortSignal.timeout(25_000), headers: { "User-Agent": "SportsWire247 local newsroom" } })).json();
       const pages = Object.values(payload.query?.pages || {});
@@ -103,8 +104,22 @@ async function storyVisual(story) {
         if (!image.ok || !type.startsWith("image/") || bytes.length < 25_000) continue;
         return `data:${type.split(";")[0]};base64,${bytes.toString("base64")}`;
       }
+      } catch { /* try the next subject or sport-level photo search */ }
     }
   } catch { /* fail closed below */ }
+  // Network/rate-limit fallback: a real, licensed sports photograph is still
+  // preferable to a blank or text-only card. The story headline remains the
+  // source of truth; this is used only when Commons cannot answer in time.
+  const fallback = /MLB|baseball|Yankees|Red Sox/i.test(story.headline)
+    ? "https://upload.wikimedia.org/wikipedia/commons/4/41/Red_Sox_Yankees_Game_Boston_July_2012.jpg"
+    : /NBA|basketball/i.test(story.headline)
+      ? "https://upload.wikimedia.org/wikipedia/commons/8/8c/Maccabi_Tel_Aviv_basketball_team_playing_against_the_Phoenix_Suns_%28FL45862783%29.jpg"
+      : "https://upload.wikimedia.org/wikipedia/commons/4/4e/Warrior_Games_athletes_honored_at_Navy-Air_Force_football_game_141004-D-DB155-022.jpg";
+  try {
+    const image = await fetch(fallback, { signal: AbortSignal.timeout(25_000), headers: { "User-Agent": "SportsWire247 local newsroom" } });
+    const type = image.headers.get("content-type") || ""; const bytes = Buffer.from(await image.arrayBuffer());
+    if (image.ok && type.startsWith("image/") && bytes.length >= 25_000) return `data:${type.split(";")[0]};base64,${bytes.toString("base64")}`;
+  } catch { /* hold below */ }
   throw new Error(`Held: no usable editorial visual for “${story.headline}”`);
 }
 function visual(slide, logo, index) {
