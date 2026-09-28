@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import os from "node:os";
 import path from "node:path";
 
 const queueDir = "queue";
@@ -29,8 +30,11 @@ export async function cleanupPublishedMedia(item) {
   if (target !== mediaRoot && !target.startsWith(`${mediaRoot}${path.sep}`)) {
     return { removed: false, reason: "outside_media_root" };
   }
-  await fs.rm(target, { force: true });
-  return { removed: true, path: item.video };
+  const trash = path.join(os.homedir(), ".Trash");
+  await fs.mkdir(trash, { recursive: true });
+  const archivedPath = path.join(trash, `SportsWire-${Date.now()}-${path.basename(target)}`);
+  await fs.rename(target, archivedPath);
+  return { removed: true, path: item.video, trashedPath: archivedPath };
 }
 export function eligible(item, now = Date.now()) {
   if (item.status !== "ready" || item.destinationHandle !== "sportswire247" || item.brand !== "SportsWire 247") return false;

@@ -4,10 +4,12 @@ import json
 import pathlib
 import shutil
 import time
+import uuid
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 QUEUE = ROOT / "queue"
 CACHE = ROOT / "runtime" / "media"
+TRASH = pathlib.Path.home() / ".Trash"
 published = set()
 protected = set()
 
@@ -22,14 +24,16 @@ for record in QUEUE.glob("*.json"):
         protected.add(str(item["shortcode"]))
 
 removed = 0
+def move_to_trash(candidate):
+    TRASH.mkdir(parents=True, exist_ok=True)
+    destination = TRASH / f"SportsWire-{int(time.time() * 1000)}-{uuid.uuid4().hex}-{candidate.name}"
+    shutil.move(str(candidate), str(destination))
+
 if CACHE.is_dir():
     for candidate in CACHE.iterdir():
         if not any(candidate.name == code or candidate.name.startswith(f"{code}-") or candidate.name.startswith(f"{code}.") for code in published):
             continue
-        if candidate.is_dir():
-            shutil.rmtree(candidate)
-        elif candidate.is_file():
-            candidate.unlink()
+        move_to_trash(candidate)
         removed += 1
 
 # Source captures are copied into the queue delivery asset before publication.
@@ -44,9 +48,6 @@ if CACHE.is_dir():
             continue
         if not stale or any(candidate.name == code or candidate.name.startswith(f"{code}-") or candidate.name.startswith(f"{code}.") for code in protected):
             continue
-        if candidate.is_dir():
-            shutil.rmtree(candidate)
-        elif candidate.is_file():
-            candidate.unlink()
+        move_to_trash(candidate)
         removed += 1
-print(f"SportsWire cache cleanup: permanently deleted {removed} confirmed publication artifact(s).")
+print(f"SportsWire cache cleanup: moved {removed} confirmed publication artifact(s) to Trash.")

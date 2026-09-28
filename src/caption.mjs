@@ -7,8 +7,8 @@ export function composeCaption(source, handle, { sport = "" } = {}) {
   if (!body || !normalized) return body;
   const existing = new Set((body.match(/#[\w]+/g) || []).map(tag => tag.toLowerCase()));
   const tags = (sportTags[sport || inferredSport(body)] || ["#sports"]).filter(tag => !existing.has(tag));
-  // The source copy is the story. Never bury it under recycled hooks, a
-  // mandatory question, or a generic “follow” line.
+  // Keep the source copy prominent without recycled hooks, questions, or a
+  // generic CTA that makes every post sound identical.
   return [body, tags.slice(0, 2).join(" "), `Source: @${normalized}`].filter(Boolean).join("\n\n");
 }
 
