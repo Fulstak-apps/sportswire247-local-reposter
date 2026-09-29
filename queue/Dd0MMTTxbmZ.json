@@ -3,16 +3,16 @@
   "shortcode": "Dd0MMTTxbmZ",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/whrissss/reel/Dd0MMTTxbmZ/",
-  "sourceCaption": "Ref saves the day. \ud83e\uddb8\u200d\u2642\ufe0f\ud83c\udfc0\n\n#nba #pranks #basketball #sports #ref",
-  "publishCaption": "Ref saves the day. \ud83e\uddb8\u200d\u2642\ufe0f\ud83c\udfc0\n\n#nba #pranks #basketball #sports #ref\n\nSource: @houseofhighlights",
+  "sourceCaption": "Ref saves the day. 🦸‍♂️🏀\n\n#nba #pranks #basketball #sports #ref",
+  "publishCaption": "Ref saves the day. 🦸‍♂️🏀\n\n#nba #pranks #basketball #sports #ref\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-28T03:17:53.417Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Ref saves the day. \ud83e\uddb8\u200d\u2642\ufe0f\ud83c\udfc0\n\n#nba #pranks #basketball #sports #ref",
+  "body": "Ref saves the day. 🦸‍♂️🏀\n\n#nba #pranks #basketball #sports #ref",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-28T03:18:37.426Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 2.91,
   "scoreMargin": 7.56,
   "highlightQuality": 22.91,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 42.56,
@@ -74,5 +74,17 @@
   "video": "media/Dd0MMTTxbmZ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115023952915961",
+  "instagramContainerCreatedAt": "2026-09-29T22:37:20.455Z",
+  "instagramPublishRequestedAt": "2026-09-29T22:37:50.886Z",
+  "instagramMediaId": "18035159726894768",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd42Vg5Daxs/",
+  "instagramVerifiedAt": "2026-09-29T22:37:58.449Z",
+  "publishedAt": "2026-09-29T22:37:58.450Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd0MMTTxbmZ-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790721478451-Dd0MMTTxbmZ-sportswire247.mp4'",
+    "at": "2026-09-29T22:37:58.451Z"
+  }
 }
