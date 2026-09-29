@@ -6,7 +6,7 @@
   "sourceCaption": "Dante Moore was stretchered off the field and hospitalized after taking a scary shot to the head vs. USC.\n\nUSC’s Desman Stephens II was ejected for targeting after the hit on Moore.\n\n(via @briamaranthus)",
   "publishCaption": "Dante Moore was stretchered off the field and hospitalized after taking a scary shot to the head vs. USC.\n\nUSC’s Desman Stephens II was ejected for targeting after the hit on Moore.\n\n(via @briamaranthus)\n\n#sports\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-27T05:21:15.941Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -75,5 +75,17 @@
   "video": "media/Ddx1dJyu-fR-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114953359915961",
+  "instagramContainerCreatedAt": "2026-09-29T16:59:49.448Z",
+  "instagramPublishRequestedAt": "2026-09-29T17:00:20.108Z",
+  "instagramMediaId": "18080397143687428",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd4PtUtEfNM/",
+  "instagramVerifiedAt": "2026-09-29T17:00:28.487Z",
+  "publishedAt": "2026-09-29T17:00:28.488Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Ddx1dJyu-fR-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790701228489-Ddx1dJyu-fR-sportswire247.mp4'",
+    "at": "2026-09-29T17:00:28.489Z"
+  }
 }
