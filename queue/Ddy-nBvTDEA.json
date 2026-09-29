@@ -3,16 +3,16 @@
   "shortcode": "Ddy-nBvTDEA",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Ddy-nBvTDEA/",
-  "sourceCaption": "There\u2019s really a NFL game about to be played in this weather. \ud83d\ude33\ud83d\ude05 (via @thebluezonee)",
-  "publishCaption": "There\u2019s really a NFL game about to be played in this weather. \ud83d\ude33\ud83d\ude05 (via @thebluezonee)\n\n#football #nfl\n\nSource: @houseofhighlights",
+  "sourceCaption": "There’s really a NFL game about to be played in this weather. 😳😅 (via @thebluezonee)",
+  "publishCaption": "There’s really a NFL game about to be played in this weather. 😳😅 (via @thebluezonee)\n\n#football #nfl\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-27T16:06:44.763Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "There\u2019s really a NFL game about to be played in this weather. \ud83d\ude33\ud83d\ude05 (via @thebluezonee)",
+  "body": "There’s really a NFL game about to be played in this weather. 😳😅 (via @thebluezonee)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-27T16:07:33.642Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 8.89,
   "scoreMargin": 15.67,
   "highlightQuality": 8.89,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 55.67,
@@ -73,5 +73,17 @@
   "video": "media/Ddy-nBvTDEA-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114846337915961",
+  "instagramContainerCreatedAt": "2026-09-29T11:14:53.225Z",
+  "instagramPublishRequestedAt": "2026-09-29T11:15:23.578Z",
+  "instagramMediaId": "18115176578016261",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd3oO5Yj-OQ/",
+  "instagramVerifiedAt": "2026-09-29T11:15:36.393Z",
+  "publishedAt": "2026-09-29T11:15:36.394Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Ddy-nBvTDEA-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790680536395-Ddy-nBvTDEA-sportswire247.mp4'",
+    "at": "2026-09-29T11:15:36.395Z"
+  }
 }
