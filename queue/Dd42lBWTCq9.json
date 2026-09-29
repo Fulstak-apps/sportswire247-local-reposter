@@ -3,16 +3,16 @@
   "shortcode": "Dd42lBWTCq9",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dd42lBWTCq9/",
-  "sourceCaption": "LeBron really entering Year 24 \ud83e\udd2f\ud83d\udc10 (@sixers, h/t WITNESSKJ/X)",
-  "publishCaption": "LeBron really entering Year 24 \ud83e\udd2f\ud83d\udc10 (@sixers, h/t WITNESSKJ/X)\n\n#basketball #nba\n\nSource: @houseofhighlights",
+  "sourceCaption": "LeBron really entering Year 24 🤯🐐 (@sixers, h/t WITNESSKJ/X)",
+  "publishCaption": "LeBron really entering Year 24 🤯🐐 (@sixers, h/t WITNESSKJ/X)\n\n#basketball #nba\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-29T22:43:26.692Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "LeBron really entering Year 24 \ud83e\udd2f\ud83d\udc10 (@sixers, h/t WITNESSKJ/X)",
+  "body": "LeBron really entering Year 24 🤯🐐 (@sixers, h/t WITNESSKJ/X)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-29T22:44:13.471Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 5.32,
   "scoreMargin": 21.25,
   "highlightQuality": 5.32,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 56.25,
@@ -73,5 +73,17 @@
   "video": "media/Dd42lBWTCq9-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115029298915961",
+  "instagramContainerCreatedAt": "2026-09-29T23:12:31.543Z",
+  "instagramPublishRequestedAt": "2026-09-29T23:13:32.492Z",
+  "instagramMediaId": "18128269390744515",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd46a-BAlJg/",
+  "instagramVerifiedAt": "2026-09-29T23:13:40.820Z",
+  "publishedAt": "2026-09-29T23:13:40.823Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd42lBWTCq9-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790723620825-Dd42lBWTCq9-sportswire247.mp4'",
+    "at": "2026-09-29T23:13:40.825Z"
+  }
 }
