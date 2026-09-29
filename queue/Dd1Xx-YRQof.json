@@ -3,16 +3,16 @@
   "shortcode": "Dd1Xx-YRQof",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Dd1Xx-YRQof/",
-  "sourceCaption": "COLDEST ROOKIE IN THE GAME \ud83e\udd76\n\nOlivia Miles is the 2026 WNBA Rookie of the Year \ud83d\udc4f",
-  "publishCaption": "COLDEST ROOKIE IN THE GAME \ud83e\udd76\n\nOlivia Miles is the 2026 WNBA Rookie of the Year \ud83d\udc4f\n\n#basketball #nba\n\nSource: @sportscenter",
+  "sourceCaption": "COLDEST ROOKIE IN THE GAME 🥶\n\nOlivia Miles is the 2026 WNBA Rookie of the Year 👏",
+  "publishCaption": "COLDEST ROOKIE IN THE GAME 🥶\n\nOlivia Miles is the 2026 WNBA Rookie of the Year 👏\n\n#basketball #nba\n\nSource: @sportscenter",
   "discoveredAt": "2026-09-28T14:40:23.336Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "COLDEST ROOKIE IN THE GAME \ud83e\udd76\n\nOlivia Miles is the 2026 WNBA Rookie of the Year \ud83d\udc4f",
+  "body": "COLDEST ROOKIE IN THE GAME 🥶\n\nOlivia Miles is the 2026 WNBA Rookie of the Year 👏",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-28T14:41:12.209Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.66,
   "scoreMargin": 5.72,
   "highlightQuality": 10.66,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 40.72,
@@ -72,5 +72,17 @@
   "video": "media/Dd1Xx-YRQof-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115035280915961",
+  "instagramContainerCreatedAt": "2026-09-29T23:53:04.802Z",
+  "instagramPublishRequestedAt": "2026-09-29T23:53:35.329Z",
+  "instagramMediaId": "17909136996311275",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd4_APogUeR/",
+  "instagramVerifiedAt": "2026-09-29T23:53:43.636Z",
+  "publishedAt": "2026-09-29T23:53:43.637Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd1Xx-YRQof-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790726023637-Dd1Xx-YRQof-sportswire247.mp4'",
+    "at": "2026-09-29T23:53:43.638Z"
+  }
 }
