@@ -6,7 +6,7 @@
   "sourceCaption": "REPLAY ANGLE IS INSANE 😱🤯",
   "publishCaption": "REPLAY ANGLE IS INSANE 😱🤯\n\n#sports\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-27T03:26:41.884Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -74,5 +74,17 @@
   "video": "media/DdxoHKWzeXO-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114965632915961",
+  "instagramContainerCreatedAt": "2026-09-29T17:41:18.379Z",
+  "instagramPublishRequestedAt": "2026-09-29T17:42:19.619Z",
+  "instagramMediaId": "17984771076115324",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd4UhG8DSW9/",
+  "instagramVerifiedAt": "2026-09-29T17:42:25.506Z",
+  "publishedAt": "2026-09-29T17:42:25.507Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DdxoHKWzeXO-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790703745507-DdxoHKWzeXO-sportswire247.mp4'",
+    "at": "2026-09-29T17:42:25.508Z"
+  }
 }
