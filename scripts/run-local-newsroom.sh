@@ -35,10 +35,21 @@ fi
 # onto origin/main. Never reset or force-push. If tracked files are dirty, leave
 # them untouched and run the installed code rather than risking user state.
 if [[ "$(git rev-parse --abbrev-ref HEAD 2>/dev/null || true)" == "main" ]]; then
+  # A previous interrupted cycle can leave only collected queue/media state
+  # staged. Sync that durable work before pulling new code; otherwise `rebase`
+  # refuses to start and launchd repeatedly exits without collecting or
+  # replenishing the queue.
+  local_state="$(git status --porcelain -- queue media logs)"
+  other_state="$(git status --porcelain -- . ':(exclude)queue' ':(exclude)media' ':(exclude)logs' ':(exclude)runtime')"
+  if [[ -n "$local_state" && -z "$other_state" ]]; then
+    if ! scripts/push-sportswire-queue.sh; then
+      echo "SportsWire queue sync failed; continuing with the local queue." >&2
+    fi
+  fi
   # Runtime logs are intentionally durable and change every pass; they must
   # not make a harmless worker run look like a source-code edit and block the
   # rebase. Protect every other tracked modification.
-  if git diff --quiet --no-ext-diff -- . ':(exclude)logs' ':(exclude)runtime'; then
+  if git diff --quiet --no-ext-diff -- . ':(exclude)queue' ':(exclude)media' ':(exclude)logs' ':(exclude)runtime'; then
     if git fetch origin main; then
       if ! git rebase origin/main; then
         git rebase --abort >/dev/null 2>&1 || true
