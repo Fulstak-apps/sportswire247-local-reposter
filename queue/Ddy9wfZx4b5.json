@@ -6,7 +6,7 @@
   "sourceCaption": "“Luka welcomed me to the city.” 😅\n\n(via @lukadoncic, h/t @lakersalldayeveryday) #nba",
   "publishCaption": "“Luka welcomed me to the city.” 😅\n\n(via @lukadoncic, h/t @lakersalldayeveryday) #nba\n\n#basketball\n\nSource: @sportscenter",
   "discoveredAt": "2026-09-27T15:51:17.613Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,5 +73,17 @@
   "video": "media/Ddy9wfZx4b5-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114747541915961",
+  "instagramContainerCreatedAt": "2026-09-29T04:04:01.712Z",
+  "instagramPublishRequestedAt": "2026-09-29T04:05:02.347Z",
+  "instagramMediaId": "17941647972093355",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd22-qdCgY6/",
+  "instagramVerifiedAt": "2026-09-29T04:05:10.270Z",
+  "publishedAt": "2026-09-29T04:05:10.270Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Ddy9wfZx4b5-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790654710271-Ddy9wfZx4b5-sportswire247.mp4'",
+    "at": "2026-09-29T04:05:10.271Z"
+  }
 }
