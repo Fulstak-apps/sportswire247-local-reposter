@@ -3,16 +3,16 @@
   "shortcode": "Dd4MPwMGj3E",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Dd4MPwMGj3E/",
-  "sourceCaption": "Dylan Harper thinks the power of friendship was the Knicks\u2019 key to success \ud83d\ude05\n\n(Via @gq)",
-  "publishCaption": "Dylan Harper thinks the power of friendship was the Knicks\u2019 key to success \ud83d\ude05\n\n(Via @gq)\n\n#basketball #nba\n\nSource: @bleacherreport",
+  "sourceCaption": "Dylan Harper thinks the power of friendship was the Knicks’ key to success 😅\n\n(Via @gq)",
+  "publishCaption": "Dylan Harper thinks the power of friendship was the Knicks’ key to success 😅\n\n(Via @gq)\n\n#basketball #nba\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-29T18:54:10.822Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Dylan Harper thinks the power of friendship was the Knicks\u2019 key to success \ud83d\ude05\n\n(Via @gq)",
+  "body": "Dylan Harper thinks the power of friendship was the Knicks’ key to success 😅\n\n(Via @gq)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-29T18:55:39.141Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 70.3,
   "engagementScore": 24.43,
   "scoreMargin": 35.3,
-  "highlightQuality": 14.0,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "highlightQuality": 14,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 70.3,
@@ -73,5 +73,17 @@
   "video": "media/Dd4MPwMGj3E-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115000849915961",
+  "instagramContainerCreatedAt": "2026-09-29T20:10:53.423Z",
+  "instagramPublishRequestedAt": "2026-09-29T20:11:24.007Z",
+  "instagramMediaId": "18128889088697565",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd4lkxbDgnk/",
+  "instagramVerifiedAt": "2026-09-29T20:11:38.175Z",
+  "publishedAt": "2026-09-29T20:11:38.176Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd4MPwMGj3E-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790712698176-Dd4MPwMGj3E-sportswire247.mp4'",
+    "at": "2026-09-29T20:11:38.176Z"
+  }
 }
