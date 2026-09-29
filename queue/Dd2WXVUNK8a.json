@@ -3,16 +3,16 @@
   "shortcode": "Dd2WXVUNK8a",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dd2WXVUNK8a/",
-  "sourceCaption": "Yaxel is so unserious \ud83d\ude05\ud83d\ude02 (via @warriors)",
-  "publishCaption": "Yaxel is so unserious \ud83d\ude05\ud83d\ude02 (via @warriors)\n\n#basketball #nba\n\nSource: @houseofhighlights",
+  "sourceCaption": "Yaxel is so unserious 😅😂 (via @warriors)",
+  "publishCaption": "Yaxel is so unserious 😅😂 (via @warriors)\n\n#basketball #nba\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-29T00:35:21.894Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Yax. so unserious \ud83d\ude05\ud83d\ude02 (via @warriors)",
+  "body": "Yax. so unserious 😅😂 (via @warriors)",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-09-29T00:35:49.508Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 13.66,
   "scoreMargin": 13.81,
   "highlightQuality": 13.66,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.81,
@@ -73,5 +73,17 @@
   "video": "media/Dd2WXVUNK8a-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114991945915961",
+  "instagramContainerCreatedAt": "2026-09-29T19:30:02.803Z",
+  "instagramPublishRequestedAt": "2026-09-29T19:30:33.303Z",
+  "instagramMediaId": "18149375497535125",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd4g5lRiKer/",
+  "instagramVerifiedAt": "2026-09-29T19:30:42.009Z",
+  "publishedAt": "2026-09-29T19:30:42.010Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd2WXVUNK8a-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790710242010-Dd2WXVUNK8a-sportswire247.mp4'",
+    "at": "2026-09-29T19:30:42.010Z"
+  }
 }
