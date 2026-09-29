@@ -67,10 +67,13 @@ else
 fi
 
 cycle_failed=false
-python3 scripts/purge-confirmed-runtime-media.py || { echo "SportsWire cache cleanup failed; continuing safely" >&2; }
-node src/collect-only.mjs || { echo "Collection failed; continuing with saved queue" >&2; cycle_failed=true; }
-python3 scripts/refill-queue.py || { echo "Queue refill failed; continuing to sync any already-ready items" >&2; cycle_failed=true; }
-scripts/push-sportswire-queue.sh || { echo "Queue sync failed; local queue retained for the next cycle" >&2; cycle_failed=true; }
+python3 scripts/run-with-timeout.py 120 python3 scripts/purge-confirmed-runtime-media.py || { echo "SportsWire cache cleanup failed; continuing safely" >&2; }
+# Browser capture is the least reliable dependency. A strict per-cycle deadline
+# means a frozen page or downloader only loses this pass; the queue, scheduler,
+# and following source checks keep moving.
+python3 scripts/run-with-timeout.py 240 node src/collect-only.mjs || { echo "Collection failed or timed out; continuing with saved queue" >&2; cycle_failed=true; }
+python3 scripts/run-with-timeout.py 120 python3 scripts/refill-queue.py || { echo "Queue refill failed; continuing to sync any already-ready items" >&2; cycle_failed=true; }
+python3 scripts/run-with-timeout.py 180 scripts/push-sportswire-queue.sh || { echo "Queue sync failed; local queue retained for the next cycle" >&2; cycle_failed=true; }
 # Publishing is scheduled by GitHub and independently supervised by the local
 # backup job.  Do not dispatch here: a five-minute worker plus a five-minute
 # workflow schedule otherwise creates duplicate runs and can make the queue
