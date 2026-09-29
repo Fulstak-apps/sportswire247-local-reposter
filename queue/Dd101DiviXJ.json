@@ -3,16 +3,16 @@
   "shortcode": "Dd101DiviXJ",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dd101DiviXJ/",
-  "sourceCaption": "Steph was SHOOK after lack of playoff expectations for the Warriors \ud83d\ude2d\n\n(via @warriors, @nbcsauthentic)",
-  "publishCaption": "Steph was SHOOK after lack of playoff expectations for the Warriors \ud83d\ude2d\n\n(via @warriors, @nbcsauthentic)\n\n#basketball #nba\n\nSource: @bleacherreport",
+  "sourceCaption": "Steph was SHOOK after lack of playoff expectations for the Warriors 😭\n\n(via @warriors, @nbcsauthentic)",
+  "publishCaption": "Steph was SHOOK after lack of playoff expectations for the Warriors 😭\n\n(via @warriors, @nbcsauthentic)\n\n#basketball #nba\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-28T18:34:40.534Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Steph was SHOOK after lack of playoff expectations for the Warriors \ud83d\ude2d\n\n(via @warriors, @nbcsauthentic)",
+  "body": "Steph was SHOOK after lack of playoff expectations for the Warriors 😭\n\n(via @warriors, @nbcsauthentic)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-28T18:35:09.282Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 9.07,
   "scoreMargin": 13.28,
   "highlightQuality": 21.07,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.28,
@@ -73,5 +73,17 @@
   "video": "media/Dd101DiviXJ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115014175915961",
+  "instagramContainerCreatedAt": "2026-09-29T21:32:12.444Z",
+  "instagramPublishRequestedAt": "2026-09-29T21:32:43.066Z",
+  "instagramMediaId": "18021119567723218",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd4u4WyDCg0/",
+  "instagramVerifiedAt": "2026-09-29T21:32:52.013Z",
+  "publishedAt": "2026-09-29T21:32:52.014Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd101DiviXJ-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790717572014-Dd101DiviXJ-sportswire247.mp4'",
+    "at": "2026-09-29T21:32:52.014Z"
+  }
 }
