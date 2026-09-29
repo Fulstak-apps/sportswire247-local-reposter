@@ -6,7 +6,7 @@
   "sourceCaption": "TONY FERGUSON STOPS HIM OMG! 😱 \n\n#CejudoWalton | Live NOW on DAZN 🤳",
   "publishCaption": "TONY FERGUSON STOPS HIM OMG! 😱 \n\n#CejudoWalton | Live NOW on DAZN 🤳\n\n#sports\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-27T01:59:53.035Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,5 +73,17 @@
   "video": "media/DdxT8DbhTMF-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114977089915961",
+  "instagramContainerCreatedAt": "2026-09-29T18:21:23.533Z",
+  "instagramPublishRequestedAt": "2026-09-29T18:22:09.071Z",
+  "instagramMediaId": "18182132974421089",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd4ZDscHW9_/",
+  "instagramVerifiedAt": "2026-09-29T18:22:16.881Z",
+  "publishedAt": "2026-09-29T18:22:16.881Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DdxT8DbhTMF-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790706136882-DdxT8DbhTMF-sportswire247.mp4'",
+    "at": "2026-09-29T18:22:16.882Z"
+  }
 }
