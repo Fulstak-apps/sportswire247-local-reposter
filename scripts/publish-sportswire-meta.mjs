@@ -38,7 +38,14 @@ export async function cleanupPublishedMedia(item) {
 }
 export function eligible(item, now = Date.now()) {
   if (item.status !== "ready" || item.destinationHandle !== "sportswire247" || item.brand !== "SportsWire 247") return false;
-  if (!item.video || !item.sourceUrl || !item.shortcode || !item.publishCaption?.endsWith("@sportswire247")) return false;
+  // Captions are source-preserving and end with the credited source handle
+  // (for example, "Source: @sportscenter").  The destination handle is not
+  // appended to captions, so requiring it here silently made every ready
+  // item ineligible and caused the publisher to report success without a
+  // post.  Require a source credit instead, while accepting legacy records
+  // that already have a publication-ready caption.
+  if (!item.video || !item.sourceUrl || !item.shortcode || !String(item.publishCaption || '').trim()) return false;
+  if (!/\bsource:\s*@?[a-z0-9._-]+/i.test(String(item.publishCaption))) return false;
   return true;
 }
 export function retryAt(attempt, now = Date.now()) { return new Date(now + Math.min(6 * 3600_000, 2 ** Math.min(attempt, 8) * 60_000)).toISOString(); }
