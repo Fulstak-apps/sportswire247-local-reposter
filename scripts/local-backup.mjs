@@ -11,10 +11,20 @@ try {
  const recent=runs.some(x=>Date.now()-Date.parse(x.createdAt)<10*60000);
  const health=JSON.parse(gh(['api',`repos/${repo}/contents/logs/publisher-health.json`,'-H','Accept: application/vnd.github.raw+json']));
  result.publisherHealth=health;
- const overdue=Object.values(health.platforms || {}).some(x=>x.overdue===true && x.status==='healthy');
+ const instagram=health.platforms?.instagram || {};
+ const lastVerifiedAt=instagram.lastVerifiedAt || null;
+ const postSilenceMinutes=lastVerifiedAt ? Math.max(0,Math.floor((Date.now()-Date.parse(lastVerifiedAt))/60000)) : null;
+ // A normal 30-minute gap is intentional. More than 75 minutes with ready
+ // inventory is a delivery incident, so the local Mac actively dispatches a
+ // verified publisher retry instead of merely writing a health report.
+ const postStalled=Boolean(instagram.pendingItems>0 && (!lastVerifiedAt || postSilenceMinutes>75));
+ result.lastVerifiedAt=lastVerifiedAt;
+ result.postSilenceMinutes=postSilenceMinutes;
+ result.postStalled=postStalled;
+ const overdue=postStalled || Object.values(health.platforms || {}).some(x=>x.overdue===true && x.status==='healthy');
  const failed=runs[0]?.status==='completed' && runs[0]?.conclusion!=='success';
  const cooled=Date.now()-(Date.parse(previous.lastDispatchAt)||0)>=10*60000;
- result.action=active?'publisher_active':!cooled?'cooldown':overdue?'retry_overdue_post':failed?'retry_failed_run':recent?'recent_run':'retry_missing_run';
+ result.action=active?'publisher_active':!cooled?'cooldown':postStalled?'repair_posting_stall':overdue?'retry_overdue_post':failed?'retry_failed_run':recent?'recent_run':'retry_missing_run';
  if(!active&&(!recent||failed||overdue)&&cooled){
   gh(['workflow','run','publish-sportswire.yml','--repo',repo]);
   result.lastDispatchAt=new Date().toISOString();
