@@ -3,16 +3,16 @@
   "shortcode": "DdzCN2MNrg7",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/DdzCN2MNrg7/",
-  "sourceCaption": "Weather looking rough at MetLife Stadium \ud83d\udc40\u2614\ufe0f\n\n(via: @thebluezonee)\n#nfl #giants #titans",
-  "publishCaption": "Weather looking rough at MetLife Stadium \ud83d\udc40\u2614\ufe0f\n\n(via: @thebluezonee)\n#nfl #giants #titans\n\n#football\n\nSource: @bleacherreport",
+  "sourceCaption": "Weather looking rough at MetLife Stadium 👀☔️\n\n(via: @thebluezonee)\n#nfl #giants #titans",
+  "publishCaption": "Weather looking rough at MetLife Stadium 👀☔️\n\n(via: @thebluezonee)\n#nfl #giants #titans\n\n#football\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-27T16:34:33.352Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Weather looking rough at MetLife Stadium \ud83d\udc40\u2614\ufe0f\n\n(via: @thebluezonee)\n#nfl #giants #titans",
+  "body": "Weather looking rough at MetLife Stadium 👀☔️\n\n(via: @thebluezonee)\n#nfl #giants #titans",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-27T16:35:22.229Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 9.6,
   "scoreMargin": 14.91,
   "highlightQuality": 9.6,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 54.91,
@@ -73,5 +73,17 @@
   "video": "media/DdzCN2MNrg7-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114900103915961",
+  "instagramContainerCreatedAt": "2026-09-29T14:17:03.585Z",
+  "instagramPublishRequestedAt": "2026-09-29T14:17:34.124Z",
+  "instagramMediaId": "18227035987336182",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd39FKglLSe/",
+  "instagramVerifiedAt": "2026-09-29T14:17:41.121Z",
+  "publishedAt": "2026-09-29T14:17:41.121Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DdzCN2MNrg7-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790691461122-DdzCN2MNrg7-sportswire247.mp4'",
+    "at": "2026-09-29T14:17:41.122Z"
+  }
 }
