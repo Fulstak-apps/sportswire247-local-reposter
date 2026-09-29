@@ -6,7 +6,7 @@
   "sourceCaption": "Jameis Winston and Cam Skattebo were not on the same page and Winston records a tackle for loss\n\n#giants #football #nfl #sports",
   "publishCaption": "Jameis Winston and Cam Skattebo were not on the same page and Winston records a tackle for loss\n\n#giants #football #nfl #sports\n\nSource: @jomboymedia",
   "discoveredAt": "2026-09-27T17:57:36.962Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 3.73,
   "scoreMargin": 18.59,
   "highlightQuality": 3.73,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 58.59,
@@ -73,5 +73,17 @@
   "video": "media/DdzMDZtpZoM-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114786673915961",
+  "instagramContainerCreatedAt": "2026-09-29T06:41:01.373Z",
+  "instagramPublishRequestedAt": "2026-09-29T06:42:02.164Z",
+  "instagramMediaId": "18125920540861585",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd3I781AKGf/",
+  "instagramVerifiedAt": "2026-09-29T06:42:09.320Z",
+  "publishedAt": "2026-09-29T06:42:09.320Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DdzMDZtpZoM-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790664129321-DdzMDZtpZoM-sportswire247.mp4'",
+    "at": "2026-09-29T06:42:09.321Z"
+  }
 }
