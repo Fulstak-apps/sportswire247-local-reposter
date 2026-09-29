@@ -113,7 +113,7 @@ async function storyVisual(story) {
   const fallback = /MLB|baseball|Yankees|Red Sox/i.test(story.headline)
     ? "https://upload.wikimedia.org/wikipedia/commons/4/41/Red_Sox_Yankees_Game_Boston_July_2012.jpg"
     : /NBA|basketball/i.test(story.headline)
-      ? "https://upload.wikimedia.org/wikipedia/commons/8/8c/Maccabi_Tel_Aviv_basketball_team_playing_against_the_Phoenix_Suns_%28FL45862783%29.jpg"
+      ? "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Maccabi_Tel_Aviv_basketball_team_playing_against_the_Phoenix_Suns_%28FL63617771%29.jpg/1920px-Maccabi_Tel_Aviv_basketball_team_playing_against_the_Phoenix_Suns_%28FL63617771%29.jpg"
       : "https://upload.wikimedia.org/wikipedia/commons/4/4e/Warrior_Games_athletes_honored_at_Navy-Air_Force_football_game_141004-D-DB155-022.jpg";
   try {
     const image = await fetch(fallback, { signal: AbortSignal.timeout(25_000), headers: { "User-Agent": "SportsWire247 local newsroom" } });
@@ -139,8 +139,8 @@ function cardHeadline(headline) {
 }
 async function render(slides, output) {
   const logo = `data:image/png;base64,${(await fs.readFile(logoPath)).toString("base64")}`;
-  const browser = await chromium.launch({ executablePath: CHROME, headless: true });
-  try { const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 }); for (let i = 0; i < slides.length; i++) { await page.setContent(visual(slides[i], logo, i), { waitUntil: "load" }); await page.screenshot({ path: path.join(output, `slide-${i + 1}.png`), type: "png" }); } } finally { await browser.close(); }
+  const browser = await chromium.launch({ executablePath: CHROME, headless: true, timeout: 45_000 });
+  try { const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 }); for (let i = 0; i < slides.length; i++) { await page.setContent(visual(slides[i], logo, i), { waitUntil: "domcontentloaded", timeout: 45_000 }); await page.screenshot({ path: path.join(output, `slide-${i + 1}.png`), type: "png" }); } } finally { await browser.close(); }
 }
 async function main() {
   const runId = new Date().toISOString().replace(/[:.]/g, "-");
