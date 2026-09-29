@@ -3,16 +3,16 @@
   "shortcode": "DdzS91iFuC1",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/creatorleague/p/DdzS91iFuC1/",
-  "sourceCaption": "Did Kyrie hit the Silky meme? \ud83e\udd2f\ud83d\ude02 (@nba, @silky.durag)",
-  "publishCaption": "Did Kyrie hit the Silky meme? \ud83e\udd2f\ud83d\ude02 (@nba, @silky.durag)\n\n#basketball #nba\n\nSource: @houseofhighlights",
+  "sourceCaption": "Did Kyrie hit the Silky meme? 🤯😂 (@nba, @silky.durag)",
+  "publishCaption": "Did Kyrie hit the Silky meme? 🤯😂 (@nba, @silky.durag)\n\n#basketball #nba\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-27T20:05:52.385Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Kyrie Irving hits Silky meme \ud83e\udd2f\ud83d\ude02 @nba @silky.durag",
+  "body": "Kyrie Irving hits Silky meme 🤯😂 @nba @silky.durag",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-09-27T20:06:25.042Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.61,
   "scoreMargin": 25.01,
   "highlightQuality": 10.61,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 60.01,
@@ -73,5 +73,17 @@
   "video": "media/DdzS91iFuC1-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114755344915961",
+  "instagramContainerCreatedAt": "2026-09-29T04:39:11.351Z",
+  "instagramPublishRequestedAt": "2026-09-29T04:39:41.782Z",
+  "instagramMediaId": "18130630672702849",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd268wLgDPY/",
+  "instagramVerifiedAt": "2026-09-29T04:39:52.003Z",
+  "publishedAt": "2026-09-29T04:39:52.004Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DdzS91iFuC1-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790656792005-DdzS91iFuC1-sportswire247.mp4'",
+    "at": "2026-09-29T04:39:52.005Z"
+  }
 }
