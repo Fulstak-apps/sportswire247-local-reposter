@@ -3,16 +3,16 @@
   "shortcode": "DdzAvuluO4U",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DdzAvuluO4U/",
-  "sourceCaption": "Lincoln Riley asked about Desman Stephen\u2019s II returning to sideline after hit on Dante Moore \ud83d\udc40\n\n(via @uscfb, billoram/X) #usc #oregon #football #cfb",
-  "publishCaption": "Lincoln Riley asked about Desman Stephen\u2019s II returning to sideline after hit on Dante Moore \ud83d\udc40\n\n(via @uscfb, billoram/X) #usc #oregon #football #cfb\n\n#nfl\n\nSource: @bleacherreport",
+  "sourceCaption": "Lincoln Riley asked about Desman Stephen’s II returning to sideline after hit on Dante Moore 👀\n\n(via @uscfb, billoram/X) #usc #oregon #football #cfb",
+  "publishCaption": "Lincoln Riley asked about Desman Stephen’s II returning to sideline after hit on Dante Moore 👀\n\n(via @uscfb, billoram/X) #usc #oregon #football #cfb\n\n#nfl\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-27T16:20:26.587Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Lincoln Riley asked about Desman Stephen\u2019s II returning to sideline after hit on Dante Moore \ud83d\udc40\n\n(via @uscfb, billoram/X) #usc #oregon #football #cfb",
+  "body": "Lincoln Riley asked about Desman Stephen’s II returning to sideline after hit on Dante Moore 👀\n\n(via @uscfb, billoram/X) #usc #oregon #football #cfb",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-27T16:21:16.248Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 59.3,
   "engagementScore": 14.26,
   "scoreMargin": 19.3,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 59.3,
@@ -73,5 +73,17 @@
   "video": "media/DdzAvuluO4U-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114776932915961",
+  "instagramContainerCreatedAt": "2026-09-29T06:00:22.620Z",
+  "instagramPublishRequestedAt": "2026-09-29T06:01:53.211Z",
+  "instagramMediaId": "18129517561753407",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd3EWdNDsNa/",
+  "instagramVerifiedAt": "2026-09-29T06:02:00.025Z",
+  "publishedAt": "2026-09-29T06:02:00.026Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DdzAvuluO4U-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790661720027-DdzAvuluO4U-sportswire247.mp4'",
+    "at": "2026-09-29T06:02:00.027Z"
+  }
 }
