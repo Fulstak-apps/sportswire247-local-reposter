@@ -3,16 +3,16 @@
   "shortcode": "Dd4djoqtMDa",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Dd4djoqtMDa/",
-  "sourceCaption": "Unintentionally hilarious \ud83d\ude2d\n\n(via j.nathan1, @kaitlinmichele, @stg2x, CTV News Toronto) #nba",
-  "publishCaption": "Unintentionally hilarious \ud83d\ude2d\n\n(via j.nathan1, @kaitlinmichele, @stg2x, CTV News Toronto) #nba\n\n#basketball\n\nSource: @sportscenter",
+  "sourceCaption": "Unintentionally hilarious 😭\n\n(via j.nathan1, @kaitlinmichele, @stg2x, CTV News Toronto) #nba",
+  "publishCaption": "Unintentionally hilarious 😭\n\n(via j.nathan1, @kaitlinmichele, @stg2x, CTV News Toronto) #nba\n\n#basketball\n\nSource: @sportscenter",
   "discoveredAt": "2026-09-29T19:18:53.896Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "NBA play unintentionally hilarious \ud83d\ude2d (via j.nathan1, @kaitlinmichele, @stg2x, CTV News Toronto) #nba",
+  "body": "NBA play unintentionally hilarious 😭 (via j.nathan1, @kaitlinmichele, @stg2x, CTV News Toronto) #nba",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-09-29T19:19:40.387Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 65.64,
   "engagementScore": 16.07,
   "scoreMargin": 30.64,
-  "highlightQuality": 14.0,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "highlightQuality": 14,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 65.64,
@@ -73,5 +73,17 @@
   "video": "media/Dd4djoqtMDa-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115007281915961",
+  "instagramContainerCreatedAt": "2026-09-29T20:51:29.275Z",
+  "instagramPublishRequestedAt": "2026-09-29T20:52:45.251Z",
+  "instagramMediaId": "18191441848395349",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd4qUIplNCV/",
+  "instagramVerifiedAt": "2026-09-29T20:52:56.392Z",
+  "publishedAt": "2026-09-29T20:52:56.393Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd4djoqtMDa-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790715176393-Dd4djoqtMDa-sportswire247.mp4'",
+    "at": "2026-09-29T20:52:56.394Z"
+  }
 }
