@@ -6,7 +6,7 @@
   "sourceCaption": "Minnesota head coach PJ Fleck was pumped after a win in Washington and took some blood from one of his players and spread it across his face \n\n#collegefootball #football #sports #cfb",
   "publishCaption": "Minnesota head coach PJ Fleck was pumped after a win in Washington and took some blood from one of his players and spread it across his face \n\n#collegefootball #football #sports #cfb\n\n#nfl\n\nSource: @jomboymedia",
   "discoveredAt": "2026-09-27T16:57:25.452Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 4.1,
   "scoreMargin": 8.96,
   "highlightQuality": 4.1,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.96,
@@ -72,5 +72,17 @@
   "video": "media/DdzFHluRIJa-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18114913864915961",
+  "instagramContainerCreatedAt": "2026-09-29T14:57:38.998Z",
+  "instagramPublishRequestedAt": "2026-09-29T14:58:09.404Z",
+  "instagramMediaId": "18115790495013429",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd4BujygPhO/",
+  "instagramVerifiedAt": "2026-09-29T14:58:21.216Z",
+  "publishedAt": "2026-09-29T14:58:21.217Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DdzFHluRIJa-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790693901218-DdzFHluRIJa-sportswire247.mp4'",
+    "at": "2026-09-29T14:58:21.218Z"
+  }
 }
