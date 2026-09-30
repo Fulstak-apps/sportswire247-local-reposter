@@ -3,16 +3,16 @@
   "shortcode": "Dd18QHyy-QU",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dd18QHyy-QU/",
-  "sourceCaption": "Luka is ready to be the leader of the Lakers after LeBron\u2019s exit\n\n(via @lakers) #lukadoncic #lebronjames #lakers #basketball #nba",
-  "publishCaption": "Luka is ready to be the leader of the Lakers after LeBron\u2019s exit\n\n(via @lakers) #lukadoncic #lebronjames #lakers #basketball #nba\n\nSource: @bleacherreport",
+  "sourceCaption": "Luka is ready to be the leader of the Lakers after LeBron’s exit\n\n(via @lakers) #lukadoncic #lebronjames #lakers #basketball #nba",
+  "publishCaption": "Luka is ready to be the leader of the Lakers after LeBron’s exit\n\n(via @lakers) #lukadoncic #lebronjames #lakers #basketball #nba\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-28T19:39:11.552Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Luka is ready to be the leader of the Lakers after LeBron\u2019s exit\n\n(via @lakers) #lukadoncic #lebronjames #lakers #basketball #nba",
+  "body": "Luka is ready to be the leader of the Lakers after LeBron’s exit\n\n(via @lakers) #lukadoncic #lebronjames #lakers #basketball #nba",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-28T19:39:45.023Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 8.87,
   "scoreMargin": 2.17,
   "highlightQuality": 8.87,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 37.17,
@@ -72,5 +72,17 @@
   "video": "media/Dd18QHyy-QU-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115133125915961",
+  "instagramContainerCreatedAt": "2026-09-30T07:48:09.564Z",
+  "instagramPublishRequestedAt": "2026-09-30T07:48:39.999Z",
+  "instagramMediaId": "17909239038506983",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd51XiOD-J2/",
+  "instagramVerifiedAt": "2026-09-30T07:48:46.650Z",
+  "publishedAt": "2026-09-30T07:48:46.651Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd18QHyy-QU-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790754526651-Dd18QHyy-QU-sportswire247.mp4'",
+    "at": "2026-09-30T07:48:46.652Z"
+  }
 }
