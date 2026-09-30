@@ -3,16 +3,16 @@
   "shortcode": "Dd1-motPBEN",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_cfb/reel/Dd1-motPBEN/",
-  "sourceCaption": "Michigan State alum Draymond Green was fired up after Iowa beat Michigan on a walk-off TD at the Big House \ud83d\ude2d\n\n(via @money23green) \n\n#cfb #collegefootball #football #michiganfootball #draymondgreen",
-  "publishCaption": "Michigan State alum Draymond Green was fired up after Iowa beat Michigan on a walk-off TD at the Big House \ud83d\ude2d\n\n(via @money23green) \n\n#cfb #collegefootball #football #michiganfootball #draymondgreen\n\n#nfl\n\nSource: @bleacherreport",
+  "sourceCaption": "Michigan State alum Draymond Green was fired up after Iowa beat Michigan on a walk-off TD at the Big House 😭\n\n(via @money23green) \n\n#cfb #collegefootball #football #michiganfootball #draymondgreen",
+  "publishCaption": "Michigan State alum Draymond Green was fired up after Iowa beat Michigan on a walk-off TD at the Big House 😭\n\n(via @money23green) \n\n#cfb #collegefootball #football #michiganfootball #draymondgreen\n\n#nfl\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-28T20:01:42.956Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Michigan State alum Draymond Green was fired up after Iowa beat Michigan on a walk-off TD at the Big House \ud83d\ude2d\n\n(via @money23green) \n\n#cfb #collegefootball #football #michiganfootball #draymondgreen",
+  "body": "Michigan State alum Draymond Green was fired up after Iowa beat Michigan on a walk-off TD at the Big House 😭\n\n(via @money23green) \n\n#cfb #collegefootball #football #michiganfootball #draymondgreen",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-28T20:02:34.941Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 3.44,
   "scoreMargin": 32.63,
   "highlightQuality": 47.44,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 72.63,
@@ -74,5 +74,17 @@
   "video": "media/Dd1-motPBEN-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115085341915961",
+  "instagramContainerCreatedAt": "2026-09-30T03:57:32.587Z",
+  "instagramPublishRequestedAt": "2026-09-30T03:58:03.095Z",
+  "instagramMediaId": "17968542893961137",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd5a-tRCVa4/",
+  "instagramVerifiedAt": "2026-09-30T03:58:13.854Z",
+  "publishedAt": "2026-09-30T03:58:13.855Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd1-motPBEN-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790740693855-Dd1-motPBEN-sportswire247.mp4'",
+    "at": "2026-09-30T03:58:13.856Z"
+  }
 }
