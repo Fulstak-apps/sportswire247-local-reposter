@@ -28,12 +28,12 @@ test("local caption cleanup cannot change source facts", () => {
   assert.equal(safeHumanizedCaption("Player scored 30 points #NBA", "Player scored 30 points #NBA"), "Player scored 30 points #NBA");
   assert.equal(safeHumanizedCaption("Player scored 30 points #NBA", "Player scored 31 points #NBA"), null);
 });
-test("caption packaging keeps source text while adding a varied hook and follow prompt", () => {
+test("caption packaging keeps source text and adds sport tags plus a source credit without boilerplate", () => {
   const source = "Amazing dunk #nba";
   const caption = composeCaption(source, "HouseOfHighlights", { contentKind: "highlight", shortcode: "abc", sport: "basketball" });
   assert.ok(caption.includes(source));
   assert.ok(caption.includes("Source: @houseofhighlights"));
-  assert.ok(caption.includes("Follow @sportswire247"));
+  assert.ok(!caption.includes("Follow @sportswire247"));
   assert.ok(caption.includes("#basketball"));
 });
 test("reassembles browser media ranges without gaps", () => {
