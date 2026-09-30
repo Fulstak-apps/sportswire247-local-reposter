@@ -19,7 +19,7 @@ test('reconciliation accepts only a unique exact caption within the request wind
 });
 import { chooseSafeLogo, parseTesseractTsv } from "../src/video-safety.mjs";
 
-const valid = { status: "ready", destinationHandle: "sportswire247", brand: "SportsWire 247", video: "media/x.mp4", sourceUrl: "https://instagram.com/reel/x/", shortcode: "x", publishCaption: "Caption\n\n@sportswire247" };
+const valid = { status: "ready", destinationHandle: "sportswire247", brand: "SportsWire 247", video: "media/x.mp4", sourceUrl: "https://instagram.com/reel/x/", shortcode: "x", publishCaption: "Caption\n\nSource: @sportscenter\n\n@sportswire247" };
 test("published media cleanup is gated on verified publication and media root", async () => {
   const pending = await cleanupPublishedMedia(valid);
   assert.equal(pending.removed, false);
