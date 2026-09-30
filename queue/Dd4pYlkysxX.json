@@ -3,16 +3,16 @@
   "shortcode": "Dd4pYlkysxX",
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/talkinbaseball_/reel/Dd4pYlkysxX/",
-  "sourceCaption": "AUSTIN RILEY\u2019S HOME RUN WINS GAME 1 FOR ATLANTA!\n\n#braves #mlb #sports #phillies #homerun",
-  "publishCaption": "AUSTIN RILEY\u2019S HOME RUN WINS GAME 1 FOR ATLANTA!\n\n#braves #mlb #sports #phillies #homerun\n\n#baseball\n\nSource: @jomboymedia",
+  "sourceCaption": "AUSTIN RILEY’S HOME RUN WINS GAME 1 FOR ATLANTA!\n\n#braves #mlb #sports #phillies #homerun",
+  "publishCaption": "AUSTIN RILEY’S HOME RUN WINS GAME 1 FOR ATLANTA!\n\n#braves #mlb #sports #phillies #homerun\n\n#baseball\n\nSource: @jomboymedia",
   "discoveredAt": "2026-09-29T20:49:26.739Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "AUSTIN RILEY\u2019S HOME RUN WINS GAME 1 FOR ATLANTA!\n\n#braves #mlb #sports #phillies #homerun",
+  "body": "AUSTIN RILEY’S HOME RUN WINS GAME 1 FOR ATLANTA!\n\n#braves #mlb #sports #phillies #homerun",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-29T20:49:55.291Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 9.75,
   "scoreMargin": 26.48,
   "highlightQuality": 49.75,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 71.48,
@@ -75,5 +75,17 @@
   "video": "media/Dd4pYlkysxX-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115300450915961",
+  "instagramContainerCreatedAt": "2026-09-30T17:27:22.372Z",
+  "instagramPublishRequestedAt": "2026-09-30T17:27:52.839Z",
+  "instagramMediaId": "18339476614286711",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd63qAHCROg/",
+  "instagramVerifiedAt": "2026-09-30T17:28:01.903Z",
+  "publishedAt": "2026-09-30T17:28:01.904Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd4pYlkysxX-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790789281905-Dd4pYlkysxX-sportswire247.mp4'",
+    "at": "2026-09-30T17:28:01.905Z"
+  }
 }
