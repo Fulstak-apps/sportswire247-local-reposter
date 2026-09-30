@@ -3,16 +3,16 @@
   "shortcode": "Dd2OsbuH0m-",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/p/Dd2OsbuH0m-/",
-  "sourceCaption": "Long-hair Luka was only for the summer \ud83d\ude02\ud83d\udcaf\n\n(\ud83d\udcf8 @lakers, h/t DStarkand/X)",
-  "publishCaption": "Long-hair Luka was only for the summer \ud83d\ude02\ud83d\udcaf\n\n(\ud83d\udcf8 @lakers, h/t DStarkand/X)\n\n#basketball #nba\n\nSource: @sportscenter",
+  "sourceCaption": "Long-hair Luka was only for the summer 😂💯\n\n(📸 @lakers, h/t DStarkand/X)",
+  "publishCaption": "Long-hair Luka was only for the summer 😂💯\n\n(📸 @lakers, h/t DStarkand/X)\n\n#basketball #nba\n\nSource: @sportscenter",
   "discoveredAt": "2026-09-28T22:15:30.329Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Long-hair Luka was only for the summer \ud83d\ude02\ud83d\udcaf\n\n(\ud83d\udcf8 @lakers, h/t DStarkand/X)",
+  "body": "Long-hair Luka was only for the summer 😂💯\n\n(📸 @lakers, h/t DStarkand/X)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-28T22:16:18.961Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 5.85,
   "scoreMargin": 0.18,
   "highlightQuality": 5.85,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 35.18,
@@ -72,5 +72,17 @@
   "video": "media/Dd2OsbuH0m--sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115195744915961",
+  "instagramContainerCreatedAt": "2026-09-30T11:41:39.835Z",
+  "instagramPublishRequestedAt": "2026-09-30T11:42:10.456Z",
+  "instagramMediaId": "18111778849841773",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd6QGVnjSMb/",
+  "instagramVerifiedAt": "2026-09-30T11:42:17.451Z",
+  "publishedAt": "2026-09-30T11:42:17.452Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd2OsbuH0m--sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790768537453-Dd2OsbuH0m--sportswire247.mp4'",
+    "at": "2026-09-30T11:42:17.453Z"
+  }
 }
