@@ -3,16 +3,16 @@
   "shortcode": "Dd7TISIyhUU",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brwalkoff/reel/Dd7TISIyhUU/",
-  "sourceCaption": "BRYCE HARPER INSTANT REDEMPTION \u26a1\ufe0f \n\n(via @mlb)\n\n#Baseball #MLB #Phillies",
-  "publishCaption": "BRYCE HARPER INSTANT REDEMPTION \u26a1\ufe0f \n\n(via @mlb)\n\n#Baseball #MLB #Phillies\n\nSource: @bleacherreport",
+  "sourceCaption": "BRYCE HARPER INSTANT REDEMPTION ⚡️ \n\n(via @mlb)\n\n#Baseball #MLB #Phillies",
+  "publishCaption": "BRYCE HARPER INSTANT REDEMPTION ⚡️ \n\n(via @mlb)\n\n#Baseball #MLB #Phillies\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-30T21:38:07.752Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "BRYCE HARPER INSTANT REDEMPTION \u26a1\ufe0f \n\n(via @mlb)\n\n#Baseball #MLB #Phillies",
+  "body": "BRYCE HARPER INSTANT REDEMPTION ⚡️ \n\n(via @mlb)\n\n#Baseball #MLB #Phillies",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-30T21:38:56.405Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.31,
   "scoreMargin": 7.45,
   "highlightQuality": 10.31,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 52.45,
@@ -73,5 +73,17 @@
   "video": "media/Dd7TISIyhUU-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115372480915961",
+  "instagramContainerCreatedAt": "2026-09-30T22:33:10.659Z",
+  "instagramPublishRequestedAt": "2026-09-30T22:34:26.387Z",
+  "instagramMediaId": "17884672677687286",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd7auV3igWB/",
+  "instagramVerifiedAt": "2026-09-30T22:34:35.895Z",
+  "publishedAt": "2026-09-30T22:34:35.896Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd7TISIyhUU-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790807675897-Dd7TISIyhUU-sportswire247.mp4'",
+    "at": "2026-09-30T22:34:35.897Z"
+  }
 }
