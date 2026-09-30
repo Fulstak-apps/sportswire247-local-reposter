@@ -3,10 +3,10 @@
   "shortcode": "Dd2jyQcAYZy",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/espn/reel/Dd2jyQcAYZy/",
-  "sourceCaption": "Chicago\u2019s D\u2019Marco Jackson was assessed an unnecessary roughness penalty for this hit on Jalen Hurts.\n\nPhiladelphia was called for a holding penalty meaning both penalties offset. #nflfootball",
-  "publishCaption": "Chicago\u2019s D\u2019Marco Jackson was assessed an unnecessary roughness penalty for this hit on Jalen Hurts.\n\nPhiladelphia was called for a holding penalty meaning both penalties offset. #nflfootball\n\n#football #nfl\n\nSource: @sportscenter",
+  "sourceCaption": "Chicago’s D’Marco Jackson was assessed an unnecessary roughness penalty for this hit on Jalen Hurts.\n\nPhiladelphia was called for a holding penalty meaning both penalties offset. #nflfootball",
+  "publishCaption": "Chicago’s D’Marco Jackson was assessed an unnecessary roughness penalty for this hit on Jalen Hurts.\n\nPhiladelphia was called for a holding penalty meaning both penalties offset. #nflfootball\n\n#football #nfl\n\nSource: @sportscenter",
   "discoveredAt": "2026-09-29T01:35:53.690Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,9 +52,9 @@
   "rawScore": 52.07,
   "engagementScore": 19.98,
   "scoreMargin": 12.07,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 52.07,
@@ -73,5 +73,17 @@
   "video": "media/Dd2jyQcAYZy-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115124287915961",
+  "instagramContainerCreatedAt": "2026-09-30T07:10:32.289Z",
+  "instagramPublishRequestedAt": "2026-09-30T07:11:17.631Z",
+  "instagramMediaId": "18099893132637625",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd5xFB8Cn6w/",
+  "instagramVerifiedAt": "2026-09-30T07:11:25.838Z",
+  "publishedAt": "2026-09-30T07:11:25.839Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd2jyQcAYZy-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790752285840-Dd2jyQcAYZy-sportswire247.mp4'",
+    "at": "2026-09-30T07:11:25.840Z"
+  }
 }
