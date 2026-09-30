@@ -3,16 +3,16 @@
   "shortcode": "Dd4kSPkyGvc",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dd4kSPkyGvc/",
-  "sourceCaption": "Kayvon Thibodeaux finds out in real time about OBJ\u2019s release\u2026 His reaction says it all \ud83e\udd72\n\n(via @snytv) #odellbeckhamjr #obj #giants #football #nfl",
-  "publishCaption": "Kayvon Thibodeaux finds out in real time about OBJ\u2019s release\u2026 His reaction says it all \ud83e\udd72\n\n(via @snytv) #odellbeckhamjr #obj #giants #football #nfl\n\nSource: @bleacherreport",
+  "sourceCaption": "Kayvon Thibodeaux finds out in real time about OBJ’s release… His reaction says it all 🥲\n\n(via @snytv) #odellbeckhamjr #obj #giants #football #nfl",
+  "publishCaption": "Kayvon Thibodeaux finds out in real time about OBJ’s release… His reaction says it all 🥲\n\n(via @snytv) #odellbeckhamjr #obj #giants #football #nfl\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-29T20:07:30.102Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Kayvon Thibodeaux finds out in real time about OBJ\u2019s release\u2026 His reaction says it all \ud83e\udd72\n\n(via @snytv) #odellbeckhamjr #obj #giants #football #nfl",
+  "body": "Kayvon Thibodeaux finds out in real time about OBJ’s release… His reaction says it all 🥲\n\n(via @snytv) #odellbeckhamjr #obj #giants #football #nfl",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-29T20:08:20.208Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 60.43,
   "engagementScore": 14.74,
   "scoreMargin": 20.43,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 60.43,
@@ -73,5 +73,17 @@
   "video": "media/Dd4kSPkyGvc-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115109416915961",
+  "instagramContainerCreatedAt": "2026-09-30T05:59:33.470Z",
+  "instagramPublishRequestedAt": "2026-09-30T06:00:04.095Z",
+  "instagramMediaId": "17898930267602689",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd5o8UfCBPj/",
+  "instagramVerifiedAt": "2026-09-30T06:00:12.442Z",
+  "publishedAt": "2026-09-30T06:00:12.443Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd4kSPkyGvc-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790748012444-Dd4kSPkyGvc-sportswire247.mp4'",
+    "at": "2026-09-30T06:00:12.444Z"
+  }
 }
