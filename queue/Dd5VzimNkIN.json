@@ -6,7 +6,7 @@
   "sourceCaption": "BEN RICE GRAND SLAM! 9-0 YANKEES!\n\n#yankees #mlb #baseball #sports #repbx",
   "publishCaption": "BEN RICE GRAND SLAM! 9-0 YANKEES!\n\n#yankees #mlb #baseball #sports #repbx\n\nSource: @jomboymedia",
   "discoveredAt": "2026-09-30T03:15:21.649Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 12.31,
   "scoreMargin": 37.06,
   "highlightQuality": 68.31,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 82.06,
@@ -75,5 +75,17 @@
   "video": "media/Dd5VzimNkIN-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115263127915961",
+  "instagramContainerCreatedAt": "2026-09-30T15:25:24.296Z",
+  "instagramPublishRequestedAt": "2026-09-30T15:26:09.995Z",
+  "instagramMediaId": "18013936628958872",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd6puL9D-9A/",
+  "instagramVerifiedAt": "2026-09-30T15:26:19.912Z",
+  "publishedAt": "2026-09-30T15:26:19.912Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd5VzimNkIN-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790781979913-Dd5VzimNkIN-sportswire247.mp4'",
+    "at": "2026-09-30T15:26:19.913Z"
+  }
 }
