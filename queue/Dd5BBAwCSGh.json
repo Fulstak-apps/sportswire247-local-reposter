@@ -3,16 +3,16 @@
   "shortcode": "Dd5BBAwCSGh",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_openice/p/Dd5BBAwCSGh/",
-  "sourceCaption": "The Cats spoil the Canes banner ceremony with a late overtime goal \ud83e\udd2f",
-  "publishCaption": "The Cats spoil the Canes banner ceremony with a late overtime goal \ud83e\udd2f\n\n#sports\n\nSource: @bleacherreport",
+  "sourceCaption": "The Cats spoil the Canes banner ceremony with a late overtime goal 🤯",
+  "publishCaption": "The Cats spoil the Canes banner ceremony with a late overtime goal 🤯\n\n#sports\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-30T00:15:08.986Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Cats spoil Canes' banner ceremony with late overtime goal \ud83e\udd2f",
+  "body": "Cats spoil Canes' banner ceremony with late overtime goal 🤯",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-09-30T00:15:29.520Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.63,
   "scoreMargin": -20.99,
   "highlightQuality": 42.63,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 59.01,
@@ -76,5 +76,17 @@
   "video": "media/Dd5BBAwCSGh-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115382464915961",
+  "instagramContainerCreatedAt": "2026-09-30T23:37:15.770Z",
+  "instagramPublishRequestedAt": "2026-09-30T23:37:46.303Z",
+  "instagramMediaId": "18116420350800998",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd7h_OSgVtc/",
+  "instagramVerifiedAt": "2026-09-30T23:37:54.127Z",
+  "publishedAt": "2026-09-30T23:37:54.135Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd5BBAwCSGh-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790811474139-Dd5BBAwCSGh-sportswire247.mp4'",
+    "at": "2026-09-30T23:37:54.139Z"
+  }
 }
