@@ -3,16 +3,16 @@
   "shortcode": "Dd1dnm2FGgz",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/Dd1dnm2FGgz/",
-  "sourceCaption": "I feel you Giannis I hate iguanas \ud83d\ude2d @giannis_an34 @miamiheat",
-  "publishCaption": "I feel you Giannis I hate iguanas \ud83d\ude2d @giannis_an34 @miamiheat\n\n#basketball #nba\n\nSource: @overtime",
+  "sourceCaption": "I feel you Giannis I hate iguanas 😭 @giannis_an34 @miamiheat",
+  "publishCaption": "I feel you Giannis I hate iguanas 😭 @giannis_an34 @miamiheat\n\n#basketball #nba\n\nSource: @overtime",
   "discoveredAt": "2026-09-28T15:08:13.770Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "I feel you, Giannis \u2014 I hate iguanas \ud83d\ude2d @giannis_an34 @miamiheat",
+  "body": "I feel you, Giannis — I hate iguanas 😭 @giannis_an34 @miamiheat",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-09-28T15:08:49.396Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 7.65,
   "scoreMargin": -0.65,
   "highlightQuality": 7.65,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 34.35,
@@ -72,5 +72,17 @@
   "video": "media/Dd1dnm2FGgz-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115248574915961",
+  "instagramContainerCreatedAt": "2026-09-30T14:44:38.209Z",
+  "instagramPublishRequestedAt": "2026-09-30T14:46:09.964Z",
+  "instagramMediaId": "18128037433885799",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd6lIxrHIIb/",
+  "instagramVerifiedAt": "2026-09-30T14:46:22.514Z",
+  "publishedAt": "2026-09-30T14:46:22.515Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd1dnm2FGgz-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790779582515-Dd1dnm2FGgz-sportswire247.mp4'",
+    "at": "2026-09-30T14:46:22.515Z"
+  }
 }
