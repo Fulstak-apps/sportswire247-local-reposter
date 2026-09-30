@@ -3,16 +3,16 @@
   "shortcode": "Ddz1sLsRUOa",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Ddz1sLsRUOa/",
-  "sourceCaption": "WALK-OFF WINNER IN BRAZIL \ud83c\udde7\ud83c\uddf7\n\nTYLER LOOP NAILS THE 56-YD FIELD GOAL FOR THE WIN!\n\n(via @nfl) #nflfootball",
-  "publishCaption": "WALK-OFF WINNER IN BRAZIL \ud83c\udde7\ud83c\uddf7\n\nTYLER LOOP NAILS THE 56-YD FIELD GOAL FOR THE WIN!\n\n(via @nfl) #nflfootball\n\n#football #nfl\n\nSource: @sportscenter",
+  "sourceCaption": "WALK-OFF WINNER IN BRAZIL 🇧🇷\n\nTYLER LOOP NAILS THE 56-YD FIELD GOAL FOR THE WIN!\n\n(via @nfl) #nflfootball",
+  "publishCaption": "WALK-OFF WINNER IN BRAZIL 🇧🇷\n\nTYLER LOOP NAILS THE 56-YD FIELD GOAL FOR THE WIN!\n\n(via @nfl) #nflfootball\n\n#football #nfl\n\nSource: @sportscenter",
   "discoveredAt": "2026-09-28T00:10:36.894Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "WALK-OFF WINNER IN BRAZIL \ud83c\udde7\ud83c\uddf7\n\nTYLER LOOP NAILS THE 56-YD FIELD GOAL FOR THE WIN!\n\n(via @nfl) #nflfootball",
+  "body": "WALK-OFF WINNER IN BRAZIL 🇧🇷\n\nTYLER LOOP NAILS THE 56-YD FIELD GOAL FOR THE WIN!\n\n(via @nfl) #nflfootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-28T00:11:25.457Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 69.66,
   "engagementScore": 16.43,
   "scoreMargin": 29.66,
-  "highlightQuality": 70.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 70,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 69.66,
@@ -75,5 +75,17 @@
   "video": "media/Ddz1sLsRUOa-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115093579915961",
+  "instagramContainerCreatedAt": "2026-09-30T04:38:13.557Z",
+  "instagramPublishRequestedAt": "2026-09-30T04:38:44.937Z",
+  "instagramMediaId": "18100880144378642",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd5fouBAJEu/",
+  "instagramVerifiedAt": "2026-09-30T04:38:55.474Z",
+  "publishedAt": "2026-09-30T04:38:55.475Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Ddz1sLsRUOa-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790743135475-Ddz1sLsRUOa-sportswire247.mp4'",
+    "at": "2026-09-30T04:38:55.476Z"
+  }
 }
