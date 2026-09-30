@@ -3,16 +3,16 @@
   "shortcode": "Dd5fbb3Ov7k",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dd5fbb3Ov7k/",
-  "sourceCaption": "Nah she was OVER IT \ud83d\ude02\n\n(h/t gracecamille_/X) \n\n#nba #basketball #couple #funny",
-  "publishCaption": "Nah she was OVER IT \ud83d\ude02\n\n(h/t gracecamille_/X) \n\n#nba #basketball #couple #funny\n\nSource: @bleacherreport",
+  "sourceCaption": "Nah she was OVER IT 😂\n\n(h/t gracecamille_/X) \n\n#nba #basketball #couple #funny",
+  "publishCaption": "Nah she was OVER IT 😂\n\n(h/t gracecamille_/X) \n\n#nba #basketball #couple #funny\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-30T04:39:38.854Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Nah she was OVER IT \ud83d\ude02\n\n(h/t gracecamille_/X) \n\n#nba #basketball #couple #funny",
+  "body": "Nah she was OVER IT 😂\n\n(h/t gracecamille_/X) \n\n#nba #basketball #couple #funny",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-30T04:40:28.322Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 4.71,
   "scoreMargin": 23.64,
   "highlightQuality": 4.71,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 58.64,
@@ -73,5 +73,17 @@
   "video": "media/Dd5fbb3Ov7k-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115100971915961",
+  "instagramContainerCreatedAt": "2026-09-30T05:18:52.655Z",
+  "instagramPublishRequestedAt": "2026-09-30T05:19:23.284Z",
+  "instagramMediaId": "18151659544530246",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd5kSejExBG/",
+  "instagramVerifiedAt": "2026-09-30T05:19:30.980Z",
+  "publishedAt": "2026-09-30T05:19:30.981Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd5fbb3Ov7k-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790745570981-Dd5fbb3Ov7k-sportswire247.mp4'",
+    "at": "2026-09-30T05:19:30.981Z"
+  }
 }
