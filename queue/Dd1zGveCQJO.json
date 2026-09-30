@@ -3,16 +3,16 @@
   "shortcode": "Dd1zGveCQJO",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimew/p/Dd1zGveCQJO/",
-  "sourceCaption": "AWWWWW BESTIES \ud83e\udd7a @_oliviamiles_ @melo (via sneakerreporter/X, @timberwolves)",
-  "publishCaption": "AWWWWW BESTIES \ud83e\udd7a @_oliviamiles_ @melo (via sneakerreporter/X, @timberwolves)\n\n#basketball #nba\n\nSource: @overtime",
+  "sourceCaption": "AWWWWW BESTIES 🥺 @_oliviamiles_ @melo (via sneakerreporter/X, @timberwolves)",
+  "publishCaption": "AWWWWW BESTIES 🥺 @_oliviamiles_ @melo (via sneakerreporter/X, @timberwolves)\n\n#basketball #nba\n\nSource: @overtime",
   "discoveredAt": "2026-09-28T18:15:38.263Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "AWWWWW BESTIES \ud83e\udd7a @_oliviamiles_ @melo (via sneakerreporter/X, @timberwolves)",
+  "body": "AWWWWW BESTIES 🥺 @_oliviamiles_ @melo (via sneakerreporter/X, @timberwolves)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-28T18:16:26.673Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 6.36,
   "scoreMargin": -1.77,
   "highlightQuality": 6.36,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 33.23,
@@ -72,5 +72,17 @@
   "video": "media/Dd1zGveCQJO-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115287799915961",
+  "instagramContainerCreatedAt": "2026-09-30T16:46:41.221Z",
+  "instagramPublishRequestedAt": "2026-09-30T16:47:11.772Z",
+  "instagramMediaId": "18113649080014743",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd6zASyiDaw/",
+  "instagramVerifiedAt": "2026-09-30T16:47:20.700Z",
+  "publishedAt": "2026-09-30T16:47:20.700Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd1zGveCQJO-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790786840701-Dd1zGveCQJO-sportswire247.mp4'",
+    "at": "2026-09-30T16:47:20.701Z"
+  }
 }
