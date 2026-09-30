@@ -3,16 +3,16 @@
   "shortcode": "Dd7HXGbtKWg",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Dd7HXGbtKWg/",
-  "sourceCaption": "Unreal \ud83d\ude27\ud83d\udc4f (via @emtravelsforfun944)\n\n#basketball",
-  "publishCaption": "Unreal \ud83d\ude27\ud83d\udc4f (via @emtravelsforfun944)\n\n#basketball\n\n#nba\n\nSource: @sportscenter",
+  "sourceCaption": "Unreal 😧👏 (via @emtravelsforfun944)\n\n#basketball",
+  "publishCaption": "Unreal 😧👏 (via @emtravelsforfun944)\n\n#basketball\n\n#nba\n\nSource: @sportscenter",
   "discoveredAt": "2026-09-30T19:48:29.759Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Unreal \ud83d\ude27\ud83d\udc4f (via @emtravelsforfun944)\n\n#basketball",
+  "body": "Unreal 😧👏 (via @emtravelsforfun944)\n\n#basketball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-30T19:49:18.641Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 5.94,
   "scoreMargin": 19.47,
   "highlightQuality": 5.94,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 54.47,
@@ -73,5 +73,17 @@
   "video": "media/Dd7HXGbtKWg-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115360942915961",
+  "instagramContainerCreatedAt": "2026-09-30T21:31:08.968Z",
+  "instagramPublishRequestedAt": "2026-09-30T21:31:39.392Z",
+  "instagramMediaId": "18217324684352433",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd7TjjKj-j9/",
+  "instagramVerifiedAt": "2026-09-30T21:31:47.606Z",
+  "publishedAt": "2026-09-30T21:31:47.606Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd7HXGbtKWg-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790803907607-Dd7HXGbtKWg-sportswire247.mp4'",
+    "at": "2026-09-30T21:31:47.607Z"
+  }
 }
