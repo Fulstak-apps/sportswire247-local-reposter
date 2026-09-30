@@ -3,16 +3,16 @@
   "shortcode": "Dd5RQg8tKHL",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dd5RQg8tKHL/",
-  "sourceCaption": "Everyone still tryna pass to Steph \ud83d\ude05\ud83d\ude02",
-  "publishCaption": "Everyone still tryna pass to Steph \ud83d\ude05\ud83d\ude02\n\n#basketball #nba\n\nSource: @houseofhighlights",
+  "sourceCaption": "Everyone still tryna pass to Steph 😅😂",
+  "publishCaption": "Everyone still tryna pass to Steph 😅😂\n\n#basketball #nba\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-30T02:35:22.202Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Everyone still trying to pass to Steph \ud83d\ude05\ud83d\ude02",
+  "body": "Everyone still trying to pass to Steph 😅😂",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-09-30T02:35:45.556Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 3.45,
   "scoreMargin": 15.24,
   "highlightQuality": 3.45,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 50.24,
@@ -72,5 +72,17 @@
   "video": "media/Dd5RQg8tKHL-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115116649915961",
+  "instagramContainerCreatedAt": "2026-09-30T06:40:05.196Z",
+  "instagramPublishRequestedAt": "2026-09-30T06:40:20.765Z",
+  "instagramMediaId": "18078161786453481",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd5tlLKiebb/",
+  "instagramVerifiedAt": "2026-09-30T06:40:27.874Z",
+  "publishedAt": "2026-09-30T06:40:27.890Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd5RQg8tKHL-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790750427894-Dd5RQg8tKHL-sportswire247.mp4'",
+    "at": "2026-09-30T06:40:27.894Z"
+  }
 }
