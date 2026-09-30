@@ -3,16 +3,16 @@
   "shortcode": "Dd0S78aG2b7",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Dd0S78aG2b7/",
-  "sourceCaption": "Lamar Jackson knows he has bigger goals for this season \ud83d\ude24 (via @ravens)",
-  "publishCaption": "Lamar Jackson knows he has bigger goals for this season \ud83d\ude24 (via @ravens)\n\n#football #nfl\n\nSource: @bleacherreport",
+  "sourceCaption": "Lamar Jackson knows he has bigger goals for this season 😤 (via @ravens)",
+  "publishCaption": "Lamar Jackson knows he has bigger goals for this season 😤 (via @ravens)\n\n#football #nfl\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-28T04:14:16.441Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Lamar Jackson has bigger season goals \ud83d\ude24 (via @ravens)",
+  "body": "Lamar Jackson has bigger season goals 😤 (via @ravens)",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-09-28T04:14:42.306Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 7.09,
   "scoreMargin": 1.89,
   "highlightQuality": 27.09,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 41.89,
@@ -74,5 +74,17 @@
   "video": "media/Dd0S78aG2b7-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115228429915961",
+  "instagramContainerCreatedAt": "2026-09-30T13:44:22.702Z",
+  "instagramPublishRequestedAt": "2026-09-30T13:44:52.995Z",
+  "instagramMediaId": "18114623294046166",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd6eImSjGYC/",
+  "instagramVerifiedAt": "2026-09-30T13:45:03.472Z",
+  "publishedAt": "2026-09-30T13:45:03.473Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd0S78aG2b7-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790775903473-Dd0S78aG2b7-sportswire247.mp4'",
+    "at": "2026-09-30T13:45:03.473Z"
+  }
 }
