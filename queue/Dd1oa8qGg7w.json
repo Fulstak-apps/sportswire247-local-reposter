@@ -3,16 +3,16 @@
   "shortcode": "Dd1oa8qGg7w",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/p/Dd1oa8qGg7w/",
-  "sourceCaption": "THE WHOLE LEAGUE SHAKING RIGHT NOW \ud83e\udd2f (via @nba)",
-  "publishCaption": "THE WHOLE LEAGUE SHAKING RIGHT NOW \ud83e\udd2f (via @nba)\n\n#basketball #nba\n\nSource: @overtime",
+  "sourceCaption": "THE WHOLE LEAGUE SHAKING RIGHT NOW 🤯 (via @nba)",
+  "publishCaption": "THE WHOLE LEAGUE SHAKING RIGHT NOW 🤯 (via @nba)\n\n#basketball #nba\n\nSource: @overtime",
   "discoveredAt": "2026-09-28T16:40:57.120Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "NBA league shaking right now \ud83e\udd2f (via @nba)",
+  "body": "NBA league shaking right now 🤯 (via @nba)",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-09-28T16:41:31.903Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 7.35,
   "scoreMargin": -0.87,
   "highlightQuality": 7.35,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 34.13,
@@ -72,5 +72,17 @@
   "video": "media/Dd1oa8qGg7w-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115274266915961",
+  "instagramContainerCreatedAt": "2026-09-30T16:06:08.629Z",
+  "instagramPublishRequestedAt": "2026-09-30T16:06:38.998Z",
+  "instagramMediaId": "18106119740254980",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd6uXEVCSzG/",
+  "instagramVerifiedAt": "2026-09-30T16:06:46.402Z",
+  "publishedAt": "2026-09-30T16:06:46.402Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd1oa8qGg7w-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790784406403-Dd1oa8qGg7w-sportswire247.mp4'",
+    "at": "2026-09-30T16:06:46.403Z"
+  }
 }
