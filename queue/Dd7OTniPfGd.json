@@ -3,16 +3,16 @@
   "shortcode": "Dd7OTniPfGd",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtimelunchbox/reel/Dd7OTniPfGd/",
-  "sourceCaption": "Europe might have a point... can you really be a WORLD champion if only American teams competed? \ud83c\udf0d Comment your take \u2b07\ufe0f\n\n\ud83d\udd17 Full Debate \u201cCan 1 European Sports Fan Humble 10 Americans?\u201d in my bio\n\n#superbowl #nfl #worldchampions #europevsamerica #sportsfans",
-  "publishCaption": "Europe might have a point... can you really be a WORLD champion if only American teams competed? \ud83c\udf0d Comment your take \u2b07\ufe0f\n\n\ud83d\udd17 Full Debate \u201cCan 1 European Sports Fan Humble 10 Americans?\u201d in my bio\n\n#superbowl #nfl #worldchampions #europevsamerica #sportsfans\n\n#football\n\nSource: @overtime",
+  "sourceCaption": "Europe might have a point... can you really be a WORLD champion if only American teams competed? 🌍 Comment your take ⬇️\n\n🔗 Full Debate “Can 1 European Sports Fan Humble 10 Americans?” in my bio\n\n#superbowl #nfl #worldchampions #europevsamerica #sportsfans",
+  "publishCaption": "Europe might have a point... can you really be a WORLD champion if only American teams competed? 🌍 Comment your take ⬇️\n\n🔗 Full Debate “Can 1 European Sports Fan Humble 10 Americans?” in my bio\n\n#superbowl #nfl #worldchampions #europevsamerica #sportsfans\n\n#football\n\nSource: @overtime",
   "discoveredAt": "2026-09-30T20:51:59.234Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Europe might have a point... can you really be a WORLD champion if only American teams competed? \ud83c\udf0d Comment your take \u2b07\ufe0f\n\n\ud83d\udd17 Full Debate \u201cCan 1 European Sports Fan Humble 10 Americans?\u201d in my bio\n\n#superbowl #nfl #worldchampions #europevsamerica #sportsfans",
+  "body": "Europe might have a point... can you really be a WORLD champion if only American teams competed? 🌍 Comment your take ⬇️\n\n🔗 Full Debate “Can 1 European Sports Fan Humble 10 Americans?” in my bio\n\n#superbowl #nfl #worldchampions #europevsamerica #sportsfans",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-30T20:52:45.900Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 4.44,
   "scoreMargin": 9.42,
   "highlightQuality": 4.44,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 49.42,
@@ -73,5 +73,17 @@
   "video": "media/Dd7OTniPfGd-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115367614915961",
+  "instagramContainerCreatedAt": "2026-09-30T22:02:01.474Z",
+  "instagramPublishRequestedAt": "2026-09-30T22:02:31.799Z",
+  "instagramMediaId": "18206618305371002",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd7XFnbAXS3/",
+  "instagramVerifiedAt": "2026-09-30T22:02:37.788Z",
+  "publishedAt": "2026-09-30T22:02:37.788Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd7OTniPfGd-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790805757789-Dd7OTniPfGd-sportswire247.mp4'",
+    "at": "2026-09-30T22:02:37.789Z"
+  }
 }
