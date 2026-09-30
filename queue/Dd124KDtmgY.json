@@ -3,16 +3,16 @@
   "shortcode": "Dd124KDtmgY",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Dd124KDtmgY/",
-  "sourceCaption": "\u201cThe ones they told me to take out?\u201d Never change, Jimmy \ud83d\ude2d\n\n(via @nba) #nba",
-  "publishCaption": "\u201cThe ones they told me to take out?\u201d Never change, Jimmy \ud83d\ude2d\n\n(via @nba) #nba\n\n#basketball\n\nSource: @sportscenter",
+  "sourceCaption": "“The ones they told me to take out?” Never change, Jimmy 😭\n\n(via @nba) #nba",
+  "publishCaption": "“The ones they told me to take out?” Never change, Jimmy 😭\n\n(via @nba) #nba\n\n#basketball\n\nSource: @sportscenter",
   "discoveredAt": "2026-09-28T18:47:01.790Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "\u201cThe ones they told me to take out?\u201d Never change, Jimmy \ud83d\ude2d\n\n(via @nba) #nba",
+  "body": "“The ones they told me to take out?” Never change, Jimmy 😭\n\n(via @nba) #nba",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-28T18:47:50.508Z",
   "sourceViewCount": 0,
@@ -54,8 +54,8 @@
   "engagementScore": 7.24,
   "scoreMargin": 1.28,
   "highlightQuality": 7.24,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 36.28,
@@ -73,5 +73,17 @@
   "video": "media/Dd124KDtmgY-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115166341915961",
+  "instagramContainerCreatedAt": "2026-09-30T09:42:53.680Z",
+  "instagramPublishRequestedAt": "2026-09-30T09:43:24.100Z",
+  "instagramMediaId": "17916360207465707",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd6CgAsDsc8/",
+  "instagramVerifiedAt": "2026-09-30T09:43:31.593Z",
+  "publishedAt": "2026-09-30T09:43:31.594Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd124KDtmgY-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790761411595-Dd124KDtmgY-sportswire247.mp4'",
+    "at": "2026-09-30T09:43:31.595Z"
+  }
 }
