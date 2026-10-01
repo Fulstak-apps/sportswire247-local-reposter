@@ -3,16 +3,16 @@
   "shortcode": "Dd7ly3_xY8l",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Dd7ly3_xY8l/",
-  "sourceCaption": "\ud83e\udd29\ud83e\udd29\ud83e\udd29 (via Mike Tomlin/YT)",
-  "publishCaption": "\ud83e\udd29\ud83e\udd29\ud83e\udd29 (via Mike Tomlin/YT)\n\n#sports\n\nSource: @sportscenter",
+  "sourceCaption": "🤩🤩🤩 (via Mike Tomlin/YT)",
+  "publishCaption": "🤩🤩🤩 (via Mike Tomlin/YT)\n\n#sports\n\nSource: @sportscenter",
   "discoveredAt": "2026-10-01T00:16:18.253Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "\ud83e\udd29\ud83e\udd29\ud83e\udd29 via Mike Tomlin/YT",
+  "body": "🤩🤩🤩 via Mike Tomlin/YT",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-01T00:17:02.531Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 46.98,
   "engagementScore": 15.16,
   "scoreMargin": -33.02,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 46.98,
@@ -73,5 +73,17 @@
   "video": "media/Dd7ly3_xY8l-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115638073915961",
+  "instagramContainerCreatedAt": "2026-10-01T16:37:13.962Z",
+  "instagramPublishRequestedAt": "2026-10-01T16:37:44.361Z",
+  "instagramMediaId": "18128368159883567",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd9WuTAkeX6/",
+  "instagramVerifiedAt": "2026-10-01T16:37:52.724Z",
+  "publishedAt": "2026-10-01T16:37:52.725Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd7ly3_xY8l-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790872672725-Dd7ly3_xY8l-sportswire247.mp4'",
+    "at": "2026-10-01T16:37:52.725Z"
+  }
 }
