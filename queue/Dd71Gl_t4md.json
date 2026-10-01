@@ -6,7 +6,7 @@
   "sourceCaption": "CODY BELLINGER MAKES IT 8-1 YANKEES WITH A HOME RUN\n\n#yankees #mlb #baseball #redsox #sports",
   "publishCaption": "CODY BELLINGER MAKES IT 8-1 YANKEES WITH A HOME RUN\n\n#yankees #mlb #baseball #redsox #sports\n\nSource: @jomboymedia",
   "discoveredAt": "2026-10-01T02:31:06.427Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 11.91,
   "scoreMargin": 18.33,
   "highlightQuality": 31.91,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 63.33,
@@ -75,5 +75,17 @@
   "video": "media/Dd71Gl_t4md-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115430269915961",
+  "instagramContainerCreatedAt": "2026-10-01T03:24:30.985Z",
+  "instagramPublishRequestedAt": "2026-10-01T03:25:01.623Z",
+  "instagramMediaId": "18196815325391745",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd77_xMErKX/",
+  "instagramVerifiedAt": "2026-10-01T03:25:09.953Z",
+  "publishedAt": "2026-10-01T03:25:09.953Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd71Gl_t4md-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790825109954-Dd71Gl_t4md-sportswire247.mp4'",
+    "at": "2026-10-01T03:25:09.954Z"
+  }
 }
