@@ -3,16 +3,16 @@
   "shortcode": "Dd9yuOEiT9e",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Dd9yuOEiT9e/",
-  "sourceCaption": "Josh Hart had some high praise for Yankees pitcher Cam Schlittler \ud83d\ude02\ud83d\ude4f\n\n(via @snytv)",
-  "publishCaption": "Josh Hart had some high praise for Yankees pitcher Cam Schlittler \ud83d\ude02\ud83d\ude4f\n\n(via @snytv)\n\n#mlb #baseball\n\nSource: @bleacherreport",
+  "sourceCaption": "Josh Hart had some high praise for Yankees pitcher Cam Schlittler 😂🙏\n\n(via @snytv)",
+  "publishCaption": "Josh Hart had some high praise for Yankees pitcher Cam Schlittler 😂🙏\n\n(via @snytv)\n\n#mlb #baseball\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-01T20:59:10.061Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Josh Hart had some high praise for Yankees pitcher Cam Schlittler \ud83d\ude02\ud83d\ude4f\n\n(via @snytv)",
+  "body": "Josh Hart had some high praise for Yankees pitcher Cam Schlittler 😂🙏\n\n(via @snytv)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-01T20:59:59.861Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 59.05,
   "engagementScore": 16.57,
   "scoreMargin": 14.05,
-  "highlightQuality": 14.0,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "highlightQuality": 14,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 59.05,
@@ -73,5 +73,17 @@
   "video": "media/Dd9yuOEiT9e-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115717255915961",
+  "instagramContainerCreatedAt": "2026-10-01T21:25:59.261Z",
+  "instagramPublishRequestedAt": "2026-10-01T21:26:29.948Z",
+  "instagramMediaId": "18630299440037841",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd93wlJkb5x/",
+  "instagramVerifiedAt": "2026-10-01T21:26:37.905Z",
+  "publishedAt": "2026-10-01T21:26:37.905Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd9yuOEiT9e-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790889997906-Dd9yuOEiT9e-sportswire247.mp4'",
+    "at": "2026-10-01T21:26:37.906Z"
+  }
 }
