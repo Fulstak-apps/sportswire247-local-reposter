@@ -3,16 +3,16 @@
   "shortcode": "Dd4CCfAz8Iq",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dd4CCfAz8Iq/",
-  "sourceCaption": "Bro got pushed and still got first. \ud83d\udcaf\ud83d\ude05 (via @coreyannan360)",
-  "publishCaption": "Bro got pushed and still got first. \ud83d\udcaf\ud83d\ude05 (via @coreyannan360)\n\n#sports\n\nSource: @houseofhighlights",
+  "sourceCaption": "Bro got pushed and still got first. 💯😅 (via @coreyannan360)",
+  "publishCaption": "Bro got pushed and still got first. 💯😅 (via @coreyannan360)\n\n#sports\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-29T18:42:26.390Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Player pushed, still secures first. \ud83d\udcaf\ud83d\ude05 (via @coreyannan360)",
+  "body": "Player pushed, still secures first. 💯😅 (via @coreyannan360)",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-09-29T18:42:55.437Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 50.58,
   "engagementScore": 22.12,
   "scoreMargin": -29.42,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 50.58,
@@ -73,5 +73,17 @@
   "video": "media/Dd4CCfAz8Iq-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115491463915961",
+  "instagramContainerCreatedAt": "2026-10-01T08:03:34.958Z",
+  "instagramPublishRequestedAt": "2026-10-01T08:04:05.267Z",
+  "instagramMediaId": "18123326167866203",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd8b7nMlF3r/",
+  "instagramVerifiedAt": "2026-10-01T08:04:12.445Z",
+  "publishedAt": "2026-10-01T08:04:12.446Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd4CCfAz8Iq-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790841852447-Dd4CCfAz8Iq-sportswire247.mp4'",
+    "at": "2026-10-01T08:04:12.447Z"
+  }
 }
