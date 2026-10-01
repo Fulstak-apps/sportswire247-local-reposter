@@ -3,16 +3,16 @@
   "shortcode": "DdzQAbZtQg4",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DdzQAbZtQg4/",
-  "sourceCaption": "That\u2019s rough \ud83d\ude05\n\n(\ud83d\udcfa FOX) #nflfootball",
-  "publishCaption": "That\u2019s rough \ud83d\ude05\n\n(\ud83d\udcfa FOX) #nflfootball\n\n#sports\n\nSource: @sportscenter",
+  "sourceCaption": "That’s rough 😅\n\n(📺 FOX) #nflfootball",
+  "publishCaption": "That’s rough 😅\n\n(📺 FOX) #nflfootball\n\n#sports\n\nSource: @sportscenter",
   "discoveredAt": "2026-09-27T18:39:14.179Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "That\u2019s rough \ud83d\ude05\n\n(\ud83d\udcfa FOX) #nflfootball",
+  "body": "That’s rough 😅\n\n(📺 FOX) #nflfootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-27T18:41:01.525Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 48.96,
   "engagementScore": 17.31,
   "scoreMargin": -31.04,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.96,
@@ -73,5 +73,17 @@
   "video": "media/DdzQAbZtQg4-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115561540915961",
+  "instagramContainerCreatedAt": "2026-10-01T12:37:47.939Z",
+  "instagramPublishRequestedAt": "2026-10-01T12:38:18.334Z",
+  "instagramMediaId": "17903058435596761",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd87UBICjXs/",
+  "instagramVerifiedAt": "2026-10-01T12:38:26.229Z",
+  "publishedAt": "2026-10-01T12:38:26.229Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DdzQAbZtQg4-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790858306230-DdzQAbZtQg4-sportswire247.mp4'",
+    "at": "2026-10-01T12:38:26.230Z"
+  }
 }
