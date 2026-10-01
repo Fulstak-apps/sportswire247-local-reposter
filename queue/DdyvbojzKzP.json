@@ -6,7 +6,7 @@
   "sourceCaption": "Bro thought he was Forrest Gump 💀💀(via wmsportography/TT)",
   "publishCaption": "Bro thought he was Forrest Gump 💀💀(via wmsportography/TT)\n\n#sports\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-27T15:12:16.105Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,5 +73,17 @@
   "video": "media/DdyvbojzKzP-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115511101915961",
+  "instagramContainerCreatedAt": "2026-10-01T09:24:49.989Z",
+  "instagramPublishRequestedAt": "2026-10-01T09:25:20.488Z",
+  "instagramMediaId": "18079318973415789",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd8lOuQkmeR/",
+  "instagramVerifiedAt": "2026-10-01T09:25:26.887Z",
+  "publishedAt": "2026-10-01T09:25:26.887Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DdyvbojzKzP-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790846726888-DdyvbojzKzP-sportswire247.mp4'",
+    "at": "2026-10-01T09:25:26.888Z"
+  }
 }
