@@ -6,7 +6,7 @@
   "sourceCaption": "Colorado QB Julian Lewis was benched as the Buffs fall to 2-2 after losing to Baylor 23-13 😳 \n\n⭐️ DJ Lagway: 19/39, 221 YDS, 2 TD, 1 INT",
   "publishCaption": "Colorado QB Julian Lewis was benched as the Buffs fall to 2-2 after losing to Baylor 23-13 😳 \n\n⭐️ DJ Lagway: 19/39, 221 YDS, 2 TD, 1 INT\n\n#sports\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-26T20:36:28.706Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,5 +73,17 @@
   "video": "media/Ddw5fPvEigQ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115742890915961",
+  "instagramContainerCreatedAt": "2026-10-01T23:18:40.256Z",
+  "instagramPublishRequestedAt": "2026-10-01T23:18:55.527Z",
+  "instagramMediaId": "18108088730597540",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd-Ep7PAeRJ/",
+  "instagramVerifiedAt": "2026-10-01T23:19:03.514Z",
+  "publishedAt": "2026-10-01T23:19:03.514Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Ddw5fPvEigQ-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790896743515-Ddw5fPvEigQ-sportswire247.mp4'",
+    "at": "2026-10-01T23:19:03.515Z"
+  }
 }
