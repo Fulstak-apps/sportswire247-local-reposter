@@ -3,16 +3,16 @@
   "shortcode": "Dd8ATuaEa-z",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/espnnfl/p/Dd8ATuaEa-z/",
-  "sourceCaption": "Breaking: The Cowboys are trading for Steelers CB Joey Porter Jr., first reported by The Ringer and confirmed by ESPN\u2019s Todd Archer.\n\n(\ud83c\udfa5 @nfl)",
-  "publishCaption": "Breaking: The Cowboys are trading for Steelers CB Joey Porter Jr., first reported by The Ringer and confirmed by ESPN\u2019s Todd Archer.\n\n(\ud83c\udfa5 @nfl)\n\n#football #nfl\n\nSource: @sportscenter",
+  "sourceCaption": "Breaking: The Cowboys are trading for Steelers CB Joey Porter Jr., first reported by The Ringer and confirmed by ESPN’s Todd Archer.\n\n(🎥 @nfl)",
+  "publishCaption": "Breaking: The Cowboys are trading for Steelers CB Joey Porter Jr., first reported by The Ringer and confirmed by ESPN’s Todd Archer.\n\n(🎥 @nfl)\n\n#football #nfl\n\nSource: @sportscenter",
   "discoveredAt": "2026-10-01T04:14:12.374Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Cowboys trade for Steelers CB Joey Porter Jr. (\ud83c\udfa5 @nfl)",
+  "body": "Cowboys trade for Steelers CB Joey Porter Jr. (🎥 @nfl)",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-01T04:14:28.363Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 78.37,
   "engagementScore": 21.58,
   "scoreMargin": 38.37,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 78.37,
@@ -74,5 +74,17 @@
   "video": "media/Dd8ATuaEa-z-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115447390915961",
+  "instagramContainerCreatedAt": "2026-10-01T04:45:37.919Z",
+  "instagramPublishRequestedAt": "2026-10-01T04:46:08.686Z",
+  "instagramMediaId": "18043534688820798",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd8FR11iu4G/",
+  "instagramVerifiedAt": "2026-10-01T04:46:17.085Z",
+  "publishedAt": "2026-10-01T04:46:17.086Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd8ATuaEa-z-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790829977087-Dd8ATuaEa-z-sportswire247.mp4'",
+    "at": "2026-10-01T04:46:17.087Z"
+  }
 }
