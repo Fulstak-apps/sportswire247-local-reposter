@@ -6,7 +6,7 @@
   "sourceCaption": "Padres were shouting at Cubs picher Daniel Palencia because he hit the next batter after allowing a home run\n\n#mlb #baseball #cubs #padres #sports",
   "publishCaption": "Padres were shouting at Cubs picher Daniel Palencia because he hit the next batter after allowing a home run\n\n#mlb #baseball #cubs #padres #sports\n\nSource: @jomboymedia",
   "discoveredAt": "2026-10-01T03:52:29.820Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 9.51,
   "scoreMargin": 14.26,
   "highlightQuality": 29.51,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 59.26,
@@ -75,5 +75,17 @@
   "video": "media/Dd7-gZ7pYgr-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115466110915961",
+  "instagramContainerCreatedAt": "2026-10-01T06:06:49.974Z",
+  "instagramPublishRequestedAt": "2026-10-01T06:07:50.496Z",
+  "instagramMediaId": "18229056217336148",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd8OoQAEn5n/",
+  "instagramVerifiedAt": "2026-10-01T06:07:57.332Z",
+  "publishedAt": "2026-10-01T06:07:57.333Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd7-gZ7pYgr-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790834877334-Dd7-gZ7pYgr-sportswire247.mp4'",
+    "at": "2026-10-01T06:07:57.334Z"
+  }
 }
