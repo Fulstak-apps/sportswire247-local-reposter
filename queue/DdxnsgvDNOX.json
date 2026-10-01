@@ -6,7 +6,7 @@
   "sourceCaption": "Dante Moore was stretchered off the field and taken to a nearby hospital after taking a hit to the head while sliding.\n\nHoping Dante is okay 🙏",
   "publishCaption": "Dante Moore was stretchered off the field and taken to a nearby hospital after taking a hit to the head while sliding.\n\nHoping Dante is okay 🙏\n\n#sports\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-27T03:18:48.189Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -73,5 +73,17 @@
   "video": "media/DdxnsgvDNOX-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115546843915961",
+  "instagramContainerCreatedAt": "2026-10-01T11:57:04.570Z",
+  "instagramPublishRequestedAt": "2026-10-01T11:57:35.049Z",
+  "instagramMediaId": "17974709193069034",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd82plfjt7g/",
+  "instagramVerifiedAt": "2026-10-01T11:57:41.959Z",
+  "publishedAt": "2026-10-01T11:57:41.960Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DdxnsgvDNOX-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790855861961-DdxnsgvDNOX-sportswire247.mp4'",
+    "at": "2026-10-01T11:57:41.961Z"
+  }
 }
