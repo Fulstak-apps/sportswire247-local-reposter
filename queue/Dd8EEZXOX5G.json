@@ -3,16 +3,16 @@
   "shortcode": "Dd8EEZXOX5G",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dd8EEZXOX5G/",
-  "sourceCaption": "ARIKE OGUNBOWALE WAS FEELING IT TONIGHT \ud83d\udd25\ud83d\udd25\ud83d\udd25\n\n#arike #arikeogunbowale #dallaswings #basketball #wnba",
-  "publishCaption": "ARIKE OGUNBOWALE WAS FEELING IT TONIGHT \ud83d\udd25\ud83d\udd25\ud83d\udd25\n\n#arike #arikeogunbowale #dallaswings #basketball #wnba\n\n#nba\n\nSource: @bleacherreport",
+  "sourceCaption": "ARIKE OGUNBOWALE WAS FEELING IT TONIGHT 🔥🔥🔥\n\n#arike #arikeogunbowale #dallaswings #basketball #wnba",
+  "publishCaption": "ARIKE OGUNBOWALE WAS FEELING IT TONIGHT 🔥🔥🔥\n\n#arike #arikeogunbowale #dallaswings #basketball #wnba\n\n#nba\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-01T04:40:57.218Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Ogunbowale shines tonight \ud83d\udd25\ud83d\udd25\ud83d\udd25 #arike #arikeogunbowale #dallaswings #basketball #wnba",
+  "body": "Ogunbowale shines tonight 🔥🔥🔥 #arike #arikeogunbowale #dallaswings #basketball #wnba",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-01T04:41:26.760Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 8.23,
   "scoreMargin": 19.4,
   "highlightQuality": 8.23,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 54.4,
@@ -73,5 +73,17 @@
   "video": "media/Dd8EEZXOX5G-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115482691915961",
+  "instagramContainerCreatedAt": "2026-10-01T07:28:07.531Z",
+  "instagramPublishRequestedAt": "2026-10-01T07:29:23.385Z",
+  "instagramMediaId": "18012927956965343",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd8X8cbD3U4/",
+  "instagramVerifiedAt": "2026-10-01T07:29:31.223Z",
+  "publishedAt": "2026-10-01T07:29:31.224Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd8EEZXOX5G-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790839771224-Dd8EEZXOX5G-sportswire247.mp4'",
+    "at": "2026-10-01T07:29:31.224Z"
+  }
 }
