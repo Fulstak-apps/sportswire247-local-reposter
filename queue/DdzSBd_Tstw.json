@@ -3,16 +3,16 @@
   "shortcode": "DdzSBd_Tstw",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdzSBd_Tstw/",
-  "sourceCaption": "Speed met his biggest fan \ud83e\udd72\ud83e\udd79 (via @ishowspeed)",
-  "publishCaption": "Speed met his biggest fan \ud83e\udd72\ud83e\udd79 (via @ishowspeed)\n\n#sports\n\nSource: @houseofhighlights",
+  "sourceCaption": "Speed met his biggest fan 🥲🥹 (via @ishowspeed)",
+  "publishCaption": "Speed met his biggest fan 🥲🥹 (via @ishowspeed)\n\n#sports\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-27T18:54:51.034Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Speed met his biggest fan \ud83e\udd72\ud83e\udd79 (via @ishowspeed)",
+  "body": "Speed met his biggest fan 🥲🥹 (via @ishowspeed)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-27T18:55:09.441Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 48.22,
   "engagementScore": 15.47,
   "scoreMargin": -31.78,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.22,
@@ -73,5 +73,17 @@
   "video": "media/DdzSBd_Tstw-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115574215915961",
+  "instagramContainerCreatedAt": "2026-10-01T13:18:22.037Z",
+  "instagramPublishRequestedAt": "2026-10-01T13:19:52.676Z",
+  "instagramMediaId": "18039889590193650",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd9ADwPks0F/",
+  "instagramVerifiedAt": "2026-10-01T13:20:00.736Z",
+  "publishedAt": "2026-10-01T13:20:00.736Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DdzSBd_Tstw-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790860800737-DdzSBd_Tstw-sportswire247.mp4'",
+    "at": "2026-10-01T13:20:00.737Z"
+  }
 }
