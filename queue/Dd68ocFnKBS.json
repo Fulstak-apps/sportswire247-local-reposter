@@ -3,16 +3,16 @@
   "shortcode": "Dd68ocFnKBS",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/daznboxing/reel/Dd68ocFnKBS/",
-  "sourceCaption": "TYSON FURY & ANTHONY JOSHUA HAVE HAD THEIR FIRST FACE-OFF \ud83c\uddec\ud83c\udde7\ud83d\udca5\n\n#FuryJoshua \ud83e\udd33",
-  "publishCaption": "TYSON FURY & ANTHONY JOSHUA HAVE HAD THEIR FIRST FACE-OFF \ud83c\uddec\ud83c\udde7\ud83d\udca5\n\n#FuryJoshua \ud83e\udd33\n\n#sports\n\nSource: @bleacherreport",
+  "sourceCaption": "TYSON FURY & ANTHONY JOSHUA HAVE HAD THEIR FIRST FACE-OFF 🇬🇧💥\n\n#FuryJoshua 🤳",
+  "publishCaption": "TYSON FURY & ANTHONY JOSHUA HAVE HAD THEIR FIRST FACE-OFF 🇬🇧💥\n\n#FuryJoshua 🤳\n\n#sports\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-30T18:27:16.251Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "TYSON FURY & ANTHONY JOSHUA HAVE HAD THEIR FIRST FACE-OFF \ud83c\uddec\ud83c\udde7\ud83d\udca5\n\n#FuryJoshua \ud83e\udd33",
+  "body": "TYSON FURY & ANTHONY JOSHUA HAVE HAD THEIR FIRST FACE-OFF 🇬🇧💥\n\n#FuryJoshua 🤳",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-30T18:28:05.205Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 45.86,
   "engagementScore": 15.79,
   "scoreMargin": -34.14,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.86,
@@ -73,5 +73,17 @@
   "video": "media/Dd68ocFnKBS-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115724737915961",
+  "instagramContainerCreatedAt": "2026-10-01T21:57:20.227Z",
+  "instagramPublishRequestedAt": "2026-10-01T21:57:50.727Z",
+  "instagramMediaId": "18122154289720779",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd97WS1DeoW/",
+  "instagramVerifiedAt": "2026-10-01T21:57:58.902Z",
+  "publishedAt": "2026-10-01T21:57:58.902Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd68ocFnKBS-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790891878903-Dd68ocFnKBS-sportswire247.mp4'",
+    "at": "2026-10-01T21:57:58.903Z"
+  }
 }
