@@ -3,16 +3,16 @@
   "shortcode": "Dd7aRfTNRsZ",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Dd7aRfTNRsZ/",
-  "sourceCaption": "LaMelo is hilarious bro \ud83d\ude02\ud83d\ude02\ud83c\udfae\n\n(via @timberwolves)",
-  "publishCaption": "LaMelo is hilarious bro \ud83d\ude02\ud83d\ude02\ud83c\udfae\n\n(via @timberwolves)\n\n#basketball #nba\n\nSource: @sportscenter",
+  "sourceCaption": "LaMelo is hilarious bro 😂😂🎮\n\n(via @timberwolves)",
+  "publishCaption": "LaMelo is hilarious bro 😂😂🎮\n\n(via @timberwolves)\n\n#basketball #nba\n\nSource: @sportscenter",
   "discoveredAt": "2026-09-30T22:40:02.575Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "LaMelo is hilarious bro \ud83d\ude02\ud83d\ude02\ud83c\udfae\n\n(via @timberwolves)",
+  "body": "LaMelo is hilarious bro 😂😂🎮\n\n(via @timberwolves)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-30T22:49:32.717Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.82,
   "scoreMargin": 26.35,
   "highlightQuality": 12.82,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 61.35,
@@ -73,5 +73,17 @@
   "video": "media/Dd7aRfTNRsZ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115387846915961",
+  "instagramContainerCreatedAt": "2026-10-01T00:11:48.581Z",
+  "instagramPublishRequestedAt": "2026-10-01T00:12:19.042Z",
+  "instagramMediaId": "18094775111443273",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd7l8Fmj4pU/",
+  "instagramVerifiedAt": "2026-10-01T00:12:27.585Z",
+  "publishedAt": "2026-10-01T00:12:27.586Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd7aRfTNRsZ-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790813547587-Dd7aRfTNRsZ-sportswire247.mp4'",
+    "at": "2026-10-01T00:12:27.587Z"
+  }
 }
