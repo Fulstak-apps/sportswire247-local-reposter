@@ -6,7 +6,7 @@
   "sourceCaption": "The Texans are 0-7, including preseason, since their mascot, Toro, ripped the Terrible Towel after eliminating the Steelers from the playoffs last season\n\n(Via @texanstoro1)",
   "publishCaption": "The Texans are 0-7, including preseason, since their mascot, Toro, ripped the Terrible Towel after eliminating the Steelers from the playoffs last season\n\n(Via @texanstoro1)\n\n#sports\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-30T20:02:42.671Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -50,11 +50,11 @@
   "priority": "P4",
   "viralScore": 55.56,
   "rawScore": 55.56,
-  "engagementScore": 12.0,
+  "engagementScore": 12,
   "scoreMargin": -24.44,
-  "highlightQuality": 24.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 24,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 55.56,
@@ -75,5 +75,17 @@
   "video": "media/Dd7I-fjkuN0-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115395157915961",
+  "instagramContainerCreatedAt": "2026-10-01T00:52:22.475Z",
+  "instagramPublishRequestedAt": "2026-10-01T00:52:52.784Z",
+  "instagramMediaId": "18110789378165019",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd7qlURgeL4/",
+  "instagramVerifiedAt": "2026-10-01T00:52:58.323Z",
+  "publishedAt": "2026-10-01T00:52:58.324Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd7I-fjkuN0-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790815978325-Dd7I-fjkuN0-sportswire247.mp4'",
+    "at": "2026-10-01T00:52:58.325Z"
+  }
 }
