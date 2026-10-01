@@ -3,16 +3,16 @@
   "shortcode": "Dd9Cfzbuhch",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dd9Cfzbuhch/",
-  "sourceCaption": "Le\u2019Veon Bell\u2019s reaction to his former coach\u2019s Minecraft city \ud83d\ude2d\ud83d\udd25\n\nCoach Tomlin spent 12 YEARS building all of it \ud83e\udd2f\n\n(via miket757/YT)\n\n#nfl #football #minecraft #gaming #steelers",
-  "publishCaption": "Le\u2019Veon Bell\u2019s reaction to his former coach\u2019s Minecraft city \ud83d\ude2d\ud83d\udd25\n\nCoach Tomlin spent 12 YEARS building all of it \ud83e\udd2f\n\n(via miket757/YT)\n\n#nfl #football #minecraft #gaming #steelers\n\nSource: @bleacherreport",
+  "sourceCaption": "Le’Veon Bell’s reaction to his former coach’s Minecraft city 😭🔥\n\nCoach Tomlin spent 12 YEARS building all of it 🤯\n\n(via miket757/YT)\n\n#nfl #football #minecraft #gaming #steelers",
+  "publishCaption": "Le’Veon Bell’s reaction to his former coach’s Minecraft city 😭🔥\n\nCoach Tomlin spent 12 YEARS building all of it 🤯\n\n(via miket757/YT)\n\n#nfl #football #minecraft #gaming #steelers\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-01T13:45:15.391Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Le\u2019Veon Bell\u2019s reaction to his former coach\u2019s Minecraft city \ud83d\ude2d\ud83d\udd25\n\nCoach Tomlin spent 12 YEARS building all of it \ud83e\udd2f\n\n(via miket757/YT)\n\n#nfl #football #minecraft #gaming #steelers",
+  "body": "Le’Veon Bell’s reaction to his former coach’s Minecraft city 😭🔥\n\nCoach Tomlin spent 12 YEARS building all of it 🤯\n\n(via miket757/YT)\n\n#nfl #football #minecraft #gaming #steelers",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-01T13:46:04.013Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.56,
   "scoreMargin": 16.45,
   "highlightQuality": 10.56,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 56.45,
@@ -73,5 +73,17 @@
   "video": "media/Dd9Cfzbuhch-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115586362915961",
+  "instagramContainerCreatedAt": "2026-10-01T13:58:58.869Z",
+  "instagramPublishRequestedAt": "2026-10-01T13:59:29.308Z",
+  "instagramMediaId": "17990912418026342",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd9EmmyjBXv/",
+  "instagramVerifiedAt": "2026-10-01T13:59:37.351Z",
+  "publishedAt": "2026-10-01T13:59:37.351Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd9Cfzbuhch-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790863177353-Dd9Cfzbuhch-sportswire247.mp4'",
+    "at": "2026-10-01T13:59:37.353Z"
+  }
 }
