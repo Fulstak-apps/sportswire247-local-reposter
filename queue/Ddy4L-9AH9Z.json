@@ -3,16 +3,16 @@
   "shortcode": "Ddy4L-9AH9Z",
   "sourceHandle": "overtime",
   "sourceUrl": "https://www.instagram.com/overtime/reel/Ddy4L-9AH9Z/",
-  "sourceCaption": "If you saying travel you prolly don\u2019t hoop \ud83d\ude44 (via wholelottajap/TT)",
-  "publishCaption": "If you saying travel you prolly don\u2019t hoop \ud83d\ude44 (via wholelottajap/TT)\n\n#sports\n\nSource: @overtime",
+  "sourceCaption": "If you saying travel you prolly don’t hoop 🙄 (via wholelottajap/TT)",
+  "publishCaption": "If you saying travel you prolly don’t hoop 🙄 (via wholelottajap/TT)\n\n#sports\n\nSource: @overtime",
   "discoveredAt": "2026-09-27T18:23:45.914Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "If you saying travel you prolly don\u2019t hoop \ud83d\ude44 (via wholelottajap/TT)",
+  "body": "If you saying travel you prolly don’t hoop 🙄 (via wholelottajap/TT)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-27T18:24:43.679Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 46.98,
   "engagementScore": 20.15,
   "scoreMargin": -33.02,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 46.98,
@@ -73,5 +73,17 @@
   "video": "media/Ddy4L-9AH9Z-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115649542915961",
+  "instagramContainerCreatedAt": "2026-10-01T17:14:00.487Z",
+  "instagramPublishRequestedAt": "2026-10-01T17:14:46.110Z",
+  "instagramMediaId": "18098121290185828",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd9a8x2kYm9/",
+  "instagramVerifiedAt": "2026-10-01T17:14:52.721Z",
+  "publishedAt": "2026-10-01T17:14:52.722Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Ddy4L-9AH9Z-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790874892722-Ddy4L-9AH9Z-sportswire247.mp4'",
+    "at": "2026-10-01T17:14:52.722Z"
+  }
 }
