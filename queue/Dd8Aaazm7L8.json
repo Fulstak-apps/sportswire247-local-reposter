@@ -3,16 +3,16 @@
   "shortcode": "Dd8Aaazm7L8",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Dd8Aaazm7L8/",
-  "sourceCaption": "ARIKE MAKES WNBA HISTORY TO FORCE GAME 3 VS. VALKRYIES \ud83d\udd25\ud83e\udd2f",
-  "publishCaption": "ARIKE MAKES WNBA HISTORY TO FORCE GAME 3 VS. VALKRYIES \ud83d\udd25\ud83e\udd2f\n\n#basketball #nba\n\nSource: @houseofhighlights",
+  "sourceCaption": "ARIKE MAKES WNBA HISTORY TO FORCE GAME 3 VS. VALKRYIES 🔥🤯",
+  "publishCaption": "ARIKE MAKES WNBA HISTORY TO FORCE GAME 3 VS. VALKRYIES 🔥🤯\n\n#basketball #nba\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-01T04:05:32.277Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "ARIKE MAKES WNBA HISTORY TO FORCE GAME 3 VS. VALKRYIES \ud83d\udd25\ud83e\udd2f",
+  "body": "ARIKE MAKES WNBA HISTORY TO FORCE GAME 3 VS. VALKRYIES 🔥🤯",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-01T04:06:25.993Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 8.2,
   "scoreMargin": 21.54,
   "highlightQuality": 8.2,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 56.54,
@@ -73,5 +73,17 @@
   "video": "media/Dd8Aaazm7L8-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115473772915961",
+  "instagramContainerCreatedAt": "2026-10-01T06:47:29.516Z",
+  "instagramPublishRequestedAt": "2026-10-01T06:48:00.072Z",
+  "instagramMediaId": "18150852415553505",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd8TOXugMbS/",
+  "instagramVerifiedAt": "2026-10-01T06:48:07.740Z",
+  "publishedAt": "2026-10-01T06:48:07.741Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd8Aaazm7L8-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790837287741-Dd8Aaazm7L8-sportswire247.mp4'",
+    "at": "2026-10-01T06:48:07.742Z"
+  }
 }
