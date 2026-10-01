@@ -3,16 +3,16 @@
   "shortcode": "Dd6km2PT9kD",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dd6km2PT9kD/",
-  "sourceCaption": "You know that\u2019s their favorite teacher. \ud83d\ude02\u2764\ufe0f (via rockytharealist/TT)",
-  "publishCaption": "You know that\u2019s their favorite teacher. \ud83d\ude02\u2764\ufe0f (via rockytharealist/TT)\n\n#sports\n\nSource: @houseofhighlights",
+  "sourceCaption": "You know that’s their favorite teacher. 😂❤️ (via rockytharealist/TT)",
+  "publishCaption": "You know that’s their favorite teacher. 😂❤️ (via rockytharealist/TT)\n\n#sports\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-30T14:46:15.734Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "You know that\u2019s their favorite teacher. \ud83d\ude02\u2764\ufe0f (via rockytharealist/TT)",
+  "body": "You know that’s their favorite teacher. 😂❤️ (via rockytharealist/TT)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-30T14:47:04.360Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.87,
   "scoreMargin": -34.39,
   "highlightQuality": 12.87,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.61,
@@ -73,5 +73,17 @@
   "video": "media/Dd6km2PT9kD-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115735372915961",
+  "instagramContainerCreatedAt": "2026-10-01T22:38:11.129Z",
+  "instagramPublishRequestedAt": "2026-10-01T22:38:41.492Z",
+  "instagramMediaId": "17926194939423975",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd-ABVHCbZN/",
+  "instagramVerifiedAt": "2026-10-01T22:38:48.689Z",
+  "publishedAt": "2026-10-01T22:38:48.690Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd6km2PT9kD-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790894328691-Dd6km2PT9kD-sportswire247.mp4'",
+    "at": "2026-10-01T22:38:48.691Z"
+  }
 }
