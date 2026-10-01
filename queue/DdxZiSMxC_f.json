@@ -6,7 +6,7 @@
   "sourceCaption": "Great fight to these two fighters! 💪\n\n#CejudoWalton 🤳",
   "publishCaption": "Great fight to these two fighters! 💪\n\n#CejudoWalton 🤳\n\n#sports\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-27T15:14:41.665Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -75,5 +75,17 @@
   "video": "media/DdxZiSMxC_f-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115698703915961",
+  "instagramContainerCreatedAt": "2026-10-01T20:05:52.668Z",
+  "instagramPublishRequestedAt": "2026-10-01T20:06:07.912Z",
+  "instagramMediaId": "17923881717425569",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd9ulvaDASZ/",
+  "instagramVerifiedAt": "2026-10-01T20:06:17.539Z",
+  "publishedAt": "2026-10-01T20:06:17.540Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DdxZiSMxC_f-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790885177541-DdxZiSMxC_f-sportswire247.mp4'",
+    "at": "2026-10-01T20:06:17.541Z"
+  }
 }
