@@ -3,16 +3,16 @@
   "shortcode": "Dd9JwDzFUga",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/p/Dd9JwDzFUga/",
-  "sourceCaption": "Everybody breaking down Coach Tomlin Minecraft film \ud83d\ude02\ud83d\ude2d @brgaming (via coachtomlin/YT, h/t futtywap/X, amingould/X)",
-  "publishCaption": "Everybody breaking down Coach Tomlin Minecraft film \ud83d\ude02\ud83d\ude2d @brgaming (via coachtomlin/YT, h/t futtywap/X, amingould/X)\n\n#sports\n\nSource: @houseofhighlights",
+  "sourceCaption": "Everybody breaking down Coach Tomlin Minecraft film 😂😭 @brgaming (via coachtomlin/YT, h/t futtywap/X, amingould/X)",
+  "publishCaption": "Everybody breaking down Coach Tomlin Minecraft film 😂😭 @brgaming (via coachtomlin/YT, h/t futtywap/X, amingould/X)\n\n#sports\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-01T14:49:24.656Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Everybody breaking down Coach Tomlin Minecraft film \ud83d\ude02\ud83d\ude2d @brgaming (via coachtomlin/YT, h/t futtywap/X, amingould/X)",
+  "body": "Everybody breaking down Coach Tomlin Minecraft film 😂😭 @brgaming (via coachtomlin/YT, h/t futtywap/X, amingould/X)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-01T14:50:13.797Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 58.03,
   "engagementScore": 15.2,
   "scoreMargin": -21.97,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 58.03,
@@ -74,5 +74,17 @@
   "video": "media/Dd9JwDzFUga-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115614571915961",
+  "instagramContainerCreatedAt": "2026-10-01T15:25:17.301Z",
+  "instagramPublishRequestedAt": "2026-10-01T15:26:02.744Z",
+  "instagramMediaId": "18141967990591133",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd9OgXZjnjI/",
+  "instagramVerifiedAt": "2026-10-01T15:26:09.203Z",
+  "publishedAt": "2026-10-01T15:26:09.203Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd9JwDzFUga-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790868369205-Dd9JwDzFUga-sportswire247.mp4'",
+    "at": "2026-10-01T15:26:09.205Z"
+  }
 }
