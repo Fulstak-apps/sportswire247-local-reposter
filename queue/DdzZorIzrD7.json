@@ -3,16 +3,16 @@
   "shortcode": "DdzZorIzrD7",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DdzZorIzrD7/",
-  "sourceCaption": "Nah this looks impossible. \ud83d\ude33\ud83d\ude2d (via @li_sports_fanatic_)",
-  "publishCaption": "Nah this looks impossible. \ud83d\ude33\ud83d\ude2d (via @li_sports_fanatic_)\n\n#sports\n\nSource: @houseofhighlights",
+  "sourceCaption": "Nah this looks impossible. 😳😭 (via @li_sports_fanatic_)",
+  "publishCaption": "Nah this looks impossible. 😳😭 (via @li_sports_fanatic_)\n\n#sports\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-27T19:57:28.983Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Nah this looks impossible. \ud83d\ude33\ud83d\ude2d (via @li_sports_fanatic_)",
+  "body": "Nah this looks impossible. 😳😭 (via @li_sports_fanatic_)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-27T19:58:17.763Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.63,
   "scoreMargin": -34.56,
   "highlightQuality": 12.63,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.44,
@@ -73,5 +73,17 @@
   "video": "media/DdzZorIzrD7-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115748110915961",
+  "instagramContainerCreatedAt": "2026-10-01T23:59:13.277Z",
+  "instagramPublishRequestedAt": "2026-10-01T23:59:43.595Z",
+  "instagramMediaId": "18135825766725015",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd-JSzREp_c/",
+  "instagramVerifiedAt": "2026-10-01T23:59:51.315Z",
+  "publishedAt": "2026-10-01T23:59:51.316Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DdzZorIzrD7-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790899191317-DdzZorIzrD7-sportswire247.mp4'",
+    "at": "2026-10-01T23:59:51.317Z"
+  }
 }
