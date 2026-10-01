@@ -3,16 +3,16 @@
   "shortcode": "Dd77ElqiPwQ",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Dd77ElqiPwQ/",
-  "sourceCaption": "Playoff Belli \ud83d\ude24",
-  "publishCaption": "Playoff Belli \ud83d\ude24\n\n#sports\n\nSource: @sportscenter",
+  "sourceCaption": "Playoff Belli 😤",
+  "publishCaption": "Playoff Belli 😤\n\n#sports\n\nSource: @sportscenter",
   "discoveredAt": "2026-10-01T03:24:37.982Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Playoff Belli \ud83d\ude24",
+  "body": "Playoff Belli 😤",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-01T03:25:07.736Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.54,
   "scoreMargin": -33.56,
   "highlightQuality": 23.54,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 46.44,
@@ -74,5 +74,17 @@
   "video": "media/Dd77ElqiPwQ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115708633915961",
+  "instagramContainerCreatedAt": "2026-10-01T20:49:08.116Z",
+  "instagramPublishRequestedAt": "2026-10-01T20:49:38.830Z",
+  "instagramMediaId": "17870315742642443",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd9zipnmCR2/",
+  "instagramVerifiedAt": "2026-10-01T20:49:50.330Z",
+  "publishedAt": "2026-10-01T20:49:50.330Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd77ElqiPwQ-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790887790331-Dd77ElqiPwQ-sportswire247.mp4'",
+    "at": "2026-10-01T20:49:50.331Z"
+  }
 }
