@@ -3,16 +3,16 @@
   "shortcode": "Dd9chLjxJej",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Dd9chLjxJej/",
-  "sourceCaption": "Wait for the dad\u2019s reaction \ud83d\udc4f\ud83d\ude4c (via @markzacharczyk) #football",
-  "publishCaption": "Wait for the dad\u2019s reaction \ud83d\udc4f\ud83d\ude4c (via @markzacharczyk) #football\n\n#nfl\n\nSource: @sportscenter",
+  "sourceCaption": "Wait for the dad’s reaction 👏🙌 (via @markzacharczyk) #football",
+  "publishCaption": "Wait for the dad’s reaction 👏🙌 (via @markzacharczyk) #football\n\n#nfl\n\nSource: @sportscenter",
   "discoveredAt": "2026-10-01T18:15:41.036Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Dad reacts \ud83d\udc4f\ud83d\ude4c (via @markzacharczyk) #football",
+  "body": "Dad reacts 👏🙌 (via @markzacharczyk) #football",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-01T18:16:06.348Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 6.69,
   "scoreMargin": 12.66,
   "highlightQuality": 6.69,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 52.66,
@@ -73,5 +73,17 @@
   "video": "media/Dd9chLjxJej-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115679623915961",
+  "instagramContainerCreatedAt": "2026-10-01T18:50:38.857Z",
+  "instagramPublishRequestedAt": "2026-10-01T18:51:09.357Z",
+  "instagramMediaId": "17999861687812910",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd9l-zhD66t/",
+  "instagramVerifiedAt": "2026-10-01T18:51:19.899Z",
+  "publishedAt": "2026-10-01T18:51:19.900Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd9chLjxJej-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790880679900-Dd9chLjxJej-sportswire247.mp4'",
+    "at": "2026-10-01T18:51:19.901Z"
+  }
 }
