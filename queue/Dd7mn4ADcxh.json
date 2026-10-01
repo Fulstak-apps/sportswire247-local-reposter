@@ -3,16 +3,16 @@
   "shortcode": "Dd7mn4ADcxh",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/p/Dd7mn4ADcxh/",
-  "sourceCaption": "WHITE SOX ELIMINATE ASTROS \ud83d\udea8\ud83d\udd25 CHICAGO\u2019S 1ST POSTSEASON SERIES WIN IN 21 YEARS \ud83e\udd2f",
-  "publishCaption": "WHITE SOX ELIMINATE ASTROS \ud83d\udea8\ud83d\udd25 CHICAGO\u2019S 1ST POSTSEASON SERIES WIN IN 21 YEARS \ud83e\udd2f\n\n#mlb #baseball\n\nSource: @houseofhighlights",
+  "sourceCaption": "WHITE SOX ELIMINATE ASTROS 🚨🔥 CHICAGO’S 1ST POSTSEASON SERIES WIN IN 21 YEARS 🤯",
+  "publishCaption": "WHITE SOX ELIMINATE ASTROS 🚨🔥 CHICAGO’S 1ST POSTSEASON SERIES WIN IN 21 YEARS 🤯\n\n#mlb #baseball\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-01T00:24:18.188Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "WHITE SOX ELIMINATE ASTROS \ud83d\udea8\ud83d\udd25 CHICAGO\u2019S 1ST POSTSEASON SERIES WIN IN 21 YEARS \ud83e\udd2f",
+  "body": "WHITE SOX ELIMINATE ASTROS 🚨🔥 CHICAGO’S 1ST POSTSEASON SERIES WIN IN 21 YEARS 🤯",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-01T00:24:48.524Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 62.12,
   "engagementScore": 17.94,
   "scoreMargin": 17.12,
-  "highlightQuality": 14.0,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "highlightQuality": 14,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 62.12,
@@ -73,5 +73,17 @@
   "video": "media/Dd7mn4ADcxh-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115403722915961",
+  "instagramContainerCreatedAt": "2026-10-01T01:28:13.750Z",
+  "instagramPublishRequestedAt": "2026-10-01T01:28:43.984Z",
+  "instagramMediaId": "18120838543939406",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd7ur7TDT-U/",
+  "instagramVerifiedAt": "2026-10-01T01:28:52.687Z",
+  "publishedAt": "2026-10-01T01:28:52.688Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd7mn4ADcxh-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790818132688-Dd7mn4ADcxh-sportswire247.mp4'",
+    "at": "2026-10-01T01:28:52.689Z"
+  }
 }
