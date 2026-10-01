@@ -3,16 +3,16 @@
   "shortcode": "Dd7blGEDwTt",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Dd7blGEDwTt/",
-  "sourceCaption": "Are the Raiders playoff bound? \ud83d\udc40\ud83e\udd14\n\n(Odds via @fanduel)",
-  "publishCaption": "Are the Raiders playoff bound? \ud83d\udc40\ud83e\udd14\n\n(Odds via @fanduel)\n\n#sports\n\nSource: @bleacherreport",
+  "sourceCaption": "Are the Raiders playoff bound? 👀🤔\n\n(Odds via @fanduel)",
+  "publishCaption": "Are the Raiders playoff bound? 👀🤔\n\n(Odds via @fanduel)\n\n#sports\n\nSource: @bleacherreport",
   "discoveredAt": "2026-09-30T22:49:53.314Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 1,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Are the Raiders playoff bound? \ud83d\udc40\ud83e\udd14\n\n(Odds via @fanduel)",
+  "body": "Are the Raiders playoff bound? 👀🤔\n\n(Odds via @fanduel)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-30T22:50:45.394Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 13.88,
   "scoreMargin": -28.5,
   "highlightQuality": 25.88,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 51.5,
@@ -74,5 +74,17 @@
   "video": "media/Dd7blGEDwTt-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115420981915961",
+  "instagramContainerCreatedAt": "2026-10-01T02:43:58.929Z",
+  "instagramPublishRequestedAt": "2026-10-01T02:44:30.164Z",
+  "instagramMediaId": "17910405393491832",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd73WuVj8Ph/",
+  "instagramVerifiedAt": "2026-10-01T02:44:42.276Z",
+  "publishedAt": "2026-10-01T02:44:42.277Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd7blGEDwTt-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790822682278-Dd7blGEDwTt-sportswire247.mp4'",
+    "at": "2026-10-01T02:44:42.278Z"
+  }
 }
