@@ -3,16 +3,16 @@
   "shortcode": "Dd77LlTm4GN",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Dd77LlTm4GN/",
-  "sourceCaption": "YANKEES SWEEP RED SOX IN WILD CARD ROUND TO ADVANCE TO ALDS \ud83d\udea8\ud83d\udd25",
-  "publishCaption": "YANKEES SWEEP RED SOX IN WILD CARD ROUND TO ADVANCE TO ALDS \ud83d\udea8\ud83d\udd25\n\n#mlb #baseball\n\nSource: @houseofhighlights",
+  "sourceCaption": "YANKEES SWEEP RED SOX IN WILD CARD ROUND TO ADVANCE TO ALDS 🚨🔥",
+  "publishCaption": "YANKEES SWEEP RED SOX IN WILD CARD ROUND TO ADVANCE TO ALDS 🚨🔥\n\n#mlb #baseball\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-01T03:23:04.631Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Yankees sweep Red Sox in Wild Card Round, advance to ALDS \ud83d\udea8\ud83d\udd25",
+  "body": "Yankees sweep Red Sox in Wild Card Round, advance to ALDS 🚨🔥",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-01T03:23:43.001Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 65.93,
   "engagementScore": 16.25,
   "scoreMargin": 20.93,
-  "highlightQuality": 14.0,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "highlightQuality": 14,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 65.93,
@@ -74,5 +74,17 @@
   "video": "media/Dd77LlTm4GN-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115438408915961",
+  "instagramContainerCreatedAt": "2026-10-01T04:05:06.579Z",
+  "instagramPublishRequestedAt": "2026-10-01T04:06:07.164Z",
+  "instagramMediaId": "17889640617616163",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd8AtRADGFA/",
+  "instagramVerifiedAt": "2026-10-01T04:06:15.086Z",
+  "publishedAt": "2026-10-01T04:06:15.086Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd77LlTm4GN-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790827575087-Dd77LlTm4GN-sportswire247.mp4'",
+    "at": "2026-10-01T04:06:15.087Z"
+  }
 }
