@@ -3,16 +3,16 @@
   "shortcode": "Dd-csq7vLd3",
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymedia/reel/Dd-csq7vLd3/",
-  "sourceCaption": "Mauricio Dub\u00f3n tried to pull a fast one and kicked the baseball\n\n#braves #mlb #baseball #sports #umpire",
-  "publishCaption": "Mauricio Dub\u00f3n tried to pull a fast one and kicked the baseball\n\n#braves #mlb #baseball #sports #umpire\n\nSource: @jomboymedia",
+  "sourceCaption": "Mauricio Dubón tried to pull a fast one and kicked the baseball\n\n#braves #mlb #baseball #sports #umpire",
+  "publishCaption": "Mauricio Dubón tried to pull a fast one and kicked the baseball\n\n#braves #mlb #baseball #sports #umpire\n\nSource: @jomboymedia",
   "discoveredAt": "2026-10-02T02:55:35.702Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Braves' Mauricio Dub\u00f3n kicks baseball #braves #mlb #baseball #sports #umpire",
+  "body": "Braves' Mauricio Dubón kicks baseball #braves #mlb #baseball #sports #umpire",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-02T02:56:23.971Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 8.23,
   "scoreMargin": 5.06,
   "highlightQuality": 8.23,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 50.06,
@@ -73,5 +73,17 @@
   "video": "media/Dd-csq7vLd3-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115800562915961",
+  "instagramContainerCreatedAt": "2026-10-02T03:22:16.292Z",
+  "instagramPublishRequestedAt": "2026-10-02T03:22:46.895Z",
+  "instagramMediaId": "18153826999524686",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd-giCcE9Jh/",
+  "instagramVerifiedAt": "2026-10-02T03:22:56.097Z",
+  "publishedAt": "2026-10-02T03:22:56.098Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd-csq7vLd3-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790911376099-Dd-csq7vLd3-sportswire247.mp4'",
+    "at": "2026-10-02T03:22:56.099Z"
+  }
 }
