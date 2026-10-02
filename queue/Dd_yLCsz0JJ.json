@@ -3,16 +3,16 @@
   "shortcode": "Dd_yLCsz0JJ",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dd_yLCsz0JJ/",
-  "sourceCaption": "The vibes in Minnesota rn \ud83d\ude02\ud83e\udd1d (via @timberwolves)",
-  "publishCaption": "The vibes in Minnesota rn \ud83d\ude02\ud83e\udd1d (via @timberwolves)\n\n#basketball #nba\n\nSource: @houseofhighlights",
+  "sourceCaption": "The vibes in Minnesota rn 😂🤝 (via @timberwolves)",
+  "publishCaption": "The vibes in Minnesota rn 😂🤝 (via @timberwolves)\n\n#basketball #nba\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-02T15:22:41.304Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "The vibes in Minnesota rn \ud83d\ude02\ud83e\udd1d (via @timberwolves)",
+  "body": "The vibes in Minnesota rn 😂🤝 (via @timberwolves)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-02T15:23:29.620Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 13.09,
   "scoreMargin": 28.91,
   "highlightQuality": 13.09,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 63.91,
@@ -73,5 +73,17 @@
   "video": "media/Dd_yLCsz0JJ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115999387915961",
+  "instagramContainerCreatedAt": "2026-10-02T15:37:45.192Z",
+  "instagramPublishRequestedAt": "2026-10-02T15:38:15.602Z",
+  "instagramMediaId": "18338425030256492",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd_0sv0Dtk7/",
+  "instagramVerifiedAt": "2026-10-02T15:38:23.536Z",
+  "publishedAt": "2026-10-02T15:38:23.537Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd_yLCsz0JJ-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790955503538-Dd_yLCsz0JJ-sportswire247.mp4'",
+    "at": "2026-10-02T15:38:23.538Z"
+  }
 }
