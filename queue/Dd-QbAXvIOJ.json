@@ -6,7 +6,7 @@
   "sourceCaption": "The mics caught Aaron Rodgers and Mike McCarthy going at it\n\n#nfl #football #sports #steelers #coaching",
   "publishCaption": "The mics caught Aaron Rodgers and Mike McCarthy going at it\n\n#nfl #football #sports #steelers #coaching\n\nSource: @jomboymedia",
   "discoveredAt": "2026-10-02T01:07:23.298Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 5.87,
   "scoreMargin": 10.76,
   "highlightQuality": 5.87,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 50.76,
@@ -73,5 +73,17 @@
   "video": "media/Dd-QbAXvIOJ-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115766131915961",
+  "instagramContainerCreatedAt": "2026-10-02T01:20:17.994Z",
+  "instagramPublishRequestedAt": "2026-10-02T01:20:48.402Z",
+  "instagramMediaId": "18590942821070448",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd-Skl5CR19/",
+  "instagramVerifiedAt": "2026-10-02T01:20:57.774Z",
+  "publishedAt": "2026-10-02T01:20:57.774Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd-QbAXvIOJ-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790904057775-Dd-QbAXvIOJ-sportswire247.mp4'",
+    "at": "2026-10-02T01:20:57.775Z"
+  }
 }
