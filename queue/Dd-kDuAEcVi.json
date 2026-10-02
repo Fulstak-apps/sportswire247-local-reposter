@@ -3,16 +3,16 @@
   "shortcode": "Dd-kDuAEcVi",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/p/Dd-kDuAEcVi/",
-  "sourceCaption": "Different year, same results \ud83c\udf7f\n\nThe Aces eliminate the Fever from the WNBA playoffs yet again \ud83d\udd25",
-  "publishCaption": "Different year, same results \ud83c\udf7f\n\nThe Aces eliminate the Fever from the WNBA playoffs yet again \ud83d\udd25\n\n#basketball #nba\n\nSource: @sportscenter",
+  "sourceCaption": "Different year, same results 🍿\n\nThe Aces eliminate the Fever from the WNBA playoffs yet again 🔥",
+  "publishCaption": "Different year, same results 🍿\n\nThe Aces eliminate the Fever from the WNBA playoffs yet again 🔥\n\n#basketball #nba\n\nSource: @sportscenter",
   "discoveredAt": "2026-10-02T03:59:11.689Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Aces eliminate Fever in WNBA playoffs yet again \ud83c\udf7f\ud83d\udd25",
+  "body": "Aces eliminate Fever in WNBA playoffs yet again 🍿🔥",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-02T03:59:55.045Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.51,
   "scoreMargin": 35.35,
   "highlightQuality": 24.51,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 70.35,
@@ -74,5 +74,17 @@
   "video": "media/Dd-kDuAEcVi-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115810318915961",
+  "instagramContainerCreatedAt": "2026-10-02T04:02:54.732Z",
+  "instagramPublishRequestedAt": "2026-10-02T04:03:25.395Z",
+  "instagramMediaId": "18096392885552852",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd-lM4ukQ7x/",
+  "instagramVerifiedAt": "2026-10-02T04:03:31.925Z",
+  "publishedAt": "2026-10-02T04:03:31.925Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd-kDuAEcVi-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790913811926-Dd-kDuAEcVi-sportswire247.mp4'",
+    "at": "2026-10-02T04:03:31.926Z"
+  }
 }

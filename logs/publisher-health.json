@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-02T03:52:44.092Z",
+  "checkedAt": "2026-10-02T04:02:53.812Z",
   "platforms": {
     "instagram": {
       "status": "healthy",
       "usage": 38,
       "limit": 100,
       "pendingItems": 27,
-      "lastVerifiedAt": "2026-10-02T03:22:56.097Z",
+      "lastVerifiedAt": "2026-10-02T04:03:31.925Z",
       "overdue": false,
       "unresolvedItems": []
     }
