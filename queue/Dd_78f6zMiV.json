@@ -3,16 +3,16 @@
   "shortcode": "Dd_78f6zMiV",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dd_78f6zMiV/",
-  "sourceCaption": "Coach Tomlin thought of everything man \ud83d\ude02\ud83e\udee1 @brgaming (via coachtomlin/YT, h/t thechadcandles/X)",
-  "publishCaption": "Coach Tomlin thought of everything man \ud83d\ude02\ud83e\udee1 @brgaming (via coachtomlin/YT, h/t thechadcandles/X)\n\n#sports\n\nSource: @houseofhighlights",
+  "sourceCaption": "Coach Tomlin thought of everything man 😂🫡 @brgaming (via coachtomlin/YT, h/t thechadcandles/X)",
+  "publishCaption": "Coach Tomlin thought of everything man 😂🫡 @brgaming (via coachtomlin/YT, h/t thechadcandles/X)\n\n#sports\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-02T17:08:08.072Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Coach Tomlin thought of everything man \ud83d\ude02\ud83e\udee1 @brgaming via coachtomlin/YT, h/t thechadcandles/X",
+  "body": "Coach Tomlin thought of everything man 😂🫡 @brgaming via coachtomlin/YT, h/t thechadcandles/X",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-02T17:08:42.451Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 53.63,
   "engagementScore": 21.25,
   "scoreMargin": -26.37,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 53.63,
@@ -73,5 +73,17 @@
   "video": "media/Dd_78f6zMiV-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116078722915961",
+  "instagramContainerCreatedAt": "2026-10-02T19:45:35.428Z",
+  "instagramPublishRequestedAt": "2026-10-02T19:46:05.713Z",
+  "instagramMediaId": "18095546450431211",
+  "instagramPermalink": "https://www.instagram.com/reel/DeAREIjDHiW/",
+  "instagramVerifiedAt": "2026-10-02T19:46:13.336Z",
+  "publishedAt": "2026-10-02T19:46:13.337Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd_78f6zMiV-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790970373337-Dd_78f6zMiV-sportswire247.mp4'",
+    "at": "2026-10-02T19:46:13.337Z"
+  }
 }
