@@ -3,16 +3,16 @@
   "shortcode": "Dd_yK2Wm5hA",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Dd_yK2Wm5hA/",
-  "sourceCaption": "Bub Carrington says the Wizards were \u201cheld back\u201d last season because they were trying to land AJ Dybantsa with the No. 1 pick \n\nWashington finished 17-65, the second-worst record in the Eastern Conference\n\n(Via @wusa9)",
-  "publishCaption": "Bub Carrington says the Wizards were \u201cheld back\u201d last season because they were trying to land AJ Dybantsa with the No. 1 pick \n\nWashington finished 17-65, the second-worst record in the Eastern Conference\n\n(Via @wusa9)\n\n#sports\n\nSource: @bleacherreport",
+  "sourceCaption": "Bub Carrington says the Wizards were “held back” last season because they were trying to land AJ Dybantsa with the No. 1 pick \n\nWashington finished 17-65, the second-worst record in the Eastern Conference\n\n(Via @wusa9)",
+  "publishCaption": "Bub Carrington says the Wizards were “held back” last season because they were trying to land AJ Dybantsa with the No. 1 pick \n\nWashington finished 17-65, the second-worst record in the Eastern Conference\n\n(Via @wusa9)\n\n#sports\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-02T15:23:48.181Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Bub Carrington says the Wizards were \u201cheld back\u201d last season because they were trying to land AJ Dybantsa with the No. 1 pick \n\nWashington finished 17-65, the second-worst record in the Eastern Conference\n\n(Via @wusa9)",
+  "body": "Bub Carrington says the Wizards were “held back” last season because they were trying to land AJ Dybantsa with the No. 1 pick \n\nWashington finished 17-65, the second-worst record in the Eastern Conference\n\n(Via @wusa9)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-02T15:24:18.176Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 56.69,
   "engagementScore": 15.89,
   "scoreMargin": -23.31,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 56.69,
@@ -74,5 +74,17 @@
   "video": "media/Dd_yK2Wm5hA-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116054233915961",
+  "instagramContainerCreatedAt": "2026-10-02T18:12:57.270Z",
+  "instagramPublishRequestedAt": "2026-10-02T18:13:27.908Z",
+  "instagramMediaId": "18122813636512557",
+  "instagramPermalink": "https://www.instagram.com/reel/DeAGdmgCY17/",
+  "instagramVerifiedAt": "2026-10-02T18:13:38.957Z",
+  "publishedAt": "2026-10-02T18:13:38.958Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd_yK2Wm5hA-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790964818971-Dd_yK2Wm5hA-sportswire247.mp4'",
+    "at": "2026-10-02T18:13:38.971Z"
+  }
 }
