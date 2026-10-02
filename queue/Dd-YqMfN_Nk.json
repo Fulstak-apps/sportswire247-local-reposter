@@ -3,16 +3,16 @@
   "shortcode": "Dd-YqMfN_Nk",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dd-YqMfN_Nk/",
-  "sourceCaption": "These two were meant to be teammates \ud83d\ude02\ud83d\udd25 (via @timberwolves)",
-  "publishCaption": "These two were meant to be teammates \ud83d\ude02\ud83d\udd25 (via @timberwolves)\n\n#basketball #nba\n\nSource: @houseofhighlights",
+  "sourceCaption": "These two were meant to be teammates 😂🔥 (via @timberwolves)",
+  "publishCaption": "These two were meant to be teammates 😂🔥 (via @timberwolves)\n\n#basketball #nba\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-02T02:15:59.422Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Meant to be teammates: These two \ud83d\ude02\ud83d\udd25 (via @timberwolves)",
+  "body": "Meant to be teammates: These two 😂🔥 (via @timberwolves)",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-02T02:16:35.963Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 5.74,
   "scoreMargin": 21.62,
   "highlightQuality": 5.74,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 56.62,
@@ -73,5 +73,17 @@
   "video": "media/Dd-YqMfN_Nk-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115789462915961",
+  "instagramContainerCreatedAt": "2026-10-02T02:41:30.099Z",
+  "instagramPublishRequestedAt": "2026-10-02T02:42:00.989Z",
+  "instagramMediaId": "18097665803635079",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd-b3jxCpl8/",
+  "instagramVerifiedAt": "2026-10-02T02:42:10.104Z",
+  "publishedAt": "2026-10-02T02:42:10.105Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd-YqMfN_Nk-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790908930106-Dd-YqMfN_Nk-sportswire247.mp4'",
+    "at": "2026-10-02T02:42:10.106Z"
+  }
 }
