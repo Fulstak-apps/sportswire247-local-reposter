@@ -3,16 +3,16 @@
   "shortcode": "Dd-YtpAx73m",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/Dd-YtpAx73m/",
-  "sourceCaption": "IGOR, YOU DAWG!! (\ud83c\udfa5 @nhl)",
-  "publishCaption": "IGOR, YOU DAWG!! (\ud83c\udfa5 @nhl)\n\n#nhl #hockey\n\nSource: @sportscenter",
+  "sourceCaption": "IGOR, YOU DAWG!! (🎥 @nhl)",
+  "publishCaption": "IGOR, YOU DAWG!! (🎥 @nhl)\n\n#nhl #hockey\n\nSource: @sportscenter",
   "discoveredAt": "2026-10-02T02:16:55.420Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Igor, you dawg. \ud83c\udfa5 @nhl",
+  "body": "Igor, you dawg. 🎥 @nhl",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-02T02:17:37.313Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.08,
   "scoreMargin": 1.96,
   "highlightQuality": 10.08,
-  "postingFloor": 50.0,
-  "highlightFloor": 54.0,
+  "postingFloor": 50,
+  "highlightFloor": 54,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 51.96,
@@ -73,5 +73,17 @@
   "video": "media/Dd-YtpAx73m-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116031592915961",
+  "instagramContainerCreatedAt": "2026-10-02T17:09:14.324Z",
+  "instagramPublishRequestedAt": "2026-10-02T17:09:45.411Z",
+  "instagramMediaId": "17995374537044428",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd__LABmDrB/",
+  "instagramVerifiedAt": "2026-10-02T17:09:55.295Z",
+  "publishedAt": "2026-10-02T17:09:55.295Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd-YtpAx73m-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790960995296-Dd-YtpAx73m-sportswire247.mp4'",
+    "at": "2026-10-02T17:09:55.296Z"
+  }
 }
