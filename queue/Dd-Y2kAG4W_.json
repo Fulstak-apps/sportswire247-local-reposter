@@ -3,16 +3,16 @@
   "shortcode": "Dd-Y2kAG4W_",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Dd-Y2kAG4W_/",
-  "sourceCaption": "RANGERS GOALIE GOAL \ud83e\udd2f\ud83d\udd25\n\nIGOR SHESTERKIN GETS THE FIRET GOALIE GOAL IN RANGERS HISTORY \u203c\ufe0f",
-  "publishCaption": "RANGERS GOALIE GOAL \ud83e\udd2f\ud83d\udd25\n\nIGOR SHESTERKIN GETS THE FIRET GOALIE GOAL IN RANGERS HISTORY \u203c\ufe0f\n\n#nhl #hockey\n\nSource: @bleacherreport",
+  "sourceCaption": "RANGERS GOALIE GOAL 🤯🔥\n\nIGOR SHESTERKIN GETS THE FIRET GOALIE GOAL IN RANGERS HISTORY ‼️",
+  "publishCaption": "RANGERS GOALIE GOAL 🤯🔥\n\nIGOR SHESTERKIN GETS THE FIRET GOALIE GOAL IN RANGERS HISTORY ‼️\n\n#nhl #hockey\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-02T02:17:51.916Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "RANGERS GOALIE GOAL \ud83e\udd2f\ud83d\udd25\n\nIGOR SHESTERKIN GETS THE FIRET GOALIE GOAL IN RANGERS HISTORY \u203c\ufe0f",
+  "body": "RANGERS GOALIE GOAL 🤯🔥\n\nIGOR SHESTERKIN GETS THE FIRET GOALIE GOAL IN RANGERS HISTORY ‼️",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-02T02:18:40.636Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.75,
   "scoreMargin": 11.7,
   "highlightQuality": 30.75,
-  "postingFloor": 50.0,
-  "highlightFloor": 54.0,
+  "postingFloor": 50,
+  "highlightFloor": 54,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 61.7,
@@ -75,5 +75,17 @@
   "video": "media/Dd-Y2kAG4W_-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115975252915961",
+  "instagramContainerCreatedAt": "2026-10-02T14:26:51.691Z",
+  "instagramPublishRequestedAt": "2026-10-02T14:27:22.333Z",
+  "instagramMediaId": "18069084725752437",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd_slmMDE_t/",
+  "instagramVerifiedAt": "2026-10-02T14:27:30.850Z",
+  "publishedAt": "2026-10-02T14:27:30.851Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd-Y2kAG4W_-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790951250942-Dd-Y2kAG4W_-sportswire247.mp4'",
+    "at": "2026-10-02T14:27:30.943Z"
+  }
 }
