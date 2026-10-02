@@ -3,16 +3,16 @@
   "shortcode": "Dd-oSf4NtDo",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dd-oSf4NtDo/",
-  "sourceCaption": "ACUNA CHANNELING STEPH CURRY AFTER BRAVES MOVE ON TO NLDS \ud83d\ude24\ud83d\udd25 (Via @mlb, @nbcsports)",
-  "publishCaption": "ACUNA CHANNELING STEPH CURRY AFTER BRAVES MOVE ON TO NLDS \ud83d\ude24\ud83d\udd25 (Via @mlb, @nbcsports)\n\n#mlb #baseball\n\nSource: @houseofhighlights",
+  "sourceCaption": "ACUNA CHANNELING STEPH CURRY AFTER BRAVES MOVE ON TO NLDS 😤🔥 (Via @mlb, @nbcsports)",
+  "publishCaption": "ACUNA CHANNELING STEPH CURRY AFTER BRAVES MOVE ON TO NLDS 😤🔥 (Via @mlb, @nbcsports)\n\n#mlb #baseball\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-02T04:35:31.559Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Braves move on to NLDS: Acuna channels Steph Curry \ud83d\ude24\ud83d\udd25 (Via @mlb, @nbcsports)",
+  "body": "Braves move on to NLDS: Acuna channels Steph Curry 😤🔥 (Via @mlb, @nbcsports)",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-02T04:36:14.567Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 9.83,
   "scoreMargin": 9.68,
   "highlightQuality": 9.83,
-  "postingFloor": 45.0,
-  "highlightFloor": 46.0,
+  "postingFloor": 45,
+  "highlightFloor": 46,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 54.68,
@@ -73,5 +73,17 @@
   "video": "media/Dd-oSf4NtDo-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115880059915961",
+  "instagramContainerCreatedAt": "2026-10-02T08:46:36.015Z",
+  "instagramPublishRequestedAt": "2026-10-02T08:47:36.535Z",
+  "instagramMediaId": "17864773269677724",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd_FtW6AMAo/",
+  "instagramVerifiedAt": "2026-10-02T08:47:46.037Z",
+  "publishedAt": "2026-10-02T08:47:46.038Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd-oSf4NtDo-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790930866039-Dd-oSf4NtDo-sportswire247.mp4'",
+    "at": "2026-10-02T08:47:46.039Z"
+  }
 }
