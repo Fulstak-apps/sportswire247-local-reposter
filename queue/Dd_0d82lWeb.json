@@ -3,16 +3,16 @@
   "shortcode": "Dd_0d82lWeb",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Dd_0d82lWeb/",
-  "sourceCaption": "The next great CFB Superstar is in Starkville, Mississippi \ud83d\udc40\u2b50\ufe0f",
-  "publishCaption": "The next great CFB Superstar is in Starkville, Mississippi \ud83d\udc40\u2b50\ufe0f\n\n#football #nfl\n\nSource: @bleacherreport",
+  "sourceCaption": "The next great CFB Superstar is in Starkville, Mississippi 👀⭐️",
+  "publishCaption": "The next great CFB Superstar is in Starkville, Mississippi 👀⭐️\n\n#football #nfl\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-02T15:45:34.822Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 1,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Next great CFB superstar in Starkville, Mississippi \ud83d\udc40\u2b50\ufe0f",
+  "body": "Next great CFB superstar in Starkville, Mississippi 👀⭐️",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-02T15:46:16.489Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 61.28,
   "engagementScore": 15.68,
   "scoreMargin": 21.28,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 61.28,
@@ -73,5 +73,17 @@
   "video": "media/Dd_0d82lWeb-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116010739915961",
+  "instagramContainerCreatedAt": "2026-10-02T16:08:53.974Z",
+  "instagramPublishRequestedAt": "2026-10-02T16:09:24.740Z",
+  "instagramMediaId": "18134247547642396",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd_4Q-xgI37/",
+  "instagramVerifiedAt": "2026-10-02T16:09:36.352Z",
+  "publishedAt": "2026-10-02T16:09:36.353Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd_0d82lWeb-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790957376354-Dd_0d82lWeb-sportswire247.mp4'",
+    "at": "2026-10-02T16:09:36.354Z"
+  }
 }
