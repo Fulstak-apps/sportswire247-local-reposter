@@ -3,16 +3,16 @@
   "shortcode": "Dd6eG6Az0l1",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/Dd6eG6Az0l1/",
-  "sourceCaption": "They locked in for photo day. \ud83d\udd25\ud83d\ude2d (via @jhampp)",
-  "publishCaption": "They locked in for photo day. \ud83d\udd25\ud83d\ude2d (via @jhampp)\n\n#sports\n\nSource: @houseofhighlights",
+  "sourceCaption": "They locked in for photo day. 🔥😭 (via @jhampp)",
+  "publishCaption": "They locked in for photo day. 🔥😭 (via @jhampp)\n\n#sports\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-09-30T13:56:29.884Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "They locked in for photo day. \ud83d\udd25\ud83d\ude2d (via @jhampp)",
+  "body": "They locked in for photo day. 🔥😭 (via @jhampp)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-09-30T14:04:43.919Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 13.48,
   "scoreMargin": -34.65,
   "highlightQuality": 13.48,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 45.35,
@@ -73,5 +73,17 @@
   "video": "media/Dd6eG6Az0l1-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115777759915961",
+  "instagramContainerCreatedAt": "2026-10-02T02:00:55.493Z",
+  "instagramPublishRequestedAt": "2026-10-02T02:01:25.834Z",
+  "instagramMediaId": "17996161017008395",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd-XOauiH_i/",
+  "instagramVerifiedAt": "2026-10-02T02:01:33.611Z",
+  "publishedAt": "2026-10-02T02:01:33.613Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd6eG6Az0l1-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790906493616-Dd6eG6Az0l1-sportswire247.mp4'",
+    "at": "2026-10-02T02:01:33.616Z"
+  }
 }
