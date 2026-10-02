@@ -3,16 +3,16 @@
   "shortcode": "DeAQE-Rt2R5",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DeAQE-Rt2R5/",
-  "sourceCaption": "Coach thought he still had it \ud83d\ude05 @sportscenternext \n\n(via coldcase4/TT)",
-  "publishCaption": "Coach thought he still had it \ud83d\ude05 @sportscenternext \n\n(via coldcase4/TT)\n\n#sports\n\nSource: @sportscenter",
+  "sourceCaption": "Coach thought he still had it 😅 @sportscenternext \n\n(via coldcase4/TT)",
+  "publishCaption": "Coach thought he still had it 😅 @sportscenternext \n\n(via coldcase4/TT)\n\n#sports\n\nSource: @sportscenter",
   "discoveredAt": "2026-10-02T19:52:25.893Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Coach thought he still had it \ud83d\ude05 @sportscenternext \n\n(via coldcase4/TT)",
+  "body": "Coach thought he still had it 😅 @sportscenternext \n\n(via coldcase4/TT)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-02T19:53:14.995Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 48.52,
   "engagementScore": 16.91,
   "scoreMargin": -31.48,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.52,
@@ -73,5 +73,17 @@
   "video": "media/DeAQE-Rt2R5-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116111269915961",
+  "instagramContainerCreatedAt": "2026-10-02T21:55:47.748Z",
+  "instagramPublishRequestedAt": "2026-10-02T21:56:17.958Z",
+  "instagramMediaId": "18115966375998148",
+  "instagramPermalink": "https://www.instagram.com/reel/DeAf90llfbi/",
+  "instagramVerifiedAt": "2026-10-02T21:56:26.657Z",
+  "publishedAt": "2026-10-02T21:56:26.658Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeAQE-Rt2R5-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790978186659-DeAQE-Rt2R5-sportswire247.mp4'",
+    "at": "2026-10-02T21:56:26.659Z"
+  }
 }
