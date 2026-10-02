@@ -3,16 +3,16 @@
   "shortcode": "DeAc8qOGTzT",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/p/DeAc8qOGTzT/",
-  "sourceCaption": "These FIU jerseys are TOO CLEAN \ud83d\ude2e\u200d\ud83d\udca8\ud83d\udd25 (via @fiu.football)",
-  "publishCaption": "These FIU jerseys are TOO CLEAN \ud83d\ude2e\u200d\ud83d\udca8\ud83d\udd25 (via @fiu.football)\n\n#football #nfl\n\nSource: @houseofhighlights",
+  "sourceCaption": "These FIU jerseys are TOO CLEAN 😮‍💨🔥 (via @fiu.football)",
+  "publishCaption": "These FIU jerseys are TOO CLEAN 😮‍💨🔥 (via @fiu.football)\n\n#football #nfl\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-02T21:52:24.433Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "FIU jerseys too clean \ud83d\ude2e\u200d\ud83d\udca8\ud83d\udd25 (via @fiu.football)",
+  "body": "FIU jerseys too clean 😮‍💨🔥 (via @fiu.football)",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-02T21:52:47.931Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 65.38,
   "engagementScore": 18.12,
   "scoreMargin": 25.38,
-  "highlightQuality": 14.0,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "highlightQuality": 14,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 65.38,
@@ -73,5 +73,17 @@
   "video": "media/DeAc8qOGTzT-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116124778915961",
+  "instagramContainerCreatedAt": "2026-10-02T22:36:21.344Z",
+  "instagramPublishRequestedAt": "2026-10-02T22:37:37.040Z",
+  "instagramMediaId": "18050382794604637",
+  "instagramPermalink": "https://www.instagram.com/reel/DeAkrYRCvgk/",
+  "instagramVerifiedAt": "2026-10-02T22:37:46.933Z",
+  "publishedAt": "2026-10-02T22:37:46.934Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeAc8qOGTzT-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790980666934-DeAc8qOGTzT-sportswire247.mp4'",
+    "at": "2026-10-02T22:37:46.934Z"
+  }
 }
