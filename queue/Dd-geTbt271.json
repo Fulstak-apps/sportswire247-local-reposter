@@ -6,7 +6,7 @@
   "sourceCaption": "No foul was called. #WNBA",
   "publishCaption": "No foul was called. #WNBA\n\n#basketball #nba\n\nSource: @sportscenter",
   "discoveredAt": "2026-10-02T03:28:32.206Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,9 +52,9 @@
   "rawScore": 66.84,
   "engagementScore": 16.97,
   "scoreMargin": 31.84,
-  "highlightQuality": 14.0,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "highlightQuality": 14,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 66.84,
@@ -73,5 +73,17 @@
   "video": "media/Dd-geTbt271-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18115817446915961",
+  "instagramContainerCreatedAt": "2026-10-02T04:36:58.660Z",
+  "instagramPublishRequestedAt": "2026-10-02T04:37:29.027Z",
+  "instagramMediaId": "18095064785446973",
+  "instagramPermalink": "https://www.instagram.com/reel/Dd-pFQFFALi/",
+  "instagramVerifiedAt": "2026-10-02T04:37:35.979Z",
+  "publishedAt": "2026-10-02T04:37:35.980Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd-geTbt271-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790915855981-Dd-geTbt271-sportswire247.mp4'",
+    "at": "2026-10-02T04:37:35.981Z"
+  }
 }
