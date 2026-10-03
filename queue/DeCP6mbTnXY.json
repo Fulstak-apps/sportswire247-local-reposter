@@ -3,16 +3,16 @@
   "shortcode": "DeCP6mbTnXY",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DeCP6mbTnXY/",
-  "sourceCaption": "They turned bus assignments into the NBA Draft \ud83d\ude02\ud83d\udd25 (via _emmabartlett/IG)",
-  "publishCaption": "They turned bus assignments into the NBA Draft \ud83d\ude02\ud83d\udd25 (via _emmabartlett/IG)\n\n#basketball #nba\n\nSource: @houseofhighlights",
+  "sourceCaption": "They turned bus assignments into the NBA Draft 😂🔥 (via _emmabartlett/IG)",
+  "publishCaption": "They turned bus assignments into the NBA Draft 😂🔥 (via _emmabartlett/IG)\n\n#basketball #nba\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-03T14:43:33.066Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Bus assignments reimagined as NBA Draft \ud83d\ude02\ud83d\udd25 (via _emmabartlett/IG)",
+  "body": "Bus assignments reimagined as NBA Draft 😂🔥 (via _emmabartlett/IG)",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-03T14:43:50.113Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 66.95,
   "engagementScore": 16.57,
   "scoreMargin": 31.95,
-  "highlightQuality": 14.0,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "highlightQuality": 14,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 66.95,
@@ -73,5 +73,17 @@
   "video": "media/DeCP6mbTnXY-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116394706915961",
+  "instagramContainerCreatedAt": "2026-10-03T15:23:16.287Z",
+  "instagramPublishRequestedAt": "2026-10-03T15:24:32.745Z",
+  "instagramMediaId": "18112657604033972",
+  "instagramPermalink": "https://www.instagram.com/reel/DeCX7JTDOPP/",
+  "instagramVerifiedAt": "2026-10-03T15:24:44.071Z",
+  "publishedAt": "2026-10-03T15:24:44.072Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeCP6mbTnXY-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791041084072-DeCP6mbTnXY-sportswire247.mp4'",
+    "at": "2026-10-03T15:24:44.073Z"
+  }
 }
