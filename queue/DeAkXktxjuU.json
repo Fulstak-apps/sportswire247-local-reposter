@@ -3,16 +3,16 @@
   "shortcode": "DeAkXktxjuU",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/whrissss/reel/DeAkXktxjuU/",
-  "sourceCaption": "This one was fun. \ud83d\ude2d\n\n#nba #basketball #prank #ref #sports",
-  "publishCaption": "This one was fun. \ud83d\ude2d\n\n#nba #basketball #prank #ref #sports\n\nSource: @houseofhighlights",
+  "sourceCaption": "This one was fun. 😭\n\n#nba #basketball #prank #ref #sports",
+  "publishCaption": "This one was fun. 😭\n\n#nba #basketball #prank #ref #sports\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-02T22:42:25.129Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "This one was fun. \ud83d\ude2d\n\n#nba #basketball #prank #ref #sports",
+  "body": "This one was fun. 😭\n\n#nba #basketball #prank #ref #sports",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-02T22:43:15.272Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 3.47,
   "scoreMargin": 17.73,
   "highlightQuality": 3.47,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 52.73,
@@ -71,5 +71,17 @@
   "video": "media/DeAkXktxjuU-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116149567915961",
+  "instagramContainerCreatedAt": "2026-10-03T00:33:01.026Z",
+  "instagramPublishRequestedAt": "2026-10-03T00:33:31.479Z",
+  "instagramMediaId": "18130132996686966",
+  "instagramPermalink": "https://www.instagram.com/reel/DeAx9XrjTqj/",
+  "instagramVerifiedAt": "2026-10-03T00:33:38.841Z",
+  "publishedAt": "2026-10-03T00:33:38.842Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeAkXktxjuU-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790987618842-DeAkXktxjuU-sportswire247.mp4'",
+    "at": "2026-10-03T00:33:38.842Z"
+  }
 }
