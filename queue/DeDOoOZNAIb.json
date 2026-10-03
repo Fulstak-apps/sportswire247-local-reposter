@@ -3,16 +3,16 @@
   "shortcode": "DeDOoOZNAIb",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/reel/DeDOoOZNAIb/",
-  "sourceCaption": "GIANNIS IN MIAMI MODE \ud83c\udf34",
-  "publishCaption": "GIANNIS IN MIAMI MODE \ud83c\udf34\n\n#basketball #nba\n\nSource: @sportscenter",
+  "sourceCaption": "GIANNIS IN MIAMI MODE 🌴",
+  "publishCaption": "GIANNIS IN MIAMI MODE 🌴\n\n#basketball #nba\n\nSource: @sportscenter",
   "discoveredAt": "2026-10-03T23:40:50.583Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Giannis in Miami mode \ud83c\udf34",
+  "body": "Giannis in Miami mode 🌴",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-03T23:41:24.686Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 71.69,
   "engagementScore": 22.29,
   "scoreMargin": 16.69,
-  "highlightQuality": 14.0,
-  "postingFloor": 55.0,
-  "highlightFloor": 38.0,
+  "highlightQuality": 14,
+  "postingFloor": 55,
+  "highlightFloor": 38,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 71.69,
@@ -76,5 +76,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "GIANNIS IN MIAMI MODE",
   "cover": "media/DeDOoOZNAIb-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeDOoOZNAIb-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeDOoOZNAIb-cover.jpg",
+  "instagramContainerId": "18116494258915961",
+  "instagramContainerCreatedAt": "2026-10-03T23:54:17.172Z",
+  "instagramPublishRequestedAt": "2026-10-03T23:54:47.467Z",
+  "instagramMediaId": "18443664304135834",
+  "instagramPermalink": "https://www.instagram.com/reel/DeDSUfnkU91/",
+  "instagramVerifiedAt": "2026-10-03T23:54:57.452Z",
+  "publishedAt": "2026-10-03T23:54:57.453Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeDOoOZNAIb-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791071697454-DeDOoOZNAIb-sportswire247.mp4'",
+    "at": "2026-10-03T23:54:57.454Z"
+  }
 }
