@@ -3,16 +3,16 @@
   "shortcode": "DeAxLJtvK0X",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_cfb/reel/DeAxLJtvK0X/",
-  "sourceCaption": "Kamari\u2019s Taylor is college football\u2019s next SUPERSTAR \ud83d\udd25\n\nSuper Kamario has ARRIVED \ud83d\udd79\ufe0f\n\n #collegefootball #ncaafootball #sec #ab",
-  "publishCaption": "Kamari\u2019s Taylor is college football\u2019s next SUPERSTAR \ud83d\udd25\n\nSuper Kamario has ARRIVED \ud83d\udd79\ufe0f\n\n #collegefootball #ncaafootball #sec #ab\n\n#football #nfl\n\nSource: @bleacherreport",
+  "sourceCaption": "Kamari’s Taylor is college football’s next SUPERSTAR 🔥\n\nSuper Kamario has ARRIVED 🕹️\n\n #collegefootball #ncaafootball #sec #ab",
+  "publishCaption": "Kamari’s Taylor is college football’s next SUPERSTAR 🔥\n\nSuper Kamario has ARRIVED 🕹️\n\n #collegefootball #ncaafootball #sec #ab\n\n#football #nfl\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-03T00:36:38.242Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Kamari\u2019s Taylor is college football\u2019s next SUPERSTAR \ud83d\udd25\n\nSuper Kamario has ARRIVED \ud83d\udd79\ufe0f\n\n #collegefootball #ncaafootball #sec #ab",
+  "body": "Kamari’s Taylor is college football’s next SUPERSTAR 🔥\n\nSuper Kamario has ARRIVED 🕹️\n\n #collegefootball #ncaafootball #sec #ab",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-03T00:37:26.873Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 1.61,
   "scoreMargin": 6.56,
   "highlightQuality": 1.61,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 46.56,
@@ -72,5 +72,17 @@
   "video": "media/DeAxLJtvK0X-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116166895915961",
+  "instagramContainerCreatedAt": "2026-10-03T01:54:10.679Z",
+  "instagramPublishRequestedAt": "2026-10-03T01:54:41.213Z",
+  "instagramMediaId": "18079429319530647",
+  "instagramPermalink": "https://www.instagram.com/reel/DeA7PwMjxHr/",
+  "instagramVerifiedAt": "2026-10-03T01:54:47.949Z",
+  "publishedAt": "2026-10-03T01:54:47.950Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeAxLJtvK0X-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790992487951-DeAxLJtvK0X-sportswire247.mp4'",
+    "at": "2026-10-03T01:54:47.951Z"
+  }
 }
