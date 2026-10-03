@@ -3,16 +3,16 @@
   "shortcode": "DeBI8yWPbX5",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_cfb/reel/DeBI8yWPbX5/",
-  "sourceCaption": "Virginia Tech kicker celebrated as if he made the kick \ud83d\udc40\n\n#cfb #collegefootball #football #fieldgoal #virginiatech",
-  "publishCaption": "Virginia Tech kicker celebrated as if he made the kick \ud83d\udc40\n\n#cfb #collegefootball #football #fieldgoal #virginiatech\n\n#nfl\n\nSource: @bleacherreport",
+  "sourceCaption": "Virginia Tech kicker celebrated as if he made the kick 👀\n\n#cfb #collegefootball #football #fieldgoal #virginiatech",
+  "publishCaption": "Virginia Tech kicker celebrated as if he made the kick 👀\n\n#cfb #collegefootball #football #fieldgoal #virginiatech\n\n#nfl\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-03T04:27:46.332Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Virginia Tech kicker celebrates field goal \ud83d\udc40 #cfb #collegefootball #football #fieldgoal #virginiatech",
+  "body": "Virginia Tech kicker celebrates field goal 👀 #cfb #collegefootball #football #fieldgoal #virginiatech",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-03T04:28:19.367Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 8.1,
   "scoreMargin": 22.25,
   "highlightQuality": 28.1,
-  "postingFloor": 40.0,
-  "highlightFloor": 36.0,
+  "postingFloor": 40,
+  "highlightFloor": 36,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 62.25,
@@ -75,5 +75,17 @@
   "video": "media/DeBI8yWPbX5-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116229673915961",
+  "instagramContainerCreatedAt": "2026-10-03T05:57:57.118Z",
+  "instagramPublishRequestedAt": "2026-10-03T05:58:27.701Z",
+  "instagramMediaId": "18170172538462582",
+  "instagramPermalink": "https://www.instagram.com/reel/DeBXJI8ESdn/",
+  "instagramVerifiedAt": "2026-10-03T05:58:38.019Z",
+  "publishedAt": "2026-10-03T05:58:38.020Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeBI8yWPbX5-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791007118020-DeBI8yWPbX5-sportswire247.mp4'",
+    "at": "2026-10-03T05:58:38.021Z"
+  }
 }
