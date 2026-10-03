@@ -78,4 +78,10 @@ python3 scripts/run-with-timeout.py 180 scripts/push-sportswire-queue.sh || { ec
 # backup job.  Do not dispatch here: a five-minute worker plus a five-minute
 # workflow schedule otherwise creates duplicate runs and can make the queue
 # appear stuck while jobs wait behind each other.
-[[ "$cycle_failed" == "false" ]] || exit 1
+# A collector, encoder, or Git transport failure is recorded above, but it is
+# not a worker-process failure.  launchd should see a completed cycle and run
+# the next one on schedule; a non-zero exit here was creating needless crash
+# state/backoff even though the queue and the next safe recovery pass remained
+# usable.
+[[ "$cycle_failed" == "false" ]] || echo "SportsWire cycle finished with recoverable errors; next interval will retry." >&2
+exit 0
