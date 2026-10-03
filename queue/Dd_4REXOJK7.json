@@ -3,16 +3,16 @@
   "shortcode": "Dd_4REXOJK7",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/Dd_4REXOJK7/",
-  "sourceCaption": "She hopped out the CommanderMobile and did Terry McLaurin\u2019s celebration \ud83d\ude02\ud83d\udd25\n\n(Via @hogfarmer_chris)",
-  "publishCaption": "She hopped out the CommanderMobile and did Terry McLaurin\u2019s celebration \ud83d\ude02\ud83d\udd25\n\n(Via @hogfarmer_chris)\n\n#sports\n\nSource: @bleacherreport",
+  "sourceCaption": "She hopped out the CommanderMobile and did Terry McLaurin’s celebration 😂🔥\n\n(Via @hogfarmer_chris)",
+  "publishCaption": "She hopped out the CommanderMobile and did Terry McLaurin’s celebration 😂🔥\n\n(Via @hogfarmer_chris)\n\n#sports\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-02T16:16:25.014Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "She hopped out the CommanderMobile and did Terry McLaurin\u2019s celebration \ud83d\ude02\ud83d\udd25\n\n(Via @hogfarmer_chris)",
+  "body": "She hopped out the CommanderMobile and did Terry McLaurin’s celebration 😂🔥\n\n(Via @hogfarmer_chris)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-02T16:17:16.517Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 12.24,
   "scoreMargin": -31.95,
   "highlightQuality": 12.24,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 48.05,
@@ -74,5 +74,17 @@
   "video": "media/Dd_4REXOJK7-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116201119915961",
+  "instagramContainerCreatedAt": "2026-10-03T03:56:00.095Z",
+  "instagramPublishRequestedAt": "2026-10-03T03:56:30.651Z",
+  "instagramMediaId": "18220069690342131",
+  "instagramPermalink": "https://www.instagram.com/reel/DeBJL76FJhe/",
+  "instagramVerifiedAt": "2026-10-03T03:56:38.852Z",
+  "publishedAt": "2026-10-03T03:56:38.853Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd_4REXOJK7-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790999798853-Dd_4REXOJK7-sportswire247.mp4'",
+    "at": "2026-10-03T03:56:38.853Z"
+  }
 }
