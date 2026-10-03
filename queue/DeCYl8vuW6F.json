@@ -3,16 +3,16 @@
   "shortcode": "DeCYl8vuW6F",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DeCYl8vuW6F/",
-  "sourceCaption": "Jaylen Brown thought he got it \ud83d\ude2d\ud83d\udc80 \n\n(Via @sixers)",
-  "publishCaption": "Jaylen Brown thought he got it \ud83d\ude2d\ud83d\udc80 \n\n(Via @sixers)\n\n#basketball #nba\n\nSource: @bleacherreport",
+  "sourceCaption": "Jaylen Brown thought he got it 😭💀 \n\n(Via @sixers)",
+  "publishCaption": "Jaylen Brown thought he got it 😭💀 \n\n(Via @sixers)\n\n#basketball #nba\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-03T15:35:33.605Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jaylen Brown thought he got it \ud83d\ude2d\ud83d\udc80 (via @sixers)",
+  "body": "Jaylen Brown thought he got it 😭💀 (via @sixers)",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-03T15:36:04.658Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.61,
   "scoreMargin": 25.5,
   "highlightQuality": 11.61,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 60.5,
@@ -73,5 +73,17 @@
   "video": "media/DeCYl8vuW6F-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116406505915961",
+  "instagramContainerCreatedAt": "2026-10-03T16:04:00.411Z",
+  "instagramPublishRequestedAt": "2026-10-03T16:05:01.034Z",
+  "instagramMediaId": "17887380255478206",
+  "instagramPermalink": "https://www.instagram.com/reel/DeCckEcj198/",
+  "instagramVerifiedAt": "2026-10-03T16:05:07.856Z",
+  "publishedAt": "2026-10-03T16:05:07.857Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeCYl8vuW6F-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791043507858-DeCYl8vuW6F-sportswire247.mp4'",
+    "at": "2026-10-03T16:05:07.858Z"
+  }
 }
