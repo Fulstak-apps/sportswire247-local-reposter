@@ -17,10 +17,12 @@ try {
  // A normal 90-minute gap is intentional. More than 135 minutes with ready
  // inventory is a delivery incident, so the local Mac actively dispatches a
  // verified publisher retry instead of merely writing a health report.
- const postStalled=Boolean(instagram.pendingItems>0 && (!lastVerifiedAt || postSilenceMinutes>135));
+ const queueEmpty=instagram.queueEmpty === true || Number(instagram.eligibleItems ?? instagram.pendingItems ?? 0) === 0;
+ const postStalled=Boolean((instagram.pendingItems>0 || queueEmpty) && (!lastVerifiedAt || postSilenceMinutes>135));
  result.lastVerifiedAt=lastVerifiedAt;
  result.postSilenceMinutes=postSilenceMinutes;
  result.postStalled=postStalled;
+ result.queueEmpty=queueEmpty;
  const overdue=postStalled || Object.values(health.platforms || {}).some(x=>x.overdue===true && x.status==='healthy');
  const failed=runs[0]?.status==='completed' && runs[0]?.conclusion!=='success';
  const cooled=Date.now()-(Date.parse(previous.lastDispatchAt)||0)>=10*60000;

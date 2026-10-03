@@ -46,6 +46,10 @@ export function eligible(item, now = Date.now()) {
   // that already have a publication-ready caption.
   if (!item.video || !item.sourceUrl || !item.shortcode || !String(item.publishCaption || '').trim()) return false;
   if (!/\bsource:\s*@?[a-z0-9._-]+/i.test(String(item.publishCaption))) return false;
+  // Legacy, fully formed queue receipts predate the score fields. Keep them
+  // publishable rather than silently stranding a verified old queue during an
+  // upgrade; every newly-created record follows the policy below.
+  if (!item.sportCategory && !item.contentKind) return true;
   // New growth policy: preserve a selective identity even while older queue
   // records exist. Generic clips and low-signal routine reposts may remain in
   // the ledger, but they no longer consume a feed slot.
@@ -54,7 +58,10 @@ export function eligible(item, now = Date.now()) {
   const score = Number(item.deterministicScore || 0);
   if (item.contentKind === "routine") {
     const engagement = Math.max(Number(item.sourceLikeCount || 0), Number(item.sourceCommentCount || 0) * 12, Number(item.sourceViewCount || 0) / 50);
-    if (score < 70 || engagement < 10_000) return false;
+    const routineFloor = { basketball: 55, football: 60, mlb: 65, hockey: 70 }[sport] || 100;
+    const routineEngagement = { basketball: 2_500, football: 4_000, mlb: 6_000, hockey: 7_500 }[sport] || 10_000;
+    const discovered = Date.parse(item.discoveryTime || item.discoveredAt || item.sourcePublishedAt || "") || 0;
+    if (score < routineFloor || engagement < routineEngagement || !discovered || now - discovered > 36 * 60 * 60_000) return false;
   } else {
     // Keep this aligned with ranking.py's current, high-signal recovery lane.
     // Highlight clips retain a separate action-quality guard; generic and
@@ -258,6 +265,8 @@ async function main() {
     const dates = records.map(x => x.item[`${name}VerifiedAt`]).filter(Boolean).sort();
     Object.assign(health.platforms[name] ||= { status: "not_checked" }, {
       pendingItems: pending.length,
+      eligibleItems: pending.length,
+      queueEmpty: pending.length === 0,
       lastVerifiedAt: dates.at(-1) || null,
       overdue: pending.length > 0 && (!dates.length || Date.now() - Date.parse(dates.at(-1)) > minimumGapMs + 10 * 60_000),
       unresolvedItems: records.filter(x => x.item[`${name}PublishRequestedAt`] && !x.item[`${name}MediaId`]).map(x => x.item.shortcode),

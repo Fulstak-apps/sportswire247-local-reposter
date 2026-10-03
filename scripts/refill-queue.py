@@ -11,7 +11,10 @@ def growth_ready(item: dict) -> bool:
     score = float(item.get("deterministicScore") or 0)
     if item.get("contentKind") == "routine":
         engagement = max(float(item.get("sourceLikeCount") or 0), float(item.get("sourceCommentCount") or 0) * 12, float(item.get("sourceViewCount") or 0) / 50)
-        return score >= 70 and engagement >= 10_000
+        sport = item.get("sportCategory")
+        floors = {"basketball": (55, 2_500), "football": (60, 4_000), "mlb": (65, 6_000), "hockey": (70, 7_500)}
+        floor, minimum_engagement = floors.get(sport, (100, 10_000))
+        return score >= floor and engagement >= minimum_engagement
     if item.get("contentKind") == "highlight":
         return score >= 40 and float(item.get("highlightQuality") or 0) >= 25
     return score >= 45

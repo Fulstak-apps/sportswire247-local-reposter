@@ -105,6 +105,17 @@ class SportsWireV2RankingTests(unittest.TestCase):
         self.assertEqual(clip["contentKind"], "sports_culture")
         self.assertTrue(clip["eligibleForAutoPost"])
 
+    def test_fresh_high_engagement_classified_routine_can_prevent_queue_starvation(self):
+        clip = self.ranked(
+            "NBA preseason crowd reaction",
+            views=0,
+            shortcode="ROUTINE_RECOVERY",
+            likes=3_000,
+            comments=50,
+        )
+        self.assertEqual(clip["contentKind"], "routine")
+        self.assertTrue(clip["eligibleForAutoPost"])
+
     def test_engagement_is_bounded_when_views_are_already_available(self):
         no_engagement = self.ranked("NBA dunk", views=2_000_000, shortcode="A")
         with_engagement = self.ranked(

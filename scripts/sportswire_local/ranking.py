@@ -363,12 +363,18 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
     if content_kind == "highlight":
         eligible = eligible and highlight_quality >= required_highlight
     elif content_kind == "routine":
-        # Routine reposts are the fastest way to turn a page into a feed
-        # mirror. Keep them only when source engagement proves the moment is
-        # breaking through; highlights, news and culture carry the normal lane.
-        routine_floor = min(100.0, required_score + 20.0)
-        standout_engagement = numeric_likes >= 10_000 or numeric_comments >= 750 or numeric_views >= 500_000
-        eligible = eligible and selection_score >= routine_floor and standout_engagement
+        # Captions on the approved accounts often describe an actual moment as
+        # "routine" because they omit action keywords. Do not let that label
+        # empty the feed: a fresh, correctly-classified clip from an approved
+        # source can use a sport-specific high-engagement lane. Generic clips
+        # and low-signal reposts remain blocked below.
+        routine_likes = {"basketball": 2_500, "football": 4_000, "mlb": 6_000, "hockey": 7_500}.get(sport, 10_000)
+        routine_comments = {"basketball": 150, "football": 225, "mlb": 300, "hockey": 375}.get(sport, 750)
+        fresh_routine = age_hours is not None and age_hours <= 36
+        standout_engagement = numeric_likes >= routine_likes or numeric_comments >= routine_comments or numeric_views >= 500_000
+        eligible = eligible and fresh_routine and standout_engagement
+        if eligible:
+            reasons.append("fresh classified routine with verified audience demand")
     # Source-backed game clips do not need a public view count to enter the
     # preload buffer. Instagram frequently hides that field, so recent clips
     # with real like/comment activity may clear a lower sport-specific floor.
