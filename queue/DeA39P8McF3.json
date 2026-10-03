@@ -3,16 +3,16 @@
   "shortcode": "DeA39P8McF3",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DeA39P8McF3/",
-  "sourceCaption": "Ref was not playing around \ud83d\ude05\n\n #NBA #basketball #nbabasketball #aau",
-  "publishCaption": "Ref was not playing around \ud83d\ude05\n\n #NBA #basketball #nbabasketball #aau\n\nSource: @bleacherreport",
+  "sourceCaption": "Ref was not playing around 😅\n\n #NBA #basketball #nbabasketball #aau",
+  "publishCaption": "Ref was not playing around 😅\n\n #NBA #basketball #nbabasketball #aau\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-03T01:33:11.014Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Ref was not playing around \ud83d\ude05\n\n #NBA #basketball #nbabasketball #aau",
+  "body": "Ref was not playing around 😅\n\n #NBA #basketball #nbabasketball #aau",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-03T01:33:35.448Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.69,
   "scoreMargin": 25.01,
   "highlightQuality": 11.69,
-  "postingFloor": 35.0,
-  "highlightFloor": 28.0,
+  "postingFloor": 35,
+  "highlightFloor": 28,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 60.01,
@@ -73,5 +73,17 @@
   "video": "media/DeA39P8McF3-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116177869915961",
+  "instagramContainerCreatedAt": "2026-10-03T02:34:51.811Z",
+  "instagramPublishRequestedAt": "2026-10-03T02:35:22.417Z",
+  "instagramMediaId": "18008068193991408",
+  "instagramPermalink": "https://www.instagram.com/reel/DeA_5oIiUTQ/",
+  "instagramVerifiedAt": "2026-10-03T02:35:31.524Z",
+  "publishedAt": "2026-10-03T02:35:31.524Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeA39P8McF3-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1790994931525-DeA39P8McF3-sportswire247.mp4'",
+    "at": "2026-10-03T02:35:31.525Z"
+  }
 }
