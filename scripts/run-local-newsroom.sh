@@ -3,10 +3,10 @@ set -euo pipefail
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # Keep a real preload buffer. Quality/duplicate/media QA still gates every item,
 # but overly high score floors must not starve the publisher between source scans.
-export SPORTSWIRE_BASKETBALL_FLOOR="${SPORTSWIRE_BASKETBALL_FLOOR:-35}"
-export SPORTSWIRE_FOOTBALL_FLOOR="${SPORTSWIRE_FOOTBALL_FLOOR:-40}"
-export SPORTSWIRE_MLB_FLOOR="${SPORTSWIRE_MLB_FLOOR:-45}"
-export SPORTSWIRE_HOCKEY_FLOOR="${SPORTSWIRE_HOCKEY_FLOOR:-50}"
+export SPORTSWIRE_BASKETBALL_FLOOR="${SPORTSWIRE_BASKETBALL_FLOOR:-55}"
+export SPORTSWIRE_FOOTBALL_FLOOR="${SPORTSWIRE_FOOTBALL_FLOOR:-60}"
+export SPORTSWIRE_MLB_FLOOR="${SPORTSWIRE_MLB_FLOOR:-65}"
+export SPORTSWIRE_HOCKEY_FLOOR="${SPORTSWIRE_HOCKEY_FLOOR:-70}"
 cd "$(dirname "$0")/.."
 
 # launchd can begin the next interval while a slow source scan or Git sync is

@@ -46,6 +46,16 @@ export function eligible(item, now = Date.now()) {
   // that already have a publication-ready caption.
   if (!item.video || !item.sourceUrl || !item.shortcode || !String(item.publishCaption || '').trim()) return false;
   if (!/\bsource:\s*@?[a-z0-9._-]+/i.test(String(item.publishCaption))) return false;
+  // New growth policy: preserve a selective identity even while older queue
+  // records exist. Generic clips and low-signal routine reposts may remain in
+  // the ledger, but they no longer consume a feed slot.
+  const sport = String(item.sportCategory || "");
+  if (!new Set(["basketball", "football", "mlb", "hockey"]).has(sport)) return false;
+  const score = Number(item.deterministicScore || 0);
+  if (item.contentKind === "routine") {
+    const engagement = Math.max(Number(item.sourceLikeCount || 0), Number(item.sourceCommentCount || 0) * 12, Number(item.sourceViewCount || 0) / 50);
+    if (score < 70 || engagement < 10_000) return false;
+  } else if (score < 55) return false;
   return true;
 }
 export function retryAt(attempt, now = Date.now()) { return new Date(now + Math.min(6 * 3600_000, 2 ** Math.min(attempt, 8) * 60_000)).toISOString(); }
@@ -142,6 +152,7 @@ async function publishPlatform(platform, item, file) {
   if (item[`${prefix}MediaId`]) return verify(platform, item[`${prefix}MediaId`]);
   if (!item[`${prefix}ContainerId`]) {
     const fields = { media_type: "REELS", video_url: mediaUrl(item), caption: item.publishCaption, share_to_feed: "true" };
+    if (item.coverUrl) fields.cover_url = item.coverUrl;
     const created = await graph(platform, "media", fields, item, "create");
     item[`${prefix}ContainerId`] = created.id; item[`${prefix}ContainerCreatedAt`] = new Date().toISOString(); await save(file, item);
   }

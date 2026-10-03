@@ -9,6 +9,15 @@ from .qa import evaluate
 from .ollama import generate
 from .captions import compose_caption
 
+def cover_headline(item: dict) -> str:
+    """Short factual grid title, derived only from the source caption."""
+    text = str(item.get("sourceCaption") or "SPORTS UPDATE")
+    text = text.split("\n")[0]
+    text = text.split(".")[0]
+    text = __import__("re").sub(r"[#@][\w.]+", "", text)
+    text = __import__("re").sub(r"[^\w\s'’-]", " ", text).strip()
+    return " ".join(text.split()[:6]).upper() or "SPORTS UPDATE"
+
 def read_items() -> list[dict]:
     items = []
     if not INBOX_QUEUE.is_dir(): return items
@@ -173,6 +182,18 @@ def run(dry_run: bool = False) -> dict:
             QUEUE.mkdir(parents=True, exist_ok=True); MEDIA.mkdir(parents=True, exist_ok=True)
             media_target = MEDIA / f"{selected['shortcode']}-sportswire247.mp4"
             shutil.copy2(Path(current["localVideoPath"]), media_target)
+            cover_target = MEDIA / f"{selected['shortcode']}-cover.jpg"
+            headline = cover_headline(selected)
+            try:
+                subprocess.run(["node", "--input-type=module", "-e",
+                    "import fs from 'node:fs/promises'; import {createReelCover} from './src/collector.mjs'; "
+                    "await createReelCover(JSON.parse(await fs.readFile('config.json','utf8')),process.argv[1],process.argv[2],process.argv[3]);",
+                    str(current.get("sourceVideoPath") or media_target), str(cover_target), headline], cwd=ROOT, check=True, timeout=120)
+            except Exception as error:
+                # Covers are growth packaging, not permission to lose a fully
+                # verified source video. Leave the item deliverable and record
+                # the issue so a later worker pass can regenerate its cover.
+                current["coverGenerationError"] = f"{type(error).__name__}: {error}"
             carry = (
                 "publishCaption", "contentLane", "confidence", "ollamaStatus", "qa",
                 "league", "sportCategory", "sportRank", "contentKind", "priority", "viralScore",
@@ -181,7 +202,10 @@ def run(dry_run: bool = False) -> dict:
                 "scoreReasons", "storyFingerprint",
             )
             current.update({k: selected[k] for k in carry if k in selected})
-            current.update({"status": selected["proposedStatus"], "video": str(media_target.relative_to(ROOT)), "brand": "SportsWire 247", "destinationHandle": "sportswire247", "instagramStatus": "pending"})
+            current.update({"status": selected["proposedStatus"], "video": str(media_target.relative_to(ROOT)), "brand": "SportsWire 247", "destinationHandle": "sportswire247", "instagramStatus": "pending", "coverHeadline": headline})
+            if cover_target.is_file():
+                current["cover"] = str(cover_target.relative_to(ROOT))
+                current["coverUrl"] = f"https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/{current['cover']}"
             current = preserve_delivery_state(current, existing)
             current.pop("localVideoPath", None); current.pop("sourceVideoPath", None)
             (QUEUE / f"{selected['shortcode']}.json").write_text(json.dumps(current, indent=2) + "\n")

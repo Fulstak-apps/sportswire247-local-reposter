@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
+import { chromium } from "playwright-core";
 import { launchBrowser, discoverVisible, readPost } from "./browser.mjs";
 import { paths, readJson, writeJson, saveItem, unseenPosts } from "./lib.mjs";
 import { localCaption } from "./caption.mjs";
@@ -37,6 +38,32 @@ export async function brandVideo(config, sourcePath, destinationPath) {
   return { logoPath, logoPosition: "bottom-left", logoWidth, margin, bottomMargin, logoApplied: true, contentSafeChecked: true,
     sampledFrames, inspectionMethod, faceDetectionAvailable, sourceDuration: Number(source.format?.duration), outputDuration: Number(output.format?.duration),
     sourceSha256: await sha256(sourcePath), outputSha256: await sha256(destinationPath) };
+}
+
+function coverText(value) {
+  return String(value || "SPORTS UPDATE").replace(/[#@][\w.]+/g, "").replace(/[^\p{L}\p{N}\s'’-]/gu, " ").replace(/\s+/g, " ").trim().split(" ").slice(0, 6).join(" ").toUpperCase().slice(0, 52) || "SPORTS UPDATE";
+}
+
+function html(value) { return String(value || "").replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]); }
+
+// A dedicated cover gives the profile grid a recognizable SportsWire identity
+// without cropping, muting, or otherwise changing the source Reel itself.
+export async function createReelCover(config, videoPath, coverPath, headline) {
+  const ffmpegPath = config.ffmpegPath || "/opt/homebrew/bin/ffmpeg";
+  const title = coverText(headline);
+  await fs.mkdir(path.dirname(coverPath), { recursive: true });
+  const frame = `${coverPath}.${process.pid}.frame.jpg`;
+  await execFileAsync(ffmpegPath, ["-y", "-ss", "0.5", "-i", videoPath, "-frames:v", "1", "-q:v", "2", frame], { timeout: 90_000, maxBuffer: 2_000_000 });
+  const background = `data:image/jpeg;base64,${(await fs.readFile(frame)).toString("base64")}`;
+  const logoPath = path.resolve(config.branding?.logoPath || "assets/sportswire247-logo.png");
+  const logo = `data:image/png;base64,${(await fs.readFile(logoPath)).toString("base64")}`;
+  const browser = await chromium.launch({ executablePath: config.chromeExecutable, headless: true, timeout: 45_000 });
+  try {
+    const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 });
+    await page.setContent(`<!doctype html><style>*{box-sizing:border-box}body{margin:0;width:1080px;height:1350px;font-family:Impact,'Arial Black',sans-serif;background:#080b09;color:#fff}.photo{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,.05) 54%,rgba(0,0,0,.2)),url('${background}') center/cover}.bar{position:absolute;left:0;right:0;top:0;height:370px;background:linear-gradient(90deg,rgba(0,0,0,.94),rgba(0,0,0,.62));border-bottom:14px solid #caff00;padding:42px 54px}.brand{font:800 30px Arial;letter-spacing:5px;color:#caff00}.title{margin-top:27px;max-width:900px;font-size:88px;line-height:.84;letter-spacing:-2px;text-shadow:6px 6px #000;transform:skew(-4deg)}.logo{position:absolute;left:45px;bottom:48px;width:132px;filter:drop-shadow(4px 4px #000)}.tag{position:absolute;right:44px;bottom:44px;background:#f8f0d2;color:#111;padding:13px 18px;border:4px solid #111;font:800 21px Arial;letter-spacing:1px}</style><div class="photo"></div><div class="bar"><div class="brand">SPORTSWIRE 24/7</div><div class="title">${html(title)}</div></div><img class="logo" src="${logo}"><div class="tag">WATCH THE MOMENT</div>`, { waitUntil: "load", timeout: 45_000 });
+    await page.screenshot({ path: coverPath, type: "jpeg", quality: 90 });
+  } finally { await browser.close(); await fs.rm(frame, { force: true }); }
+  return { path: coverPath, headline: coverText(headline), generatedAt: new Date().toISOString() };
 }
 
 export function assembleRanges(parts) {

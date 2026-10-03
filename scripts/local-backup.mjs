@@ -14,10 +14,10 @@ try {
  const instagram=health.platforms?.instagram || {};
  const lastVerifiedAt=instagram.lastVerifiedAt || null;
  const postSilenceMinutes=lastVerifiedAt ? Math.max(0,Math.floor((Date.now()-Date.parse(lastVerifiedAt))/60000)) : null;
- // A normal 30-minute gap is intentional. More than 75 minutes with ready
+ // A normal 90-minute gap is intentional. More than 135 minutes with ready
  // inventory is a delivery incident, so the local Mac actively dispatches a
  // verified publisher retry instead of merely writing a health report.
- const postStalled=Boolean(instagram.pendingItems>0 && (!lastVerifiedAt || postSilenceMinutes>75));
+ const postStalled=Boolean(instagram.pendingItems>0 && (!lastVerifiedAt || postSilenceMinutes>135));
  result.lastVerifiedAt=lastVerifiedAt;
  result.postSilenceMinutes=postSilenceMinutes;
  result.postStalled=postStalled;

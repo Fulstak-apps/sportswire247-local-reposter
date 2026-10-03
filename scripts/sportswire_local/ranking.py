@@ -9,10 +9,10 @@ from difflib import SequenceMatcher
 # widest posting lane, then football, MLB/baseball, then hockey. Lower-ranked
 # sports must clear progressively stronger highlight/virality floors.
 SPORT_POLICIES = {
-    "basketball": {"rank": 1, "score_floor": 45.0, "highlight_floor": 28.0, "preference": 8.0},
-    "football": {"rank": 2, "score_floor": 52.0, "highlight_floor": 36.0, "preference": 5.0},
-    "mlb": {"rank": 3, "score_floor": 60.0, "highlight_floor": 46.0, "preference": 2.0},
-    "hockey": {"rank": 4, "score_floor": 66.0, "highlight_floor": 54.0, "preference": 0.0},
+    "basketball": {"rank": 1, "score_floor": 55.0, "highlight_floor": 38.0, "preference": 8.0},
+    "football": {"rank": 2, "score_floor": 60.0, "highlight_floor": 44.0, "preference": 5.0},
+    "mlb": {"rank": 3, "score_floor": 65.0, "highlight_floor": 50.0, "preference": 2.0},
+    "hockey": {"rank": 4, "score_floor": 70.0, "highlight_floor": 58.0, "preference": 0.0},
 }
 UNSUPPORTED_POLICY = {"rank": 99, "score_floor": 80.0, "highlight_floor": 70.0, "preference": -10.0}
 
@@ -363,24 +363,31 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
     if content_kind == "highlight":
         eligible = eligible and highlight_quality >= required_highlight
     elif content_kind == "routine":
-        eligible = eligible and selection_score >= min(100.0, required_score + 8.0)
+        # Routine reposts are the fastest way to turn a page into a feed
+        # mirror. Keep them only when source engagement proves the moment is
+        # breaking through; highlights, news and culture carry the normal lane.
+        routine_floor = min(100.0, required_score + 20.0)
+        standout_engagement = numeric_likes >= 10_000 or numeric_comments >= 750 or numeric_views >= 500_000
+        eligible = eligible and selection_score >= routine_floor and standout_engagement
     # Source-backed game clips do not need a public view count to enter the
     # preload buffer. Instagram frequently hides that field, so recent clips
     # with real like/comment activity may clear a lower sport-specific floor.
     # Media, source, caption, duplicate and branding QA still run afterward.
-    if supported and age_hours is not None and age_hours <= 96:
-        has_observed_engagement = numeric_likes >= 500 or numeric_comments >= 20
-        if has_observed_engagement and selection_score >= required_score - 20:
+    if supported and content_kind != "routine" and age_hours is not None and age_hours <= 96:
+        has_observed_engagement = numeric_likes >= 2_500 or numeric_comments >= 150 or numeric_views >= 100_000
+        if has_observed_engagement and selection_score >= required_score - 10:
             eligible = True
             reasons.append("recent supported sport with observed audience engagement")
     # Approved sports publishers sometimes post clean highlights with no
     # sport-identifying caption. Permit only fresh, strongly engaged examples
     # from the configured source set; these remain below classified sports in
     # selection priority and are still subject to every media/duplicate QA gate.
-    if sport == "other" and source in SOURCE_PRIORS and age_hours is not None and age_hours <= 72:
-        if (numeric_likes >= 1_000 or numeric_comments >= 100) and selection_score >= 35:
-            eligible = True
-            reasons.append("recent high-engagement clip from approved sports publisher")
+    # Context-free "other" clips do not enter the autonomous feed. They can
+    # still be reviewed manually, but SportsWire's public identity stays
+    # basketball, football, MLB and hockey first.
+    if sport == "other":
+        eligible = False
+        reasons.append("generic/uncategorized clip held for editorial focus")
     # The automatic lane is limited to basketball, football, MLB, and hockey.
     # Context-free clips from unapproved publishers remain out of the queue.
 

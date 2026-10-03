@@ -36,7 +36,7 @@ class SportsWireV2RankingTests(unittest.TestCase):
         self.assertLess(SPORT_POLICIES["mlb"]["score_floor"], SPORT_POLICIES["hockey"]["score_floor"])
 
     def test_lower_ranked_sport_requires_better_highlight(self):
-        basketball = self.ranked("NBA dunk", 20_000)
+        basketball = self.ranked("NBA dunk", 1_000_000)
         football = self.ranked("NFL touchdown", 20_000)
         baseball = self.ranked("MLB home run", 20_000)
         self.assertTrue(basketball["eligibleForAutoPost"])
@@ -99,7 +99,9 @@ class SportsWireV2RankingTests(unittest.TestCase):
             likes=1600,
             comments=25,
         )
-        self.assertTrue(clip["eligibleForAutoPost"])
+        # Growth mode no longer lets a modest routine clip fill the feed just
+        # because a source exposed some likes; it is held for stronger work.
+        self.assertFalse(clip["eligibleForAutoPost"])
 
     def test_engagement_is_bounded_when_views_are_already_available(self):
         no_engagement = self.ranked("NBA dunk", views=2_000_000, shortcode="A")
@@ -123,7 +125,7 @@ class SportsWireV2RankingTests(unittest.TestCase):
             comments=100,
         )
         self.assertEqual(item["sportCategory"], "other")
-        self.assertTrue(item["eligibleForAutoPost"])
+        self.assertFalse(item["eligibleForAutoPost"])
         weak = self.ranked("That was wild", views=0, shortcode="WEAK", likes=100, comments=5)
         self.assertFalse(weak["eligibleForAutoPost"])
 
