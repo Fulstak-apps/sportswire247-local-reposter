@@ -39,7 +39,11 @@ jobs:
           # Growth mode: give each strong Reel enough room to earn reach
           # instead of having 20+ posts compete with one another every day.
           MINIMUM_FEED_GAP_MINUTES: "90"
-          INSTAGRAM_DAILY_LIMIT: "12"
+          # One post per hour is the approved SportsWire cadence. The rolling
+          # ceiling must cover a full day at that cadence or the publisher can
+          # silently sit idle after a busy prior evening despite having an
+          # approved queue.
+          INSTAGRAM_DAILY_LIMIT: "24"
         run: |
           if [ -z "$INSTAGRAM_ACCESS_TOKEN" ] || [ -z "$INSTAGRAM_USER_ID" ]; then
             echo "::error::BLOCKED: no SportsWire Instagram credentials are configured; no publish attempted."
