@@ -3,16 +3,16 @@
   "shortcode": "Dd_7OFfG8IP",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/Dd_7OFfG8IP/",
-  "sourceCaption": "#GooglePartner Jose Alvarado tries to get a hit off Pedro Martinez with a little help from @google Search \ud83d\udc40\ud83d\ude05",
-  "publishCaption": "#GooglePartner Jose Alvarado tries to get a hit off Pedro Martinez with a little help from @google Search \ud83d\udc40\ud83d\ude05\n\n#sports\n\nSource: @bleacherreport",
+  "sourceCaption": "#GooglePartner Jose Alvarado tries to get a hit off Pedro Martinez with a little help from @google Search 👀😅",
+  "publishCaption": "#GooglePartner Jose Alvarado tries to get a hit off Pedro Martinez with a little help from @google Search 👀😅\n\n#sports\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-02T17:09:30.403Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 1,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jose Alvarado tries to get a hit off Pedro Martinez with @google Search help \ud83d\udc40\ud83d\ude05 #GooglePartner",
+  "body": "Jose Alvarado tries to get a hit off Pedro Martinez with @google Search help 👀😅 #GooglePartner",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-02T17:09:56.968Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 46.7,
   "engagementScore": 17.08,
   "scoreMargin": -33.3,
-  "highlightQuality": 14.0,
-  "postingFloor": 80.0,
-  "highlightFloor": 70.0,
+  "highlightQuality": 14,
+  "postingFloor": 80,
+  "highlightFloor": 70,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 46.7,
@@ -73,5 +73,17 @@
   "video": "media/Dd_7OFfG8IP-sportswire247.mp4",
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
-  "instagramStatus": "pending"
+  "instagramStatus": "pending",
+  "instagramContainerId": "18116259409915961",
+  "instagramContainerCreatedAt": "2026-10-03T07:59:08.456Z",
+  "instagramPublishRequestedAt": "2026-10-03T07:59:38.797Z",
+  "instagramMediaId": "18124304038908144",
+  "instagramPermalink": "https://www.instagram.com/reel/DeBlAxQDsdb/",
+  "instagramVerifiedAt": "2026-10-03T07:59:46.458Z",
+  "publishedAt": "2026-10-03T07:59:46.458Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/Dd_7OFfG8IP-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791014386459-Dd_7OFfG8IP-sportswire247.mp4'",
+    "at": "2026-10-03T07:59:46.459Z"
+  }
 }
