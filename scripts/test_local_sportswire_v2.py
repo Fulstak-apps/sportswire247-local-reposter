@@ -91,7 +91,7 @@ class SportsWireV2RankingTests(unittest.TestCase):
         self.assertGreater(hot["highlightQuality"], quiet["highlightQuality"])
         self.assertTrue(hot["eligibleForAutoPost"])
 
-    def test_recent_engaged_clip_can_fill_preload_buffer_without_view_count(self):
+    def test_recent_engaged_nonroutine_clip_can_fill_preload_buffer_without_view_count(self):
         clip = self.ranked(
             "MLB season opener reaction",
             views=0,
@@ -99,9 +99,11 @@ class SportsWireV2RankingTests(unittest.TestCase):
             likes=1600,
             comments=25,
         )
-        # Growth mode no longer lets a modest routine clip fill the feed just
-        # because a source exposed some likes; it is held for stronger work.
-        self.assertFalse(clip["eligibleForAutoPost"])
+        # The recovery lane permits a current, classified, non-routine moment
+        # with visible engagement when Instagram hides Reel views. Routine
+        # clips remain held by their separate high-engagement gate.
+        self.assertEqual(clip["contentKind"], "sports_culture")
+        self.assertTrue(clip["eligibleForAutoPost"])
 
     def test_engagement_is_bounded_when_views_are_already_available(self):
         no_engagement = self.ranked("NBA dunk", views=2_000_000, shortcode="A")

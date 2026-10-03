@@ -55,7 +55,14 @@ export function eligible(item, now = Date.now()) {
   if (item.contentKind === "routine") {
     const engagement = Math.max(Number(item.sourceLikeCount || 0), Number(item.sourceCommentCount || 0) * 12, Number(item.sourceViewCount || 0) / 50);
     if (score < 70 || engagement < 10_000) return false;
-  } else if (score < 55) return false;
+  } else {
+    // Keep this aligned with ranking.py's current, high-signal recovery lane.
+    // Highlight clips retain a separate action-quality guard; generic and
+    // routine inventory remains excluded above.
+    const minimum = item.contentKind === "highlight" ? 40 : 45;
+    if (score < minimum) return false;
+    if (item.contentKind === "highlight" && Number(item.highlightQuality || 0) < 25) return false;
+  }
   return true;
 }
 export function retryAt(attempt, now = Date.now()) { return new Date(now + Math.min(6 * 3600_000, 2 ** Math.min(attempt, 8) * 60_000)).toISOString(); }

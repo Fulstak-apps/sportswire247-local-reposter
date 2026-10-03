@@ -373,9 +373,15 @@ def score(candidate: dict, now: datetime | None = None) -> dict:
     # preload buffer. Instagram frequently hides that field, so recent clips
     # with real like/comment activity may clear a lower sport-specific floor.
     # Media, source, caption, duplicate and branding QA still run afterward.
-    if supported and content_kind != "routine" and age_hours is not None and age_hours <= 96:
-        has_observed_engagement = numeric_likes >= 2_500 or numeric_comments >= 150 or numeric_views >= 100_000
-        if has_observed_engagement and selection_score >= required_score - 10:
+    if supported and content_kind != "routine" and age_hours is not None and age_hours <= 48:
+        # This is a narrow recovery lane for real, current sports moments when
+        # Instagram does not expose Reel views. It deliberately excludes
+        # routine posts and still requires both topical classification and
+        # visible audience evidence. That keeps the feed moving without
+        # reverting to bulk generic reposts.
+        has_observed_engagement = numeric_likes >= 1_000 or numeric_comments >= 75 or numeric_views >= 50_000
+        quality_ok = content_kind != "highlight" or highlight_quality >= max(25.0, required_highlight - 15.0)
+        if has_observed_engagement and quality_ok and selection_score >= required_score - 15:
             eligible = True
             reasons.append("recent supported sport with observed audience engagement")
     # Approved sports publishers sometimes post clean highlights with no

@@ -12,7 +12,9 @@ def growth_ready(item: dict) -> bool:
     if item.get("contentKind") == "routine":
         engagement = max(float(item.get("sourceLikeCount") or 0), float(item.get("sourceCommentCount") or 0) * 12, float(item.get("sourceViewCount") or 0) / 50)
         return score >= 70 and engagement >= 10_000
-    return score >= 55
+    if item.get("contentKind") == "highlight":
+        return score >= 40 and float(item.get("highlightQuality") or 0) >= 25
+    return score >= 45
 
 for attempt in range(MAX_ATTEMPTS_PER_CYCLE):
     # Instagram is the sole destination, so only clips not yet published to
