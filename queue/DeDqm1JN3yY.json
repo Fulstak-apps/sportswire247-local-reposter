@@ -6,7 +6,7 @@
   "sourceCaption": "Harvard was ready to kick a 47-yard field goal that could have tied the game when they committed a false start. They won on a Hail Mary and Lateral the next play\n\n#football #college #sports #harvard",
   "publishCaption": "Harvard was ready to kick a 47-yard field goal that could have tied the game when they committed a false start. They won on a Hail Mary and Lateral the next play\n\n#football #college #sports #harvard\n\n#nfl\n\nSource: @jomboymedia",
   "discoveredAt": "2026-10-04T03:38:23.096Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 3.79,
   "scoreMargin": 16.7,
   "highlightQuality": 59.79,
-  "postingFloor": 60.0,
-  "highlightFloor": 44.0,
+  "postingFloor": 60,
+  "highlightFloor": 44,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 76.7,
@@ -77,5 +77,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "HARVARD WAS READY TO KICK A",
   "cover": "media/DeDqm1JN3yY-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeDqm1JN3yY-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeDqm1JN3yY-cover.jpg",
+  "instagramContainerId": "18116578624915961",
+  "instagramContainerCreatedAt": "2026-10-04T06:45:57.475Z",
+  "instagramPublishRequestedAt": "2026-10-04T06:47:13.116Z",
+  "instagramMediaId": "18096345278551310",
+  "instagramPermalink": "https://www.instagram.com/reel/DeEBgQID1GA/",
+  "instagramVerifiedAt": "2026-10-04T06:47:20.930Z",
+  "publishedAt": "2026-10-04T06:47:20.931Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeDqm1JN3yY-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791096440932-DeDqm1JN3yY-sportswire247.mp4'",
+    "at": "2026-10-04T06:47:20.932Z"
+  }
 }
