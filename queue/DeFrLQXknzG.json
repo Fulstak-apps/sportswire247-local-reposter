@@ -3,16 +3,16 @@
   "shortcode": "DeFrLQXknzG",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/p/DeFrLQXknzG/",
-  "sourceCaption": "CJ Stroud talks finding new ways to win after falling to 0-4 \ud83d\udc40 (via @houstontexans)",
-  "publishCaption": "CJ Stroud talks finding new ways to win after falling to 0-4 \ud83d\udc40 (via @houstontexans)\n\n#football #nfl\n\nSource: @bleacherreport",
+  "sourceCaption": "CJ Stroud talks finding new ways to win after falling to 0-4 👀 (via @houstontexans)",
+  "publishCaption": "CJ Stroud talks finding new ways to win after falling to 0-4 👀 (via @houstontexans)\n\n#football #nfl\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-04T22:44:24.549Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "CJ Stroud: Finding new ways to win after 0-4 \ud83d\udc40 (via @houstontexans)",
+  "body": "CJ Stroud: Finding new ways to win after 0-4 👀 (via @houstontexans)",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-04T22:44:57.179Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 67.58,
   "engagementScore": 22.39,
   "scoreMargin": 7.58,
-  "highlightQuality": 14.0,
-  "postingFloor": 60.0,
-  "highlightFloor": 44.0,
+  "highlightQuality": 14,
+  "postingFloor": 60,
+  "highlightFloor": 44,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 67.58,
@@ -76,5 +76,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "CJ STROUD TALKS FINDING NEW WAYS",
   "cover": "media/DeFrLQXknzG-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeFrLQXknzG-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeFrLQXknzG-cover.jpg",
+  "instagramContainerId": "18116779474915961",
+  "instagramContainerCreatedAt": "2026-10-04T22:56:27.940Z",
+  "instagramPublishRequestedAt": "2026-10-04T22:57:43.548Z",
+  "instagramMediaId": "17905077318576162",
+  "instagramPermalink": "https://www.instagram.com/reel/DeFwl8gkvmj/",
+  "instagramVerifiedAt": "2026-10-04T22:57:53.138Z",
+  "publishedAt": "2026-10-04T22:57:53.139Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeFrLQXknzG-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791154673139-DeFrLQXknzG-sportswire247.mp4'",
+    "at": "2026-10-04T22:57:53.139Z"
+  }
 }
