@@ -7,6 +7,7 @@
     {"handle":"sportscenter","enabled":true,"approved_by":"user","category":"multisport news and highlights","reliability":"secondary"},
     {"handle":"bleacherreport","enabled":true,"approved_by":"user","category":"sports culture and highlights","reliability":"secondary"},
     {"handle":"overtime","enabled":true,"approved_by":"user","category":"youth and viral sports","reliability":"secondary"},
-    {"handle":"jomboymedia","enabled":true,"approved_by":"user","category":"sports breakdowns","reliability":"secondary"}
+    {"handle":"jomboymedia","enabled":true,"approved_by":"user","category":"sports breakdowns","reliability":"secondary"},
+    {"handle":"sports_generated","enabled":true,"approved_by":"user","category":"sports highlights","reliability":"secondary"}
   ]
 }
