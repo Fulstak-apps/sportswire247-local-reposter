@@ -3,16 +3,16 @@
   "shortcode": "DeDVbIvmiul",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/espn/p/DeDVbIvmiul/",
-  "sourceCaption": "GIANNIS SCORING AND ASSISTING AT WILL \ud83d\udcaa\n\nThe Heat offense is looking scary with Antetokounmpo.",
-  "publishCaption": "GIANNIS SCORING AND ASSISTING AT WILL \ud83d\udcaa\n\nThe Heat offense is looking scary with Antetokounmpo.\n\n#basketball #nba\n\nSource: @sportscenter",
+  "sourceCaption": "GIANNIS SCORING AND ASSISTING AT WILL 💪\n\nThe Heat offense is looking scary with Antetokounmpo.",
+  "publishCaption": "GIANNIS SCORING AND ASSISTING AT WILL 💪\n\nThe Heat offense is looking scary with Antetokounmpo.\n\n#basketball #nba\n\nSource: @sportscenter",
   "discoveredAt": "2026-10-04T15:02:49.875Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Giannis scores and assists at will \ud83d\udcaa Heat offense scary with Antetokounmpo",
+  "body": "Giannis scores and assists at will 💪 Heat offense scary with Antetokounmpo",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-04T15:03:23.450Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 60.25,
   "engagementScore": 23.65,
   "scoreMargin": 5.25,
-  "highlightQuality": 14.0,
-  "postingFloor": 55.0,
-  "highlightFloor": 38.0,
+  "highlightQuality": 14,
+  "postingFloor": 55,
+  "highlightFloor": 38,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 60.25,
@@ -76,5 +76,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "GIANNIS SCORING AND ASSISTING AT WILL",
   "cover": "media/DeDVbIvmiul-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeDVbIvmiul-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeDVbIvmiul-cover.jpg",
+  "instagramContainerId": "18116692477915961",
+  "instagramContainerCreatedAt": "2026-10-04T15:08:41.743Z",
+  "instagramPublishRequestedAt": "2026-10-04T15:09:12.457Z",
+  "instagramMediaId": "18005276024791183",
+  "instagramPermalink": "https://www.instagram.com/reel/DeE692qjpDw/",
+  "instagramVerifiedAt": "2026-10-04T15:09:20.887Z",
+  "publishedAt": "2026-10-04T15:09:20.888Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeDVbIvmiul-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791126560889-DeDVbIvmiul-sportswire247.mp4'",
+    "at": "2026-10-04T15:09:20.889Z"
+  }
 }
