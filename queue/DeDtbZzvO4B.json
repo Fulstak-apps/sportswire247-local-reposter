@@ -3,16 +3,16 @@
   "shortcode": "DeDtbZzvO4B",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_cfb/reel/DeDtbZzvO4B/",
-  "sourceCaption": "HOW DID THAT JUST HAPPEN\u2049\ufe0f\ud83e\udd2f\n\nNo. 20 Harvard stuns No. 22 Colgate 20-17 on an insane game-winning Hail Mary lateral TD.\n\n(via @harvardfootball) \n\n#cfb #collegefootball #football #hailmary #harvardfootball",
-  "publishCaption": "HOW DID THAT JUST HAPPEN\u2049\ufe0f\ud83e\udd2f\n\nNo. 20 Harvard stuns No. 22 Colgate 20-17 on an insane game-winning Hail Mary lateral TD.\n\n(via @harvardfootball) \n\n#cfb #collegefootball #football #hailmary #harvardfootball\n\n#nfl\n\nSource: @bleacherreport",
+  "sourceCaption": "HOW DID THAT JUST HAPPEN⁉️🤯\n\nNo. 20 Harvard stuns No. 22 Colgate 20-17 on an insane game-winning Hail Mary lateral TD.\n\n(via @harvardfootball) \n\n#cfb #collegefootball #football #hailmary #harvardfootball",
+  "publishCaption": "HOW DID THAT JUST HAPPEN⁉️🤯\n\nNo. 20 Harvard stuns No. 22 Colgate 20-17 on an insane game-winning Hail Mary lateral TD.\n\n(via @harvardfootball) \n\n#cfb #collegefootball #football #hailmary #harvardfootball\n\n#nfl\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-04T03:56:52.381Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "HOW DID THAT JUST HAPPEN\u2049\ufe0f\ud83e\udd2f\n\nNo. 20 Harvard stuns No. 22 Colgate 20-17 on an insane game-winning Hail Mary lateral TD.\n\n(via @harvardfootball) \n\n#cfb #collegefootball #football #hailmary #harvardfootball",
+  "body": "HOW DID THAT JUST HAPPEN⁉️🤯\n\nNo. 20 Harvard stuns No. 22 Colgate 20-17 on an insane game-winning Hail Mary lateral TD.\n\n(via @harvardfootball) \n\n#cfb #collegefootball #football #hailmary #harvardfootball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-04T03:57:41.129Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 8.86,
   "scoreMargin": 21.74,
   "highlightQuality": 52.86,
-  "postingFloor": 60.0,
-  "highlightFloor": 44.0,
+  "postingFloor": 60,
+  "highlightFloor": 44,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 81.74,
@@ -79,5 +79,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "HOW DID THAT JUST HAPPEN",
   "cover": "media/DeDtbZzvO4B-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeDtbZzvO4B-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeDtbZzvO4B-cover.jpg",
+  "instagramContainerId": "18116561827915961",
+  "instagramContainerCreatedAt": "2026-10-04T05:14:36.706Z",
+  "instagramPublishRequestedAt": "2026-10-04T05:15:07.098Z",
+  "instagramMediaId": "18151630921540207",
+  "instagramPermalink": "https://www.instagram.com/reel/DeD2-v-j6gp/",
+  "instagramVerifiedAt": "2026-10-04T05:15:18.656Z",
+  "publishedAt": "2026-10-04T05:15:18.657Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeDtbZzvO4B-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791090918658-DeDtbZzvO4B-sportswire247.mp4'",
+    "at": "2026-10-04T05:15:18.658Z"
+  }
 }
