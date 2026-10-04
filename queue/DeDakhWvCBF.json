@@ -3,16 +3,16 @@
   "shortcode": "DeDakhWvCBF",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/br_cfb/reel/DeDakhWvCBF/",
-  "sourceCaption": "Jeremiah Smith stands ALONE in the OSU records books \ud83d\udd25\n\nNext up, Heisman\u2026?\ud83c\udfc6\n\n#cfb #collegefootball #football #jeremiahsmith #heisman",
-  "publishCaption": "Jeremiah Smith stands ALONE in the OSU records books \ud83d\udd25\n\nNext up, Heisman\u2026?\ud83c\udfc6\n\n#cfb #collegefootball #football #jeremiahsmith #heisman\n\n#nfl\n\nSource: @bleacherreport",
+  "sourceCaption": "Jeremiah Smith stands ALONE in the OSU records books 🔥\n\nNext up, Heisman…?🏆\n\n#cfb #collegefootball #football #jeremiahsmith #heisman",
+  "publishCaption": "Jeremiah Smith stands ALONE in the OSU records books 🔥\n\nNext up, Heisman…?🏆\n\n#cfb #collegefootball #football #jeremiahsmith #heisman\n\n#nfl\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-04T01:48:18.112Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 1,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jeremiah Smith stands ALONE in the OSU records books \ud83d\udd25\n\nNext up, Heisman\u2026?\ud83c\udfc6\n\n#cfb #collegefootball #football #jeremiahsmith #heisman",
+  "body": "Jeremiah Smith stands ALONE in the OSU records books 🔥\n\nNext up, Heisman…?🏆\n\n#cfb #collegefootball #football #jeremiahsmith #heisman",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-04T01:48:53.141Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 5.99,
   "scoreMargin": 0.89,
   "highlightQuality": 5.99,
-  "postingFloor": 60.0,
-  "highlightFloor": 44.0,
+  "postingFloor": 60,
+  "highlightFloor": 44,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 60.89,
@@ -76,5 +76,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "JEREMIAH SMITH STANDS ALONE IN THE",
   "cover": "media/DeDakhWvCBF-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeDakhWvCBF-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeDakhWvCBF-cover.jpg",
+  "instagramContainerId": "18116515714915961",
+  "instagramContainerCreatedAt": "2026-10-04T02:01:40.113Z",
+  "instagramPublishRequestedAt": "2026-10-04T02:02:25.658Z",
+  "instagramMediaId": "18075941822444455",
+  "instagramPermalink": "https://www.instagram.com/reel/DeDg6MDgvYe/",
+  "instagramVerifiedAt": "2026-10-04T02:02:34.983Z",
+  "publishedAt": "2026-10-04T02:02:34.984Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeDakhWvCBF-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791079354984-DeDakhWvCBF-sportswire247.mp4'",
+    "at": "2026-10-04T02:02:34.984Z"
+  }
 }
