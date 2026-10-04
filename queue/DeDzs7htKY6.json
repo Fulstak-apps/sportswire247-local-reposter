@@ -3,16 +3,16 @@
   "shortcode": "DeDzs7htKY6",
   "sourceHandle": "jomboymedia",
   "sourceUrl": "https://www.instagram.com/jomboymediafootball/reel/DeDzs7htKY6/",
-  "sourceCaption": "\u201chere take it\u201d ahh pick six\n\n#football #collegefootball #texastech #quarterback #sports",
-  "publishCaption": "\u201chere take it\u201d ahh pick six\n\n#football #collegefootball #texastech #quarterback #sports\n\n#nfl\n\nSource: @jomboymedia",
+  "sourceCaption": "“here take it” ahh pick six\n\n#football #collegefootball #texastech #quarterback #sports",
+  "publishCaption": "“here take it” ahh pick six\n\n#football #collegefootball #texastech #quarterback #sports\n\n#nfl\n\nSource: @jomboymedia",
   "discoveredAt": "2026-10-04T04:55:57.956Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "\u201chere take it\u201d ahh pick six\n\n#football #collegefootball #texastech #quarterback #sports",
+  "body": "“here take it” ahh pick six\n\n#football #collegefootball #texastech #quarterback #sports",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-04T04:56:46.411Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 0.12,
   "scoreMargin": 7.05,
   "highlightQuality": 44.12,
-  "postingFloor": 60.0,
-  "highlightFloor": 44.0,
+  "postingFloor": 60,
+  "highlightFloor": 44,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 67.05,
@@ -76,5 +76,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "HERE TAKE IT AHH PICK SIX",
   "cover": "media/DeDzs7htKY6-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeDzs7htKY6-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeDzs7htKY6-cover.jpg",
+  "instagramContainerId": "18116651392915961",
+  "instagramContainerCreatedAt": "2026-10-04T13:21:18.092Z",
+  "instagramPublishRequestedAt": "2026-10-04T13:21:48.444Z",
+  "instagramMediaId": "18101128430569366",
+  "instagramPermalink": "https://www.instagram.com/reel/DeEurRbk-h_/",
+  "instagramVerifiedAt": "2026-10-04T13:21:56.380Z",
+  "publishedAt": "2026-10-04T13:21:56.380Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeDzs7htKY6-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791120116381-DeDzs7htKY6-sportswire247.mp4'",
+    "at": "2026-10-04T13:21:56.381Z"
+  }
 }
