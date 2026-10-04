@@ -1,5 +1,5 @@
 {
-  "sourceHandles": ["houseofhighlights", "sportscenter", "bleacherreport", "overtime", "jomboymedia"],
+  "sourceHandles": ["houseofhighlights", "sportscenter", "bleacherreport", "overtime", "jomboymedia", "sports_generated"],
   "facebookPageUrl": "PASTE_SPORTS_FACEBOOK_PAGE_URL",
   "instagramHandle": "sportswire247",
   "destinations": {
