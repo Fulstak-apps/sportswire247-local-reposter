@@ -3,16 +3,16 @@
   "shortcode": "DeHUJ7dOqf-",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DeHUJ7dOqf-/",
-  "sourceCaption": "Jokic really is one of one. \ud83e\udd2f\ud83e\udd2f",
-  "publishCaption": "Jokic really is one of one. \ud83e\udd2f\ud83e\udd2f\n\n#basketball #nba\n\nSource: @houseofhighlights",
+  "sourceCaption": "Jokic really is one of one. 🤯🤯",
+  "publishCaption": "Jokic really is one of one. 🤯🤯\n\n#basketball #nba\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-05T15:15:23.509Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jokic: one of one. \ud83e\udd2f\ud83e\udd2f",
+  "body": "Jokic: one of one. 🤯🤯",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-05T15:15:46.648Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 67.74,
   "engagementScore": 19.05,
   "scoreMargin": 12.74,
-  "highlightQuality": 14.0,
-  "postingFloor": 55.0,
-  "highlightFloor": 38.0,
+  "highlightQuality": 14,
+  "postingFloor": 55,
+  "highlightFloor": 38,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 67.74,
@@ -76,5 +76,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "JOKIC REALLY IS ONE OF ONE",
   "cover": "media/DeHUJ7dOqf--cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeHUJ7dOqf--cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeHUJ7dOqf--cover.jpg",
+  "instagramContainerId": "18116955013915961",
+  "instagramContainerCreatedAt": "2026-10-05T15:19:09.016Z",
+  "instagramPublishRequestedAt": "2026-10-05T15:19:39.313Z",
+  "instagramMediaId": "18112796171160426",
+  "instagramPermalink": "https://www.instagram.com/reel/DeHg9J5gQaD/",
+  "instagramVerifiedAt": "2026-10-05T15:19:45.965Z",
+  "publishedAt": "2026-10-05T15:19:45.966Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeHUJ7dOqf--sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791213585967-DeHUJ7dOqf--sportswire247.mp4'",
+    "at": "2026-10-05T15:19:45.967Z"
+  }
 }
