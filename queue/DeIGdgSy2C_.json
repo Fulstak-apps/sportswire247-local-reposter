@@ -3,16 +3,16 @@
   "shortcode": "DeIGdgSy2C_",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/DeIGdgSy2C_/",
-  "sourceCaption": "CJGJ wasn\u2019t impressed with Efton Chism III\u2019s game-winning TD catch \ud83d\ude2c(via IanMillsTV/X, JonScottTV/X) #nfl #football #nflfootball #bills #patriots",
-  "publishCaption": "CJGJ wasn\u2019t impressed with Efton Chism III\u2019s game-winning TD catch \ud83d\ude2c(via IanMillsTV/X, JonScottTV/X) #nfl #football #nflfootball #bills #patriots\n\nSource: @bleacherreport",
+  "sourceCaption": "CJGJ wasn’t impressed with Efton Chism III’s game-winning TD catch 😬(via IanMillsTV/X, JonScottTV/X) #nfl #football #nflfootball #bills #patriots",
+  "publishCaption": "CJGJ wasn’t impressed with Efton Chism III’s game-winning TD catch 😬(via IanMillsTV/X, JonScottTV/X) #nfl #football #nflfootball #bills #patriots\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-05T21:31:07.265Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "CJGJ wasn\u2019t impressed with Efton Chism III\u2019s game-winning TD catch \ud83d\ude2c(via IanMillsTV/X, JonScottTV/X) #nfl #football #nflfootball #bills #patriots",
+  "body": "CJGJ wasn’t impressed with Efton Chism III’s game-winning TD catch 😬(via IanMillsTV/X, JonScottTV/X) #nfl #football #nflfootball #bills #patriots",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-05T21:31:56.336Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 11.46,
   "scoreMargin": 6.54,
   "highlightQuality": 31.46,
-  "postingFloor": 60.0,
-  "highlightFloor": 44.0,
+  "postingFloor": 60,
+  "highlightFloor": 44,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 66.54,
@@ -76,7 +76,19 @@
   "brand": "SportsWire 247",
   "destinationHandle": "sportswire247",
   "instagramStatus": "pending",
-  "coverHeadline": "CJGJ WASN\u2019T IMPRESSED WITH EFTON CHISM",
+  "coverHeadline": "CJGJ WASN’T IMPRESSED WITH EFTON CHISM",
   "cover": "media/DeIGdgSy2C_-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeIGdgSy2C_-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeIGdgSy2C_-cover.jpg",
+  "instagramContainerId": "18117016213915961",
+  "instagramContainerCreatedAt": "2026-10-05T21:38:33.935Z",
+  "instagramPublishRequestedAt": "2026-10-05T21:39:34.494Z",
+  "instagramMediaId": "17916062190262037",
+  "instagramPermalink": "https://www.instagram.com/reel/DeIMdm1gElP/",
+  "instagramVerifiedAt": "2026-10-05T21:39:48.012Z",
+  "publishedAt": "2026-10-05T21:39:48.012Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeIGdgSy2C_-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791236388013-DeIGdgSy2C_-sportswire247.mp4'",
+    "at": "2026-10-05T21:39:48.013Z"
+  }
 }
