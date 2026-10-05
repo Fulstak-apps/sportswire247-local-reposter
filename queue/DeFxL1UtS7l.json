@@ -3,16 +3,16 @@
   "shortcode": "DeFxL1UtS7l",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/houseofhighlights/reel/DeFxL1UtS7l/",
-  "sourceCaption": "Curry taking no-look shots to a new level. \ud83d\ude05\ud83d\udd25 (via @joeylinn_nba)",
-  "publishCaption": "Curry taking no-look shots to a new level. \ud83d\ude05\ud83d\udd25 (via @joeylinn_nba)\n\n#basketball #nba\n\nSource: @houseofhighlights",
+  "sourceCaption": "Curry taking no-look shots to a new level. 😅🔥 (via @joeylinn_nba)",
+  "publishCaption": "Curry taking no-look shots to a new level. 😅🔥 (via @joeylinn_nba)\n\n#basketball #nba\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-04T23:09:13.614Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Curry taking no-look shots to a new level. \ud83d\ude05\ud83d\udd25 (via @joeylinn_nba)",
+  "body": "Curry taking no-look shots to a new level. 😅🔥 (via @joeylinn_nba)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-04T23:10:03.377Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 66.46,
   "engagementScore": 15.62,
   "scoreMargin": 11.46,
-  "highlightQuality": 14.0,
-  "postingFloor": 55.0,
-  "highlightFloor": 38.0,
+  "highlightQuality": 14,
+  "postingFloor": 55,
+  "highlightFloor": 38,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 66.46,
@@ -76,5 +76,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "CURRY TAKING NO-LOOK SHOTS TO A",
   "cover": "media/DeFxL1UtS7l-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeFxL1UtS7l-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeFxL1UtS7l-cover.jpg",
+  "instagramContainerId": "18116792317915961",
+  "instagramContainerCreatedAt": "2026-10-05T00:33:05.199Z",
+  "instagramPublishRequestedAt": "2026-10-05T00:33:35.570Z",
+  "instagramMediaId": "17902286496597970",
+  "instagramPermalink": "https://www.instagram.com/reel/DeF7kT1mEXl/",
+  "instagramVerifiedAt": "2026-10-05T00:33:46.045Z",
+  "publishedAt": "2026-10-05T00:33:46.046Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeFxL1UtS7l-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791160426046-DeFxL1UtS7l-sportswire247.mp4'",
+    "at": "2026-10-05T00:33:46.046Z"
+  }
 }
