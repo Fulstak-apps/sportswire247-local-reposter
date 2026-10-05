@@ -3,16 +3,16 @@
   "shortcode": "DeFvwS-JlJv",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DeFvwS-JlJv/",
-  "sourceCaption": "This is the wildest free throw routine I\u2019ve ever seen \ud83d\ude2d\n\n#basketball #highschoolbasketball",
-  "publishCaption": "This is the wildest free throw routine I\u2019ve ever seen \ud83d\ude2d\n\n#basketball #highschoolbasketball\n\n#nba\n\nSource: @bleacherreport",
+  "sourceCaption": "This is the wildest free throw routine I’ve ever seen 😭\n\n#basketball #highschoolbasketball",
+  "publishCaption": "This is the wildest free throw routine I’ve ever seen 😭\n\n#basketball #highschoolbasketball\n\n#nba\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-04T22:54:48.379Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "This is the wildest free throw routine I\u2019ve ever seen \ud83d\ude2d\n\n#basketball #highschoolbasketball",
+  "body": "This is the wildest free throw routine I’ve ever seen 😭\n\n#basketball #highschoolbasketball",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-04T22:55:37.273Z",
   "sourceViewCount": 0,
@@ -53,8 +53,8 @@
   "engagementScore": 10.6,
   "scoreMargin": 9.47,
   "highlightQuality": 10.6,
-  "postingFloor": 55.0,
-  "highlightFloor": 38.0,
+  "postingFloor": 55,
+  "highlightFloor": 38,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 64.47,
@@ -77,5 +77,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "THIS IS THE WILDEST FREE THROW",
   "cover": "media/DeFvwS-JlJv-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeFvwS-JlJv-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeFvwS-JlJv-cover.jpg",
+  "instagramContainerId": "18116810314915961",
+  "instagramContainerCreatedAt": "2026-10-05T02:04:30.316Z",
+  "instagramPublishRequestedAt": "2026-10-05T02:05:00.935Z",
+  "instagramMediaId": "17909882346489305",
+  "instagramPermalink": "https://www.instagram.com/reel/DeGGBJEERzo/",
+  "instagramVerifiedAt": "2026-10-05T02:05:09.750Z",
+  "publishedAt": "2026-10-05T02:05:09.751Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeFvwS-JlJv-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791165909751-DeFvwS-JlJv-sportswire247.mp4'",
+    "at": "2026-10-05T02:05:09.751Z"
+  }
 }
