@@ -6,7 +6,7 @@
   "sourceCaption": "Very supportive umpire \n\n#mlb #baseball #umpire #funny #postseason",
   "publishCaption": "Very supportive umpire \n\n#mlb #baseball #umpire #funny #postseason\n\nSource: @jomboymedia",
   "discoveredAt": "2026-10-05T01:10:26.016Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -53,8 +53,8 @@
   "engagementScore": 10.13,
   "scoreMargin": -8.06,
   "highlightQuality": 10.13,
-  "postingFloor": 65.0,
-  "highlightFloor": 50.0,
+  "postingFloor": 65,
+  "highlightFloor": 50,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 56.94,
@@ -77,5 +77,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "VERY SUPPORTIVE UMPIRE",
   "cover": "media/DeF-1yRBrr5-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeF-1yRBrr5-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeF-1yRBrr5-cover.jpg",
+  "instagramContainerId": "18116870896915961",
+  "instagramContainerCreatedAt": "2026-10-05T08:39:16.430Z",
+  "instagramPublishRequestedAt": "2026-10-05T08:39:46.986Z",
+  "instagramMediaId": "18077937977717443",
+  "instagramPermalink": "https://www.instagram.com/reel/DeGzMcAFMCc/",
+  "instagramVerifiedAt": "2026-10-05T08:39:56.657Z",
+  "publishedAt": "2026-10-05T08:39:56.658Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeF-1yRBrr5-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791189596658-DeF-1yRBrr5-sportswire247.mp4'",
+    "at": "2026-10-05T08:39:56.659Z"
+  }
 }
