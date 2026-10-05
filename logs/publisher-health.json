@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-05T21:48:45.230Z",
+  "checkedAt": "2026-10-05T23:16:49.412Z",
   "platforms": {
     "instagram": {
       "status": "healthy",
-      "usage": 10,
+      "usage": 9,
       "limit": 100,
       "pendingItems": 0,
       "eligibleItems": 0,
