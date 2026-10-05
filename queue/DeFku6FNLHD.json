@@ -6,7 +6,7 @@
   "sourceCaption": "Matt LaFleur is not mincing words as the team continues to have fumbling issues\n\n(via: @packers)\n#nfl #nflfootball #packers",
   "publishCaption": "Matt LaFleur is not mincing words as the team continues to have fumbling issues\n\n(via: @packers)\n#nfl #nflfootball #packers\n\n#football\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-04T22:45:17.565Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
@@ -52,9 +52,9 @@
   "rawScore": 63.04,
   "engagementScore": 19.02,
   "scoreMargin": 3.04,
-  "highlightQuality": 14.0,
-  "postingFloor": 60.0,
-  "highlightFloor": 44.0,
+  "highlightQuality": 14,
+  "postingFloor": 60,
+  "highlightFloor": 44,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 63.04,
@@ -76,5 +76,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "MATT LAFLEUR IS NOT MINCING WORDS",
   "cover": "media/DeFku6FNLHD-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeFku6FNLHD-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeFku6FNLHD-cover.jpg",
+  "instagramContainerId": "18116837266915961",
+  "instagramContainerCreatedAt": "2026-10-05T05:12:14.156Z",
+  "instagramPublishRequestedAt": "2026-10-05T05:13:29.544Z",
+  "instagramMediaId": "18089718533682462",
+  "instagramPermalink": "https://www.instagram.com/reel/DeGblrzE9l2/",
+  "instagramVerifiedAt": "2026-10-05T05:13:39.815Z",
+  "publishedAt": "2026-10-05T05:13:39.816Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeFku6FNLHD-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791177219817-DeFku6FNLHD-sportswire247.mp4'",
+    "at": "2026-10-05T05:13:39.817Z"
+  }
 }
