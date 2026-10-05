@@ -3,16 +3,16 @@
   "shortcode": "DeFtIi_NMCh",
   "sourceHandle": "bleacherreport",
   "sourceUrl": "https://www.instagram.com/brgridiron/reel/DeFtIi_NMCh/",
-  "sourceCaption": "Jameis Winston after his 3-TD performance vs. Cardinals \ud83d\udc40\n\n(via: @sny_giants)\n#nfl #nflfootball #giants",
-  "publishCaption": "Jameis Winston after his 3-TD performance vs. Cardinals \ud83d\udc40\n\n(via: @sny_giants)\n#nfl #nflfootball #giants\n\n#football\n\nSource: @bleacherreport",
+  "sourceCaption": "Jameis Winston after his 3-TD performance vs. Cardinals 👀\n\n(via: @sny_giants)\n#nfl #nflfootball #giants",
+  "publishCaption": "Jameis Winston after his 3-TD performance vs. Cardinals 👀\n\n(via: @sny_giants)\n#nfl #nflfootball #giants\n\n#football\n\nSource: @bleacherreport",
   "discoveredAt": "2026-10-04T22:43:22.790Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Jameis Winston 3-TD performance vs. Cardinals \ud83d\udc40 (via: @sny_giants) #nfl #nflfootball #giants",
+  "body": "Jameis Winston 3-TD performance vs. Cardinals 👀 (via: @sny_giants) #nfl #nflfootball #giants",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-04T22:44:12.559Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 66.25,
   "engagementScore": 20.68,
   "scoreMargin": 6.25,
-  "highlightQuality": 14.0,
-  "postingFloor": 60.0,
-  "highlightFloor": 44.0,
+  "highlightQuality": 14,
+  "postingFloor": 60,
+  "highlightFloor": 44,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 66.25,
@@ -76,5 +76,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "JAMEIS WINSTON AFTER HIS 3-TD PERFORMANCE",
   "cover": "media/DeFtIi_NMCh-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeFtIi_NMCh-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeFtIi_NMCh-cover.jpg",
+  "instagramContainerId": "18116824207915961",
+  "instagramContainerCreatedAt": "2026-10-05T03:40:52.749Z",
+  "instagramPublishRequestedAt": "2026-10-05T03:41:23.384Z",
+  "instagramMediaId": "17989882752114730",
+  "instagramPermalink": "https://www.instagram.com/reel/DeGRC28ltvH/",
+  "instagramVerifiedAt": "2026-10-05T03:41:33.159Z",
+  "publishedAt": "2026-10-05T03:41:33.159Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeFtIi_NMCh-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791171693160-DeFtIi_NMCh-sportswire247.mp4'",
+    "at": "2026-10-05T03:41:33.160Z"
+  }
 }
