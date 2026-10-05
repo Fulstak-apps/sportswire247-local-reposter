@@ -3,16 +3,16 @@
   "shortcode": "DeF05iHvhlH",
   "sourceHandle": "houseofhighlights",
   "sourceUrl": "https://www.instagram.com/bleacherreport/reel/DeF05iHvhlH/",
-  "sourceCaption": "BREWERS TAKE A 2-0 LEAD VS. PADRES IN WILD FINISH \ud83d\ude33\n\n#mlb #baseball #brewers #padres",
-  "publishCaption": "BREWERS TAKE A 2-0 LEAD VS. PADRES IN WILD FINISH \ud83d\ude33\n\n#mlb #baseball #brewers #padres\n\nSource: @houseofhighlights",
+  "sourceCaption": "BREWERS TAKE A 2-0 LEAD VS. PADRES IN WILD FINISH 😳\n\n#mlb #baseball #brewers #padres",
+  "publishCaption": "BREWERS TAKE A 2-0 LEAD VS. PADRES IN WILD FINISH 😳\n\n#mlb #baseball #brewers #padres\n\nSource: @houseofhighlights",
   "discoveredAt": "2026-10-04T23:45:12.097Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 0,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "Brewers take 2-0 lead vs. Padres in wild finish \ud83d\ude33 #mlb #baseball #brewers #padres",
+  "body": "Brewers take 2-0 lead vs. Padres in wild finish 😳 #mlb #baseball #brewers #padres",
   "captionMode": "ollama_local_humanized_packaged",
   "captionCheckedAt": "2026-10-04T23:45:55.484Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 66.88,
   "engagementScore": 17.08,
   "scoreMargin": 1.88,
-  "highlightQuality": 14.0,
-  "postingFloor": 65.0,
-  "highlightFloor": 50.0,
+  "highlightQuality": 14,
+  "postingFloor": 65,
+  "highlightFloor": 50,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 66.88,
@@ -77,5 +77,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "BREWERS TAKE A 2-0 LEAD VS",
   "cover": "media/DeF05iHvhlH-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeF05iHvhlH-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeF05iHvhlH-cover.jpg",
+  "instagramContainerId": "18116853220915961",
+  "instagramContainerCreatedAt": "2026-10-05T06:53:49.630Z",
+  "instagramPublishRequestedAt": "2026-10-05T06:54:19.947Z",
+  "instagramMediaId": "18056035085650113",
+  "instagramPermalink": "https://www.instagram.com/reel/DeGnIIojpuY/",
+  "instagramVerifiedAt": "2026-10-05T06:54:32.443Z",
+  "publishedAt": "2026-10-05T06:54:32.444Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeF05iHvhlH-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791183272449-DeF05iHvhlH-sportswire247.mp4'",
+    "at": "2026-10-05T06:54:32.449Z"
+  }
 }
