@@ -3,16 +3,16 @@
   "shortcode": "DeHSqpskcEX",
   "sourceHandle": "sportscenter",
   "sourceUrl": "https://www.instagram.com/sportscenter/p/DeHSqpskcEX/",
-  "sourceCaption": "So Fresh, So Clean \ud83d\udd25\n\nWatch Falcons-Saints at 8 ET on ESPN and the ESPN App \ud83c\udf7f\n\n(via @NFL)",
-  "publishCaption": "So Fresh, So Clean \ud83d\udd25\n\nWatch Falcons-Saints at 8 ET on ESPN and the ESPN App \ud83c\udf7f\n\n(via @NFL)\n\n#football #nfl\n\nSource: @sportscenter",
+  "sourceCaption": "So Fresh, So Clean 🔥\n\nWatch Falcons-Saints at 8 ET on ESPN and the ESPN App 🍿\n\n(via @NFL)",
+  "publishCaption": "So Fresh, So Clean 🔥\n\nWatch Falcons-Saints at 8 ET on ESPN and the ESPN App 🍿\n\n(via @NFL)\n\n#football #nfl\n\nSource: @sportscenter",
   "discoveredAt": "2026-10-05T14:37:36.241Z",
-  "status": "ready",
+  "status": "published",
   "attempts": {
     "download": 1,
     "publish": 0
   },
   "publicationResult": null,
-  "body": "So Fresh, So Clean \ud83d\udd25\n\nWatch Falcons-Saints at 8 ET on ESPN and the ESPN App \ud83c\udf7f\n\n(via @NFL)",
+  "body": "So Fresh, So Clean 🔥\n\nWatch Falcons-Saints at 8 ET on ESPN and the ESPN App 🍿\n\n(via @NFL)",
   "captionMode": "source_verbatim_fallback_packaged",
   "captionCheckedAt": "2026-10-05T14:44:41.816Z",
   "sourceViewCount": 0,
@@ -52,9 +52,9 @@
   "rawScore": 65.11,
   "engagementScore": 20.71,
   "scoreMargin": 5.11,
-  "highlightQuality": 14.0,
-  "postingFloor": 60.0,
-  "highlightFloor": 44.0,
+  "highlightQuality": 14,
+  "postingFloor": 60,
+  "highlightFloor": 44,
   "eligibleForAutoPost": true,
   "rankingVersion": "sportswire-newsroom-v2",
   "deterministicScore": 65.11,
@@ -76,5 +76,17 @@
   "instagramStatus": "pending",
   "coverHeadline": "SO FRESH SO CLEAN",
   "cover": "media/DeHSqpskcEX-cover.jpg",
-  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeHSqpskcEX-cover.jpg"
+  "coverUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/media/DeHSqpskcEX-cover.jpg",
+  "instagramContainerId": "18116974579915961",
+  "instagramContainerCreatedAt": "2026-10-05T16:50:52.062Z",
+  "instagramPublishRequestedAt": "2026-10-05T16:51:23.001Z",
+  "instagramMediaId": "17865064932676735",
+  "instagramPermalink": "https://www.instagram.com/reel/DeHrdZNArNJ/",
+  "instagramVerifiedAt": "2026-10-05T16:51:36.700Z",
+  "publishedAt": "2026-10-05T16:51:36.701Z",
+  "mediaCleanup": {
+    "removed": false,
+    "reason": "ENOENT: no such file or directory, rename '/home/runner/work/sportswire247-local-reposter/sportswire247-local-reposter/media/DeHSqpskcEX-sportswire247.mp4' -> '/home/runner/.Trash/SportsWire-1791219096702-DeHSqpskcEX-sportswire247.mp4'",
+    "at": "2026-10-05T16:51:36.702Z"
+  }
 }
