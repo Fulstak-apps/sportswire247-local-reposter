@@ -1,6 +1,6 @@
 {
-  "pauseUntil": "2026-10-16T21:38:35.503Z",
+  "pauseUntil": "2026-10-16T22:52:15.089Z",
   "error": "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
   "reauthRequired": true,
-  "checkedAt": "2026-10-16T20:38:35.503Z"
+  "checkedAt": "2026-10-16T21:52:15.089Z"
 }
