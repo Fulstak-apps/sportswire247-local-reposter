@@ -1,132 +1,168 @@
 {
-  "runId": "2026-10-26T21-00-07-304Z",
-  "generatedAt": "2026-10-26T21:00:44.615Z",
-  "scoreboardVerifiedAt": "2026-10-26T21:00:44.616Z",
+  "runId": "2026-10-27T15-00-07-988Z",
+  "generatedAt": "2026-10-27T15:01:07.007Z",
+  "scoreboardVerifiedAt": "2026-10-27T15:01:07.008Z",
   "slides": [
     {
-      "key": "boost chiefs deadline jonathan matchmaker offense taylor trade vikings",
-      "headline": "NFL trade deadline matchmaker: Vikings add Jonathan Taylor to boost offense, Chiefs nab WR",
+      "key": "2026 power rankings week",
+      "headline": "PFT’s Week 8 NFL 2026 power rankings",
       "sources": [
         {
-          "title": "NFL trade deadline matchmaker: Vikings add Jonathan Taylor to boost offense, Chiefs nab WR",
+          "title": "PFT’s Week 8 NFL 2026 power rankings",
+          "source": "NBC Sports",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTFpvNmR4THNoekNnOG1jV1JheEhaSTFQaVhKUm42Z3RNYmZLMVVNUUZCa0tRNVd0THNNX1VlcE53WU5oeDZIbF96bXM5dmg1eU8xWXlzVF9kZXdNT0JmNV96WGlSaUs2SmhEaHR2UndRdjBqWXFvOGFfWmUzTmpsOEtMeGdCbnZIYmppMHRCWVhtS2tEYzlqTGQ2eFE0QQ?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 13:30:18 GMT"
+        },
+        {
+          "title": "Bills' Post-Bye Schedule: Five NFL Primetime Exposures vs. Winning Teams Await",
+          "source": "Yahoo Sports",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdjMtZC1CMG0yaXQ0VVdGNFlybHFIOEc2aTBFN1pYRngtbk96SUMxQ1ctMXkyMzdaRml3TUNlaUROYjdLS1RvWUFmdDYxTTFzREdsRXMzTjliRHRrMU1CTmR0TG9qYW1ITGpEam9waG83LXNWSjNTdjA3cUJ5RENpaTYzQQ?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 01:25:00 GMT"
+        }
+      ],
+      "publishedAt": "Tue, 27 Oct 2026 13:30:18 GMT",
+      "summary": "PFT’s Week 8 NFL 2026 power rankings",
+      "story": "PFT’s Week 8 NFL 2026 power rankings",
+      "width": 1080,
+      "height": 1350,
+      "imageUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/carousel/media/2026-10-27T15-00-07-988Z/slide-1.png"
+    },
+    {
+      "key": "baseball discusses head role smith youngest",
+      "headline": "Q&A: Smith discusses his new role as youngest head of baseball ops in MLB",
+      "sources": [
+        {
+          "title": "Q&A: Smith discusses his new role as youngest head of baseball ops in MLB",
+          "source": "MLB.com",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRmtxZHRGOVdkSTRlc3kzQWhRVF91WVgxcGhRZkVNbWpqbUtqOXJ4YnE4U0ZUa0ptQnNLNG5OM3l3QnlacncwakVmUkxUaGNuV0xfZndZSTVxVW1vaDNnLXRZbk1waTU5WHlhNWVDQ0VVY2lVNjdlR01zZDFud1lOdF9BOFFrSlhvdkJYVWhpamxVYVE?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 12:50:37 GMT"
+        },
+        {
+          "title": "Elephant Rumblings: A’s Max Muncy Undergoes Knee Surgery",
+          "source": "Athletics Nation",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVW5MbVVPQTJZUmJKVWd0LVVoVGNIQmFfS2t5XzNWM2FtTXNxczhNcWxhV0NTdVdmbUt5WkZiRXJHczE4NFBtM0M2T2JjRmJDZXlDUzFjRUVYVDhrLVBxcFJBc04yM0hGaUJfTkJPRlg4cV9aeTF2ZmEzWUNGWVpwMWoxbjFfMlZ1ZXVLcUhsNnhONTRlTGllZHBLRnZ3bkZyaThJ?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 14:29:51 GMT"
+        }
+      ],
+      "publishedAt": "Tue, 27 Oct 2026 12:50:37 GMT",
+      "summary": "Q&A: Smith discusses his new role as youngest head of baseball ops in MLB",
+      "story": "Q&A: Smith discusses his new role as youngest head of baseball ops in MLB",
+      "width": 1080,
+      "height": 1350,
+      "imageUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/carousel/media/2026-10-27T15-00-07-988Z/slide-2.png"
+    },
+    {
+      "key": "espada holding interviews kanzler manager mariners person source",
+      "headline": "Mariners holding in-person interviews with Espada, Kanzler for manager (source)",
+      "sources": [
+        {
+          "title": "Mariners holding in-person interviews with Espada, Kanzler for manager (source)",
+          "source": "MLB.com",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcTl1VzVsVDZhMXpKd2pZczNaMkJFOEdQVjc3VWpqMmNLZUs2NGlWWFkycWR5eUNsdFdfMnRwYUI4SjEwa2FQUDdpVEw0NUJqc3d6Qm1ERS1jV0U0dE91eEZRVDRqYzdyTHN1bTRHR3Z3bjVnVUZRMUZpV1NZNVdraDNqSk1TRTVMZDVn?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 12:37:01 GMT"
+        },
+        {
+          "title": "Mariners holding in-person interviews with Espada, Kanzler for manager (source)",
+          "source": "BVM Sports",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMERYck1USDJ4a2ozamdGR2Q2cWE0cm1GVE1GbS1zTGlRYldZbjBmWXFEVjUtNThRV1ZFVThFS1ZNX2d5Y1VPa2tObDdxSTIzMUlyVk1EeWlHV1NFMFR6RzBYWHdQMmJoWXZFc0g0bnBLMkJQaXhpUnNVRzY1TE9nZWh1Ulp0dFZYUnc0eV8wUlB2bkhHc2k0NzYtMWozT3l4VTdjX3Bqak85NV9NTHJZ?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 01:07:54 GMT"
+        }
+      ],
+      "publishedAt": "Tue, 27 Oct 2026 12:37:01 GMT",
+      "summary": "Mariners holding in-person interviews with Espada, Kanzler for manager (source)",
+      "story": "Mariners holding in-person interviews with Espada, Kanzler for manager (source)",
+      "width": 1080,
+      "height": 1350,
+      "imageUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/carousel/media/2026-10-27T15-00-07-988Z/slide-3.png"
+    },
+    {
+      "key": "lone over power prisco rankings take unbeaten vikings week",
+      "headline": "Prisco's NFL Week 8 Power Rankings: Lone unbeaten Vikings take over top spot",
+      "sources": [
+        {
+          "title": "Prisco's NFL Week 8 Power Rankings: Lone unbeaten Vikings take over top spot",
           "source": "CBS Sports",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSkF1d2I2eGlTRnFzQjljb3VXWHBjZlM1S1FSZzREQUpqSjlhWUp6UzZ4OVI4SlY3NW9lbkdodjBlWmk5ZXNlQVJRU1lGNWFrd1NhTFJYNjBtMm95OGt0WVZJZVFMaExoNFJaejBCNHQwYkRiSndzX25MMlhSZzljblhOd1ZMaWRSWmxwd1ZxRDJabTZYQXUzeEZjdV8?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 19:06:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaUh6a0JTRHU3dEk2NzhYVlo2aDJOeG9sV0gweVo1X3VCUmpmbHdoaDducWx1OUZPN1N2dmpIbXZYRlNiQ0IteE53cGM1MURnc2xqMjA4Q3gwZjFLNngxRHZuRnNBU1VTWXF3RnZfSF9JNktTdEhIaWdzNVFRRjVtY2RzUQ?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 10:00:50 GMT"
         },
         {
-          "title": "NFL trade deadline matchmaker: Vikings add Jonathan Taylor to boost offense, Chiefs nab WR",
+          "title": "Prisco's NFL Week 8 Power Rankings: Lone unbeaten Vikings take over top spot",
           "source": "thepress.net",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNeExMNWJyOFlfVVJPdzVtaC1QNG1leEhJeW9nbFdObHZNOEt4V3VJVEl1SU43YW1WYkV5THZzQnFYM3NGMjI4eVhKaXRsMlBrcnpkX2I3U1dVUE9CTHhjcHJkRDBSc0JyT1RkZi1RT3YzaGYybGt1NkprZGVvaTF1aHEyYkFDWG4zZHNNSmVoVWl1ODdjbENmT3BpM29KYkkyNS0wWldCU3lTcnBoX0JHYXRYU0t3NFdzUW1pMjF4N0pQMFpwMG44elRDT2Y0XzF0WmZBc1lEdTY3NVhCQkpObDZ2anlqQ0k4cm8yT0syQUdNQ3Y1TTgzZkp5cDd4OHZQRHI5VHRVZFlxeEU?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 19:07:59 GMT"
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOMFZXOXo3X3FreHVnVHRxYndGVmRkNHdtLV9DUWVHWWtCakRndXMxd0pnNkwtMnNra3hyVm5pa2Rsc19oaGpzZmNtc0R1dXFuLWpOZmdlMWxCWWFHSG1IWXVZZnlMSXBUZ2hoY3VjVFo2ZHgzRnRtS0JvRFEzOUR3U0hfYnVDdWhNa25ZSmkxemZEcWhUemJmRHcwUEFBNnhSWXN3dWk5eldwS19CLTg1eWVVdGhZTlBsTldzTDZzNVVnSTlhbmYzbXFNd2VJMFE0dFZIUUhvYnBjY1ltb1ZvLXVHSUhqaXZVdmt3eGZkWDRNT2MxZ2JpNg?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 10:00:54 GMT"
         }
       ],
-      "publishedAt": "Mon, 26 Oct 2026 19:06:00 GMT",
-      "summary": "NFL trade deadline matchmaker: Vikings add Jonathan Taylor to boost offense, Chiefs nab WR",
-      "story": "NFL trade deadline matchmaker: Vikings add Jonathan Taylor to boost offense, Chiefs nab WR",
+      "publishedAt": "Tue, 27 Oct 2026 10:00:50 GMT",
+      "summary": "Prisco's NFL Week 8 Power Rankings: Lone unbeaten Vikings take over top spot",
+      "story": "Prisco's NFL Week 8 Power Rankings: Lone unbeaten Vikings take over top spot",
       "width": 1080,
       "height": 1350,
-      "imageUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/carousel/media/2026-10-26T21-00-07-304Z/slide-1.png"
+      "imageUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/carousel/media/2026-10-27T15-00-07-988Z/slide-4.png"
     },
     {
-      "key": "call partnership reevaluate rwanda senators",
-      "headline": "U.S. senators call on NBA to reevaluate Rwanda partnership",
+      "key": "books classic crew fall inning only record rewriting unprecedented",
+      "headline": "1 unprecedented inning not only way Crew rewriting Fall Classic record books",
       "sources": [
         {
-          "title": "U.S. senators call on NBA to reevaluate Rwanda partnership",
-          "source": "ESPN",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd1ViSlNJeXRhMFcyZ0U0Q3czZ0x3empNTy1hQkUxYXpxSHJ2SjV2VFRoemZQeFFRakppdFl2RXAxeHJTMVFBVGdmOHFLLTBJcEpERklOalpvNmhmNDZuUlY3ZDFndkVVN3B0OE9TdXN1dHQ4LUFsQkRrTGxtRExrTTdkeC1uRlZ4a3BFWUhOZHV0VFVDUVJ6c21TVQ?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 16:53:00 GMT"
+          "title": "1 unprecedented inning not only way Crew rewriting Fall Classic record books",
+          "source": "MLB.com",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdDNlbGJWS0NFUGNVTUJwdFRlcHpvNnh4WEMtLXltY2tEY3AzS0pENmRUZi1mQjd3R1ZRaGtLZDhWclg4dFhTX29ET2RfbTNXQTBndTRtb2tjZ3c5NlhWdzcxajh1SnZJajVxcUdWMkR3V0RpbV84TlVYTVlwRkFWc3Y1eXXSAZABQVVfeXFMT3NrM2VTNVcydk0temQyc2x3aUk5TFAtR3ZOajMybkN3akNXMnhsNkRhaFFYTExCUWR5cmJERllCdDRvQ3lTU0Q1T3hqemVKM0lONUV4NkYwMG84REd0elNyaXlsZmk0MWNvUHl6cUNIb1BmcEJVZURZTzFBQk1nV0VNVURudVVBalpRT3hta1Nw?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 06:50:37 GMT"
         },
         {
-          "title": "U.S. senators call on NBA to reevaluate Rwanda partnership",
-          "source": "ESPN La Crosse 105.5",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa3gyRGdsYkhnVzh0U1RZcG1vRmlvSFp3YkNzQmJYZDUzVTdCaE03dmljODM2SEZ3X1E5XzFoUXNLZzRJZ2RoMWx3c2F0dHVVT3hvRHQzbDY4XzAzREdzOGJQd2t0R053ZkVVYk11RGJuNGdFZG5GbnlYQTJWN1hna2ZEMjNzaDNfOVVnR3J6RjlqY0ZiUnk2YWdWMDVVSDg?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 18:25:38 GMT"
+          "title": "1 unprecedented inning not only way Crew rewriting Fall Classic record books",
+          "source": "BVM Sports",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONExEMnd2cm5ySmtiR0NiZ2NKQjNiTnFOakdudjJNOC1KeXkyRDFaQlppT25ZRGVYSkhid08xeVJBQ3Iya0dYclNUXzA5SGotczJ6cTVlVmJKOUQtbEFuTFhRbmFwb3h4bWQ4aDF0U2prb1FiUFQ1NnphS2VFZFdSX29MeUFjc1U0REFDcTRMUFotb1VKVTBuQXRzVEpMVkR6NllrSzNxOTV5Zy0tdlNR?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 07:07:20 GMT"
         }
       ],
-      "publishedAt": "Mon, 26 Oct 2026 16:53:00 GMT",
-      "summary": "U.S. senators call on NBA to reevaluate Rwanda partnership",
-      "story": "U.S. senators call on NBA to reevaluate Rwanda partnership",
+      "publishedAt": "Tue, 27 Oct 2026 06:50:37 GMT",
+      "summary": "1 unprecedented inning not only way Crew rewriting Fall Classic record books",
+      "story": "1 unprecedented inning not only way Crew rewriting Fall Classic record books",
       "width": 1080,
       "height": 1350,
-      "imageUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/carousel/media/2026-10-26T21-00-07-304Z/slide-2.png"
-    },
-    {
-      "key": "effort offense restricted shifts tests",
-      "headline": "MLB tests out restricted OF shifts in effort to up offense",
-      "sources": [
-        {
-          "title": "MLB tests out restricted OF shifts in effort to up offense",
-          "source": "ESPN",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTWF4UXZid1FrWnFETms4b1J0MldnR2NiVm41SXZNa3g2TVp4UksxUElfbFVBMFJadl93X2Q3Z1IzUHV2Vkx0SzJhNGxrX3dmMlFrZWw1eFZpajhYT3dvNENiRXQ5OHo0VG5LZ2VHVkdaWWRLR2l1MTBpOGlpRzJfT213ZGFRRENKT2s5amNjZUg?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 16:32:00 GMT"
-        },
-        {
-          "title": "MLB Tests Out Restricted OF Shifts In Effort To Up Offense",
-          "source": "RealGM",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV2JYQ3ZxVWx3MVVfQUEyZ1BqLXVsemZ5MjUycThpVFAybGZxSWtfbklVMkhtdzRXTV91VjFJazA2alF5ZGNrQ3FsTFBpQ3lWSmZoY2dfemZheEw5MDZ3NkJteUhxenI0MDk5a2o0RU9HajRlUzluSUk4c1RaYS1VOUtPdEh2NVZHU0tjOHloNzM0cTRXcUkzWlhrdDU1cnpOaEE?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 18:45:27 GMT"
-        }
-      ],
-      "publishedAt": "Mon, 26 Oct 2026 16:32:00 GMT",
-      "summary": "MLB tests out restricted OF shifts in effort to up offense",
-      "story": "MLB tests out restricted OF shifts in effort to up offense",
-      "width": 1080,
-      "height": 1350,
-      "imageUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/carousel/media/2026-10-26T21-00-07-304Z/slide-3.png"
-    },
-    {
-      "key": "contract rangers reimer returns signs year",
-      "headline": "Reimer signs one-year contract with Rangers, returns to NHL at age 38",
-      "sources": [
-        {
-          "title": "Reimer signs one-year contract with Rangers, returns to NHL at age 38",
-          "source": "NHL.com",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeU0tUFlQUG5vN0hsdXZzZnJ1UnJfN3U2LWNCeFVtVnk5RmpienFlYTU4X0d0SGp2bG1jUjBvVnhPcE92V0RXWldqN1NmendyWnhNTEhFVGV4NE45MW9QYjRyQk96TWY0Y0liR2dCb05pM2VaNGlvbFFmN3ZMX010aWl6VWtZRmc?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 16:00:36 GMT"
-        },
-        {
-          "title": "Rangers sign James Reimer, 38, to $850,000 deal after one AHL shutout in Hartford",
-          "source": "Hudson River Blue",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRTBmbElPYWphNUlQOWZ1bEM0cjJJbXZ1cldnbjk5SWRKNTRhWnRCMkIwSXdsM1djVzhtQ2pWVDNvc2dHMHVqaDhsMXV3SFNObkthUmY3NklnaUVUTU52bWd2Y0pQTjhRTHVhbktLTE9OTy1Hcm5kbEJWTG4tSXUxdzFKSzA3elZPZXlQR1VqU1R6TTNTMFJsbjNlVFBBRGp5MzZPLTJxNlJCX0thc2Iw?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:16:16 GMT"
-        }
-      ],
-      "publishedAt": "Mon, 26 Oct 2026 16:00:36 GMT",
-      "summary": "Reimer signs one-year contract with Rangers, returns to NHL at age 38",
-      "story": "Reimer signs one-year contract with Rangers, returns to NHL at age 38",
-      "width": 1080,
-      "height": 1350,
-      "imageUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/carousel/media/2026-10-26T21-00-07-304Z/slide-4.png"
-    },
-    {
-      "key": "contenders heat into knicks lakers leap power rankings tier",
-      "headline": "NBA Power Rankings: Lakers leap into contenders tier; Knicks, Heat take a dive",
-      "sources": [
-        {
-          "title": "NBA Power Rankings: Lakers leap into contenders tier; Knicks, Heat take a dive",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX2lPTHpzYzA4SEdEUlBZODBpRmFFZmw5U3VORVVBVVBfalZBSDc2SlZndzlKQk1lNFdsVjYwTlg1S1AwdWh1VXYyMkptTFBDMHhKVlZwMmVLYzFqM0Nja2l6dWNrWlhOUVZkUEk3MzNHQ3VMdzJIdnRJTUtGck9tSjZVdUxOWGxTU2p4eXBvdEZSR3hOcGZibkh3SjR5MzE3Um5FcVF3?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 15:26:02 GMT"
-        },
-        {
-          "title": "Boston Celtics Daily Links 10/26/26",
-          "source": "CelticsBlog",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZGktNnZ3Rm52VWM3dk0xNkE4WElRQUVnX3A1X3FMeHlOMTlyRGF2b1U4Yk1hZGZ3MDdzT2NxeEdub1BQVkVNdGdlNHBRaExwcDBGWWtjYlRSdTVlRUtqb00yZWMzNGhlVl96UEtxTzdTeUExcW1VdE1UUTExWE1tOW9XUGdscDVxYVgyX2k3eGVDaUllN2s1ejh4YW8wZw?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 19:21:07 GMT"
-        }
-      ],
-      "publishedAt": "Mon, 26 Oct 2026 15:26:02 GMT",
-      "summary": "NBA Power Rankings: Lakers leap into contenders tier; Knicks, Heat take a dive",
-      "story": "NBA Power Rankings: Lakers leap into contenders tier; Knicks, Heat take a dive",
-      "width": 1080,
-      "height": 1350,
-      "imageUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/carousel/media/2026-10-26T21-00-07-304Z/slide-5.png"
+      "imageUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/carousel/media/2026-10-27T15-00-07-988Z/slide-5.png"
     },
     {
       "headline": "FINAL SCORES",
       "summary": "Verified completed games only.",
       "scores": [
+        {
+          "league": "NBA",
+          "line": "CHA 110  ·  WSH 103"
+        },
+        {
+          "league": "NBA",
+          "line": "CLE 127  ·  MIN 125"
+        },
+        {
+          "league": "NBA",
+          "line": "BOS 134  ·  CHI 99"
+        },
+        {
+          "league": "NBA",
+          "line": "MIA 109  ·  DAL 113"
+        },
+        {
+          "league": "NBA",
+          "line": "MIL 110  ·  IND 102"
+        },
+        {
+          "league": "NBA",
+          "line": "OKC 125  ·  PHX 114"
+        },
+        {
+          "league": "NBA",
+          "line": "HOU 120  ·  ATL 110"
+        },
+        {
+          "league": "NBA",
+          "line": "UTAH 105  ·  MEM 110"
+        },
+        {
+          "league": "NBA",
+          "line": "DEN 114  ·  GS 134"
+        },
         {
           "league": "NFL",
           "line": "CHI 30  ·  NE 24"
@@ -138,48 +174,12 @@
         {
           "league": "NFL",
           "line": "ATL 29  ·  SF 20"
-        },
-        {
-          "league": "NFL",
-          "line": "TEN 24  ·  CLE 27"
-        },
-        {
-          "league": "NFL",
-          "line": "MIN 16  ·  IND 10"
-        },
-        {
-          "league": "NFL",
-          "line": "NYJ 25  ·  MIA 28"
-        },
-        {
-          "league": "NFL",
-          "line": "CAR 13  ·  TB 43"
-        },
-        {
-          "league": "NFL",
-          "line": "BAL 13  ·  CIN 35"
-        },
-        {
-          "league": "NFL",
-          "line": "HOU 21  ·  NYG 27"
-        },
-        {
-          "league": "NFL",
-          "line": "ARI 16  ·  DEN 30"
-        },
-        {
-          "league": "NFL",
-          "line": "DET 20  ·  GB 17"
-        },
-        {
-          "league": "NFL",
-          "line": "LV 21  ·  LAR 35"
         }
       ],
       "width": 1080,
       "height": 1350,
-      "imageUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/carousel/media/2026-10-26T21-00-07-304Z/slide-6.png"
+      "imageUrl": "https://raw.githubusercontent.com/Fulstak-apps/sportswire247-local-reposter/main/carousel/media/2026-10-27T15-00-07-988Z/slide-6.png"
     }
   ],
-  "caption": "1. NFL trade deadline matchmaker: Vikings add Jonathan Taylor to boost offense, Chiefs nab WR\nReporting: CBS Sports + thepress.net\n\n2. U.S. senators call on NBA to reevaluate Rwanda partnership\nReporting: ESPN + ESPN La Crosse 105.5\n\n3. MLB tests out restricted OF shifts in effort to up offense\nReporting: ESPN + RealGM\n\n4. Reimer signs one-year contract with Rangers, returns to NHL at age 38\nReporting: NHL.com + Hudson River Blue\n\n5. NBA Power Rankings: Lakers leap into contenders tier; Knicks, Heat take a dive\nReporting: The New York Times + CelticsBlog"
+  "caption": "1. PFT’s Week 8 NFL 2026 power rankings\nReporting: NBC Sports + Yahoo Sports\n\n2. Q&A: Smith discusses his new role as youngest head of baseball ops in MLB\nReporting: MLB.com + Athletics Nation\n\n3. Mariners holding in-person interviews with Espada, Kanzler for manager (source)\nReporting: MLB.com + BVM Sports\n\n4. Prisco's NFL Week 8 Power Rankings: Lone unbeaten Vikings take over top spot\nReporting: CBS Sports + thepress.net\n\n5. 1 unprecedented inning not only way Crew rewriting Fall Classic record books\nReporting: MLB.com + BVM Sports"
 }
