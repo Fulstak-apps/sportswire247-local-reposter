@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-11-05T17:38:49.183Z",
+  "checkedAt": "2026-11-05T17:45:38.363Z",
   "platforms": {
     "instagram": {
-      "status": "quota_or_auth_check_failed",
+      "pauseUntil": "2026-11-05T18:38:49.985Z",
       "error": "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
       "reauthRequired": true,
-      "pauseUntil": "2026-11-05T18:38:49.985Z",
+      "checkedAt": "2026-11-05T17:38:49.985Z",
       "pendingItems": 1,
       "eligibleItems": 1,
       "queueEmpty": false,
